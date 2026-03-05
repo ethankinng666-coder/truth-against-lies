@@ -726,13 +726,24 @@
         }
         .yt-thumb {
             background: linear-gradient(135deg, #0a0a1a, #16213e);
-            height: 120px;
+            height: 160px;
             display: flex;
             align-items: center;
             justify-content: center;
             position: relative;
+            overflow: hidden;
+        }
+        .yt-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+        .yt-card:hover .yt-thumb img {
+            transform: scale(1.08);
         }
         .yt-play {
+            position: absolute;
             width: 50px;
             height: 50px;
             background: rgba(226, 183, 20, 0.9);
@@ -743,9 +754,18 @@
             font-size: 1.3em;
             color: #0a0a1a;
             transition: transform 0.3s;
+            z-index: 2;
         }
         .yt-card:hover .yt-play {
             transform: scale(1.15);
+        }
+        .yt-initial {
+            font-size: 3.5em;
+            font-weight: 900;
+            color: rgba(255,255,255,0.15);
+            position: absolute;
+            z-index: 1;
+            letter-spacing: 3px;
         }
         .yt-info {
             padding: 15px 18px;
@@ -2038,6 +2058,7 @@ function goOriginal() {
 
         <a class="yt-card" href="https://www.youtube.com/@EliahuYosian" target="_blank" rel="noopener">
             <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/3CU9TJOnlEQ/mqdefault.jpg" alt="אליהו יוסיאן" loading="lazy">
                 <div class="yt-play">&#9654;</div>
             </div>
             <div class="yt-info">
@@ -2049,6 +2070,7 @@ function goOriginal() {
 
         <a class="yt-card" href="https://www.youtube.com/channel/UC6TGQnuJRLA9frZlpKwx3JQ" target="_blank" rel="noopener">
             <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/JpvNo79Qx4s/mqdefault.jpg" alt="צבי יחזקאלי" loading="lazy">
                 <div class="yt-play">&#9654;</div>
             </div>
             <div class="yt-info">
@@ -2060,6 +2082,7 @@ function goOriginal() {
 
         <a class="yt-card" href="https://www.youtube.com/c/IsraelDefenseForces" target="_blank" rel="noopener">
             <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/Oh26Yyw5Dc8/mqdefault.jpg" alt="צה״ל" loading="lazy">
                 <div class="yt-play">&#9654;</div>
             </div>
             <div class="yt-info">
@@ -2070,8 +2093,9 @@ function goOriginal() {
         </a>
 
         <a class="yt-card" href="https://www.instagram.com/yosephhaddad/" target="_blank" rel="noopener">
-            <div class="yt-thumb">
-                <div class="yt-play" style="background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);">&#9654;</div>
+            <div class="yt-thumb" style="background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);">
+                <span class="yt-initial">YH</span>
+                <div class="yt-play" style="background: rgba(255,255,255,0.9);">&#9654;</div>
             </div>
             <div class="yt-info">
                 <div class="yt-badge">Instagram / TikTok</div>
@@ -2081,7 +2105,8 @@ function goOriginal() {
         </a>
 
         <a class="yt-card" href="https://x.com/MosabHasanYOSEF" target="_blank" rel="noopener">
-            <div class="yt-thumb">
+            <div class="yt-thumb" style="background: linear-gradient(135deg, #0a0a1a, #1a1a2e, #16213e);">
+                <span class="yt-initial">MHY</span>
                 <div class="yt-play" style="background: #1da1f2;">&#9654;</div>
             </div>
             <div class="yt-info">
@@ -2098,6 +2123,7 @@ function goOriginal() {
 
         <a class="yt-card" href="https://www.youtube.com/channel/UCckMqUWHVwFWJwSVE9FQJaA" target="_blank" rel="noopener">
             <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/Ozme8qwuXfQ/mqdefault.jpg" alt="Israel Advocacy Movement" loading="lazy">
                 <div class="yt-play">&#9654;</div>
             </div>
             <div class="yt-info">
@@ -2109,6 +2135,7 @@ function goOriginal() {
 
         <a class="yt-card" href="https://www.youtube.com/@benshapiro" target="_blank" rel="noopener">
             <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/6VixqvOcK8E/mqdefault.jpg" alt="Ben Shapiro" loading="lazy">
                 <div class="yt-play">&#9654;</div>
             </div>
             <div class="yt-info">
@@ -2120,6 +2147,7 @@ function goOriginal() {
 
         <a class="yt-card" href="https://www.youtube.com/@realcharliekirk" target="_blank" rel="noopener">
             <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/aQjx3UEHoC4/mqdefault.jpg" alt="Charlie Kirk" loading="lazy">
                 <div class="yt-play">&#9654;</div>
             </div>
             <div class="yt-info">
@@ -2131,6 +2159,7 @@ function goOriginal() {
 
         <a class="yt-card" href="https://www.youtube.com/@PragerU" target="_blank" rel="noopener">
             <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/B32SwnkK_Po/mqdefault.jpg" alt="PragerU" loading="lazy">
                 <div class="yt-play">&#9654;</div>
             </div>
             <div class="yt-info">
@@ -2142,6 +2171,7 @@ function goOriginal() {
 
         <a class="yt-card" href="https://www.youtube.com/standwithus" target="_blank" rel="noopener">
             <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/tgpATovt_yo/mqdefault.jpg" alt="StandWithUs" loading="lazy">
                 <div class="yt-play">&#9654;</div>
             </div>
             <div class="yt-info">
@@ -2153,6 +2183,7 @@ function goOriginal() {
 
         <a class="yt-card" href="https://www.youtube.com/@CAMERA4Truth" target="_blank" rel="noopener">
             <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/wqoOWYZZu8k/mqdefault.jpg" alt="CAMERA" loading="lazy">
                 <div class="yt-play">&#9654;</div>
             </div>
             <div class="yt-info">
@@ -2164,6 +2195,7 @@ function goOriginal() {
 
         <a class="yt-card" href="https://www.youtube.com/user/HonestReportingVideo" target="_blank" rel="noopener">
             <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/cStJ_vm_scU/mqdefault.jpg" alt="HonestReporting" loading="lazy">
                 <div class="yt-play">&#9654;</div>
             </div>
             <div class="yt-info">
@@ -2175,6 +2207,7 @@ function goOriginal() {
 
         <a class="yt-card" href="https://www.youtube.com/@Pulseofisrael" target="_blank" rel="noopener">
             <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/SKghDCLwk8Q/mqdefault.jpg" alt="Pulse of Israel" loading="lazy">
                 <div class="yt-play">&#9654;</div>
             </div>
             <div class="yt-info">
@@ -2186,6 +2219,7 @@ function goOriginal() {
 
         <a class="yt-card" href="https://www.youtube.com/@ToviaSinger1" target="_blank" rel="noopener">
             <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/LNSvys3cp7Y/mqdefault.jpg" alt="Rabbi Tovia Singer" loading="lazy">
                 <div class="yt-play">&#9654;</div>
             </div>
             <div class="yt-info">
@@ -2196,7 +2230,8 @@ function goOriginal() {
         </a>
 
         <a class="yt-card" href="https://rumble.com/c/BrigitteGabriel" target="_blank" rel="noopener">
-            <div class="yt-thumb">
+            <div class="yt-thumb" style="background: linear-gradient(135deg, #0a2a0a, #1a3a1a, #85c742);">
+                <span class="yt-initial">BG</span>
                 <div class="yt-play" style="background: #85c742;">&#9654;</div>
             </div>
             <div class="yt-info">
@@ -2207,7 +2242,8 @@ function goOriginal() {
         </a>
 
         <a class="yt-card" href="https://x.com/COLRICHARDKEMP" target="_blank" rel="noopener">
-            <div class="yt-thumb">
+            <div class="yt-thumb" style="background: linear-gradient(135deg, #0a0a1a, #1a1a2e, #16213e);">
+                <span class="yt-initial">RK</span>
                 <div class="yt-play" style="background: #1da1f2;">&#9654;</div>
             </div>
             <div class="yt-info">
