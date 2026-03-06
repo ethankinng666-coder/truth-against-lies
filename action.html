@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מה אפשר לעשות? - האמת נגד השקר</title>
+    <meta name="description" content="איך להילחם באנטישמיות: דיווח, הפצה, ארגונים פעילים ולינקים שימושיים.">
+    <meta name="theme-color" content="#0a0a1a">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif;
+            background-color: #0a0a1a;
+            color: #e0e0e0;
+            line-height: 1.7;
+            scroll-behavior: smooth;
+        }
+
+        /* === NAVIGATION === */
+        .top-bar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(10, 10, 26, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(226, 183, 20, 0.3);
+            padding: 0 20px;
+        }
+        .top-bar-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 60px;
+        }
+        .top-bar a {
+            color: #e2b714;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .back-link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* === PAGE CONTENT === */
+        .page-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 100px 20px 60px;
+        }
+        .page-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .page-title h1 {
+            font-size: 2.5em;
+            color: #e2b714;
+            margin-bottom: 10px;
+        }
+        .page-title p {
+            color: #888;
+            font-size: 1.1em;
+        }
+
+        /* === SECTIONS === */
+        .action-section {
+            margin-bottom: 60px;
+        }
+        .action-section h2 {
+            color: #e2b714;
+            font-size: 1.6em;
+            margin-bottom: 8px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid rgba(226, 183, 20, 0.3);
+        }
+        .action-section .section-desc {
+            color: #999;
+            margin-bottom: 25px;
+            font-size: 0.95em;
+        }
+
+        /* === CARDS === */
+        .action-card {
+            background: #12172b;
+            border: 1px solid rgba(226, 183, 20, 0.1);
+            border-radius: 3px;
+            padding: 25px;
+            margin-bottom: 16px;
+        }
+        .action-card h3 {
+            color: #e2b714;
+            font-size: 1.15em;
+            margin-bottom: 8px;
+        }
+        .action-card p {
+            color: #b0b0b0;
+            font-size: 0.95em;
+            margin-bottom: 12px;
+        }
+        .action-card a.card-link {
+            display: inline-block;
+            padding: 8px 20px;
+            background: rgba(226, 183, 20, 0.1);
+            border: 1px solid rgba(226, 183, 20, 0.3);
+            color: #e2b714;
+            text-decoration: none;
+            border-radius: 3px;
+            font-size: 0.9em;
+            font-weight: bold;
+            transition: background 0.3s, border-color 0.3s;
+        }
+        .action-card a.card-link:hover {
+            background: rgba(226, 183, 20, 0.25);
+            border-color: #e2b714;
+        }
+
+        /* === STEP LIST === */
+        .step-list {
+            list-style: none;
+            counter-reset: steps;
+        }
+        .step-list li {
+            counter-increment: steps;
+            padding: 15px 20px 15px 0;
+            border-bottom: 1px solid rgba(226, 183, 20, 0.08);
+            color: #b0b0b0;
+            font-size: 0.95em;
+        }
+        .step-list li::before {
+            content: counter(steps);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            background: rgba(226, 183, 20, 0.15);
+            border: 1px solid rgba(226, 183, 20, 0.3);
+            border-radius: 50%;
+            color: #e2b714;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-left: 12px;
+        }
+        .step-list li strong {
+            color: #e0e0e0;
+        }
+
+        /* === ORG GRID === */
+        .org-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 16px;
+        }
+        .org-card {
+            background: #12172b;
+            border: 1px solid rgba(226, 183, 20, 0.1);
+            border-radius: 3px;
+            padding: 22px;
+        }
+        .org-card h3 {
+            color: #e2b714;
+            font-size: 1.05em;
+            margin-bottom: 6px;
+        }
+        .org-card .org-type {
+            color: #666;
+            font-size: 0.8em;
+            margin-bottom: 8px;
+        }
+        .org-card p {
+            color: #999;
+            font-size: 0.9em;
+            margin-bottom: 12px;
+        }
+        .org-card a {
+            color: #e2b714;
+            text-decoration: none;
+            font-size: 0.9em;
+            border-bottom: 1px solid rgba(226, 183, 20, 0.3);
+            transition: border-color 0.3s;
+        }
+        .org-card a:hover {
+            border-color: #e2b714;
+        }
+
+        /* === SHARE BOX === */
+        .share-box {
+            background: #12172b;
+            border: 2px solid rgba(226, 183, 20, 0.2);
+            border-radius: 3px;
+            padding: 30px;
+            text-align: center;
+            margin-top: 15px;
+        }
+        .share-box p {
+            color: #999;
+            margin-bottom: 20px;
+        }
+        .share-buttons {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 22px;
+            border-radius: 3px;
+            text-decoration: none;
+            font-size: 0.9em;
+            font-weight: bold;
+            transition: opacity 0.3s;
+        }
+        .share-btn:hover { opacity: 0.85; }
+        .share-btn.wa { background: #25D366; color: #fff; }
+        .share-btn.fb { background: #1877F2; color: #fff; }
+        .share-btn.tw { background: #1DA1F2; color: #fff; }
+        .share-btn.tg { background: #0088cc; color: #fff; }
+        .share-btn.copy-link {
+            background: rgba(226, 183, 20, 0.15);
+            border: 1px solid rgba(226, 183, 20, 0.4);
+            color: #e2b714;
+        }
+
+        /* === FOOTER === */
+        .page-footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid rgba(226, 183, 20, 0.2);
+            margin-top: 60px;
+            color: #666;
+        }
+        .page-footer a {
+            color: #e2b714;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .page-title h1 { font-size: 1.8em; }
+            .action-section h2 { font-size: 1.3em; }
+            .org-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    <div class="top-bar-inner">
+        <a href="index.html" class="back-link">&#8594; חזרה לאתר הראשי</a>
+        <a href="index.html" style="font-size: 1.3em;">האמת נגד השקר</a>
+    </div>
+</div>
+
+<div class="page-container">
+
+    <div class="page-title">
+        <h1>מה אפשר לעשות?</h1>
+        <p>המאבק באנטישמיות מתחיל בפעולה. כל אחד יכול לעשות משהו.</p>
+    </div>
+
+    <!-- SECTION 1: REPORT -->
+    <div class="action-section">
+        <h2>&#9888; איך לדווח על אנטישמיות</h2>
+        <p class="section-desc">נתקלתם בתוכן אנטישמי ברשת או בחיים האמיתיים? חשוב לדווח. כל דיווח נספר ומסייע בתיעוד ובמלחמה.</p>
+
+        <ol class="step-list">
+            <li><strong>תעדו את האירוע</strong> &mdash; צלמו מסך (screenshot), שמרו קישור, תעדו תאריך ושעה.</li>
+            <li><strong>דווחו לפלטפורמה</strong> &mdash; כל רשת חברתית מאפשרת דיווח על תוכן שנאה. השתמשו בכפתור הדיווח.</li>
+            <li><strong>דווחו לארגון מקצועי</strong> &mdash; ארגונים כמו ADL ו-IHRA אוספים דיווחים ומשתמשים בהם כנגד שנאה מוסדית.</li>
+            <li><strong>דווחו למשטרה</strong> &mdash; אם מדובר באיום, אלימות, או הסתה &mdash; פנו למשטרה המקומית. בישראל: 100. בארה"ב: FBI Hate Crimes. באירופה: המשטרה המקומית.</li>
+            <li><strong>שתפו את הדיווח</strong> &mdash; עדכנו את הקהילה. ככל שיותר אנשים מדווחים, כך הפלטפורמות פועלות מהר יותר.</li>
+        </ol>
+
+        <div style="margin-top: 25px;">
+            <div class="action-card">
+                <h3>ADL &mdash; Anti-Defamation League</h3>
+                <p>דיווח מקוון על אירועי אנטישמיות בכל רחבי העולם. הארגון הגדול ביותר למאבק באנטישמיות.</p>
+                <a class="card-link" href="https://www.adl.org/report-incident" target="_blank" rel="noopener">דווח ל-ADL &larr;</a>
+            </div>
+            <div class="action-card">
+                <h3>Facebook / Instagram</h3>
+                <p>דיווח על תוכן שנאה בפייסבוק ואינסטגרם &mdash; משתמשים בממשק המובנה של Meta.</p>
+                <a class="card-link" href="https://www.facebook.com/help/reportlinks" target="_blank" rel="noopener">דווח בפייסבוק &larr;</a>
+            </div>
+            <div class="action-card">
+                <h3>TikTok</h3>
+                <p>דווחו על סרטונים אנטישמיים ישירות מתוך האפליקציה או מהאתר.</p>
+                <a class="card-link" href="https://www.tiktok.com/legal/report/feedback" target="_blank" rel="noopener">דווח בטיקטוק &larr;</a>
+            </div>
+            <div class="action-card">
+                <h3>X (Twitter)</h3>
+                <p>דיווח על ציוצים, חשבונות, או הודעות שמכילים שנאה או הסתה.</p>
+                <a class="card-link" href="https://help.twitter.com/en/safety-and-security/report-abusive-behavior" target="_blank" rel="noopener">דווח ב-X &larr;</a>
+            </div>
+            <div class="action-card">
+                <h3>YouTube</h3>
+                <p>דיווח על סרטונים, תגובות, או ערוצים שמפיצים אנטישמיות.</p>
+                <a class="card-link" href="https://support.google.com/youtube/answer/2802027" target="_blank" rel="noopener">דווח ביוטיוב &larr;</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION 2: SHARE -->
+    <div class="action-section">
+        <h2>&#128227; איך להפיץ את האתר</h2>
+        <p class="section-desc">הנשק הטוב ביותר נגד שקרים הוא חשיפה לאמת. שתפו את האתר כדי שהאמת תגיע ליותר אנשים.</p>
+
+        <ol class="step-list">
+            <li><strong>שתפו ברשתות החברתיות</strong> &mdash; פוסט אחד יכול להגיע לאלפי אנשים. השתמשו בכפתורים למטה.</li>
+            <li><strong>שלחו לחברים ומשפחה</strong> &mdash; העבירו את הלינק בקבוצות וואטסאפ, טלגרם, או במייל.</li>
+            <li><strong>השתמשו בכפתור "העתק תגובה"</strong> &mdash; כשנתקלים בעלילה ברשת, היכנסו לאתר, מצאו את ההפרכה, והעתיקו אותה ישירות לתגובה.</li>
+            <li><strong>הפיצו בקהילות ובפורומים</strong> &mdash; Reddit, קבוצות Facebook, Discord, פורומים אקדמיים &mdash; כל מקום שבו מפיצים שקרים, שלחו את הלינק הרלוונטי.</li>
+        </ol>
+
+        <div class="share-box">
+            <p>שתפו את האתר עכשיו:</p>
+            <div class="share-buttons">
+                <a class="share-btn wa" href="https://wa.me/?text=%D7%94%D7%90%D7%9E%D7%AA%20%D7%A0%D7%92%D7%93%20%D7%94%D7%A9%D7%A7%D7%A8%20%E2%80%94%20%D7%90%D7%AA%D7%A8%20%D7%9E%D7%90%D7%91%D7%A7%20%D7%91%D7%90%D7%A0%D7%98%D7%99%D7%A9%D7%9E%D7%99%D7%95%D7%AA%0Ahttps://truth-against-lies.github.io/truth-against-lies/" target="_blank" rel="noopener">WhatsApp</a>
+                <a class="share-btn fb" href="https://www.facebook.com/sharer/sharer.php?u=https://truth-against-lies.github.io/truth-against-lies/" target="_blank" rel="noopener">Facebook</a>
+                <a class="share-btn tw" href="https://twitter.com/intent/tweet?text=%D7%94%D7%90%D7%9E%D7%AA%20%D7%A0%D7%92%D7%93%20%D7%94%D7%A9%D7%A7%D7%A8%20%E2%80%94%20%D7%90%D7%AA%D7%A8%20%D7%9E%D7%90%D7%91%D7%A7%20%D7%91%D7%90%D7%A0%D7%98%D7%99%D7%A9%D7%9E%D7%99%D7%95%D7%AA&url=https://truth-against-lies.github.io/truth-against-lies/" target="_blank" rel="noopener">X / Twitter</a>
+                <a class="share-btn tg" href="https://t.me/share/url?url=https://truth-against-lies.github.io/truth-against-lies/&text=%D7%94%D7%90%D7%9E%D7%AA%20%D7%A0%D7%92%D7%93%20%D7%94%D7%A9%D7%A7%D7%A8" target="_blank" rel="noopener">Telegram</a>
+                <a class="share-btn copy-link" href="#" onclick="navigator.clipboard.writeText('https://truth-against-lies.github.io/truth-against-lies/');this.textContent='&#10003; הועתק!';setTimeout(()=>this.textContent='העתק קישור',2000);return false;">העתק קישור</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION 3: ORGANIZATIONS -->
+    <div class="action-section">
+        <h2>&#127968; ארגונים שנלחמים באנטישמיות</h2>
+        <p class="section-desc">ארגונים בינלאומיים, חינוכיים, ומשפטיים שפועלים מדי יום נגד שנאת יהודים. תמכו בהם, עקבו אחריהם, והצטרפו למאבק.</p>
+
+        <div class="org-grid">
+            <div class="org-card">
+                <h3>ADL</h3>
+                <div class="org-type">ארה"ב | מאז 1913</div>
+                <p>Anti-Defamation League &mdash; הארגון הגדול בעולם למאבק באנטישמיות. מחקר, חינוך, ופעילות משפטית.</p>
+                <a href="https://www.adl.org" target="_blank" rel="noopener">adl.org</a>
+            </div>
+            <div class="org-card">
+                <h3>Simon Wiesenthal Center</h3>
+                <div class="org-type">ארה"ב | מאז 1977</div>
+                <p>מרכז סימון ויזנטל &mdash; מאבק באנטישמיות, הנצחת השואה, והגנה על זכויות יהודים ברחבי העולם.</p>
+                <a href="https://www.wiesenthal.com" target="_blank" rel="noopener">wiesenthal.com</a>
+            </div>
+            <div class="org-card">
+                <h3>Yad Vashem</h3>
+                <div class="org-type">ישראל | מאז 1953</div>
+                <p>יד ושם &mdash; מרכז ההנצחה הלאומי לשואה ולגבורה. ארכיון, חינוך, ומחקר.</p>
+                <a href="https://www.yadvashem.org" target="_blank" rel="noopener">yadvashem.org</a>
+            </div>
+            <div class="org-card">
+                <h3>USHMM</h3>
+                <div class="org-type">ארה"ב | מאז 1993</div>
+                <p>United States Holocaust Memorial Museum &mdash; מוזיאון ומרכז מחקר לזכר השואה.</p>
+                <a href="https://www.ushmm.org" target="_blank" rel="noopener">ushmm.org</a>
+            </div>
+            <div class="org-card">
+                <h3>IHRA</h3>
+                <div class="org-type">בינלאומי | מאז 1998</div>
+                <p>International Holocaust Remembrance Alliance &mdash; 35 מדינות חברות. הגדירו את ההגדרה המקובלת של אנטישמיות.</p>
+                <a href="https://www.holocaustremembrance.com" target="_blank" rel="noopener">holocaustremembrance.com</a>
+            </div>
+            <div class="org-card">
+                <h3>AJC</h3>
+                <div class="org-type">ארה"ב | מאז 1906</div>
+                <p>American Jewish Committee &mdash; דיפלומטיה יהודית גלובלית, מאבק באנטישמיות, וקידום הבנה בין-דתית.</p>
+                <a href="https://www.ajc.org" target="_blank" rel="noopener">ajc.org</a>
+            </div>
+            <div class="org-card">
+                <h3>StandWithUs</h3>
+                <div class="org-type">ארה"ב / בינלאומי | מאז 2001</div>
+                <p>ארגון חינוכי שמפיץ ידע על ישראל ונלחם באנטישמיות בקמפוסים ובמדיה.</p>
+                <a href="https://www.standwithus.com" target="_blank" rel="noopener">standwithus.com</a>
+            </div>
+            <div class="org-card">
+                <h3>UN Watch</h3>
+                <div class="org-type">שוויץ | מאז 1993</div>
+                <p>מפקחים על האו"ם ומדווחים על הטיה אנטי-ישראלית ואנטישמית במוסדות הבינלאומיים.</p>
+                <a href="https://www.unwatch.org" target="_blank" rel="noopener">unwatch.org</a>
+            </div>
+            <div class="org-card">
+                <h3>CAMERA</h3>
+                <div class="org-type">ארה"ב | מאז 1982</div>
+                <p>Committee for Accuracy in Middle East Reporting &mdash; מתקנים סיקור מוטה ומטעה של ישראל בתקשורת.</p>
+                <a href="https://www.camera.org" target="_blank" rel="noopener">camera.org</a>
+            </div>
+            <div class="org-card">
+                <h3>Canary Mission</h3>
+                <div class="org-type">ארה"ב</div>
+                <p>מתעדים פעילים אנטישמיים בקמפוסים ובמרחב הציבורי כדי להגן על סטודנטים יהודים.</p>
+                <a href="https://canarymission.org" target="_blank" rel="noopener">canarymission.org</a>
+            </div>
+            <div class="org-card">
+                <h3>Combat Antisemitism Movement</h3>
+                <div class="org-type">בינלאומי | מאז 2019</div>
+                <p>קואליציה של מאות ארגונים ויחידים הנלחמים באנטישמיות ברשת, בחינוך, ובחקיקה.</p>
+                <a href="https://combatantisemitism.org" target="_blank" rel="noopener">combatantisemitism.org</a>
+            </div>
+            <div class="org-card">
+                <h3>World Jewish Congress</h3>
+                <div class="org-type">בינלאומי | מאז 1936</div>
+                <p>הקונגרס היהודי העולמי &mdash; מייצג קהילות יהודיות מ-100 מדינות, מגן על זכויות יהודים ונלחם באנטישמיות.</p>
+                <a href="https://www.worldjewishcongress.org" target="_blank" rel="noopener">worldjewishcongress.org</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- CLOSING MESSAGE -->
+    <div style="text-align: center; margin-top: 40px; padding: 40px 20px; border-top: 1px solid rgba(226, 183, 20, 0.15);">
+        <p style="color: #e2b714; font-size: 1.3em; margin-bottom: 10px;">השתיקה היא שותפה של השנאה.</p>
+        <p style="color: #888; font-size: 1em;">Silence is the partner of hatred.</p>
+    </div>
+
+</div>
+
+<div class="page-footer">
+    <p><a href="index.html">&#8594; חזרה לאתר הראשי</a></p>
+    <p style="margin-top: 15px;">נבנה על ידי נתנאל אסיס | 2026</p>
+</div>
+
+</body>
+</html>

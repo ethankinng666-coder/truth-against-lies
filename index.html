@@ -124,6 +124,22 @@
             border-color: #e2b714;
             background: rgba(226, 183, 20, 0.1);
         }
+        .nav-donate {
+            padding: 6px 14px;
+            background: rgba(226, 183, 20, 0.15);
+            border: 1px solid rgba(226, 183, 20, 0.4);
+            color: #e2b714;
+            text-decoration: none;
+            font-size: 0.85em;
+            font-weight: bold;
+            border-radius: 3px;
+            white-space: nowrap;
+            transition: background 0.3s, border-color 0.3s;
+        }
+        .nav-donate:hover {
+            background: rgba(226, 183, 20, 0.3);
+            border-color: #e2b714;
+        }
         .search-highlight {
             outline: 2px solid #e2b714;
             outline-offset: 4px;
@@ -934,6 +950,7 @@
         .lie-share-btn.whatsapp:hover { background: #25D366; color: #fff; border-color: #25D366; }
         .lie-share-btn.twitter:hover { background: #1DA1F2; color: #fff; border-color: #1DA1F2; }
         .lie-share-btn.telegram:hover { background: #0088cc; color: #fff; border-color: #0088cc; }
+        .lie-share-btn.facebook:hover { background: #1877F2; color: #fff; border-color: #1877F2; }
 
         /* === FADE-IN ANIMATIONS === */
         .fade-in {
@@ -1120,11 +1137,13 @@
                 <li><a href="#gallery">תיעוד היסטורי</a></li>
                 <li><a href="#report">דווח על אנטישמיות</a></li>
                 <li><a href="#youtube">צפה והתעדכן</a></li>
+                <li><a href="action.html">מה אפשר לעשות?</a></li>
             </ul>
         </div>
         <div class="nav-search">
             <input type="text" id="siteSearch" placeholder="חיפוש באתר..." onkeydown="if(event.key==='Enter')searchSite()">
         </div>
+        <a href="https://buymeacoffee.com/nathaniellinder" target="_blank" rel="noopener" class="nav-donate">&#9749; תמוך</a>
         <div class="lang-dropdown">
             <button class="lang-toggle" onclick="document.getElementById('langMenu').classList.add('open')">&#127760; <span class="lang-toggle-text">שפה / Language</span></button>
         </div>
@@ -1232,7 +1251,7 @@
             </div>
             <div class="stat">
                 <div class="stat-number">2,500+</div>
-                <div class="stat-label">שנות שנאה</div>
+                <div class="stat-label">שנות תיעוד</div>
             </div>
             <div class="stat">
                 <div class="stat-number">8</div>
@@ -1241,6 +1260,10 @@
             <div class="stat">
                 <div class="stat-number">7</div>
                 <div class="stat-label">עמים וחברות</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">100+</div>
+                <div class="stat-label">מקורות אקדמיים</div>
             </div>
         </div>
 
@@ -2396,6 +2419,7 @@ function goOriginal() {
                 <a class="lie-share-btn whatsapp" onclick="shareLie(this,'whatsapp')" title="WhatsApp">W</a>
                 <a class="lie-share-btn twitter" onclick="shareLie(this,'twitter')" title="X / Twitter">&#120143;</a>
                 <a class="lie-share-btn telegram" onclick="shareLie(this,'telegram')" title="Telegram">T</a>
+                <a class="lie-share-btn facebook" onclick="shareLie(this,'facebook')" title="Facebook">f</a>
             </div>
         </div>
         <div class="lie-footer"><span>&#10070; האמת מנצחת תמיד &#10070;</span></div>
@@ -2432,6 +2456,7 @@ function goOriginal() {
                 <a class="lie-share-btn whatsapp" onclick="shareLie(this,'whatsapp')" title="WhatsApp">W</a>
                 <a class="lie-share-btn twitter" onclick="shareLie(this,'twitter')" title="X / Twitter">&#120143;</a>
                 <a class="lie-share-btn telegram" onclick="shareLie(this,'telegram')" title="Telegram">T</a>
+                <a class="lie-share-btn facebook" onclick="shareLie(this,'facebook')" title="Facebook">f</a>
             </div>
         </div>
         <div class="lie-footer"><span>&#10070; האמת מנצחת תמיד &#10070;</span></div>
@@ -2478,6 +2503,7 @@ function goOriginal() {
                 <a class="lie-share-btn whatsapp" onclick="shareLie(this,'whatsapp')" title="WhatsApp">W</a>
                 <a class="lie-share-btn twitter" onclick="shareLie(this,'twitter')" title="X / Twitter">&#120143;</a>
                 <a class="lie-share-btn telegram" onclick="shareLie(this,'telegram')" title="Telegram">T</a>
+                <a class="lie-share-btn facebook" onclick="shareLie(this,'facebook')" title="Facebook">f</a>
             </div>
         </div>
         <div class="lie-footer"><span>&#10070; האמת מנצחת תמיד &#10070;</span></div>
@@ -2524,6 +2550,7 @@ function goOriginal() {
                 <a class="lie-share-btn whatsapp" onclick="shareLie(this,'whatsapp')" title="WhatsApp">W</a>
                 <a class="lie-share-btn twitter" onclick="shareLie(this,'twitter')" title="X / Twitter">&#120143;</a>
                 <a class="lie-share-btn telegram" onclick="shareLie(this,'telegram')" title="Telegram">T</a>
+                <a class="lie-share-btn facebook" onclick="shareLie(this,'facebook')" title="Facebook">f</a>
             </div>
         </div>
         <div class="lie-footer"><span>&#10070; האמת מנצחת תמיד &#10070;</span></div>
@@ -2574,6 +2601,7 @@ function goOriginal() {
                 <a class="lie-share-btn whatsapp" onclick="shareLie(this,'whatsapp')" title="WhatsApp">W</a>
                 <a class="lie-share-btn twitter" onclick="shareLie(this,'twitter')" title="X / Twitter">&#120143;</a>
                 <a class="lie-share-btn telegram" onclick="shareLie(this,'telegram')" title="Telegram">T</a>
+                <a class="lie-share-btn facebook" onclick="shareLie(this,'facebook')" title="Facebook">f</a>
             </div>
         </div>
         <div class="lie-footer"><span>&#10070; האמת מנצחת תמיד &#10070;</span></div>
@@ -3425,6 +3453,7 @@ function shareLie(el, platform) {
     if (platform === 'whatsapp') shareUrl = 'https://wa.me/?text=' + encoded;
     else if (platform === 'twitter') shareUrl = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(url);
     else if (platform === 'telegram') shareUrl = 'https://t.me/share/url?url=' + encodeURIComponent(url) + '&text=' + encodeURIComponent(text);
+    else if (platform === 'facebook') shareUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
     window.open(shareUrl, '_blank');
 }
 
