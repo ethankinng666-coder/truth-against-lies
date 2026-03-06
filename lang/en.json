@@ -1,0 +1,833 @@
+{
+    "meta": { "code": "en", "name": "English", "dir": "ltr" },
+    "nav": [
+        "What is Antisemitism?",
+        "Claims & Refutations",
+        "Common Lies",
+        "Timeline",
+        "The Psychology",
+        "Hatred by Nations",
+        "Historical Documentation",
+        "Report Antisemitism",
+        "Watch & Learn",
+        "What Can Be Done?"
+    ],
+    "ui": {
+        "donate_btn": "&#9749; Support",
+        "lang_btn": "Language",
+        "search_placeholder": "Search site...",
+        "copy_btn": "&#128203; Copy Response",
+        "lie_footer": "&#10070; The truth always wins &#10070;",
+        "toggle_open": "&#9660; Click to open"
+    },
+    "hero_title": "The Truth Against The Lie",
+    "hero_subtitle": "Exposing the lies, presenting the facts",
+    "hero_subtitle_en": "The Truth Against The Lie \u2014 Fighting Antisemitism",
+    "hero_cta": "Discover the Truth &#8595;",
+    "stat_labels": [
+        "Debunked Claims",
+        "Years Documented",
+        "Categories",
+        "Nations & Societies",
+        "Academic Sources"
+    ],
+    "about_title": "What is Antisemitism?",
+    "about_desc": "The oldest hatred in human history &mdash; 2,500 years of lies that must be exposed",
+    "about_cards": [
+        {
+            "title": "A Hatred That Shapeshifts",
+            "text": "Antisemitism is the most persistent group hatred in human history. It has taken different forms in different eras &mdash; religious, racial, political, economic, conspiratorial &mdash; but the central pattern remains the same: Jews become the scapegoat for society's problems."
+        },
+        {
+            "title": "Why Documentation Matters",
+            "text": "To fight antisemitism, one must first understand it. On this site you will find 34 common antisemitic tropes from 8 categories, each with a factual refutation, a psychological explanation for why people believe the lie, and academic sources. No claim is left unanswered."
+        },
+        {
+            "title": "Three Layers of Response",
+            "text": "<strong style=\"color:#2ecc71;\">1. Factual Refutation</strong> &mdash; What do the facts actually show?<br><strong style=\"color:#3498db;\">2. Psychological Explanation</strong> &mdash; Why do people believe this lie?<br><strong style=\"color:#e2b714;\">3. Historical Context</strong> &mdash; When did this lie kill people?"
+        }
+    ],
+    "claims_title": "34 Claims \u2014 34 Refutations",
+    "claims_desc": "Click on each category to reveal the claims, and on each claim to read the full refutation",
+    "categories": [
+        {
+            "number": "Category 1",
+            "title": "Religious and Theological Antisemitism",
+            "desc": "The oldest layer: hatred rooted in religious narratives",
+            "claims": [
+                {
+                    "title": "\"Jews killed Jesus\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "Jesus was crucified by Roman authorities using a Roman method of execution (crucifixion is a Roman punishment, not a Jewish one). The Roman governor Pontius Pilate ordered the execution. The Gospels were written 40-70 years after the events, in the context of Christianity's separation from Judaism. The Second Vatican Council (1965) officially declared that collective guilt should not be attributed to the Jewish people as a whole."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Scapegoating + emotion-driven thinking: Early Christians needed an explanation for why Jews, Jesus's own people, did not accept his messianic claim. Blaming Jews provided a convenient emotional explanation. Additionally, as Christianity sought acceptance within the Roman Empire, blaming Rome for Jesus's death was politically dangerous &mdash; blaming Jews was more convenient."
+                    ],
+                    "sources": "Sources: Raymond Brown, 'The Death of the Messiah' (1994); Vatican II, 'Nostra Aetate' (1965)"
+                },
+                {
+                    "title": "\"Jews are the children of the Devil\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The Gospel of John (8:44) documents a sharp intra-Jewish debate in a specific context. Jesus himself was Jewish, his disciples were Jewish, and early Christianity was an intra-Jewish movement. Applying one side of an internal argument to all Jews for eternity is like taking a debate between two American politicians and concluding that all Americans are evil."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Dehumanization: Labeling an out-group as satanic or subhuman is a documented precursor to violence. Gregory Stanton's research identifies dehumanization as Stage 4 on the path to genocide (8 stages in 1996, expanded to 10 in 2012). The demonization of Jews enabled centuries of pogroms."
+                    ],
+                    "sources": "Sources: Adele Reinhartz (2018); Gregory Stanton, 'The 8 Stages of Genocide' (1996, expanded to 10 in 2012)"
+                },
+                {
+                    "title": "\"Blood libel: Jews use the blood of Christian children in rituals\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "In 900 years since the first blood libel (Norwich, 1144), not a single case has ever been proven. Judaism explicitly and repeatedly prohibits the consumption of blood: \"You shall not eat the blood of any flesh, for the life of all flesh is its blood\" (Leviticus 17:14). Kashrut laws require complete draining of blood from meat before consumption. Pope Innocent IV (1247) and Emperor Frederick II (1236) investigated the accusations and found them baseless."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Projection + displaced guilt: The blood libel emerged during the Crusades, when Christians themselves committed mass violence and bloodshed. Accusing Jews of blood rituals functioned as psychological projection: transferring guilt for Christian violence onto the Jewish \"other.\" Additionally, the accusation provided justification for seizing Jewish property and expelling Jewish populations."
+                    ],
+                    "sources": "Sources: R. Po-chia Hsia, 'The Myth of Ritual Murder' (1988); Magda Teter, 'Blood Libel' (2020)"
+                },
+                {
+                    "title": "\"Host desecration: Jews stab communion wafers\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The accusation required believing two impossible things simultaneously: that Jews reject Christian theology (the belief that the wafer becomes the body of Christ) and that Jews attack the wafer precisely because they believe in its holiness. This is a logical contradiction. If Jews do not believe the wafer is Jesus, they have no motive to \"torture\" it. Historian Miri Rubin documented that host desecration accusations occurred precisely during periods of economic tension between Jewish and Christian communities &mdash; suggesting that economic competition, not theology, was the real motive. In the Rintfleisch massacres (1298), over 100 Jewish communities in Germany were destroyed based on these accusations."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Attribution error + economic scapegoating: Communities experiencing economic hardship needed justification to seize Jewish assets. A religious accusation provided moral cover for economic theft. This pattern &mdash; using moral accusations to justify material gain &mdash; recurs throughout the entire history of antisemitism."
+                    ],
+                    "sources": "Sources: Miri Rubin, 'Gentile Tales: The Narrative Assault on Late Medieval Jews' (1999)"
+                },
+                {
+                    "title": "\"Jews poison wells and spread plagues\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "Jews were not immune to the Black Death &mdash; they died in droves. In some communities, Jewish mortality rates were somewhat lower, which historians attribute to frequent handwashing (as required by Jewish law), quarantine for the sick, and separate water sources in ghettos. These are religious practices, not a conspiracy. Pope Clement VI in 1348 issued two papal bulls defending Jews, noting that Jews were dying from the plague just like everyone else. The massacres continued regardless."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Terror management + need for control: The Black Death killed 30-60% of Europe's population in 4 years. Terror Management Theory (Greenberg, Solomon & Pyszczynski) shows that when people face death anxiety, they become more hostile toward out-groups. Blaming Jews for the plague turned a random, terrifying disaster into something caused by an identifiable enemy &mdash; restoring the illusion of control."
+                    ],
+                    "sources": "Sources: Samuel Cohn, 'The Black Death and the Burning of Jews' (2007); Pope Clement VI, Bull 'Quamvis Perfidiam' (1348)"
+                },
+                {
+                    "title": "\"Jews were cursed to wander without a homeland\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The Jewish exile from the Land of Israel was the result of military conquest: the Babylonian Exile (586 BCE), the destruction of the Temple by Rome (70 CE), and the Bar Kokhba revolt (135 CE). Subsequently, Jews were expelled from countries by human decree: England (1290), France (1306, 1394), Spain (1492), Portugal (1497). Every expulsion was carried out by kings for political and economic reasons. Framing forced displacement as a curse blames the victim for their own persecution."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Just-world bias (Melvin Lerner): People have a deep psychological need to believe the world is fair &mdash; that people get what they deserve. When Jews were expelled and persecuted, observers needed to believe they deserved it. \"They must have done something wrong\" &mdash; this is the just-world bias in action."
+                    ],
+                    "sources": "Sources: Melvin Lerner, 'The Belief in a Just World' (1980); David Nirenberg, 'Anti-Judaism: The Western Tradition' (2013)"
+                },
+                {
+                    "title": "\"The Talmud contains teachings of hatred against gentiles\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The Talmud is an archive of 6,200 pages of legal discussions spanning 700 years (200 BCE - 500 CE). It contains diverse opinions on every topic &mdash; often contradictory &mdash; because it records debates, not dogma. Taking isolated passages without context is like quoting a single dissenting opinion from a court and claiming it represents the law.<br><br>The Talmud explicitly teaches: \"The righteous of all nations have a share in the World to Come\" (Tosefta Sanhedrin 13:2). Jewish law requires honesty in business with all people (dina d'malkhuta dina). Pikuach nefesh (saving lives) overrides almost all commandments and obligates saving all human life, not just Jewish life."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Confirmation bias + cherry-picking: People who already believe that Jews hate gentiles search the Talmud for passages that confirm their belief, ignore the thousands of passages that contradict it, and strip context from the ones they find. The same method could make any religious text &mdash; the Bible, the Quran, Hindu scriptures &mdash; appear to encourage atrocities."
+                    ],
+                    "sources": "Sources: Gil Student, 'The Real Truth About the Talmud' (2000); David Berger, 'Persecution, Polemic, and Dialogue' (2010)"
+                }
+            ]
+        },
+        {
+            "number": "Category 2",
+            "title": "Racial and Biological Antisemitism",
+            "desc": "Pseudo-scientific hatred from the 19th and 20th centuries",
+            "claims": [
+                {
+                    "title": "\"Jews are a separate and inferior race\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The Human Genome Project (2003) confirmed there is more genetic variation within any racial group than between groups. Human beings share 99.9% of their DNA regardless of origin. Jewish populations are genetically diverse: Ashkenazi, Sephardic, Mizrahi, Ethiopian, Indian, and Chinese Jews look completely different from one another. The idea of a single \"Jewish race\" has no genetic meaning."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Need for hierarchy: Social Dominance Theory (Sidanius & Pratto, 1999) shows that some people have a strong need to organize groups into value hierarchies. Racial classification provided a \"scientific\" framework for ranking human groups. Pseudo-scientific racism made prejudice feel rational and evidence-based."
+                    ],
+                    "sources": "Sources: Human Genome Project (2003); UNESCO 'Statement on Race' (1950-1967)"
+                },
+                {
+                    "title": "\"Jews are genetically predisposed to greed and manipulation\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "Behavioral genetics has unequivocally shown that complex behavioral traits (personality, moral character, financial behavior) are shaped by a combination of genetics and environment &mdash; and never by membership in an ethnic group. There is no \"greed gene.\" Studies on charitable giving consistently show that Jewish communities are among the most generous in the world. The association between Jews and money is a historical construct: medieval Christians restricted Jews to moneylending and then blamed them for the result."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Fundamental Attribution Error (Lee Ross, 1977): A cognitive bias that causes people to attribute others' behavior to their character rather than their circumstances. When Jews were moneylenders, observers attributed this to Jewish character (\"they are greedy\") rather than to situational constraints (they were barred from other professions). This is identical to blaming a person in a wheelchair for not using the stairs."
+                    ],
+                    "sources": "Sources: Lee Ross (1977); Steven Pinker, 'The Blank Slate' (2002)"
+                },
+                {
+                    "title": "\"Jews are subhuman (Untermenschen)\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "Classifying any human group as \"subhuman\" is a propaganda technique, not a scientific statement. Gregory Stanton's research identifies dehumanization as Stage 4 of genocide (8 stages in 1996, expanded to 10 in 2012) &mdash; the stage that makes killing psychologically possible. The Nazis simultaneously claimed that Jews were subhuman and that they secretly ruled the world &mdash; an absolute logical contradiction. Umberto Eco identified this as a defining characteristic of fascist ideology: \"The enemy is both too strong and too weak.\""
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Moral disengagement (Albert Bandura): Bandura's research shows that ordinary people can commit extraordinary cruelty when their moral regulation is neutralized. Dehumanization is the most powerful mechanism &mdash; when victims are reclassified as non-human, perpetrators can harm them without the psychological cost of guilt. The Holocaust required millions of ordinary Germans to participate in or tolerate genocide. Dehumanization made this psychologically possible."
+                    ],
+                    "sources": "Sources: Gregory Stanton, '8 Stages of Genocide' (1996, expanded to 10 in 2012); Umberto Eco, 'Ur-Fascism' (1995); Albert Bandura (1999)"
+                },
+                {
+                    "title": "\"Jews promote racial mixing to weaken other races\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The accusation is pure projection. The Nazis themselves carried out eugenics on a massive scale: the T4 program killed 70,000+ disabled people, the Lebensborn program bred \"racially pure\" children, forced sterilizations affected 400,000 people, and the Holocaust murdered 6 million Jews and millions of others. Accusing Jews of the very act the accusers themselves committed is classic projection. Modern versions (the \"Great Replacement\" theory) claim Jews are orchestrating immigration to replace white populations. Immigration is driven by economic forces, wars, climate change, and the policies of democratic governments with diverse leadership."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Projection at scale: When an entire regime projects its own crimes onto its victims, it serves two purposes: (1) it justifies the regime's own actions (\"we must do this because they are doing it to us\") and (2) it immunizes the population against sympathy for the victims (\"they would do worse to us if they could\"). This is Propaganda 101."
+                    ],
+                    "sources": "Sources: Robert Proctor, 'Racial Hygiene: Medicine Under the Nazis' (1988); Richard Evans, 'The Third Reich in Power' (2005)"
+                }
+            ]
+        },
+        {
+            "number": "Category 3",
+            "title": "Economic and Financial Stereotypes",
+            "desc": "The money myth: accusations of greed, control, and exploitation",
+            "claims": [
+                {
+                    "title": "\"Jews control the banks and global financial systems\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "In medieval Europe, Jews were excluded from most professions (agriculture, guilds, government). One of the few permitted occupations was moneylending, which Christians considered sinful. When Jewish moneylenders succeeded, they were hated for the very success forced upon them. The Rothschild family (founded in the 1760s) became a symbol exploited by antisemites. In reality, Jews constitute ~0.2% of the world's population and do not control banking. Major banks are publicly traded corporations with diverse leadership."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Illusory correlation bias (Hamilton & Gifford, 1976): When a minority is involved in a negative event, people overestimate the connection between the group and the event. If a banker who happens to be Jewish commits fraud, his Jewishness is noted; when a non-Jewish banker commits fraud, his ethnic origin is invisible."
+                    ],
+                    "sources": "Sources: Hamilton & Gifford, Journal of Experimental Social Psychology (1976)"
+                },
+                {
+                    "title": "\"Jews are greedy and obsessed with money\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The link between Jews and greed is a cultural construct, not a fact. It stems from the limited economic roles Jews were forced into. In Christian Europe, the Church forbade Christians from engaging in usury (lending at interest). Jews, who were excluded from most professions (owning land, joining professional guilds, farming), were left with few economic options &mdash; and trade and moneylending were among them. They were then blamed for the very occupation forced upon them.",
+                        "Studies on charitable giving consistently show that Jewish communities are among the most generous in the world. Jewish federations in America alone donate billions annually to both Jewish and non-Jewish communities. The concept of charity in Judaism (tzedakah &mdash; derived from the word \"justice\") is a religious obligation, not a voluntary act of kindness. Maimonides (12th century) established 8 levels of charity, with the highest being helping a person become self-sufficient."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Projection + displaced envy: People envy economic success and blame the successful for greed. Literary characters like Shylock (Shakespeare, \"The Merchant of Venice\") and Fagin (Dickens, \"Oliver Twist\") reinforced the stereotype for centuries. Antisemitic propaganda in caricatures depicted Jews with hooked noses clutching coins &mdash; images that still appear online today."
+                    ],
+                    "sources": "Sources: Derek Penslar, 'Shylock's Children: Economics and Jewish Identity in Modern Europe' (2001); Maimonides, Mishneh Torah, Laws of Gifts to the Poor"
+                },
+                {
+                    "title": "\"Jews caused the 2008 financial crisis\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "After every economic crisis, antisemites blame Jews. The 2008 crisis generated a wave of conspiracy theories naming specific Jewish financiers as responsible. The same pattern occurred during the Great Depression (Father Coughlin's radio broadcasts), the 1998 Asian crisis, and after COVID economic disruptions. In reality, financial crises result from systemic factors (deregulation, speculation, complex financial instruments) affecting entire industries &mdash; not from the actions of any ethnic group."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Proportionality bias: People expect big events to have big causes. When a global financial crisis occurs, the idea that it resulted from complex systemic factors is unsatisfying. The idea that a powerful group planned it feels more proportionate. Jews, already stereotyped as a financial power, become the \"big cause.\""
+                    ],
+                    "sources": "Sources: Daniel Kahneman, 'Thinking, Fast and Slow' (2011)"
+                },
+                {
+                    "title": "\"Jews exploit gentiles economically and view them as cattle\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The word \"goy\" simply means \"nation\" in Hebrew (even Israel is called a \"goy kadosh\" &mdash; a holy nation &mdash; in the Torah) and refers to non-Jews neutrally. Antisemites distorted this into a claim that Jews view gentiles as subhuman cattle that can be exploited. This is a complete fabrication.",
+                        "Judaism has a comprehensive system of ethical laws requiring fair treatment of all human beings: \"Love your neighbor as yourself\" (Leviticus 19:18), \"Justice, justice shall you pursue\" (Deuteronomy 16:20), and \"You shall not oppress your fellow\" (Leviticus 19:13). The principle of \"dina d'malkhuta dina\" (the law of the land is the law) requires Jews to be honest in all dealings. Jewish law explicitly prohibits \"geneivat da'at\" (deception) &mdash; whether the victim is Jewish or not.",
+                        "The claim that the Talmud permits exploitation of non-Jews is based on quotes ripped from context out of 6,200 pages of discussion (to understand the distortion, imagine pulling a single sentence from an entire book and claiming it represents the whole work). Qualified Talmud scholars &mdash; Jewish and non-Jewish &mdash; unanimously reject this reading."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Ignorance + confirmation seeking: People who already hate Jews search for \"proof\" in texts they cannot read (the Talmud is written in Hebrew and Aramaic). They rely on fabricated \"translations\" circulated since the Middle Ages. The publication \"Talmud Unmasked\" by Father Justinas Pranaitis (1892) was proven full of errors when Pranaitis himself admitted in court that he did not actually know Aramaic."
+                    ],
+                    "sources": "Sources: Peter Sch&auml;fer, 'Jesus in the Talmud' (2007); Gil Student, 'The Real Truth About The Talmud' (2000); ADL documentation"
+                }
+            ]
+        },
+        {
+            "number": "Category 4",
+            "title": "Political Conspiracy Theories",
+            "desc": "Secret control, world domination, and \"the hidden hand\"",
+            "claims": [
+                {
+                    "title": "\"Jews secretly control the world's governments (ZOG)\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "\"The Protocols of the Elders of Zion\" is a fabricated text, created by the Russian secret police (Okhrana) around 1903, that purported to be the minutes of a Jewish meeting to plan world domination. It was proven to be a forgery in 1921 by the Times of London &mdash; the text was copied almost word for word from an 1864 satire by Maurice Joly about Napoleon III, which had nothing to do with Jews.",
+                        "Despite being completely debunked, Henry Ford distributed it in America (the \"Dearborn Independent\" newspaper, 91 antisemitic issues), Hitler cited it in \"Mein Kampf,\" and it remains a bestseller in the Arab world today. If 15 million Jews (0.2% of the world's population) truly ruled the world &mdash; why couldn't they prevent the Holocaust? Why does Israel need to negotiate for its existence? The supposed \"control\" is the best proof that it does not exist."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Conspiratorial thinking: Research (van Prooijen, 2017) shows that people who believe in one conspiracy tend to believe in others, even contradictory ones. \"Jews control the world\" is the \"mother of all conspiracies\" &mdash; one simple explanation for everything that is wrong. It provides an illusion of control: if someone is behind the chaos, then the world is not random and frightening. It is comforting, even if it is false."
+                    ],
+                    "sources": "Sources: Norman Cohn, 'Warrant for Genocide' (1967); van Prooijen & Douglas, 'Conspiracy theories as part of history' (2017)"
+                },
+                {
+                    "title": "\"Jews control the media and manipulate public opinion\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The claim that Jews control the media is statistically and factually false. Major media companies are publicly traded corporations (Disney, Comcast, News Corp) with diverse ownership and leadership &mdash; boards, shareholders, and management from various countries and backgrounds. Rupert Murdoch (News Corp, Fox News) &mdash; Australian. Jeff Bezos (Washington Post) &mdash; American. Elon Musk (Twitter/X) &mdash; South African. None of them are Jewish.",
+                        "The claim functions as an unfalsifiable Catch-22: if a Jew works in media, it \"proves\" the conspiracy. If a Jew does not work in media, \"they are hiding.\" If media reports positively on Israel, \"they control it.\" If it reports negatively, \"it's a smokescreen.\" No evidence can disprove a belief that was never based on evidence in the first place."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Confirmation bias + illusory correlation: The ADL Global 100 survey found this is one of the most widespread antisemitic stereotypes &mdash; 74% of respondents in the Middle East and 24% in Europe believe Jews control the media. Once the belief exists, every Jew found in media \"proves\" it, while thousands of non-Jews in media are simply ignored."
+                    ],
+                    "sources": "Sources: ADL Global 100 Survey (2023); Steven Bayme, 'Understanding Jewish History' (1997)"
+                },
+                {
+                    "title": "\"Jews have dual loyalty \u2014 they are loyal to Israel, not their country\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The dual loyalty accusation has been used to exclude Jews from civic life for centuries. Captain Alfred Dreyfus, a French-Jewish officer, was convicted of treason in 1894 based on fabricated evidence &mdash; and partly on the assumption that a Jew could not truly be loyal to France. He was exonerated in 1906 after the affair tore France apart.",
+                        "In reality, Jews have served with distinction in the armies of every country they lived in, often disproportionately: 100,000 Jews served in the German army in World War I, 12,000 were killed in combat, 18,000 received the Iron Cross, 35,000 were promoted in rank, and 3,000 became officers. In 1935, that same Germany stripped them of citizenship. 550,000 Jews served in the US military in World War II. The \"dual loyalty\" accusation is directed only at Jews &mdash; no one accuses Irish-Americans of dual loyalty to Ireland."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Perpetual \"otherness\": The accusation reveals the assumption that Jews are always \"outsiders,\" no matter how many generations they have lived in a country. This is a universal pattern of racism &mdash; members of minority groups are always required to \"prove\" their loyalty, while the loyalty of the majority is taken for granted."
+                    ],
+                    "sources": "Sources: Ruth Harris, 'Dreyfus: Politics, Emotion, and the Scandal of the Century' (2010); National Museum of American Jewish Military History"
+                },
+                {
+                    "title": "\"September 11 was orchestrated by Israel/the Mossad\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "Within days of the 9/11 attacks, conspiracy theories emerged claiming that 4,000 Jews stayed home from work at the Twin Towers after being warned by the Mossad. The lie spread through Al-Manar (Hezbollah's TV channel), conspiracy websites, and Iranian propaganda.",
+                        "The facts: Approximately 400 Jews were killed in the attacks, proportional to New York's Jewish population (~12%). The American financial services company Cantor Fitzgerald lost 658 employees &mdash; the largest loss of any single company in the attack. The number \"4,000\" is entirely fabricated and originated from a news item that said the Israeli embassy was trying to locate 4,000 Israelis who lived or worked in the New York area &mdash; \"locate\" became \"warned.\" A deliberate lie."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Proportionality bias + blame displacement: An attack like 9/11 generates enormous anger. If the attackers are a small organization (al-Qaeda), that is not \"big enough\" for the disaster. The idea that a powerful entity (Israel/Mossad) is behind it feels more \"proportionate.\" In the Arab world, the conspiracy also served to deflect blame from al-Qaeda &mdash; an Arab Islamist organization &mdash; onto \"the Jews.\""
+                    ],
+                    "sources": "Sources: 9/11 Commission (2004); factcheck.org; SITE Intelligence Group"
+                },
+                {
+                    "title": "\"Jews created Communism to destroy Western civilization\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "Karl Marx was born Jewish but was baptized as a child and was himself antisemitic in his writings ('On the Jewish Question', 1843, where he wrote that \"the god of the Jew is money\"). The same antisemites who accused Jews of being communists simultaneously accused them of controlling capitalism &mdash; a contradiction that reveals the goal is not truth but accusation.",
+                        "In the Soviet Union, Jews were persecuted under Communism: the Anti-Cosmopolitan Campaign (1948-1953) fired Jewish intellectuals, the \"Doctors' Plot\" (1953) accused Jewish doctors of plotting to murder Soviet leaders, and the Refusenik movement (1960-1980) was persecuted for Jews' desire to leave. Jewish cultural expressions and institutions were systematically eliminated. Communism persecuted Jews &mdash; the exact opposite of what the conspiracy claims."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Monolithic thinking: Blaming an ethnic group for a political idea is a classic thinking error. Some Jews were communists &mdash; just as some Jews were capitalists, anarchists, liberals, conservatives, and Zionists. Attributing the political diversity of an entire people to a single ethnic conspiracy reveals the belief that Jews are a monolith &mdash; and not, like every people, a diverse collection of individuals with different opinions."
+                    ],
+                    "sources": "Sources: Jonathan Frankel, 'Crisis, Revolution, and Russian Jews' (2009); Robert Weinberg, 'Stalin's Forgotten Zion' (1998)"
+                }
+            ]
+        },
+        {
+            "number": "Category 5",
+            "title": "Cultural and Social Accusations",
+            "desc": "Claims about Jewish character, behavior, and social influence",
+            "claims": [
+                {
+                    "title": "\"Jews are tribal and refuse to assimilate\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The cruel irony: Throughout most of history, Jews were forcibly prevented from assimilating. They were forced into ghettos (Venice, 1516 &mdash; the first ghetto; Rome until 1870), excluded from professions, denied citizenship (only in 1791 in France, 1871 in Germany), and expelled from countries.",
+                        "When Jews maintained their own communities under these conditions &mdash; they were accused of voluntary separation. When Jews did assimilate (in Weimar Germany: 25% intermarriage rate, full military service, leadership in Western culture) &mdash; they were accused of \"infiltrating\" society and were ultimately annihilated. The accusation is unfalsifiable: no matter what Jews do, it is always wrong. Separate? Tribal. Assimilate? Infiltrating. Maintain tradition? Resistant. Change? Losing identity."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Defining the \"other\": Every majority group defines itself partly by who is not part of it. Jews, as a visible minority, served as the perfect \"other\" in Europe. If they fully assimilate, the \"other\" disappears &mdash; and with it, part of the majority's identity. Therefore, even full assimilation is not enough &mdash; as discovered by German Jews who felt completely German and were murdered in Auschwitz."
+                    ],
+                    "sources": "Sources: Zygmunt Bauman, 'Modernity and the Holocaust' (1989); Amos Elon, 'The Pity of It All: A Portrait of the German-Jewish Epoch' (2002)"
+                },
+                {
+                    "title": "\"Jews think they are the 'Chosen People' and superior to everyone\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "In Jewish theology, \"chosen\" does not mean \"superior.\" It means being chosen for additional responsibility &mdash; specifically, the obligation to observe the Torah's 613 commandments. This is a duty, not a privilege. To understand: gentiles are obligated by only the 7 Noahide Laws. Jews are obligated by 613. If anything, \"chosen\" means being held to a stricter standard.",
+                        "Judaism explicitly teaches that the righteous of all nations have a share in the World to Come (Tosefta Sanhedrin 13:2). The prophet Amos declared: \"Are you not like the Ethiopians to me, O children of Israel?\" (Amos 9:7) &mdash; all peoples are equal in God's eyes. By contrast, Christianity claims that only believers in Jesus are saved, and Islam that only Muslims enter paradise. Judaism is actually the least \"supremacist\" of the three."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Mistranslation + cultural misunderstanding: The term \"Chosen People\" was translated into European languages as a title of supremacy, while in Hebrew it expresses responsibility. This is the same problem of reading a foreign cultural text through a different cultural lens. Additionally, many Christians felt that the Jewish claim to chosenness challenged the Christian claim that the Church is the \"New Israel\" (Supersessionism)."
+                    ],
+                    "sources": "Sources: Eugene Borowitz, 'Renewing the Covenant' (1991); David Novak, 'The Election of Israel' (1995)"
+                },
+                {
+                    "title": "\"Jews control Hollywood and corrupt morality\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "Jewish immigrants who fled pogroms in Europe (many of them poor, arriving with nothing) founded some of the first Hollywood studios in the early 20th century &mdash; precisely because they were excluded from \"respectable\" industries and had to turn to a new, unestablished field like cinema. Their success in what was considered a \"cheap\" field was reframed as \"control\" once cinema became a major industry.",
+                        "The modern entertainment industry is a global corporate ecosystem. Disney is owned by shareholders from around the world. Netflix, Amazon, Apple TV &mdash; none of them are \"controlled\" by Jews. The claim functions like all conspiracies: personal success of Jews in a particular field = \"ethnic control.\" But when Italians run restaurants &mdash; no one says Italians \"control food.\""
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Envy + need for explanation: When an industry produces culture people dislike (violence, sexuality, progressive values), it is easier to blame a \"foreign group\" than to confront the fact that the broader public consumes and funds this content. \"Jews are corrupting morality\" allows people to blame others instead of taking responsibility for their own tastes."
+                    ],
+                    "sources": "Sources: Neal Gabler, 'An Empire of Their Own: How the Jews Invented Hollywood' (1988); ADL documentation"
+                },
+                {
+                    "title": "\"Jews can be physically identified by their appearance (hooked nose, etc.)\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The physical caricature of Jews &mdash; hooked nose, dark features, hunched posture, rubbing hands &mdash; is a propaganda invention, not reality. The caricature figure developed in medieval Christian art, intensified in 19th-century antisemitic caricatures (such as the French newspaper \"La Libre Parole\"), and reached its peak in the Nazi \"Der St&uuml;rmer\" where Julius Streicher published weekly antisemitic caricatures.",
+                        "The reality: Jews are an ethnically diverse people that includes Ashkenazi (European, light-skinned), Sephardic (Mediterranean), Mizrahi (Middle Eastern, dark-skinned), Ethiopian (Beta Israel, Black), Indian (Bene Israel), Chinese (Kaifeng community), and Yemenite communities. They look completely different from one another. There is no \"Jewish appearance\" &mdash; just as there is no \"Christian appearance\" or \"Muslim appearance.\""
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Visual dehumanization: Physical caricatures are a critical stage in dehumanization. When a group is made to \"look different,\" it becomes easier to view them as subhuman. The Nazis used such caricatures in the children's book \"The Poisonous Mushroom\" (1938) to teach children how to \"identify\" Jews. Today, the same caricatures are spread on social media as \"memes\" &mdash; the same poison, a new bottle."
+                    ],
+                    "sources": "Sources: Sara Lipton, 'Dark Mirror: The Medieval Origins of Anti-Jewish Iconography' (2014); USHMM \"Propaganda\" exhibit"
+                }
+            ]
+        },
+        {
+            "number": "Category 6",
+            "title": "Modern Antisemitic Anti-Zionism",
+            "desc": "When criticism of Israel crosses the line into hatred of Jews",
+            "claims": [
+                {
+                    "title": "\"Israel is a Nazi state / Zionism is Nazism\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "Comparing Israel to Nazi Germany is a form of \"Holocaust inversion\" &mdash; using the genocide of Jews to attack Jews. Nazi Germany built an industrial system whose sole purpose was total racial extermination: trains, gas chambers, crematoria, bureaucracy &mdash; 6 million murdered. No democratic state, including Israel, has done anything remotely comparable on any scale.",
+                        "The IHRA definition (adopted by 35+ countries) identifies this comparison as antisemitism. The reason: it weaponizes Jewish trauma against Jews, and implicitly conveys the message that \"the victims became the murderers.\" This is not legitimate criticism &mdash; it is an attempt to deny Jews the right to define their own history. One can criticize specific Israeli policies (and many do) without resorting to Nazi comparisons whose purpose is to wound."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Victim-perpetrator inversion: Psychologically, turning the victim into the perpetrator releases the Christian/Arab/European from historical guilt. If \"the Jews are the new Nazis,\" then 2,000 years of European persecution and Arab antisemitism are balanced. This is psychological comfort, not a historical argument."
+                    ],
+                    "sources": "Sources: IHRA Working Definition of Antisemitism (2016); Manfred Gerstenfeld, 'The Abuse of Holocaust Memory' (2009)"
+                },
+                {
+                    "title": "\"Jews don't deserve a state \u2014 Israel has no right to exist\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "Denying the right to self-determination of the Jewish people while granting it to every other people is discrimination. There are 193 UN member states. If someone claims Israel has no right to exist &mdash; do they make the same claim about Pakistan (created in 1947 on a religious basis, causing the displacement of 15 million people)? About Jordan (created by the British in 1921)? About Syria, Iraq, Lebanon (created by the French and British after World War I)?",
+                        "The Jewish connection to the Land of Israel is archaeologically documented over 3,000+ years: ancient Hebrew inscriptions, Temple remains, Bar Kokhba revolt coins, ancient synagogues. Jews maintained a continuous presence in the Land of Israel for 3,000 years, even after the exiles. Zionism is not colonialism &mdash; it is a national liberation movement of a people returning to their historic homeland."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Double standard as symptom: When someone demands that Israel alone, out of all 193 UN member states, justify its right to exist &mdash; that is not \"policy criticism.\" It is a standard applied to no other country. Natan Sharansky identified a double standard as one of 3 signs that distinguish legitimate criticism from antisemitism."
+                    ],
+                    "sources": "Sources: Natan Sharansky, '3D Test' (2004); Israel Antiquities Authority archaeological findings; UN General Assembly Resolution 181 (1947)"
+                },
+                {
+                    "title": "\"The Israel lobby (AIPAC) controls American foreign policy\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "Every country lobbies in Washington. According to FARA (Foreign Agents Registration Act) records, Saudi Arabia spends tens of millions of dollars annually on lobbying in the US (a peak of $27 million in some years). The UAE: $20+ million. Qatar, Japan, South Korea &mdash; tens of millions each. AIPAC is an American (not Israeli) lobbying organization operating under the same rules and with the same transparency as every other lobby.",
+                        "The claim that AIPAC \"controls\" US policy ignores the real factors: geopolitical interests (Israel = a stable, democratic ally in the Middle East), intelligence sharing, the defense industry ($8+ billion annually, mostly returning as purchases from American companies), and American public support (Gallup polls have historically shown 60-70% sympathy for Israel, with some decline since 2023). Singling out the pro-Israel lobby as \"uniquely powerful\" echoes the same conspiracy &mdash; \"Jews control governments.\""
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Misunderstanding of democracy + conspiratorial thinking: Many people do not understand that lobbying is a legitimate part of American democracy &mdash; every interest group does it. When the pro-Israel lobby is singled out as \"manipulation\" rather than lobbying &mdash; that is an old conspiracy in modern disguise."
+                    ],
+                    "sources": "Sources: FARA Registration records; Gallup Israel Favorability polls; OpenSecrets.org lobbying data"
+                }
+            ]
+        },
+        {
+            "number": "Category 7",
+            "title": "Holocaust Denial and Distortion",
+            "desc": "Denial, minimization, or distortion of the murder of 6 million Jews",
+            "claims": [
+                {
+                    "title": "\"The Holocaust didn't happen / 6 million is an exaggeration\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The evidence for the Holocaust is among the most extensive for any historical event: Nazi administrative records (the Nazis meticulously documented their crimes), testimonies of over 100,000 survivors, confessions of perpetrators at Nuremberg and other trials, liberation photographs by Allied forces, physical evidence at Auschwitz-Birkenau and other sites, demographic data showing the disappearance of entire Jewish communities, and documents such as the Wannsee Protocol (1942) documenting the \"Final Solution.\"",
+                        "David Irving, the most prominent Holocaust denier, was debunked in a landmark London court case in 2000 (Irving v Lipstadt). The judge ruled that Irving \"deliberately distorted and manipulated history.\" Holocaust denial is illegal in 17 countries because it is not an \"opinion\" &mdash; it is the denial of documented facts, much like denying the Earth is round, except it is dangerous because it paves the way for the next genocide."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Cognitive dissonance reduction: Antisemites who want to continue hating Jews face a problem &mdash; the Holocaust makes hatred of Jews morally impossible. The solution: deny the Holocaust. If the Holocaust didn't happen, one can go back to hating Jews without guilt. This is why Holocaust denial and antisemitism always go together."
+                    ],
+                    "sources": "Sources: Deborah Lipstadt, 'Denying the Holocaust' (1993); Irving v Penguin Books Ltd (2000); USHMM Holocaust Encyclopedia"
+                },
+                {
+                    "title": "\"Jews invented or exaggerated the Holocaust for political and financial gain\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The accusation that Jews fabricated their own genocide for sympathy or money contains antisemitism in three layers: (1) it denies the suffering of millions of victims, (2) it frames the memory of genocide as a \"Jewish scheme to make money\" (the greedy Jew stereotype), and (3) it turns the victims into fraudsters.",
+                        "The facts: Holocaust reparations from Germany came after 7 years of political struggle (Luxembourg Agreements, 1952). They covered a tiny fraction of the property stolen from European Jews (homes, businesses, savings, art, gold &mdash; estimated value of hundreds of billions of dollars). Many survivors lived in poverty after the war. Over 30,000 Holocaust survivors live below the poverty line in Israel today. The alleged \"profit\" is a myth."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Holocaust fatigue + envy: Some people are tired of hearing about the Holocaust and seek justification for their indifference. The idea that \"Jews exploit the Holocaust for profit\" provides moral justification for ignoring the Holocaust. Additionally, in parts of the Arab world, denying or minimizing the Holocaust serves as a political tool &mdash; if the Holocaust didn't happen, there is no justification for Israel's existence (according to their flawed logic)."
+                    ],
+                    "sources": "Sources: Norman Finkelstein, 'The Holocaust Industry' (2000, controversial); Conference on Jewish Material Claims Against Germany records; Israeli Foundation for the Benefit of Holocaust Victims"
+                },
+                {
+                    "title": "\"The gas chambers didn't exist / they were just delousing chambers\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The Leuchter Report (1988) claimed chemical analysis of Auschwitz walls showed insufficient cyanide residue. It was thoroughly debunked by the Krakow Forensic Institute (1994), which found significant cyanide compounds. The \"lower\" level compared to delousing chambers is explained by basic chemistry: killing humans requires far less Zyklon B than killing lice (300ppm vs. 16,000ppm).",
+                        "The evidence for the gas chambers: (1) Rudolf H&ouml;ss, commandant of Auschwitz, described them in detail in his confession and in the autobiography he wrote before his execution. (2) The Sonderkommando (prisoners forced to work in the gas chambers) testified in detail. (3) Blueprints from the company Topf und S&ouml;hne (which built the crematoria) were found &mdash; including an order for \"gas-tight doors.\" (4) Allied aerial photographs from 1944 show lines of people entering buildings from which smoke is rising. (5) Physical remains at Auschwitz-Birkenau are open to public visit."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Neo-Nazism in academic disguise: Holocaust deniers dress up as \"researchers\" and \"revisionists\" to give lies the appearance of scholarship. The goal: to make Nazism legitimate again. Every \"Holocaust denier\" in history has been found to have connections to neo-Nazi organizations &mdash; there is no neutral researcher who denies the Holocaust. This is not an \"academic position\" but propaganda."
+                    ],
+                    "sources": "Sources: Jean-Claude Pressac, 'Auschwitz: Technique and Operation of the Gas Chambers' (1989); Krakow Forensic Institute Report (1994); Robert Jan van Pelt, expert witness in Irving trial"
+                }
+            ]
+        },
+        {
+            "number": "Category 8",
+            "title": "Online and Contemporary Antisemitism",
+            "desc": "Modern mutations of ancient hatred in the digital age",
+            "claims": [
+                {
+                    "title": "\"Coded symbols: triple parentheses (((echoes))), 'early life section'\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The triple parentheses symbol (((name))) was created by the neo-Nazi blog 'The Right Stuff' (2014) to identify Jews online. 'Early life section' refers to checking Wikipedia entries for Jewish ancestry. Additional coded expressions: '109' (the claim that Jews were expelled from 109 countries), 'da goyim know', 'oy vey', '6 million product', 'globalist' and 'international banker' as code names.",
+                        "Coded language enables plausible deniability: \"I'm not antisemitic, I'm just talking about globalists.\" Social media algorithms struggle to identify coded language, so antisemitic content that is deleted in open form gets published in coded form. Platforms like 4chan, Telegram, and Gab have become hubs of antisemitic propaganda. The ADL documents new symbols every week."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Group belonging + secrecy: Coded language creates a sense of a \"secret club\" &mdash; those who understand the code are \"one of us.\" This provides social belonging, a feeling of superiority (\"we know the truth\"), and the adrenaline of transgression. Many young people are exposed to antisemitic content through \"memes\" that look like jokes &mdash; but jokes are the first stage of radicalization."
+                    ],
+                    "sources": "Sources: ADL Hate on Display Database; Moonshot CVE research; ISD (Institute for Strategic Dialogue) reports"
+                },
+                {
+                    "title": "\"Jews created COVID / profited from the pandemic / vaccines as a Jewish plot\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "COVID conspiracy theories followed exactly the same pattern as medieval plague accusations: Jews created the virus, deliberately spread it, or profited from it through pharmaceutical companies. The ADL documented over 17,000 tweets blaming Jews for COVID in just the first months of the pandemic.",
+                        "Anti-lockdown protesters wore yellow stars and claimed \"we are like Jews in the Holocaust\" &mdash; a comparison that trivializes the murder of 6 million Jews to the inconvenience of a mask mandate. In Iran, state media claimed the virus was a \"Zionist biological weapon.\" In Turkey, newspapers claimed \"Jews and Mossad are behind COVID.\" The pattern is identical to 1348 (Jews poisoned wells), 1918 (Jews spread the Spanish Flu), and 2020 (Jews created COVID). 700 years, the same lie."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Terror management + ancient pattern: A pandemic creates death anxiety. Death anxiety increases hostility toward out-groups (Terror Management Theory). Jews, as a classic out-group, become the \"guilty ones.\" This is exactly the same psychological mechanism that operated during the Black Death in 1348 &mdash; what changes is the technology (Twitter instead of marketplace rumors), not human psychology."
+                    ],
+                    "sources": "Sources: ADL COVID-19 Report (2020); MEMRI; Oxford Internet Institute research on conspiracy theories"
+                },
+                {
+                    "title": "\"Jews are behind the 'Great Replacement' \u2014 orchestrating mass immigration\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The \"Great Replacement\" theory (based on Renaud Camus's book, 2011) claims Jews are deliberately engineering mass immigration to destroy white-majority nations. Immigration is actually driven by economic forces (wage gaps, labor demand), political factors (wars, dictatorships), humanitarian crises (refugees), and climate events (drought, flooding) &mdash; not by an ethnic group comprising 0.2% of the world's population.",
+                        "This conspiracy kills. It was directly cited as motivation by: Robert Bowers (Pittsburgh, 2018, 11 killed at a synagogue), Brenton Tarrant (Christchurch, 2019, 51 killed at a mosque), Patrick Crusius (El Paso, 2019, 23 killed), and John Earnest (Poway, 2019, 1 killed at a synagogue). Each published a manifesto blaming Jews for \"the replacement.\" From theory to violence &mdash; the line is short."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Demographic anxiety + scapegoating: Real demographic changes (immigration, birth rates) create anxiety among parts of the majority. Rather than confronting complex causes, it is easier to blame an \"orchestrator\" &mdash; and Jews, the eternal accused, provide the target. This is the 21st-century version of \"Jews control governments\" &mdash; the same conspiracy, just with \"immigration\" instead of \"banks.\""
+                    ],
+                    "sources": "Sources: ADL; Robert Bowers manifesto (archived); Christchurch Royal Commission Report (2020)"
+                },
+                {
+                    "title": "\"Jews weaponize antisemitism claims to silence criticism\"",
+                    "ref_label": "&#10003; Factual Refutation",
+                    "ref": [
+                        "The claim that Jews \"leverage\" antisemitism to silence criticism is itself a tactic: it tells Jews that \"you don't have the right to complain\" &mdash; precisely when antisemitism is rising to record numbers (ADL: 8,873 incidents in 2023 in the US alone, a 140% increase).",
+                        "Of course there is a legitimate debate about where the line falls between criticism of Israel and antisemitism. Criticism of specific Israeli policies = legitimate. Denial of Israel's right to exist alone = antisemitism. Use of stereotypes about all Jews = antisemitism. The rule is simple: if you replaced \"Jewish\" with \"Black/Muslim/Asian\" and the sentence sounded racist &mdash; it is also antisemitic.",
+                        "The claim that Jews \"leverage victimhood\" is the contemporary version of \"Jews are cunning and manipulative\" &mdash; the oldest stereotype, in modern disguise."
+                    ],
+                    "psych_label": "&#128300; Why do people believe this?",
+                    "psych": [
+                        "Defense against dissonance: People exposed to criticism of their views about Jews/Israel feel discomfort (cognitive dissonance). Rather than examining their views, it is easier to claim that the criticism itself is \"Jewish manipulation.\" This releases them from the need for self-examination: \"I'm not antisemitic, they just scream antisemitism to silence me.\" The desire to avoid guilt is stronger than the desire to discover truth."
+                    ],
+                    "sources": "Sources: ADL Audit (2023); David Hirsh, 'Contemporary Left Antisemitism' (2017)"
+                }
+            ]
+        }
+    ],
+    "lies_title": "Common Lies and Slanders",
+    "lies_desc": "Common lies against Israel and the Jewish people \u2014 and the facts that expose them",
+    "lie_cards": [
+        {
+            "title": "\"Israel committed genocide in Gaza\"",
+            "claim_label": "&#10060; What they claim:",
+            "claim": "Israel's military operations in Gaza following October 7, 2023 constitute genocide &mdash; the deliberate and systematic destruction of the Palestinian people. South Africa filed a case at the International Court of Justice (ICJ), and social media floods the internet with claims that Israel is committing \"genocide.\"",
+            "facts_label": "&#10003; The facts that expose the lie:",
+            "facts_list": [
+                "<strong>Legal definition:</strong> Genocide requires <strong>special intent (dolus specialis)</strong> to destroy a national, ethnic, or religious group. The UN Convention on the Prevention of Genocide (1948, Article II) stipulates that proof of intent is required &mdash; not just casualties.",
+                "<strong>The International Court of Justice (ICJ) did not rule genocide.</strong> It only ruled that South Africa's case was \"plausible enough to be heard\" &mdash; this is the lowest legal threshold for interim proceedings, not a verdict.",
+                "<strong>Combatant-to-civilian ratio:</strong> Prof. <strong>John Spencer</strong>, head of urban warfare studies at West Point, stated that Israel's casualty ratio is approximately <strong>1:1.5</strong> &mdash; while the global average in warfare is <strong>1:9</strong>.",
+                "<strong>Unprecedented measures to protect civilians:</strong> The IDF made <strong>50,066 personal phone calls</strong>, sent <strong>12 million voice messages</strong> and <strong>14 million SMS messages</strong>, dropped millions of leaflets, and created evacuation corridors &mdash; something that has never happened in any war in history.",
+                "<strong>Hamas uses human shields:</strong> UNRWA (the UN agency) found rockets in its schools <strong>3 separate times</strong>. NATO published a documented report on Hamas's human shield strategy. Yahya Sinwar said: \"We decided to turn the bodies of our women and children into a dam.\""
+            ],
+            "facts_conclusion": "If an army with nuclear capability and one of the world's strongest air forces had the <strong>intent</strong> to destroy &mdash; it would not call, send SMS, and evacuate civilians before every strike. <strong>There is no genocide in history where the attacking side warns the victims to flee.</strong>",
+            "sources": "Sources: UN Convention on the Prevention of Genocide (1948, Article II) | ICJ Interim Order, January 26, 2024 | Atlantic Council \u2014 Expert Analysis | Newsweek \u2014 John Spencer, \"Israel Has Created a New Standard for Urban Warfare\" | Lieber Institute, West Point \u2014 The IDF and the Duty to Warn | NATO StratCom COE \u2014 Hamas' Use of Human Shields | Official UNRWA statements on rockets in schools"
+        },
+        {
+            "title": "\"Israel pushed Trump to fight Iran\"",
+            "claim_label": "&#10060; What they claim:",
+            "claim": "Israel controlled, manipulated, or \"pushed\" the United States &mdash; and specifically President Trump &mdash; into a confrontation with Iran. According to this narrative, America is fighting \"Israel's war\" and not defending its own interests. This is a modern version of the \"dual loyalty\" trope &mdash; a longstanding antisemitic canard.",
+            "facts_label": "&#10003; The facts that expose the lie:",
+            "facts_list": [
+                "<strong>The US-Iran conflict predates Israel:</strong> The CIA coup in 1953 (Mossadegh), the hostage crisis of 1979 (444 days), and the complete diplomatic break since 1980 &mdash; decades before any \"Israel lobby.\"",
+                "<strong>Iran killed 869+ Americans:</strong> The Beirut bombing of 1983 (241 Marines), the Khobar Towers bombing of 1996 (19), roadside bombs in Iraq 2003-2011 (603+). A US court ordered Iran to pay $1.5 billion in damages.",
+                "<strong>Trump was anti-Iran since 1980:</strong> In an NBC interview with Rona Barrett (at age 34), Trump said the US should have invaded Iran. This was <strong>46 years</strong> before any claim of Israeli influence.",
+                "<strong>Independent American interests:</strong> The Strait of Hormuz (21% of global oil), Iran's nuclear program, terrorism funding (Hezbollah, Hamas, Houthis). Iran has been designated a \"state sponsor of terrorism\" since 1984.",
+                "<strong>Saudi Arabia also pushed:</strong> The Washington Post reported that the pressure came \"from an unusual pair of allies: Israel <strong>and Saudi Arabia</strong>\" &mdash; but no one calls Saudi pressure a \"conspiracy.\""
+            ],
+            "facts_conclusion": "The ADL identified this narrative as a classic antisemitic trope: <strong>\"dual loyalty\"</strong> &mdash; accusing Jews of secretly running foreign policy. The same trope was used against Dreyfus (1894), in the \"stab-in-the-back myth\" (1918), and in Stalin's \"Doctors' Plot\" (1953).",
+            "sources": "Sources: FDD \u2014 Iranian Attacks Against Americans 1979-Present | The White House (2026) \u2014 Decades of Iranian Terrorism | CIA Declassified \u2014 Beirut Bombing | US Energy Information Administration \u2014 Strait of Hormuz | Brookings \u2014 How Trump Thinks About Iran | Washington Post (28.2.2026) | ADL \u2014 Military Operation Fuels Antisemitic Conspiracy | AJC \u2014 #TranslateHate: Dual Loyalty"
+        },
+        {
+            "title": "\"Israel is an apartheid state\"",
+            "claim_label": "&#10060; What they claim:",
+            "claim": "Israel operates a system of racial segregation similar to the apartheid regime in South Africa. Organizations such as Amnesty International and Human Rights Watch have published reports using this label, and \"Israeli Apartheid Week\" is held on 250+ campuses worldwide.",
+            "facts_label": "&#10003; The facts that expose the lie:",
+            "facts_list": [
+                "<strong>In South Africa:</strong> Black people <strong>could not vote</strong>, were banned from entering white neighborhoods, had deliberately separate and inferior education, \"Whites Only\" signs were everywhere, and interracial marriage was a <strong>criminal offense</strong>.",
+                "<strong>In Israel:</strong> Arab citizens (21%) vote with <strong>full and equal rights</strong> since 1948. Justice <strong>Salim Joubran</strong> (Arab) served as Deputy President of the Supreme Court. The <strong>Ra'am party</strong> joined the government coalition in 2021. Druze and Bedouin serve as senior IDF officers.",
+                "<strong>Arabs and Jewish Israelis:</strong> study at the same universities, are treated at the same hospitals, shop at the same malls, swim at the same beaches. <strong>There is not a single \"Jews Only\" sign in Israel.</strong>",
+                "<strong>Kenneth Meshoe</strong>, a Black South African member of parliament <strong>who lived under real apartheid</strong>: \"I have visited Israel many times. <strong>Nothing there can be compared to apartheid in South Africa.</strong>\"",
+                "<strong>Justice Richard Goldstone</strong> (South Africa), who investigated Israel for the UN, wrote in the New York Times (2011): <strong>\"In Israel, there is no apartheid. Nothing there comes close to the definition.\"</strong>"
+            ],
+            "facts_conclusion": "",
+            "sources": "Sources: ADL \u2014 Allegation: Israel is an Apartheid State | Richard Goldstone, \"Israel and the Apartheid Slander\", New York Times (31.10.2011) | UN Watch \u2014 Response to Apartheid Claim | Britannica \u2014 Apartheid | Kenneth Meshoe, Jerusalem Post | SSRN \u2014 Sekulow & Ash Legal Analysis"
+        },
+        {
+            "title": "\"Jews control the media and the global economy\"",
+            "claim_label": "&#10060; What they claim:",
+            "claim": "Jews secretly control banks, media, and world governments, manipulating global events for their benefit. This theory is based on the \"Protocols of the Elders of Zion\" &mdash; a proven forgery created in 1903 &mdash; and on the Rothschild family myth.",
+            "facts_label": "&#10003; The facts that expose the lie:",
+            "facts_list": [
+                "<strong>\"Protocols of the Elders of Zion\" &mdash; a proven forgery:</strong> Created by the Russian secret police (Okhrana). In 1921, the Times of London proved it was a <strong>direct copy</strong> from a French satire about Napoleon III (1864) that had <strong>absolutely no connection to Jews</strong>. A Swiss court (1935) declared the text \"a forgery, plagiarism, and obscene literature.\"",
+                "<strong>Rothschild myth:</strong> The family's wealth is estimated at $400 billion &mdash; spread across 7 generations. For comparison: <strong>Elon Musk alone</strong> is worth ~$800 billion. The claim that \"the Rothschilds control 80% of global wealth\" is <strong>mathematically impossible</strong> &mdash; total global wealth is ~$471 trillion.",
+                "<strong>The 4 largest banks in the world are Chinese</strong> (ICBC, Agricultural Bank, Construction Bank, Bank of China). Among the top 20 banks &mdash; most are Chinese, Japanese, British, and French.",
+                "<strong>Jews = 0.2% of the world's population</strong> (15.7 million out of 8 billion). It is <strong>statistically impossible</strong> for 0.2% to \"control\" global economics, media, and governments.",
+                "<strong>The irony:</strong> As the ADL notes &mdash; \"Throughout history, Jews had <strong>very little control</strong> even over their own fate\" &mdash; expulsions, pogroms, Holocaust."
+            ],
+            "facts_conclusion": "",
+            "sources": "Sources: USHMM \u2014 Protocols of the Elders of Zion | ADL \u2014 A Hoax of Hate | Snopes \u2014 Rothschild Family Wealth (Fact Check) | PolitiFact \u2014 \"Pants on Fire\" Rating | S&P Global \u2014 World's Largest Banks 2024 | ADL Global 100 Survey 2024 | Britannica \u2014 Protocols"
+        },
+        {
+            "title": "\"Jews have no historical connection to the Land of Israel\"",
+            "claim_label": "&#10060; What they claim:",
+            "claim": "Jews are \"European colonizers\" with no real connection to the Land of Israel. Zionism is solely a modern \"colonial project.\" Mahmoud Abbas (April 2025) claimed the Temples stood <strong>in Yemen, not Jerusalem</strong>. The \"Temple Denial\" movement denies any Jewish connection to the Temple Mount.",
+            "facts_label": "&#10003; The facts that expose the lie \u2014 3,200 years of evidence:",
+            "facts_list": [
+                "<strong>Merneptah Stele (1208 BCE):</strong> An Egyptian inscription &mdash; <strong>the earliest non-biblical mention of Israel</strong> in history. Cairo Museum.",
+                "<strong>Tel Dan Stele (9th century BCE):</strong> An Aramaic inscription found in 1993: \"House of David\" &mdash; <strong>the first external evidence of the Davidic dynasty</strong>.",
+                "<strong>Siloam Inscription (701 BCE):</strong> An ancient Hebrew inscription inside Hezekiah's Tunnel in Jerusalem &mdash; <strong>a Hebrew speaker was in charge in Jerusalem 2,700 years ago</strong>.",
+                "<strong>Dead Sea Scrolls (3rd century BCE \u2014 1st century CE):</strong> 981 manuscripts in Hebrew and Aramaic &mdash; <strong>the oldest copies of the Bible</strong>. Israel Museum, Jerusalem.",
+                "<strong>Arch of Titus, Rome (81 CE):</strong> A relief depicting Roman soldiers <strong>carrying the Menorah from the Temple in Jerusalem</strong> &mdash; Roman proof that the Jewish Temple stood in Jerusalem.",
+                "<strong>50,000+ Bar Kokhba coins (132-135 CE):</strong> With Jewish symbols and ancient Hebrew inscriptions: \"For the Freedom of Jerusalem.\"",
+                "<strong>Genetic studies (PNAS 2000, Nature 2010):</strong> All Jewish groups &mdash; Ashkenazi, Sephardic, and Mizrahi &mdash; <strong>share common Middle Eastern genetic markers</strong>. Jews are genetically closer to Palestinians, Syrians, and Druze than to Europeans.",
+                "<strong>League of Nations (1922):</strong> Official international recognition of <strong>\"the historical connection of the Jewish people to Palestine.\"</strong>"
+            ],
+            "facts_conclusion": "Denying the Jewish connection to the Land of Israel requires ignoring <strong>archaeology, Roman records, genetic science, and international law</strong> &mdash; all of which confirm the same conclusion.",
+            "sources": "Sources: Biblical Archaeology Society \u2014 Merneptah Stele, Tel Dan Stele | Israel Museum \u2014 Dead Sea Scrolls | Yeshiva University \u2014 Arch of Titus Project | Hammer et al. (2000), PNAS 97(12) | Behar et al. (2010), Nature 466 | League of Nations Mandate (1922), Yale Avalon Project | USHMM | ADL"
+        }
+    ],
+    "timeline_title": "2,500 Years of Persecution",
+    "timeline_desc": "The timeline shows that the same lies recur again and again \u2014 each time with deadly consequences",
+    "timeline": [
+        {
+            "date": "167 BCE",
+            "title": "Persecution of Antiochus IV",
+            "desc": "The first state-sponsored persecution. Desecration of the Temple, prohibition of Judaism. Sparked the Maccabean revolt \u2014 Hanukkah.",
+            "victims": ""
+        },
+        {
+            "date": "38 CE",
+            "title": "The Alexandria Pogrom",
+            "desc": "The first documented anti-Jewish pogrom. Mobs attacked Jewish neighborhoods, destroyed homes and synagogues.",
+            "victims": "Hundreds killed"
+        },
+        {
+            "date": "70 CE",
+            "title": "Destruction of the Second Temple",
+            "desc": "Rome destroyed the center of Jewish life. The beginning of exile. Christianity reframed it as divine punishment.",
+            "victims": "Hundreds of thousands"
+        },
+        {
+            "date": "1096",
+            "title": "First Crusade Massacres",
+            "desc": "Crusaders en route to the Holy Land massacred Jewish communities across the Rhineland. In Mainz alone, 1,000 Jews were killed in a single day.",
+            "victims": "5,000-10,000 killed"
+        },
+        {
+            "date": "1144",
+            "title": "The First Blood Libel \u2014 Norwich",
+            "desc": "A child was found dead; Jews were accused without evidence. Created a template that recurred hundreds of times over the next 800 years.",
+            "victims": ""
+        },
+        {
+            "date": "1215",
+            "title": "The Fourth Lateran Council",
+            "desc": "The Pope ordered Jews to wear identifying clothing (a precursor to the yellow badge), exclusion from public office.",
+            "victims": ""
+        },
+        {
+            "date": "1290",
+            "title": "Expulsion from England",
+            "desc": "The first complete national expulsion. 3,000-16,000 Jews expelled. They were forbidden to return until 1656 \u2014 366 years of prohibition.",
+            "victims": ""
+        },
+        {
+            "date": "1348-1351",
+            "title": "Black Death Pogroms",
+            "desc": "Jews were accused of poisoning wells. In Strasbourg, 2,000 Jews were burned alive on February 14, 1349 \u2014 before the plague even reached the city. Over 200 Jewish communities were destroyed.",
+            "victims": "Tens of thousands"
+        },
+        {
+            "date": "1478",
+            "title": "The Spanish Inquisition",
+            "desc": "Targeted Jews who had converted to Christianity. Torture, imprisonment, burning at the stake in public squares. \"Blood purity\" laws \u2014 precursors to Nazi racism.",
+            "victims": "~3,000-5,000 executed"
+        },
+        {
+            "date": "1492",
+            "title": "Expulsion from Spain",
+            "desc": "200,000 Jews expelled from a country where they had lived for over 1,000 years. Many died en route.",
+            "victims": "200,000 exiled"
+        },
+        {
+            "date": "1933-1945",
+            "title": "The Holocaust",
+            "desc": "Systematic industrial genocide. Ghettos, extermination camps, Einsatzgruppen, death marches. Every antisemitic trope documented on this site was used as justification.",
+            "victims": "6,000,000 killed"
+        },
+        {
+            "date": "2018-2024",
+            "title": "Global Antisemitism Wave",
+            "desc": "Shooting at the Tree of Life synagogue in Pittsburgh (11 killed), Halle, Paris. ADL reported a 167% rise in antisemitic incidents in the US between 2016-2022.",
+            "victims": ""
+        }
+    ],
+    "psych_title": "The Psychology of Hatred",
+    "psych_desc": "Antisemitism is not really about Jews &mdash; it is about the psychological needs of the antisemite",
+    "psych_insight_title": "The Key Insight",
+    "psych_insight_text": "From all the psychological explanations, one pattern emerges: antisemitism is not really about Jews. It is about the psychological needs of the antisemites &mdash; their need for simple explanations, their fear of complexity, their displaced anger, and their desire for someone to blame. Jews are the screen onto which these needs are projected. This is why antisemitism persists even in countries with almost no Jews (Japan, South Korea, Poland after the Holocaust).",
+    "psych_cards": [
+        {
+            "title": "Scapegoating",
+            "text": "When a society faces a crisis, people look for someone to blame. A visible minority group is far easier to blame than complex systemic factors. Every accusation reveals what the accusing society fears most about itself."
+        },
+        {
+            "title": "Projection",
+            "text": "The unconscious transfer of one's own unacceptable traits onto others. Christians who felt guilty about usury accused Jews of greed. Europeans who craved world domination accused Jews of seeking world domination. Nazis who practiced eugenics accused Jews of racial mixing."
+        },
+        {
+            "title": "Confirmation Bias",
+            "text": "Once someone believes that \"Jews control the media,\" they notice every Jew in media and ignore the thousands who are not. The belief generates its own \"evidence.\""
+        },
+        {
+            "title": "Illusory Correlation",
+            "text": "When a minority is involved in a negative event, people overestimate the connection. If a Jewish banker commits fraud &mdash; his Jewishness is noted. If a non-Jewish banker commits fraud &mdash; his ethnic origin is invisible."
+        },
+        {
+            "title": "The Authoritarian Personality",
+            "text": "Adorno (1950) found a combination of traits that predicts prejudice: rigid thinking, submission to authority, aggression toward out-groups, and anxiety about change. People with these traits are drawn to antisemitic narratives because they provide simple explanations, clear enemies, and a sense of order in a complex world."
+        },
+        {
+            "title": "Conspiratorial Thinking",
+            "text": "Modern research shows that conspiratorial thinking is a cognitive style &mdash; those who believe in one conspiracy tend to believe in others, even contradictory ones. Antisemitism provides the \"mother of all conspiracies\" &mdash; one unified explanation for everything that is wrong in the world."
+        }
+    ],
+    "regions_title": "Antisemitism by Society and Nation",
+    "regions_desc": "Every society developed its own version of Jew-hatred &mdash; the same poison, different bottles",
+    "regions": [
+        {
+            "title": "The Muslim and Arab World",
+            "subtitle": "From medieval religious antisemitism to the modern conflict",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Historical Source:</strong> In early Judaism and Islam there were periods of coexistence. But the Quran contains negative verses about Jews (Surah 5:60 &mdash; \"those whom Allah cursed and turned into apes and pigs\"), and Muhammad expelled and massacred Jewish tribes in Medina (Banu Qurayza, 627 CE &mdash; 600-900 Jewish men were beheaded). Under Islamic rule, Jews were \"dhimmis\" &mdash; protected but inferior citizens who paid the jizya tax and wore identifying marks.",
+                "<strong style=\"color:#e2b714;\">The Invention of Palestinian National Identity:</strong> The term \"Palestine\" is a Roman geographic name (from 135 CE, when the Romans renamed Judea to erase Jewish identity). The Arabs of the region identified for centuries as Syrians, Arabs, or by tribe and family. Palestinian national identity crystallized mainly in the mid-20th century. Zuheir Mohsen, leader of al-Sa'iqa (a Palestinian organization), said in 1977 in an interview with the Dutch newspaper Trouw: \"The Palestinian people do not exist... there is no difference between Jordanians, Palestinians, Syrians, and Lebanese. We are all part of one Arab nation.\"",
+                "<strong style=\"color:#e2b714;\">Suicide Terror:</strong> During the Second Intifada (2000-2005), over 140 suicide bombings were carried out against Israeli civilians on buses, in restaurants, shopping centers, and nightclubs. 1,137 Israelis were killed. Hamas, Islamic Jihad, and Fatah sent young people, including women and teenagers, to blow themselves up among civilians &mdash; and then claimed Israel was \"murdering.\" The side that blows up buses with babies is not the victim.",
+                "<strong style=\"color:#e2b714;\">The \"Genocide\" Libel:</strong> Israel is the only army in history that sends warning notices to enemy civilians before an attack (\"roof knocks,\" SMS messages, leaflets). Israel operates an independent legal system that investigates violations. If Israel wanted to commit genocide, why did Gaza's population grow from 80,000 in 1948 to over 2 million in 2023? Real genocide looks like Rwanda (800,000 dead in 100 days) or the Holocaust (6 million). The right to self-defense is not genocide.",
+                "<strong style=\"color:#e2b714;\">Modern Propaganda:</strong> \"The Protocols of the Elders of Zion\" &mdash; a Russian forgery from 1903 &mdash; is a bestseller in the Arab world. The Egyptian series \"Horseman Without a Horse\" (2002, 41 episodes, broadcast on state television) is based on the Protocols and portrays Jews as plotters. Textbooks in UNRWA (the UN refugee agency) contained antisemitic content &mdash; including maps without Israel and poems praising suicide bombings."
+            ],
+            "fact_boxes": [
+                "<strong>Documented Fact:</strong> Between 1948-1972, approximately 850,000 Jews were expelled or forced to flee from Arab and Muslim countries. Their property was confiscated. Jewish communities thousands of years old in Iraq, Egypt, Libya, Yemen, Syria, and Morocco were almost completely destroyed. The Farhud in Iraq (1941): 180 Jews murdered, 1,000 injured, 900 homes destroyed &mdash; inspired by Nazi propaganda spread by the Mufti Haj Amin al-Husseini.",
+                "<strong>Hamas Charter (1988):</strong> Article 7 calls for the killing of Jews (not Israelis &mdash; Jews). Article 22 claims Jews are behind the French Revolution, World War I, Communism, and World War II. Article 32 cites the \"Protocols of the Elders of Zion\" &mdash; a Russian antisemitic forgery from 1903 &mdash; as an authentic document. This is not \"resistance to occupation.\" This is open antisemitism in the language of genocide."
+            ],
+            "sources": "Sources: Benny Morris, '1948' (2008); Hamas Charter (1988); MEMRI translations; IMPACT-se school textbook reports; Andrew Bostom, 'The Legacy of Islamic Antisemitism' (2008)"
+        },
+        {
+            "title": "Poland and Eastern Europe",
+            "subtitle": "Talmud myths, \"Jewish Communism,\" and hatred that survived the Holocaust",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">The Talmud Myth:</strong> One of the most common beliefs in Poland (and Eastern Europe) is that the Talmud is full of hatred toward non-Jews. Antisemitic propaganda (mainly from the medieval Catholic Church and from publications like \"Talmud Unmasked\" by Justinas Pranaitis, 1892) extracted quotes from context, deliberately mistranslated them, or simply fabricated them. The Talmud is 6,200 pages of legal discussion, and no qualified Talmud scholar supports the antisemitic reading.",
+                "<strong style=\"color:#e2b714;\">The Myth of \u017bydokomuna (\"Jewish Communism\"):</strong> The belief that Communism is a \"Jewish invention\" and that Jews ruled Communist Poland. In reality: the Polish United Workers' Party (PZPR) was overwhelmingly Polish. A few individual Jews held high positions &mdash; as Jews were found in every field &mdash; but they constituted a tiny percentage. Many Poles were enthusiastic communists with no connection to Jews. In 1968, the Polish Communist regime itself conducted an antisemitic campaign (\"anti-Zionists\") and expelled approximately 13,000 Jews from Poland.",
+                "<strong style=\"color:#e2b714;\">Jedwabne (1941):</strong> On July 10, 1941, Polish residents of the town of Jedwabne murdered at least 340 (possibly more than 1,000) of the town's Jews &mdash; burning them alive in a barn. Not Nazis. Polish neighbors. Historian Jan Tomasz Gross documented this in his book \"Neighbors\" (2001), causing a national shock in Poland. In 2018, Poland passed a law prohibiting attribution of responsibility for Holocaust crimes to the Polish nation &mdash; an attempt to silence history."
+            ],
+            "fact_boxes": [
+                "<strong>The Kielce Pogrom (1946):</strong> One year after the liberation of Auschwitz, 42 Jewish Holocaust survivors were murdered in a pogrom in the city of Kielce, Poland. The pretext: a blood libel (!) &mdash; a rumor that a Christian child had been kidnapped by Jews. In 1946. After the Holocaust. Survivors who had survived Auschwitz were murdered by their Polish neighbors on the basis of the same medieval lie. This event triggered a wave of flight (Bericha) of Holocaust survivors from Poland.",
+                "<strong>Russia:</strong> \"The Protocols of the Elders of Zion\" was created by the Russian secret police (Okhrana) around 1903, based on plagiarism from a French book (Maurice Joly, 1864) that had nothing to do with Jews. The Pale of Settlement (1791-1917) confined Jews to restricted residential areas. Between 1881-1921, waves of pogroms killed tens of thousands of Jews. Many of the early pogroms were encouraged or planned by the government itself. The \"Doctors' Plot\" (1953) &mdash; Stalin accused Jewish doctors of plotting to murder Soviet leaders. Only Stalin's death prevented the mass deportation of Jews to Siberia."
+            ],
+            "sources": "Sources: Jan T. Gross, 'Neighbors' (2001); Joanna Tokarska-Bakir, 'Pogrom Cries' (2018); Norman Cohn, 'Warrant for Genocide' (1967)"
+        },
+        {
+            "title": "Nazi Germany",
+            "subtitle": "The extermination machine: how a modern state turned hatred into an industry",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">The Ideology:</strong> The Nazis did not invent antisemitism &mdash; they industrialized it. They took 2,000 years of Christian antisemitism, combined it with 19th-century pseudo-scientific racism (racial anthropology, eugenics, Social Darwinism), and created an entire system of laws, bureaucracy, and industry whose sole purpose was the annihilation of an entire people.",
+                "<strong style=\"color:#e2b714;\">The Propaganda Machine:</strong> Joseph Goebbels built a propaganda system without precedent. The film \"The Eternal Jew\" (1940) depicted Jews as rats. The newspaper \"Der St\u00fcrmer\" (Julius Streicher) published weekly antisemitic caricatures. Children learned antisemitism in schools from age 6. Children's books like \"The Poisonous Mushroom\" (1938) taught children to identify and hate Jews. The method: repeat the lie enough times and people will start to believe.",
+                "<strong style=\"color:#e2b714;\">The Nazi Contradiction:</strong> The Nazis simultaneously claimed that Jews were an inferior race (Untermenschen) and that they secretly ruled the entire world. If Jews are so inferior, how are they capable of controlling everything? This contradiction reveals that antisemitism is not a rational system but a paranoid fantasy &mdash; it does not need to be consistent, only to justify hatred."
+            ],
+            "fact_boxes": [
+                "<strong>The Ladder of Destruction:</strong><br>1933: Boycott of Jewish businesses, dismissal from government positions<br>1935: Nuremberg Laws &mdash; stripped citizenship, banned intermarriage<br>1938: Kristallnacht &mdash; 1,400 synagogues burned, 30,000 Jews sent to camps<br>1939-1941: Ghettos, organized starvation, mass shootings (Einsatzgruppen killed 1.5 million)<br>1942: Wannsee Conference &mdash; the \"Final Solution\" became official<br>1942-1945: Industrial gas chambers at Auschwitz-Birkenau, Treblinka, Sobibor, Belzec, Chelmno, Majdanek",
+                "<strong>The Numbers:</strong> 6 million Jews were murdered &mdash; one-third of the entire Jewish people. 1.5 million of them were children. Jewish communities a thousand years old in Europe were completely annihilated. This is perhaps the only time in history that a modern state dedicated industrial resources &mdash; trains, factories, bureaucracy &mdash; to the sole purpose of murdering an entire people."
+            ],
+            "sources": "Sources: Raul Hilberg, 'The Destruction of the European Jews' (1961/2003); USHMM archives; Yad Vashem Central Database of Shoah Victims' Names"
+        },
+        {
+            "title": "Modern Western Europe",
+            "subtitle": "\"Anti-Zionism\" as a new mask for old antisemitism",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">The New \"Anti-Zionism\":</strong> Historian Natan Sharansky developed the \"3D Test\" for identifying when criticism of Israel crosses into antisemitism: <strong>Demonization</strong> (Israel = Nazis), <strong>Delegitimization</strong> (Israel has no right to exist), <strong>Double Standard</strong> (demands from Israel that are not demanded of any other country). Legitimate criticism of specific Israeli policies is accepted &mdash; as criticism of any country is. But denying the right to exist of Israel alone, out of all the world's nations, is antisemitism.",
+                "<strong style=\"color:#e2b714;\">Britain &mdash; The Labour Affair:</strong> Under Jeremy Corbyn (2015-2020), the British Labour Party was investigated by the Equality and Human Rights Commission (EHRC) and found responsible for serious breaches of discrimination law &mdash; institutional antisemitism. Corbyn called Hamas and Hezbollah \"friends,\" laid a wreath at the grave of the mastermind of the Munich Olympics massacre in 1972, and supported an artist who painted an antisemitic mural. Thousands of Jews left the party.",
+                "<strong style=\"color:#e2b714;\">University Campuses:</strong> The BDS movement (Boycott, Divestment, Sanctions) has become a central arm of antisemitism on campuses. Jewish students report harassment, exclusion from social justice organizations (\"You're a Zionist? You're not invited\"), and broken windows at Hillel clubs. The great theft: they use human rights language to deny the most basic right &mdash; the right to self-determination &mdash; from one people only."
+            ],
+            "fact_boxes": [
+                "<strong>France:</strong> The largest Jewish emigration from Europe in the 21st century is happening in France. 2006: Ilan Halimi, a young Jewish man, was kidnapped, tortured for 24 days, and murdered by the \"Gang of Barbarians\" &mdash; because he was Jewish \"and therefore rich.\" 2012: Mohamed Merah shot and murdered 3 children and Rabbi Jonathan Sandler at a Jewish school in Toulouse. 2015: Attack on Hyper Cacher kosher supermarket in Paris, 4 murdered. Jews are 1% of France's population but 40% of hate crime victims. Approximately 38,000 Jews left France for Israel between 2010-2020."
+            ],
+            "sources": "Sources: EHRC Report on Labour (2020); Natan Sharansky, '3D Test' (2004); ADL Campus Antisemitism reports; CRIF (Conseil Repr\u00e9sentatif des Institutions Juives de France)"
+        },
+        {
+            "title": "The United States",
+            "subtitle": "From the \"Alt-Right\" to the \"Nation of Islam\" \u2014 hatred from every direction",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">The Far Right:</strong> In Charlottesville, Virginia (August 2017), neo-Nazis marched with torches chanting \"Jews will not replace us.\" On October 27, 2018, Robert Bowers entered the Tree of Life synagogue in Pittsburgh, Pennsylvania, and shot to death 11 worshippers. This is the deadliest attack against Jews in American history. He shouted \"All Jews must die\" before opening fire.",
+                "<strong style=\"color:#e2b714;\">Louis Farrakhan and the \"Nation of Islam\":</strong> Farrakhan called Jews \"termites,\" \"satanic bloodsuckers,\" and Judaism a \"gutter religion.\" His organization publishes books like \"The Secret Relationship Between Blacks and Jews\" accusing Jews of the slave trade &mdash; a claim debunked by every serious historian (including Black historians like Henry Louis Gates). This hatred is particularly dangerous because it dresses itself in the language of social justice.",
+                "<strong style=\"color:#e2b714;\">Kanye West (Ye) and Celebrity Culture:</strong> In December 2022, West declared \"I love Nazis\" and praised Hitler on live broadcast. Prior to that, he tweeted \"Death con 3 on Jewish people.\" The impact: ADL reported a sharp rise in antisemitic propaganda from far-right groups citing West as justification. When someone with 30 million followers normalizes hatred of Jews, the consequences are real and dangerous."
+            ],
+            "fact_boxes": [
+                "<strong>Statistics:</strong> In 2022, ADL documented 3,697 antisemitic incidents in the US &mdash; the highest figure since tracking began in 1979. A 36% increase in one year. 2023 (after October 7): the figure jumped to 8,873 incidents &mdash; a 140% increase. Jews are 2.4% of the population but account for over 60% of religious hate crime victims according to the FBI."
+            ],
+            "sources": "Sources: ADL Audit of Antisemitic Incidents (2022, 2023); FBI Hate Crime Statistics; Henry Louis Gates Jr., 'Black Antisemitism' in Transition (1992); Pittsburgh Post-Gazette reporting"
+        },
+        {
+            "title": "Iran and the Islamic Regime",
+            "subtitle": "Antisemitism as state policy: from Holocaust denial to funding terrorism",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Institutionalized Holocaust Denial:</strong> Former President Mahmoud Ahmadinejad held an international conference on Holocaust denial in Tehran (2006), inviting known Holocaust deniers from around the world (including David Duke from the KKK), and declared the Holocaust a \"myth.\" Supreme Leader Khamenei continued this line, claiming there are \"serious doubts\" about the Holocaust. This is not a historical position &mdash; it is psychological preparation. Denying the previous genocide paves the way for the next one.",
+                "<strong style=\"color:#e2b714;\">The Ironic Hypocrisy of the Contradiction:</strong> Iran claims Israel is racist &mdash; while the Iranian regime systematically persecutes Baha'is, Kurds, Arabs, Sunnis, and LGBTQ+ people within Iran itself. Thousands of executions per year, women murdered for not wearing hijab (Mahsa Amini, 2022). The Jewish community in Iran (~8,000 people, down from over 100,000 before the revolution) lives under surveillance and restrictions."
+            ],
+            "fact_boxes": [
+                "<strong>Funding Terrorism:</strong> Iran funds and arms Hezbollah (Lebanon), Hamas (Gaza), Islamic Jihad (Gaza), and the Houthis (Yemen). Hezbollah is responsible for the AMIA bombing in Buenos Aires (1994, 85 killed) and the Israeli embassy bombing (1992, 29 killed). Iran's stated goal: \"wiping Israel off the map.\" This is not policy criticism &mdash; it is a call for the destruction of a people."
+            ],
+            "sources": "Sources: AMIA investigation records; IAEA reports; US State Department Country Reports on Human Rights; MEMRI translations of Iranian state media"
+        },
+        {
+            "title": "Japan, South Korea, and East Asia",
+            "subtitle": "A surprising phenomenon: antisemitism in countries with almost no Jews",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">The Paradox:</strong> Approximately 1,000 Jews live in Japan (out of 125 million). In South Korea &mdash; a few hundred. Yet \"The Protocols of the Elders of Zion\" has been translated and sold in Japan in dozens of editions. Books like \"Jewish Control of the World\" are bestsellers. In Japan and South Korea, \"antisemitism without Jews\" proves the central point: <strong>Antisemitism is not a reaction to real Jews &mdash; it is a fantasy about imaginary Jews.</strong>",
+                "<strong style=\"color:#e2b714;\">The Asian Version:</strong> Unlike European antisemitism (hatred), the Asian version is sometimes \"positive\" in a distorted way: \"Jews are smart, they control money, we can learn from them.\" This is still antisemitism &mdash; because it is based on stereotypes, not on encounters with real Jews. It turns Jews from human beings into mythical figures."
+            ],
+            "fact_boxes": [],
+            "sources": "Sources: ADL Global 100 Survey; David Goodman & Masanori Miyazawa, 'Jews in the Japanese Mind' (1995)"
+        }
+    ],
+    "report_title": "Encountered Antisemitism? Report It",
+    "report_desc": "Do not remain silent &mdash; reporting saves lives and prevents escalation. Here is where to turn:",
+    "gallery_title": "Historical Documentation",
+    "youtube_title": "Watch & Learn",
+    "footer": {
+        "motto": "Truth is the most powerful weapon against hatred",
+        "motto_en": "Truth is the most powerful weapon against hatred"
+    }
+}
