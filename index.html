@@ -1284,34 +1284,236 @@ function googleTranslateElementInit() {
     }, 'google_translate_element');
 }
 
+// === TRANSLATION SYSTEM ===
+var CUSTOM_LANGS = ['en','ar','fr','de','es','ru','no','sv','pt','it','pl','tr'];
+var _origHTML = {};
+
 function goTranslate(lang) {
     document.getElementById('langMenu').classList.remove('open');
-    // Set the Google Translate cookie
+    if (lang === 'he') { goOriginal(); return; }
+    if (CUSTOM_LANGS.indexOf(lang) !== -1) {
+        loadCustomTranslation(lang);
+    } else {
+        goGoogleTranslate(lang);
+    }
+}
+
+function goGoogleTranslate(lang) {
     document.cookie = 'googtrans=/he/' + lang + ';path=/';
     document.cookie = 'googtrans=/he/' + lang + ';path=/;domain=.github.io';
-    // If Google Translate is loaded, trigger via the select element
     var gtCombo = document.querySelector('.goog-te-combo');
-    if (gtCombo) {
-        gtCombo.value = lang;
-        gtCombo.dispatchEvent(new Event('change'));
-    } else {
-        // Fallback: reload to pick up cookie
-        location.reload();
-    }
+    if (gtCombo) { gtCombo.value = lang; gtCombo.dispatchEvent(new Event('change')); }
+    else if (!document.getElementById('gt-script')) {
+        var s = document.createElement('script');
+        s.id = 'gt-script';
+        s.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+        s.onload = function() { location.reload(); };
+        document.body.appendChild(s);
+    } else { location.reload(); }
 }
 
 function goOriginal() {
     document.cookie = 'googtrans=;path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT';
     document.cookie = 'googtrans=;path=/;domain=.github.io;expires=Thu, 01 Jan 1970 00:00:00 GMT';
-    var gtCombo = document.querySelector('.goog-te-combo');
-    if (gtCombo) {
-        gtCombo.value = '';
-        gtCombo.dispatchEvent(new Event('change'));
-    }
+    localStorage.removeItem('siteLang');
     location.reload();
 }
+
+function loadCustomTranslation(lang) {
+    fetch('lang/' + lang + '.json').then(function(r) {
+        if (!r.ok) throw new Error('Not found');
+        return r.json();
+    }).then(function(t) {
+        applyTranslation(t);
+        localStorage.setItem('siteLang', lang);
+        if (t.meta) {
+            document.documentElement.dir = t.meta.dir || 'rtl';
+            document.documentElement.lang = t.meta.code || 'he';
+        }
+    }).catch(function() {
+        goGoogleTranslate(lang);
+    });
+}
+
+function applyTranslation(t) {
+    var qs = function(s) { return document.querySelector(s); };
+    var qsa = function(s) { return document.querySelectorAll(s); };
+    function set(sel, val, html) {
+        var el = qs(sel);
+        if (el && val) { if (html) el.innerHTML = val; else el.textContent = val; }
+    }
+
+    // Nav
+    if (t.nav) qsa('.nav-links li a').forEach(function(el,i) { if(t.nav[i]) el.textContent = t.nav[i]; });
+    if (t.ui) {
+        set('.nav-donate', t.ui.donate_btn, true);
+        set('.lang-toggle-text', t.ui.lang_btn);
+        if (t.ui.search_placeholder) { var si = qs('#siteSearch'); if(si) si.placeholder = t.ui.search_placeholder; }
+        if (t.ui.copy_btn) qsa('.lie-copy-btn').forEach(function(b) { b.innerHTML = t.ui.copy_btn; });
+        if (t.ui.lie_footer) qsa('.lie-footer span').forEach(function(s) { s.innerHTML = t.ui.lie_footer; });
+        if (t.ui.toggle_open) qsa('.category-toggle').forEach(function(el) { if(!el.closest('.claims-list.open')) el.innerHTML = t.ui.toggle_open; });
+    }
+
+    // Hero
+    set('.hero h1', t.hero_title);
+    set('.hero .subtitle', t.hero_subtitle);
+    set('.hero .subtitle-en', t.hero_subtitle_en);
+    set('.hero-cta', t.hero_cta, true);
+    if (t.stat_labels) qsa('.stat-label').forEach(function(el,i) { if(t.stat_labels[i]) el.textContent = t.stat_labels[i]; });
+
+    // About
+    set('#about .section-header h2', t.about_title);
+    set('#about .section-header p', t.about_desc, true);
+    if (t.about_cards) qsa('#about .intro-card').forEach(function(c,i) {
+        if (!t.about_cards[i]) return;
+        var h = c.querySelector('h3'), p = c.querySelector('p');
+        if (h) h.textContent = t.about_cards[i].title;
+        if (p) p.innerHTML = t.about_cards[i].text;
+    });
+
+    // Claims
+    set('#claims .section-header h2', t.claims_title);
+    set('#claims .section-header p', t.claims_desc);
+    if (t.categories) qsa('#claims .category').forEach(function(cat,ci) {
+        var tc = t.categories[ci]; if (!tc) return;
+        var cn = cat.querySelector('.category-number');
+        var ch = cat.querySelector('.category-header h3');
+        var cp = cat.querySelector('.category-header > p');
+        if (cn) cn.textContent = tc.number;
+        if (ch) ch.textContent = tc.title;
+        if (cp) cp.textContent = tc.desc;
+        if (tc.claims) cat.querySelectorAll('.claim-card').forEach(function(card,cj) {
+            var cl = tc.claims[cj]; if (!cl) return;
+            var h4 = card.querySelector('h4');
+            if (h4) h4.textContent = cl.title;
+            var ref = card.querySelector('.refutation');
+            if (ref) {
+                var rl = ref.querySelector('.refutation-label');
+                if (rl && cl.ref_label) rl.innerHTML = cl.ref_label;
+                ref.querySelectorAll('p').forEach(function(p,pi) { if(cl.ref && cl.ref[pi]) p.innerHTML = cl.ref[pi]; });
+            }
+            var psy = card.querySelector('.psychology');
+            if (psy) {
+                var pl = psy.querySelector('.psychology-label');
+                if (pl && cl.psych_label) pl.innerHTML = cl.psych_label;
+                psy.querySelectorAll('p').forEach(function(p,pi) { if(cl.psych && cl.psych[pi]) p.innerHTML = cl.psych[pi]; });
+            }
+            var src = card.querySelector('.sources');
+            if (src && cl.sources) src.textContent = cl.sources;
+        });
+    });
+
+    // Lies
+    set('#lies .section-header h2', t.lies_title);
+    set('#lies .section-header p', t.lies_desc);
+    if (t.lie_cards) qsa('.lie-card').forEach(function(card,i) {
+        var lc = t.lie_cards[i]; if (!lc) return;
+        var h3 = card.querySelector('h3');
+        if (h3) h3.textContent = lc.title;
+        var claimBox = card.querySelector('.lie-claim-box');
+        if (claimBox) {
+            var ll = claimBox.querySelector('.lie-label');
+            if (ll && lc.claim_label) ll.innerHTML = lc.claim_label;
+            var cp = claimBox.querySelector('p');
+            if (cp && lc.claim) cp.innerHTML = lc.claim;
+        }
+        var refBox = card.querySelector('.lie-refutation');
+        if (refBox) {
+            var rl2 = refBox.querySelector('.lie-label');
+            if (rl2 && lc.facts_label) rl2.innerHTML = lc.facts_label;
+            var ul = refBox.querySelector('ul');
+            if (ul && lc.facts_list) {
+                ul.querySelectorAll('li').forEach(function(li,j) { if(lc.facts_list[j]) li.innerHTML = lc.facts_list[j]; });
+            }
+            var lastP = refBox.querySelector('p');
+            if (lastP && lc.facts_conclusion) lastP.innerHTML = lc.facts_conclusion;
+        }
+        var lsrc = card.querySelector('.lie-sources');
+        if (lsrc && lc.sources) lsrc.textContent = lc.sources;
+    });
+
+    // Timeline
+    set('#timeline .section-header h2', t.timeline_title);
+    set('#timeline .section-header p', t.timeline_desc);
+    if (t.timeline) qsa('.timeline-item').forEach(function(item,i) {
+        var te = t.timeline[i]; if (!te) return;
+        set(null, null); // placeholder
+        var d = item.querySelector('.timeline-date');
+        var tt = item.querySelector('.timeline-title');
+        var td = item.querySelector('.timeline-desc');
+        var tv = item.querySelector('.timeline-victims');
+        if (d && te.date) d.textContent = te.date;
+        if (tt && te.title) tt.textContent = te.title;
+        if (td && te.desc) td.textContent = te.desc;
+        if (tv && te.victims) tv.textContent = te.victims;
+    });
+
+    // Psychology
+    set('#psychology .section-header h2', t.psych_title);
+    set('#psychology .section-header p', t.psych_desc, true);
+    set('.key-insight h3', t.psych_insight_title);
+    set('.key-insight p', t.psych_insight_text, true);
+    if (t.psych_cards) qsa('.psych-card').forEach(function(c,i) {
+        if (!t.psych_cards[i]) return;
+        var h = c.querySelector('h4'), p = c.querySelector('p');
+        if (h) h.textContent = t.psych_cards[i].title;
+        if (p) p.innerHTML = t.psych_cards[i].text;
+    });
+
+    // Regions
+    set('#regions .section-header h2', t.regions_title);
+    set('#regions .section-header p', t.regions_desc, true);
+    if (t.regions) qsa('.region-card').forEach(function(card,i) {
+        var rc = t.regions[i]; if (!rc) return;
+        var h3 = card.querySelector('h3');
+        var sub = card.querySelector('.region-subtitle');
+        if (h3) h3.textContent = rc.title;
+        if (sub) sub.textContent = rc.subtitle;
+        if (rc.paragraphs) {
+            var ps = card.querySelectorAll(':scope > p');
+            ps.forEach(function(p,pi) { if(rc.paragraphs[pi]) p.innerHTML = rc.paragraphs[pi]; });
+        }
+        if (rc.fact_boxes) {
+            card.querySelectorAll('.fact-box').forEach(function(fb,fi) { if(rc.fact_boxes[fi]) fb.innerHTML = rc.fact_boxes[fi]; });
+        }
+        var sr = card.querySelector('.source-ref');
+        if (sr && rc.sources) sr.textContent = rc.sources;
+    });
+
+    // Report
+    set('#report .section-header h2', t.report_title);
+    set('#report .section-header p', t.report_desc, true);
+
+    // Gallery
+    set('#gallery .section-header h2', t.gallery_title);
+
+    // YouTube
+    set('#youtube .section-header h2', t.youtube_title);
+
+    // Footer
+    if (t.footer) {
+        var footerEls = document.querySelectorAll('footer > p');
+        if (footerEls[0] && t.footer.motto) footerEls[0].innerHTML = t.footer.motto;
+        if (footerEls[1] && t.footer.motto_en) footerEls[1].textContent = t.footer.motto_en;
+    }
+}
+
+// Auto-load saved language on page load
+(function() {
+    var saved = localStorage.getItem('siteLang');
+    if (saved && saved !== 'he' && CUSTOM_LANGS.indexOf(saved) !== -1) {
+        loadCustomTranslation(saved);
+    }
+    // Load Google Translate only if a googtrans cookie exists (non-custom language was selected)
+    var hasGT = document.cookie.indexOf('googtrans=') !== -1 && document.cookie.indexOf('googtrans=;') === -1;
+    if (hasGT) {
+        var s = document.createElement('script');
+        s.id = 'gt-script';
+        s.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+        document.body.appendChild(s);
+    }
+})();
 </script>
-<script async src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <main>
 
@@ -3485,6 +3687,7 @@ document.addEventListener('keydown', function(e) {
     if (e.key === 'ArrowRight') navLightbox(-1);
     if (e.key === 'ArrowLeft') navLightbox(1);
 });
+
 
 </script>
 
