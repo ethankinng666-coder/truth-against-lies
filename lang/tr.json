@@ -1,0 +1,837 @@
+{
+    "meta": {
+        "code": "tr",
+        "name": "Türkçe",
+        "dir": "ltr"
+    },
+    "nav": [
+        "Antisemitizm nedir?",
+        "İddialar ve Reddetmeler",
+        "Yaygın Yalanlar",
+        "Zaman çizelgesi",
+        "Psikoloji",
+        "Milletlerin Nefreti",
+        "Tarihsel Belgeler",
+        "Antisemitizmi bildirin",
+        "İzle ve Öğren",
+        "Neler Yapılabilir?"
+    ],
+    "ui": {
+        "donate_btn": "&#9749; Destek",
+        "lang_btn": "Dil",
+        "search_placeholder": "Sitede ara...",
+        "copy_btn": "&#128203; Yanıtı Kopyala",
+        "lie_footer": "&#10070; Gerçek her zaman kazanır &#10070;",
+        "toggle_open": "&#9660; Açmak için tıklayın"
+    },
+    "hero_title": "Yalanlara Karşı Gerçek",
+    "hero_subtitle": "Yalanları ortaya çıkarmak, gerçekleri ortaya koymak",
+    "hero_subtitle_en": "Yalanlara Karşı Gerçek — Antisemitizmle Mücadele",
+    "hero_cta": "Gerçeği Keşfedin &#8595;",
+    "stat_labels": [
+        "Çürütülmüş İddialar",
+        "Belgelenen Yıllar",
+        "Kategoriler",
+        "Milletler ve Topluluklar",
+        "Akademik Kaynaklar"
+    ],
+    "about_title": "Antisemitizm nedir?",
+    "about_desc": "İnsanlık tarihinin en eski nefreti &mdash; Ortaya çıkarılması gereken 2.500 yıllık yalan",
+    "about_cards": [
+        {
+            "title": "Şekil Değiştiren Bir Nefret",
+            "text": "Antisemitizm insanlık tarihindeki en kalıcı grup nefretidir. Farklı dönemlerde farklı biçimler almıştır &mdash; dini, ırksal, politik, ekonomik, komplocu &mdash; ama temel kalıp aynı kalmıştır: Yahudiler toplumun sorunlarının günah keçisi haline gelir."
+        },
+        {
+            "title": "Dokümantasyon Neden Önemlidir?",
+            "text": "Antisemitizmle mücadele etmek için önce onu anlamak gerekir. Bu sitede, her biri gerçekleri çürüten, insanların neden yalana inandığına dair psikolojik bir açıklama ve akademik kaynaklar içeren 8 kategoriden 34 yaygın antisemitik kinaye bulacaksınız. Hiçbir iddia cevapsız kalmıyor."
+        },
+        {
+            "title": "Üç Katmanlı Yanıt",
+            "text": "<strong style=\"color:#2ecc71;\">1. Gerçekleri Çürütme</strong> &mdash; Gerçekler aslında neyi gösteriyor?<br><strong style=\"color:#3498db;\">2. Psikolojik Açıklama</strong> &mdash; İnsanlar neden bu yalana inanıyor?<br><strong style=\"color:#e2b714;\">3. Tarihsel Bağlam</strong> &mdash; Bu yalan insanları ne zaman öldürdü?"
+        }
+    ],
+    "claims_title": "34 İddia – 34 Reddetme",
+    "claims_desc": "İddiaları ortaya çıkarmak için her kategoriye, yalanlamanın tamamını okumak için her iddiaya tıklayın",
+    "categories": [
+        {
+            "number": "Kategori 1",
+            "title": "Dini ve Teolojik Antisemitizm",
+            "desc": "En eski katman: dini anlatılara dayanan nefret",
+            "claims": [
+                {
+                    "title": "\"Yahudiler İsa'yı öldürdü\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "İsa, Romalı yetkililer tarafından Roma'nın idam yöntemi kullanılarak çarmıha gerildi (çarmıha gerilme Yahudilerin değil, Roma'nın bir cezasıdır). Romalı vali Pontius Pilatus idam emrini verdi. İnciller olaylardan 40-70 yıl sonra, Hıristiyanlığın Yahudilikten ayrılması bağlamında yazılmıştır. İkinci Vatikan Konseyi (1965) toplu suçun bir bütün olarak Yahudi halkına atfedilmemesi gerektiğini resmen ilan etti."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Günah keçisi arama + duygu odaklı düşünme: İlk Hıristiyanlar, İsa'nın kendi halkı olan Yahudilerin onun mesihlik iddiasını neden kabul etmediğine dair bir açıklamaya ihtiyaç duyuyorlardı. Yahudileri suçlamak uygun bir duygusal açıklama sağlıyordu. Ayrıca, Hıristiyanlık Roma İmparatorluğu'nda kabul edilmeye çalışıldığından, İsa'nın ölümü için Roma'yı suçlamak siyasi açıdan tehlikeliydi; Yahudileri suçlamak ise daha uygundu."
+                    ],
+                    "sources": "Kaynaklar: Raymond Brown, 'Mesih'in Ölümü' (1994); Vatikan II, 'Nostra Aetate' (1965)"
+                },
+                {
+                    "title": "\"Yahudiler Şeytanın çocuklarıdır\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Yuhanna İncili (8:44), belirli bir bağlamda Yahudiler arası keskin bir tartışmayı belgeliyor. İsa'nın kendisi Yahudiydi, öğrencileri de Yahudiydi ve erken Hıristiyanlık Yahudiler arası bir hareketti. Bir iç tartışmanın bir tarafını sonsuza kadar tüm Yahudilere uygulamak, iki Amerikalı politikacı arasındaki bir tartışmayı ele alıp tüm Amerikalıların kötü olduğu sonucuna varmaya benzer."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "İnsandışılaştırma: Dış grubu şeytani veya insanlık dışı olarak etiketlemek şiddetin belgelenmiş bir öncüsüdür. Gregory Stanton'ın araştırması, insanlık dışılaştırmayı soykırıma giden yolda 4. Aşama olarak tanımlıyor (1996'da 8 aşama, 2012'de 10'a çıkarıldı). Yahudilerin şeytanlaştırılması yüzyıllarca süren pogromlara olanak sağladı."
+                    ],
+                    "sources": "Kaynaklar: Adele Reinhartz (2018); Gregory Stanton, 'Soykırımın 8 Aşaması' (1996, 2012'de 10'a çıkarıldı)"
+                },
+                {
+                    "title": "\"Kan iftirası: Yahudiler Hıristiyan çocukların kanını ritüellerde kullanıyor\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "İlk kan iftirasından (Norwich, 1144) bu yana geçen 900 yıl içinde tek bir vaka bile kanıtlanamadı. Yahudilik kan tüketimini açıkça ve defalarca yasaklar: \"Hiçbir etin kanını yemeyeceksin, çünkü bütün etlerin hayatı onun kandır\" (Levililer 17:14). Kaşrut yasaları, etin tüketilmeden önce kanının tamamen boşaltılmasını gerektirir. Papa IV. Masum (1247) ve İmparator II. Frederick (1236) suçlamaları araştırdı ve asılsız buldu."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Yansıtma + yerinden edilmiş suçluluk: Kan iftirası, Haçlı Seferleri sırasında, Hıristiyanların bizzat kitlesel şiddet uyguladığı ve kan döktüğü zaman ortaya çıktı. Yahudileri kan ritüelleriyle suçlamak psikolojik yansıtma işlevi görüyordu: Hıristiyan şiddetinin suçunu Yahudi \"ötekine\" aktarmak. Ayrıca suçlama, Yahudi mülklerine el konulması ve Yahudi nüfusunun sınır dışı edilmesi için gerekçe sağlıyordu."
+                    ],
+                    "sources": "Kaynaklar: R. Po-chia Hsia, 'Ritüel Cinayet Efsanesi' (1988); Magda Teter, 'Kan İftirası' (2020)"
+                },
+                {
+                    "title": "\"Ev sahibine saygısızlık: Yahudiler cemaat gofretlerini bıçaklıyor\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Suçlama iki imkansız şeye aynı anda inanmayı gerektiriyordu: Yahudilerin Hıristiyan teolojisini reddetmesi (yumurtanın İsa'nın bedeni olduğu inancı) ve Yahudilerin ekmeğin kutsallığına inandıkları için saldırmaları. Bu mantıksal bir çelişkidir. Eğer Yahudiler ekmeğin İsa olduğuna inanmıyorlarsa, ona \"işkence\" yapmak için hiçbir nedenleri yoktur. Tarihçi Miri Rubin, ev sahibi saygısızlık suçlamalarının tam olarak Yahudi ve Hıristiyan toplulukları arasındaki ekonomik gerilim dönemlerinde meydana geldiğini belgeledi &mdash;, bu da gerçek saikin teoloji değil ekonomik rekabet olduğunu öne sürdü. Rintfleisch katliamlarında (1298) bu suçlamalara dayanılarak Almanya'da 100'den fazla Yahudi cemaati yok edildi."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Atıf hatası + ekonomik günah keçisi ilan etme: Ekonomik sıkıntı yaşayan toplulukların Yahudi varlıklarına el koymak için gerekçeye ihtiyacı vardı. Dini bir suçlama, ekonomik hırsızlığa manevi kılıf sağlıyordu. Maddi kazancı meşrulaştırmak için ahlaki suçlamaları kullanan bu &mdash; modeli &mdash; antisemitizmin tüm tarihi boyunca tekrarlanmıştır."
+                    ],
+                    "sources": "Kaynaklar: Miri Rubin, 'Yahudi olmayan Masallar: Geç Ortaçağ Yahudilerine Anlatı Saldırısı' (1999)"
+                },
+                {
+                    "title": "\"Yahudiler kuyuları zehirleyip veba yayıyorlar\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Yahudiler Kara Ölüm'e karşı bağışık değildiler &mdash; sürüler halinde öldüler. Bazı topluluklarda Yahudi ölüm oranları biraz daha düşüktü; tarihçiler bunu sık sık el yıkamaya (Yahudi yasalarının gerektirdiği gibi), hastalar için karantinaya ve gettolarda ayrı su kaynaklarına bağlıyor. Bunlar bir komplo değil, dini uygulamalardır. Papa VI. Clement 1348'de Yahudileri savunan iki papalık bildirisi yayınlayarak Yahudilerin de herkes gibi vebadan öldüğünü belirtti. Katliamlar her şeye rağmen devam etti."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Terör yönetimi + kontrol ihtiyacı: Kara Ölüm 4 yıl içinde Avrupa nüfusunun %30-60'ını öldürdü. Terör Yönetimi Teorisi (Greenberg, Solomon ve Pyszczynski), insanların ölüm kaygısıyla karşı karşıya kaldıklarında dış gruplara karşı daha düşmanca davrandıklarını göstermektedir. Yahudileri vebadan sorumlu tutmak, rastgele, korkunç bir felaketi, tanımlanabilir bir düşmanın (PH0__) neden olduğu bir şeye dönüştürdü ve kontrol yanılsamasını yeniden sağladı."
+                    ],
+                    "sources": "Kaynaklar: Samuel Cohn, 'Kara Ölüm ve Yahudilerin Yakılması' (2007); Papa Clement VI, Boğa 'Quamvis Perfidiam' (1348)"
+                },
+                {
+                    "title": "\"Yahudiler vatansız dolaşmaya lanetlendiler\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Yahudilerin İsrail Topraklarından sürgünü askeri fetihlerin sonucuydu: Babil Sürgünü (MÖ 586), Tapınağın Roma tarafından yıkılması (MS 70) ve Bar Kokhba isyanı (MS 135). Daha sonra Yahudiler insani kararnamelerle ülkelerden kovuldu: İngiltere (1290), Fransa (1306, 1394), İspanya (1492), Portekiz (1497). Her sürgün siyasi ve ekonomik nedenlerden dolayı krallar tarafından gerçekleştirildi. Zorla yerinden edilmeyi bir lanet olarak çerçevelemek, mağduru kendi zulmünden sorumlu tutuyor."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Adil dünya önyargısı (Melvin Lerner): İnsanların, dünyanın adil olduğuna, insanların hak ettiklerini aldığına inanmaya yönelik derin bir psikolojik ihtiyaçları vardır. Yahudiler sınır dışı edildiğinde ve zulüm gördüğünde, gözlemcilerin onların bunu hak ettiğine inanmaları gerekiyordu. \"Yanlış bir şey yapmış olmalılar\" &mdash; bu, adil dünya önyargısının eylem halindeki halidir."
+                    ],
+                    "sources": "Kaynaklar: Melvin Lerner, 'Adil Bir Dünyaya İnanç' (1980); David Nirenberg, 'Yahudi Karşıtlığı: Batı Geleneği' (2013)"
+                },
+                {
+                    "title": "\"Talmud Yahudi olmayanlara karşı nefret öğretileri içeriyor\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Talmud, 700 yıla (MÖ 200 - MS 500) yayılan 6.200 sayfalık hukuki tartışmalardan oluşan bir arşivdir. Her konu hakkında farklı görüşler içerir &mdash; genellikle çelişkilidir &mdash; çünkü dogmaları değil tartışmaları kaydeder. Tek tek pasajları bağlamı olmadan almak, bir mahkemeden tek bir muhalif görüşü alıntılamak ve bunun yasayı temsil ettiğini iddia etmek gibidir.<br><br>Talmud açıkça şunu öğretir: \"Tüm ulusların dürüstlerinin Gelecek Dünyada bir payı vardır\" (Tosefta Sanhedrin 13:2). Yahudi hukuku, tüm insanlarla iş yaparken dürüst olmayı gerektirir (dina d'malkhuta dina). Pikuach nefesh (hayat kurtarmak) hemen hemen tüm emirleri geçersiz kılar ve sadece Yahudi yaşamının değil, tüm insan yaşamının kurtarılmasını zorunlu kılar."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Onaylama önyargısı + gelişigüzel seçim: Yahudilerin Yahudi olmayanlardan nefret ettiğine zaten inanan insanlar, Talmud'da inançlarını doğrulayan pasajlar arar, onunla çelişen binlerce pasajı görmezden gelir ve bulduklarından bağlamı çıkarırlar. Aynı yöntem, herhangi bir dini metnin &mdash; İncil, Kuran, Hindu kutsal metinleri &mdash; zulmü teşvik ediyor gibi görünmesine neden olabilir."
+                    ],
+                    "sources": "Kaynaklar: Gil Öğrencisi, 'Talmud Hakkında Gerçek Gerçek' (2000); David Berger, 'Zulüm, Polemik ve Diyalog' (2010)"
+                }
+            ]
+        },
+        {
+            "number": "Kategori 2",
+            "title": "Irksal ve Biyolojik Antisemitizm",
+            "desc": "19. ve 20. yüzyıllardan kalma sözde bilimsel nefret",
+            "claims": [
+                {
+                    "title": "\"Yahudiler ayrı ve aşağı bir ırktır\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "İnsan Genomu Projesi (2003), herhangi bir ırksal grup içinde gruplar arasında olduğundan daha fazla genetik çeşitlilik olduğunu doğruladı. İnsanlar kökenlerine bakılmaksızın DNA'larının %99,9'unu paylaşırlar. Yahudi popülasyonları genetik olarak çeşitlidir: Aşkenazi, Sefarad, Mizrahi, Etiyopyalı, Hintli ve Çinli Yahudiler birbirlerinden tamamen farklı görünüyorlar. Tek bir \"Yahudi ırkı\" fikrinin genetik bir anlamı yoktur."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Hiyerarşi İhtiyacı: Sosyal Hakimiyet Teorisi (Sidanius ve Pratto, 1999), bazı insanların grupları değer hiyerarşileri halinde organize etmeye güçlü bir ihtiyaç duyduğunu göstermektedir. Irksal sınıflandırma, insan gruplarını sıralamak için \"bilimsel\" bir çerçeve sağladı. Sözde bilimsel ırkçılık, önyargının rasyonel ve kanıta dayalı olduğunu hissettirdi."
+                    ],
+                    "sources": "Kaynaklar: İnsan Genomu Projesi (2003); UNESCO 'Irk Bildirisi' (1950-1967)"
+                },
+                {
+                    "title": "\"Yahudiler genetik olarak açgözlülüğe ve manipülasyona yatkındır\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Davranışsal genetik, karmaşık davranışsal özelliklerin (kişilik, ahlaki karakter, finansal davranış) genetik ve çevrenin birleşimi tarafından şekillendiğini ve hiçbir zaman bir etnik gruba üyelikle şekillenmediğini açıkça göstermiştir. \"Açgözlülük geni\" yoktur. Hayırseverlik üzerine yapılan araştırmalar, Yahudi topluluklarının dünyadaki en cömert topluluklar arasında olduğunu sürekli olarak göstermektedir. Yahudilerle para arasındaki ilişki tarihsel bir yapıdır: Orta Çağ Hıristiyanları Yahudileri tefecilikle sınırladılar ve sonuçtan onları sorumlu tuttular."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Temel Atfetme Hatası (Lee Ross, 1977): İnsanların, başkalarının davranışlarını içinde bulundukları koşullardan ziyade karakterlerine atfetmelerine neden olan bilişsel bir önyargı. Yahudiler tefeci olduklarında, gözlemciler bunu durumsal kısıtlamalardan (diğer mesleklerden men edilmişlerdi) ziyade Yahudi karakterine (\"açgözlüler\") bağladılar. Bu, tekerlekli sandalyedeki bir kişiyi merdivenleri kullanmadığı için suçlamakla aynı şeydir."
+                    ],
+                    "sources": "Kaynaklar: Lee Ross (1977); Steven Pinker, 'Boş Sayfa' (2002)"
+                },
+                {
+                    "title": "\"Yahudiler insanlık dışıdır (Untermenschen)\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Herhangi bir insan grubunu \"insanlık dışı\" olarak sınıflandırmak bilimsel bir ifade değil, bir propaganda tekniğidir. Gregory Stanton'ın araştırması, insanlıktan çıkarmanın soykırımın 4. Aşaması (1996'da 8 aşama, 2012'de 10 aşamaya genişletildi) &mdash; psikolojik olarak öldürmeyi mümkün kılan aşama olduğunu tanımlıyor. Naziler aynı zamanda Yahudilerin insanlık dışı olduğunu ve gizlice dünyaya hükmettiklerini iddia etti; bu mutlak bir mantıksal çelişkiydi. Umberto Eco bunu faşist ideolojinin tanımlayıcı bir özelliği olarak tanımladı: \"Düşman hem çok güçlü hem de çok zayıf.\""
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Ahlaki kopukluk (Albert Bandura): Bandura'nın araştırması, ahlaki düzenlemeleri etkisiz hale getirildiğinde sıradan insanların olağanüstü zulümler yapabileceğini gösteriyor. İnsanlıktan çıkarma en güçlü mekanizmadır &mdash; Mağdurlar insan olmayanlar olarak yeniden sınıflandırıldığında, failler suçluluğun psikolojik bedeli olmadan onlara zarar verebilir. Holokost, milyonlarca sıradan Alman'ın soykırıma katılmasını veya buna hoşgörü göstermesini gerektirdi. İnsandışılaştırma bunu psikolojik olarak mümkün kıldı."
+                    ],
+                    "sources": "Kaynaklar: Gregory Stanton, 'Soykırımın 8 Aşaması' (1996, 2012'de 10'a çıkarıldı); Umberto Eco, 'Ur-Faşizm' (1995); Albert Bandura'nın (1999)"
+                },
+                {
+                    "title": "\"Yahudiler diğer ırkları zayıflatmak için ırkların karışmasını teşvik ediyor\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Suçlama tamamen yansıtmadır. Nazilerin kendisi de büyük çapta öjeni uyguladı: T4 programı 70.000'den fazla engelli insanı öldürdü, Lebensborn programı \"ırksal açıdan saf\" çocuklar yetiştirdi, zorla kısırlaştırmalar 400.000 kişiyi etkiledi ve Holokost 6 milyon Yahudiyi ve milyonlarca insanı öldürdü. Yahudileri suçlayanların kendilerinin işledikleri eylemle suçlamak klasik bir yansıtmadır. Modern versiyonlar (\"Büyük Yer Değiştirme\" teorisi), Yahudilerin beyaz nüfusun yerini almak için göçü planladığını iddia ediyor. Göç, ekonomik güçler, savaşlar, iklim değişikliği ve farklı liderliklere sahip demokratik hükümetlerin politikaları tarafından yönlendirilmektedir."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Geniş ölçekte yansıtma: Bütün bir rejim, kendi suçlarını kurbanlarına yansıttığında, bu iki amaca hizmet eder: (1) rejimin kendi eylemlerini meşrulaştırır (\"bunu yapmalıyız çünkü onlar bunu bize yapıyorlar\") ve (2) halkı kurbanlara karşı sempatiye karşı korur (\"eğer ellerinden gelse bize daha kötüsünü yaparlar\"). Bu Propaganda 101."
+                    ],
+                    "sources": "Kaynaklar: Robert Proctor, 'Irksal Hijyen: Naziler Altında Tıp' (1988); Richard Evans, 'İktidardaki Üçüncü Reich' (2005)"
+                }
+            ]
+        },
+        {
+            "number": "Kategori 3",
+            "title": "Ekonomik ve Finansal Stereotipler",
+            "desc": "Para efsanesi: açgözlülük, kontrol ve sömürü suçlamaları",
+            "claims": [
+                {
+                    "title": "\"Yahudiler bankaları ve küresel finansal sistemleri kontrol ediyor\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Ortaçağ Avrupa'sında Yahudiler çoğu meslekten (tarım, loncalar, hükümet) dışlandı. İzin verilen birkaç meslekten biri, Hıristiyanların günah saydığı tefecilikti. Yahudi tefeciler başarılı olduklarında, kendilerine dayatılan başarı nedeniyle onlardan nefret ediliyordu. Rothschild ailesi (1760'larda kuruldu) antisemitlerin istismar ettiği bir sembol haline geldi. Gerçekte Yahudiler dünya nüfusunun ~%0,2'sini oluşturuyor ve bankacılığı kontrol etmiyorlar. Büyük bankalar, çeşitli liderliklere sahip halka açık şirketlerdir."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Hayali korelasyon önyargısı (Hamilton ve Gifford, 1976): Bir azınlık olumsuz bir olaya dahil olduğunda, insanlar grup ile olay arasındaki bağlantıyı abartırlar. Yahudi olan bir bankacı dolandırıcılık yaparsa onun Yahudiliği not edilir; Yahudi olmayan bir bankacı dolandırıcılık yaptığında etnik kökeni görünmez."
+                    ],
+                    "sources": "Kaynaklar: Hamilton ve Gifford, Deneysel Sosyal Psikoloji Dergisi (1976)"
+                },
+                {
+                    "title": "\"Yahudiler açgözlü ve paraya takıntılıdır\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Yahudilerle açgözlülük arasındaki bağlantı bir gerçek değil, kültürel bir yapıdır. Bu, Yahudilerin zorlandığı sınırlı ekonomik rollerden kaynaklanıyor. Hıristiyan Avrupa'da Kilise, Hıristiyanların tefecilik (faizle borç verme) yapmasını yasakladı. Çoğu meslekten (toprak sahibi olmak, profesyonel loncalara katılmak, çiftçilik) dışlanan Yahudilere çok az ekonomik seçenek bırakıldı &mdash; ve ticaret ve tefecilik de bunların arasındaydı. Daha sonra kendilerine dayatılan işgalden dolayı suçlandılar.",
+                        "Hayırseverlik üzerine yapılan araştırmalar, Yahudi topluluklarının dünyadaki en cömert topluluklar arasında olduğunu sürekli olarak göstermektedir. Yalnızca Amerika'daki Yahudi federasyonları hem Yahudi hem de Yahudi olmayan topluluklara yılda milyarlarca dolar bağışta bulunuyor. Yahudilikte hayırseverlik kavramı (\"adalet\" kelimesinden türetilen tzedakah &mdash;) gönüllü bir iyilik eylemi değil, dini bir yükümlülüktür. İbn Meymun (12. yüzyıl) hayır kurumunun 8 düzeyini belirledi; bunların en yükseği kişinin kendi kendine yeterli hale gelmesine yardımcı olmaktı."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Yansıtma + yerinden edilmiş kıskançlık: İnsanlar ekonomik başarıyı kıskanır ve başarılıları açgözlülükle suçlarlar. Shylock (Shakespeare, \"Venedik Taciri\") ve Fagin (Dickens, \"Oliver Twist\") gibi edebi karakterler bu klişeyi yüzyıllar boyunca güçlendirdi. Karikatürlerdeki Yahudi karşıtı propaganda, Yahudileri çengel burunlu, ellerinde madeni para tutan &mdash; resimleriyle tasvir ediyordu; bu görüntüler bugün hâlâ internette yer alıyor."
+                    ],
+                    "sources": "Kaynaklar: Derek Penslar, 'Shylock'un Çocukları: Modern Avrupa'da Ekonomi ve Yahudi Kimliği' (2001); İbn Meymun, Mişne Tora, Yoksullara Hediye Kanunları"
+                },
+                {
+                    "title": "\"Yahudiler 2008 mali krizine neden oldu\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Her ekonomik krizin ardından antisemitistler Yahudileri suçluyor. 2008 krizi, belirli Yahudi finansörleri sorumlu olarak adlandıran bir komplo teorileri dalgası yarattı. Aynı model Büyük Buhran (Peder Coughlin'in radyo yayınları), 1998 Asya krizi ve COVID ekonomik aksaklıklarının ardından da meydana geldi. Gerçekte finansal krizler, herhangi bir etnik grubun eylemlerinden değil, tüm endüstrileri etkileyen sistemik faktörlerden (serbestleştirme, spekülasyon, karmaşık finansal araçlar) kaynaklanır."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Orantılılık yanlılığı: İnsanlar büyük olayların büyük nedenlere sahip olmasını beklerler. Küresel bir mali kriz ortaya çıktığında, bunun karmaşık sistemik faktörlerden kaynaklandığı fikri tatmin edici değildir. Bunu güçlü bir grubun planladığı fikri daha orantılı geliyor. Zaten finansal bir güç olarak kalıplaşmış olan Yahudiler, \"büyük dava\" haline geliyor."
+                    ],
+                    "sources": "Kaynaklar: Daniel Kahneman, 'Düşünme, Hızlı ve Yavaş' (2011)"
+                },
+                {
+                    "title": "\"Yahudiler Yahudi olmayanları ekonomik açıdan sömürüyor ve onları sığır olarak görüyor\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "\"Goy\" kelimesi İbranice'de basitçe \"ulus\" anlamına gelir (İsrail'e bile Tevrat'ta \"goy kadosh\" &mdash; kutsal bir ulus &mdash; denir) ve tarafsız olarak Yahudi olmayanları ifade eder. Antisemitistler bunu çarpıtarak Yahudilerin Yahudi olmayanları sömürülebilecek insanlık dışı sığırlar olarak gördükleri iddiasına dönüştürdüler. Bu tamamen uydurmadır.",
+                        "Yahudilik, tüm insanlara adil davranılmasını gerektiren kapsamlı bir etik yasalar sistemine sahiptir: \"Komşunu kendin gibi sev\" (Levililer 19:18), \"Adalet, adaletin peşinden koşacaksın\" (Tesniye 16:20) ve \"Kardeşine baskı yapmayacaksın\" (Levililer 19:13). \"Dina d'malkhuta dina\" (ülkenin kanunu kanundur) ilkesi, Yahudilerin tüm ilişkilerde dürüst olmasını gerektirir. Yahudi hukuku, mağdurun Yahudi olup olmadığına bakılmaksızın \"geneivat da'at\"ı (aldatma) &mdash; açıkça yasaklamaktadır.",
+                        "Talmud'un Yahudi olmayanların sömürülmesine izin verdiği iddiası, 6.200 sayfalık tartışmanın bağlamından koparılmış alıntılara dayanmaktadır (çarpıtmayı anlamak için, bütün bir kitaptan tek bir cümle çekip bunun tüm çalışmayı temsil ettiğini iddia ettiğinizi hayal edin). Nitelikli Talmud bilginleri &mdash; Yahudi ve Yahudi olmayan &mdash; oybirliğiyle bu okumayı reddediyorlar."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Cehalet + onay arayışı: Zaten Yahudilerden nefret eden insanlar okuyamadıkları metinlerde (Talmud İbranice ve Aramice yazılmıştır) \"kanıt\" ararlar. Orta Çağ'dan bu yana dolaşan uydurma \"çevirilere\" güveniyorlar. Peder Justinas Pranaitis'in (1892) \"Talmud Unmasked\" adlı yayını, Pranaitis'in mahkemede Aramice bilmediğini itiraf etmesiyle hatalarla dolu olduğu ortaya çıktı."
+                    ],
+                    "sources": "Kaynaklar: Peter Sch&auml;fer, 'Talmud'daki İsa' (2007); Gil Öğrencisi, 'Talmud Hakkında Gerçek Gerçek' (2000); ADL belgeleri"
+                }
+            ]
+        },
+        {
+            "number": "Kategori 4",
+            "title": "Siyasi Komplo Teorileri",
+            "desc": "Gizli kontrol, dünyaya hakimiyet ve \"gizli el\"",
+            "claims": [
+                {
+                    "title": "\"Yahudiler gizlice dünya hükümetlerini kontrol ediyor (ZOG)\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "\"Siyon Büyüklerinin Protokolleri\", 1903 civarında Rus gizli polisi (Okhrana) tarafından oluşturulan ve dünya hakimiyetini planlamak için bir Yahudi toplantısının tutanakları olduğu iddia edilen uydurma bir metindir. Sahte olduğu 1921'de Times of London tarafından kanıtlandı &mdash; metin, Maurice Joly'nin 1864'te yazdığı ve Yahudilerle hiçbir ilgisi olmayan III. Napolyon hakkındaki hicivinden neredeyse kelimesi kelimesine kopyalanmıştı.",
+                        "Tamamen çürütülmüş olmasına rağmen, Henry Ford bu kitabı Amerika'da dağıttı (\"Dearborn Independent\" gazetesi, 91 Yahudi karşıtı sayı), Hitler \"Mein Kampf\"ta bundan alıntı yaptı ve bugün Arap dünyasında en çok satanlar arasında yer alıyor. Eğer 15 milyon Yahudi (dünya nüfusunun %0,2'si) dünyayı gerçekten yönetiyorsa &mdash; neden Holokost'u önleyemediler? İsrail'in varlığı için neden müzakere yapması gerekiyor? Sözde \"kontrol\"ün var olmadığının en iyi kanıtıdır."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Komplocu düşünce: Araştırmalar (van Prooijen, 2017), bir komploya inanan insanların diğerlerine, hatta çelişkili komplolara da inanma eğiliminde olduğunu gösteriyor. \"Yahudiler dünyayı kontrol ediyor\" ifadesi \"tüm komploların anasıdır\" &mdash; yanlış olan her şeyin basit bir açıklamasıdır. Bu bir kontrol yanılsaması sağlar: Eğer kaosun arkasında biri varsa, o zaman dünya rastgele ve korkutucu değildir. Yanlış olsa bile rahatlatıcıdır."
+                    ],
+                    "sources": "Kaynaklar: Norman Cohn, 'Soykırım Emri' (1967); van Prooijen & Douglas, 'Tarihin bir parçası olarak komplo teorileri' (2017)"
+                },
+                {
+                    "title": "\"Yahudiler medyayı kontrol ediyor ve kamuoyunu manipüle ediyor\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Yahudilerin medyayı kontrol ettiği iddiası istatistiksel ve gerçek anlamda yanlıştır. Büyük medya şirketleri, çeşitli ülkelerden ve kökenden gelen çeşitli sahiplik ve liderlik yönetim kurullarına, hissedarlara ve yönetime sahip, halka açık şirketlerdir (Disney, Comcast, News Corp). Rupert Murdoch (News Corp, Fox News) &mdash; Avustralyalı. Jeff Bezos (Washington Post) &mdash; Amerikalı. Elon Musk (Twitter/X) &mdash; Güney Afrikalı. Hiçbiri Yahudi değil.",
+                        "İddia, yanlışlanamaz bir Madde-22 işlevi görüyor: Eğer bir Yahudi medyada çalışıyorsa, bu komployu \"kanıtlıyor\". Bir Yahudi medyada çalışmıyorsa \"saklanıyordur.\" Eğer medya İsrail hakkında olumlu haber yaparsa, \"onu kontrol ediyorlar.\" Olumsuz rapor verirse \"bu bir sis perdesidir.\" Hiçbir kanıt, hiçbir zaman kanıta dayanmayan bir inancı çürütemez."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Doğrulama yanlılığı + yanıltıcı korelasyon: ADL Global 100 anketi, bunun en yaygın Yahudi karşıtı stereotiplerden biri olduğunu ortaya çıkardı &mdash; Orta Doğu'da yanıt verenlerin %74'ü ve Avrupa'da %24'ü Yahudilerin medyayı kontrol ettiğine inanıyor. İnanç bir kez ortaya çıktığında, medyada bulunan her Yahudi bunu \"kanıtlıyor\", medyadaki Yahudi olmayan binlerce kişi ise basitçe görmezden geliniyor."
+                    ],
+                    "sources": "Kaynaklar: ADL Global 100 Araştırması (2023); Steven Bayme, 'Yahudi Tarihini Anlamak' (1997)"
+                },
+                {
+                    "title": "\"Yahudilerin ikili sadakati vardır; ülkelerine değil İsrail'e sadıktırlar\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Çifte sadakat suçlaması yüzyıllardır Yahudileri sivil hayattan dışlamak için kullanılıyor. Fransız Yahudi subayı Yüzbaşı Alfred Dreyfus, 1894 yılında uydurma kanıtlara (PH0__) ve kısmen de bir Yahudi'nin Fransa'ya gerçekten sadık olamayacağı varsayımına dayanarak vatana ihanetten suçlu bulundu. Olay Fransa'yı parçaladıktan sonra 1906'da temize çıkarıldı.",
+                        "Gerçekte, Yahudiler yaşadıkları her ülkenin ordularında ayrıcalıklı bir şekilde, çoğunlukla da orantısız bir şekilde hizmet etmişlerdir: 100.000 Yahudi, Birinci Dünya Savaşı'nda Alman ordusunda görev yapmış, 12.000'i savaşta öldürülmüş, 18.000'i Demir Haç almış, 35.000'i rütbede terfi etmiş ve 3.000'i subay olmuştur. 1935'te aynı Almanya onları vatandaşlıktan çıkardı. İkinci Dünya Savaşı'nda ABD ordusunda 550.000 Yahudi görev yaptı. \"Çifte sadakat\" suçlaması yalnızca Yahudilere yöneliktir &mdash; kimse İrlandalı Amerikalıları İrlanda'ya çifte bağlılıkla suçlamıyor."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Sürekli \"ötekilik\": Suçlama, Yahudilerin bir ülkede kaç kuşak yaşarsa yaşasın her zaman \"yabancı\" oldukları varsayımını ortaya koyuyor. Bu evrensel bir ırkçılık modelidir &mdash; Azınlık gruplarının üyelerinden her zaman sadakatlerini \"kanıtlamaları\" beklenirken, çoğunluğun sadakati olduğu gibi kabul edilir."
+                    ],
+                    "sources": "Kaynaklar: Ruth Harris, 'Dreyfus: Politika, Duygu ve Yüzyılın Skandalı' (2010); Amerikan Yahudi Askeri Tarihi Ulusal Müzesi"
+                },
+                {
+                    "title": "\"11 Eylül İsrail/Mossad tarafından düzenlendi\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "11 Eylül saldırılarından birkaç gün sonra, 4.000 Yahudinin Mossad tarafından uyarıldıktan sonra İkiz Kuleler'deki işlerinden evde kaldıklarını iddia eden komplo teorileri ortaya çıktı. Yalan, Al-Manar (Hizbullah'ın TV kanalı), komplo web siteleri ve İran propagandası yoluyla yayıldı.",
+                        "Gerçekler: Saldırılarda, New York'un Yahudi nüfusuyla orantılı olarak (~%12) yaklaşık 400 Yahudi öldürüldü. Amerikan finansal hizmetler şirketi Cantor Fitzgerald, saldırıda 658 çalışanını (PH0__) kaybetti ve bu, herhangi bir şirketin en büyük kaybı oldu. \"4.000\" sayısı tamamen uydurmadır ve İsrail büyükelçiliğinin New York bölgesinde yaşayan veya çalışan 4.000 İsraillinin yerini tespit etmeye çalıştığını söyleyen bir haberden alınmıştır. &mdash; \"tespit\", \"uyarıldı\" haline geldi. Kasıtlı bir yalan."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Orantılılık yanlılığı + suçlamanın yer değiştirmesi: 11 Eylül gibi bir saldırı çok büyük bir öfke yaratır. Eğer saldırganlar küçük bir örgütse (El Kaide), bu felaket için \"yeterince büyük\" değil. Arkasında güçlü bir varlığın (İsrail/Mossad) olduğu fikri daha \"orantılı\" geliyor. Arap dünyasında bu komplo, aynı zamanda Arap İslamcı örgütü &mdash; olan El Kaide'nin (PH0__) suçu \"Yahudilere\" yöneltmesine de hizmet etti."
+                    ],
+                    "sources": "Kaynaklar: 9/11 Komisyonu (2004); factcheck.org; SITE İstihbarat Grubu"
+                },
+                {
+                    "title": "\"Yahudiler Komünizmi Batı medeniyetini yok etmek için yarattılar\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Karl Marx Yahudi olarak doğdu ama çocukken vaftiz edildi ve yazılarında kendisi de antisemitikti (\"Yahudi Sorunu Üzerine\", 1843, burada \"Yahudi'nin tanrısı paradır\" diye yazmıştı). Yahudileri komünist olmakla suçlayan aynı antisemitistler, aynı zamanda onları kapitalizmi kontrol etmekle de suçladılar &mdash; amacın gerçek değil suçlama olduğunu ortaya koyan bir çelişki.",
+                        "Sovyetler Birliği'nde Yahudiler Komünizm döneminde zulme uğradı: Kozmopolit Karşıtı Kampanya (1948-1953) Yahudi entelektüelleri kovdu, \"Doktorlar Komplosu\" (1953) Yahudi doktorları Sovyet liderlerini öldürmek için komplo kurmakla suçladı ve Reddet hareketi (1960-1980) Yahudilerin ülkeyi terk etme arzusu nedeniyle zulme uğradı. Yahudi kültürel ifadeleri ve kurumları sistematik olarak ortadan kaldırıldı. Komünizm, komplonun iddia ettiğinin tam tersi şekilde Yahudilere &mdash; zulmetti."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Monolitik düşünce: Bir etnik grubu siyasi bir fikir için suçlamak klasik bir düşünce hatasıdır. Bazı Yahudiler komünistti, tıpkı bazı Yahudilerin kapitalist, anarşist, liberal, muhafazakar ve Siyonist olması gibi. Bir halkın tamamının siyasi çeşitliliğini tek bir etnik komploya bağlamak, Yahudilerin her halk gibi farklı görüşlere sahip farklı bireylerden oluşan bir koleksiyon değil, yekpare bir &mdash; olduğu inancını ortaya çıkarır."
+                    ],
+                    "sources": "Kaynaklar: Jonathan Frankel, 'Kriz, Devrim ve Rus Yahudileri' (2009); Robert Weinberg, 'Stalin'in Unutulan Siyonu' (1998)"
+                }
+            ]
+        },
+        {
+            "number": "Kategori 5",
+            "title": "Kültürel ve Sosyal Suçlamalar",
+            "desc": "Yahudi karakteri, davranışı ve sosyal etkisine ilişkin iddialar",
+            "claims": [
+                {
+                    "title": "\"Yahudiler kabiledir ve asimile olmayı reddederler\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Acımasız ironi: Tarihin büyük bölümünde Yahudilerin asimile olmaları zorla engellendi. Zorla gettolara yerleştirildiler (Venedik, 1516 &mdash; ilk getto; 1870'e kadar Roma), mesleklerden dışlandılar, vatandaşlıktan mahrum bırakıldılar (yalnızca 1791'de Fransa'da, 1871'de Almanya'da) ve ülkelerden sınır dışı edildiler.",
+                        "Yahudiler bu koşullar altında kendi topluluklarını sürdürürken &mdash; gönüllü olarak ayrılmakla suçlandılar. Yahudiler asimile olduklarında (Weimar Almanya'sında: %25 karışık evlilik oranı, tam askerlik hizmeti, Batı kültüründe liderlik) &mdash; topluma \"sızmakla\" suçlandılar ve sonunda yok edildiler. İddia yanlışlanamaz: Yahudiler ne yaparsa yapsın her zaman yanlıştır. Ayırmak? Kabile. Asimile olmak mı? Sızıcı. Geleneği sürdürmek mi? Dayanıklı. Değiştirmek? Kimliğini kaybetmek."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "\"Ötekini\" tanımlamak: Her çoğunluk grubu kendisini kısmen kimin parçası olmadığına göre tanımlar. Görünür bir azınlık olarak Yahudiler, Avrupa'da mükemmel bir \"öteki\" görevi görüyordu. Eğer tamamen asimile olurlarsa, \"öteki\" &mdash; ve onunla birlikte çoğunluğun kimliğinin bir parçası da yok olur. Bu nedenle, kendini tamamen Alman hisseden ve Auschwitz'de öldürülen Alman Yahudilerinin keşfettiği gibi, tam asimilasyon bile yeterli değildir."
+                    ],
+                    "sources": "Kaynaklar: Zygmunt Bauman, 'Modernite ve Holokost' (1989); Amos Elon, 'Her Şeye Yazık: Alman-Yahudi Döneminin Portresi' (2002)"
+                },
+                {
+                    "title": "\"Yahudiler kendilerinin 'Seçilmiş Halk' olduklarını ve herkesten üstün olduklarını düşünüyorlar\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Yahudi teolojisinde \"seçilmiş\", \"üstün\" anlamına gelmez. Bu, &mdash; ek sorumluluğu için, özellikle Tora'nın 613 emrine uyma yükümlülüğü için seçilmek anlamına gelir. Bu bir ayrıcalık değil görevdir. Anlamak için: Yahudi olmayanlar yalnızca 7 Nuh Kanununa tabidir. Yahudiler 613'e göre mecburdurlar. Aslında \"seçilmiş\" demek daha katı bir standarda tabi olmak anlamına gelir.",
+                        "Yahudilik açıkça tüm ulusların doğrularının Gelecek Dünyada bir payı olduğunu öğretir (Tosefta Sanhedrin 13:2). Amos peygamber şöyle dedi: \"Siz benim gözümde Etiyopyalılar gibi değil misiniz, ey İsrailoğulları?\" (Amos 9:7) &mdash; bütün halklar Tanrı'nın gözünde eşittir. Bunun tersine, Hıristiyanlık yalnızca İsa'ya inananların kurtulacağını, İslam ise yalnızca Müslümanların cennete gireceğini iddia eder. Yahudilik aslında bu üçü arasında en az \"üstünlükçü\" olanıdır."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Yanlış çeviri + kültürel yanlış anlama: \"Seçilmiş İnsanlar\" terimi Avrupa dillerine bir üstünlük unvanı olarak tercüme edilmiştir, İbranice'de ise sorumluluğu ifade eder. Bu, yabancı bir kültürel metni farklı bir kültürel mercekle okumanın aynı sorunudur. Ek olarak, pek çok Hıristiyan, Yahudilerin seçilmişlik iddiasının, Hıristiyanların Kilisenin \"Yeni İsrail\" olduğu iddiasına (Supersessionism) meydan okuduğunu hissetti."
+                    ],
+                    "sources": "Kaynaklar: Eugene Borowitz, 'Sözleşmenin Yenilenmesi' (1991); David Novak, 'İsrail'in Seçimi' (1995)"
+                },
+                {
+                    "title": "\"Yahudiler Hollywood'u kontrol ediyor ve ahlakı yozlaştırıyor\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Avrupa'daki pogromlardan kaçan Yahudi göçmenler (çoğu yoksul ve hiçbir şey olmadan geliyorlar) 20. yüzyılın başlarında ilk Hollywood stüdyolarından bazılarını &mdash; kurdular çünkü tam da \"saygın\" endüstrilerden dışlandılar ve sinema gibi yeni, kurulmamış bir alana yönelmek zorunda kaldılar. \"Ucuz\" olarak kabul edilen alandaki başarıları, sinemanın büyük bir endüstri haline gelmesiyle birlikte \"kontrol\" olarak yeniden çerçevelendi.",
+                        "Modern eğlence endüstrisi küresel bir kurumsal ekosistemdir. Disney dünyanın dört bir yanındaki hissedarlara aittir. Netflix, Amazon, Apple TV &mdash; hiçbiri Yahudiler tarafından \"kontrol edilmiyor\". İddia tüm komplolar gibi işliyor: Yahudilerin belirli bir alandaki kişisel başarısı = \"etnik kontrol\". Ancak restoranları İtalyanlar işlettiğinde &mdash; hiç kimse İtalyanların \"yiyeceği kontrol ettiğini\" söylemiyor."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Kıskançlık + açıklama ihtiyacı: Bir sektör insanların hoşlanmadığı bir kültür ürettiğinde (şiddet, cinsellik, ilerici değerler), daha geniş bir halkın bu içeriği tükettiği ve finanse ettiği gerçeğiyle yüzleşmektense \"yabancı bir grubu\" suçlamak daha kolaydır. \"Yahudiler ahlakı bozuyor\" ifadesi insanların kendi zevklerinin sorumluluğunu üstlenmek yerine başkalarını suçlamasına olanak tanıyor."
+                    ],
+                    "sources": "Kaynaklar: Neal Gabler, 'Kendi İmparatorlukları: Yahudiler Hollywood'u Nasıl İcat Etti' (1988); ADL belgeleri"
+                },
+                {
+                    "title": "\"Yahudiler fiziksel olarak görünüşlerinden (kancalı burun vb.) tanınabilir\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Yahudilerin fiziksel karikatürü &mdash; kancalı burun, esmer yüz hatları, kambur duruş, el ovuşturma &mdash; bir propaganda buluşudur, gerçek değil. Karikatür figürü ortaçağ Hıristiyan sanatında gelişti, 19. yüzyıl Yahudi karşıtı karikatürlerinde yoğunlaştı (Fransız gazetesi \"La Libre Parole\" gibi) ve Julius Streicher'in haftalık Yahudi karşıtı karikatürler yayınladığı Nazi \"Der St&uuml;rmer\"de zirveye ulaştı.",
+                        "Gerçek: Yahudiler, Aşkenazi (Avrupalı, açık tenli), Sefarad (Akdeniz), Mizrahi (Orta Doğulu, koyu tenli), Etiyopyalı (Beta İsrail, Siyah), Hintli (Bene İsrail), Çinli (Kaifeng topluluğu) ve Yemen topluluklarını içeren etnik açıdan çeşitli bir halktır. Birbirlerinden tamamen farklı görünüyorlar. \"Hıristiyan görünümü\" veya \"Müslüman görünümü\" olmadığı gibi, \"Yahudi görünümü\" de yoktur &mdash;."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Görsel insanlıktan çıkarma: Fiziksel karikatürler insanlıktan çıkarmanın kritik bir aşamasıdır. Bir grubun \"farklı görünmesi\" sağlandığında, onları insanlık dışı olarak görmek daha kolay hale gelir. Naziler, çocuklara Yahudileri nasıl \"tanımlayacaklarını\" öğretmek için \"Zehirli Mantar\" (1938) adlı çocuk kitabında bu tür karikatürleri kullandılar. Bugün aynı karikatürler sosyal medyada \"memeler\" olarak yayılıyor &mdash; aynı zehir, yeni bir şişe."
+                    ],
+                    "sources": "Kaynaklar: Sara Lipton, 'Karanlık Ayna: Yahudi Karşıtı İkonografinin Ortaçağ Kökenleri' (2014); USHMM \"Propaganda\" sergisi"
+                }
+            ]
+        },
+        {
+            "number": "Kategori 6",
+            "title": "Modern Antisemitik Anti-Siyonizm",
+            "desc": "İsrail'e yönelik eleştiri Yahudi nefretine dönüştüğünde",
+            "claims": [
+                {
+                    "title": "\"İsrail bir Nazi devletidir / Siyonizm Nazizmdir\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "İsrail'i Nazi Almanyası ile karşılaştırmak, Yahudilere saldırmak için Yahudi soykırımını kullanan bir tür \"Holokost'u tersine çevirme\" &mdash;'dir. Nazi Almanyası, tek amacı ırkları tamamen yok etmek olan bir endüstriyel sistem inşa etti: trenler, gaz odaları, krematoryumlar, bürokrasi &mdash; 6 milyon kişi öldürüldü. İsrail dahil hiçbir demokratik devlet, herhangi bir ölçekte bununla uzaktan yakından karşılaştırılabilecek bir şey yapmadı.",
+                        "IHRA tanımı (35'ten fazla ülke tarafından benimsenmiştir) bu karşılaştırmayı antisemitizm olarak tanımlamaktadır. Sebebi: Yahudi travmasını Yahudilere karşı silah haline getirmek ve üstü kapalı olarak \"kurbanlar katil oldu\" mesajını iletmek. Bu meşru bir eleştiri değil &mdash; Yahudilerin kendi tarihlerini tanımlama hakkını reddetme girişimidir. Amacı yaralamak olan Nazi karşılaştırmalarına başvurmadan da belirli İsrail politikaları eleştirilebilir (ve pek çoğu bunu yapar)."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Mağdur-fail dönüşümü: Psikolojik olarak mağduru faile dönüştürmek, Hıristiyan/Arap/Avrupalıyı tarihsel suçluluktan kurtarır. Eğer \"Yahudiler yeni Naziler\" ise, o zaman 2000 yıllık Avrupa zulmü ile Arap antisemitizmi dengeleniyor demektir. Bu psikolojik bir rahatlıktır, tarihsel bir tartışma değil."
+                    ],
+                    "sources": "Kaynaklar: IHRA Antisemitizmin Çalışma Tanımı (2016); Manfred Gerstenfeld, 'Holokost Hafızasının Kötüye Kullanılması' (2009)"
+                },
+                {
+                    "title": "\"Yahudiler bir devleti hak etmiyor; İsrail'in var olma hakkı yok\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Yahudi halkının kendi kaderini tayin etme hakkını reddedip diğer insanlara bu hakkı vermek ayrımcılıktır. 193 BM üyesi ülke var. Birisi İsrail'in var olma hakkının olmadığını iddia ederse &mdash; aynı iddiayı (1947'de dini bir temelde kurulan ve 15 milyon insanın yerinden edilmesine neden olan) Pakistan için mi söylüyor? Ürdün hakkında (1921'de İngilizler tarafından yaratıldı)? Suriye, Irak, Lübnan (Birinci Dünya Savaşı'ndan sonra Fransızlar ve İngilizler tarafından yaratıldı) hakkında?",
+                        "Yahudilerin İsrail Topraklarıyla bağlantısı 3.000 yılı aşkın süredir arkeolojik olarak belgelenmiştir: eski İbranice yazıtlar, Tapınak kalıntıları, Bar Kokhba isyanı paraları, antik sinagoglar. Yahudiler, sürgünlerden sonra bile İsrail topraklarında 3000 yıl boyunca varlığını sürdürdü. Siyonizm sömürgecilik değildir &mdash; tarihi vatanlarına dönen bir halkın ulusal kurtuluş hareketidir."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Belirti olarak çifte standart: Birisi, BM'ye üye 193 ülke arasında yalnızca İsrail'in var olma hakkını &mdash; haklı göstermesini talep ettiğinde, bu \"politika eleştirisi\" değildir. Başka hiçbir ülkede uygulanmayan bir standarttır. Natan Sharansky, meşru eleştiriyi antisemitizmden ayıran 3 işaretten biri olarak çifte standardı tanımladı."
+                    ],
+                    "sources": "Kaynaklar: Natan Sharansky, '3D Testi' (2004); İsrail Eski Eserler Kurumu'nun arkeolojik bulguları; BM Genel Kurulu Kararı 181 (1947)"
+                },
+                {
+                    "title": "\"İsrail lobisi (AIPAC) Amerikan dış politikasını kontrol ediyor\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Her ülke Washington'da lobi yapıyor. FARA (Yabancı Ajanlar Kayıt Yasası) kayıtlarına göre Suudi Arabistan, ABD'deki lobi faaliyetlerine her yıl on milyonlarca dolar harcıyor (bazı yıllarda 27 milyon doların zirvesine ulaşıyor). BAE: 20+ milyon dolar. Katar, Japonya, Güney Kore &mdash; her biri on milyonlarca. AIPAC, diğer lobilerle aynı kurallar çerçevesinde ve aynı şeffaflıkla faaliyet gösteren bir Amerikan (İsrail değil) lobi faaliyeti kuruluşudur.",
+                        "AIPAC'ın ABD politikasını \"kontrol ettiği\" iddiası gerçek faktörleri göz ardı ediyor: jeopolitik çıkarlar (İsrail = Orta Doğu'da istikrarlı, demokratik bir müttefik), istihbarat paylaşımı, savunma endüstrisi (yılda 8+ milyar dolar, çoğunlukla Amerikan şirketlerinden satın alma olarak geri dönüyor) ve Amerikan kamuoyu desteği (Gallup anketleri tarihsel olarak İsrail'e %60-70 sempati gösteriyor, 2023'ten bu yana bir miktar düşüş var). İsrail yanlısı lobiyi \"benzersiz derecede güçlü\" olarak seçmek aynı komployu tekrarlıyor: &mdash; \"Yahudiler hükümetleri kontrol ediyor.\""
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Demokrasinin yanlış anlaşılması + komplocu düşünce: Birçok kişi lobiciliğin Amerikan demokrasisinin meşru bir parçası olduğunu anlamıyor &mdash; bunu her çıkar grubu yapıyor. İsrail yanlısı lobi, modern kılığa bürünmüş eski bir komplo olan &mdash; lobi faaliyeti yerine \"manipülasyon\" olarak nitelendiriliyor."
+                    ],
+                    "sources": "Kaynaklar: FARA Kayıt kayıtları; Gallup İsrail Olumluluk anketleri; OpenSecrets.org lobicilik verileri"
+                }
+            ]
+        },
+        {
+            "number": "Kategori 7",
+            "title": "Holokost İnkarı ve Çarpıtılması",
+            "desc": "6 milyon Yahudi'nin öldürülmesinin inkar edilmesi, küçümsenmesi veya çarpıtılması",
+            "claims": [
+                {
+                    "title": "\"Holokost olmadı / 6 milyon abartı\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Holokost'un kanıtları herhangi bir tarihi olay için en kapsamlı olanlardan biridir: Nazi idari kayıtları (Naziler suçlarını titizlikle belgelemiştir), hayatta kalan 100.000'den fazla kişinin ifadeleri, Nürnberg'deki faillerin itirafları ve diğer duruşmalar, Müttefik kuvvetlerin kurtuluş fotoğrafları, Auschwitz-Birkenau ve diğer bölgelerdeki fiziksel kanıtlar, tüm Yahudi topluluklarının ortadan kayboluşunu gösteren demografik veriler ve Wannsee Protokolü (1942) gibi belgeler \"Nihai Çözüm\"ün belgelenmesi.",
+                        "En önde gelen Holokost inkarcısı David Irving'in yalanı, 2000 yılında Londra'daki önemli bir davada çürütüldü (Irving v Lipstadt). Yargıç, Irving'in \"tarihi kasıtlı olarak çarpıttığı ve manipüle ettiğine\" hükmetti. Holokost inkarı 17 ülkede yasa dışıdır çünkü bu bir \"fikir\" değildir &mdash; belgelenmiş gerçeklerin inkarıdır, tıpkı Dünya'nın yuvarlak olduğunu inkar etmek gibi, ancak bir sonraki soykırıma zemin hazırladığı için tehlikelidir."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Bilişsel uyumsuzluğun azaltılması: Yahudilerden nefret etmeye devam etmek isteyen Yahudi karşıtları bir sorunla karşı karşıyadır &mdash; Holokost, Yahudi nefretini ahlaki açıdan imkansız hale getirmektedir. Çözüm: Holokost'u inkar etmek. Eğer Holokost olmasaydı, kişi suçluluk duymadan Yahudilerden nefret etmeye geri dönebilirdi. Bu nedenle Holokost inkârı ve antisemitizm her zaman bir aradadır."
+                    ],
+                    "sources": "Kaynaklar: Deborah Lipstadt, 'Holokost'u Reddetmek' (1993); Irving - Penguin Books Ltd (2000); USHMM Holokost Ansiklopedisi"
+                },
+                {
+                    "title": "\"Yahudiler Holokost'u siyasi ve mali kazanç için icat etti veya abarttı\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Yahudilerin sempati veya para için kendi soykırımlarını uydurdukları suçlaması üç katmanlı antisemitizmi içeriyor: (1) milyonlarca kurbanın acısını inkar ediyor, (2) soykırımın anısını \"para kazanmaya yönelik bir Yahudi planı\" (açgözlü Yahudi klişesi) olarak çerçeveliyor ve (3) kurbanları dolandırıcılara dönüştürüyor.",
+                        "Gerçekler: Almanya'dan Holokost tazminatları 7 yıllık siyasi mücadelenin ardından geldi (Lüksemburg Anlaşmaları, 1952). Avrupalı ​​Yahudilerden çalınan malların çok küçük bir kısmını kapsıyordu (evler, işyerleri, tasarruflar, sanat eserleri, tahmini değeri yüz milyarlarca dolar olan altın). Hayatta kalanların çoğu savaştan sonra yoksulluk içinde yaşadı. Bugün İsrail'de Holokost'tan sağ kurtulan 30.000'den fazla kişi yoksulluk sınırının altında yaşıyor. İddia edilen \"kar\" bir efsanedir."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Holokost yorgunluğu + kıskançlık: Bazı insanlar Holokost'u duymaktan bıkıp kayıtsızlıklarına gerekçe arıyorlar. \"Yahudilerin Holokost'u kâr amacıyla kullandığı\" fikri, Holokost'u görmezden gelmenin ahlaki gerekçesini sağlıyor. Ayrıca Arap dünyasının bazı bölgelerinde Holokost'u inkar etmek veya küçümsemek siyasi bir araç olarak kullanılıyor &mdash; Eğer Holokost gerçekleşmediyse, İsrail'in varlığının hiçbir gerekçesi olamaz (kusurlu mantıklarına göre)."
+                    ],
+                    "sources": "Kaynaklar: Norman Finkelstein, 'The Holocaust Industry' (2000, tartışmalı); Almanya'ya Karşı Yahudi Malzeme İddiaları Konferansı; İsrail Holokost Kurbanlarına Yardım Vakfı"
+                },
+                {
+                    "title": "\"Gaz odaları yoktu, sadece bit temizleme odalarıydı\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Leuchter Raporu (1988), Auschwitz duvarlarının kimyasal analizinin yetersiz siyanür kalıntısı gösterdiğini iddia etti. Önemli siyanür bileşikleri bulan Krakow Adli Tıp Enstitüsü (1994) tarafından bu iddia tamamen çürütüldü. Bit giderme odalarıyla karşılaştırıldığında \"daha düşük\" seviye, temel kimya ile açıklanmaktadır: İnsanları öldürmek, bitleri öldürmekten çok daha az Zyklon B gerektirir (300 ppm'e karşılık 16.000 ppm).",
+                        "Gaz odalarına ilişkin kanıtlar: (1) Auschwitz komutanı Rudolf H&ouml;ss, itirafında ve idamından önce yazdığı otobiyografisinde bunları ayrıntılı olarak anlattı. (2) Sonderkommando (gaz odalarında çalışmaya zorlanan mahkumlar) ayrıntılı ifade verdi. (3) Topf und S&ouml;hne (krematoryumu inşa eden) şirketinin planları, \"gaz geçirmez kapılar\" siparişini de içeren &mdash; olarak bulundu. (4) 1944'e ait Müttefik hava fotoğrafları, duman yükselen binalara giren insanları gösteriyor. (5) Auschwitz-Birkenau'daki fiziksel kalıntılar halkın ziyaretine açıktır."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Akademik kılıktaki Neo-Nazizm: Holokost inkarcıları, yalanlara bilim adamı görünümü vermek için \"araştırmacı\" ve \"revizyonist\" kılığına giriyor. Amaç: Nazizm'i yeniden meşru kılmak. Tarihteki her \"Holokost inkarcısının\" neo-Nazi örgütleriyle bağlantısı olduğu görülmüştür &mdash; Holokost'u inkar eden tarafsız bir araştırmacı yoktur. Bu bir \"akademik konum\" değil, propagandadır."
+                    ],
+                    "sources": "Kaynaklar: Jean-Claude Pressac, 'Auschwitz: Gaz Odalarının Tekniği ve İşleyişi' (1989); Krakow Adli Tıp Kurumu Raporu (1994); Robert Jan van Pelt, Irving davasında bilirkişi"
+                }
+            ]
+        },
+        {
+            "number": "Kategori 8",
+            "title": "Çevrimiçi ve Çağdaş Antisemitizm",
+            "desc": "Kadim nefretin dijital çağdaki modern mutasyonları",
+            "claims": [
+                {
+                    "title": "\"Kodlu semboller: üçlü parantez (((yankılar))), 'erken yaşam bölümü'\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Üçlü parantez sembolü (((isim))), neo-Nazi blogu 'The Right Stuff' (2014) tarafından çevrimiçi Yahudileri tanımlamak için oluşturuldu. 'Erken yaşam bölümü', Yahudi soyuna ilişkin Wikipedia girişlerinin kontrol edilmesini ifade eder. Ek kodlu ifadeler: '109' (Yahudilerin 109 ülkeden sürüldüğü iddiası), 'da goyim Know', 'oy vey', '6 milyon ürün', 'küreselci' ve 'uluslararası bankacı' kod adları.",
+                        "Kodlanmış dil makul inkar edilebilirliği mümkün kılıyor: \"Ben Yahudi karşıtı değilim, sadece küreselcilerden bahsediyorum.\" Sosyal medya algoritmaları kodlanmış dili tanımlamakta zorlanıyor, bu nedenle açık biçimde silinen Yahudi karşıtı içerik, kodlanmış biçimde yayınlanıyor. 4chan, Telegram ve Gab gibi platformlar Yahudi karşıtı propagandanın merkezleri haline geldi. ADL her hafta yeni sembolleri belgeliyor."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Gruba ait olma + gizlilik: Kodlanmış dil bir \"gizli kulüp\" duygusu yaratır &mdash; kodu anlayanlar \"bizden biridir\". Bu, sosyal aidiyet, üstünlük duygusu (\"gerçeği biliyoruz\") ve ihlalin adrenalini sağlar. Pek çok genç, şakaya benzeyen \"memler\" yoluyla antisemitik içeriğe maruz kalıyor &mdash; ama şakalar radikalleşmenin ilk aşamasıdır."
+                    ],
+                    "sources": "Kaynaklar: ADL Nefret on Display Veritabanı; Moonshot CVE araştırması; ISD (Stratejik Diyalog Enstitüsü) raporları"
+                },
+                {
+                    "title": "\"Yahudiler Kovid'i yarattı/pandemiden çıkar sağladı/aşıları Yahudi komplosu olarak kullandı\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Kovid komplo teorileri, Orta Çağ'daki veba suçlamalarıyla tamamen aynı modeli izliyordu: Yahudiler virüsü yarattı, kasten yaydı ya da ilaç şirketleri aracılığıyla bundan kâr elde etti. ADL, salgının yalnızca ilk aylarında Yahudileri Kovid-19 nedeniyle suçlayan 17.000'den fazla tweet'i belgeledi.",
+                        "Karantina karşıtı protestocular sarı yıldızlar taktılar ve \"Holokost'taki Yahudiler gibiyiz\" iddiasında bulundular; bu, 6 milyon Yahudi'nin öldürülmesini maske zorunluluğunun sakıncası olarak önemsizleştiren bir karşılaştırmaydı. İran'da devlet medyası virüsün \"Siyonistlerin biyolojik silahı\" olduğunu iddia etti. Türkiye'de gazeteler \"Kovid'in arkasında Yahudiler ve Mossad var\" diye iddialarda bulundu. Bu model 1348 (Yahudiler kuyuları zehirledi), 1918 (Yahudiler İspanyol Gribini yaydı) ve 2020 (Yahudiler Kovid'i yarattı) ile aynı. 700 yıldır aynı yalan."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Terör yönetimi + eski model: Bir salgın ölüm kaygısı yaratır. Ölüm kaygısı dış gruplara yönelik düşmanlığı artırır (Terör Yönetimi Kuramı). Yahudiler klasik bir dış grup olarak \"suçlu\" oluyorlar. Bu, 1348'deki Kara Ölüm sırasında işleyen psikolojik mekanizmanın tamamen aynısıdır &mdash; değişen şey insan psikolojisi değil, teknolojidir (piyasadaki söylentiler yerine Twitter)."
+                    ],
+                    "sources": "Kaynaklar: ADL COVID-19 Raporu (2020); MEMRİ; Oxford İnternet Enstitüsü'nün komplo teorileri üzerine araştırması"
+                },
+                {
+                    "title": "\"Kitlesel göçü düzenleyen 'Büyük Değişim'in arkasında Yahudiler var\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Renaud Camus'nün 2011 tarihli kitabına dayanan \"Büyük Yer Değiştirme\" teorisi, Yahudilerin beyaz çoğunluklu ulusları yok etmek için kasten kitlesel göçü planladığını iddia ediyor. Göç aslında dünya nüfusunun %0,2'sini oluşturan bir etnik grup tarafından değil, ekonomik güçler (ücret farkları, işgücü talebi), siyasi faktörler (savaşlar, diktatörlükler), insani krizler (mülteciler) ve iklim olayları (kuraklık, sel) tarafından yönlendirilmektedir &mdash;.",
+                        "Bu komplo öldürür. Doğrudan motivasyon olarak alıntılanan kişiler: Robert Bowers (Pittsburgh, 2018, 11 kişi sinagogda öldürüldü), Brenton Tarrant (Christchurch, 2019, 51 kişi camide öldürüldü), Patrick Crusius (El Paso, 2019, 23 kişi öldürüldü) ve John Earnest (Poway, 2019, 1 kişi sinagogda öldürüldü). Her biri Yahudileri \"değiştirilmekle\" suçlayan bir manifesto yayınladı. Teoriden şiddete &mdash; çizgi kısadır."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Demografik kaygı + günah keçisi ilan etme: Gerçek demografik değişiklikler (göç, doğum oranları) çoğunluğun bazı kesimleri arasında kaygı yaratır. Karmaşık nedenlerle yüzleşmek yerine, bir \"düzenleyiciyi\" &mdash; suçlamak daha kolaydır ve ebedi suçlanan Yahudiler hedefi oluşturur. Bu, \"Yahudiler hükümetleri kontrol ediyor\" &mdash; aynı komplonun 21. yüzyıl versiyonu, sadece \"bankalar\" yerine \"göç\" ile."
+                    ],
+                    "sources": "Kaynaklar: ADL; Robert Bowers'ın manifestosu (arşivlenmiş); Christchurch Kraliyet Komisyonu Raporu (2020)"
+                },
+                {
+                    "title": "\"Yahudiler eleştirileri susturmak için antisemitizm iddialarını silah haline getiriyor\"",
+                    "ref_label": "&#10003; Gerçekleri Reddetme",
+                    "ref": [
+                        "Yahudilerin eleştiriyi susturmak için antisemitizmi \"kullandıkları\" iddiası başlı başına bir taktiktir: Yahudilere \"şikayet etme hakkınız olmadığını\" söyler &mdash; tam da antisemitizmin rekor sayılara yükseldiği bir zamanda (ADL: 2023'te yalnızca ABD'de 8.873 olay, %140 artış).",
+                        "Elbette İsrail eleştirisi ile antisemitizm arasındaki çizginin nereye düştüğü konusunda meşru bir tartışma var. Belirli İsrail politikalarının eleştirisi = meşru. İsrail'in tek başına var olma hakkının reddi = antisemitizm. Tüm Yahudiler hakkında stereotiplerin kullanılması = antisemitizm. Kural basit: \"Yahudi\" kelimesini \"Siyah/Müslüman/Asyalı\" ile değiştirdiyseniz ve cümle kulağa ırkçı gibi geliyorsa &mdash; aynı zamanda antisemitiktir.",
+                        "Yahudilerin \"kurbanlıktan faydalandıkları\" iddiası, \"Yahudiler kurnaz ve manipülatiftir\" ifadesinin modern kılık değiştirmiş en eski stereotipinin çağdaş versiyonudur."
+                    ],
+                    "psych_label": "&#128300; İnsanlar buna neden inanıyor?",
+                    "psych": [
+                        "Uyumsuzluğa karşı savunma: Yahudiler/İsrail hakkındaki görüşlerine yönelik eleştirilere maruz kalan kişiler rahatsızlık hisseder (bilişsel uyumsuzluk). Onların görüşlerini incelemek yerine, eleştirinin kendisinin \"Yahudi manipülasyonu\" olduğunu iddia etmek daha kolaydır. Bu onları kendi kendilerini inceleme ihtiyacından kurtarıyor: \"Ben antisemitik değilim, onlar sadece beni susturmak için antisemitizm çığlıkları atıyorlar.\" Suçluluktan kaçınma arzusu gerçeği keşfetme arzusundan daha güçlüdür."
+                    ],
+                    "sources": "Kaynaklar: ADL Denetimi (2023); David Hirsh, 'Çağdaş Sol Antisemitizm' (2017)"
+                }
+            ]
+        }
+    ],
+    "lies_title": "Yaygın Yalan ve İftiralar",
+    "lies_desc": "İsrail ve Yahudi halkına karşı yaygın yalanlar ve bunları açığa çıkaran gerçekler",
+    "lie_cards": [
+        {
+            "title": "\"İsrail Gazze'de soykırım yaptı\"",
+            "claim_label": "&#10060; Ne iddia ediyorlar:",
+            "claim": "İsrail'in 7 Ekim 2023'ten sonra Gazze'ye düzenlediği askeri operasyonlar, Filistin halkının kasıtlı ve sistematik olarak yok edilmesi anlamına gelen soykırım &mdash; teşkil etmektedir. Güney Afrika, Uluslararası Adalet Divanı'na (UAD) dava açtı ve sosyal medya, İsrail'in \"soykırım\" işlediği iddialarıyla interneti doldurdu.",
+            "facts_label": "&#10003; Yalanı ortaya çıkaran gerçekler:",
+            "facts_list": [
+                "<strong>Yasal tanım:</strong> Soykırım, ulusal, etnik veya dini bir grubu yok etmek için <strong>özel niyeti (dolusspecis)</strong> gerektirir. BM Soykırımın Önlenmesi Sözleşmesi (1948, Madde II), sadece kayıpların değil, niyet kanıtının da gerekli olduğunu belirtmektedir.",
+                "<strong>Uluslararası Adalet Divanı (UAD) soykırım kararı vermedi.</strong> Mahkeme yalnızca Güney Afrika'nın davasının \"dinlenecek kadar makul\" olduğuna karar verdi &mdash; bu, bir karar değil, geçici yargılamalar için en düşük yasal eşiktir.",
+                "<strong>Savaşçı-sivil oranı:</strong> West Point'teki kentsel savaş çalışmaları başkanı Prof. <strong>John Spencer</strong>, İsrail'in kayıp oranının yaklaşık <strong>1:1.5</strong> &mdash; olduğunu, savaştaki küresel ortalamanın ise <strong>1:9</strong> olduğunu belirtti.",
+                "<strong>Sivilleri korumaya yönelik benzeri görülmemiş önlemler:</strong> IDF, <strong>50.066 kişisel telefon görüşmesi</strong> yaptı, <strong>12 milyon sesli mesaj</strong> ve <strong>14 milyon SMS mesajı</strong> gönderdi, milyonlarca broşür attı ve tahliye koridorları oluşturdu &mdash; tarihteki hiçbir savaşta yaşanmamış bir şey.",
+                "<strong>Hamas canlı kalkan kullanıyor:</strong> UNRWA (BM kurumu) okullarında <strong>3 farklı zamanlarda</strong> roketler buldu. NATO, Hamas'ın canlı kalkan stratejisine ilişkin belgelenmiş bir rapor yayınladı. Yahya Sinwar, \"Kadınlarımızın ve çocuklarımızın bedenlerini baraj haline getirmeye karar verdik\" dedi."
+            ],
+            "facts_conclusion": "Nükleer kapasiteye sahip bir ordu ve dünyanın en güçlü hava kuvvetlerinden biri, <strong>niyeti</strong> &mdash;'ü yok etme niyetine sahip olsaydı, her saldırıdan önce çağrı yapmaz, SMS göndermez ve sivilleri tahliye etmezdi. <strong>Tarihte, saldıran tarafın mağdurları kaçmaları konusunda uyardığı bir soykırım yoktur.</strong>",
+            "sources": "Kaynaklar: BM Soykırımın Önlenmesi Sözleşmesi (1948, Madde II) | ICJ Geçici Kararı, 26 Ocak 2024 | Atlantik Konseyi — Uzman Analizi | Newsweek — John Spencer, \"İsrail Kentsel Savaşta Yeni Bir Standart Yarattı\" | Lieber Enstitüsü, West Point — IDF ve Uyarma Görevi | NATO StratCom COE — Hamas'ın İnsan Kalkanı Kullanımı | Okullardaki roketlere ilişkin resmi UNRWA açıklamaları"
+        },
+        {
+            "title": "\"İsrail, Trump'ı İran'la savaşmaya itti\"",
+            "claim_label": "&#10060; Ne iddia ediyorlar:",
+            "claim": "İsrail, ABD'yi &mdash; ve özellikle de Başkan Trump'ı &mdash; İran'la çatışmaya kontrol etti, manipüle etti veya \"itti\". Bu anlatıya göre Amerika \"İsrail'in savaşı\" veriyor, kendi çıkarlarını savunmuyor. Bu, uzun süredir devam eden Yahudi karşıtı sahtekarlık olan \"ikili sadakat\" kinayesinin modern bir versiyonudur.",
+            "facts_label": "&#10003; Yalanı ortaya çıkaran gerçekler:",
+            "facts_list": [
+                "<strong>ABD-İran çatışması İsrail'den öncesine dayanıyor:</strong> 1953'teki CIA darbesi (Musaddık), 1979'daki rehine krizi (444 gün) ve 1980'den bu yana tam diplomatik kopuş &mdash; herhangi bir \"İsrail lobisinden\" onlarca yıl önce.",
+                "<strong>İran 869'dan fazla Amerikalıyı öldürdü:</strong> 1983'teki Beyrut bombalaması (241 Deniz Piyadesi), 1996'daki Khobar Kuleleri bombalaması (19), 2003-2011'de Irak'ta yol kenarındaki bombalar (603+). ABD mahkemesi İran'ın 1,5 milyar dolar tazminat ödemesine hükmetti.",
+                "<strong>Trump 1980'den beri İran karşıtıydı:</strong> NBC'nin Rona Barrett (34 yaşında) ile yaptığı röportajda Trump, ABD'nin İran'ı işgal etmesi gerektiğini söyledi. Bu, İsrail nüfuzunun iddia edilmesinden <strong>46 yıl</strong> önceydi.",
+                "<strong>Bağımsız Amerikan çıkarları:</strong> Hürmüz Boğazı (küresel petrolün %21'i), İran'ın nükleer programı, terörizmin finansmanı (Hizbullah, Hamas, Husiler). İran, 1984'ten bu yana \"terörizmin sponsoru devlet\" olarak gösteriliyor.",
+                "<strong>Suudi Arabistan da baskı yaptı:</strong> Washington Post, baskının \"alışılmadık bir müttefik çiftinden geldiğini bildirdi: İsrail <strong>ve Suudi Arabistan</strong>\" &mdash; ama kimse Suudi baskısını bir \"komplo\" olarak adlandırmıyor."
+            ],
+            "facts_conclusion": "ADL bu anlatıyı klasik bir Yahudi karşıtı kinaye olarak tanımladı: <strong>\"ikili sadakat\"</strong> &mdash; Yahudileri gizlice dış politika yürütmekle suçluyor. Aynı kinaye Dreyfus'a karşı (1894), \"arkadan bıçaklanma efsanesinde\" (1918) ve Stalin'in \"Doktorların Komplosu\"nda (1953) da kullanıldı.",
+            "sources": "Kaynaklar: FDD — İran'ın Amerikalılara Karşı Saldırıları 1979'dan Günümüze | Beyaz Saray (2026) — Onlarca Yıllık İran Terörizmi | CIA'in Gizliliği Kaldırıldı - Beyrut Bombalaması | ABD Enerji Bilgi İdaresi — Hürmüz Boğazı | Brookings — Trump İran Hakkında Nasıl Düşünüyor | Washington Post (28.2.2026) | ADL — Askeri Operasyon Yahudi Karşıtı Komployu Besliyor | AJC — #TranslateHate: Çift Sadakat"
+        },
+        {
+            "title": "\"İsrail bir apartheid devletidir\"",
+            "claim_label": "&#10060; Ne iddia ediyorlar:",
+            "claim": "İsrail, Güney Afrika'daki apartheid rejimine benzer bir ırk ayrımcılığı sistemi uyguluyor. Uluslararası Af Örgütü ve İnsan Hakları İzleme Örgütü gibi kuruluşlar bu etiketi kullanarak raporlar yayınladı ve dünya çapında 250'den fazla kampüste \"İsrail Apartheid Haftası\" düzenleniyor.",
+            "facts_label": "&#10003; Yalanı ortaya çıkaran gerçekler:",
+            "facts_list": [
+                "<strong>Güney Afrika'da:</strong> Siyah insanlar <strong>oy kullanamıyordu</strong>, beyazların mahallelerine girmeleri yasaklandı, kasıtlı olarak ayrı ve düşük eğitime sahiplerdi, \"Yalnızca Beyazlar\" tabelaları her yerdeydi ve ırklararası evlilik bir <strong>kriminal suç</strong> idi.",
+                "<strong>İsrail'de:</strong> Arap vatandaşları (%21) 1948'den bu yana <strong>tam ve eşit haklarla</strong> oy kullanıyor. Yargıç <strong>Salim Joubran</strong> (Arap), Yüksek Mahkeme Başkan Yardımcısı olarak görev yaptı. <strong>Ra'am partisi</strong> 2021'de hükümet koalisyonuna katıldı. Dürziler ve Bedeviler üst düzey IDF subayları olarak görev yapıyor.",
+                "<strong>Araplar ve Yahudi İsrailliler:</strong> aynı üniversitelerde okuyor, aynı hastanelerde tedavi görüyor, aynı alışveriş merkezlerinde alışveriş yapıyor, aynı plajlarda yüzüyorlar. <strong>İsrail'de tek bir \"Yalnızca Yahudiler\" tabelası bile yok.</strong>",
+                "<strong>Kenneth Meshoe</strong>, Güney Afrikalı siyahi milletvekili <strong>gerçek apartheid altında yaşamış</strong>: \"İsrail'i birçok kez ziyaret ettim. <strong>Orada hiçbir şey Güney Afrika'daki apartheid ile karşılaştırılamaz.</strong>\"",
+                "<strong>Yargıç Richard Goldstone</strong> (Güney Afrika), İsrail'i BM adına araştıran New York Times'da (2011) şunları yazdı: <strong>\"İsrail'de apartheid yoktur. Orada hiçbir şey bu tanıma yaklaşamaz.\"</strong>"
+            ],
+            "facts_conclusion": "",
+            "sources": "Kaynaklar: ADL — İddia: İsrail bir Apartheid Devletidir | Richard Goldstone, \"İsrail ve Apartheid İftirası\", New York Times (31.10.2011) | BM İzleme — Apartheid İddiasına Yanıt | Britannica — Apartheid | Kenneth Meshoe, Kudüs Postası | SSRN — Sekulow & Ash Yasal Analiz"
+        },
+        {
+            "title": "\"Yahudiler medyayı ve küresel ekonomiyi kontrol ediyor\"",
+            "claim_label": "&#10060; Ne iddia ediyorlar:",
+            "claim": "Yahudiler gizlice bankaları, medyayı ve dünya hükümetlerini kontrol ediyor, küresel olayları kendi çıkarları doğrultusunda manipüle ediyorlar. Bu teori, 1903'te yaratılmış olduğu kanıtlanmış bir sahtekarlık olan \"Zion Büyüklerinin Protokolleri\" &mdash; ve Rothschild ailesi efsanesine dayanmaktadır.",
+            "facts_label": "&#10003; Yalanı ortaya çıkaran gerçekler:",
+            "facts_list": [
+                "<strong>\"Siyon Büyüklerinin Protokolleri\" &mdash; kanıtlanmış bir sahtekarlıktır:</strong> Rus gizli polisi (Okhrana) tarafından oluşturulmuştur. 1921'de Times of London bunun <strong>Yahudilerle kesinlikle hiçbir bağlantısı olmayan</strong> III. Napolyon (1864) hakkındaki bir Fransız hicivinin <strong>doğrudan kopyası</strong> olduğunu kanıtladı. Bir İsviçre mahkemesi (1935) metnin \"sahtelik, intihal ve müstehcen edebiyat\" olduğunu ilan etti.",
+                "<strong>Rothschild efsanesi:</strong> Ailenin servetinin 7 nesle yayılmış &mdash; 400 milyar dolar olduğu tahmin ediliyor. Karşılaştırma için: <strong>Elon Musk tek başına</strong> ~800 milyar dolar değerinde. \"Rothschild'lerin küresel zenginliğin %80'ini kontrol ettiği\" iddiası <strong>matematiksel olarak imkansızdır</strong> &mdash; toplam küresel zenginlik ~471 trilyon dolardır.",
+                "<strong>Dünyanın en büyük 4 bankası Çinli</strong>'dir (ICBC, Ziraat Bankası, İnşaat Bankası, Bank of China). İlk 20 banka arasında &mdash; çoğu Çin, Japon, İngiliz ve Fransız bankalarıdır.",
+                "<strong>Yahudiler = dünya nüfusunun %0,2'si</strong> (8 milyarın 15,7 milyonu). %0,2'nin küresel ekonomiyi, medyayı ve hükümetleri \"kontrol etmesi\" <strong>istatistiksel olarak imkansızdır</strong>.",
+                "<strong>İroni:</strong> ADL'nin belirttiği gibi &mdash; \"Tarih boyunca Yahudilerin kendi kaderleri üzerinde bile <strong>çok az kontrolleri</strong> vardı\" &mdash; sınır dışı edilmeler, pogromlar, Holokost."
+            ],
+            "facts_conclusion": "",
+            "sources": "Kaynaklar: USHMM — Siyon Büyüklerinin Protokolleri | ADL — Bir Nefret Aldatmacası | Snopes — Rothschild Ailesi Zenginliği (Gerçek Kontrolü) | PolitiFact — \"Pantolon Yanıyor\" Değerlendirmesi | S&P Global — Dünyanın En Büyük Bankaları 2024 | ADL Küresel 100 Araştırması 2024 | Britannica — Protokoller"
+        },
+        {
+            "title": "\"Yahudilerin İsrail Topraklarıyla hiçbir tarihsel bağı yoktur\"",
+            "claim_label": "&#10060; Ne iddia ediyorlar:",
+            "claim": "Yahudiler, İsrail Topraklarıyla hiçbir gerçek bağlantısı olmayan \"Avrupalı ​​sömürgecilerdir\". Siyonizm yalnızca modern bir \"sömürge projesidir.\" Mahmud Abbas (Nisan 2025), Tapınakların Kudüs'te değil, <strong>Yemen'de olduğunu iddia etti</strong>. \"Tapınak Reddi\" hareketi, Tapınak Dağı ile herhangi bir Yahudi bağlantısını reddediyor.",
+            "facts_label": "&#10003; Yalanı ortaya çıkaran gerçekler — 3.200 yıllık kanıt:",
+            "facts_list": [
+                "<strong>Merneptah Steli (MÖ 1208):</strong> Mısır yazıtı &mdash; <strong>Tarihte İsrail'in İncil'de yer almayan ilk sözü</strong>. Kahire Müzesi.",
+                "<strong>Tel Dan Steli (MÖ 9. yüzyıl):</strong> 1993'te bulunan Aramice bir yazıt: \"Davut Evi\" &mdash; <strong>Davut hanedanının ilk dış kanıtı</strong>.",
+                "<strong>Siloam Yazıtı (MÖ 701):</strong> Kudüs'teki Hizkiya Tüneli'ndeki eski bir İbranice yazıt &mdash; <strong>İbranice konuşan biri 2.700 yıl önce Kudüs'te görevliydi</strong>.",
+                "<strong>Ölü Deniz Parşömenleri (MÖ 3. yüzyıl - MS 1. yüzyıl):</strong> İbranice ve Aramice 981 el yazması &mdash; <strong>İncil'in en eski kopyaları</strong>. İsrail Müzesi, Kudüs.",
+                "<strong>Titus Kemeri, Roma (MS 81):</strong> Romalı askerleri tasvir eden bir kabartma <strong>Kudüs'teki Tapınaktan Menorah'ı taşırken</strong> &mdash; Yahudi Tapınağının Kudüs'te bulunduğunu gösteren Roma kanıtı.",
+                "<strong>50.000+ Bar Kokhba madeni parası (MS 132-135):</strong> Yahudi sembolleri ve eski İbranice yazıtlarla: \"Kudüs'ün Özgürlüğü İçin.\"",
+                "<strong>Genetik çalışmalar (PNAS 2000, Nature 2010):</strong> Tüm Yahudi grupları &mdash; Aşkenazi, Sefarad ve Mizrahi &mdash; <strong>ortak Orta Doğu genetik işaretlerini paylaşıyor</strong>. Yahudiler genetik olarak Avrupalılardan çok Filistinlilere, Suriyelilere ve Dürzilere daha yakın.",
+                "<strong>League of Nations (1922):</strong> <strong>\"Yahudi halkının Filistin'le tarihsel bağlantısının\" uluslararası resmi olarak tanınması.</strong>"
+            ],
+            "facts_conclusion": "Yahudilerin İsrail Topraklarıyla bağlantısını reddetmek, hepsi aynı sonucu doğrulayan <strong>arkeolojiyi, Roma kayıtlarını, genetik bilimini ve uluslararası hukuku</strong> &mdash; göz ardı etmeyi gerektirir.",
+            "sources": "Kaynaklar: İncil Arkeoloji Derneği — Merneptah Steli, Tel Dan Steli | İsrail Müzesi — Ölü Deniz Parşömenleri | Yeshiva Üniversitesi — Titus Kemeri Projesi | Hammer ve ark. (2000), PNAS 97(12) | Behar ve ark. (2010), Doğa 466 | Milletler Cemiyeti Mandası (1922), Yale Avalon Projesi | USHMM | GYA"
+        }
+    ],
+    "timeline_title": "2.500 Yıllık Zulüm",
+    "timeline_desc": "Zaman çizelgesi aynı yalanların defalarca tekrarlandığını ve her seferinde ölümcül sonuçlar doğurduğunu gösteriyor",
+    "timeline": [
+        {
+            "date": "MÖ 167",
+            "title": "Antiochus IV'e yapılan zulüm",
+            "desc": "Devlet destekli ilk zulüm. Tapınağa saygısızlık, Yahudiliğin yasaklanması. Makabi isyanını ateşledi - Hanuka.",
+            "victims": ""
+        },
+        {
+            "date": "MS 38",
+            "title": "İskenderiye Pogromu",
+            "desc": "Belgelenen ilk Yahudi karşıtı pogrom. Çeteler Yahudi mahallelerine saldırdı, evleri ve sinagogları yıktı.",
+            "victims": "Yüzlercesi öldürüldü"
+        },
+        {
+            "date": "MS 70",
+            "title": "İkinci Tapınağın Yıkılışı",
+            "desc": "Roma, Yahudi yaşamının merkezini yok etti. Sürgünün başlangıcı. Hıristiyanlık bunu ilahi ceza olarak yeniden çerçeveledi.",
+            "victims": "Yüz binlerce"
+        },
+        {
+            "date": "1096",
+            "title": "Birinci Haçlı Seferi Katliamları",
+            "desc": "Kutsal Topraklara giden Haçlılar, Ren Bölgesi'ndeki Yahudi topluluklarını katletti. Yalnızca Mainz'da bir günde 1000 Yahudi öldürüldü.",
+            "victims": "5.000-10.000 öldürüldü"
+        },
+        {
+            "date": "1144",
+            "title": "İlk Kan İftirası - Norwich",
+            "desc": "Bir çocuk ölü bulundu; Yahudiler delil olmadan suçlandılar. Sonraki 800 yıl boyunca yüzlerce kez yinelenen bir şablon oluşturduk.",
+            "victims": ""
+        },
+        {
+            "date": "1215",
+            "title": "Dördüncü Lateran Konseyi",
+            "desc": "Papa, Yahudilere tanıtıcı kıyafetler (sarı rozetin öncüsü) giymelerini ve kamu görevinden men edilmelerini emretti.",
+            "victims": ""
+        },
+        {
+            "date": "1290",
+            "title": "İngiltere'den sınır dışı edilme",
+            "desc": "İlk tam ulusal sınır dışı etme. 3.000-16.000 Yahudi sınır dışı edildi. 1656 – 366 yıl yasağına kadar geri dönmeleri yasaklandı.",
+            "victims": ""
+        },
+        {
+            "date": "1348-1351",
+            "title": "Kara Ölüm Pogromları",
+            "desc": "Yahudiler kuyuları zehirlemekle suçlanıyordu. 14 Şubat 1349'da Strazburg'da 2.000 Yahudi, veba şehre ulaşmadan önce diri diri yakıldı. 200'den fazla Yahudi cemaati yok edildi.",
+            "victims": "On binlerce"
+        },
+        {
+            "date": "1478",
+            "title": "İspanyol Engizisyonu",
+            "desc": "Hıristiyanlığa geçmiş Yahudileri hedef aldı. İşkence, hapis, meydanlarda kazıkta yakılma. \"Kanın saflığı\" yasaları Nazi ırkçılığının öncüsü.",
+            "victims": "~3.000-5.000 idam edildi"
+        },
+        {
+            "date": "1492",
+            "title": "İspanya'dan sınır dışı edilme",
+            "desc": "200.000 Yahudi, 1.000 yılı aşkın süredir yaşadıkları bir ülkeden kovuldu. Birçoğu yolda öldü.",
+            "victims": "200.000 sürgün"
+        },
+        {
+            "date": "1933-1945",
+            "title": "Holokost",
+            "desc": "Sistematik endüstriyel soykırım. Gettolar, imha kampları, Einsatzgruppen, ölüm yürüyüşleri. Bu sitede belgelenen her antisemitik kinaye, gerekçe olarak kullanıldı.",
+            "victims": "6.000.000 öldürüldü"
+        },
+        {
+            "date": "2018-2024",
+            "title": "Küresel Antisemitizm Dalgası",
+            "desc": "Pittsburgh'daki (11 ölü), Halle, Paris'teki Hayat Ağacı sinagogunda silahlı saldırı. ADL, 2016-2022 yılları arasında ABD'deki Yahudi karşıtı olaylarda %167'lik bir artış olduğunu bildirdi.",
+            "victims": ""
+        }
+    ],
+    "psych_title": "Nefretin Psikolojisi",
+    "psych_desc": "Antisemitizm aslında Yahudilerle ilgili değildir &mdash; antisemitlerin psikolojik ihtiyaçlarıyla ilgilidir",
+    "psych_insight_title": "Temel Bilgi",
+    "psych_insight_text": "Tüm psikolojik açıklamalardan tek bir model ortaya çıkıyor: Antisemitizm aslında Yahudilerle ilgili değil. Bu, antisemitlerin psikolojik ihtiyaçları &mdash;, basit açıklamalara olan ihtiyaçları, karmaşıklıktan korkmaları, yerinden edilmiş öfkeleri ve birilerini suçlama arzuları ile ilgilidir. Yahudiler bu ihtiyaçların yansıtıldığı perdedir. Antisemitizmin neredeyse hiç Yahudi olmayan ülkelerde (Japonya, Güney Kore, Holokost sonrası Polonya) bile varlığını sürdürmesinin nedeni budur.",
+    "psych_cards": [
+        {
+            "title": "Günah keçisi ilan etme",
+            "text": "Bir toplum bir krizle karşı karşıya kaldığında insanlar suçlayacak birini arar. Görünür bir azınlık grubunu suçlamak, karmaşık sistemik faktörleri suçlamaktan çok daha kolaydır. Her suçlama, suçlayan toplumun kendisi hakkında en çok korktuğu şeyi ortaya çıkarır."
+        },
+        {
+            "title": "Projeksiyon",
+            "text": "Kişinin kendi kabul edilemez özelliklerini bilinçsizce başkalarına aktarması. Tefecilikten dolayı kendilerini suçlu hisseden Hıristiyanlar, Yahudileri açgözlülükle suçladılar. Dünya hakimiyeti peşinde koşan Avrupalılar, Yahudileri dünya hakimiyeti arayışıyla suçladı. Öjeni uygulayan Naziler, Yahudileri ırk karışımıyla suçladı."
+        },
+        {
+            "title": "Onay Önyargısı",
+            "text": "Birisi \"medyayı Yahudilerin kontrol ettiğine\" inandığında, medyadaki her Yahudiyi fark eder ve olmayan binlercesini görmezden gelir. İnanç kendi \"kanıtını\" üretir."
+        },
+        {
+            "title": "Hayali Korelasyon",
+            "text": "Bir azınlık olumsuz bir olaya karıştığında insanlar aradaki bağlantıyı abartıyor. Yahudi bir bankacı dolandırıcılık yaparsa &mdash; onun Yahudiliği not edilir. Yahudi olmayan bir bankacı dolandırıcılık yaparsa &mdash; onun etnik kökeni görünmez."
+        },
+        {
+            "title": "Otoriter Kişilik",
+            "text": "Adorno (1950) önyargıyı öngören özelliklerin bir kombinasyonunu buldu: katı düşünme, otoriteye boyun eğme, dış gruplara karşı saldırganlık ve değişim kaygısı. Bu özelliklere sahip insanlar, basit açıklamalar, açık düşmanlar ve karmaşık bir dünyada düzen duygusu sağladıkları için Yahudi karşıtı anlatılara ilgi duyuyorlar."
+        },
+        {
+            "title": "Komplocu Düşünce",
+            "text": "Modern araştırmalar komplocu düşüncenin bilişsel bir tarz olduğunu gösteriyor &mdash; Bir komploya inananlar diğerlerine, hatta çelişkili olanlara da inanma eğilimindedir. Antisemitizm \"tüm komploların anası\" &mdash; dünyada yanlış olan her şey için tek bir açıklama sağlar."
+        }
+    ],
+    "regions_title": "Topluma ve Ulusa Göre Antisemitizm",
+    "regions_desc": "Her toplum Yahudi nefretinin kendi versiyonunu geliştirdi &mdash; aynı zehir, farklı şişeler",
+    "regions": [
+        {
+            "title": "Müslüman ve Arap Dünyası",
+            "subtitle": "Ortaçağ dini antisemitizminden modern çatışmalara",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Tarihsel Kaynak:</strong> Erken Yahudilik ve İslam'da bir arada yaşama dönemleri vardı. Ancak Kuran Yahudiler hakkında olumsuz ayetler içerir (Sure 5:60 &mdash; \"Allah'ın lanetlediği ve maymun ve domuza çevirdiği kişiler\") ve Muhammed Medine'deki Yahudi kabilelerini kovdu ve katletti (Banu Qurayza, MS 627 &mdash; 600-900 Yahudi erkeğinin başı kesildi). İslami yönetim altında Yahudiler, korunan ancak cizye vergisini ödeyen ve kimlik işaretleri taşıyan \"zımmiler\" &mdash; idi.",
+                "<strong style=\"color:#e2b714;\">Filistin Ulusal Kimliğinin İcadı:</strong> \"Filistin\" terimi Roma'ya ait bir coğrafi isimdir (Romalıların Yahudi kimliğini silmek için Judea'yı yeniden adlandırdıkları MS 135'ten itibaren). Bölgedeki Araplar yüzyıllardır kendilerini Suriyeli, Arap veya kabile ve aile bazında tanımlıyorlardı. Filistin ulusal kimliği esas olarak 20. yüzyılın ortalarında belirginleşti. El-Sa'iqa'nın (Filistinli bir örgüt) lideri Zuheir Mohsen, 1977'de Hollanda gazetesi Trouw'a verdiği röportajda şunları söyledi: \"Filistin halkı diye bir şey yok... Ürdünlüler, Filistinliler, Suriyeliler ve Lübnanlılar arasında hiçbir fark yok. Hepimiz tek bir Arap ulusunun parçasıyız.\"",
+                "<strong style=\"color:#e2b714;\">İntihar Terörü:</strong> İkinci İntifada sırasında (2000-2005), otobüslerde, restoranlarda, alışveriş merkezlerinde ve gece kulüplerinde İsrailli sivillere karşı 140'ın üzerinde intihar bombası gerçekleştirildi. 1.137 İsrailli öldürüldü. Hamas, İslami Cihat ve El Fetih, aralarında kadınlar ve gençlerin de bulunduğu gençleri sivillerin arasında kendilerini havaya uçurmaları için gönderdiler &mdash; ve ardından İsrail'in \"öldürdüğünü\" iddia ettiler. Bebekli otobüsleri havaya uçuran taraf mağdur değil.",
+                "<strong style=\"color:#e2b714;\">\"Soykırım\" İftirası:</strong> İsrail, tarihte bir saldırıdan önce düşman sivillere uyarı bildirileri (\"çatı çarpması\", SMS mesajları, broşürler) gönderen tek ordudur. İsrail, ihlalleri araştıran bağımsız bir hukuk sistemi işletiyor. Eğer İsrail soykırım yapmak istiyorsa, neden Gazze'nin nüfusu 1948'de 80.000'den 2023'te 2 milyonun üzerine çıktı? Gerçek soykırım Ruanda'ya (100 günde 800.000 ölü) veya Holokost'a (6 milyon) benziyor. Meşru müdafaa hakkı soykırım değildir.",
+                "<strong style=\"color:#e2b714;\">Modern Propaganda:</strong> \"Siyon Büyüklerinin Protokolleri\" &mdash; 1903'ten kalma bir Rus sahteciliğidir &mdash; Arap dünyasında en çok satanlardan biridir. Mısır dizisi \"Atsız Süvari\" (2002, 41 bölüm, devlet televizyonunda yayınlandı) Protokollere dayanıyor ve Yahudileri komplocu olarak tasvir ediyor. UNRWA'daki (BM mülteci örgütü) ders kitapları, İsrail'in yer almadığı haritalar ve intihar saldırılarını öven şiirler de dahil olmak üzere Yahudi karşıtı içerik &mdash; içeriyordu."
+            ],
+            "fact_boxes": [
+                "<strong>Belgelenmiş Gerçek:</strong> 1948-1972 yılları arasında yaklaşık 850.000 Yahudi Arap ve Müslüman ülkelerden sınır dışı edildi veya kaçmaya zorlandı. Mallarına el konuldu. Irak, Mısır, Libya, Yemen, Suriye ve Fas'taki binlerce yıllık Yahudi toplulukları neredeyse tamamen yok edildi. Irak'ta Ferhud (1941): 180 Yahudi öldürüldü, 1000 kişi yaralandı, 900 ev yıkıldı",
+                "<strong>Hamas Şartı (1988):</strong> Madde 7, Yahudilerin (İsraillilerin değil, &mdash; Yahudilerin) öldürülmesini gerektirir. Madde 22, Fransız Devrimi'nin, Birinci Dünya Savaşı'nın, Komünizmin ve İkinci Dünya Savaşı'nın arkasında Yahudilerin olduğunu iddia ediyor. Madde 32'de, 1903 tarihli Rus antisemitik sahteciliği olan \"Siyon Büyüklerinin Protokolleri\" &mdash; orijinal belge olarak &mdash; zikredilmektedir. Bu \"işgale karşı direniş\" değil. Bu soykırım dilinde açık antisemitizmdir."
+            ],
+            "sources": "Kaynaklar: Benny Morris, '1948' (2008); Hamas Şartı (1988); MEMRI çevirileri; IMPACT-se okul ders kitabı raporları; Andrew Bostom, 'İslami Antisemitizmin Mirası' (2008)"
+        },
+        {
+            "title": "Polonya ve Doğu Avrupa",
+            "subtitle": "Talmud mitleri, \"Yahudi Komünizmi\" ve Holokost'tan kurtulan nefret",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Talmud Efsanesi:</strong> Polonya'da (ve Doğu Avrupa'da) en yaygın inanışlardan biri, Talmud'un Yahudi olmayanlara karşı nefretle dolu olduğudur. Antisemitik propaganda (çoğunlukla ortaçağ Katolik Kilisesi'nden ve Justinas Pranaitis'in 1892 tarihli \"Talmud Unmasked\" adlı eseri gibi yayınlardan) bağlamdan alıntılar çıkardı, bunları kasıtlı olarak yanlış tercüme etti veya basitçe uydurdu. Talmud 6.200 sayfalık hukuki tartışmalardan oluşur ve hiçbir nitelikli Talmud alimi Yahudi karşıtı okumayı desteklemez.",
+                "<strong style=\"color:#e2b714;\">Żydokomuna Efsanesi (\"Yahudi Komünizmi\"):</strong> Komünizmin bir \"Yahudi icadı\" olduğu ve Yahudilerin Komünist Polonya'yı yönettiği inancı. Gerçekte: Polonya Birleşik İşçi Partisi'nin (PZPR) ezici bir çoğunluğu Polonyalıydı. Yahudiler her alanda bulunduğu için &mdash; yüksek pozisyonlarda bulunan birkaç Yahudi vardı &mdash; ama küçük bir yüzdeyi oluşturuyorlardı. Polonyalıların çoğu Yahudilerle hiçbir bağlantısı olmayan coşkulu komünistlerdi. 1968'de Polonya Komünist rejiminin kendisi Yahudi karşıtı bir kampanya (\"Anti-Siyonistler\") yürüttü ve yaklaşık 13.000 Yahudiyi Polonya'dan sınır dışı etti.",
+                "<strong style=\"color:#e2b714;\">Jedwabne (1941):</strong> 10 Temmuz 1941'de, Jedwabne kasabasının Polonyalı sakinleri kasabadaki Yahudilerden en az 340'ını (muhtemelen 1.000'den fazla) öldürdü &mdash; onları bir ahırda diri diri yaktı. Naziler değil. Polonyalı komşular. Tarihçi Jan Tomasz Gross bunu \"Komşular\" (2001) adlı kitabında belgeleyerek Polonya'da ulusal bir şoka neden oldu. 2018'de Polonya, tarihi susturmak amacıyla Holokost suçlarının sorumluluğunun Polonya ulusuna atfedilmesini yasaklayan bir yasayı kabul etti &mdash;."
+            ],
+            "fact_boxes": [
+                "<strong>Kielce Pogromu (1946):</strong> Auschwitz'in kurtarılmasından bir yıl sonra, Holokost'tan sağ kurtulan 42 Yahudi, Polonya'nın Kielce şehrinde düzenlenen bir pogromda öldürüldü. Bahane: Kan iftirası (!) &mdash; Hıristiyan bir çocuğun Yahudiler tarafından kaçırıldığına dair söylenti. 1946'da. Holokost'tan sonra. Auschwitz'den sağ kurtulanlar Polonyalı komşuları tarafından aynı Orta Çağ yalanına dayanarak öldürüldü. Bu olay Holokost'tan sağ kurtulanların Polonya'dan kaçışını (Bericha) tetikledi.",
+                "<strong>Rusya:</strong> \"Siyon Büyüklerinin Protokolleri\", Rus gizli polisi (Okhrana) tarafından 1903 civarında, Yahudilerle hiçbir ilgisi olmayan bir Fransız kitabından (Maurice Joly, 1864) çalıntı temel alınarak oluşturuldu. Pale of Settlement (1791-1917), Yahudileri kısıtlı yerleşim alanlarıyla sınırladı. 1881-1921 yılları arasında pogrom dalgaları onbinlerce Yahudiyi öldürdü. İlk pogromların çoğu bizzat hükümet tarafından teşvik edildi veya planlandı. \"Doktorların Komplosu\" (1953) &mdash; Stalin, Yahudi doktorları Sovyet liderlerini öldürmeyi planlamakla suçladı. Yahudilerin Sibirya'ya kitlesel olarak sürgün edilmesini yalnızca Stalin'in ölümü engelledi."
+            ],
+            "sources": "Kaynaklar: Jan T. Gross, 'Komşular' (2001); Joanna Tokarska-Bakir, 'Pogrom Çığlıkları' (2018); Norman Cohn, 'Soykırım Emri' (1967)"
+        },
+        {
+            "title": "Nazi Almanyası",
+            "subtitle": "İmha makinesi: modern bir devlet nefreti nasıl bir endüstriye dönüştürdü?",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">İdeoloji:</strong> Naziler antisemitizmi icat etmediler &mdash; onlar sanayileştirdiler. Hıristiyanlığın 2000 yıllık antisemitizmini 19. yüzyılın sözde bilimsel ırkçılığıyla (ırksal antropoloji, öjeni, Sosyal Darwinizm) birleştirdiler ve tek amacı bütün bir halkı yok etmek olan koca bir yasalar, bürokrasi ve endüstri sistemi yarattılar.",
+                "<strong style=\"color:#e2b714;\">Propaganda Makinesi:</strong> Joseph Goebbels eşi benzeri olmayan bir propaganda sistemi kurdu. \"Ebedi Yahudi\" (1940) filmi Yahudileri fare olarak tasvir ediyordu. \"Der Stürmer\" (Julius Streicher) gazetesi haftalık olarak Yahudi karşıtı karikatürler yayınladı. Çocuklar antisemitizmi 6 yaşından itibaren okullarda öğrendiler. \"Zehirli Mantar\" (1938) gibi çocuk kitapları çocuklara Yahudileri tanımlamayı ve nefret etmeyi öğretti. Yöntem: Yalanı yeterince tekrarladığınızda insanlar inanmaya başlayacaktır.",
+                "<strong style=\"color:#e2b714;\">Nazi Çelişkisi:</strong> Naziler aynı zamanda Yahudilerin aşağı bir ırk (Untermenschen) olduğunu ve gizlice tüm dünyayı yönettiklerini iddia ediyordu. Eğer Yahudiler bu kadar aşağılıksa, nasıl oluyor da her şeyi kontrol edebiliyorlar? Bu çelişki, antisemitizmin rasyonel bir sistem değil, paranoyak bir fantezi olduğunu ortaya koyuyor &mdash; tutarlı olmasına gerek yok, sadece nefreti haklı çıkarmak için."
+            ],
+            "fact_boxes": [
+                "<strong>Yıkım Merdiveni:</strong><br>1933: Yahudi işletmelerinin boykot edilmesi, hükümet görevlerinden ihraç<br>1935: Nürnberg Yasaları &mdash; vatandaşlıktan çıkarıldı, evliliklerin yasaklanması<br>1938: Kristallnacht &mdash; 1.400 sinagog yakıldı, 30.000 Yahudi Yahudilere gönderildi kamplar<br>1939-1941: Gettolar, organize açlık, toplu katliamlar (Einsatzgruppen 1,5 milyon kişiyi öldürdü)<br>1942: Wannsee Konferansı &mdash; \"Nihai Çözüm\" resmileşti<br>1942-1945: Auschwitz-Birkenau, Treblinka, Sobibor, Belzec, Chelmno, Majdanek'teki endüstriyel gaz odaları",
+                "<strong>Rakamlar:</strong> 6 milyon Yahudi öldürüldü &mdash; tüm Yahudi halkının üçte biri. Bunların 1,5 milyonu çocuktu. Avrupa'daki bin yıllık Yahudi toplulukları tamamen yok edildi. Bu belki de tarihte modern bir devletin endüstriyel kaynaklarını (&mdash; trenleri, fabrikaları, bürokrasiyi &mdash;) bütün bir halkı katletmeye adadığı tek zamandır."
+            ],
+            "sources": "Kaynaklar: Raul Hilberg, 'Avrupalı ​​Yahudilerin Yıkımı' (1961/2003); USHMM arşivleri; Yad Vashem Shoah Kurbanlarının İsimlerine Dair Merkezi Veritabanı"
+        },
+        {
+            "title": "Modern Batı Avrupa",
+            "subtitle": "Eski antisemitizmin yeni maskesi olarak \"Anti-Siyonizm\"",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Yeni \"Anti-Siyonizm\":</strong> Tarihçi Natan Sharansky, İsrail'e yönelik eleştirilerin ne zaman antisemitizme dönüştüğünü belirlemek için \"3D Testi\" geliştirdi: <strong>Şeytanlaştırma</strong> (İsrail = Naziler), <strong>Gayri meşrulaştırma</strong> (İsrail'in var olma hakkı yoktur), <strong>Çifte Standart</strong> (İsrail'den gelen, başka herhangi bir ülkeden talep edilir). Belirli İsrail politikalarına yönelik meşru eleştiriler, herhangi bir ülkeye yönelik eleştiriler gibi &mdash; kabul edilir. Ancak dünya milletleri arasında yalnızca İsrail'in var olma hakkını inkar etmek antisemitizmdir.",
+                "<strong style=\"color:#e2b714;\">Britanya &mdash; Çalışma Meselesi:</strong> Jeremy Corbyn (2015-2020) döneminde Britanya İşçi Partisi, Eşitlik ve İnsan Hakları Komisyonu (EHRC) tarafından soruşturuldu ve ayrımcılık yasasının ciddi ihlallerinden &mdash; kurumsal antisemitizmden sorumlu bulundu. Corbyn, Hamas ve Hizbullah'ı \"dostlar\" olarak adlandırdı, 1972'deki Münih Olimpiyatları katliamının planlayıcısının mezarına çelenk koydu ve Yahudi karşıtı duvar resmi yapan bir sanatçıyı destekledi. Binlerce Yahudi partiden ayrıldı.",
+                "<strong style=\"color:#e2b714;\">Üniversite Kampüsleri:</strong> BDS hareketi (Boykot, Tecrit, Yaptırımlar) kampüslerde antisemitizmin merkezi kolu haline geldi. Yahudi öğrenciler, Hillel kulüplerinde taciz, sosyal adalet kuruluşlarından dışlanma (\"Siyonist misin? Davet edilmedin\") ve camların kırıldığını bildirdiler. Büyük hırsızlık: İnsan hakları dilini kullanarak en temel hak olan &mdash; kendi kaderini tayin etme hakkını &mdash; yalnızca tek bir kişiden inkar ediyorlar."
+            ],
+            "fact_boxes": [
+                "<strong>Fransa:</strong> 21. yüzyılda Avrupa'dan en büyük Yahudi göçü Fransa'da yaşanıyor. 2006: Genç bir Yahudi olan Ilan Halimi, Yahudi \"ve dolayısıyla zengin\" olduğu için kaçırıldı, 24 gün boyunca işkence gördü ve \"Barbarlar Çetesi\" &mdash; tarafından öldürüldü. 2012: Mohamed Merah, Toulouse'daki bir Yahudi okulunda 3 çocuğu ve Haham Jonathan Sandler'ı vurarak öldürdü. 2015: Paris'te Hyper Cacher koşer süpermarketine saldırı, 4 kişi öldürüldü. Yahudiler Fransa nüfusunun %1'ini oluştururken nefret suçu mağdurlarının %40'ını oluşturuyor. 2010-2020 yılları arasında yaklaşık 38.000 Yahudi Fransa'dan İsrail'e doğru yola çıktı."
+            ],
+            "sources": "Kaynaklar: EHRC İşgücü Raporu (2020); Natan Sharansky, '3D Testi' (2004); ADL Kampüsü Antisemitizm raporları; CRIF (Conseil Représentatif des Institutions Juives de France)"
+        },
+        {
+            "title": "Amerika Birleşik Devletleri",
+            "subtitle": "\"Alternatif Sağ\"dan \"İslam Milleti\"ne kadar her yönden nefret",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Aşırı Sağ:</strong> Charlottesville, Virginia'da (Ağustos 2017), neo-Naziler meşalelerle \"Yahudiler yerimizi alamayacak\" sloganları atarak yürüdüler. 27 Ekim 2018'de Robert Bowers, Pittsburgh, Pensilvanya'daki Hayat Ağacı sinagoguna girdi ve ibadet eden 11 kişiyi vurarak öldürdü. Bu, Amerikan tarihinde Yahudilere yönelik en ölümcül saldırıdır. Ateş açmadan önce \"Bütün Yahudiler ölmeli\" diye bağırdı.",
+                "<strong style=\"color:#e2b714;\">Louis Farrakhan ve \"İslam Milleti\":</strong> Farrakhan, Yahudileri \"termitler\", \"şeytani kan emiciler\" ve Yahudiliği de \"boş bir din\" olarak nitelendirdi. Örgütü, Yahudileri köle ticaretiyle suçlayan \"Siyahlar ve Yahudiler Arasındaki Gizli İlişki\" gibi kitaplar yayınlıyor; bu iddia, her ciddi tarihçi (Henry Louis Gates gibi Siyah tarihçiler dahil) tarafından çürütülmüştür. Bu nefret özellikle tehlikelidir çünkü kendisini sosyal adalet diliyle giydirmektedir.",
+                "<strong style=\"color:#e2b714;\">Kanye West (Ye) ve Ünlü Kültürü:</strong> Aralık 2022'de West, canlı yayında \"Nazileri seviyorum\" dedi ve Hitler'i övdü. Bundan önce de \"Yahudi halkına yönelik ölüm dolandırıcılığı 3\" tweetini atmıştı. Etkisi: ADL, Batı'yı gerekçe olarak öne süren aşırı sağ grupların Yahudi karşıtı propagandasında keskin bir artış olduğunu bildirdi. 30 milyon takipçisi olan biri Yahudi nefretini normalleştirirse sonuçları gerçek ve tehlikeli olur."
+            ],
+            "fact_boxes": [
+                "<strong>İstatistikler:</strong> ADL, 2022'de ABD'de 3.697 Yahudi karşıtı olayı belgeledi &mdash;, izlemenin başladığı 1979'dan bu yana en yüksek rakam. Bir yılda %36 artış. 2023 (7 Ekim'den sonra): rakam %140 artışla 8.873 olaya yükseldi &mdash;. Yahudiler nüfusun %2,4'ünü oluşturuyor ancak FBI'a göre dini nefret suçu mağdurlarının %60'ından fazlasını oluşturuyor."
+            ],
+            "sources": "Kaynaklar: Yahudi Karşıtı Olayların ADL Denetimi (2022, 2023); FBI Nefret Suçu İstatistikleri; Henry Louis Gates Jr., Geçiş Döneminde 'Siyah Antisemitizm' (1992); Pittsburgh Post-Gazette'in haberciliği"
+        },
+        {
+            "title": "İran ve İslam Rejimi",
+            "subtitle": "Devlet politikası olarak antisemitizm: Holokost inkarından terörizmin finansmanına kadar",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Kurumsallaştırılmış Holokost İnkarı:</strong> Eski Başkan Mahmud Ahmedinejad, Tahran'da Holokost inkarına ilişkin uluslararası bir konferans düzenledi (2006), dünyanın dört bir yanından (KKK'dan David Duke dahil) bilinen Holokost inkarcılarını davet etti ve Holokost'un bir \"efsane\" olduğunu ilan etti. Dini Lider Hamaney, Holokost hakkında \"ciddi şüpheler\" olduğunu iddia ederek bu çizgiyi sürdürdü. Bu tarihsel bir konum değil &mdash; psikolojik hazırlıktır. Önceki soykırımın inkar edilmesi bir sonrakinin yolunu açar.",
+                "<strong style=\"color:#e2b714;\">Çelişkinin İronik İkiyüzlülüğü:</strong> İran, İsrail'in ırkçı olduğunu iddia ediyor &mdash; İran rejimi ise İran'daki Bahailere, Kürtlere, Araplara, Sünnilere ve LGBTQ+ kişilere sistematik olarak zulmediyor. Yılda binlerce idam, başörtüsü takmadıkları için öldürülen kadınlar (Mahsa Amini, 2022). İran'daki Yahudi cemaati (devrim öncesindeki sayı 100.000'den yaklaşık 8.000'e düştü) gözetim ve kısıtlamalar altında yaşıyor."
+            ],
+            "fact_boxes": [
+                "<strong>Terörü Finanse Etmek:</strong> İran, Hizbullah'ı (Lübnan), Hamas'ı (Gazze), İslami Cihad'ı (Gazze) ve Husileri (Yemen) finanse ediyor ve silahlandırıyor. Hizbullah, Buenos Aires'teki AMIA bombalamasından (1994, 85 ölü) ve İsrail büyükelçiliği bombalamasından (1992, 29 ölü) sorumludur. İran'ın belirttiği hedef: \"İsrail'i haritadan silmek.\" Bu politika eleştirisi değil &mdash; bir halkın yok edilmesine yönelik bir çağrıdır."
+            ],
+            "sources": "Kaynaklar: AMIA soruşturma kayıtları; UAEA raporları; ABD Dışişleri Bakanlığı İnsan Haklarına İlişkin Ülke Raporları; İran devlet medyasının MEMRI çevirileri"
+        },
+        {
+            "title": "Japonya, Güney Kore ve Doğu Asya",
+            "subtitle": "Şaşırtıcı bir olgu: Neredeyse hiç Yahudi olmayan ülkelerde antisemitizm",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Paradoks:</strong> Japonya'da yaklaşık 1000 Yahudi yaşıyor (125 milyon Yahudiden). Güney Kore'de &mdash; birkaç yüz. Ancak \"Siyon Liderlerinin Protokolleri\" Japonya'da onlarca baskı halinde tercüme edildi ve satıldı. \"Dünyanın Yahudi Kontrolü\" gibi kitaplar çok satanlar arasında. Japonya ve Güney Kore'de \"Yahudisiz antisemitizm\" temel noktayı kanıtlıyor: <strong>Antisemitizm gerçek Yahudilere karşı bir tepki değildir &mdash; hayali Yahudilerle ilgili bir fantezidir.</strong>",
+                "<strong style=\"color:#e2b714;\">Asya Versiyonu:</strong> Avrupa antisemitizminden (nefretinden) farklı olarak, Asya versiyonu bazen çarpık bir şekilde \"olumludur\": \"Yahudiler akıllıdır, parayı kontrol ederler, biz de onlardan öğrenebiliriz.\" Bu hala antisemitizmdir &mdash; çünkü gerçek Yahudilerle karşılaşmalara değil kalıplaşmış yargılara dayanmaktadır. Yahudileri insandan efsanevi figürlere dönüştürüyor."
+            ],
+            "fact_boxes": [],
+            "sources": "Kaynaklar: ADL Global 100 Araştırması; David Goodman ve Masanori Miyazawa, 'Japon Zihnindeki Yahudiler' (1995)"
+        }
+    ],
+    "report_title": "Antisemitizmle Karşılaştınız mı? Bildir",
+    "report_desc": "Sessiz kalmayın &mdash; raporlama hayat kurtarır ve gerilimi önler. İşte nereye döneceğiniz:",
+    "gallery_title": "Tarihsel Belgeler",
+    "youtube_title": "İzle ve Öğren",
+    "footer": {
+        "motto": "Hakikat nefrete karşı en güçlü silahtır",
+        "motto_en": "Hakikat nefrete karşı en güçlü silahtır"
+    }
+}

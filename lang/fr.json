@@ -1,0 +1,837 @@
+{
+    "meta": {
+        "code": "fr",
+        "name": "Français",
+        "dir": "ltr"
+    },
+    "nav": [
+        "Qu’est-ce que l’antisémitisme ?",
+        "Réclamations et réfutations",
+        "Mensonges courants",
+        "Chronologie",
+        "La psychologie",
+        "La haine des nations",
+        "Documentation historique",
+        "Signaler l'antisémitisme",
+        "Regarder et apprendre",
+        "Que peut-on faire ?"
+    ],
+    "ui": {
+        "donate_btn": "&#9749; Assistance",
+        "lang_btn": "Langue",
+        "search_placeholder": "Site de recherche...",
+        "copy_btn": "&#128203; Copier la réponse",
+        "lie_footer": "&#10070; La vérité gagne toujours &#10070;",
+        "toggle_open": "&#9660; Cliquez pour ouvrir"
+    },
+    "hero_title": "La vérité contre le mensonge",
+    "hero_subtitle": "Dénoncer les mensonges, présenter les faits",
+    "hero_subtitle_en": "La vérité contre le mensonge — Combattre l’antisémitisme",
+    "hero_cta": "Découvrez la vérité &#8595;",
+    "stat_labels": [
+        "Réclamations démystifiées",
+        "Années documentées",
+        "Catégories",
+        "Nations et sociétés",
+        "Sources académiques"
+    ],
+    "about_title": "Qu’est-ce que l’antisémitisme ?",
+    "about_desc": "La plus vieille haine de l'histoire de l'humanité &mdash; 2 500 ans de mensonges qui doivent être révélés",
+    "about_cards": [
+        {
+            "title": "Une haine qui change de forme",
+            "text": "L’antisémitisme est la haine collective la plus persistante de l’histoire de l’humanité. Elle a pris différentes formes selon les époques &mdash; religieuses, raciales, politiques, économiques, conspiratrices &mdash; mais le schéma central reste le même : les Juifs deviennent les boucs émissaires des problèmes de la société."
+        },
+        {
+            "title": "Pourquoi la documentation est importante",
+            "text": "Pour combattre l’antisémitisme, il faut d’abord le comprendre. Sur ce site, vous trouverez 34 tropes antisémites courants répartis en 8 catégories, chacun avec une réfutation factuelle, une explication psychologique des raisons pour lesquelles les gens croient au mensonge et des sources académiques. Aucune réclamation ne reste sans réponse."
+        },
+        {
+            "title": "Trois niveaux de réponse",
+            "text": "<strong style=\"color:#2ecc71;\">1. Réfutation factuelle</strong> &mdash; Que montrent réellement les faits ?<br><strong style=\"color:#3498db;\">2. Explication psychologique</strong> &mdash; Pourquoi les gens croient-ils à ce mensonge ?<br><strong style=\"color:#e2b714;\">3. Contexte historique</strong> &mdash; Quand ce mensonge a-t-il tué des gens ?"
+        }
+    ],
+    "claims_title": "34 affirmations – 34 réfutations",
+    "claims_desc": "Cliquez sur chaque catégorie pour révéler les affirmations, et sur chaque affirmation pour lire la réfutation complète",
+    "categories": [
+        {
+            "number": "Catégorie 1",
+            "title": "Antisémitisme religieux et théologique",
+            "desc": "La couche la plus ancienne : la haine enracinée dans les récits religieux",
+            "claims": [
+                {
+                    "title": "\"Les Juifs ont tué Jésus\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Jésus a été crucifié par les autorités romaines en utilisant une méthode d'exécution romaine (la crucifixion est une punition romaine et non juive). Le gouverneur romain Ponce Pilate ordonna l'exécution. Les Évangiles ont été écrits 40 à 70 ans après les événements, dans le contexte de la séparation du christianisme et du judaïsme. Le Concile Vatican II (1965) a officiellement déclaré que la culpabilité collective ne devait pas être imputée au peuple juif dans son ensemble."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Bouc émissaire + pensée axée sur les émotions : les premiers chrétiens avaient besoin d'une explication pour expliquer pourquoi les Juifs, le propre peuple de Jésus, n'acceptaient pas sa prétention messianique. Blâmer les Juifs fournissait une explication émotionnelle commode. De plus, alors que le christianisme cherchait à être accepté au sein de l'Empire romain, blâmer Rome pour la mort de Jésus était politiquement dangereux. &mdash; blâmer les Juifs était plus pratique."
+                    ],
+                    "sources": "Sources : Raymond Brown, « La mort du Messie » (1994) ; Vatican II, « Nostra Aetate » (1965)"
+                },
+                {
+                    "title": "\"Les Juifs sont les enfants du Diable\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "L’Évangile de Jean (8 : 44) documente un vif débat intra-juif dans un contexte spécifique. Jésus lui-même était juif, ses disciples étaient juifs et le christianisme primitif était un mouvement intra-juif. Appliquer un côté d’un argument interne à tous les Juifs pour l’éternité revient à mener un débat entre deux hommes politiques américains et à conclure que tous les Américains sont mauvais."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Déshumanisation : qualifier un groupe externe de satanique ou de sous-humain est un précurseur documenté de la violence. Les recherches de Gregory Stanton identifient la déshumanisation comme l'étape 4 sur la voie menant au génocide (8 étapes en 1996, étendues à 10 en 2012). La diabolisation des Juifs a permis des siècles de pogroms."
+                    ],
+                    "sources": "Sources : Adèle Reinhartz (2018) ; Gregory Stanton, « Les 8 étapes du génocide » (1996, étendu à 10 en 2012)"
+                },
+                {
+                    "title": "\"Diffamation sanglante : les Juifs utilisent le sang d'enfants chrétiens dans des rituels\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "En 900 ans depuis la première accusation de meurtre (Norwich, 1144), aucun cas n'a jamais été prouvé. Le judaïsme interdit explicitement et à plusieurs reprises la consommation de sang : « Vous ne mangerez le sang d’aucune chair, car la vie de toute chair est son sang » (Lévitique 17 : 14). Les lois de cacherout exigent que la viande soit complètement vidangée de son sang avant d'être consommée. Le pape Innocent IV (1247) et l'empereur Frédéric II (1236) enquêtèrent sur ces accusations et les trouvèrent sans fondement."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Projection + culpabilité déplacée : La diffamation sanglante est apparue pendant les croisades, lorsque les chrétiens eux-mêmes ont commis des violences et des effusions de sang massives. Accuser les Juifs de rituels de sang fonctionnait comme une projection psychologique : transférer la culpabilité de la violence chrétienne sur « l’autre » juif. De plus, l’accusation justifiait la saisie des biens juifs et l’expulsion des populations juives."
+                    ],
+                    "sources": "Sources : R. Po-chia Hsia, « Le mythe du meurtre rituel » (1988) ; Magda Teter, « Diffamation sanglante » (2020)"
+                },
+                {
+                    "title": "\"Profanation de l'hostie : des Juifs poignardent des hosties\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "L’accusation exigeait de croire simultanément deux choses impossibles : que les Juifs rejettent la théologie chrétienne (la croyance que l’hostie devient le corps du Christ) et que les Juifs attaquent l’hostie précisément parce qu’ils croient en sa sainteté. C'est une contradiction logique. Si les Juifs ne croient pas que l’hostie est Jésus, ils n’ont aucune raison de la « torturer ». L'historienne Miri Rubin a documenté que les accusations de profanation d'hôtes se sont produites précisément pendant les périodes de tension économique entre les communautés juive et chrétienne &mdash;, ce qui suggère que la compétition économique, et non la théologie, en était le véritable motif. Lors des massacres de Rintfleisch (1298), plus de 100 communautés juives en Allemagne furent détruites sur la base de ces accusations."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Erreur d’attribution + bouc émissaire économique : les communautés confrontées à des difficultés économiques avaient besoin d’une justification pour saisir les biens juifs. Une accusation religieuse fournissait une couverture morale au vol économique. Ce modèle &mdash; utilisant des accusations morales pour justifier le gain matériel &mdash; se reproduit tout au long de l’histoire de l’antisémitisme."
+                    ],
+                    "sources": "Sources : Miri Rubin, « Contes gentils : l'assaut narratif contre les juifs de la fin du Moyen Âge » (1999)"
+                },
+                {
+                    "title": "« Les Juifs empoisonnent les puits et propagent les épidémies »",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Les Juifs n'étaient pas à l'abri de la peste noire &mdash; ils sont morts en masse. Dans certaines communautés, les taux de mortalité juive étaient quelque peu inférieurs, ce que les historiens attribuent au lavage fréquent des mains (comme l'exige la loi juive), à ​​la quarantaine pour les malades et aux sources d'eau séparées dans les ghettos. Ce sont des pratiques religieuses, pas une conspiration. Le pape Clément VI a publié en 1348 deux bulles papales défendant les Juifs, notant que les Juifs mouraient de la peste comme tout le monde. Les massacres se sont poursuivis malgré tout."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Gestion du terrorisme + besoin de contrôle : La peste noire a tué 30 à 60 % de la population européenne en 4 ans. La théorie de la gestion du terrorisme (Greenberg, Solomon & Pyszczynski) montre que lorsque les gens sont confrontés à l'anxiété de mort, ils deviennent plus hostiles envers les groupes extérieurs. Blâmer les Juifs pour la peste a transformé un désastre aléatoire et terrifiant en quelque chose causé par un ennemi identifiable &mdash; rétablissant l'illusion de contrôle."
+                    ],
+                    "sources": "Sources : Samuel Cohn, « La peste noire et l'incendie des Juifs » (2007) ; Pape Clément VI, Bulle « Quamvis Perfidiam » (1348)"
+                },
+                {
+                    "title": "\"Les Juifs étaient maudits d'errer sans patrie\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "L'exil juif de la Terre d'Israël était le résultat d'une conquête militaire : l'exil babylonien (586 avant notre ère), la destruction du Temple par Rome (70 de notre ère) et la révolte de Bar Kokhba (135 de notre ère). Par la suite, les Juifs furent expulsés de pays par décret humain : Angleterre (1290), France (1306, 1394), Espagne (1492), Portugal (1497). Chaque expulsion était effectuée par les rois pour des raisons politiques et économiques. Présenter le déplacement forcé comme une malédiction accuse la victime de sa propre persécution."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Biais en faveur d'un monde juste (Melvin Lerner) : Les gens ont un besoin psychologique profond de croire que le monde est juste &mdash; et que les gens obtiennent ce qu'ils méritent. Lorsque les Juifs ont été expulsés et persécutés, les observateurs ont dû croire qu’ils le méritaient. \"Ils ont dû faire quelque chose de mal\" &mdash; c'est le parti pris d'un monde juste en action."
+                    ],
+                    "sources": "Sources : Melvin Lerner, « La croyance en un monde juste » (1980) ; David Nirenberg, « Anti-judaïsme : la tradition occidentale » (2013)"
+                },
+                {
+                    "title": "\"Le Talmud contient des enseignements de haine contre les gentils\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Le Talmud est une archive de 6 200 pages de discussions juridiques s'étalant sur 700 ans (200 avant notre ère - 500 après JC). Il contient des opinions diverses sur chaque sujet &mdash; souvent contradictoires &mdash; car il enregistre des débats et non des dogmes. Prendre des passages isolés sans contexte, c'est comme citer une seule opinion dissidente d'un tribunal et prétendre qu'elle représente la loi.<br><br>Le Talmud enseigne explicitement : « Les justes de toutes les nations ont leur part dans le monde à venir » (Tosefta Sanhedrin 13 : 2). La loi juive exige l'honnêteté dans les affaires avec tous (dina d'malkhuta dina). Pikuach nefesh (sauver des vies) outrepasse presque tous les commandements et oblige à sauver toute la vie humaine, pas seulement la vie juive."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Biais de confirmation + sélection : les personnes qui croient déjà que les Juifs détestent les gentils recherchent dans le Talmud des passages qui confirment leur croyance, ignorent les milliers de passages qui la contredisent et suppriment le contexte de ceux qu'ils trouvent. La même méthode pourrait donner l’impression que n’importe quel texte religieux &mdash;, la Bible, le Coran, les écritures hindoues &mdash; encouragent les atrocités."
+                    ],
+                    "sources": "Sources : Gil Student, « La vraie vérité sur le Talmud » (2000) ; David Berger, « Persécution, polémique et dialogue » (2010)"
+                }
+            ]
+        },
+        {
+            "number": "Catégorie 2",
+            "title": "Antisémitisme racial et biologique",
+            "desc": "La haine pseudo-scientifique des XIXe et XXe siècles",
+            "claims": [
+                {
+                    "title": "« Les Juifs sont une race distincte et inférieure »",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Le Human Genome Project (2003) a confirmé qu’il existe plus de variations génétiques au sein d’un groupe racial qu’entre les groupes. Les êtres humains partagent 99,9 % de leur ADN quelle que soit leur origine. Les populations juives sont génétiquement diverses : les Juifs ashkénazes, séfarades, mizrahi, éthiopiens, indiens et chinois sont complètement différents les uns des autres. L’idée d’une seule « race juive » n’a aucune signification génétique."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Besoin de hiérarchie : la théorie de la domination sociale (Sidanius et Pratto, 1999) montre que certaines personnes ont un fort besoin d'organiser les groupes selon des hiérarchies de valeurs. La classification raciale fournissait un cadre « scientifique » pour classer les groupes humains. Le racisme pseudo-scientifique a donné l’impression que les préjugés sont rationnels et fondés sur des preuves."
+                    ],
+                    "sources": "Sources : Projet Génome Humain (2003) ; « Déclaration de l'UNESCO sur la race » (1950-1967)"
+                },
+                {
+                    "title": "\"Les Juifs sont génétiquement prédisposés à l'avidité et à la manipulation\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "La génétique comportementale a montré sans équivoque que les traits comportementaux complexes (personnalité, caractère moral, comportement financier) sont façonnés par une combinaison de génétique et d’environnement &mdash; et jamais par l’appartenance à un groupe ethnique. Il n’y a pas de « gène de la cupidité ». Les études sur les dons caritatifs montrent systématiquement que les communautés juives sont parmi les plus généreuses au monde. L’association entre les Juifs et l’argent est une construction historique : les chrétiens médiévaux limitaient les Juifs au prêt d’argent et leur reprochaient ensuite le résultat."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Erreur fondamentale d'attribution (Lee Ross, 1977) : Un biais cognitif qui amène les gens à attribuer le comportement des autres à leur caractère plutôt qu'à leurs circonstances. Lorsque les Juifs étaient prêteurs sur argent, les observateurs attribuaient cela à leur caractère juif (« ils sont avides ») plutôt qu'à des contraintes situationnelles (ils n'avaient pas accès à d'autres professions). Cela revient à reprocher à une personne en fauteuil roulant de ne pas utiliser les escaliers."
+                    ],
+                    "sources": "Sources : Lee Ross (1977) ; Steven Pinker, \"L'ardoise vierge\" (2002)"
+                },
+                {
+                    "title": "\"Les Juifs sont des sous-hommes (Untermenschen)\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Classer n’importe quel groupe humain comme « sous-humain » est une technique de propagande et non une déclaration scientifique. Les recherches de Gregory Stanton identifient la déshumanisation comme l'étape 4 du génocide (8 étapes en 1996, étendues à 10 en 2012) &mdash; l'étape qui rend le meurtre psychologiquement possible. Les nazis affirmaient simultanément que les Juifs étaient des sous-humains et qu’ils dirigeaient secrètement le monde – une contradiction logique absolue. Umberto Eco a identifié cela comme une caractéristique déterminante de l'idéologie fasciste : « L'ennemi est à la fois trop fort et trop faible. »"
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Désengagement moral (Albert Bandura) : Les recherches de Bandura montrent que les gens ordinaires peuvent commettre une cruauté extraordinaire lorsque leur régulation morale est neutralisée. La déshumanisation est le mécanisme le plus puissant &mdash; lorsque les victimes sont reclassées comme non humaines, les auteurs peuvent leur faire du mal sans le coût psychologique de la culpabilité. L’Holocauste a obligé des millions d’Allemands ordinaires à participer au génocide ou à le tolérer. La déshumanisation a rendu cela psychologiquement possible."
+                    ],
+                    "sources": "Sources : Gregory Stanton, « 8 Stages of Genocide » (1996, étendu à 10 en 2012) ; Umberto Eco, « Ur-Fascisme » (1995) ; Albert Bandura (1999)"
+                },
+                {
+                    "title": "« Les Juifs promeuvent le métissage pour affaiblir les autres races »",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "L’accusation est une pure projection. Les nazis eux-mêmes ont pratiqué l'eugénisme à grande échelle : le programme T4 a tué plus de 70 000 personnes handicapées, le programme Lebensborn a engendré des enfants « racialement purs », les stérilisations forcées ont touché 400 000 personnes et l'Holocauste a assassiné 6 millions de Juifs et des millions d'autres. Accuser les Juifs de l’acte même que les accusateurs eux-mêmes ont commis est une projection classique. Les versions modernes (la théorie du « Grand Remplacement ») prétendent que les Juifs orchestrent l’immigration pour remplacer les populations blanches. L’immigration est motivée par les forces économiques, les guerres, le changement climatique et les politiques de gouvernements démocratiques aux dirigeants divers."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Projection à grande échelle : Lorsqu’un régime tout entier projette ses propres crimes sur ses victimes, cela sert deux objectifs : (1) cela justifie les propres actions du régime (« nous devons faire cela parce qu’ils nous le font ») et (2) cela immunise la population contre la sympathie pour les victimes (« ils nous feraient pire s’ils le pouvaient »). C'est Propagande 101."
+                    ],
+                    "sources": "Sources : Robert Proctor, « Hygiène raciale : la médecine sous les nazis » (1988) ; Richard Evans, « Le Troisième Reich au pouvoir » (2005)"
+                }
+            ]
+        },
+        {
+            "number": "Catégorie 3",
+            "title": "Stéréotypes économiques et financiers",
+            "desc": "Le mythe de l’argent : accusations d’avidité, de contrôle et d’exploitation",
+            "claims": [
+                {
+                    "title": "« Les Juifs contrôlent les banques et les systèmes financiers mondiaux »",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Dans l’Europe médiévale, les Juifs étaient exclus de la plupart des professions (agriculture, guildes, gouvernement). L’une des rares activités autorisées était le prêt d’argent, que les chrétiens considéraient comme un péché. Lorsque les prêteurs juifs réussissaient, ils étaient détestés pour le succès qui leur était imposé. La famille Rothschild (fondée dans les années 1760) est devenue un symbole exploité par les antisémites. En réalité, les Juifs constituent environ 0,2 % de la population mondiale et ne contrôlent pas les banques. Les grandes banques sont des sociétés cotées en bourse dotées de dirigeants diversifiés."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Biais de corrélation illusoire (Hamilton & Gifford, 1976) : Lorsqu'une minorité est impliquée dans un événement négatif, les gens surestiment le lien entre le groupe et l'événement. Si un banquier juif commet une fraude, sa judéité est notée ; lorsqu’un banquier non juif commet une fraude, son origine ethnique est invisible."
+                    ],
+                    "sources": "Sources : Hamilton et Gifford, Journal of Experimental Social Psychology (1976)"
+                },
+                {
+                    "title": "\"Les Juifs sont avares et obsédés par l'argent\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Le lien entre les Juifs et la cupidité est une construction culturelle et non un fait. Cela découle des rôles économiques limités auxquels les Juifs ont été contraints de jouer. Dans l’Europe chrétienne, l’Église a interdit aux chrétiens de recourir à l’usure (prêt à intérêt). Les Juifs, qui étaient exclus de la plupart des professions (propriété foncière, adhésion à des guildes professionnelles, agriculteurs), se retrouvaient avec peu d'options économiques &mdash; et le commerce et le prêt d'argent en faisaient partie. On leur a ensuite reproché l'occupation qui leur avait été imposée.",
+                        "Les études sur les dons caritatifs montrent systématiquement que les communautés juives sont parmi les plus généreuses au monde. Les fédérations juives d’Amérique à elles seules donnent des milliards chaque année aux communautés juives et non juives. Le concept de charité dans le judaïsme (tzedakah &mdash; dérivé du mot « justice ») est une obligation religieuse et non un acte volontaire de bonté. Maïmonide (XIIe siècle) a établi 8 niveaux de charité, le plus élevé étant d'aider une personne à devenir autosuffisante."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Projection + envie déplacée : les gens envient le succès économique et accusent ceux qui réussissent d'être cupides. Des personnages littéraires comme Shylock (Shakespeare, « Le Marchand de Venise ») et Fagin (Dickens, « Oliver Twist ») ont renforcé ce stéréotype pendant des siècles. La propagande antisémite dans les caricatures représentait des Juifs avec le nez crochu serrant des pièces de monnaie &mdash;, images qui apparaissent encore en ligne aujourd'hui."
+                    ],
+                    "sources": "Sources : Derek Penslar, « Les enfants de Shylock : économie et identité juive dans l'Europe moderne » (2001) ; Maïmonide, Mishneh Torah, Lois des dons aux pauvres"
+                },
+                {
+                    "title": "« Les Juifs ont causé la crise financière de 2008 »",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Après chaque crise économique, les antisémites accusent les Juifs. La crise de 2008 a généré une vague de théories du complot désignant certains financiers juifs comme responsables. Le même schéma s’est produit pendant la Grande Dépression (les émissions de radio du père Coughlin), la crise asiatique de 1998 et après les perturbations économiques dues à la COVID. En réalité, les crises financières résultent de facteurs systémiques (déréglementation, spéculation, instruments financiers complexes) affectant des industries entières &mdash; et non des actions d’un quelconque groupe ethnique."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Biais de proportionnalité : les gens s’attendent à ce que les grands événements aient de grandes causes. Lorsqu’une crise financière mondiale survient, l’idée selon laquelle elle résulte de facteurs systémiques complexes n’est pas satisfaisante. L’idée qu’un groupe puissant l’ait planifié semble plus proportionnée. Les Juifs, déjà stéréotypés comme une puissance financière, deviennent la « grande cause »."
+                    ],
+                    "sources": "Sources : Daniel Kahneman, « Penser, vite et lentement » (2011)"
+                },
+                {
+                    "title": "« Les Juifs exploitent économiquement les gentils et les considèrent comme du bétail »",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Le mot « goy » signifie simplement « nation » en hébreu (même Israël est appelé « goy kadosh » &mdash;, une nation sainte &mdash; dans la Torah) et fait référence aux non-juifs de manière neutre. Les antisémites ont déformé cela en affirmant que les Juifs considèrent les gentils comme du bétail sous-humain pouvant être exploité. Il s’agit d’une fabrication complète.",
+                        "Le judaïsme possède un système complet de lois éthiques exigeant un traitement équitable de tous les êtres humains : « Aime ton prochain comme toi-même » (Lévitique 19 :18), « La justice, tu rechercheras la justice » (Deutéronome 16 :20) et « Tu n'opprimeras pas ton prochain » (Lévitique 19 :13). Le principe « dina d'malkhuta dina » (la loi du pays est la loi) exige que les Juifs soient honnêtes dans toutes leurs relations. La loi juive interdit explicitement la « geneivat da'at » (tromperie) &mdash;, que la victime soit juive ou non.",
+                        "L’affirmation selon laquelle le Talmud autorise l’exploitation des non-Juifs est basée sur des citations extraites de leur contexte et extraites de 6 200 pages de discussion (pour comprendre la distorsion, imaginez tirer une seule phrase d’un livre entier et prétendre qu’elle représente l’ensemble de l’œuvre). Les érudits qualifiés du Talmud &mdash; juifs et non juifs &mdash; rejettent à l’unanimité cette lecture."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Ignorance + recherche de confirmation : Les gens qui détestent déjà les Juifs recherchent des « preuves » dans des textes qu'ils ne peuvent pas lire (le Talmud est écrit en hébreu et en araméen). Ils s'appuient sur des « traductions » fabriquées et diffusées depuis le Moyen Âge. La publication \"Talmud démasqué\" du père Justinas Pranaitis (1892) s'est révélée pleine d'erreurs lorsque Pranaitis lui-même a admis devant le tribunal qu'il ne connaissait pas réellement l'araméen."
+                    ],
+                    "sources": "Sources : Peter Sch&auml;fer, « Jésus dans le Talmud » (2007) ; Gil Student, « La vraie vérité sur le Talmud » (2000) ; Documentation ADL"
+                }
+            ]
+        },
+        {
+            "number": "Catégorie 4",
+            "title": "Théories du complot politique",
+            "desc": "Contrôle secret, domination du monde et « la main cachée »",
+            "claims": [
+                {
+                    "title": "« Les Juifs contrôlent secrètement les gouvernements du monde (ZOG) »",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "« Les Protocoles des Sages de Sion » est un texte fabriqué par la police secrète russe (Okhrana) vers 1903, qui prétendait être le procès-verbal d'une réunion juive visant à planifier la domination mondiale. Il a été prouvé qu'il s'agissait d'un faux en 1921 par le Times de Londres &mdash; le texte a été copié presque mot pour mot d'une satire de Maurice Joly de 1864 sur Napoléon III, qui n'avait rien à voir avec les Juifs.",
+                        "Bien qu'il ait été complètement démystifié, Henry Ford l'a diffusé en Amérique (le journal \"Dearborn Independent\", 91 numéros antisémites), Hitler l'a cité dans \"Mein Kampf\", et il reste aujourd'hui un best-seller dans le monde arabe. Si 15 millions de Juifs (0,2 % de la population mondiale) dirigeaient réellement le monde &mdash; pourquoi n'ont-ils pas pu empêcher l'Holocauste ? Pourquoi Israël doit-il négocier son existence ? Le prétendu « contrôle » est la meilleure preuve qu’il n’existe pas."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Pensée conspiratrice : des recherches (van Prooijen, 2017) montrent que les personnes qui croient en un complot ont tendance à croire en d’autres, même contradictoires. « Les Juifs contrôlent le monde » est la « mère de toutes les conspirations » &mdash; une explication simple de tout ce qui ne va pas. Cela donne une illusion de contrôle : si quelqu’un est derrière le chaos, alors le monde n’est pas aléatoire et effrayant. C’est réconfortant, même si c’est faux."
+                    ],
+                    "sources": "Sources : Norman Cohn, « Mandat de génocide » (1967) ; van Prooijen & Douglas, « Les théories du complot faisant partie de l'histoire » (2017)"
+                },
+                {
+                    "title": "\"Les Juifs contrôlent les médias et manipulent l'opinion publique\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "L’affirmation selon laquelle les Juifs contrôlent les médias est fausse, tant sur le plan statistique que factuel. Les grandes sociétés de médias sont des sociétés cotées en bourse (Disney, Comcast, News Corp) avec une propriété et une direction diversifiées &mdash;, des conseils d'administration, des actionnaires et des dirigeants issus de divers pays et horizons. Rupert Murdoch (News Corp, Fox News) &mdash; Australien. Jeff Bezos (Washington Post) &mdash; Américain. Elon Musk (Twitter/X) &mdash; Sud-Africain. Aucun d’eux n’est juif.",
+                        "Cette affirmation fonctionne comme un piège infalsifiable : si un juif travaille dans les médias, cela « prouve » la conspiration. Si un Juif ne travaille pas dans les médias, « il se cache ». Si les médias parlent positivement d’Israël, « ils le contrôlent ». S'il rapporte un résultat négatif, \"c'est un écran de fumée\". Aucune preuve ne peut réfuter une croyance qui n’a jamais été fondée sur des preuves."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Biais de confirmation + corrélation illusoire : l'enquête ADL Global 100 a révélé qu'il s'agit de l'un des stéréotypes antisémites les plus répandus. &mdash; 74 % des personnes interrogées au Moyen-Orient et 24 % en Europe pensent que les Juifs contrôlent les médias. Une fois que cette croyance existe, chaque Juif trouvé dans les médias la « prouve », tandis que des milliers de non-Juifs dans les médias sont tout simplement ignorés."
+                    ],
+                    "sources": "Sources : Enquête ADL Global 100 (2023) ; Steven Bayme, « Comprendre l'histoire juive » (1997)"
+                },
+                {
+                    "title": "« Les Juifs ont une double loyauté : ils sont loyaux envers Israël, pas envers leur pays »",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "L’accusation de double loyauté est utilisée depuis des siècles pour exclure les Juifs de la vie civique. Le capitaine Alfred Dreyfus, un officier juif français, fut reconnu coupable de trahison en 1894 sur la base de preuves fabriquées &mdash; et en partie sur l'hypothèse qu'un Juif ne pouvait pas vraiment être loyal envers la France. Il fut disculpé en 1906 après que cette affaire ait déchiré la France.",
+                        "En réalité, les Juifs ont servi avec distinction dans les armées de tous les pays dans lesquels ils vivaient, souvent de manière disproportionnée : 100 000 Juifs ont servi dans l’armée allemande pendant la Première Guerre mondiale, 12 000 ont été tués au combat, 18 000 ont reçu la Croix de fer, 35 000 ont été promus et 3 000 sont devenus officiers. En 1935, cette même Allemagne les a privés de leur citoyenneté. 550 000 Juifs ont servi dans l’armée américaine pendant la Seconde Guerre mondiale. L'accusation de « double loyauté » s'adresse uniquement aux Juifs. &mdash; personne n'accuse les Irlandais-Américains de double loyauté envers l'Irlande."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Une « altérité » perpétuelle : l'accusation révèle l'hypothèse selon laquelle les Juifs sont toujours des « étrangers », quel que soit le nombre de générations qu'ils ont vécues dans un pays. Il s'agit là d'un modèle universel de racisme : les membres des groupes minoritaires sont toujours tenus de « prouver » leur loyauté, alors que la loyauté de la majorité est considérée comme allant de soi."
+                    ],
+                    "sources": "Sources : Ruth Harris, « Dreyfus : politique, émotion et scandale du siècle » (2010) ; Musée national d'histoire militaire juive américaine"
+                },
+                {
+                    "title": "« Le 11 septembre a été orchestré par Israël/le Mossad »",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Quelques jours après les attentats du 11 septembre, des théories du complot ont émergé, affirmant que 4 000 Juifs seraient restés chez eux après avoir travaillé dans les Twin Towers après avoir été avertis par le Mossad. Le mensonge s'est répandu via Al-Manar (la chaîne de télévision du Hezbollah), les sites Web conspirationnistes et la propagande iranienne.",
+                        "Les faits : Environ 400 Juifs ont été tués dans les attaques, proportionnellement à la population juive de New York (~12 %). La société américaine de services financiers Cantor Fitzgerald a perdu 658 employés, soit la plus grande perte parmi toutes les entreprises lors de l'attaque. Le nombre « 4 000 » est entièrement fabriqué et provient d'un article d'information selon lequel l'ambassade israélienne essayait de localiser 4 000 Israéliens qui vivaient ou travaillaient dans la région de New York. &mdash; « localiser » est devenu « averti ». Un mensonge délibéré."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Biais de proportionnalité + déplacement du blâme : une attaque comme le 11 septembre génère une énorme colère. Si les attaquants sont une petite organisation (Al-Qaïda), elle n’est pas « assez grande » pour provoquer un désastre. L’idée qu’une entité puissante (Israël/Mossad) soit à l’origine de ce projet semble plus « proportionnée ». Dans le monde arabe, le complot a également servi à détourner la responsabilité d'Al-Qaïda &mdash;, une organisation islamiste arabe &mdash;, sur « les Juifs »."
+                    ],
+                    "sources": "Sources : Commission sur le 11 septembre (2004) ; factcheck.org ; Groupe de renseignement SITE"
+                },
+                {
+                    "title": "« Les Juifs ont créé le communisme pour détruire la civilisation occidentale »",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Karl Marx est né juif mais a été baptisé enfant et était lui-même antisémite dans ses écrits (« Sur la question juive », 1843, où il écrivait que « le dieu du juif est l'argent »). Les mêmes antisémites qui accusaient les Juifs d’être communistes les accusaient simultanément de contrôler le capitalisme &mdash;, une contradiction qui révèle que le but n’est pas la vérité mais l’accusation.",
+                        "En Union soviétique, les Juifs ont été persécutés sous le communisme : la campagne anti-cosmopolite (1948-1953) a licencié les intellectuels juifs, le « Complot des médecins » (1953) a accusé les médecins juifs de comploter pour assassiner les dirigeants soviétiques, et le mouvement Refusenik (1960-1980) a été persécuté en raison du désir des Juifs de partir. Les expressions et institutions culturelles juives ont été systématiquement éliminées. Le communisme a persécuté les Juifs &mdash; exactement le contraire de ce que prétend le complot."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Pensée monolithique : blâmer un groupe ethnique pour une idée politique est une erreur de pensée classique. Certains Juifs étaient communistes &mdash; tout comme certains Juifs étaient capitalistes, anarchistes, libéraux, conservateurs et sionistes. Attribuer la diversité politique de tout un peuple à une seule conspiration ethnique révèle la croyance selon laquelle les Juifs sont un monolithe &mdash; et non, comme tout peuple, un ensemble diversifié d’individus ayant des opinions différentes."
+                    ],
+                    "sources": "Sources : Jonathan Frankel, « Crise, révolution et juifs russes » (2009) ; Robert Weinberg, « Sion oubliée de Staline » (1998)"
+                }
+            ]
+        },
+        {
+            "number": "Catégorie 5",
+            "title": "Accusations culturelles et sociales",
+            "desc": "Allégations sur le caractère, le comportement et l'influence sociale des Juifs",
+            "claims": [
+                {
+                    "title": "\"Les Juifs sont tribaux et refusent de s'assimiler\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "La cruelle ironie : tout au long de l’histoire, les Juifs ont été empêchés par la force de s’assimiler. Ils furent contraints de vivre dans des ghettos (Venise, 1516 &mdash; le premier ghetto ; Rome jusqu'en 1870), exclus des professions, privés de citoyenneté (seulement en 1791 en France, 1871 en Allemagne) et expulsés de pays.",
+                        "Lorsque les Juifs maintenaient leurs propres communautés dans ces conditions &mdash;, ils étaient accusés de séparation volontaire. Lorsque les Juifs se sont assimilés (en Allemagne de Weimar : taux de mariages mixtes de 25 %, service militaire complet, leadership dans la culture occidentale) &mdash;, ils ont été accusés d'« infiltrer » la société et ont finalement été anéantis. L’accusation est infalsifiable : peu importe ce que font les Juifs, c’est toujours faux. Séparé? Tribal. Assimiler? Infiltrant. Maintenir la tradition ? Résistant. Changement? Perte d'identité."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Définir « l'autre » : Chaque groupe majoritaire se définit en partie par ceux qui n'en font pas partie. Les Juifs, en tant que minorité visible, constituaient l’« autre » parfait en Europe. S'ils s'assimilent pleinement, « l'autre » disparaît &mdash; et avec lui, une partie de l'identité de la majorité. Par conséquent, même une assimilation complète n’est pas suffisante &mdash; comme l’ont découvert les Juifs allemands qui se sentaient complètement allemands et ont été assassinés à Auschwitz."
+                    ],
+                    "sources": "Sources : Zygmunt Bauman, « Modernité et Holocauste » (1989) ; Amos Elon, « La pitié de tout cela : un portrait de l'époque juive allemande » (2002)"
+                },
+                {
+                    "title": "\"Les Juifs pensent qu'ils sont le 'peuple élu' et supérieur à tout le monde\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Dans la théologie juive, « choisi » ne signifie pas « supérieur ». Cela signifie être choisi pour une responsabilité supplémentaire &mdash; spécifiquement, l'obligation d'observer les 613 commandements de la Torah. C'est un devoir, pas un privilège. Pour comprendre : les gentils ne sont obligés que par les 7 lois de Noahide. Les Juifs sont obligés par 613. Au contraire, « élus » signifie être soumis à des normes plus strictes.",
+                        "Le judaïsme enseigne explicitement que les justes de toutes les nations ont une part dans le monde à venir (Tosefta Sanhedrin 13 : 2). Le prophète Amos a déclaré : « Ne me semblez-vous pas comme les Éthiopiens, ô enfants d’Israël ? (Amos 9 : 7) &mdash; tous les peuples sont égaux aux yeux de Dieu. En revanche, le christianisme prétend que seuls les croyants en Jésus sont sauvés, et l’islam que seuls les musulmans entrent au paradis. Le judaïsme est en réalité le moins « suprémaciste » des trois."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Fausse traduction + malentendu culturel : Le terme « Peuple élu » a été traduit dans les langues européennes comme un titre de suprématie, tandis qu'en hébreu il exprime la responsabilité. C’est le même problème que celui de lire un texte culturel étranger à travers une lentille culturelle différente. De plus, de nombreux chrétiens estimaient que la prétention juive à l'élection remettait en question la prétention chrétienne selon laquelle l'Église est le « nouvel Israël » (supersessionisme)."
+                    ],
+                    "sources": "Sources : Eugene Borowitz, « Renouveler le Pacte » (1991) ; David Novak, « L'élection d'Israël » (1995)"
+                },
+                {
+                    "title": "« Les Juifs contrôlent Hollywood et corrompent la moralité »",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Les immigrants juifs qui ont fui les pogroms en Europe (dont beaucoup sont pauvres et sont arrivés sans rien) ont fondé certains des premiers studios hollywoodiens au début du XXe siècle &mdash; précisément parce qu'ils étaient exclus des industries « respectables » et ont dû se tourner vers un nouveau domaine non établi comme le cinéma. Leur succès dans ce qui était considéré comme un domaine « bon marché » a été recadré comme « contrôle » une fois que le cinéma est devenu une industrie majeure.",
+                        "L’industrie moderne du divertissement est un écosystème d’entreprise mondial. Disney appartient à des actionnaires du monde entier. Netflix, Amazon, Apple TV &mdash; aucun d'entre eux n'est « contrôlé » par des Juifs. Cette affirmation fonctionne comme toutes les conspirations : réussite personnelle des Juifs dans un domaine particulier = « contrôle ethnique ». Mais lorsque les Italiens dirigent des restaurants &mdash;, personne ne dit que les Italiens « contrôlent la nourriture »."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Envie + besoin d'explication : lorsqu'une industrie produit une culture que les gens n'aiment pas (violence, sexualité, valeurs progressistes), il est plus facile de blâmer un « groupe étranger » que de se confronter au fait que le grand public consomme et finance ce contenu. \"Les Juifs corrompent la moralité\" permet aux gens de rejeter la faute sur les autres au lieu d'assumer la responsabilité de leurs propres goûts."
+                    ],
+                    "sources": "Sources : Neal Gabler, « Un empire qui leur est propre : comment les Juifs ont inventé Hollywood » (1988) ; Documentation ADL"
+                },
+                {
+                    "title": "\"Les Juifs peuvent être identifiés physiquement par leur apparence (nez crochu, etc.)\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "La caricature physique des Juifs &mdash;, nez crochu, traits sombres, posture voûtée, mains frottées &mdash; est une invention de propagande, pas une réalité. La figure caricaturale s'est développée dans l'art chrétien médiéval, s'est intensifiée dans les caricatures antisémites du XIXe siècle (comme le journal français \"La Libre Parole\") et a atteint son apogée dans le nazi \"Der St&uuml;rmer\" où Julius Streicher publiait des caricatures antisémites hebdomadaires.",
+                        "La réalité : les Juifs sont un peuple ethniquement diversifié qui comprend les communautés ashkénazes (européennes, à la peau claire), sépharades (méditerranéennes), mizrahi (du Moyen-Orient, à la peau foncée), éthiopiennes (Beta Israel, noires), indiennes (Bene Israel), chinoises (communauté Kaifeng) et yéménites. Ils sont complètement différents les uns des autres. Il n’y a pas « d’apparence juive » &mdash; tout comme il n’y a pas d’« apparence chrétienne » ou « d’apparence musulmane »."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Déshumanisation visuelle : Les caricatures physiques sont une étape critique de la déshumanisation. Lorsqu’un groupe est amené à « paraître différent », il devient plus facile de le considérer comme un sous-humain. Les nazis ont utilisé de telles caricatures dans le livre pour enfants « Le champignon empoisonné » (1938) pour apprendre aux enfants comment « identifier » les Juifs. Aujourd'hui, les mêmes caricatures sont diffusées sur les réseaux sociaux sous forme de « mèmes » &mdash; le même poison, une nouvelle bouteille."
+                    ],
+                    "sources": "Sources : Sara Lipton, « Dark Mirror : Les origines médiévales de l'iconographie anti-juive » (2014) ; Exposition \"Propagande\" de l'USHMM"
+                }
+            ]
+        },
+        {
+            "number": "Catégorie 6",
+            "title": "Antisionisme antisémite moderne",
+            "desc": "Quand la critique d’Israël franchit la frontière de la haine des Juifs",
+            "claims": [
+                {
+                    "title": "\"Israël est un État nazi / Le sionisme est le nazisme\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Comparer Israël à l’Allemagne nazie est une forme « d’inversion de l’Holocauste » &mdash; utilisant le génocide des Juifs pour attaquer les Juifs. L'Allemagne nazie a construit un système industriel dont le seul objectif était l'extermination raciale totale : trains, chambres à gaz, crématoires, bureaucratie &mdash; 6 millions d'assassinés. Aucun État démocratique, y compris Israël, n’a fait quelque chose de comparable, à quelque échelle que ce soit.",
+                        "La définition de l’IHRA (adoptée par plus de 35 pays) identifie cette comparaison comme de l’antisémitisme. La raison : il transforme le traumatisme juif en arme contre les Juifs et transmet implicitement le message selon lequel « les victimes sont devenues les meurtriers ». Ce n’est pas une critique légitime &mdash; c’est une tentative de refuser aux Juifs le droit de définir leur propre histoire. On peut critiquer certaines politiques israéliennes (et beaucoup le font) sans recourir aux comparaisons nazies dont le but est de blesser."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Inversion victime-auteur : Psychologiquement, transformer la victime en auteur libère le chrétien/arabe/européen de la culpabilité historique. Si « les Juifs sont les nouveaux nazis », alors 2 000 ans de persécution européenne et d’antisémitisme arabe s’équilibrent. Il s’agit d’un réconfort psychologique, pas d’un argument historique."
+                    ],
+                    "sources": "Sources : Définition de travail de l’antisémitisme de l’IHRA (2016) ; Manfred Gerstenfeld, « L'abus de la mémoire de l'Holocauste » (2009)"
+                },
+                {
+                    "title": "« Les Juifs ne méritent pas un État – Israël n’a pas le droit d’exister »",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Nier le droit à l’autodétermination du peuple juif tout en l’accordant à tous les autres peuples constitue une discrimination. L'ONU compte 193 États membres. Si quelqu’un prétend qu’Israël n’a pas le droit d’exister &mdash;, fait-il la même affirmation à propos du Pakistan (créé en 1947 sur une base religieuse, provoquant le déplacement de 15 millions de personnes) ? À propos de la Jordanie (créée par les Britanniques en 1921) ? De la Syrie, de l’Irak, du Liban (créés par les Français et les Britanniques après la Première Guerre mondiale) ?",
+                        "Le lien entre les Juifs et la Terre d'Israël est documenté archéologiquement sur plus de 3 000 ans : anciennes inscriptions hébraïques, vestiges du temple, pièces de monnaie de la révolte de Bar Kokhba, anciennes synagogues. Les Juifs ont maintenu une présence continue sur la Terre d’Israël pendant 3 000 ans, même après leur exil. Le sionisme n’est pas le colonialisme &mdash; c’est un mouvement de libération nationale d’un peuple retournant dans sa patrie historique."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Deux poids, deux mesures comme symptôme : quand quelqu'un exige qu'Israël seul, parmi les 193 États membres de l'ONU, justifie son droit à exister &mdash;, ce n'est pas une « critique politique ». Il s’agit d’une norme qui ne s’applique à aucun autre pays. Natan Sharansky a identifié le double standard comme l'un des trois signes qui distinguent la critique légitime de l'antisémitisme."
+                    ],
+                    "sources": "Sources : Natan Sharansky, « Test 3D » (2004) ; découvertes archéologiques de l’Autorité israélienne des antiquités ; Résolution 181 (1947) de l'Assemblée générale des Nations Unies"
+                },
+                {
+                    "title": "\"Le lobby israélien (AIPAC) contrôle la politique étrangère américaine\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Tous les pays font du lobbying à Washington. Selon les archives du FARA (Foreign Agents Registration Act), l’Arabie saoudite dépense chaque année des dizaines de millions de dollars en lobbying aux États-Unis (un pic de 27 millions de dollars certaines années). Les Émirats arabes unis : plus de 20 millions de dollars. Qatar, Japon, Corée du Sud &mdash; des dizaines de millions chacun. L’AIPAC est une organisation de lobbying américaine (et non israélienne) qui opère selon les mêmes règles et avec la même transparence que tous les autres lobbys.",
+                        "L’affirmation selon laquelle l’AIPAC « contrôle » la politique américaine ignore les facteurs réels : les intérêts géopolitiques (Israël = un allié stable et démocratique au Moyen-Orient), le partage de renseignements, l’industrie de la défense (plus de 8 milliards de dollars par an, principalement sous forme d’achats auprès d’entreprises américaines) et le soutien du public américain (les sondages Gallup ont historiquement montré 60 à 70 % de sympathie pour Israël, avec une certaine baisse depuis 2023). Désigner le lobby pro-israélien comme étant « particulièrement puissant » fait écho à la même conspiration &mdash; « Les Juifs contrôlent les gouvernements »."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Incompréhension de la démocratie + pensée conspiratrice : beaucoup de gens ne comprennent pas que le lobbying est un élément légitime de la démocratie américaine &mdash; tous les groupes d'intérêt le font. Lorsque le lobby pro-israélien est pointé du doigt comme une « manipulation » plutôt que comme un lobbying pour &mdash;, c’est une vieille conspiration déguisée en modernité."
+                    ],
+                    "sources": "Sources : Dossiers d’enregistrement du FARA ; Sondages Gallup de faveur en Israël ; Données de lobbying d'OpenSecrets.org"
+                }
+            ]
+        },
+        {
+            "number": "Catégorie 7",
+            "title": "Négation de l’Holocauste et distorsion",
+            "desc": "Déni, minimisation ou déformation du meurtre de 6 millions de Juifs",
+            "claims": [
+                {
+                    "title": "\"L'Holocauste n'a pas eu lieu / 6 millions, c'est une exagération\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Les preuves de l'Holocauste sont parmi les plus complètes de tous les événements historiques : documents administratifs nazis (les nazis ont méticuleusement documenté leurs crimes), témoignages de plus de 100 000 survivants, aveux des auteurs à Nuremberg et lors d'autres procès, photographies de libération prises par les forces alliées, preuves matérielles à Auschwitz-Birkenau et sur d'autres sites, données démographiques montrant la disparition de communautés juives entières et documents tels que le Protocole de Wannsee (1942) documentant l'histoire de l'Holocauste. \"Solution finale.\"",
+                        "David Irving, le négationniste le plus éminent de l’Holocauste, a été démystifié lors d’un procès historique à Londres en 2000 (Irving contre Lipstadt). Le juge a statué qu'Irving \"avait délibérément déformé et manipulé l'histoire\". La négation de l’Holocauste est illégale dans 17 pays car ce n’est pas une « opinion » &mdash; c’est la négation de faits documentés, un peu comme nier que la Terre soit ronde, sauf que c’est dangereux car cela ouvre la voie au prochain génocide."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Réduction de la dissonance cognitive : les antisémites qui veulent continuer à haïr les Juifs sont confrontés à un problème &mdash; : l'Holocauste rend la haine des Juifs moralement impossible. La solution : nier l’Holocauste. Si l’Holocauste n’a pas eu lieu, on peut recommencer à haïr les Juifs sans culpabilité. C’est pourquoi la négation de l’Holocauste et l’antisémitisme vont toujours de pair."
+                    ],
+                    "sources": "Sources : Deborah Lipstadt, « Nier l'Holocauste » (1993) ; Irving contre Penguin Books Ltd (2000); Encyclopédie de l'Holocauste USHMM"
+                },
+                {
+                    "title": "\"Les Juifs ont inventé ou exagéré l'Holocauste pour des raisons politiques et financières\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "L’accusation selon laquelle les Juifs ont fabriqué leur propre génocide pour gagner de la sympathie ou pour de l’argent contient de l’antisémitisme à trois niveaux : (1) elle nie la souffrance de millions de victimes, (2) elle présente la mémoire du génocide comme un « plan juif pour gagner de l’argent » (le stéréotype juif cupide) et (3) elle transforme les victimes en fraudeurs.",
+                        "Les faits : Les réparations de l'Holocauste de l'Allemagne sont intervenues après 7 ans de lutte politique (Accords de Luxembourg, 1952). Ils couvraient une infime fraction des biens volés aux Juifs européens (maisons, entreprises, économies, œuvres d’art, or &mdash; valeur estimée à des centaines de milliards de dollars). De nombreux survivants vivaient dans la pauvreté après la guerre. Plus de 30 000 survivants de l’Holocauste vivent aujourd’hui en dessous du seuil de pauvreté en Israël. Le prétendu « profit » est un mythe."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Fatigue + envie de l’Holocauste : Certaines personnes sont fatiguées d’entendre parler de l’Holocauste et cherchent une justification à leur indifférence. L’idée selon laquelle « les Juifs exploitent l’Holocauste à des fins lucratives » fournit une justification morale pour ignorer l’Holocauste. De plus, dans certaines parties du monde arabe, nier ou minimiser l’Holocauste sert d’outil politique. &mdash; si l’Holocauste n’a pas eu lieu, il n’y a aucune justification à l’existence d’Israël (selon leur logique erronée)."
+                    ],
+                    "sources": "Sources : Norman Finkelstein, « The Holocaust Industry » (2000, controversé) ; Conférence sur les réclamations matérielles juives contre les archives allemandes ; Fondation israélienne au profit des victimes de l'Holocauste"
+                },
+                {
+                    "title": "\"Les chambres à gaz n'existaient pas / c'étaient juste des chambres à épouillement\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Le rapport Leuchter (1988) affirmait que l'analyse chimique des murs d'Auschwitz montrait une quantité insuffisante de résidus de cyanure. Cette hypothèse a été complètement démystifiée par l'Institut médico-légal de Cracovie (1994), qui a découvert d'importants composés de cyanure. Le niveau « inférieur » par rapport aux chambres d'épouillage s'explique par la chimie de base : tuer des humains nécessite beaucoup moins de Zyklon B que tuer des poux (300 ppm contre 16 000 ppm).",
+                        "Les preuves des chambres à gaz : (1) Rudolf H&ouml;ss, commandant d'Auschwitz, les a décrites en détail dans ses aveux et dans l'autobiographie qu'il a écrite avant son exécution. (2) Les Sonderkommando (prisonniers contraints de travailler dans les chambres à gaz) ont témoigné en détail. (3) Des plans de la société Topf et S&ouml;hne (qui ont construit les crématoires) ont été trouvés &mdash; comprenant une commande de \"portes étanches au gaz\". (4) Des photographies aériennes alliées de 1944 montrent des files de personnes entrant dans des bâtiments d'où s'élève de la fumée. (5) Les restes physiques d'Auschwitz-Birkenau sont ouverts à la visite du public."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Le néonazisme sous un déguisement académique : les négationnistes de l’Holocauste se déguisent en « chercheurs » et en « révisionnistes » pour donner aux mensonges une apparence d’érudition. L’objectif : redonner une légitimité au nazisme. Tous les « négationnistes » de l’histoire ont des liens avec des organisations néo-nazies. &mdash; il n’existe aucun chercheur neutre qui nie l’Holocauste. Il ne s’agit pas d’une « position académique » mais de propagande."
+                    ],
+                    "sources": "Sources : Jean-Claude Pressac, « Auschwitz : technique et fonctionnement des chambres à gaz » (1989) ; Rapport de l'Institut médico-légal de Cracovie (1994) ; Robert Jan van Pelt, témoin expert au procès Irving"
+                }
+            ]
+        },
+        {
+            "number": "Catégorie 8",
+            "title": "Antisémitisme en ligne et contemporain",
+            "desc": "Mutations modernes de la haine ancienne à l’ère numérique",
+            "claims": [
+                {
+                    "title": "\"Symboles codés : triples parenthèses (((échos))), 'section petite enfance'\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Le symbole des triples parenthèses (((nom))) a été créé par le blog néo-nazi « The Right Stuff » (2014) pour identifier les Juifs en ligne. La « section Petite enfance » fait référence à la vérification des entrées Wikipédia pour l'ascendance juive. Expressions codées supplémentaires : « 109 » (l'affirmation selon laquelle les Juifs ont été expulsés de 109 pays), « da goyim know », « oy vey », « 6 millions de produits », « mondialiste » et « banquier international » comme noms de code.",
+                        "Un langage codé permet un déni plausible : « Je ne suis pas antisémite, je parle juste des mondialistes. » Les algorithmes des réseaux sociaux ont du mal à identifier le langage codé, de sorte que le contenu antisémite supprimé sous forme ouverte est publié sous forme codée. Des plateformes comme 4chan, Telegram et Gab sont devenues des plaques tournantes de la propagande antisémite. L'ADL documente de nouveaux symboles chaque semaine."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Appartenance à un groupe + secret : le langage codé crée le sentiment d'un « club secret » &mdash; ceux qui comprennent le code sont « l'un des nôtres ». Cela procure une appartenance sociale, un sentiment de supériorité (« nous connaissons la vérité ») et l’adrénaline de la transgression. De nombreux jeunes sont exposés à des contenus antisémites à travers des « mèmes » qui ressemblent à des blagues &mdash; mais les blagues sont la première étape de la radicalisation."
+                    ],
+                    "sources": "Sources : base de données ADL sur la haine sur Display ; Recherche Moonshot CVE ; Rapports de l'ISD (Institut pour le dialogue stratégique)"
+                },
+                {
+                    "title": "\"Les Juifs ont créé le COVID / ont profité de la pandémie / des vaccins comme un complot juif\"",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "Les théories du complot sur le COVID ont suivi exactement le même schéma que les accusations médiévales de peste : les Juifs ont créé le virus, l’ont délibérément propagé ou en ont profité par l’intermédiaire des sociétés pharmaceutiques. L’ADL a documenté plus de 17 000 tweets accusant les Juifs d’être responsables du COVID au cours des premiers mois seulement de la pandémie.",
+                        "Les manifestants anti-confinement portaient des étoiles jaunes et affirmaient « nous sommes comme les Juifs dans l'Holocauste » &mdash; une comparaison qui banalise le meurtre de 6 millions de Juifs aux inconvénients d'un mandat de port du masque. En Iran, les médias d’État ont affirmé que le virus était une « arme biologique sioniste ». En Turquie, les journaux ont affirmé que « les Juifs et le Mossad sont derrière le COVID ». Le schéma est identique à 1348 (les Juifs ont empoisonné les puits), 1918 (les Juifs ont propagé la grippe espagnole) et 2020 (les Juifs ont créé le COVID). 700 ans, le même mensonge."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Gestion du terrorisme + modèle ancien : une pandémie crée une angoisse de mort. L’anxiété de mort augmente l’hostilité envers les groupes extérieurs (Terror Management Theory). Les Juifs, en tant que groupe marginal classique, deviennent les « coupables ». C'est exactement le même mécanisme psychologique qui a fonctionné pendant la peste noire en 1348 &mdash;. Ce qui change, c'est la technologie (Twitter au lieu des rumeurs du marché), et non la psychologie humaine."
+                    ],
+                    "sources": "Sources : Rapport ADL COVID-19 (2020) ; MEMRI ; Recherche de l'Oxford Internet Institute sur les théories du complot"
+                },
+                {
+                    "title": "« Les Juifs sont à l’origine du « Grand Remplacement » – ils orchestrent une immigration de masse »",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "La théorie du « Grand Remplacement » (basée sur le livre de Renaud Camus, 2011) affirme que les Juifs organisent délibérément une immigration de masse pour détruire les nations à majorité blanche. L'immigration est en réalité motivée par des forces économiques (écarts de salaires, demande de main-d'œuvre), des facteurs politiques (guerres, dictatures), des crises humanitaires (réfugiés) et des événements climatiques (sécheresse, inondations) &mdash; et non par un groupe ethnique représentant 0,2 % de la population mondiale.",
+                        "Ce complot tue. Il a été directement cité comme motivation par : Robert Bowers (Pittsburgh, 2018, 11 tués dans une synagogue), Brenton Tarrant (Christchurch, 2019, 51 tués dans une mosquée), Patrick Crusius (El Paso, 2019, 23 tués) et John Earnest (Poway, 2019, 1 tué dans une synagogue). Chacun a publié un manifeste accusant les Juifs d'être responsables du « remplacement ». De la théorie à la violence &mdash; la ligne est courte."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Anxiété démographique + bouc émissaire : Les changements démographiques réels (immigration, taux de natalité) créent de l’anxiété parmi une partie de la majorité. Plutôt que d’affronter des causes complexes, il est plus facile de blâmer un « orchestrateur » &mdash; et les Juifs, éternels accusés, en constituent la cible. Il s’agit de la version du 21e siècle de « Les Juifs contrôlent les gouvernements », la même conspiration, avec simplement « l’immigration » au lieu des « banques »."
+                    ],
+                    "sources": "Sources : ADL ; Manifeste de Robert Bowers (archivé); Rapport de la Commission royale de Christchurch (2020)"
+                },
+                {
+                    "title": "« Les Juifs utilisent l’antisémitisme comme une arme pour faire taire les critiques »",
+                    "ref_label": "&#10003; Réfutation factuelle",
+                    "ref": [
+                        "L’affirmation selon laquelle les Juifs « exploitent » l’antisémitisme pour faire taire les critiques est en soi une tactique : elle dit aux Juifs que « vous n’avez pas le droit de vous plaindre » &mdash; précisément au moment où l’antisémitisme atteint des chiffres records (ADL : 8 873 incidents en 2023 rien qu’aux États-Unis, soit une augmentation de 140 %).",
+                        "Bien sûr, il existe un débat légitime sur la frontière entre la critique d’Israël et l’antisémitisme. Critique de politiques israéliennes spécifiques = légitime. Déni du droit d'Israël à exister seul = antisémitisme. Utilisation de stéréotypes sur tous les Juifs = antisémitisme. La règle est simple : si vous remplacez « Juif » par « Noir/Musulman/Asiatique » et que la phrase sonne raciste &mdash;, elle est aussi antisémite.",
+                        "L’affirmation selon laquelle les Juifs « exploitent le statut de victime » est la version contemporaine de « Les Juifs sont rusés et manipulateurs » &mdash; le stéréotype le plus ancien, sous un déguisement moderne."
+                    ],
+                    "psych_label": "&#128300; Pourquoi les gens croient-ils cela ?",
+                    "psych": [
+                        "Défense contre la dissonance : Les personnes exposées à la critique de leurs opinions sur les Juifs/Israël ressentent un malaise (dissonance cognitive). Plutôt que d’examiner leurs points de vue, il est plus facile d’affirmer que la critique elle-même est une « manipulation juive ». Cela les libère du besoin de remise en question : « Je ne suis pas antisémite, ils crient juste à l'antisémitisme pour me faire taire. » Le désir d’éviter la culpabilité est plus fort que le désir de découvrir la vérité."
+                    ],
+                    "sources": "Sources : Audit ADL (2023) ; David Hirsh, « L'antisémitisme de gauche contemporain » (2017)"
+                }
+            ]
+        }
+    ],
+    "lies_title": "Mensonges et calomnies courants",
+    "lies_desc": "Les mensonges courants contre Israël et le peuple juif – et les faits qui les exposent",
+    "lie_cards": [
+        {
+            "title": "« Israël a commis un génocide à Gaza »",
+            "claim_label": "&#10060; Ce qu'ils prétendent :",
+            "claim": "Les opérations militaires israéliennes à Gaza après le 7 octobre 2023 constituent un génocide &mdash; la destruction délibérée et systématique du peuple palestinien. L'Afrique du Sud a déposé une plainte auprès de la Cour internationale de Justice (CIJ), et les réseaux sociaux inondent Internet d'affirmations selon lesquelles Israël commet un « génocide ».",
+            "facts_label": "&#10003; Les faits qui révèlent le mensonge :",
+            "facts_list": [
+                "<strong>Définition légale :</strong> Le génocide nécessite <strong>intention spéciale (dolus specialis)</strong> de détruire un groupe national, ethnique ou religieux. La Convention des Nations Unies pour la prévention du génocide (1948, article II) stipule que la preuve de l'intention est requise &mdash; et pas seulement les victimes.",
+                "<strong>La Cour internationale de Justice (CIJ) n'a pas statué sur le génocide.</strong> Elle a seulement statué que le cas de l'Afrique du Sud était « suffisamment plausible pour être entendu ». &mdash; il s'agit du seuil juridique le plus bas pour une procédure provisoire, pas un verdict.",
+                "<strong>Ratio combattants/civils :</strong> Le professeur <strong>John Spencer</strong>, responsable des études sur la guerre urbaine à West Point, a déclaré que le ratio de pertes en Israël est d'environ <strong>1:1,5</strong> &mdash; alors que la moyenne mondiale en matière de guerre est de <strong>1:9</strong>.",
+                "<strong>Mesures sans précédent pour protéger les civils :</strong> L'armée israélienne a passé <strong>50 066 appels téléphoniques personnels</strong>, envoyé <strong>12 millions de messages vocaux</strong> et <strong>14 millions de SMS</strong>, largué des millions de tracts et créé des couloirs d'évacuation &mdash;, ce qui n'est jamais arrivé dans aucune guerre de l'histoire.",
+                "<strong>Le Hamas utilise des boucliers humains :</strong> L'UNRWA (l'agence des Nations Unies) a trouvé des roquettes dans ses écoles <strong>à trois reprises</strong>. L'OTAN a publié un rapport documenté sur la stratégie du Hamas en matière de bouclier humain. Yahya Sinwar a déclaré : « Nous avons décidé de transformer les corps de nos femmes et de nos enfants en barrage. »"
+            ],
+            "facts_conclusion": "Si une armée dotée de capacités nucléaires et l'une des forces aériennes les plus puissantes du monde avaient l'<strong>intention</strong> de détruire &mdash;, elle n'appellerait pas, n'enverrait pas de SMS et n'évacuerait pas les civils avant chaque frappe. <strong>Il n'y a pas de génocide dans l'histoire où le camp attaquant avertit les victimes de fuir.</strong>",
+            "sources": "Sources : Convention des Nations Unies pour la prévention du génocide (1948, article II) | Ordonnance d'urgence de la CIJ, 26 janvier 2024 | Conseil de l'Atlantique — Analyse d'experts | Newsweek — John Spencer, « Israël a créé une nouvelle norme pour la guerre urbaine » | Lieber Institute, West Point — L'armée israélienne et le devoir d'avertir | Centre d'excellence StratCom de l'OTAN — Utilisation de boucliers humains par le Hamas | Déclarations officielles de l'UNRWA sur les roquettes dans les écoles"
+        },
+        {
+            "title": "« Israël a poussé Trump à combattre l’Iran »",
+            "claim_label": "&#10060; Ce qu'ils prétendent :",
+            "claim": "Israël contrôlait, manipulait ou « poussait » les États-Unis &mdash; et plus particulièrement le président Trump &mdash; à une confrontation avec l'Iran. Selon ce récit, l’Amérique mène « la guerre d’Israël » et ne défend pas ses propres intérêts. Il s’agit d’une version moderne du trope de la « double loyauté » &mdash;, un canard antisémite de longue date.",
+            "facts_label": "&#10003; Les faits qui révèlent le mensonge :",
+            "facts_list": [
+                "<strong>Le conflit américano-iranien est antérieur à Israël :</strong> Le coup d’État de la CIA en 1953 (Mossadegh), la crise des otages de 1979 (444 jours) et la rupture diplomatique complète depuis 1980 &mdash; décennies avant tout « lobby israélien ».",
+                "<strong>L'Iran a tué plus de 869 Américains :</strong> L'attentat à la bombe de Beyrouth en 1983 (241 Marines), l'attentat à la bombe contre les tours de Khobar en 1996 (19), les bombes en bordure de route en Irak de 2003 à 2011 (603+). Un tribunal américain a condamné l'Iran à payer 1,5 milliard de dollars de dommages et intérêts.",
+                "<strong>Trump était anti-Iran depuis 1980 :</strong> Dans une interview sur NBC avec Rona Barrett (à 34 ans), Trump a déclaré que les États-Unis auraient dû envahir l'Iran. C'était <strong>46 ans</strong> avant toute revendication d'influence israélienne.",
+                "<strong>Intérêts américains indépendants :</strong> Détroit d'Ormuz (21 % du pétrole mondial), programme nucléaire iranien, financement du terrorisme (Hezbollah, Hamas, Houthis). L’Iran est désigné « État soutenant le terrorisme » depuis 1984.",
+                "<strong>L'Arabie Saoudite a également poussé :</strong> Le Washington Post a rapporté que la pression provenait « d'une paire inhabituelle d'alliés : Israël <strong>et l'Arabie Saoudite</strong> » &mdash; mais personne ne qualifie la pression saoudienne de « complot »."
+            ],
+            "facts_conclusion": "L’ADL a identifié ce récit comme un trope antisémite classique : <strong> « double loyauté » </strong> &mdash; accusant les Juifs de diriger secrètement la politique étrangère. Le même trope a été utilisé contre Dreyfus (1894), dans le « mythe du coup de couteau dans le dos » (1918) et dans le « Complot des médecins » de Staline (1953).",
+            "sources": "Sources : FDD — Attaques iraniennes contre les Américains de 1979 à aujourd'hui | La Maison Blanche (2026) — Des décennies de terrorisme iranien | CIA déclassifiée – Attentat à la bombe à Beyrouth | Administration américaine d'information sur l'énergie — Détroit d'Ormuz | Brookings – Comment Trump pense-t-il de l’Iran | Washington Post (28.2.2026) | ADL — Une opération militaire alimente un complot antisémite | AJC — #TranslateHate : double fidélité"
+        },
+        {
+            "title": "\"Israël est un État d'apartheid\"",
+            "claim_label": "&#10060; Ce qu'ils prétendent :",
+            "claim": "Israël applique un système de ségrégation raciale similaire au régime d'apartheid en Afrique du Sud. Des organisations telles qu'Amnesty International et Human Rights Watch ont publié des rapports utilisant ce label, et la « Semaine de l'apartheid israélien » est organisée sur plus de 250 campus dans le monde.",
+            "facts_label": "&#10003; Les faits qui révèlent le mensonge :",
+            "facts_list": [
+                "<strong>En Afrique du Sud :</strong> Les Noirs <strong>ne pouvaient pas voter</strong>, n'avaient pas le droit d'entrer dans les quartiers blancs, avaient une éducation délibérément séparée et inférieure, des pancartes « Blancs uniquement » étaient partout et le mariage interracial était un <strong>délit criminel</strong>.",
+                "<strong>En Israël :</strong> Les citoyens arabes (21 %) votent avec <strong>des droits complets et égaux</strong> depuis 1948. Le juge <strong>Salim Joubran</strong> (arabe) a été vice-président de la Cour suprême. Le parti <strong>Ra'am</strong> a rejoint la coalition gouvernementale en 2021. Les Druzes et les Bédouins sont des officiers supérieurs de Tsahal.",
+                "<strong>Arabes et Juifs israéliens :</strong> étudient dans les mêmes universités, sont soignés dans les mêmes hôpitaux, font leurs courses dans les mêmes centres commerciaux, nagent sur les mêmes plages. <strong>Il n'y a pas un seul panneau « Juifs uniquement » en Israël.</strong>",
+                "<strong>Kenneth Meshoe</strong>, un député sud-africain noir <strong>qui a vécu sous un véritable apartheid</strong> : \"J'ai visité Israël à plusieurs reprises. <strong>Rien ne peut être comparé à l'apartheid en Afrique du Sud.</strong>\"",
+                "<strong>Le juge Richard Goldstone</strong> (Afrique du Sud), qui a enquêté sur Israël pour le compte de l'ONU, a écrit dans le New York Times (2011) : <strong>\"En Israël, il n'y a pas d'apartheid. Rien là-bas ne se rapproche de la définition.\"</strong>"
+            ],
+            "facts_conclusion": "",
+            "sources": "Sources : ADL — Allégation : Israël est un État d'apartheid | Richard Goldstone, « Israël et la calomnie de l'apartheid », New York Times (31.10.2011) | UN Watch — Réponse à la revendication de l'apartheid | Britannica — Apartheid | Kenneth Meshoe, Poste de Jérusalem | SSRN — Analyse juridique de Sekulow & Ash"
+        },
+        {
+            "title": "\"Les Juifs contrôlent les médias et l'économie mondiale\"",
+            "claim_label": "&#10060; Ce qu'ils prétendent :",
+            "claim": "Les Juifs contrôlent secrètement les banques, les médias et les gouvernements du monde entier, manipulant les événements mondiaux à leur profit. Cette théorie est basée sur les « Protocoles des Sages de Sion » &mdash; un faux avéré créé en 1903 &mdash; et sur le mythe de la famille Rothschild.",
+            "facts_label": "&#10003; Les faits qui révèlent le mensonge :",
+            "facts_list": [
+                "<strong>\"Protocoles des Sages de Sion\" &mdash; un faux avéré :</strong> Créé par la police secrète russe (Okhrana). En 1921, le Times de Londres prouva qu'il s'agissait d'une <strong>copie directe</strong> d'une satire française sur Napoléon III (1864) qui n'avait <strong>absolument aucun lien avec les Juifs</strong>. Un tribunal suisse (1935) a déclaré le texte « un faux, un plagiat et une littérature obscène ».",
+                "<strong>Mythe Rothschild :</strong> La richesse de la famille est estimée à 400 milliards de dollars &mdash; répartis sur 7 générations. À titre de comparaison : <strong>Elon Musk à lui seul</strong> vaut environ 800 milliards de dollars. L’affirmation selon laquelle « les Rothschild contrôlent 80 % de la richesse mondiale » est <strong>mathématiquement impossible</strong> &mdash; la richesse mondiale totale s’élève à environ 471 000 milliards de dollars.",
+                "<strong>Les 4 plus grandes banques du monde sont chinoises</strong> (ICBC, Agricultural Bank, Construction Bank, Bank of China). Parmi les 20 plus grandes banques &mdash;, la plupart sont chinoises, japonaises, britanniques et françaises.",
+                "<strong>Juifs = 0,2% de la population mondiale</strong> (15,7 millions sur 8 milliards). Il est <strong>statistiquement impossible</strong> pour 0,2 % de « contrôler » l’économie mondiale, les médias et les gouvernements.",
+                "<strong>L'ironie :</strong> Comme le note l'ADL &mdash; \"Tout au long de l'histoire, les Juifs avaient <strong>très peu de contrôle</strong> même sur leur propre sort\" &mdash; expulsions, pogroms, Holocauste."
+            ],
+            "facts_conclusion": "",
+            "sources": "Sources : USHMM — Protocoles des Sages de Sion | ADL — Un canular de haine | Snopes — Patrimoine familial Rothschild (vérification des faits) | PolitiFact — Classement « Pantalons en feu » | S&P Global — Les plus grandes banques du monde 2024 | Enquête ADL Global 100 2024 | Britannica — Protocoles"
+        },
+        {
+            "title": "« Les Juifs n’ont aucun lien historique avec la Terre d’Israël »",
+            "claim_label": "&#10060; Ce qu'ils prétendent :",
+            "claim": "Les Juifs sont des « colonisateurs européens » sans réel lien avec la Terre d’Israël. Le sionisme est uniquement un « projet colonial » moderne. Mahmoud Abbas (avril 2025) a affirmé que les temples se trouvaient <strong>au Yémen, et non à Jérusalem</strong>. Le mouvement « Temple Denial » nie tout lien juif avec le Mont du Temple.",
+            "facts_label": "&#10003; Les faits qui révèlent le mensonge — 3 200 ans de preuves :",
+            "facts_list": [
+                "<strong>Stèle de Merneptah (1208 avant notre ère) :</strong> Une inscription égyptienne &mdash; <strong>la plus ancienne mention non biblique d'Israël</strong> dans l'histoire. Musée du Caire.",
+                "<strong>Tel Dan Stele (9ème siècle avant notre ère) :</strong> Une inscription araméenne trouvée en 1993 : \"Maison de David\" &mdash; <strong>la première preuve externe de la dynastie davidique</strong>.",
+                "<strong>Inscription de Siloé (701 avant notre ère) :</strong> Une ancienne inscription en hébreu à l'intérieur du tunnel d'Ézéchias à Jérusalem &mdash; <strong>un locuteur hébreu était en charge à Jérusalem il y a 2 700 ans</strong>.",
+                "<strong>Manuscrits de la mer Morte (3e siècle avant notre ère - 1er siècle de notre ère) :</strong> 981 manuscrits en hébreu et en araméen &mdash; <strong>les copies les plus anciennes de la Bible</strong>. Musée d'Israël, Jérusalem.",
+                "<strong>Arc de Titus, Rome (81 CE) :</strong> Un relief représentant des soldats romains <strong>portant la Menorah depuis le temple de Jérusalem</strong> &mdash; Preuve romaine que le Temple juif se trouvait à Jérusalem.",
+                "<strong>50 000+ pièces de monnaie Bar Kokhba (132-135 CE) :</strong> Avec des symboles juifs et des inscriptions hébraïques anciennes : \"Pour la liberté de Jérusalem\".",
+                "<strong>Études génétiques (PNAS 2000, Nature 2010) :</strong> Tous les groupes juifs &mdash; Ashkénazes, Sépharades et Mizrahi &mdash; <strong>partagent des marqueurs génétiques communs du Moyen-Orient</strong>. Les Juifs sont génétiquement plus proches des Palestiniens, des Syriens et des Druzes que des Européens.",
+                "<strong>Société des Nations (1922) :</strong> Reconnaissance internationale officielle de <strong>\"le lien historique du peuple juif avec la Palestine.\"</strong>"
+            ],
+            "facts_conclusion": "Nier le lien juif avec la Terre d’Israël nécessite d’ignorer l’archéologie <strong>, les archives romaines, la science génétique et le droit international </strong> &mdash; qui confirment tous la même conclusion.",
+            "sources": "Sources : Société d'archéologie biblique — Stèle de Merneptah, Stèle de Tel Dan | Musée d'Israël — Manuscrits de la Mer Morte | Université Yeshiva — Projet Arc de Titus | Hammer et coll. (2000), PNAS 97(12) | Behar et coll. (2010),Nature 466 | Mandat de la Société des Nations (1922), projet Yale Avalon | USHMM | AVQ"
+        }
+    ],
+    "timeline_title": "2 500 ans de persécution",
+    "timeline_desc": "La chronologie montre que les mêmes mensonges se reproduisent encore et encore, avec à chaque fois des conséquences mortelles.",
+    "timeline": [
+        {
+            "date": "167 avant notre ère",
+            "title": "Persécution d'Antiochus IV",
+            "desc": "La première persécution parrainée par l’État. Profanation du Temple, interdiction du judaïsme. A déclenché la révolte des Maccabées – Hanoukka.",
+            "victims": ""
+        },
+        {
+            "date": "38 CE",
+            "title": "Le pogrom d'Alexandrie",
+            "desc": "Le premier pogrom anti-juif documenté. Des foules ont attaqué les quartiers juifs, détruit des maisons et des synagogues.",
+            "victims": "Des centaines de morts"
+        },
+        {
+            "date": "70 CE",
+            "title": "Destruction du Second Temple",
+            "desc": "Rome a détruit le centre de la vie juive. Le début de l'exil. Le christianisme l'a recadré comme une punition divine.",
+            "victims": "Des centaines de milliers"
+        },
+        {
+            "date": "1096",
+            "title": "Massacres de la première croisade",
+            "desc": "Les croisés en route vers la Terre Sainte massacrèrent les communautés juives à travers la Rhénanie. Rien qu’à Mayence, 1 000 Juifs furent tués en un seul jour.",
+            "victims": "5 000 à 10 000 tués"
+        },
+        {
+            "date": "1144",
+            "title": "La première diffamation de sang – Norwich",
+            "desc": "Un enfant a été retrouvé mort ; Les Juifs ont été accusés sans preuves. J'ai créé un modèle qui s'est répété des centaines de fois au cours des 800 années suivantes.",
+            "victims": ""
+        },
+        {
+            "date": "1215",
+            "title": "Le Quatrième Concile du Latran",
+            "desc": "Le pape a ordonné aux Juifs de porter des vêtements d'identification (un précurseur de l'insigne jaune), ce qui les a exclus de toute fonction publique.",
+            "victims": ""
+        },
+        {
+            "date": "1290",
+            "title": "Expulsion d'Angleterre",
+            "desc": "La première expulsion nationale complète. 3 000 à 16 000 Juifs expulsés. Il leur fut interdit de revenir jusqu'en 1656, soit 366 ans d'interdiction.",
+            "victims": ""
+        },
+        {
+            "date": "1348-1351",
+            "title": "Pogroms de la peste noire",
+            "desc": "Les Juifs étaient accusés d'avoir empoisonné les puits. À Strasbourg, 2 000 Juifs ont été brûlés vifs le 14 février 1349 – avant même que la peste n’atteigne la ville. Plus de 200 communautés juives ont été détruites.",
+            "victims": "Des dizaines de milliers"
+        },
+        {
+            "date": "1478",
+            "title": "L'Inquisition espagnole",
+            "desc": "Ciblé les Juifs convertis au christianisme. Torture, emprisonnement, bûcher sur la place publique. Les lois sur la « pureté du sang » – précurseurs du racisme nazi.",
+            "victims": "~3 000 à 5 000 exécutés"
+        },
+        {
+            "date": "1492",
+            "title": "Expulsion d'Espagne",
+            "desc": "200 000 Juifs expulsés d'un pays où ils vivaient depuis plus de 1 000 ans. Beaucoup sont morts en route.",
+            "victims": "200 000 exilés"
+        },
+        {
+            "date": "1933-1945",
+            "title": "L'Holocauste",
+            "desc": "Systematic industrial genocide. Ghettos, camps d'extermination, Einsatzgruppen, marches de la mort. Chaque trope antisémite documenté sur ce site a été utilisé comme justification.",
+            "victims": "6 000 000 de tués"
+        },
+        {
+            "date": "2018-2024",
+            "title": "Vague mondiale d’antisémitisme",
+            "desc": "Fusillade à la synagogue Tree of Life de Pittsburgh (11 tués), Halle, Paris. L’ADL a signalé une augmentation de 167 % des incidents antisémites aux États-Unis entre 2016 et 2022.",
+            "victims": ""
+        }
+    ],
+    "psych_title": "La psychologie de la haine",
+    "psych_desc": "L'antisémitisme ne concerne pas vraiment les Juifs &mdash; mais les besoins psychologiques de l'antisémite",
+    "psych_insight_title": "L'information clé",
+    "psych_insight_text": "De toutes les explications psychologiques, une tendance se dégage : l’antisémitisme ne concerne pas vraiment les Juifs. Il s’agit des besoins psychologiques des antisémites &mdash;, de leur besoin d’explications simples, de leur peur de la complexité, de leur colère déplacée et de leur désir de blâmer quelqu’un. Les Juifs sont l’écran sur lequel ces besoins sont projetés. C’est pourquoi l’antisémitisme persiste même dans les pays où il n’y a quasiment pas de Juifs (Japon, Corée du Sud, Pologne après la Shoah).",
+    "psych_cards": [
+        {
+            "title": "Bouc émissaire",
+            "text": "Lorsqu’une société est confrontée à une crise, les gens cherchent un responsable. Il est bien plus facile de blâmer un groupe de minorité visible que des facteurs systémiques complexes. Chaque accusation révèle ce que la société accusatrice craint le plus à son sujet."
+        },
+        {
+            "title": "Projection",
+            "text": "Le transfert inconscient de ses propres traits inacceptables sur les autres. Les chrétiens qui se sentaient coupables de l’usure accusaient les Juifs d’avidité. Les Européens qui aspiraient à la domination mondiale accusaient les Juifs de rechercher la domination mondiale. Les nazis qui pratiquaient l’eugénisme accusaient les Juifs de métissage racial."
+        },
+        {
+            "title": "Biais de confirmation",
+            "text": "Une fois que quelqu’un croit que « les Juifs contrôlent les médias », il remarque tous les Juifs présents dans les médias et ignore les milliers de personnes qui ne le sont pas. La croyance génère ses propres « preuves »."
+        },
+        {
+            "title": "Corrélation illusoire",
+            "text": "Lorsqu’une minorité est impliquée dans un événement négatif, les gens surestiment le lien. Si un banquier juif commet une fraude &mdash;, sa judéité est notée. Si un banquier non juif commet une fraude &mdash;, son origine ethnique est invisible."
+        },
+        {
+            "title": "La personnalité autoritaire",
+            "text": "Adorno (1950) a découvert une combinaison de traits qui prédisent les préjugés : pensée rigide, soumission à l'autorité, agressivité envers les groupes extérieurs et anxiété face au changement. Les personnes présentant ces caractéristiques sont attirées par les récits antisémites car ils fournissent des explications simples, des ennemis évidents et un sentiment d’ordre dans un monde complexe."
+        },
+        {
+            "title": "Pensée conspiratrice",
+            "text": "La recherche moderne montre que la pensée conspiratrice est un style cognitif &mdash; ceux qui croient en une conspiration ont tendance à croire en d'autres, même contradictoires. L'antisémitisme fournit à la « mère de toutes les conspirations » &mdash; une explication unifiée de tout ce qui ne va pas dans le monde."
+        }
+    ],
+    "regions_title": "Antisémitisme par société et nation",
+    "regions_desc": "Chaque société a développé sa propre version de la haine des Juifs &mdash; le même poison, des bouteilles différentes",
+    "regions": [
+        {
+            "title": "Le monde musulman et arabe",
+            "subtitle": "De l’antisémitisme religieux médiéval au conflit moderne",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Source historique :</strong> Au début du judaïsme et de l'islam, il y a eu des périodes de coexistence. Mais le Coran contient des versets négatifs sur les Juifs (Sourate 5 :60 &mdash; « ceux qu'Allah a maudits et transformés en singes et en cochons »), et Mahomet a expulsé et massacré les tribus juives à Médine (Banu Qurayza, 627 CE &mdash; 600-900 hommes juifs ont été décapités). Sous le régime islamique, les Juifs étaient des « dhimmis » &mdash; des citoyens protégés mais inférieurs qui payaient la taxe jizya et portaient des marques d'identification.",
+                "<strong style=\"color:#e2b714;\">L'invention de l'identité nationale palestinienne :</strong> Le terme « Palestine » est un nom géographique romain (de 135 CE, lorsque les Romains ont renommé la Judée pour effacer l'identité juive). Les Arabes de la région se sont identifiés pendant des siècles comme Syriens, Arabes ou par tribu et famille. L’identité nationale palestinienne s’est cristallisée principalement au milieu du XXe siècle. Zuheir Mohsen, leader d'al-Sa'iqa (une organisation palestinienne), a déclaré en 1977 dans une interview au journal néerlandais Trouw : « Le peuple palestinien n'existe pas... il n'y a aucune différence entre les Jordaniens, les Palestiniens, les Syriens et les Libanais. Nous faisons tous partie d'une seule nation arabe. »",
+                "<strong style=\"color:#e2b714;\">Terreur suicide :</strong> Au cours de la deuxième Intifada (2000-2005), plus de 140 attentats suicides ont été perpétrés contre des civils israéliens dans des bus, dans des restaurants, des centres commerciaux et des discothèques. 1 137 Israéliens ont été tués. Le Hamas, le Jihad islamique et le Fatah ont envoyé des jeunes, dont des femmes et des adolescents, se faire exploser parmi les civils &mdash; et ont ensuite affirmé qu'Israël était un « assassin ». Celui qui fait exploser les bus avec des bébés n’est pas la victime.",
+                "<strong style=\"color:#e2b714;\">La diffamation du « génocide » :</strong> Israël est la seule armée de l'histoire à envoyer des avertissements aux civils ennemis avant une attaque (« coups sur le toit », messages SMS, tracts). Israël gère un système juridique indépendant qui enquête sur les violations. Si Israël voulait commettre un génocide, pourquoi la population de Gaza est-elle passée de 80 000 habitants en 1948 à plus de 2 millions en 2023 ? Le véritable génocide ressemble au Rwanda (800 000 morts en 100 jours) ou à l'Holocauste (6 millions). Le droit de légitime défense n’est pas un génocide.",
+                "<strong style=\"color:#e2b714;\">Propagande moderne :</strong> \"Les Protocoles des Sages de Sion\" &mdash; un faux russe de 1903 &mdash; est un best-seller dans le monde arabe. La série égyptienne « Cavalier sans cheval » (2002, 41 épisodes, diffusée à la télévision d'État) est basée sur les Protocoles et présente les Juifs comme des conspirateurs. Les manuels scolaires de l'UNRWA (l'agence des Nations Unies pour les réfugiés) contenaient du contenu antisémite &mdash;, notamment des cartes sans Israël et des poèmes faisant l'éloge des attentats suicides."
+            ],
+            "fact_boxes": [
+                "<strong>Fait documenté :</strong> Entre 1948 et 1972, environ 850 000 Juifs ont été expulsés ou forcés de fuir les pays arabes et musulmans. Leurs biens ont été confisqués. Les communautés juives vieilles de plusieurs milliers d’années en Irak, en Égypte, en Libye, au Yémen, en Syrie et au Maroc ont été presque entièrement détruites. Le Farhud en Irak (1941) : 180 juifs assassinés, 1 000 blessés, 900 maisons détruites &mdash; inspiré par la propagande nazie diffusée par le mufti Haj Amin al-Husseini.",
+                "<strong>Charte du Hamas (1988) :</strong> L'article 7 appelle au meurtre des Juifs (et non des Israéliens &mdash; Juifs). L’article 22 affirme que les Juifs sont derrière la Révolution française, la Première Guerre mondiale, le communisme et la Seconde Guerre mondiale. L'article 32 cite les « Protocoles des Sages de Sion » &mdash;, un faux antisémite russe de 1903 &mdash; comme document authentique. Il ne s’agit pas ici de « résistance à l’occupation ». Il s’agit d’un antisémitisme ouvert dans le langage du génocide."
+            ],
+            "sources": "Sources : Benny Morris, « 1948 » (2008) ; Charte du Hamas (1988) ; Traductions MEMRI ; Rapports de manuels scolaires IMPACT-se ; Andrew Bostom, « L'héritage de l'antisémitisme islamique » (2008)"
+        },
+        {
+            "title": "Pologne et Europe de l'Est",
+            "subtitle": "Mythes du Talmud, « communisme juif » et haine qui a survécu à l'Holocauste",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Le mythe du Talmud :</strong> L'une des croyances les plus répandues en Pologne (et en Europe de l'Est) est que le Talmud est plein de haine envers les non-juifs. La propagande antisémite (principalement de l'Église catholique médiévale et de publications comme \"Talmud Unmasked\" de Justinas Pranaitis, 1892) extrayait des citations de leur contexte, les traduisait délibérément mal ou les fabriquait simplement. Le Talmud compte 6 200 pages de discussions juridiques, et aucun érudit talmudique qualifié ne soutient la lecture antisémite.",
+                "<strong style=\"color:#e2b714;\">Le mythe de Żydokomuna (« Communisme juif ») :</strong> La croyance que le communisme est une « invention juive » et que les Juifs dirigeaient la Pologne communiste. En réalité : le Parti ouvrier unifié polonais (PZPR) était majoritairement polonais. Quelques Juifs individuels occupaient des postes élevés &mdash; car on les trouvait dans tous les domaines &mdash; mais ils ne constituaient qu'un infime pourcentage. De nombreux Polonais étaient des communistes enthousiastes, sans aucun lien avec les Juifs. En 1968, le régime communiste polonais a lui-même mené une campagne antisémite (« antisionistes ») et expulsé environ 13 000 Juifs de Pologne.",
+                "<strong style=\"color:#e2b714;\">Jedwabne (1941) :</strong> Le 10 juillet 1941, les habitants polonais de la ville de Jedwabne ont assassiné au moins 340 (peut-être plus de 1 000) Juifs de la ville &mdash; les brûlant vifs dans une grange. Pas des nazis. Voisins polonais. L'historien Jan Tomasz Gross a documenté cela dans son livre « Voisins » (2001), provoquant un choc national en Pologne. En 2018, la Pologne a adopté une loi interdisant l’attribution de la responsabilité des crimes de l’Holocauste à la nation polonaise &mdash;, dans le but de faire taire l’histoire."
+            ],
+            "fact_boxes": [
+                "<strong>Le pogrom de Kielce (1946) :</strong> Un an après la libération d'Auschwitz, 42 survivants juifs de l'Holocauste ont été assassinés lors d'un pogrom dans la ville de Kielce, en Pologne. Le prétexte : une diffamation de sang (!) &mdash; une rumeur selon laquelle un enfant chrétien aurait été kidnappé par des juifs. En 1946. Après la Shoah. Les survivants d’Auschwitz ont été assassinés par leurs voisins polonais sur la base du même mensonge médiéval. Cet événement a déclenché une vague de fuite (Bericha) des survivants de l’Holocauste depuis la Pologne.",
+                "<strong>Russie :</strong> \"Les Protocoles des Sages de Sion\" ont été créés par la police secrète russe (Okhrana) vers 1903, sur la base du plagiat d'un livre français (Maurice Joly, 1864) qui n'avait rien à voir avec les Juifs. La Zone de colonisation (1791-1917) confinait les Juifs dans des zones résidentielles restreintes. Entre 1881 et 1921, des vagues de pogroms tuèrent des dizaines de milliers de Juifs. Bon nombre des premiers pogroms ont été encouragés ou planifiés par le gouvernement lui-même. Le « Complot des médecins » (1953) &mdash; Staline accusait les médecins juifs de comploter pour assassiner les dirigeants soviétiques. Seule la mort de Staline a empêché la déportation massive des Juifs vers la Sibérie."
+            ],
+            "sources": "Sources : Jan T. Gross, « Voisins » (2001) ; Joanna Tokarska-Bakir, « Pogrom cris » (2018) ; Norman Cohn, « Mandat de génocide » (1967)"
+        },
+        {
+            "title": "Allemagne nazie",
+            "subtitle": "La machine d’extermination : comment un État moderne a transformé la haine en industrie",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">L'idéologie :</strong> Les nazis n'ont pas inventé l'antisémitisme &mdash; ils l'ont industrialisé. Ils ont pris 2 000 ans d’antisémitisme chrétien, l’ont combiné avec le racisme pseudo-scientifique du XIXe siècle (anthropologie raciale, eugénisme, darwinisme social) et ont créé tout un système de lois, de bureaucratie et d’industrie dont le seul objectif était l’anéantissement de tout un peuple.",
+                "<strong style=\"color:#e2b714;\">La machine de propagande :</strong> Joseph Goebbels a construit un système de propagande sans précédent. Le film « Le Juif éternel » (1940) dépeint les Juifs comme des rats. Le journal « Der Stürmer » (Julius Streicher) publiait chaque semaine des caricatures antisémites. Les enfants ont appris l'antisémitisme à l'école dès l'âge de 6 ans. Des livres pour enfants comme « Le champignon empoisonné » (1938) ont appris aux enfants à identifier et à haïr les Juifs. La méthode : répéter le mensonge suffisamment de fois et les gens commenceront à y croire.",
+                "<strong style=\"color:#e2b714;\">La contradiction nazie :</strong> Les nazis affirmaient simultanément que les Juifs étaient une race inférieure (Untermenschen) et qu'ils dirigeaient secrètement le monde entier. Si les Juifs sont si inférieurs, comment sont-ils capables de tout contrôler ? Cette contradiction révèle que l’antisémitisme n’est pas un système rationnel mais un fantasme paranoïaque &mdash; il n’a pas besoin d’être cohérent, seulement pour justifier la haine."
+            ],
+            "fact_boxes": [
+                "<strong>L'échelle de la destruction :</strong><br>1933 : Boycott des entreprises juives, licenciement des fonctions gouvernementales<br>1935 : Lois de Nuremberg &mdash; citoyenneté déchue, mariages mixtes interdits<br>1938 : Nuit de Cristal &mdash; 1 400 synagogues incendiées, 30 000 Juifs envoyés dans des camps<br>1939-1941 : Ghettos, famine organisée, fusillades de masse (les Einsatzgruppen ont tué 1,5 million)<br>1942 : Conférence de Wannsee &mdash; la « Solution finale » est devenue officielle<br>1942-1945 : Chambres à gaz industrielles à Auschwitz-Birkenau, Treblinka, Sobibor, Belzec, Chelmno, Majdanek",
+                "<strong>Les chiffres :</strong> 6 millions de Juifs ont été assassinés &mdash;, soit un tiers de l'ensemble du peuple juif. Parmi eux, 1,5 million étaient des enfants. Les communautés juives vieilles de mille ans en Europe ont été complètement anéanties. C’est peut-être la seule fois dans l’histoire où un État moderne a consacré ses ressources industrielles &mdash;, les trains, les usines, la bureaucratie &mdash; au seul but d’assassiner un peuple entier."
+            ],
+            "sources": "Sources : Raul Hilberg, « La destruction des Juifs européens » (1961/2003) ; Archives de l'USHMM ; Base de données centrale Yad Vashem des noms des victimes de la Shoah"
+        },
+        {
+            "title": "Europe occidentale moderne",
+            "subtitle": "\"L'antisionisme\" comme nouveau masque pour le vieil antisémitisme",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Le nouvel « antisionisme » :</strong> L'historien Natan Sharansky a développé le « test 3D » pour identifier quand la critique d'Israël se transforme en antisémitisme : <strong>Démonisation</strong> (Israël = nazis), <strong>Délégitimisation</strong> (Israël n'a pas le droit d'exister), <strong>Double Standard</strong> (exigences d'Israël qui ne sont exigées d'aucun autre pays). Les critiques légitimes de politiques israéliennes spécifiques sont acceptées &mdash; comme l’est la critique de n’importe quel pays. Mais nier le droit à l’existence d’Israël seul, parmi toutes les nations du monde, relève de l’antisémitisme.",
+                "<strong style=\"color:#e2b714;\">Grande-Bretagne &mdash; L'affaire travailliste :</strong> Sous Jeremy Corbyn (2015-2020), le Parti travailliste britannique a fait l'objet d'une enquête de la Commission pour l'égalité et les droits de l'homme (EHRC) et a été reconnu responsable de violations graves de la loi sur la discrimination &mdash; d'antisémitisme institutionnel. Corbyn a qualifié le Hamas et le Hezbollah d'« amis », a déposé une couronne de fleurs sur la tombe du cerveau du massacre des Jeux olympiques de Munich en 1972 et a soutenu un artiste qui a peint une fresque antisémite. Des milliers de Juifs ont quitté le parti.",
+                "<strong style=\"color:#e2b714;\">Campus universitaires :</strong> Le mouvement BDS (Boycott, Désinvestissement, Sanctions) est devenu un bras central de l'antisémitisme sur les campus. Les étudiants juifs dénoncent le harcèlement, l'exclusion des organisations de justice sociale (« Vous êtes sioniste ? Vous n'êtes pas invité ») et les vitres brisées dans les clubs Hillel. Le grand vol : ils utilisent le langage des droits de l’homme pour nier le droit le plus fondamental &mdash; le droit à l’autodétermination &mdash; d’un seul peuple."
+            ],
+            "fact_boxes": [
+                "<strong>France :</strong> La plus grande émigration juive d'Europe du 21e siècle se produit en France. 2006 : Ilan Halimi, un jeune juif, est kidnappé, torturé pendant 24 jours et assassiné par le « Gang des Barbares » &mdash; parce qu'il était juif « et donc riche ». 2012 : Mohamed Merah a abattu 3 enfants et le rabbin Jonathan Sandler dans une école juive de Toulouse. 2015 : Attaque du supermarché casher Hyper Cacher à Paris, 4 assassinés. Les Juifs représentent 1% de la population française mais 40% des victimes de crimes haineux. Environ 38 000 Juifs ont quitté la France pour Israël entre 2010 et 2020."
+            ],
+            "sources": "Sources : Rapport EHRC sur le travail (2020) ; Natan Sharansky, « Test 3D » (2004) ; Rapports sur l'antisémitisme sur les campus de l'ADL ; CRIF (Conseil Représentatif des Institutions Juives de France)"
+        },
+        {
+            "title": "Les États-Unis",
+            "subtitle": "De la « Alt-Right » à la « Nation de l'Islam » : la haine de toutes parts",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">L'extrême droite :</strong> À Charlottesville, en Virginie (août 2017), des néo-nazis ont défilé avec des torches en scandant « Les Juifs ne nous remplaceront pas ». Le 27 octobre 2018, Robert Bowers est entré dans la synagogue Tree of Life à Pittsburgh, en Pennsylvanie, et a abattu 11 fidèles. Il s’agit de l’attaque la plus meurtrière contre les Juifs de l’histoire américaine. Il a crié « Tous les Juifs doivent mourir » avant d'ouvrir le feu.",
+                "<strong style=\"color:#e2b714;\">Louis Farrakhan et la « Nation de l'Islam » :</strong> Farrakhan a qualifié les Juifs de « termites », de « sangsues sataniques » et le judaïsme de « religion de caniveau ». Son organisation publie des livres comme « La relation secrète entre les Noirs et les Juifs », accusant les Juifs de traite négrière &mdash;, une affirmation réfutée par tous les historiens sérieux (y compris les historiens noirs comme Henry Louis Gates). Cette haine est particulièrement dangereuse car elle s’habille du langage de la justice sociale.",
+                "<strong style=\"color:#e2b714;\">Kanye West (Ye) et la culture des célébrités :</strong> En décembre 2022, West a déclaré « J'aime les nazis » et a fait l'éloge d'Hitler en direct. Avant cela, il avait tweeté « Mort contre le peuple juif ». L’impact : L’ADL a signalé une forte augmentation de la propagande antisémite de la part de groupes d’extrême droite citant l’Occident comme justification. Lorsqu’une personne comptant 30 millions d’adeptes normalise la haine des Juifs, les conséquences sont réelles et dangereuses."
+            ],
+            "fact_boxes": [
+                "<strong>Statistiques :</strong> En 2022, l'ADL a documenté 3 697 incidents antisémites aux États-Unis &mdash;, le chiffre le plus élevé depuis le début du suivi en 1979. Une augmentation de 36 % en un an. 2023 (après le 7 octobre) : le chiffre est passé à 8 873 incidents &mdash;, soit une augmentation de 140 %. Les Juifs représentent 2,4 % de la population mais représentent plus de 60 % des victimes de crimes de haine religieuse selon le FBI."
+            ],
+            "sources": "Sources : Audit ADL des incidents antisémites (2022, 2023) ; Statistiques du FBI sur les crimes haineux ; Henry Louis Gates Jr., « L'antisémitisme noir » en transition (1992) ; Rapport du Pittsburgh Post-Gazette"
+        },
+        {
+            "title": "L'Iran et le régime islamique",
+            "subtitle": "L’antisémitisme comme politique d’État : de la négation de l’Holocauste au financement du terrorisme",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Déni de l'Holocauste institutionnalisé :</strong> L'ancien président Mahmoud Ahmadinejad a tenu une conférence internationale sur le négationnisme de l'Holocauste à Téhéran (2006), invitant des négationnistes connus du monde entier (y compris David Duke du KKK), et a déclaré l'Holocauste un « mythe ». Le guide suprême Khamenei a poursuivi sur cette lancée, affirmant qu'il existe de « sérieux doutes » sur l'Holocauste. Ce n’est pas une position historique &mdash; c’est une préparation psychologique. La négation du génocide précédent ouvre la voie au prochain.",
+                "<strong style=\"color:#e2b714;\">L'hypocrisie ironique de la contradiction :</strong> L'Iran prétend qu'Israël est raciste &mdash; alors que le régime iranien persécute systématiquement les bahá'ís, les Kurdes, les Arabes, les sunnites et les personnes LGBTQ+ en Iran même. Des milliers d'exécutions par an, des femmes assassinées parce qu'elles ne portaient pas le hijab (Mahsa Amini, 2022). La communauté juive d’Iran (environ 8 000 personnes, contre plus de 100 000 avant la révolution) vit sous surveillance et sous restrictions."
+            ],
+            "fact_boxes": [
+                "<strong>Financement du terrorisme :</strong> L'Iran finance et arme le Hezbollah (Liban), le Hamas (Gaza), le Jihad islamique (Gaza) et les Houthis (Yémen). Le Hezbollah est responsable de l'attentat à la bombe contre l'AMIA à Buenos Aires (1994, 85 tués) et de l'attentat contre l'ambassade israélienne (1992, 29 tués). L’objectif déclaré de l’Iran : « rayer Israël de la carte ». Il ne s’agit pas d’une critique politique &mdash;, c’est d’un appel à la destruction d’un peuple."
+            ],
+            "sources": "Sources : dossiers d’enquête de l’AMIA ; Rapports de l'AIEA ; Rapports nationaux du Département d'État américain sur les droits de l'homme ; Traductions MEMRI des médias d’État iraniens"
+        },
+        {
+            "title": "Japon, Corée du Sud et Asie de l'Est",
+            "subtitle": "Un phénomène surprenant : l’antisémitisme dans des pays où il n’y a presque pas de Juifs",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Le paradoxe :</strong> Environ 1 000 Juifs vivent au Japon (sur 125 millions). En Corée du Sud &mdash; quelques centaines. Pourtant, « Les Protocoles des Sages de Sion » ont été traduits et vendus au Japon dans des dizaines d'éditions. Des livres comme « Le contrôle juif du monde » sont des best-sellers. Au Japon et en Corée du Sud, « l'antisémitisme sans Juifs » prouve le point central : <strong>L'antisémitisme n'est pas une réaction contre les vrais Juifs &mdash; c'est un fantasme sur les Juifs imaginaires.</strong>",
+                "<strong style=\"color:#e2b714;\">La version asiatique :</strong> Contrairement à l'antisémitisme (haine) européen, la version asiatique est parfois « positive » de manière déformée : « Les Juifs sont intelligents, ils contrôlent l'argent, nous pouvons apprendre d'eux. Cela reste de l’antisémitisme &mdash; car il est basé sur des stéréotypes et non sur des rencontres avec de vrais Juifs. Cela transforme les Juifs d’êtres humains en personnages mythiques."
+            ],
+            "fact_boxes": [],
+            "sources": "Sources : Enquête ADL Global 100 ; David Goodman et Masanori Miyazawa, « Les Juifs dans l'esprit japonais » (1995)"
+        }
+    ],
+    "report_title": "Vous avez rencontré de l’antisémitisme ? Signalez-le",
+    "report_desc": "Ne restez pas silencieux. Le signalement de &mdash; sauve des vies et évite toute escalade. Voici vers qui se tourner :",
+    "gallery_title": "Documentation historique",
+    "youtube_title": "Regarder et apprendre",
+    "footer": {
+        "motto": "La vérité est l'arme la plus puissante contre la haine",
+        "motto_en": "La vérité est l'arme la plus puissante contre la haine"
+    }
+}

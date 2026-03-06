@@ -1,0 +1,837 @@
+{
+    "meta": {
+        "code": "de",
+        "name": "Deutsch",
+        "dir": "ltr"
+    },
+    "nav": [
+        "Was ist Antisemitismus?",
+        "Ansprüche und Widerlegungen",
+        "Gemeinsame Lügen",
+        "Zeitleiste",
+        "Die Psychologie",
+        "Hass der Nationen",
+        "Historische Dokumentation",
+        "Antisemitismus melden",
+        "Zuschauen und lernen",
+        "Was kann getan werden?"
+    ],
+    "ui": {
+        "donate_btn": "&#9749;-Unterstützung",
+        "lang_btn": "Sprache",
+        "search_placeholder": "Website durchsuchen...",
+        "copy_btn": "&#128203; Antwort kopieren",
+        "lie_footer": "&#10070; Die Wahrheit siegt immer &#10070;",
+        "toggle_open": "&#9660; Klicken Sie zum Öffnen"
+    },
+    "hero_title": "Die Wahrheit gegen die Lüge",
+    "hero_subtitle": "Die Lügen aufdecken, die Fakten präsentieren",
+    "hero_subtitle_en": "Die Wahrheit gegen die Lüge – Kampf gegen Antisemitismus",
+    "hero_cta": "Entdecken Sie die Wahrheit &#8595;",
+    "stat_labels": [
+        "Entlarvte Behauptungen",
+        "Jahre dokumentiert",
+        "Kategorien",
+        "Nationen und Gesellschaften",
+        "Akademische Quellen"
+    ],
+    "about_title": "Was ist Antisemitismus?",
+    "about_desc": "Der älteste Hass in der Geschichte der Menschheit &mdash; 2.500 Jahre Lügen, die aufgedeckt werden müssen",
+    "about_cards": [
+        {
+            "title": "Ein Hass, der seine Gestalt verändert",
+            "text": "Antisemitismus ist der hartnäckigste Gruppenhass in der Geschichte der Menschheit. Es hat in verschiedenen Epochen unterschiedliche Formen angenommen &mdash; religiös, rassisch, politisch, wirtschaftlich, verschwörerisch &mdash;, aber das zentrale Muster bleibt dasselbe: Juden werden zum Sündenbock für die Probleme der Gesellschaft."
+        },
+        {
+            "title": "Warum Dokumentation wichtig ist",
+            "text": "Um Antisemitismus zu bekämpfen, muss man ihn zunächst verstehen. Auf dieser Website finden Sie 34 gängige antisemitische Tropen aus 8 Kategorien, jeweils mit einer sachlichen Widerlegung, einer psychologischen Erklärung dafür, warum Menschen die Lüge glauben, und akademischen Quellen. Kein Anspruch bleibt unbeantwortet."
+        },
+        {
+            "title": "Drei Reaktionsebenen",
+            "text": "<strong style=\"color:#2ecc71;\">1. Faktische Widerlegung</strong> &mdash; Was zeigen die Fakten tatsächlich?<br><strong style=\"color:#3498db;\">2. Psychologische Erklärung</strong> &mdash; Warum glauben Menschen diese Lüge?<br><strong style=\"color:#e2b714;\">3. Historischer Kontext</strong> &mdash; Wann wurden durch diese Lüge Menschen getötet?"
+        }
+    ],
+    "claims_title": "34 Behauptungen – 34 Widerlegungen",
+    "claims_desc": "Klicken Sie auf jede Kategorie, um die Behauptungen anzuzeigen, und auf jede Behauptung, um die vollständige Widerlegung zu lesen",
+    "categories": [
+        {
+            "number": "Kategorie 1",
+            "title": "Religiöser und theologischer Antisemitismus",
+            "desc": "Die älteste Schicht: Hass, der in religiösen Erzählungen verwurzelt ist",
+            "claims": [
+                {
+                    "title": "„Juden haben Jesus getötet“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Jesus wurde von den römischen Autoritäten nach einer römischen Hinrichtungsmethode gekreuzigt (die Kreuzigung ist eine römische Strafe, keine jüdische). Der römische Statthalter Pontius Pilatus ordnete die Hinrichtung an. Die Evangelien wurden 40–70 Jahre nach den Ereignissen geschrieben, im Kontext der Trennung des Christentums vom Judentum. Das Zweite Vatikanische Konzil (1965) erklärte offiziell, dass die Kollektivschuld nicht dem gesamten jüdischen Volk zugeschrieben werden dürfe."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Sündenbock + emotionsgesteuertes Denken: Die frühen Christen brauchten eine Erklärung dafür, warum Juden, Jesu eigenes Volk, seinen messianischen Anspruch nicht akzeptierten. Die Schuldzuweisung an Juden lieferte eine praktische emotionale Erklärung. Da das Christentum außerdem nach Akzeptanz im Römischen Reich strebte, war es politisch gefährlich, Rom für den Tod Jesu verantwortlich zu machen, während es bequemer war, den Juden die Schuld zu geben."
+                    ],
+                    "sources": "Quellen: Raymond Brown, „The Death of the Messiah“ (1994); Vatikanum II, „Nostra Aetate“ (1965)"
+                },
+                {
+                    "title": "„Juden sind die Kinder des Teufels“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Das Johannesevangelium (8,44) dokumentiert eine scharfe innerjüdische Debatte in einem spezifischen Kontext. Jesus selbst war Jude, seine Jünger waren Juden und das frühe Christentum war eine innerjüdische Bewegung. Eine Seite eines internen Arguments auf alle Juden für die Ewigkeit anzuwenden, ist so, als würde man eine Debatte zwischen zwei amerikanischen Politikern auswerten und zu dem Schluss kommen, dass alle Amerikaner böse sind."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Entmenschlichung: Die Kennzeichnung einer Fremdgruppe als satanisch oder untermenschlich ist ein dokumentierter Vorläufer von Gewalt. Gregory Stantons Forschung identifiziert Entmenschlichung als Stufe 4 auf dem Weg zum Völkermord (8 Stufen im Jahr 1996, erweitert auf 10 im Jahr 2012). Die Dämonisierung der Juden ermöglichte jahrhundertelange Pogrome."
+                    ],
+                    "sources": "Quellen: Adele Reinhartz (2018); Gregory Stanton, „Die 8 Phasen des Genozids“ (1996, 2012 auf 10 erweitert)"
+                },
+                {
+                    "title": "„Blutverleumdung: Juden verwenden das Blut christlicher Kinder in Ritualen“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "In den 900 Jahren seit der ersten Blutverleumdung (Norwich, 1144) wurde kein einziger Fall jemals nachgewiesen. Das Judentum verbietet ausdrücklich und wiederholt den Verzehr von Blut: „Von keinem Fleisches Blut sollt ihr essen; denn alles Fleisches Leben ist sein Blut“ (3. Mose 17,14). Die Kaschrut-Gesetze schreiben vor, dass Fleisch vor dem Verzehr vollständig entblutet werden muss. Papst Innozenz IV. (1247) und Kaiser Friedrich II. (1236) untersuchten die Anschuldigungen und befanden sie für unbegründet."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Projektion + verdrängte Schuld: Die Blutverleumdung entstand während der Kreuzzüge, als Christen selbst Massengewalt und Blutvergießen begingen. Juden wegen Blutritualen zu beschuldigen, fungierte als psychologische Projektion: Sie übertrug die Schuld für christliche Gewalt auf den jüdischen „Anderen“. Darüber hinaus lieferte die Anschuldigung eine Rechtfertigung für die Beschlagnahmung jüdischen Eigentums und die Vertreibung jüdischer Bevölkerungsgruppen."
+                    ],
+                    "sources": "Quellen: R. Po-chia Hsia, „The Myth of Ritual Murder“ (1988); Magda Teter, „Blutverleumdung“ (2020)"
+                },
+                {
+                    "title": "„Hostienschändung: Juden erstechen Hostien“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Die Anschuldigung erforderte den gleichzeitigen Glauben an zwei unmögliche Dinge: dass Juden die christliche Theologie ablehnen (den Glauben, dass die Hostie zum Leib Christi wird) und dass Juden die Hostie gerade deshalb angreifen, weil sie an ihre Heiligkeit glauben. Das ist ein logischer Widerspruch. Wenn Juden nicht glauben, dass es sich bei der Hostie um Jesus handelt, haben sie keinen Grund, sie zu „foltern“. Die Historikerin Miri Rubin dokumentierte, dass die Vorwürfe der Schändung von Gastgebern genau in Zeiten wirtschaftlicher Spannungen zwischen jüdischen und christlichen Gemeinschaften erhoben wurden, was darauf hindeutet, dass der wirtschaftliche Wettbewerb und nicht die Theologie das wahre Motiv war. Bei den Rintfleisch-Massakern (1298) wurden aufgrund dieser Anschuldigungen über 100 jüdische Gemeinden in Deutschland zerstört."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Zuschreibungsfehler + wirtschaftliche Sündenböcke: Gemeinden, die sich in wirtschaftlicher Not befinden, brauchten eine Rechtfertigung, um jüdische Vermögenswerte zu beschlagnahmen. Eine religiöse Anschuldigung diente als moralischer Deckmantel für Wirtschaftsdiebstahl. Dieses Muster, &mdash; moralische Anschuldigungen zu nutzen, um materiellen Gewinn zu rechtfertigen &mdash;, wiederholt sich in der gesamten Geschichte des Antisemitismus."
+                    ],
+                    "sources": "Quellen: Miri Rubin, „Gentile Tales: The Narrative Assault on Late Medieval Jews“ (1999)"
+                },
+                {
+                    "title": "„Juden vergiften Brunnen und verbreiten Seuchen“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Juden waren nicht immun gegen den Schwarzen Tod, sie starben in Scharen. In einigen Gemeinden waren die jüdischen Sterblichkeitsraten etwas niedriger, was Historiker auf häufiges Händewaschen (wie im jüdischen Gesetz vorgeschrieben), Quarantäne für Kranke und getrennte Wasserquellen in Ghettos zurückführen. Das sind religiöse Praktiken, keine Verschwörung. Papst Clemens VI. erließ 1348 zwei päpstliche Bullen zur Verteidigung der Juden und stellte fest, dass Juden wie alle anderen an der Pest starben. Die Massaker gingen trotzdem weiter."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Terrormanagement + Kontrollbedürfnis: Der Schwarze Tod tötete in vier Jahren 30-60 % der europäischen Bevölkerung. Die Terror-Management-Theorie (Greenberg, Solomon & Pyszczynski) zeigt, dass Menschen, wenn sie mit Todesangst konfrontiert werden, feindseliger gegenüber Fremdgruppen werden. Indem man den Juden die Schuld an der Pest gab, verwandelte man eine zufällige, schreckliche Katastrophe in etwas, das von einem identifizierbaren Feind verursacht wurde, der die Illusion der Kontrolle wiederherstellte."
+                    ],
+                    "sources": "Quellen: Samuel Cohn, „The Black Death and the Burning of Jews“ (2007); Papst Clemens VI., Bulle „Quamvis Perfidiam“ (1348)"
+                },
+                {
+                    "title": "„Juden waren dazu verflucht, ohne Heimat umherzuwandern“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Das jüdische Exil aus dem Land Israel war das Ergebnis militärischer Eroberungen: des babylonischen Exils (586 v. Chr.), der Zerstörung des Tempels durch Rom (70 n. Chr.) und des Bar-Kochba-Aufstands (135 n. Chr.). Anschließend wurden Juden durch menschlichen Erlass aus Ländern vertrieben: England (1290), Frankreich (1306, 1394), Spanien (1492), Portugal (1497). Jede Vertreibung wurde von Königen aus politischen und wirtschaftlichen Gründen durchgeführt. Wenn man Zwangsumsiedlung als einen Fluch darstellt, gibt man dem Opfer die Schuld an seiner eigenen Verfolgung."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Voreingenommenheit gegenüber einer gerechten Welt (Melvin Lerner): Menschen haben ein tiefes psychologisches Bedürfnis zu glauben, dass die Welt fair ist, damit die Menschen bekommen, was sie verdienen. Als Juden vertrieben und verfolgt wurden, mussten Beobachter glauben, dass sie es verdienten. „Sie müssen etwas falsch gemacht haben“ &mdash; das ist die Gerechte-Welt-Voreingenommenheit in Aktion."
+                    ],
+                    "sources": "Quellen: Melvin Lerner, „The Belief in a Just World“ (1980); David Nirenberg, „Antijudaismus: Die westliche Tradition“ (2013)"
+                },
+                {
+                    "title": "„Der Talmud enthält Lehren des Hasses gegen Nichtjuden“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Der Talmud ist ein Archiv mit 6.200 Seiten juristischer Diskussionen aus 700 Jahren (200 v. Chr. – 500 n. Chr.). Es enthält unterschiedliche Meinungen zu jedem Thema &mdash; oft widersprüchlich &mdash;, weil es Debatten und keine Dogmen aufzeichnet. Isolierte Passagen ohne Kontext zu nehmen, ist so, als würde man eine einzelne abweichende Meinung eines Gerichts zitieren und behaupten, sie stelle das Gesetz dar.<br><br>Der Talmud lehrt ausdrücklich: „Die Gerechten aller Nationen haben Anteil an der kommenden Welt“ (Tosefta Sanhedrin 13:2). Das jüdische Gesetz verlangt Ehrlichkeit im Geschäftsverkehr mit allen Menschen (dina d'malkhuta dina). Pikuach nefesh (Leben retten) setzt fast alle Gebote außer Kraft und verpflichtet dazu, alles menschliche Leben zu retten, nicht nur jüdisches Leben."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Bestätigungsvoreingenommenheit + Rosinenpickerei: Menschen, die bereits glauben, dass Juden Nichtjuden hassen, durchsuchen den Talmud nach Passagen, die ihren Glauben bestätigen, ignorieren die Tausenden von Passagen, die ihm widersprechen, und entziehen denen, die sie finden, den Kontext. Die gleiche Methode könnte jeden religiösen Text &mdash; die Bibel, den Koran, hinduistische Schriften &mdash; so aussehen lassen, als würde er zu Gräueltaten ermutigen."
+                    ],
+                    "sources": "Quellen: Gil Student, „The Real Truth About the Talmud“ (2000); David Berger, „Verfolgung, Polemik und Dialog“ (2010)"
+                }
+            ]
+        },
+        {
+            "number": "Kategorie 2",
+            "title": "Rassen- und biologischer Antisemitismus",
+            "desc": "Pseudowissenschaftlicher Hass aus dem 19. und 20. Jahrhundert",
+            "claims": [
+                {
+                    "title": "„Juden sind eine eigene und minderwertige Rasse“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Das Human Genome Project (2003) bestätigte, dass es innerhalb jeder Rassengruppe mehr genetische Variationen gibt als zwischen Gruppen. Menschen teilen 99,9 % ihrer DNA, unabhängig von ihrer Herkunft. Jüdische Bevölkerungsgruppen sind genetisch vielfältig: Aschkenasische, sephardische, misrahiische, äthiopische, indische und chinesische Juden sehen völlig unterschiedlich aus. Die Idee einer einzigen „jüdischen Rasse“ hat keine genetische Bedeutung."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Bedürfnis nach Hierarchie: Die Theorie der sozialen Dominanz (Sidanius & Pratto, 1999) zeigt, dass manche Menschen ein starkes Bedürfnis haben, Gruppen in Wertehierarchien zu organisieren. Die Rassenklassifizierung lieferte einen „wissenschaftlichen“ Rahmen für die Einstufung menschlicher Gruppen. Pseudowissenschaftlicher Rassismus ließ Vorurteile rational und evidenzbasiert wirken."
+                    ],
+                    "sources": "Quellen: Human Genome Project (2003); UNESCO-Erklärung zur Rasse (1950-1967)"
+                },
+                {
+                    "title": "„Juden sind genetisch zu Gier und Manipulation veranlagt“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Die Verhaltensgenetik hat eindeutig gezeigt, dass komplexe Verhaltensmerkmale (Persönlichkeit, moralischer Charakter, finanzielles Verhalten) durch eine Kombination aus Genetik und Umwelt und niemals durch die Zugehörigkeit zu einer ethnischen Gruppe geprägt werden. Es gibt kein „Gier-Gen“. Studien zu Spenden für wohltätige Zwecke zeigen immer wieder, dass jüdische Gemeinden zu den großzügigsten der Welt gehören. Der Zusammenhang zwischen Juden und Geld ist ein historisches Konstrukt: Mittelalterliche Christen beschränkten Juden auf das Geldverleihen und machten sie dann für das Ergebnis verantwortlich."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Grundlegender Attributionsfehler (Lee Ross, 1977): Eine kognitive Voreingenommenheit, die dazu führt, dass Menschen das Verhalten anderer auf ihren Charakter und nicht auf ihre Umstände zurückführen. Als Juden Geldverleiher waren, führten Beobachter dies auf den jüdischen Charakter zurück („sie sind gierig“) und nicht auf situative Zwänge (sie waren von anderen Berufen ausgeschlossen). Dies ist identisch damit, einer Person im Rollstuhl die Schuld zu geben, weil sie die Treppe nicht benutzt."
+                    ],
+                    "sources": "Quellen: Lee Ross (1977); Steven Pinker, „The Blank Slate“ (2002)"
+                },
+                {
+                    "title": "„Juden sind Untermenschen“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Die Einstufung einer menschlichen Gruppe als „Untermenschen“ ist eine Propagandatechnik und keine wissenschaftliche Aussage. Gregory Stantons Forschung identifiziert Entmenschlichung als Stufe 4 des Völkermords (8 Stufen im Jahr 1996, erweitert auf 10 im Jahr 2012) &mdash; die Stufe, die das Töten psychologisch möglich macht. Gleichzeitig behaupteten die Nazis, dass Juden Untermenschen seien und dass sie heimlich die Welt beherrschten – ein absoluter logischer Widerspruch. Umberto Eco identifizierte dies als ein bestimmendes Merkmal der faschistischen Ideologie: „Der Feind ist sowohl zu stark als auch zu schwach.“"
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Moralischer Rückzug (Albert Bandura): Banduras Forschung zeigt, dass gewöhnliche Menschen außergewöhnliche Grausamkeiten begehen können, wenn ihre moralischen Regulierungen neutralisiert werden. Entmenschlichung ist der stärkste Mechanismus. &mdash; Wenn Opfer als nicht menschlich eingestuft werden, können Täter ihnen Schaden zufügen, ohne die psychologischen Kosten einer Schuld auf sich zu nehmen. Der Holocaust erforderte, dass Millionen gewöhnlicher Deutscher am Völkermord teilnahmen oder ihn tolerierten. Die Entmenschlichung machte dies psychologisch möglich."
+                    ],
+                    "sources": "Quellen: Gregory Stanton, „8 Stages of Genocide“ (1996, 2012 auf 10 erweitert); Umberto Eco, „Ur-Faschismus“ (1995); Albert Bandura (1999)"
+                },
+                {
+                    "title": "„Juden fördern Rassenmischung, um andere Rassen zu schwächen“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Der Vorwurf ist reine Projektion. Die Nazis selbst führten Eugenik in großem Umfang durch: Das T4-Programm tötete mehr als 70.000 behinderte Menschen, das Lebensborn-Programm brachte „rassisch reine“ Kinder zur Welt, Zwangssterilisationen betrafen 400.000 Menschen und der Holocaust ermordete 6 Millionen Juden und Millionen andere. Juden genau der Tat zu beschuldigen, die die Ankläger selbst begangen haben, ist eine klassische Projektion. Moderne Versionen (die „Great Replacement“-Theorie) behaupten, dass Juden die Einwanderung inszenieren, um die weiße Bevölkerung zu ersetzen. Die Einwanderung wird durch wirtschaftliche Kräfte, Kriege, den Klimawandel und die Politik demokratischer Regierungen mit vielfältiger Führung vorangetrieben."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Projektion im großen Maßstab: Wenn ein ganzes Regime seine eigenen Verbrechen auf seine Opfer projiziert, dient dies zwei Zwecken: (1) es rechtfertigt die eigenen Handlungen des Regimes („wir müssen das tun, weil sie es uns antun“) und (2) es immunisiert die Bevölkerung gegen Sympathie für die Opfer („sie würden uns Schlimmeres antun, wenn sie könnten“). Das ist Propaganda 101."
+                    ],
+                    "sources": "Quellen: Robert Proctor, „Racial Hygiene: Medicine Under the Nazis“ (1988); Richard Evans, „Das Dritte Reich an der Macht“ (2005)"
+                }
+            ]
+        },
+        {
+            "number": "Kategorie 3",
+            "title": "Wirtschafts- und Finanzstereotypen",
+            "desc": "Der Geldmythos: Vorwürfe der Gier, Kontrolle und Ausbeutung",
+            "claims": [
+                {
+                    "title": "„Juden kontrollieren die Banken und globalen Finanzsysteme“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Im mittelalterlichen Europa waren Juden von den meisten Berufen (Landwirtschaft, Zünfte, Regierung) ausgeschlossen. Eine der wenigen erlaubten Beschäftigungen war der Geldverleih, den Christen als Sünde betrachteten. Wenn jüdische Geldverleiher Erfolg hatten, wurden sie wegen des Erfolgs, der ihnen aufgezwungen wurde, gehasst. Die Familie Rothschild (gegründet in den 1760er Jahren) wurde zu einem von Antisemiten instrumentalisierten Symbol. In Wirklichkeit machen Juden etwa 0,2 % der Weltbevölkerung aus und kontrollieren das Bankwesen nicht. Großbanken sind börsennotierte Unternehmen mit vielfältiger Führung."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Illusorischer Korrelationsbias (Hamilton & Gifford, 1976): Wenn eine Minderheit an einem negativen Ereignis beteiligt ist, überschätzen Menschen den Zusammenhang zwischen der Gruppe und dem Ereignis. Wenn ein Bankier, der zufällig Jude ist, einen Betrug begeht, wird sein Jüdischsein vermerkt; Wenn ein nichtjüdischer Bankier Betrug begeht, ist seine ethnische Herkunft unsichtbar."
+                    ],
+                    "sources": "Quellen: Hamilton & Gifford, Journal of Experimental Social Psychology (1976)"
+                },
+                {
+                    "title": "„Juden sind gierig und geldbesessen“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Die Verbindung zwischen Juden und Gier ist ein kulturelles Konstrukt, keine Tatsache. Dies liegt an der begrenzten wirtschaftlichen Rolle, zu der Juden gezwungen wurden. Im christlichen Europa verbot die Kirche den Christen, Wucher (Kredit gegen Zinsen) zu betreiben. Juden, die von den meisten Berufen ausgeschlossen waren (Landbesitz, Beitritt zu Berufsverbänden, Landwirtschaft), hatten nur wenige wirtschaftliche Möglichkeiten &mdash; und Handel und Geldverleih gehörten dazu. Sie wurden dann für die ihnen aufgezwungene Besetzung verantwortlich gemacht.",
+                        "Studien zu Spenden für wohltätige Zwecke zeigen immer wieder, dass jüdische Gemeinden zu den großzügigsten der Welt gehören. Allein jüdische Verbände in Amerika spenden jährlich Milliarden an jüdische und nichtjüdische Gemeinden. Das Konzept der Nächstenliebe im Judentum (tzedakah &mdash;, abgeleitet vom Wort „Gerechtigkeit“) ist eine religiöse Verpflichtung, kein freiwilliger Akt der Güte. Maimonides (12. Jahrhundert) etablierte acht Ebenen der Wohltätigkeit, wobei die höchste darin bestand, einem Menschen zu helfen, sich selbst zu versorgen."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Projektion + verdrängter Neid: Menschen beneiden den wirtschaftlichen Erfolg und machen den Erfolgreichen für Gier verantwortlich. Literarische Charaktere wie Shylock (Shakespeare, „Der Kaufmann von Venedig“) und Fagin (Dickens, „Oliver Twist“) verstärkten das Stereotyp über Jahrhunderte hinweg. Antisemitische Propaganda in Karikaturen zeigte Juden mit Hakennasen, die Münzen umklammerten &mdash; Bilder, die auch heute noch online erscheinen."
+                    ],
+                    "sources": "Quellen: Derek Penslar, „Shylock’s Children: Economics and Jewish Identity in Modern Europe“ (2001); Maimonides, Mischne Tora, Gesetze der Gaben an die Armen"
+                },
+                {
+                    "title": "„Juden haben die Finanzkrise 2008 verursacht“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Nach jeder Wirtschaftskrise geben Antisemiten den Juden die Schuld. Die Krise von 2008 löste eine Welle von Verschwörungstheorien aus, die bestimmte jüdische Finanziers als Verantwortliche nannten. Das gleiche Muster trat während der Weltwirtschaftskrise (Pater Coughlins Radiosendungen), der Asienkrise 1998 und nach den wirtschaftlichen Störungen durch COVID auf. In Wirklichkeit resultieren Finanzkrisen aus systemischen Faktoren (Deregulierung, Spekulation, komplexe Finanzinstrumente), die ganze Branchen betreffen, und nicht aus den Handlungen irgendeiner ethnischen Gruppe."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Verhältnismäßigkeitsfehler: Die Menschen erwarten, dass große Ereignisse große Ursachen haben. Wenn eine globale Finanzkrise auftritt, ist die Vorstellung unbefriedigend, dass sie auf komplexe systemische Faktoren zurückzuführen ist. Die Vorstellung, dass eine mächtige Gruppe es geplant hat, erscheint verhältnismäßiger. Juden, die bereits als Finanzmacht stereotypisiert wurden, werden zur „großen Sache“."
+                    ],
+                    "sources": "Quellen: Daniel Kahneman, „Thinking, Fast and Slow“ (2011)"
+                },
+                {
+                    "title": "„Juden beuten Nichtjuden wirtschaftlich aus und betrachten sie als Vieh“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Das Wort „Goy“ bedeutet auf Hebräisch einfach „Nation“ (sogar Israel wird in der Tora als „Goy Kadosh“ &mdash;, eine heilige Nation &mdash;) bezeichnet und bezieht sich neutral auf Nichtjuden. Antisemiten verdrehten dies zu der Behauptung, dass Juden Nichtjuden als untermenschliches Vieh betrachteten, das ausgebeutet werden könne. Dies ist eine komplette Erfindung.",
+                        "Das Judentum verfügt über ein umfassendes System ethischer Gesetze, die eine faire Behandlung aller Menschen erfordern: „Liebe deinen Nächsten wie dich selbst“ (3. Mose 19:18), „Gerechtigkeit, Gerechtigkeit sollst du streben“ (5. Mose 16:20) und „Du sollst deinen Nächsten nicht unterdrücken“ (3. Mose 19:13). Der Grundsatz „dina d'malkhuta dina“ (das Gesetz des Landes ist das Gesetz) verlangt von Juden, in allen Geschäften ehrlich zu sein. Das jüdische Gesetz verbietet ausdrücklich „geneivat da'at“ (Täuschung) &mdash;, unabhängig davon, ob das Opfer Jude ist oder nicht.",
+                        "Die Behauptung, der Talmud erlaube die Ausbeutung von Nichtjuden, basiert auf Zitaten, die aus dem Kontext von 6.200 Diskussionsseiten herausgerissen wurden (um die Verzerrung zu verstehen, stellen Sie sich vor, Sie ziehen einen einzelnen Satz aus einem ganzen Buch und behaupten, er stelle das gesamte Werk dar). Qualifizierte Talmudgelehrte &mdash; jüdischer und nichtjüdischer &mdash; lehnen diese Lesart einstimmig ab."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Unwissenheit + Suche nach Bestätigung: Menschen, die Juden bereits hassen, suchen nach „Beweisen“ in Texten, die sie nicht lesen können (der Talmud ist auf Hebräisch und Aramäisch geschrieben). Sie stützen sich auf erfundene „Übersetzungen“, die seit dem Mittelalter verbreitet wurden. Die Veröffentlichung „Talmud Unmasked“ von Pater Justinas Pranaitis (1892) erwies sich als voller Fehler, als Pranaitis selbst vor Gericht zugab, dass er eigentlich kein Aramäisch konnte."
+                    ],
+                    "sources": "Quellen: Peter Sch&auml;fer, „Jesus in the Talmud“ (2007); Gil Student, „Die wahre Wahrheit über den Talmud“ (2000); ADL-Dokumentation"
+                }
+            ]
+        },
+        {
+            "number": "Kategorie 4",
+            "title": "Politische Verschwörungstheorien",
+            "desc": "Geheime Kontrolle, Weltherrschaft und „die verborgene Hand“",
+            "claims": [
+                {
+                    "title": "„Juden kontrollieren heimlich die Regierungen der Welt (ZOG)“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "„Die Protokolle der Weisen von Zion“ sind ein erfundener Text, der um 1903 von der russischen Geheimpolizei (Ochrana) erstellt wurde und angeblich das Protokoll eines jüdischen Treffens zur Planung der Weltherrschaft war. Die Times of London stellte 1921 fest, dass es sich um eine Fälschung handelte. Der Text wurde fast wörtlich aus einer Satire von Maurice Joly aus dem Jahr 1864 über Napoleon III. kopiert, die nichts mit Juden zu tun hatte.",
+                        "Obwohl es völlig entlarvt wurde, verbreitete Henry Ford es in Amerika (die Zeitung „Dearborn Independent“, 91 antisemitische Ausgaben), Hitler zitierte es in „Mein Kampf“ und es bleibt bis heute ein Bestseller in der arabischen Welt. Wenn 15 Millionen Juden (0,2 % der Weltbevölkerung) wirklich die Welt regierten &mdash;, warum konnten sie dann den Holocaust nicht verhindern? Warum muss Israel um seine Existenz verhandeln? Die vermeintliche „Kontrolle“ ist der beste Beweis dafür, dass es sie nicht gibt."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Verschwörungsdenken: Untersuchungen (van Prooijen, 2017) zeigen, dass Menschen, die an eine Verschwörung glauben, dazu neigen, an andere zu glauben, auch an widersprüchliche. „Juden kontrollieren die Welt“ ist die „Mutter aller Verschwörungen“ &mdash; eine einfache Erklärung für alles, was falsch ist. Es vermittelt eine Illusion von Kontrolle: Wenn jemand hinter dem Chaos steckt, ist die Welt nicht zufällig und beängstigend. Es ist tröstlich, auch wenn es falsch ist."
+                    ],
+                    "sources": "Quellen: Norman Cohn, „Warrant for Genocide“ (1967); van Prooijen & Douglas, „Verschwörungstheorien als Teil der Geschichte“ (2017)"
+                },
+                {
+                    "title": "„Juden kontrollieren die Medien und manipulieren die öffentliche Meinung“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Die Behauptung, dass Juden die Medien kontrollieren, ist statistisch und sachlich falsch. Große Medienunternehmen sind börsennotierte Unternehmen (Disney, Comcast, News Corp) mit unterschiedlichen Eigentümern und Führungskräften, Vorständen, Aktionären und Management aus verschiedenen Ländern und mit unterschiedlichem Hintergrund. Rupert Murdoch (News Corp, Fox News) &mdash; Australier. Jeff Bezos (Washington Post) &mdash; Amerikaner. Elon Musk (Twitter/X) &mdash; Südafrikaner. Keiner von ihnen ist Jude.",
+                        "Die Behauptung fungiert als unwiderlegbarer Trick: Wenn ein Jude in den Medien arbeitet, „beweist“ er die Verschwörung. Wenn ein Jude nicht in den Medien arbeite, „verstecken sie sich“. Wenn Medien positiv über Israel berichten, „kontrollieren sie es.“ Wenn es negativ berichtet, „ist es eine Nebelwand.“ Keine Beweise können einen Glauben widerlegen, der nie auf Beweisen beruhte."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Bestätigungsvoreingenommenheit + illusorische Korrelation: Die ADL Global 100-Umfrage ergab, dass dies eines der am weitesten verbreiteten antisemitischen Stereotypen ist. &mdash; 74 % der Befragten im Nahen Osten und 24 % in Europa glauben, dass Juden die Medien kontrollieren. Sobald der Glaube existiert, „beweist“ jeder in den Medien gefundene Jude ihn, während Tausende von Nichtjuden in den Medien einfach ignoriert werden."
+                    ],
+                    "sources": "Quellen: ADL Global 100 Survey (2023); Steven Bayme, „Understanding Jewish History“ (1997)"
+                },
+                {
+                    "title": "„Juden haben eine doppelte Loyalität – sie sind Israel gegenüber loyal, nicht ihrem Land“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Der Vorwurf der doppelten Loyalität wird seit Jahrhunderten genutzt, um Juden vom bürgerlichen Leben auszuschließen. Kapitän Alfred Dreyfus, ein französisch-jüdischer Offizier, wurde 1894 wegen Hochverrats verurteilt, basierend auf gefälschten Beweisen &mdash; und teilweise auf der Annahme, dass ein Jude Frankreich gegenüber nicht wirklich loyal sein könne. Er wurde 1906 entlastet, nachdem die Affäre Frankreich auseinandergerissen hatte.",
+                        "In Wirklichkeit haben Juden in den Armeen jedes Landes, in dem sie lebten, mit Auszeichnung gedient, oft überproportional: 100.000 Juden dienten im Ersten Weltkrieg in der deutschen Armee, 12.000 wurden im Kampf getötet, 18.000 erhielten das Eiserne Kreuz, 35.000 wurden in den Rang befördert und 3.000 wurden Offiziere. 1935 entzog ihnen dasselbe Deutschland die Staatsbürgerschaft. 550.000 Juden dienten im Zweiten Weltkrieg beim US-Militär. Der Vorwurf der „doppelten Loyalität“ richtet sich nur gegen Juden. &mdash; Niemand wirft Irisch-Amerikanern doppelte Loyalität gegenüber Irland vor."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Ständige „Andersartigkeit“: Der Vorwurf offenbart die Annahme, dass Juden immer „Außenseiter“ seien, egal wie viele Generationen sie in einem Land gelebt haben. Dies ist ein universelles Muster des Rassismus: Angehörige von Minderheiten müssen stets ihre Loyalität „beweisen“, während die Loyalität der Mehrheit als selbstverständlich angesehen wird."
+                    ],
+                    "sources": "Quellen: Ruth Harris, „Dreyfus: Politik, Emotionen und der Skandal des Jahrhunderts“ (2010); Nationalmuseum für amerikanisch-jüdische Militärgeschichte"
+                },
+                {
+                    "title": "„Der 11. September wurde von Israel/dem Mossad inszeniert“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Nur wenige Tage nach den Anschlägen vom 11. September tauchten Verschwörungstheorien auf, denen zufolge 4.000 Juden nach Warnung des Mossad von der Arbeit in den Twin Towers ferngeblieben seien. Die Lüge verbreitete sich über Al-Manar (den Fernsehsender der Hisbollah), Verschwörungswebsites und iranische Propaganda.",
+                        "Die Fakten: Ungefähr 400 Juden wurden bei den Anschlägen getötet, proportional zur jüdischen Bevölkerung New Yorks (~12 %). Das amerikanische Finanzdienstleistungsunternehmen Cantor Fitzgerald verlor durch den Angriff 658 Mitarbeiter, der größte Verlust aller Einzelunternehmen. Die Zahl „4.000“ ist völlig erfunden und stammt aus einer Nachricht, in der es hieß, die israelische Botschaft versuche, 4.000 Israelis ausfindig zu machen, die in der Gegend von New York lebten oder arbeiteten. &mdash; „lokalisieren“ wurde zu „gewarnt“. Eine bewusste Lüge."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Verhältnismäßigkeitsbias + Schuldzuweisungen: Ein Anschlag wie der 11. September löst enorme Wut aus. Wenn es sich bei den Angreifern um eine kleine Organisation (Al-Qaida) handelt, ist diese nicht „groß genug“ für die Katastrophe. Die Vorstellung, dass eine mächtige Einheit (Israel/Mossad) dahinter steckt, erscheint „verhältnismäßiger“. In der arabischen Welt diente die Verschwörung auch dazu, die Schuld von Al-Qaida &mdash;, einer arabisch-islamistischen Organisation &mdash;, auf „die Juden“ abzuwälzen."
+                    ],
+                    "sources": "Quellen: 9/11-Kommission (2004); factcheck.org; SITE Intelligence Group"
+                },
+                {
+                    "title": "„Juden haben den Kommunismus geschaffen, um die westliche Zivilisation zu zerstören“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Karl Marx wurde als Jude geboren, wurde aber als Kind getauft und war in seinen Schriften selbst antisemitisch („Zur Judenfrage“, 1843, wo er schrieb, dass „der Gott des Juden das Geld ist“). Dieselben Antisemiten, die Juden beschuldigten, Kommunisten zu sein, beschuldigten sie gleichzeitig, den Kapitalismus zu kontrollieren – ein Widerspruch, der offenbart, dass das Ziel nicht die Wahrheit, sondern die Anschuldigung ist.",
+                        "In der Sowjetunion wurden Juden im Kommunismus verfolgt: Die Antikosmopolitische Kampagne (1948–1953) entließ jüdische Intellektuelle, der „Ärztekomplott“ (1953) beschuldigte jüdische Ärzte, Pläne zur Ermordung sowjetischer Führer zu planen, und die Refusenik-Bewegung (1960–1980) wurde wegen des Wunsches der Juden, das Land zu verlassen, verfolgt. Jüdische kulturelle Ausdrucksformen und Institutionen wurden systematisch beseitigt. Der Kommunismus verfolgte Juden genau das Gegenteil von dem, was die Verschwörung behauptet."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Monolithisches Denken: Eine ethnische Gruppe für eine politische Idee verantwortlich zu machen, ist ein klassischer Denkfehler. Einige Juden waren Kommunisten &mdash;, genauso wie einige Juden Kapitalisten, Anarchisten, Liberale, Konservative und Zionisten waren. Wenn man die politische Vielfalt eines ganzen Volkes einer einzigen ethnischen Verschwörung zuschreibt, offenbart sich die Überzeugung, dass Juden ein Monolith &mdash; sind und nicht, wie jedes Volk, eine vielfältige Ansammlung von Individuen mit unterschiedlichen Meinungen."
+                    ],
+                    "sources": "Quellen: Jonathan Frankel, „Crisis, Revolution, and Russian Jews“ (2009); Robert Weinberg, „Stalins vergessenes Zion“ (1998)"
+                }
+            ]
+        },
+        {
+            "number": "Kategorie 5",
+            "title": "Kulturelle und soziale Vorwürfe",
+            "desc": "Behauptungen über jüdischen Charakter, Verhalten und sozialen Einfluss",
+            "claims": [
+                {
+                    "title": "„Juden gehören Stammesangehörigen an und weigern sich, sich zu assimilieren“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Die grausame Ironie: Während des größten Teils der Geschichte wurden Juden gewaltsam an der Assimilation gehindert. Sie wurden in Ghettos gezwungen (Venedig, 1516 &mdash; das erste Ghetto; Rom bis 1870), von Berufen ausgeschlossen, ihnen wurde die Staatsbürgerschaft verweigert (erst 1791 in Frankreich, 1871 in Deutschland) und aus Ländern vertrieben.",
+                        "Als Juden unter diesen Bedingungen ihre eigenen Gemeinden aufrechterhielten, wurde ihnen freiwillige Trennung vorgeworfen. Als sich Juden tatsächlich assimilierten (in der Weimarer Republik: 25 % Mischehenrate, voller Wehrdienst, Führungsrolle in der westlichen Kultur) &mdash;, wurde ihnen vorgeworfen, die Gesellschaft „infiltriert“ zu haben, und sie wurden schließlich vernichtet. Der Vorwurf ist unwiderlegbar: Egal was Juden tun, es ist immer falsch. Separate? Stammes. Assimilieren? Infiltrieren. Tradition pflegen? Beständig. Ändern? Identität verlieren."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Definition des „Anderen“: Jede Mehrheitsgruppe definiert sich teilweise dadurch, wer nicht zu ihr gehört. Juden dienten als sichtbare Minderheit als der vollkommene „Andere“ in Europa. Wenn sie sich vollständig assimilieren, verschwindet das „Andere“ und damit ein Teil der Identität der Mehrheit. Deshalb reicht selbst eine vollständige Assimilation nicht aus, wie deutsche Juden, die sich völlig deutsch fühlten und in Auschwitz ermordet wurden, entdeckten."
+                    ],
+                    "sources": "Quellen: Zygmunt Bauman, „Modernity and the Holocaust“ (1989); Amos Elon, „The Pity of It All: Ein Porträt der deutsch-jüdischen Epoche“ (2002)"
+                },
+                {
+                    "title": "„Juden denken, sie seien das ‚auserwählte Volk‘ und allen überlegen“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "In der jüdischen Theologie bedeutet „auserwählt“ nicht „höher“. Es bedeutet, für zusätzliche Verantwortung ausgewählt zu werden, insbesondere für die Verpflichtung, die 613 Gebote der Thora zu befolgen. Das ist eine Pflicht, kein Privileg. Zum Verständnis: Nichtjuden sind nur an die 7 Noahide-Gesetze gebunden. Juden sind durch 613 verpflichtet. „Auserwählt“ bedeutet eher, strengere Maßstäbe einzuhalten.",
+                        "Das Judentum lehrt ausdrücklich, dass die Gerechten aller Nationen einen Anteil an der kommenden Welt haben (Tosefta Sanhedrin 13:2). Der Prophet Amos erklärte: „Seid ihr für mich nicht wie die Äthiopier, ihr Kinder Israels?“ (Amos 9:7) &mdash; alle Völker sind in Gottes Augen gleich. Im Gegensatz dazu behauptet das Christentum, dass nur diejenigen gerettet werden, die an Jesus glauben, und der Islam, dass nur Muslime das Paradies betreten. Das Judentum ist tatsächlich das am wenigsten „überlegenheitsorientierte“ der drei."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Fehlübersetzung + kulturelles Missverständnis: Der Begriff „auserwähltes Volk“ wurde in europäische Sprachen als Titel der Vorherrschaft übersetzt, während er im Hebräischen Verantwortung ausdrückt. Dies ist das gleiche Problem, wenn man einen fremden kulturellen Text durch eine andere kulturelle Linse liest. Darüber hinaus hatten viele Christen das Gefühl, dass der jüdische Anspruch auf Auserwähltheit den christlichen Anspruch, die Kirche sei das „Neue Israel“ (Supersessionismus), in Frage stellte."
+                    ],
+                    "sources": "Quellen: Eugene Borowitz, „Renewing the Covenant“ (1991); David Novak, „Die Wahl Israels“ (1995)"
+                },
+                {
+                    "title": "„Juden kontrollieren Hollywood und verderben die Moral“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Jüdische Einwanderer, die vor Pogromen in Europa flohen (viele von ihnen waren arm und kamen mit nichts) gründeten zu Beginn des 20. Jahrhunderts einige der ersten Hollywood-Studios &mdash;, gerade weil sie von „anständigen“ Industrien ausgeschlossen waren und sich einem neuen, nicht etablierten Bereich wie dem Kino zuwenden mussten. Ihr Erfolg in einem Bereich, der als „billig“ galt, wurde in „Kontrolle“ umbenannt, als das Kino zu einem wichtigen Wirtschaftszweig wurde.",
+                        "Die moderne Unterhaltungsindustrie ist ein globales Unternehmensökosystem. Disney ist im Besitz von Aktionären aus der ganzen Welt. Netflix, Amazon, Apple TV &mdash; keiner von ihnen wird von Juden „kontrolliert“. Die Behauptung funktioniert wie alle Verschwörungen: persönlicher Erfolg der Juden in einem bestimmten Bereich = „ethnische Kontrolle“. Aber wenn Italiener Restaurants &mdash; betreiben, sagt niemand, dass Italiener „das Essen kontrollieren“."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Neid + Erklärungsbedarf: Wenn eine Branche Kulturen produziert, die Menschen nicht mögen (Gewalt, Sexualität, fortschrittliche Werte), ist es einfacher, einer „fremden Gruppe“ die Schuld zu geben, als sich der Tatsache zu stellen, dass die breite Öffentlichkeit diese Inhalte konsumiert und finanziert. „Juden verderben die Moral“ ermöglicht es den Menschen, anderen die Schuld zu geben, anstatt Verantwortung für ihren eigenen Geschmack zu übernehmen."
+                    ],
+                    "sources": "Quellen: Neal Gabler, „An Empire of Their Own: How the Jews Invented Hollywood“ (1988); ADL-Dokumentation"
+                },
+                {
+                    "title": "„Juden kann man anhand ihres Aussehens (Hakennase etc.) körperlich identifizieren“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Die physische Karikatur von Juden &mdash; Hakennase, dunkle Gesichtszüge, gebeugte Haltung, sich die Hände reiben &mdash; ist eine Propagandaerfindung, keine Realität. Die Karikaturfigur entwickelte sich in der mittelalterlichen christlichen Kunst, verstärkte sich in antisemitischen Karikaturen des 19. Jahrhunderts (wie der französischen Zeitung „La Libre Parole“) und erreichte ihren Höhepunkt im NS-„Der St&uuml;rmer“, wo Julius Streicher wöchentlich antisemitische Karikaturen veröffentlichte.",
+                        "Die Realität: Juden sind ein ethnisch vielfältiges Volk, zu dem aschkenasische (europäisch, hellhäutige), sephardische (mediterrane), mizrahische (nahöstliche, dunkelhäutige), äthiopische (Beta-Israel, schwarze), indische (Bene-Israel), chinesische (Kaifeng-Gemeinschaft) und jemenitische Gemeinschaften gehören. Sie sehen völlig unterschiedlich aus. Es gibt kein „jüdisches Erscheinungsbild“ &mdash;, ebenso wenig wie es ein „christliches Erscheinungsbild“ oder „muslimisches Erscheinungsbild“ gibt."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Visuelle Entmenschlichung: Physische Karikaturen sind ein entscheidender Schritt in der Entmenschlichung. Wenn eine Gruppe „anders aussieht“, wird es einfacher, sie als Untermenschen zu betrachten. Die Nazis nutzten solche Karikaturen im Kinderbuch „Der giftige Pilz“ (1938), um Kindern beizubringen, Juden zu „identifizieren“. Heute werden in den sozialen Medien dieselben Karikaturen als „Memes“ verbreitet: &mdash; das gleiche Gift, eine neue Flasche."
+                    ],
+                    "sources": "Quellen: Sara Lipton, „Dark Mirror: The Medieval Origins of Anti-Jewish Iconography“ (2014); USHMM-Ausstellung „Propaganda“."
+                }
+            ]
+        },
+        {
+            "number": "Kategorie 6",
+            "title": "Moderner antisemitischer Antizionismus",
+            "desc": "Wenn Kritik an Israel die Grenze zum Hass auf Juden überschreitet",
+            "claims": [
+                {
+                    "title": "„Israel ist ein Nazi-Staat / Zionismus ist Nazismus“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Der Vergleich Israels mit Nazi-Deutschland ist eine Form der „Holocaust-Umkehrung“ &mdash;, die den Völkermord an den Juden nutzt, um Juden anzugreifen. Nazi-Deutschland baute ein Industriesystem auf, dessen einziger Zweck die völlige Rassenvernichtung war: Züge, Gaskammern, Krematorien, Bürokratie &mdash; 6 Millionen ermordet. Kein demokratischer Staat, einschließlich Israel, hat in irgendeiner Größenordnung etwas auch nur annähernd Vergleichbares getan.",
+                        "Die IHRA-Definition (von mehr als 35 Ländern übernommen) identifiziert diesen Vergleich als Antisemitismus. Der Grund: Es macht das jüdische Trauma zu einer Waffe gegen Juden und vermittelt implizit die Botschaft, dass „die Opfer zu Mördern wurden“. Dies ist keine legitime Kritik, sondern ein Versuch, Juden das Recht zu verweigern, ihre eigene Geschichte zu definieren. Man kann eine bestimmte israelische Politik kritisieren (und viele tun das), ohne auf Nazi-Vergleiche zurückzugreifen, deren Ziel es ist, zu verletzen."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Opfer-Täter-Umkehr: Psychologisch gesehen befreit die Verwandlung des Opfers in einen Täter den Christen/Araber/Europäer von seiner historischen Schuld. Wenn „die Juden die neuen Nazis“ sind, dann halten sich 2.000 Jahre europäischer Verfolgung und arabischer Antisemitismus die Waage. Das ist psychologischer Trost, kein historisches Argument."
+                    ],
+                    "sources": "Quellen: IHRA-Arbeitsdefinition von Antisemitismus (2016); Manfred Gerstenfeld, „Der Missbrauch der Holocaust-Erinnerung“ (2009)"
+                },
+                {
+                    "title": "„Juden verdienen keinen Staat – Israel hat kein Existenzrecht“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Dem jüdischen Volk das Recht auf Selbstbestimmung zu verweigern, es aber jedem anderen Volk zu gewähren, ist Diskriminierung. Es gibt 193 UN-Mitgliedsstaaten. Wenn jemand behauptet, Israel habe kein Existenzrecht &mdash;, stellt er dann die gleiche Behauptung in Bezug auf Pakistan auf (das 1947 auf religiöser Grundlage gegründet wurde und zur Vertreibung von 15 Millionen Menschen führte)? Über Jordan (1921 von den Briten gegründet)? Über Syrien, den Irak, den Libanon (gegründet von den Franzosen und Briten nach dem Ersten Weltkrieg)?",
+                        "Die jüdische Verbindung zum Land Israel ist seit mehr als 3.000 Jahren archäologisch dokumentiert: alte hebräische Inschriften, Tempelreste, Münzen des Bar-Kochba-Aufstands, antike Synagogen. Juden blieben 3.000 Jahre lang, auch nach der Verbannung, ununterbrochen im Land Israel präsent. Zionismus ist kein Kolonialismus, sondern eine nationale Befreiungsbewegung eines Volkes, das in seine historische Heimat zurückkehrt."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Doppelmoral als Symptom: Wenn jemand verlangt, dass Israel allein von allen 193 UN-Mitgliedsstaaten sein Existenzrecht rechtfertigt, ist das keine „Politikkritik“. Es handelt sich um einen Standard, der in keinem anderen Land angewendet wird. Natan Sharansky identifizierte Doppelmoral als eines von drei Zeichen, die legitime Kritik von Antisemitismus unterscheiden."
+                    ],
+                    "sources": "Quellen: Natan Sharansky, „3D Test“ (2004); Archäologische Funde der Israel Antiquities Authority; Resolution 181 (1947) der UN-Generalversammlung"
+                },
+                {
+                    "title": "„Die Israel-Lobby (AIPAC) kontrolliert die amerikanische Außenpolitik“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Jedes Land betreibt Lobbyarbeit in Washington. Den Aufzeichnungen des FARA (Foreign Agents Registration Act) zufolge gibt Saudi-Arabien jährlich Dutzende Millionen Dollar für Lobbyarbeit in den USA aus (ein Höchststand von 27 Millionen Dollar in manchen Jahren). Die VAE: 20+ Millionen US-Dollar. Katar, Japan, Südkorea jeweils &mdash; zig Millionen. AIPAC ist eine amerikanische (nicht israelische) Lobbyorganisation, die nach denselben Regeln und mit derselben Transparenz arbeitet wie jede andere Lobby.",
+                        "Die Behauptung, dass AIPAC die US-Politik „kontrolliert“, ignoriert die wahren Faktoren: geopolitische Interessen (Israel = ein stabiler, demokratischer Verbündeter im Nahen Osten), Informationsaustausch, die Verteidigungsindustrie (mehr als 8 Milliarden US-Dollar pro Jahr, die größtenteils als Einkäufe von amerikanischen Unternehmen zurückgegeben werden) und die öffentliche Unterstützung der USA (Gallup-Umfragen haben in der Vergangenheit 60–70 % Sympathie für Israel gezeigt, mit einem gewissen Rückgang seit 2023). Die Hervorhebung der pro-israelischen Lobby als „einzigartig mächtig“ spiegelt die gleiche Verschwörung wider: „Juden kontrollieren Regierungen.“"
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Missverständnis von Demokratie + Verschwörungsdenken: Viele Menschen verstehen nicht, dass Lobbying ein legitimer Teil der amerikanischen Demokratie ist &mdash; jede Interessengruppe tut es. Wenn die Pro-Israel-Lobby als „Manipulation“ und nicht als Lobbyarbeit bezeichnet wird, handelt es sich um eine alte Verschwörung in modernem Gewand."
+                    ],
+                    "sources": "Quellen: FARA-Registrierungsunterlagen; Umfragen zur Gunst von Gallup Israel; Lobbydaten von OpenSecrets.org"
+                }
+            ]
+        },
+        {
+            "number": "Kategorie 7",
+            "title": "Leugnung und Verzerrung des Holocaust",
+            "desc": "Leugnung, Verharmlosung oder Verzerrung der Ermordung von 6 Millionen Juden",
+            "claims": [
+                {
+                    "title": "„Der Holocaust hat nicht stattgefunden / 6 Millionen sind übertrieben“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Die Beweise für den Holocaust gehören zu den umfangreichsten aller historischen Ereignisse: Verwaltungsakten der Nazis (die Nazis dokumentierten ihre Verbrechen akribisch), Zeugenaussagen von über 100.000 Überlebenden, Geständnisse der Täter in Nürnberg und anderen Prozessen, Befreiungsfotos der Alliierten, physische Beweise in Auschwitz-Birkenau und anderen Orten, demografische Daten, die das Verschwinden ganzer jüdischer Gemeinden belegen, und Dokumente wie das Wannsee-Protokoll (1942), das dies dokumentiert „Endgültige Lösung.“",
+                        "David Irving, der prominenteste Holocaustleugner, wurde im Jahr 2000 in einem bahnbrechenden Londoner Gerichtsverfahren entlarvt (Irving gegen Lipstadt). Der Richter entschied, dass Irving „die Geschichte absichtlich verzerrt und manipuliert“ habe. Die Leugnung des Holocaust ist in 17 Ländern illegal, weil es sich dabei nicht um eine „Meinung“ handelt. Es handelt sich um die Leugnung dokumentierter Tatsachen, ähnlich wie die Leugnung der Erde, die rund ist, nur dass es gefährlich ist, weil es den Weg für den nächsten Völkermord ebnet."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Kognitive Dissonanzreduktion: Antisemiten, die weiterhin Juden hassen wollen, stehen vor einem Problem: &mdash; Der Holocaust macht Judenhass moralisch unmöglich. Die Lösung: Den Holocaust leugnen. Wenn der Holocaust nicht stattgefunden hätte, könnte man ohne Schuldgefühle wieder Juden hassen. Deshalb gehören Holocaustleugnung und Antisemitismus immer zusammen."
+                    ],
+                    "sources": "Quellen: Deborah Lipstadt, „Denying the Holocaust“ (1993); Irving gegen Penguin Books Ltd (2000); USHMM Holocaust-Enzyklopädie"
+                },
+                {
+                    "title": "„Juden haben den Holocaust aus politischen und finanziellen Gründen erfunden oder übertrieben“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Die Anschuldigung, Juden hätten ihren eigenen Völkermord aus Sympathie oder Geld erfunden, beinhaltet Antisemitismus auf drei Ebenen: (1) Sie leugnet das Leiden von Millionen von Opfern, (2) sie stellt die Erinnerung an den Völkermord als „jüdischen Plan zur Geldverdienung“ dar (das Klischee des gierigen Juden) und (3) sie macht die Opfer zu Betrügern.",
+                        "Die Fakten: Die Holocaust-Reparationen aus Deutschland kamen nach sieben Jahren politischen Kampfes (Luxemburger Abkommen von 1952). Sie deckten einen winzigen Teil des Eigentums ab, das europäischen Juden gestohlen wurde (Häuser, Geschäfte, Ersparnisse, Kunst, Gold – geschätzter Wert von Hunderten von Milliarden Dollar). Viele Überlebende lebten nach dem Krieg in Armut. Heute leben in Israel über 30.000 Holocaust-Überlebende unterhalb der Armutsgrenze. Der angebliche „Gewinn“ ist ein Mythos."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Holocaust-Müdigkeit + Neid: Manche Menschen haben es satt, vom Holocaust zu hören und suchen nach einer Rechtfertigung für ihre Gleichgültigkeit. Die Vorstellung, dass „Juden den Holocaust aus Profitgründen ausnutzen“, liefert eine moralische Rechtfertigung dafür, den Holocaust zu ignorieren. Darüber hinaus dient in Teilen der arabischen Welt die Leugnung oder Verharmlosung des Holocaust als politisches Instrument. Wenn der Holocaust nicht stattgefunden hätte, gäbe es (nach ihrer fehlerhaften Logik) keine Rechtfertigung für die Existenz Israels."
+                    ],
+                    "sources": "Quellen: Norman Finkelstein, „The Holocaust Industry“ (2000, umstritten); Konferenz über jüdische Materialansprüche gegen Deutschland; Aufzeichnungen; Israelische Stiftung zum Wohle der Holocaust-Opfer"
+                },
+                {
+                    "title": "„Die Gaskammern existierten nicht / es waren nur Entlausungskammern“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Im Leuchter-Bericht (1988) wurde behauptet, dass die chemische Analyse der Wände von Auschwitz unzureichende Zyanidrückstände ergeben habe. Es wurde vom Krakauer Forensischen Institut (1994) gründlich entlarvt, das bedeutende Cyanidverbindungen fand. Der „niedrigere“ Wert im Vergleich zu Entlausungskammern erklärt sich aus der Grundchemie: Für die Tötung von Menschen ist weitaus weniger Zyklon B erforderlich als für die Tötung von Läusen (300 ppm gegenüber 16.000 ppm).",
+                        "Die Beweise für die Gaskammern: (1) Rudolf H&ouml;ss, Kommandant von Auschwitz, beschrieb sie ausführlich in seinem Geständnis und in der Autobiographie, die er vor seiner Hinrichtung schrieb. (2) Das Sonderkommando (zur Arbeit in den Gaskammern gezwungene Häftlinge) sagte ausführlich aus. (3) Pläne der Firma Topf und S&ouml;hne (die die Krematorien gebaut hat) wurden &mdash; gefunden, darunter ein Auftrag für „gasdichte Türen“. (4) Luftaufnahmen der Alliierten aus dem Jahr 1944 zeigen Menschenschlangen beim Betreten von Gebäuden, aus denen Rauch aufsteigt. (5) Die sterblichen Überreste in Auschwitz-Birkenau sind für die Öffentlichkeit zugänglich."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Neonazismus in akademischer Verkleidung: Holocaustleugner verkleiden sich als „Forscher“ und „Revisionisten“, um Lügen den Anschein von Wissenschaft zu verleihen. Das Ziel: den Nationalsozialismus wieder legitimieren. Es wurde festgestellt, dass jeder „Holocaust-Leugner“ in der Geschichte Verbindungen zu Neonazi-Organisationen hat. &mdash; Es gibt keinen neutralen Forscher, der den Holocaust leugnet. Dabei handelt es sich nicht um eine „akademische Position“, sondern um Propaganda."
+                    ],
+                    "sources": "Quellen: Jean-Claude Pressac, „Auschwitz: Technik und Funktionsweise der Gaskammern“ (1989); Bericht des Krakauer Forensischen Instituts (1994); Robert Jan van Pelt, Sachverständiger im Irving-Prozess"
+                }
+            ]
+        },
+        {
+            "number": "Kategorie 8",
+            "title": "Online- und zeitgenössischer Antisemitismus",
+            "desc": "Moderne Mutationen des alten Hasses im digitalen Zeitalter",
+            "claims": [
+                {
+                    "title": "„Kodierte Symbole: dreifache Klammern (((echoes))), ‚frühes Leben‘“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Das dreifache Klammersymbol (((Name))) wurde vom Neonazi-Blog „The Right Stuff“ (2014) erstellt, um Juden online zu identifizieren. „Abschnitt „Frühes Leben““ bezieht sich auf die Überprüfung von Wikipedia-Einträgen auf jüdische Abstammung. Zusätzliche codierte Ausdrücke: „109“ (die Behauptung, dass Juden aus 109 Ländern vertrieben wurden), „da goyim know“, „oy vey“, „6 million product“, „globalist“ und „international banker“ als Codenamen.",
+                        "Eine verschlüsselte Sprache ermöglicht eine plausible Leugnung: „Ich bin kein Antisemit, ich spreche nur von Globalisten.“ Social-Media-Algorithmen haben Schwierigkeiten, kodierte Sprache zu erkennen, sodass antisemitische Inhalte, die in offener Form gelöscht werden, in kodierter Form veröffentlicht werden. Plattformen wie 4chan, Telegram und Gab sind zu Zentren antisemitischer Propaganda geworden. Die ADL dokumentiert jede Woche neue Symbole."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Gruppenzugehörigkeit + Geheimhaltung: Codierte Sprache erzeugt das Gefühl eines „geheimen Clubs“ &mdash; diejenigen, die den Code verstehen, sind „einer von uns“. Dies sorgt für soziale Zugehörigkeit, ein Gefühl der Überlegenheit („wir kennen die Wahrheit“) und das Adrenalin der Übertretung. Viele junge Menschen werden durch „Memes“, die wie Witze aussehen, antisemitischen Inhalten ausgesetzt &mdash;, aber Witze sind die erste Stufe der Radikalisierung."
+                    ],
+                    "sources": "Quellen: ADL Hate on Display Database; Moonshot CVE-Forschung; ISD (Institute for Strategic Dialogue) berichtet"
+                },
+                {
+                    "title": "„Juden haben COVID geschaffen / von der Pandemie profitiert / Impfstoffe als jüdische Verschwörung“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "COVID-Verschwörungstheorien folgten genau demselben Muster wie mittelalterliche Pestvorwürfe: Juden haben das Virus geschaffen, es absichtlich verbreitet oder über Pharmaunternehmen davon profitiert. Die ADL dokumentierte allein in den ersten Monaten der Pandemie über 17.000 Tweets, in denen Juden für COVID verantwortlich gemacht wurden.",
+                        "Anti-Lockdown-Demonstranten trugen gelbe Sterne und behaupteten: „Wir sind wie Juden im Holocaust“ &mdash; ein Vergleich, der die Ermordung von 6 Millionen Juden zur Unannehmlichkeit einer Maskenpflicht verharmlost. Im Iran behaupteten staatliche Medien, das Virus sei eine „zionistische Biowaffe“. In der Türkei behaupteten Zeitungen, „Juden und der Mossad stecken hinter COVID.“ Das Muster ist identisch mit 1348 (Juden vergifteten Brunnen), 1918 (Juden verbreiteten die Spanische Grippe) und 2020 (Juden erschufen COVID). 700 Jahre, die gleiche Lüge."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Terrormanagement + uraltes Muster: Eine Pandemie erzeugt Todesangst. Todesangst erhöht die Feindseligkeit gegenüber Fremdgruppen (Terror-Management-Theorie). Juden als klassische Fremdgruppe werden zu den „Schuldigen“. Dies ist genau der gleiche psychologische Mechanismus, der während des Schwarzen Todes im Jahr 1348 &mdash; wirkte. Was sich ändert, ist die Technologie (Twitter anstelle von Marktgerüchten), nicht die menschliche Psychologie."
+                    ],
+                    "sources": "Quellen: ADL COVID-19-Bericht (2020); MEMRI; Forschung des Oxford Internet Institute zu Verschwörungstheorien"
+                },
+                {
+                    "title": "„Juden stehen hinter dem ‚Great Replacement‘ – der Masseneinwanderung“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Die „Great Replacement“-Theorie (basierend auf dem Buch von Renaud Camus, 2011) behauptet, dass Juden absichtlich Masseneinwanderung betreiben, um Nationen mit weißer Mehrheit zu zerstören. Die Einwanderung wird tatsächlich durch wirtschaftliche Kräfte (Lohnunterschiede, Arbeitsnachfrage), politische Faktoren (Kriege, Diktaturen), humanitäre Krisen (Flüchtlinge) und Klimaereignisse (Dürre, Überschwemmungen) vorangetrieben, nicht durch eine ethnische Gruppe, die 0,2 % der Weltbevölkerung ausmacht.",
+                        "Diese Verschwörung tötet. Es wurde direkt als Motivation angeführt von: Robert Bowers (Pittsburgh, 2018, 11 Tote in einer Synagoge), Brenton Tarrant (Christchurch, 2019, 51 Tote in einer Moschee), Patrick Crusius (El Paso, 2019, 23 Tote) und John Earnest (Poway, 2019, 1 Tote in einer Synagoge). Jeder veröffentlichte ein Manifest, in dem er Juden für „den Ersatz“ verantwortlich machte. Von der Theorie zur Gewalt &mdash; der Weg ist kurz."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Demografische Angst + Sündenbock: Reale demografische Veränderungen (Einwanderung, Geburtenraten) erzeugen bei Teilen der Mehrheit Angst. Anstatt sich mit komplexen Ursachen auseinanderzusetzen, ist es einfacher, einen „Orchestrierer“ &mdash; zu beschuldigen, und die Juden, die ewigen Angeklagten, stellen das Ziel dar. Dies ist die Version des 21. Jahrhunderts von „Juden kontrollieren Regierungen“ – dieselbe Verschwörung, nur mit „Einwanderung“ statt „Banken“."
+                    ],
+                    "sources": "Quellen: ADL; Manifest von Robert Bowers (archiviert); Bericht der Christchurch Royal Commission (2020)"
+                },
+                {
+                    "title": "„Juden nutzen antisemitische Behauptungen als Waffe, um Kritik zum Schweigen zu bringen“",
+                    "ref_label": "&#10003; Sachliche Widerlegung",
+                    "ref": [
+                        "Die Behauptung, dass Juden Antisemitismus „ausnutzen“, um Kritik zum Schweigen zu bringen, ist selbst eine Taktik: Sie sagt den Juden, dass „Sie kein Recht haben, sich zu beschweren“ &mdash;, und zwar genau dann, wenn der Antisemitismus Rekordzahlen erreicht (ADL: 8.873 Vorfälle im Jahr 2023 allein in den USA, ein Anstieg um 140 %).",
+                        "Natürlich gibt es eine berechtigte Debatte darüber, wo die Grenze zwischen Israelkritik und Antisemitismus verläuft. Kritik an bestimmten israelischen Richtlinien = legitim. Leugnung des Alleinexistenzrechts Israels = Antisemitismus. Verwendung von Stereotypen über alle Juden = Antisemitismus. Die Regel ist einfach: Wenn Sie „jüdisch“ durch „schwarz/muslimisch/asiatisch“ ersetzt haben und der Satz rassistisch klang &mdash;, ist er auch antisemitisch.",
+                        "Die Behauptung, dass Juden „die Opferrolle ausnutzen“, ist die zeitgenössische Version von „Juden sind gerissen und manipulativ“, dem ältesten Stereotyp, in moderner Verkleidung."
+                    ],
+                    "psych_label": "&#128300; Warum glauben die Leute das?",
+                    "psych": [
+                        "Abwehr von Dissonanzen: Menschen, die Kritik an ihren Ansichten über Juden/Israel ausgesetzt sind, empfinden Unbehagen (kognitive Dissonanz). Anstatt ihre Ansichten zu untersuchen, ist es einfacher zu behaupten, dass die Kritik selbst „jüdische Manipulation“ sei. Das befreit sie von der Notwendigkeit der Selbstprüfung: „Ich bin kein Antisemit, sie schreien nur Antisemitismus, um mich zum Schweigen zu bringen.“ Der Wunsch, Schuldgefühle zu vermeiden, ist stärker als der Wunsch, die Wahrheit herauszufinden."
+                    ],
+                    "sources": "Quellen: ADL Audit (2023); David Hirsh, „Contemporary Left Antisemitism“ (2017)"
+                }
+            ]
+        }
+    ],
+    "lies_title": "Häufige Lügen und Verleumdungen",
+    "lies_desc": "Gemeinsame Lügen gegen Israel und das jüdische Volk – und die Fakten, die sie entlarven",
+    "lie_cards": [
+        {
+            "title": "„Israel hat in Gaza Völkermord begangen“",
+            "claim_label": "&#10060; Was sie behaupten:",
+            "claim": "Israels Militäreinsätze in Gaza nach dem 7. Oktober 2023 stellen einen Völkermord dar, die vorsätzliche und systematische Zerstörung des palästinensischen Volkes. Südafrika reichte eine Klage beim Internationalen Gerichtshof (IGH) ein und die sozialen Medien überschwemmen das Internet mit Behauptungen, Israel begehe „Völkermord“.",
+            "facts_label": "&#10003; Die Fakten, die die Lüge entlarven:",
+            "facts_list": [
+                "<strong>Rechtliche Definition:</strong> Völkermord erfordert <strong>besondere Absicht (dolus specialis)</strong> zur Zerstörung einer nationalen, ethnischen oder religiösen Gruppe. Das UN-Übereinkommen zur Verhütung von Völkermord (1948, Artikel II) legt fest, dass ein Vorsatznachweis erforderlich ist, nicht nur bei Opfern.",
+                "<strong>Der Internationale Gerichtshof (IGH) entschied nicht über Völkermord.</strong> Er entschied lediglich, dass der Fall Südafrikas „plausibel genug sei, um gehört zu werden“ &mdash; Dies ist die niedrigste gesetzliche Schwelle für ein Zwischenverfahren, kein Urteil.",
+                "<strong>Verhältnis von Kombattanten zu Zivilisten:</strong> Prof. <strong>John Spencer</strong>, Leiter der Studien zur städtischen Kriegsführung in West Point, gab an, dass Israels Opferquote ungefähr <strong>1:1,5</strong> &mdash; beträgt, während der globale Durchschnitt in der Kriegsführung bei <strong>1:9</strong> liegt.",
+                "<strong>Beispiellose Maßnahmen zum Schutz der Zivilbevölkerung:</strong> Die IDF führte <strong>50.066 persönliche Telefonanrufe</strong>, verschickte <strong>12 Millionen Sprachnachrichten</strong> und <strong>14 Millionen SMS-Nachrichten</strong>, warf Millionen von Flugblättern ab und schuf Evakuierungskorridore &mdash; etwas, das in keinem Krieg der Geschichte passiert ist.",
+                "<strong>Hamas nutzt menschliche Schutzschilde:</strong> UNRWA (die UN-Agentur) fand <strong>3 verschiedene Male Raketen in ihren Schulen</strong>. Die NATO veröffentlichte einen dokumentierten Bericht über die menschliche Schutzschildstrategie der Hamas. Yahya Sinwar sagte: „Wir haben beschlossen, die Körper unserer Frauen und Kinder in einen Damm zu verwandeln.“"
+            ],
+            "facts_conclusion": "Wenn eine Armee mit nuklearen Fähigkeiten und einer der stärksten Luftstreitkräfte der Welt die <strong>Absicht</strong> hätte, &mdash; zu zerstören, würde sie nicht vor jedem Angriff anrufen, SMS senden und Zivilisten evakuieren. <strong>Es gab in der Geschichte keinen Völkermord, bei dem die angreifende Seite die Opfer zur Flucht aufforderte.</strong>",
+            "sources": "Quellen: UN-Übereinkommen zur Verhütung von Völkermord (1948, Artikel II) | Einstweilige Verfügung des Internationalen Gerichtshofs, 26. Januar 2024 | Atlantic Council – Expertenanalyse | Newsweek – John Spencer, „Israel hat einen neuen Standard für die städtische Kriegsführung geschaffen“ | Lieber Institute, West Point – Die IDF und die Pflicht zur Warnung | NATO StratCom COE – Einsatz menschlicher Schutzschilde durch die Hamas | Offizielle UNRWA-Erklärungen zu Raketen in Schulen"
+        },
+        {
+            "title": "„Israel drängte Trump zum Kampf gegen den Iran“",
+            "claim_label": "&#10060; Was sie behaupten:",
+            "claim": "Israel kontrollierte, manipulierte oder „drängte“ die Vereinigten Staaten &mdash; und insbesondere Präsident Trump &mdash; in eine Konfrontation mit dem Iran. Dieser Erzählung zufolge führt Amerika „den Krieg Israels“ und verteidigt nicht seine eigenen Interessen. Dies ist eine moderne Version des Trope der „doppelten Loyalität“ &mdash;, einer seit langem verbreiteten antisemitischen Entlarvung.",
+            "facts_label": "&#10003; Die Fakten, die die Lüge entlarven:",
+            "facts_list": [
+                "<strong>Der US-Iran-Konflikt geht der Zeit vor Israel voraus:</strong> Der CIA-Putsch 1953 (Mossadegh), die Geiselnahme von 1979 (444 Tage) und der völlige diplomatische Bruch seit 1980 &mdash; Jahrzehnte vor jeder „Israel-Lobby“.",
+                "<strong>Iran tötete mehr als 869 Amerikaner:</strong> Der Bombenanschlag in Beirut 1983 (241 Marines), der Bombenanschlag auf die Khobar Towers 1996 (19), Straßenbomben im Irak 2003-2011 (603+). Ein US-Gericht verurteilte Iran zur Zahlung von Schadensersatz in Höhe von 1,5 Milliarden US-Dollar.",
+                "<strong>Trump war seit 1980 gegen den Iran:</strong> In einem NBC-Interview mit Rona Barrett (im Alter von 34 Jahren) sagte Trump, die USA hätten in den Iran einmarschieren sollen. Das war <strong>46 Jahre</strong> bevor jeglicher Anspruch auf israelischen Einfluss erhoben wurde.",
+                "<strong>Unabhängige amerikanische Interessen:</strong> Die Straße von Hormus (21 % des weltweiten Öls), Irans Atomprogramm, Terrorismusfinanzierung (Hisbollah, Hamas, Houthis). Iran gilt seit 1984 als „staatlicher Sponsor des Terrorismus“.",
+                "<strong>Saudi-Arabien drängte auch:</strong> Die Washington Post berichtete, dass der Druck „von einem ungewöhnlichen Paar Verbündeter kam: Israel <strong>und Saudi-Arabien</strong>“ &mdash;, aber niemand nennt den saudischen Druck eine „Verschwörung“."
+            ],
+            "facts_conclusion": "Die ADL identifizierte dieses Narrativ als einen klassischen antisemitischen Tropus: <strong>„doppelte Loyalität“</strong> &mdash;, in dem Juden beschuldigt werden, heimlich Außenpolitik zu betreiben. Dasselbe Bild wurde gegen Dreyfus (1894), im „Dolchstich-Mythos“ (1918) und in Stalins „Ärztekomplott“ (1953) verwendet.",
+            "sources": "Quellen: FDD – Iranische Angriffe gegen Amerikaner von 1979 bis heute | Das Weiße Haus (2026) – Jahrzehnte des iranischen Terrorismus | CIA freigegeben – Bombenanschlag in Beirut | US Energy Information Administration – Straße von Hormus | Brookings – Wie Trump über den Iran denkt | Washington Post (28.2.2026) | ADL – Militäroperation schürt antisemitische Verschwörung | AJC – #TranslateHate: Doppelte Loyalität"
+        },
+        {
+            "title": "„Israel ist ein Apartheidstaat“",
+            "claim_label": "&#10060; Was sie behaupten:",
+            "claim": "Israel betreibt ein System der Rassentrennung, das dem Apartheidregime in Südafrika ähnelt. Organisationen wie Amnesty International und Human Rights Watch haben Berichte veröffentlicht, die dieses Label verwenden, und die „Israeli Apartheid Week“ findet an über 250 Campusstandorten weltweit statt.",
+            "facts_label": "&#10003; Die Fakten, die die Lüge entlarven:",
+            "facts_list": [
+                "<strong>In Südafrika:</strong> Schwarze <strong>konnten nicht wählen</strong>, ihnen wurde der Zutritt zu weißen Vierteln verboten, sie hatten bewusst getrennte und minderwertige Bildung, „Whites Only“-Schilder waren überall zu sehen und gemischtrassige Ehen waren eine <strong>Straftat</strong>.",
+                "<strong>In Israel:</strong> Arabische Bürger (21 %) stimmen seit 1948 mit <strong>vollen und gleichen Rechten</strong>. Richter <strong>Salim Joubran</strong> (Araber) war stellvertretender Präsident des Obersten Gerichtshofs. Die <strong>Ra'am-Partei</strong> trat 2021 der Regierungskoalition bei. Drusen und Beduinen fungieren als hochrangige IDF-Offiziere.",
+                "<strong>Araber und jüdische Israelis:</strong> studieren an denselben Universitäten, werden in denselben Krankenhäusern behandelt, kaufen in denselben Einkaufszentren ein, schwimmen an denselben Stränden. <strong>Es gibt kein einziges „Jews Only“-Schild in Israel.</strong>",
+                "<strong>Kenneth Meshoe</strong>, ein schwarzer südafrikanischer Abgeordneter <strong>der unter echter Apartheid lebte</strong>: „Ich habe Israel viele Male besucht. <strong>Nichts dort kann mit der Apartheid in Südafrika verglichen werden.</strong>“",
+                "<strong>Richter Richard Goldstone</strong> (Südafrika), der für die UN gegen Israel ermittelte, schrieb in der New York Times (2011): <strong> „In Israel gibt es keine Apartheid. Nichts dort kommt der Definition nahe.“</strong>"
+            ],
+            "facts_conclusion": "",
+            "sources": "Quellen: ADL – Behauptung: Israel ist ein Apartheidstaat | Richard Goldstone, „Israel und die Apartheid-Verleumdung“, New York Times (31.10.2011) | UN Watch – Reaktion auf Apartheid-Behauptung | Britannica – Apartheid | Kenneth Meshoe, Jerusalem Post | SSRN – Rechtsanalyse von Sekulow & Ash"
+        },
+        {
+            "title": "„Juden kontrollieren die Medien und die Weltwirtschaft“",
+            "claim_label": "&#10060; Was sie behaupten:",
+            "claim": "Juden kontrollieren heimlich Banken, Medien und Weltregierungen und manipulieren globale Ereignisse zu ihrem Vorteil. Diese Theorie basiert auf den „Protokollen der Weisen von Zion“ &mdash;, einer nachgewiesenen Fälschung aus dem Jahr 1903 &mdash;, und auf dem Mythos der Rothschild-Familie.",
+            "facts_label": "&#10003; Die Fakten, die die Lüge entlarven:",
+            "facts_list": [
+                "<strong>„Protokolle der Weisen von Zion“ &mdash; eine nachgewiesene Fälschung:</strong> Erstellt von der russischen Geheimpolizei (Okhrana). Im Jahr 1921 bewies die Times of London, dass es sich um eine <strong>direkte Kopie</strong> einer französischen Satire über Napoleon III. (1864) handelte, die <strong>absolut keine Verbindung zu Juden hatte</strong>. Ein Schweizer Gericht (1935) erklärte den Text zu „einer Fälschung, einem Plagiat und einer obszönen Literatur“.",
+                "<strong>Rothschild-Mythos:</strong> Das Vermögen der Familie wird auf 400 Milliarden US-Dollar geschätzt, &mdash; verteilt auf 7 Generationen. Zum Vergleich: <strong>Elon Musk allein</strong> ist etwa 800 Milliarden US-Dollar wert. Die Behauptung, dass „die Rothschilds 80 % des Weltvermögens kontrollieren“, ist <strong>mathematisch unmöglich</strong> &mdash; Das gesamte Weltvermögen beläuft sich auf etwa 471 Billionen US-Dollar.",
+                "<strong>Die 4 größten Banken der Welt sind chinesische</strong> (ICBC, Agricultural Bank, Construction Bank, Bank of China). Unter den Top-20-Banken &mdash; sind die meisten Chinesen, Japaner, Briten und Franzosen.",
+                "<strong>Juden = 0,2 % der Weltbevölkerung</strong> (15,7 Millionen von 8 Milliarden). Es ist <strong>statistisch unmöglich</strong>, dass 0,2 % die globale Wirtschaft, Medien und Regierungen „kontrollieren“ können.",
+                "<strong>Die Ironie:</strong> Wie die ADL feststellt &mdash; „Im Laufe der Geschichte hatten Juden <strong>sehr wenig Kontrolle</strong> sogar über ihr eigenes Schicksal“ &mdash; Vertreibungen, Pogrome, Holocaust."
+            ],
+            "facts_conclusion": "",
+            "sources": "Quellen: USHMM – Protokolle der Weisen von Zion | ADL – Ein Schwindel des Hasses | Snopes – Reichtum der Familie Rothschild (Faktencheck) | PolitiFact – „Pants on Fire“-Bewertung | S&P Global – Die größten Banken der Welt 2024 | ADL Global 100-Umfrage 2024 | Britannica – Protokolle"
+        },
+        {
+            "title": "„Juden haben keine historische Verbindung zum Land Israel“",
+            "claim_label": "&#10060; Was sie behaupten:",
+            "claim": "Juden sind „europäische Kolonisatoren“ ohne wirkliche Verbindung zum Land Israel. Der Zionismus ist lediglich ein modernes „Kolonialprojekt“. Mahmoud Abbas (April 2025) behauptete, die Tempel stünden <strong>im Jemen, nicht in Jerusalem</strong>. Die „Temple Denial“-Bewegung bestreitet jegliche jüdische Verbindung zum Tempelberg.",
+            "facts_label": "&#10003; Die Fakten, die die Lüge entlarven – 3.200 Jahre Beweise:",
+            "facts_list": [
+                "<strong>Merneptah-Stele (1208 v. Chr.):</strong> Eine ägyptische Inschrift &mdash; <strong>die früheste nichtbiblische Erwähnung Israels</strong> in der Geschichte. Kairoer Museum.",
+                "<strong>Tel Dan Stele (9. Jahrhundert v. Chr.):</strong> Eine 1993 gefundene aramäische Inschrift: „Haus Davids“ &mdash; <strong>der erste äußere Beweis der davidischen Dynastie</strong>.",
+                "<strong>Siloam-Inschrift (701 v. Chr.):</strong> Eine alte hebräische Inschrift im Hiskia-Tunnel in Jerusalem &mdash; <strong>Vor 2.700 Jahren herrschte in Jerusalem ein Hebräischsprecher</strong>.",
+                "<strong>Schriftrollen vom Toten Meer (3. Jahrhundert v. Chr. – 1. Jahrhundert n. Chr.):</strong> 981 Manuskripte auf Hebräisch und Aramäisch &mdash; <strong>die ältesten Abschriften der Bibel</strong>. Israel-Museum, Jerusalem.",
+                "<strong>Titusbogen, Rom (81 n. Chr.):</strong> Ein Relief, das römische Soldaten zeigt, <strong>die die Menora aus dem Tempel in Jerusalem tragen</strong> &mdash; Römischer Beweis dafür, dass der jüdische Tempel in Jerusalem stand.",
+                "<strong>50.000+ Bar Kokhba-Münzen (132–135 n. Chr.):</strong> Mit jüdischen Symbolen und alten hebräischen Inschriften: „Für die Freiheit Jerusalems.“",
+                "<strong>Genetische Studien (PNAS 2000, Nature 2010):</strong> Alle jüdischen Gruppen &mdash; Aschkenasen, Sepharden und Mizrahi &mdash; <strong>gemeinsame genetische Marker im Nahen Osten</strong>. Juden stehen den Palästinensern, Syrern und Drusen genetisch näher als den Europäern.",
+                "<strong>Völkerbund (1922):</strong> Offizielle internationale Anerkennung <strong>„der historischen Verbindung des jüdischen Volkes mit Palästina.“</strong>"
+            ],
+            "facts_conclusion": "Um die jüdische Verbindung zum Land Israel zu leugnen, müssen <strong>Archäologie, römische Aufzeichnungen, genetische Wissenschaft und internationales Recht</strong> &mdash; ignoriert werden, die alle die gleiche Schlussfolgerung bestätigen.",
+            "sources": "Quellen: Biblical Archaeology Society – Merneptah Stele, Tel Dan Stele | Israel Museum – Schriftrollen vom Toten Meer | Jeschiwa-Universität – Titusbogen-Projekt | Hammer et al. (2000), PNAS 97(12) | Behar et al. (2010), Natur 466 | Mandat des Völkerbundes (1922), Yale Avalon Project | USHMM | ADL"
+        }
+    ],
+    "timeline_title": "2.500 Jahre Verfolgung",
+    "timeline_desc": "Die Zeitleiste zeigt, dass dieselben Lügen immer wieder auftauchen – jedes Mal mit tödlichen Folgen",
+    "timeline": [
+        {
+            "date": "167 v. Chr",
+            "title": "Verfolgung von Antiochos IV",
+            "desc": "Die erste staatlich geförderte Verfolgung. Schändung des Tempels, Verbot des Judentums. Entfachte den Aufstand der Makkabäer – Chanukka.",
+            "victims": ""
+        },
+        {
+            "date": "38 n. Chr",
+            "title": "Das Alexandria-Pogrom",
+            "desc": "Das erste dokumentierte antijüdische Pogrom. Mobs griffen jüdische Viertel an, zerstörten Häuser und Synagogen.",
+            "victims": "Hunderte getötet"
+        },
+        {
+            "date": "70 n. Chr",
+            "title": "Zerstörung des Zweiten Tempels",
+            "desc": "Rom zerstörte das Zentrum jüdischen Lebens. Der Beginn des Exils. Das Christentum hat es als göttliche Strafe umgestaltet.",
+            "victims": "Hunderttausende"
+        },
+        {
+            "date": "1096",
+            "title": "Erste Kreuzzugsmassaker",
+            "desc": "Kreuzfahrer auf dem Weg ins Heilige Land massakrierten jüdische Gemeinden im gesamten Rheinland. Allein in Mainz wurden an einem einzigen Tag 1.000 Juden getötet.",
+            "victims": "5.000-10.000 Tote"
+        },
+        {
+            "date": "1144",
+            "title": "Die erste Blutverleumdung – Norwich",
+            "desc": "Ein Kind wurde tot aufgefunden; Juden wurden ohne Beweise angeklagt. Erstellte eine Vorlage, die sich in den nächsten 800 Jahren hunderte Male wiederholte.",
+            "victims": ""
+        },
+        {
+            "date": "1215",
+            "title": "Das Vierte Laterankonzil",
+            "desc": "Der Papst befahl den Juden, Erkennungskleidung zu tragen (ein Vorläufer des gelben Abzeichens), was den Ausschluss von öffentlichen Ämtern bedeutete.",
+            "victims": ""
+        },
+        {
+            "date": "1290",
+            "title": "Vertreibung aus England",
+            "desc": "Die erste vollständige Landesvertreibung. 3.000–16.000 Juden vertrieben. Bis 1656 – 366 Jahre Verbot – war ihnen die Rückkehr verboten.",
+            "victims": ""
+        },
+        {
+            "date": "1348-1351",
+            "title": "Pogrome des Schwarzen Todes",
+            "desc": "Den Juden wurde vorgeworfen, Brunnen vergiftet zu haben. In Straßburg wurden am 14. Februar 1349 2.000 Juden lebendig verbrannt – bevor die Pest überhaupt die Stadt erreichte. Über 200 jüdische Gemeinden wurden zerstört.",
+            "victims": "Zehntausende"
+        },
+        {
+            "date": "1478",
+            "title": "Die spanische Inquisition",
+            "desc": "Im Visier standen Juden, die zum Christentum konvertiert waren. Folter, Inhaftierung, Scheiterhaufen auf öffentlichen Plätzen. „Blutreinheitsgesetze“ – Vorläufer des Nazi-Rassismus.",
+            "victims": "~3.000-5.000 hingerichtet"
+        },
+        {
+            "date": "1492",
+            "title": "Ausweisung aus Spanien",
+            "desc": "200.000 Juden wurden aus einem Land vertrieben, in dem sie über 1.000 Jahre gelebt hatten. Viele starben unterwegs.",
+            "victims": "200.000 im Exil"
+        },
+        {
+            "date": "1933-1945",
+            "title": "Der Holocaust",
+            "desc": "Systematischer industrieller Völkermord. Ghettos, Vernichtungslager, Einsatzgruppen, Todesmärsche. Alle auf dieser Website dokumentierten antisemitischen Ausdrücke wurden als Rechtfertigung herangezogen.",
+            "victims": "6.000.000 Tote"
+        },
+        {
+            "date": "2018-2024",
+            "title": "Globale Antisemitismuswelle",
+            "desc": "Schießerei in der Tree of Life-Synagoge in Pittsburgh (11 Tote), Halle, Paris. ADL meldete zwischen 2016 und 2022 einen Anstieg antisemitischer Vorfälle in den USA um 167 %.",
+            "victims": ""
+        }
+    ],
+    "psych_title": "Die Psychologie des Hasses",
+    "psych_desc": "Beim Antisemitismus geht es nicht wirklich um Juden, sondern um die psychologischen Bedürfnisse des Antisemiten",
+    "psych_insight_title": "Die wichtigste Erkenntnis",
+    "psych_insight_text": "Aus all den psychologischen Erklärungen geht ein Muster hervor: Beim Antisemitismus geht es nicht wirklich um Juden. Es geht um die psychologischen Bedürfnisse der Antisemiten: ihr Bedürfnis nach einfachen Erklärungen, ihre Angst vor Komplexität, ihre verdrängte Wut und ihr Wunsch nach jemandem, dem sie die Schuld geben kann. Juden sind die Leinwand, auf die diese Bedürfnisse projiziert werden. Aus diesem Grund besteht der Antisemitismus auch in Ländern, in denen es fast keine Juden gibt (Japan, Südkorea, Polen nach dem Holocaust).",
+    "psych_cards": [
+        {
+            "title": "Sündenbock",
+            "text": "Wenn eine Gesellschaft in eine Krise gerät, suchen die Menschen nach einem Schuldigen. Einer sichtbaren Minderheit ist die Schuld weitaus leichter zuzuschieben als komplexen systemischen Faktoren. Jede Anschuldigung offenbart, was die anklagende Gesellschaft am meisten um sich selbst fürchtet."
+        },
+        {
+            "title": "Vorsprung",
+            "text": "Die unbewusste Übertragung der eigenen inakzeptablen Eigenschaften auf andere. Christen, die sich wegen des Wuchers schuldig fühlten, beschuldigten die Juden der Gier. Europäer, die die Weltherrschaft anstrebten, beschuldigten die Juden, die Weltherrschaft anzustreben. Nazis, die Eugenik praktizierten, beschuldigten Juden der Rassenmischung."
+        },
+        {
+            "title": "Bestätigungsverzerrung",
+            "text": "Sobald jemand glaubt, dass „Juden die Medien kontrollieren“, bemerkt er jeden Juden in den Medien und ignoriert die Tausenden, die das nicht tun. Der Glaube erzeugt seine eigenen „Beweise“."
+        },
+        {
+            "title": "Illusionäre Korrelation",
+            "text": "Wenn eine Minderheit an einem negativen Ereignis beteiligt ist, wird der Zusammenhang überschätzt. Wenn ein jüdischer Bankier Betrug begeht, wird sein Jüdischsein vermerkt. Wenn ein nichtjüdischer Bankier Betrug begeht, ist seine ethnische Herkunft unsichtbar."
+        },
+        {
+            "title": "Die autoritäre Persönlichkeit",
+            "text": "Adorno (1950) fand eine Kombination von Merkmalen, die Vorurteile vorhersagen: starres Denken, Unterwerfung unter Autoritäten, Aggression gegenüber Fremdgruppen und Angst vor Veränderungen. Menschen mit diesen Merkmalen fühlen sich von antisemitischen Erzählungen angezogen, weil sie einfache Erklärungen, klare Feinde und einen Sinn für Ordnung in einer komplexen Welt bieten."
+        },
+        {
+            "title": "Verschwörungsdenken",
+            "text": "Moderne Forschungen zeigen, dass Verschwörungsdenken ein kognitiver Stil ist. Wer an eine Verschwörung glaubt, neigt dazu, an andere zu glauben, auch an widersprüchliche. Antisemitismus liefert der „Mutter aller Verschwörungen“ &mdash; eine einheitliche Erklärung für alles, was in der Welt falsch ist."
+        }
+    ],
+    "regions_title": "Antisemitismus durch Gesellschaft und Nation",
+    "regions_desc": "Jede Gesellschaft entwickelte ihre eigene Version des Judenhasses – das gleiche Gift, verschiedene Flaschen",
+    "regions": [
+        {
+            "title": "Die muslimische und arabische Welt",
+            "subtitle": "Vom mittelalterlichen religiösen Antisemitismus bis zum modernen Konflikt",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Historische Quelle:</strong> Im frühen Judentum und im Islam gab es Phasen der Koexistenz. Aber der Koran enthält negative Verse über Juden (Sure 5:60 &mdash; „diejenigen, die Allah verfluchte und in Affen und Schweine verwandelte“), und Mohammed vertrieb und massakrierte jüdische Stämme in Medina (Banu Qurayza, 627 n. Chr. &mdash; 600–900 jüdische Männer wurden enthauptet). Unter der islamischen Herrschaft waren Juden „Dhimmis“ geschützte, aber minderwertige Bürger, die die Jizya-Steuer zahlten und Erkennungszeichen trugen.",
+                "<strong style=\"color:#e2b714;\">Die Erfindung der palästinensischen nationalen Identität:</strong> Der Begriff „Palästina“ ist ein römischer geografischer Name (aus dem Jahr 135 n. Chr., als die Römer Judäa umbenannten, um die jüdische Identität auszulöschen). Die Araber der Region identifizierten sich jahrhundertelang als Syrer, Araber oder nach Stamm und Familie. Die palästinensische nationale Identität kristallisierte sich vor allem in der Mitte des 20. Jahrhunderts heraus. Zuheir Mohsen, Anführer von al-Sa'iqa (einer palästinensischen Organisation), sagte 1977 in einem Interview mit der niederländischen Zeitung Trouw: „Das palästinensische Volk existiert nicht … es gibt keinen Unterschied zwischen Jordaniern, Palästinensern, Syrern und Libanesen. Wir sind alle Teil einer arabischen Nation.“",
+                "<strong style=\"color:#e2b714;\">Selbstmord-Terror:</strong> Während der Zweiten Intifada (2000-2005) wurden über 140 Selbstmordattentate gegen israelische Zivilisten in Bussen, in Restaurants, Einkaufszentren und Nachtclubs verübt. 1.137 Israelis wurden getötet. Hamas, Islamischer Dschihad und Fatah schickten junge Menschen, darunter Frauen und Teenager, um sich unter Zivilisten in die Luft zu sprengen &mdash; und behaupteten dann, Israel würde „morden“. Die Seite, die Busse mit Babys in die Luft sprengt, ist nicht das Opfer.",
+                "<strong style=\"color:#e2b714;\">Die „Völkermord“-Verleumdung:</strong> Israel ist die einzige Armee in der Geschichte, die vor einem Angriff Warnmeldungen an feindliche Zivilisten sendet („Dachklopfen“, SMS-Nachrichten, Flugblätter). Israel verfügt über ein unabhängiges Rechtssystem, das Verstöße untersucht. Wenn Israel einen Völkermord begehen wollte, warum wuchs die Bevölkerung Gazas dann von 80.000 im Jahr 1948 auf über 2 Millionen im Jahr 2023? Ein echter Völkermord ähnelt Ruanda (800.000 Tote in 100 Tagen) oder dem Holocaust (6 Millionen). Das Recht auf Selbstverteidigung ist kein Völkermord.",
+                "<strong style=\"color:#e2b714;\">Moderne Propaganda:</strong> „Die Protokolle der Weisen von Zion“ &mdash; eine russische Fälschung aus dem Jahr 1903 &mdash; ist ein Bestseller in der arabischen Welt. Die ägyptische Serie „Reiter ohne Pferd“ (2002, 41 Folgen, ausgestrahlt im Staatsfernsehen) basiert auf den Protokollen und stellt Juden als Verschwörer dar. Lehrbücher der UNRWA (des UN-Flüchtlingshilfswerks) enthielten antisemitische Inhalte &mdash;, darunter Karten ohne Israel und Gedichte, in denen Selbstmordattentate gelobt wurden."
+            ],
+            "fact_boxes": [
+                "<strong>Dokumentierte Tatsache:</strong> Zwischen 1948 und 1972 wurden etwa 850.000 Juden aus arabischen und muslimischen Ländern vertrieben oder zur Flucht gezwungen. Ihr Eigentum wurde beschlagnahmt. Jahrtausende alte jüdische Gemeinden im Irak, Ägypten, Libyen, Jemen, Syrien und Marokko wurden fast vollständig zerstört. Der Farhud im Irak (1941): 180 Juden ermordet, 1.000 verletzt, 900 Häuser zerstört &mdash; inspiriert durch Nazi-Propaganda des Mufti Haj Amin al-Husseini.",
+                "<strong>Hamas-Charta (1988):</strong> Artikel 7 fordert die Tötung von Juden (nicht von Israelis &mdash; Juden). Artikel 22 behauptet, dass Juden hinter der Französischen Revolution, dem Ersten Weltkrieg, dem Kommunismus und dem Zweiten Weltkrieg stecken. Artikel 32 zitiert die „Protokolle der Weisen von Zion“ &mdash;, eine russische antisemitische Fälschung aus dem Jahr 1903 &mdash;, als authentisches Dokument. Das ist kein „Widerstand gegen die Besatzung“. Das ist offener Antisemitismus in der Sprache des Völkermords."
+            ],
+            "sources": "Quellen: Benny Morris, „1948“ (2008); Hamas-Charta (1988); MEMRI-Übersetzungen; IMPACT-se Schulbuchberichte; Andrew Bostom, „Das Erbe des islamischen Antisemitismus“ (2008)"
+        },
+        {
+            "title": "Polen und Osteuropa",
+            "subtitle": "Talmud-Mythen, „jüdischer Kommunismus“ und Hass, der den Holocaust überdauerte",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Der Talmud-Mythos:</strong> Einer der häufigsten Glaubenssätze in Polen (und Osteuropa) ist, dass der Talmud voller Hass gegenüber Nichtjuden sei. Antisemitische Propaganda (hauptsächlich aus der mittelalterlichen katholischen Kirche und aus Veröffentlichungen wie „Talmud Unmasked“ von Justinas Pranaitis, 1892) extrahierte Zitate aus dem Kontext, übersetzte sie absichtlich falsch oder fabrizierte sie einfach. Der Talmud umfasst 6.200 Seiten juristischer Diskussion, und kein qualifizierter Talmud-Gelehrter unterstützt die antisemitische Lesart.",
+                "<strong style=\"color:#e2b714;\">Der Mythos von Żydokomuna („jüdischer Kommunismus“):</strong> Der Glaube, dass der Kommunismus eine „jüdische Erfindung“ sei und dass Juden das kommunistische Polen regierten. In Wirklichkeit war die Polnische Vereinigte Arbeiterpartei (PZPR) überwiegend polnisch. Einige wenige einzelne Juden hatten hohe Positionen inne, &mdash; da Juden in jedem Bereich zu finden waren &mdash;, aber sie machten nur einen winzigen Prozentsatz aus. Viele Polen waren begeisterte Kommunisten ohne Verbindung zu Juden. Im Jahr 1968 führte das polnische kommunistische Regime selbst eine antisemitische Kampagne („Antizionisten“) durch und vertrieb etwa 13.000 Juden aus Polen.",
+                "<strong style=\"color:#e2b714;\">Jedwabne (1941):</strong> Am 10. Juli 1941 ermordeten polnische Einwohner der Stadt Jedwabne mindestens 340 (möglicherweise mehr als 1.000) Juden der Stadt &mdash; und verbrannten sie bei lebendigem Leib in einer Scheune. Keine Nazis. Polnische Nachbarn. Der Historiker Jan Tomasz Gross dokumentierte dies in seinem Buch „Nachbarn“ (2001) und löste in Polen einen nationalen Schock aus. Im Jahr 2018 verabschiedete Polen ein Gesetz, das die Zuschreibung der Verantwortung für Holocaust-Verbrechen an die polnische Nation verbietet – ein Versuch, die Geschichte zum Schweigen zu bringen."
+            ],
+            "fact_boxes": [
+                "<strong>Das Kielce-Pogrom (1946):</strong> Ein Jahr nach der Befreiung von Auschwitz wurden 42 jüdische Holocaust-Überlebende bei einem Pogrom in der polnischen Stadt Kielce ermordet. Der Vorwand: eine Blutverleumdung (!) &mdash; ein Gerücht, dass ein christliches Kind von Juden entführt worden sei. Im Jahr 1946. Nach dem Holocaust. Überlebende, die Auschwitz überlebt hatten, wurden von ihren polnischen Nachbarn auf der Grundlage derselben mittelalterlichen Lüge ermordet. Dieses Ereignis löste eine Fluchtwelle (Bericha) von Holocaust-Überlebenden aus Polen aus.",
+                "<strong>Russland:</strong> „Die Protokolle der Weisen von Zion“ wurden um 1903 von der russischen Geheimpolizei (Okhrana) erstellt, basierend auf einem Plagiat aus einem französischen Buch (Maurice Joly, 1864), das nichts mit Juden zu tun hatte. Die Pale of Settlement (1791-1917) sperrte Juden in begrenzte Wohngebiete ein. Zwischen 1881 und 1921 kamen bei Pogromwellen Zehntausende Juden ums Leben. Viele der frühen Pogrome wurden von der Regierung selbst gefördert oder geplant. Der „Ärztekomplott“ (1953) &mdash; Stalin beschuldigte jüdische Ärzte, Pläne zur Ermordung sowjetischer Führer zu schmieden. Erst Stalins Tod verhinderte die Massendeportation von Juden nach Sibirien."
+            ],
+            "sources": "Quellen: Jan T. Gross, „Neighbors“ (2001); Joanna Tokarska-Bakir, „Pogrom Cries“ (2018); Norman Cohn, „Warrant for Genocide“ (1967)"
+        },
+        {
+            "title": "Nazi-Deutschland",
+            "subtitle": "Die Vernichtungsmaschine: Wie ein moderner Staat den Hass in eine Industrie verwandelte",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Die Ideologie:</strong> Die Nazis haben den Antisemitismus nicht erfunden, &mdash; sie haben ihn industrialisiert. Sie nahmen 2.000 Jahre christlichen Antisemitismus, kombinierten ihn mit pseudowissenschaftlichem Rassismus des 19. Jahrhunderts (Rassenanthropologie, Eugenik, Sozialdarwinismus) und schufen ein ganzes System aus Gesetzen, Bürokratie und Industrie, dessen einziger Zweck die Vernichtung eines ganzen Volkes war.",
+                "<strong style=\"color:#e2b714;\">Die Propagandamaschine:</strong> Joseph Goebbels baute ein Propagandasystem ohne Beispiel auf. Der Film „Der ewige Jude“ (1940) stellte Juden als Ratten dar. Die Zeitung „Der Stürmer“ (Julius Streicher) veröffentlichte wöchentlich antisemitische Karikaturen. Ab dem sechsten Lebensjahr lernten Kinder Antisemitismus in der Schule. Kinderbücher wie „Der giftige Pilz“ (1938) lehrten Kinder, Juden zu identifizieren und zu hassen. Die Methode: Wiederholen Sie die Lüge oft genug und die Leute beginnen zu glauben.",
+                "<strong style=\"color:#e2b714;\">Der Nazi-Widerspruch:</strong> Die Nazis behaupteten gleichzeitig, dass Juden eine minderwertige Rasse (Untermenschen) seien und dass sie heimlich die ganze Welt beherrschten. Wenn Juden so minderwertig sind, wie können sie dann alles kontrollieren? Dieser Widerspruch zeigt, dass Antisemitismus kein rationales System, sondern eine paranoide Fantasie ist. Er muss nicht konsistent sein, sondern nur, um Hass zu rechtfertigen."
+            ],
+            "fact_boxes": [
+                "<strong>Die Leiter der Zerstörung:</strong><br>1933: Boykott jüdischer Geschäfte, Entlassung aus Regierungsämtern<br>1935: Nürnberger Gesetze &mdash; Entzug der Staatsbürgerschaft, Verbot von Mischehen<br>1938: Kristallnacht &mdash; 1.400 Synagogen niedergebrannt, 30.000 Juden dorthin geschickt Lager<br>1939-1941: Ghettos, organisierter Hunger, Massenerschießungen (Einsatzgruppen töteten 1,5 Millionen)<br>1942: Wannsee-Konferenz &mdash; Die „Endlösung“ wurde offiziell<br>1942-1945: Industriegaskammern in Auschwitz-Birkenau, Treblinka, Sobibor, Belzec, Chelmno, Majdanek",
+                "<strong>Die Zahlen:</strong> 6 Millionen Juden wurden ermordet &mdash; ein Drittel des gesamten jüdischen Volkes. 1,5 Millionen davon waren Kinder. Tausend Jahre alte jüdische Gemeinden in Europa wurden vollständig vernichtet. Dies ist möglicherweise das einzige Mal in der Geschichte, dass ein moderner Staat industrielle Ressourcen (Züge, Fabriken und Bürokratie) ausschließlich für die Ermordung eines ganzen Volkes eingesetzt hat."
+            ],
+            "sources": "Quellen: Raul Hilberg, „Die Zerstörung der europäischen Juden“ (1961/2003); USHMM-Archive; Yad Vashem Zentrale Datenbank der Namen von Shoah-Opfern"
+        },
+        {
+            "title": "Modernes Westeuropa",
+            "subtitle": "„Antizionismus“ als neue Maske für alten Antisemitismus",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Der neue „Antizionismus“:</strong> Der Historiker Natan Sharansky hat den „3D-Test“ entwickelt, um zu erkennen, wann Kritik an Israel in Antisemitismus übergeht: <strong>Dämonisierung</strong> (Israel = Nazis), <strong>Delegitimierung</strong> (Israel hat kein Existenzrecht), <strong>Doppelmoral</strong> (Forderungen an Israel, die es nicht sind von keinem anderen Land verlangt). Berechtigte Kritik an einer bestimmten israelischen Politik wird ebenso akzeptiert wie Kritik an jedem anderen Land. Aber die Existenzberechtigung Israels allein unter allen Nationen der Welt zu leugnen, ist Antisemitismus.",
+                "<strong style=\"color:#e2b714;\">Großbritannien &mdash; Die Labour-Affäre:</strong> Unter Jeremy Corbyn (2015–2020) wurde die britische Labour Party von der Equality and Human Rights Commission (EHRC) untersucht und für schwerwiegende Verstöße gegen das Diskriminierungsgesetz &mdash; institutionellen Antisemitismus verantwortlich gemacht. Corbyn nannte Hamas und Hisbollah „Freunde“, legte einen Kranz am Grab des Drahtziehers des Münchner Olympia-Massakers 1972 nieder und unterstützte einen Künstler, der ein antisemitisches Wandgemälde malte. Tausende Juden verließen die Partei.",
+                "<strong style=\"color:#e2b714;\">Universitätsgelände:</strong> Die BDS-Bewegung (Boykott, Desinvestition, Sanktionen) ist zu einem zentralen Arm des Antisemitismus auf dem Campus geworden. Jüdische Studenten berichten von Belästigung, Ausschluss aus Organisationen für soziale Gerechtigkeit („Du bist ein Zionist? Du bist nicht eingeladen“) und zerbrochenen Fensterscheiben in Hillel-Clubs. Der große Diebstahl: Sie nutzen die Sprache der Menschenrechte, um nur einem Volk das grundlegendste Recht zu verweigern: &mdash; das Recht auf Selbstbestimmung &mdash;."
+            ],
+            "fact_boxes": [
+                "<strong>Frankreich:</strong> Die größte jüdische Auswanderung aus Europa im 21. Jahrhundert findet in Frankreich statt. 2006: Ilan Halimi, ein junger jüdischer Mann, wurde von der „Barbarenbande“ &mdash; entführt, 24 Tage lang gefoltert und ermordet, weil er Jude „und daher reich“ war. 2012: Mohamed Merah erschoss drei Kinder und Rabbi Jonathan Sandler in einer jüdischen Schule in Toulouse. 2015: Angriff auf den koscheren Supermarkt Hyper Cacher in Paris, 4 Menschen ermordet. Juden machen 1 % der französischen Bevölkerung aus, aber 40 % der Opfer von Hassverbrechen. Zwischen 2010 und 2020 verließen etwa 38.000 Juden Frankreich nach Israel."
+            ],
+            "sources": "Quellen: EHRC Report on Labour (2020); Natan Sharansky, „3D Test“ (2004); Berichte über Antisemitismus auf dem ADL-Campus; CRIF (Conseil Représentatif des Institutions Juives de France)"
+        },
+        {
+            "title": "Die Vereinigten Staaten",
+            "subtitle": "Von der „Alt-Right“ bis zur „Nation of Islam“ – Hass aus allen Richtungen",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Die extreme Rechte:</strong> In Charlottesville, Virginia (August 2017) marschierten Neonazis mit Fackeln und riefen: „Juden werden uns nicht ersetzen.“ Am 27. Oktober 2018 betrat Robert Bowers die Tree of Life-Synagoge in Pittsburgh, Pennsylvania, und erschoss elf Gläubige. Dies ist der tödlichste Angriff gegen Juden in der amerikanischen Geschichte. Er rief: „Alle Juden müssen sterben“, bevor er das Feuer eröffnete.",
+                "<strong style=\"color:#e2b714;\">Louis Farrakhan und die „Nation des Islam“:</strong> Farrakhan nannte Juden „Termiten“, „satanische Blutsauger“ und das Judentum eine „Gossenreligion“. Seine Organisation veröffentlicht Bücher wie „The Secret Relationship Between Blacks and Jews“, in denen sie Juden des Sklavenhandels beschuldigen – eine Behauptung, die von jedem ernsthaften Historiker (einschließlich schwarzer Historiker wie Henry Louis Gates) widerlegt wird. Dieser Hass ist besonders gefährlich, weil er sich in die Sprache der sozialen Gerechtigkeit kleidet.",
+                "<strong style=\"color:#e2b714;\">Kanye West (Ye) und Celebrity Culture:</strong> Im Dezember 2022 erklärte West „Ich liebe Nazis“ und lobte Hitler in einer Live-Übertragung. Zuvor twitterte er „Death con 3 on Jewish people“. Die Auswirkung: ADL berichtete über einen starken Anstieg der antisemitischen Propaganda rechtsextremer Gruppen, die sich als Rechtfertigung auf „West“ berufen. Wenn jemand mit 30 Millionen Anhängern den Hass auf Juden normalisiert, sind die Konsequenzen real und gefährlich."
+            ],
+            "fact_boxes": [
+                "<strong>Statistik:</strong> Im Jahr 2022 dokumentierte ADL 3.697 antisemitische Vorfälle in den USA &mdash; die höchste Zahl seit Beginn der Verfolgung im Jahr 1979. Ein Anstieg von 36 % in einem Jahr. 2023 (nach dem 7. Oktober): Die Zahl stieg auf 8.873 Vorfälle &mdash;, ein Anstieg von 140 %. Nach Angaben des FBI machen Juden 2,4 % der Bevölkerung aus, machen aber über 60 % der Opfer religiöser Hassverbrechen aus."
+            ],
+            "sources": "Quellen: ADL Audit of Antisemitic Incidents (2022, 2023); FBI-Statistik über Hassverbrechen; Henry Louis Gates Jr., „Schwarzer Antisemitismus“ im Wandel (1992); Berichterstattung der Pittsburgh Post-Gazette"
+        },
+        {
+            "title": "Iran und das islamische Regime",
+            "subtitle": "Antisemitismus als staatliche Politik: von der Holocaust-Leugnung bis zur Finanzierung des Terrorismus",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Institutionalisierte Holocaust-Leugnung:</strong> Der frühere Präsident Mahmud Ahmadinedschad hielt in Teheran (2006) eine internationale Konferenz zur Holocaust-Leugnung ab, lud bekannte Holocaust-Leugner aus der ganzen Welt ein (darunter David Duke vom KKK) und erklärte den Holocaust zum „Mythos“. Der Oberste Führer Chamenei setzte diese Linie fort und behauptete, es bestünden „ernsthafte Zweifel“ am Holocaust. Dies ist keine historische Position &mdash;, es ist eine psychologische Vorbereitung. Die Leugnung des vorherigen Völkermords ebnet den Weg für den nächsten.",
+                "<strong style=\"color:#e2b714;\">Die ironische Heuchelei des Widerspruchs:</strong> Der Iran behauptet, Israel sei rassistisch &mdash;, während das iranische Regime im Iran selbst systematisch Bahai, Kurden, Araber, Sunniten und LGBTQ+-Personen verfolgt. Tausende Hinrichtungen pro Jahr, Frauen werden ermordet, weil sie keinen Hijab tragen (Mahsa Amini, 2022). Die jüdische Gemeinde im Iran (ca. 8.000 Menschen, gegenüber über 100.000 vor der Revolution) lebt unter Überwachung und Beschränkungen."
+            ],
+            "fact_boxes": [
+                "<strong>Finanzierung des Terrorismus:</strong> Der Iran finanziert und bewaffnet die Hisbollah (Libanon), die Hamas (Gaza), den Islamischen Dschihad (Gaza) und die Houthis (Jemen). Die Hisbollah ist für den AMIA-Bombenanschlag in Buenos Aires (1994, 85 Tote) und den Bombenanschlag auf die israelische Botschaft (1992, 29 Tote) verantwortlich. Das erklärte Ziel Irans: „Israel von der Landkarte zu tilgen.“ Das ist keine Politikkritik, sondern ein Aufruf zur Zerstörung eines Volkes."
+            ],
+            "sources": "Quellen: AMIA-Untersuchungsunterlagen; IAEA-Berichte; Länderberichte des US-Außenministeriums zu Menschenrechten; MEMRI-Übersetzungen iranischer Staatsmedien"
+        },
+        {
+            "title": "Japan, Südkorea und Ostasien",
+            "subtitle": "Ein überraschendes Phänomen: Antisemitismus in Ländern, in denen es fast keine Juden gibt",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Das Paradoxon:</strong> Ungefähr 1.000 Juden leben in Japan (von 125 Millionen). In Südkorea &mdash; ein paar Hundert. Doch „Die Protokolle der Weisen von Zion“ wurden in Japan in Dutzenden Auflagen übersetzt und verkauft. Bücher wie „Jewish Control of the World“ sind Bestseller. In Japan und Südkorea beweist „Antisemitismus ohne Juden“ den zentralen Punkt: <strong>Antisemitismus ist keine Reaktion auf echte Juden &mdash; es ist eine Fantasie über imaginäre Juden.</strong>",
+                "<strong style=\"color:#e2b714;\">Die asiatische Version:</strong> Im Gegensatz zum europäischen Antisemitismus (Hass) ist die asiatische Version manchmal auf verzerrte Weise „positiv“: „Juden sind klug, sie kontrollieren das Geld, wir können von ihnen lernen.“ Das ist immer noch Antisemitismus &mdash;, weil er auf Stereotypen basiert und nicht auf Begegnungen mit echten Juden. Es verwandelt Juden von Menschen in mythische Figuren."
+            ],
+            "fact_boxes": [],
+            "sources": "Quellen: ADL Global 100-Umfrage; David Goodman & Masanori Miyazawa, „Jews in the Japanese Mind“ (1995)"
+        }
+    ],
+    "report_title": "Auf Antisemitismus gestoßen? Berichten Sie",
+    "report_desc": "Schweigen Sie nicht. Berichterstattung &mdash; rettet Leben und verhindert Eskalation. Hier können Sie sich wenden:",
+    "gallery_title": "Historische Dokumentation",
+    "youtube_title": "Zuschauen und lernen",
+    "footer": {
+        "motto": "Die Wahrheit ist die stärkste Waffe gegen Hass",
+        "motto_en": "Die Wahrheit ist die stärkste Waffe gegen Hass"
+    }
+}

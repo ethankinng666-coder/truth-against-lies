@@ -1,0 +1,837 @@
+{
+    "meta": {
+        "code": "it",
+        "name": "Italiano",
+        "dir": "ltr"
+    },
+    "nav": [
+        "Cos'è l'antisemitismo?",
+        "Reclami e confutazioni",
+        "Bugie comuni",
+        "Cronologia",
+        "La psicologia",
+        "Odio delle Nazioni",
+        "Documentazione storica",
+        "Denuncia l'antisemitismo",
+        "Guarda e impara",
+        "Cosa si può fare?"
+    ],
+    "ui": {
+        "donate_btn": "&#9749; Supporto",
+        "lang_btn": "Lingua",
+        "search_placeholder": "Cerca nel sito...",
+        "copy_btn": "&#128203; Copia risposta",
+        "lie_footer": "&#10070; La verità vince sempre &#10070;",
+        "toggle_open": "&#9660; Fai clic per aprire"
+    },
+    "hero_title": "La verità contro la menzogna",
+    "hero_subtitle": "Smascherare le bugie, presentare i fatti",
+    "hero_subtitle_en": "La verità contro la menzogna: combattere l’antisemitismo",
+    "hero_cta": "Scopri la verità &#8595;",
+    "stat_labels": [
+        "Affermazioni sfatate",
+        "Anni documentati",
+        "Categorie",
+        "Nazioni e società",
+        "Fonti accademiche"
+    ],
+    "about_title": "Cos'è l'antisemitismo?",
+    "about_desc": "L'odio più antico della storia umana &mdash; 2.500 anni di bugie che devono essere smascherate",
+    "about_cards": [
+        {
+            "title": "Un odio che cambia forma",
+            "text": "L’antisemitismo è l’odio di gruppo più persistente nella storia umana. Ha assunto forme diverse in epoche diverse &mdash; religiosa, razziale, politica, economica, cospirativa &mdash; ma il modello centrale rimane lo stesso: gli ebrei diventano il capro espiatorio dei problemi della società."
+        },
+        {
+            "title": "Perché la documentazione è importante",
+            "text": "Per combattere l’antisemitismo bisogna prima capirlo. In questo sito troverai 34 cliché antisemiti comuni di 8 categorie, ciascuno con una confutazione fattuale, una spiegazione psicologica del motivo per cui le persone credono alla menzogna e fonti accademiche. Nessuna richiesta viene lasciata senza risposta."
+        },
+        {
+            "title": "Tre livelli di risposta",
+            "text": "<strong style=\"color:#2ecc71;\">1. Confutazione fattuale</strong> &mdash; Cosa mostrano effettivamente i fatti?<br><strong style=\"color:#3498db;\">2. Spiegazione psicologica</strong> &mdash; Perché le persone credono a questa bugia?<br><strong style=\"color:#e2b714;\">3. Contesto storico</strong> &mdash; Quando questa menzogna ha ucciso delle persone?"
+        }
+    ],
+    "claims_title": "34 Affermazioni - 34 Confutazioni",
+    "claims_desc": "Fare clic su ciascuna categoria per rivelare le affermazioni e su ciascuna affermazione per leggere la confutazione completa",
+    "categories": [
+        {
+            "number": "Categoria 1",
+            "title": "Antisemitismo religioso e teologico",
+            "desc": "Lo strato più antico: l’odio radicato nelle narrazioni religiose",
+            "claims": [
+                {
+                    "title": "\"Gli ebrei hanno ucciso Gesù\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Gesù fu crocifisso dalle autorità romane utilizzando un metodo di esecuzione romano (la crocifissione è una punizione romana, non ebraica). Il governatore romano Ponzio Pilato ordinò l'esecuzione. I Vangeli furono scritti 40-70 anni dopo gli eventi, nel contesto della separazione del cristianesimo dal giudaismo. Il Concilio Vaticano II (1965) dichiarò ufficialmente che la colpa collettiva non doveva essere attribuita al popolo ebraico nel suo insieme."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Capro espiatorio + pensiero guidato dalle emozioni: i primi cristiani avevano bisogno di una spiegazione del motivo per cui gli ebrei, il popolo di Gesù, non accettavano la sua affermazione messianica. Incolpare gli ebrei fornì una comoda spiegazione emotiva. Inoltre, mentre il cristianesimo cercava di essere accettato all'interno dell'Impero Romano, incolpare Roma per la morte di Gesù era politicamente pericoloso &mdash; incolpare gli ebrei era più conveniente."
+                    ],
+                    "sources": "Fonti: Raymond Brown, 'La morte del Messia' (1994); Concilio Vaticano II, Nostra Aetate (1965)"
+                },
+                {
+                    "title": "\"Gli ebrei sono i figli del diavolo\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Il Vangelo di Giovanni (8:44) documenta un aspro dibattito intraebraico in un contesto specifico. Gesù stesso era ebreo, i suoi discepoli erano ebrei e il cristianesimo primitivo era un movimento intraebraico. Applicare un lato di un argomento interno a tutti gli ebrei per l’eternità è come prendere un dibattito tra due politici americani e concludere che tutti gli americani sono malvagi."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Disumanizzazione: etichettare un gruppo esterno come satanico o subumano è un precursore documentato della violenza. La ricerca di Gregory Stanton identifica la disumanizzazione come la fase 4 nel percorso verso il genocidio (8 fasi nel 1996, ampliate a 10 nel 2012). La demonizzazione degli ebrei ha consentito secoli di pogrom."
+                    ],
+                    "sources": "Fonti: Adele Reinhartz (2018); Gregory Stanton, 'The 8 Stages of Genocide' (1996, ampliato a 10 nel 2012)"
+                },
+                {
+                    "title": "\"Diffamazione del sangue: gli ebrei usano il sangue dei bambini cristiani nei rituali\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "In 900 anni dalla prima diffamazione del sangue (Norwich, 1144), non è mai stato dimostrato un solo caso. L'ebraismo proibisce esplicitamente e ripetutamente il consumo di sangue: \"Non mangerete il sangue di alcuna carne, perché la vita di ogni carne è il suo sangue\" (Levitico 17:14). Le leggi Kashrut richiedono il completo drenaggio del sangue dalla carne prima del consumo. Papa Innocenzo IV (1247) e l'imperatore Federico II (1236) indagarono sulle accuse e le trovarono infondate."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Proiezione + colpa spostata: la diffamazione del sangue è emersa durante le crociate, quando gli stessi cristiani commisero violenze di massa e spargimenti di sangue. Accusare gli ebrei di riti di sangue funzionava come una proiezione psicologica: trasferire la colpa della violenza cristiana sull'\"altro\" ebreo. Inoltre, l'accusa forniva la giustificazione per il sequestro di proprietà ebraiche e l'espulsione della popolazione ebraica."
+                    ],
+                    "sources": "Fonti: R. Po-chia Hsia, 'Il mito dell'omicidio rituale' (1988); Magda Teter, 'Diffamazione del sangue' (2020)"
+                },
+                {
+                    "title": "\"Profanazione dell'ostia: gli ebrei accoltellano le ostie\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "L’accusa richiedeva di credere contemporaneamente a due cose impossibili: che gli ebrei rifiutassero la teologia cristiana (la convinzione che l’ostia diventi il ​​corpo di Cristo) e che gli ebrei attaccassero l’ostia proprio perché credono nella sua santità. Questa è una contraddizione logica. Se gli ebrei non credono che l'ostia sia Gesù, non hanno motivo di \"torturarla\". La storica Miri Rubin ha documentato che le accuse di profanazione dell'ospite sono avvenute proprio durante periodi di tensione economica tra le comunità ebraiche e cristiane &mdash;, suggerendo che il vero motivo fosse la competizione economica, e non la teologia. Nei massacri di Rintfleisch (1298), oltre 100 comunità ebraiche in Germania furono distrutte sulla base di queste accuse."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Errore di attribuzione + capro espiatorio economico: le comunità in difficoltà economiche avevano bisogno di una giustificazione per confiscare i beni ebraici. Un’accusa religiosa forniva copertura morale al furto economico. Questo modello &mdash; di utilizzo di accuse morali per giustificare guadagni materiali &mdash; ricorre in tutta la storia dell'antisemitismo."
+                    ],
+                    "sources": "Fonti: Miri Rubin, 'Gentile Tales: The Narrative Assault on Late Medieval Jewish' (1999)"
+                },
+                {
+                    "title": "\"Gli ebrei avvelenano i pozzi e diffondono pestilenze\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Gli ebrei non erano immuni dalla peste nera &mdash; morirono in massa. In alcune comunità, i tassi di mortalità ebraica erano leggermente più bassi, cosa che gli storici attribuiscono al frequente lavaggio delle mani (come richiesto dalla legge ebraica), alla quarantena per i malati e alle fonti d'acqua separate nei ghetti. Queste sono pratiche religiose, non una cospirazione. Papa Clemente VI nel 1348 emanò due bolle papali in difesa degli ebrei, sottolineando che gli ebrei morivano di peste proprio come tutti gli altri. I massacri continuarono nonostante ciò."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Gestione del terrore + necessità di controllo: la peste nera ha ucciso il 30-60% della popolazione europea in 4 anni. La teoria della gestione del terrore (Greenberg, Solomon e Pyszczynski) mostra che quando le persone affrontano l’ansia di morte, diventano più ostili verso i gruppi esterni. Incolpare gli ebrei per la peste trasformò un disastro casuale e terrificante in qualcosa causato da un nemico identificabile &mdash; ripristinando l'illusione del controllo."
+                    ],
+                    "sources": "Fonti: Samuel Cohn, 'La peste nera e il rogo degli ebrei' (2007); Papa Clemente VI, Bolla 'Quamvis Perfidiam' (1348)"
+                },
+                {
+                    "title": "\"Gli ebrei furono condannati a vagare senza patria\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "L'esilio ebraico dalla Terra d'Israele fu il risultato della conquista militare: l'esilio babilonese (586 a.C.), la distruzione del Tempio da parte di Roma (70 d.C.) e la rivolta di Bar Kokhba (135 d.C.). Successivamente, gli ebrei furono espulsi dai paesi per decreto umano: Inghilterra (1290), Francia (1306, 1394), Spagna (1492), Portogallo (1497). Ogni espulsione veniva effettuata dai re per ragioni politiche ed economiche. Considerare lo sfollamento forzato come una maledizione incolpa la vittima della propria persecuzione."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Pregiudizio del mondo giusto (Melvin Lerner): le persone hanno un profondo bisogno psicologico di credere che il mondo sia giusto &mdash; e che ottengano ciò che meritano. Quando gli ebrei furono espulsi e perseguitati, gli osservatori dovettero credere che se lo meritassero. \"Devono aver fatto qualcosa di sbagliato\" &mdash; questo è il pregiudizio del mondo giusto in azione."
+                    ],
+                    "sources": "Fonti: Melvin Lerner, 'La fede in un mondo giusto' (1980); David Nirenberg, 'Antigiudaismo: la tradizione occidentale' (2013)"
+                },
+                {
+                    "title": "\"Il Talmud contiene insegnamenti di odio contro i gentili\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Il Talmud è un archivio di 6.200 pagine di discussioni giuridiche che abbracciano 700 anni (200 a.C. - 500 d.C.). Contiene opinioni diverse su ogni argomento &mdash; spesso contraddittorie &mdash; perché registra dibattiti, non dogmi. Prendere passaggi isolati senza contesto è come citare una singola opinione dissenziente di un tribunale e affermare che rappresenti la legge.<br><br>Il Talmud insegna esplicitamente: \"I giusti di tutte le nazioni hanno una parte nel mondo a venire\" (Tosefta Sanhedrin 13:2). La legge ebraica richiede onestà negli affari con tutte le persone (dina d'malkhuta dina). Pikuach nefesh (salvare vite umane) prevale su quasi tutti i comandamenti e obbliga a salvare tutta la vita umana, non solo la vita ebraica."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Bias di conferma + scelta selettiva: le persone che già credono che gli ebrei odiano i gentili cercano nel Talmud passaggi che confermino la loro convinzione, ignorano le migliaia di passaggi che la contraddicono ed eliminano il contesto da quelli che trovano. Lo stesso metodo potrebbe far sembrare che qualsiasi testo religioso &mdash; la Bibbia, il Corano, le scritture indù &mdash; incoraggi le atrocità."
+                    ],
+                    "sources": "Fonti: Gil Student, 'La vera verità sul Talmud' (2000); David Berger, 'Persecuzione, polemica e dialogo' (2010)"
+                }
+            ]
+        },
+        {
+            "number": "Categoria 2",
+            "title": "Antisemitismo razziale e biologico",
+            "desc": "L'odio pseudo-scientifico tra Ottocento e Novecento",
+            "claims": [
+                {
+                    "title": "\"Gli ebrei sono una razza separata e inferiore\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Il Progetto Genoma Umano (2003) ha confermato che esiste una maggiore variazione genetica all’interno di qualsiasi gruppo razziale che tra i gruppi. Gli esseri umani condividono il 99,9% del loro DNA indipendentemente dalla provenienza. Le popolazioni ebraiche sono geneticamente diverse: gli ebrei ashkenaziti, sefarditi, mizrahi, etiopi, indiani e cinesi sembrano completamente diversi gli uni dagli altri. L'idea di un'unica \"razza ebraica\" non ha alcun significato genetico."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Necessità di gerarchia: la teoria della dominanza sociale (Sidanius & Pratto, 1999) mostra che alcune persone hanno un forte bisogno di organizzare i gruppi in gerarchie di valori. La classificazione razziale ha fornito un quadro \"scientifico\" per classificare i gruppi umani. Il razzismo pseudo-scientifico ha fatto sì che i pregiudizi apparissero razionali e basati sull’evidenza."
+                    ],
+                    "sources": "Fonti: Progetto Genoma Umano (2003); Dichiarazione dell'UNESCO sulla razza (1950-1967)"
+                },
+                {
+                    "title": "\"Gli ebrei sono geneticamente predisposti all'avidità e alla manipolazione\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "La genetica comportamentale ha dimostrato inequivocabilmente che i tratti comportamentali complessi (personalità, carattere morale, comportamento finanziario) sono modellati da una combinazione di genetica e ambiente &mdash; e mai dall'appartenenza a un gruppo etnico. Non esiste un \"gene dell'avidità\". Gli studi sulle donazioni di beneficenza mostrano costantemente che le comunità ebraiche sono tra le più generose al mondo. L’associazione tra ebrei e denaro è un costrutto storico: i cristiani medievali limitavano gli ebrei al prestito di denaro e poi li incolpavano del risultato."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Errore fondamentale di attribuzione (Lee Ross, 1977): un pregiudizio cognitivo che induce le persone ad attribuire il comportamento degli altri al loro carattere piuttosto che alle circostanze. Quando gli ebrei prestavano denaro, gli osservatori attribuivano questo al carattere ebraico (\"sono avidi\") piuttosto che a vincoli situazionali (erano esclusi da altre professioni). Ciò equivale a incolpare una persona su sedia a rotelle per non aver utilizzato le scale."
+                    ],
+                    "sources": "Fonti: Lee Ross (1977); Steven Pinker, 'La tabula rasa' (2002)"
+                },
+                {
+                    "title": "\"Gli ebrei sono subumani (Untermenschen)\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Classificare qualsiasi gruppo umano come “subumano” è una tecnica di propaganda, non un’affermazione scientifica. La ricerca di Gregory Stanton identifica la disumanizzazione come la fase 4 del genocidio (8 fasi nel 1996, ampliate a 10 nel 2012) &mdash; la fase che rende psicologicamente possibile uccidere. I nazisti allo stesso tempo affermavano che gli ebrei erano subumani e che governavano segretamente il mondo &mdash;, un'assoluta contraddizione logica. Umberto Eco lo identificò come una caratteristica distintiva dell'ideologia fascista: \"Il nemico è allo stesso tempo troppo forte e troppo debole\"."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Disimpegno morale (Albert Bandura): la ricerca di Bandura mostra che le persone comuni possono commettere crudeltà straordinarie quando la loro regolamentazione morale viene neutralizzata. La disumanizzazione è il meccanismo più potente &mdash; quando le vittime vengono riclassificate come non umane, gli autori possono far loro del male senza il costo psicologico della colpa. L’Olocausto ha richiesto che milioni di tedeschi comuni partecipassero o tollerassero il genocidio. La disumanizzazione lo ha reso psicologicamente possibile."
+                    ],
+                    "sources": "Fonti: Gregory Stanton, '8 Stages of Genocide' (1996, ampliato a 10 nel 2012); Umberto Eco, 'Ur-Fascismo' (1995); Alberto Bandura (1999)"
+                },
+                {
+                    "title": "\"Gli ebrei promuovono la mescolanza razziale per indebolire le altre razze\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "L'accusa è pura proiezione. Gli stessi nazisti portarono avanti l’eugenetica su vasta scala: il programma T4 uccise oltre 70.000 persone disabili, il programma Lebensborn generò bambini “razzialmente puri”, le sterilizzazioni forzate colpirono 400.000 persone e l’Olocausto uccise 6 milioni di ebrei e milioni di altri. Accusare gli ebrei proprio per l’atto commesso dagli accusatori stessi è una proiezione classica. Le versioni moderne (la teoria della “Grande Sostituzione”) affermano che gli ebrei stanno orchestrando l’immigrazione per sostituire le popolazioni bianche. L’immigrazione è guidata da forze economiche, guerre, cambiamenti climatici e politiche di governi democratici con leadership diversificate."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Proiezione su larga scala: quando un intero regime proietta i propri crimini sulle sue vittime, ha due scopi: (1) giustifica le azioni del regime (\"dobbiamo fare questo perché lo stanno facendo a noi\") e (2) immunizza la popolazione dalla simpatia per le vittime (\"ci farebbero di peggio se potessero\"). Questa è Propaganda 101."
+                    ],
+                    "sources": "Fonti: Robert Proctor, \"Igiene razziale: medicina sotto i nazisti\" (1988); Richard Evans, 'Il Terzo Reich al potere' (2005)"
+                }
+            ]
+        },
+        {
+            "number": "Categoria 3",
+            "title": "Stereotipi economici e finanziari",
+            "desc": "Il mito del denaro: accuse di avidità, controllo e sfruttamento",
+            "claims": [
+                {
+                    "title": "\"Gli ebrei controllano le banche e i sistemi finanziari globali\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Nell'Europa medievale, gli ebrei erano esclusi dalla maggior parte delle professioni (agricoltura, corporazioni, governo). Una delle poche occupazioni consentite era il prestito di denaro, che i cristiani consideravano peccaminoso. Quando gli usurai ebrei ebbero successo, furono odiati proprio per il successo imposto loro. La famiglia Rothschild (fondata nel 1760) divenne un simbolo sfruttato dagli antisemiti. In realtà, gli ebrei costituiscono circa lo 0,2% della popolazione mondiale e non controllano il settore bancario. Le principali banche sono società quotate in borsa con leadership diversificate."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Bias da correlazione illusoria (Hamilton & Gifford, 1976): quando una minoranza è coinvolta in un evento negativo, le persone sovrastimano la connessione tra il gruppo e l’evento. Se un banchiere ebreo commette una frode, viene annotata la sua ebraicità; quando un banchiere non ebreo commette una frode, la sua origine etnica è invisibile."
+                    ],
+                    "sources": "Fonti: Hamilton & Gifford, Journal of Experimental Social Psychology (1976)"
+                },
+                {
+                    "title": "\"Gli ebrei sono avidi e ossessionati dal denaro\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Il legame tra ebrei e avidità è un costrutto culturale, non un dato di fatto. Deriva dai ruoli economici limitati a cui gli ebrei furono costretti. Nell'Europa cristiana, la Chiesa proibiva ai cristiani di dedicarsi all'usura (prestito a interesse). Gli ebrei, che erano esclusi dalla maggior parte delle professioni (possedere terreni, aderire a corporazioni professionali, coltivare), avevano poche opzioni economiche &mdash; e il commercio e il prestito di denaro erano tra queste. Sono stati poi accusati proprio dell’occupazione loro imposta.",
+                        "Gli studi sulle donazioni di beneficenza mostrano costantemente che le comunità ebraiche sono tra le più generose al mondo. Le federazioni ebraiche solo in America donano miliardi ogni anno sia alle comunità ebraiche che a quelle non ebraiche. Il concetto di carità nel giudaismo (tzedakah &mdash; deriva dalla parola \"giustizia\") è un obbligo religioso, non un atto volontario di gentilezza. Maimonide (XII secolo) stabilì 8 livelli di carità, di cui il più alto è quello di aiutare una persona a diventare autosufficiente."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Proiezione + invidia spostata: le persone invidiano il successo economico e incolpano chi ha successo per l’avidità. Personaggi letterari come Shylock (Shakespeare, \"Il mercante di Venezia\") e Fagin (Dickens, \"Oliver Twist\") hanno rafforzato lo stereotipo per secoli. La propaganda antisemita nelle caricature raffigurava ebrei con il naso adunco che stringevano monete &mdash; immagini che appaiono ancora oggi online."
+                    ],
+                    "sources": "Fonti: Derek Penslar, \"I figli di Shylock: economia e identità ebraica nell'Europa moderna\" (2001); Maimonide, Mishneh Torah, Leggi sui doni ai poveri"
+                },
+                {
+                    "title": "\"Gli ebrei hanno causato la crisi finanziaria del 2008\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Dopo ogni crisi economica, gli antisemiti incolpano gli ebrei. La crisi del 2008 ha generato un’ondata di teorie del complotto che nominano responsabili specifici finanzieri ebrei. Lo stesso schema si è verificato durante la Grande Depressione (trasmissioni radiofoniche di padre Coughlin), la crisi asiatica del 1998 e dopo le interruzioni economiche del COVID. In realtà, le crisi finanziarie derivano da fattori sistemici (deregolamentazione, speculazione, strumenti finanziari complessi) che colpiscono interi settori &mdash; e non dalle azioni di alcun gruppo etnico."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Bias di proporzionalità: le persone si aspettano che i grandi eventi abbiano grandi cause. Quando si verifica una crisi finanziaria globale, l’idea che essa sia il risultato di fattori sistemici complessi è insoddisfacente. L’idea che un gruppo potente lo abbia pianificato sembra più proporzionata. Gli ebrei, già stereotipati come potenza finanziaria, diventano la “grande causa”."
+                    ],
+                    "sources": "Fonti: Daniel Kahneman, \"Pensare, veloce e lento\" (2011)"
+                },
+                {
+                    "title": "\"Gli ebrei sfruttano economicamente i gentili e li considerano come bestiame\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "La parola \"goy\" significa semplicemente \"nazione\" in ebraico (anche Israele è chiamato \"goy kadosh\" &mdash; una nazione santa &mdash; nella Torah) e si riferisce in modo neutrale ai non ebrei. Gli antisemiti hanno distorto questo concetto affermando che gli ebrei vedono i gentili come bestiame subumano che può essere sfruttato. Questa è una fabbricazione completa.",
+                        "L'ebraismo ha un sistema completo di leggi etiche che richiedono un trattamento equo di tutti gli esseri umani: \"Ama il tuo prossimo come te stesso\" (Levitico 19:18), \"Giustizia, perseguirai la giustizia\" (Deuteronomio 16:20) e \"Non opprimerai il tuo prossimo\" (Levitico 19:13). Il principio \"dina d'malkhuta dina\" (la legge del paese è legge) richiede che gli ebrei siano onesti in tutti i rapporti. La legge ebraica proibisce esplicitamente il \"geneivat da'at\" (inganno) &mdash; indipendentemente dal fatto che la vittima sia ebrea o meno.",
+                        "L’affermazione secondo cui il Talmud consente lo sfruttamento dei non ebrei si basa su citazioni estrapolate dal contesto da 6.200 pagine di discussione (per comprendere la distorsione, immaginate di estrarre una singola frase da un intero libro e affermare che rappresenti l’intera opera). Studiosi qualificati del Talmud &mdash; ebrei e non ebrei &mdash; rifiutano all'unanimità questa lettura."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Ignoranza + ricerca di conferme: le persone che già odiano gli ebrei cercano \"prove\" in testi che non possono leggere (il Talmud è scritto in ebraico e aramaico). Si basano su \"traduzioni\" inventate circolate fin dal Medioevo. La pubblicazione \"Talmud Unmasked\" di padre Justinas Pranaitis (1892) si dimostrò piena di errori quando lo stesso Pranaitis ammise in tribunale di non conoscere effettivamente l'aramaico."
+                    ],
+                    "sources": "Fonti: Peter Sch&auml;fer, 'Gesù nel Talmud' (2007); Gil Student, \"La vera verità sul Talmud\" (2000); Documentazione dell'ADL"
+                }
+            ]
+        },
+        {
+            "number": "Categoria 4",
+            "title": "Teorie della cospirazione politica",
+            "desc": "Controllo segreto, dominazione del mondo e \"la mano nascosta\"",
+            "claims": [
+                {
+                    "title": "\"Gli ebrei controllano segretamente i governi del mondo (ZOG)\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "\"I Protocolli dei Savi Anziani di Sion\" è un testo inventato, creato dalla polizia segreta russa (Okhrana) intorno al 1903, che pretendeva di essere il verbale di un incontro ebraico per pianificare il dominio del mondo. Fu dimostrato che si trattava di un falso nel 1921 dal Times di Londra &mdash; il testo fu copiato quasi parola per parola da una satira del 1864 di Maurice Joly su Napoleone III, che non aveva nulla a che fare con gli ebrei.",
+                        "Nonostante sia stato completamente sfatato, Henry Ford lo distribuì in America (il giornale \"Dearborn Independent\", 91 numeri antisemiti), Hitler lo citò nel \"Mein Kampf\", e rimane ancora oggi un bestseller nel mondo arabo. Se 15 milioni di ebrei (0,2% della popolazione mondiale) governassero veramente il mondo &mdash; perché non potevano impedire l'Olocausto? Perché Israele ha bisogno di negoziare per la sua esistenza? Il presunto \"controllo\" è la prova migliore che non esiste."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Pensiero cospiratorio: la ricerca (van Prooijen, 2017) mostra che le persone che credono in una cospirazione tendono a credere in altre, anche in quelle contraddittorie. \"Gli ebrei controllano il mondo\" è la \"madre di tutte le cospirazioni\" &mdash; una semplice spiegazione per tutto ciò che è sbagliato. Fornisce un’illusione di controllo: se dietro al caos c’è qualcuno, allora il mondo non è casuale e spaventoso. È confortante, anche se è falso."
+                    ],
+                    "sources": "Fonti: Norman Cohn, 'Mandato di genocidio' (1967); van Prooijen & Douglas, \"Le teorie del complotto come parte della storia\" (2017)"
+                },
+                {
+                    "title": "\"Gli ebrei controllano i media e manipolano l'opinione pubblica\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "L’affermazione che gli ebrei controllino i media è statisticamente e fattivamente falsa. Le principali società di media sono società quotate in borsa (Disney, Comcast, News Corp) con proprietà e leadership diversificate, consigli di amministrazione, azionisti e management provenienti da vari paesi e background. Rupert Murdoch (News Corp, Fox News) &mdash; Australiano. Jeff Bezos (Washington Post) &mdash; americano. Elon Musk (Twitter/X) &mdash; Sudafricano. Nessuno di loro è ebreo.",
+                        "L'affermazione funziona come un infalsificabile Comma 22: se un ebreo lavora nei media, ciò \"dimostra\" la cospirazione. Se un ebreo non lavora nei media, \"si nasconde\". Se i media parlano positivamente di Israele, \"lo controllano\". Se il rapporto è negativo, \"è una cortina di fumo\". Nessuna prova può confutare una convinzione che non è mai stata basata su prove."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Bias di conferma + correlazione illusoria: il sondaggio ADL Global 100 ha rilevato che questo è uno degli stereotipi antisemiti più diffusi &mdash; Il 74% degli intervistati in Medio Oriente e il 24% in Europa ritiene che gli ebrei controllino i media. Una volta che la convinzione esiste, ogni ebreo trovato nei media la “dimostra”, mentre migliaia di non ebrei nei media vengono semplicemente ignorati."
+                    ],
+                    "sources": "Fonti: ADL Global 100 Survey (2023); Steven Bayme, 'Capire la storia ebraica' (1997)"
+                },
+                {
+                    "title": "\"Gli ebrei hanno una doppia lealtà: sono fedeli a Israele, non al loro Paese\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "L’accusa di doppia lealtà è stata utilizzata per secoli per escludere gli ebrei dalla vita civile. Il capitano Alfred Dreyfus, un ufficiale ebreo francese, fu condannato per tradimento nel 1894 sulla base di prove fabbricate &mdash; e in parte sul presupposto che un ebreo non potesse essere veramente fedele alla Francia. Fu scagionato nel 1906 dopo che la vicenda divise la Francia.",
+                        "In realtà, gli ebrei hanno prestato servizio con distinzione negli eserciti di ogni paese in cui hanno vissuto, spesso in modo sproporzionato: 100.000 ebrei prestarono servizio nell’esercito tedesco durante la prima guerra mondiale, 12.000 furono uccisi in combattimento, 18.000 ricevettero la Croce di Ferro, 35.000 furono promossi di grado e 3.000 divennero ufficiali. Nel 1935, quella stessa Germania li privò della cittadinanza. 550.000 ebrei prestarono servizio nell'esercito americano durante la seconda guerra mondiale. L'accusa di \"doppia lealtà\" è rivolta solo agli ebrei &mdash; nessuno accusa gli irlandesi-americani di doppia lealtà verso l'Irlanda."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Perenne \"alterità\": l'accusa rivela il presupposto secondo cui gli ebrei sono sempre \"outsider\", non importa quante generazioni abbiano vissuto in un paese. Questo è un modello universale di razzismo. &mdash; I membri dei gruppi minoritari sono sempre tenuti a \"dimostrare\" la loro lealtà, mentre la lealtà della maggioranza è data per scontata."
+                    ],
+                    "sources": "Fonti: Ruth Harris, \"Dreyfus: Politica, emozione e lo scandalo del secolo\" (2010); Museo nazionale di storia militare ebraica americana"
+                },
+                {
+                    "title": "\"L'11 settembre è stato orchestrato da Israele/Mossad\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Pochi giorni dopo gli attacchi dell’11 settembre, emersero teorie cospirative secondo le quali 4.000 ebrei sarebbero rimasti a casa dal lavoro alle Torri Gemelle dopo essere stati avvertiti dal Mossad. La menzogna si è diffusa attraverso Al-Manar (il canale televisivo di Hezbollah), siti web di cospirazione e propaganda iraniana.",
+                        "I fatti: circa 400 ebrei furono uccisi negli attacchi, proporzionali alla popolazione ebraica di New York (~12%). La società americana di servizi finanziari Cantor Fitzgerald ha perso 658 dipendenti &mdash; la perdita più grande di qualsiasi altra azienda nell'attacco. Il numero \"4.000\" è interamente inventato e ha avuto origine da una notizia secondo cui l'ambasciata israeliana stava cercando di localizzare 4.000 israeliani che vivevano o lavoravano nell'area di New York &mdash; \"localizzare\" è diventato \"avvertito\". Una bugia deliberata."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Bias di proporzionalità + spostamento della colpa: un attacco come quello dell’11 settembre genera un’enorme rabbia. Se gli aggressori sono una piccola organizzazione (al-Qaeda), non è \"abbastanza grande\" per il disastro. L’idea che dietro ci sia un’entità potente (Israele/Mossad) sembra più “proporzionata”. Nel mondo arabo, la cospirazione è servita anche a deviare la colpa di al-Qaeda &mdash;, un'organizzazione araba islamica &mdash; sugli \"ebrei\"."
+                    ],
+                    "sources": "Fonti: Commissione 11 settembre (2004); factcheck.org; Gruppo di intelligence del SITO"
+                },
+                {
+                    "title": "\"Gli ebrei hanno creato il comunismo per distruggere la civiltà occidentale\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Karl Marx nacque ebreo ma fu battezzato da bambino e fu lui stesso antisemita nei suoi scritti (\"Sulla questione ebraica\", 1843, dove scrisse che \"il dio degli ebrei è il denaro\"). Gli stessi antisemiti che accusavano gli ebrei di essere comunisti li accusavano contemporaneamente di controllare il capitalismo &mdash; una contraddizione che rivela che l'obiettivo non è la verità ma l'accusa.",
+                        "Nell'Unione Sovietica, gli ebrei furono perseguitati sotto il comunismo: la campagna anticosmopolita (1948-1953) licenziò gli intellettuali ebrei, il \"complotto dei medici\" (1953) accusò i medici ebrei di complottare per uccidere i leader sovietici, e il movimento Refusenik (1960-1980) fu perseguitato per il desiderio degli ebrei di andarsene. Le espressioni e le istituzioni culturali ebraiche furono sistematicamente eliminate. Il comunismo perseguitava gli ebrei &mdash; l'esatto contrario di ciò che sostiene la cospirazione."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Pensiero monolitico: incolpare un gruppo etnico per un’idea politica è un classico errore di pensiero. Alcuni ebrei erano comunisti &mdash; proprio come alcuni ebrei erano capitalisti, anarchici, liberali, conservatori e sionisti. Attribuire la diversità politica di un intero popolo a un unico complotto etnico rivela la convinzione che gli ebrei siano un monolite &mdash; e non, come ogni popolo, un insieme eterogeneo di individui con opinioni diverse."
+                    ],
+                    "sources": "Fonti: Jonathan Frankel, \"Crisis, Revolution, and Russian Jewish\" (2009); Robert Weinberg, La Sion dimenticata di Stalin (1998)"
+                }
+            ]
+        },
+        {
+            "number": "Categoria 5",
+            "title": "Accuse culturali e sociali",
+            "desc": "Affermazioni sul carattere, il comportamento e l'influenza sociale degli ebrei",
+            "claims": [
+                {
+                    "title": "\"Gli ebrei sono tribali e rifiutano di assimilarsi\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "La crudele ironia: per gran parte della storia, agli ebrei è stato impedito con la forza l’assimilazione. Furono costretti nei ghetti (Venezia, 1516 &mdash; il primo ghetto; Roma fino al 1870), esclusi dalle professioni, privati ​​della cittadinanza (solo nel 1791 in Francia, 1871 in Germania), ed espulsi dai paesi.",
+                        "Quando gli ebrei mantennero le proprie comunità in queste condizioni &mdash; furono accusati di separazione volontaria. Quando gli ebrei si assimilarono (nella Germania di Weimar: tasso di matrimoni misti del 25%, servizio militare completo, leadership nella cultura occidentale) &mdash; furono accusati di \"infiltrazione\" nella società e alla fine furono annientati. L’accusa è infalsificabile: qualunque cosa facciano gli ebrei, è sempre sbagliata. Separato? Tribale. Assimilare? Infiltrarsi. Mantenere la tradizione? Resistente. Modifica? Perdere identità."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Definire l'\"altro\": Ogni gruppo maggioritario si definisce in parte da chi non ne fa parte. Gli ebrei, in quanto minoranza visibile, fungevano da perfetto “altro” in Europa. Se si assimilano completamente, l'\"altro\" scompare &mdash; e con esso parte dell'identità della maggioranza. Pertanto anche la piena assimilazione non è sufficiente &mdash; come hanno scoperto gli ebrei tedeschi che si sentivano completamente tedeschi e furono assassinati ad Auschwitz."
+                    ],
+                    "sources": "Fonti: Zygmunt Bauman, 'La modernità e l'Olocausto' (1989); Amos Elon, 'Tutto peccato: un ritratto dell'epoca ebraico-tedesca' (2002)"
+                },
+                {
+                    "title": "\"Gli ebrei pensano di essere il 'popolo eletto' e superiori a tutti\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Nella teologia ebraica “eletto” non significa “superiore”. Significa essere scelti per una responsabilità aggiuntiva &mdash; nello specifico, l'obbligo di osservare i 613 comandamenti della Torah. Questo è un dovere, non un privilegio. Per capire: i gentili sono obbligati solo dalle 7 leggi di Noè. Gli ebrei sono obbligati dalla 613. Semmai, \"scelti\" significa essere tenuti a uno standard più severo.",
+                        "Il giudaismo insegna esplicitamente che i giusti di tutte le nazioni avranno una parte nel mondo a venire (Tosefta Sanhedrin 13:2). Il profeta Amos dichiarò: \"Non siete voi per me come gli etiopi, o figli d'Israele?\" (Amos 9:7) &mdash; tutti i popoli sono uguali agli occhi di Dio. Al contrario, il cristianesimo sostiene che solo i credenti in Gesù vengono salvati, e l’Islam afferma che solo i musulmani entrano in paradiso. L'ebraismo è in realtà il meno \"suprematista\" dei tre."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Traduzione errata + incomprensione culturale: Il termine “Popolo eletto” è stato tradotto nelle lingue europee come titolo di supremazia, mentre in ebraico esprime responsabilità. Questo è lo stesso problema di leggere un testo culturale straniero attraverso una lente culturale diversa. Inoltre, molti cristiani ritenevano che la pretesa ebraica di essere scelti sfidasse l'affermazione cristiana secondo cui la Chiesa è il \"Nuovo Israele\" (supersessionismo)."
+                    ],
+                    "sources": "Fonti: Eugene Borowitz, 'Rinnovare l'Alleanza' (1991); David Novak, 'L'elezione di Israele' (1995)"
+                },
+                {
+                    "title": "\"Gli ebrei controllano Hollywood e corrompono la moralità\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Gli immigrati ebrei fuggiti dai pogrom in Europa (molti dei quali poveri, arrivati ​​senza nulla) fondarono alcuni dei primi studi di Hollywood all'inizio del XX secolo &mdash; proprio perché erano esclusi dalle industrie \"rispettabili\" e dovettero rivolgersi a un campo nuovo e non consolidato come il cinema. Il loro successo in quello che era considerato un campo \"economico\" fu riformulato come \"controllo\" una volta che il cinema divenne un'industria importante.",
+                        "La moderna industria dell’intrattenimento è un ecosistema aziendale globale. La Disney è di proprietà di azionisti di tutto il mondo. Netflix, Amazon, Apple TV &mdash; nessuno di loro è \"controllato\" dagli ebrei. L'affermazione funziona come tutte le cospirazioni: successo personale degli ebrei in un campo particolare = \"controllo etnico\". Ma quando gli italiani gestiscono i ristoranti &mdash; nessuno dice che gli italiani “controllano il cibo”."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Invidia + bisogno di spiegazioni: quando un’industria produce cultura che le persone non amano (violenza, sessualità, valori progressisti), è più facile incolpare un “gruppo straniero” piuttosto che affrontare il fatto che il pubblico più ampio consuma e finanzia questi contenuti. \"Gli ebrei stanno corrompendo la moralità\" permette alle persone di incolpare gli altri invece di assumersi la responsabilità dei propri gusti."
+                    ],
+                    "sources": "Fonti: Neal Gabler, \"Un impero tutto loro: come gli ebrei hanno inventato Hollywood\" (1988); Documentazione dell'ADL"
+                },
+                {
+                    "title": "\"Gli ebrei possono essere identificati fisicamente dal loro aspetto (naso adunco, ecc.)\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "La caricatura fisica degli ebrei &mdash; naso adunco, lineamenti scuri, postura curva, mani che si sfregano &mdash; è un'invenzione propagandistica, non la realtà. La figura della caricatura si sviluppò nell'arte cristiana medievale, si intensificò nelle caricature antisemite del XIX secolo (come il quotidiano francese \"La Libre Parole\") e raggiunse il suo apice nel \"Der St&uuml;rmer\" nazista dove Julius Streicher pubblicò caricature antisemite settimanali.",
+                        "La realtà: gli ebrei sono un popolo etnicamente diversificato che comprende comunità ashkenazite (europei, di pelle chiara), sefarditi (mediterranei), mizrahi (mediorientali, di pelle scura), etiopi (Beta Israel, neri), indiani (Bene Israel), cinesi (comunità di Kaifeng) e yemeniti. Sembrano completamente diversi l'uno dall'altro. Non esiste un \"aspetto ebraico\" &mdash; così come non esiste un \"aspetto cristiano\" o un \"aspetto musulmano\"."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Disumanizzazione visiva: le caricature fisiche sono una fase critica nella disumanizzazione. Quando un gruppo viene fatto \"sembrare diverso\", diventa più facile considerarlo subumano. I nazisti usarono tali caricature nel libro per bambini \"Il fungo velenoso\" (1938) per insegnare ai bambini come \"identificare\" gli ebrei. Oggi sui social vengono diffuse le stesse caricature come \"meme\" &mdash; lo stesso veleno, una nuova bottiglia."
+                    ],
+                    "sources": "Fonti: Sara Lipton, 'Dark Mirror: The Medieval Origins of Anti-Jewish Iconography' (2014); Mostra \"Propaganda\" dell'USHMM"
+                }
+            ]
+        },
+        {
+            "number": "Categoria 6",
+            "title": "Antisionismo antisemita moderno",
+            "desc": "Quando la critica a Israele sconfina nell’odio verso gli ebrei",
+            "claims": [
+                {
+                    "title": "\"Israele è uno stato nazista / Il sionismo è nazismo\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Paragonare Israele alla Germania nazista è una forma di \"inversione dell'Olocausto\" &mdash; che utilizza il genocidio degli ebrei per attaccare gli ebrei. La Germania nazista costruì un sistema industriale il cui unico scopo era lo sterminio razziale totale: treni, camere a gas, crematori, burocrazia &mdash; 6 milioni di assassinati. Nessuno stato democratico, incluso Israele, ha fatto qualcosa di lontanamente paragonabile su qualsiasi scala.",
+                        "La definizione IHRA (adottata da oltre 35 paesi) identifica questo confronto come antisemitismo. Il motivo: trasforma il trauma ebraico in un'arma contro gli ebrei e trasmette implicitamente il messaggio che \"le vittime sono diventate gli assassini\". Questa non è una critica legittima &mdash; ma è un tentativo di negare agli ebrei il diritto di definire la propria storia. Si possono criticare specifiche politiche israeliane (e molti lo fanno) senza ricorrere a paragoni nazisti il ​​cui scopo è ferire."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Inversione vittima-carnefice: psicologicamente, trasformare la vittima in carnefice libera il cristiano/arabo/europeo dalla colpa storica. Se “gli ebrei sono i nuovi nazisti”, allora 2.000 anni di persecuzione europea e antisemitismo arabo sono in equilibrio. Questo è un conforto psicologico, non un argomento storico."
+                    ],
+                    "sources": "Fonti: Definizione operativa di antisemitismo dell’IHRA (2016); Manfred Gerstenfeld, 'L'abuso della memoria dell'Olocausto' (2009)"
+                },
+                {
+                    "title": "\"Gli ebrei non meritano uno Stato: Israele non ha il diritto di esistere\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Negare il diritto all’autodeterminazione del popolo ebraico concedendolo a tutti gli altri popoli è una discriminazione. Gli stati membri delle Nazioni Unite sono 193. Se qualcuno afferma che Israele non ha il diritto di esistere &mdash;, fa la stessa affermazione anche nei confronti del Pakistan (creato nel 1947 su base religiosa, causando lo sfollamento di 15 milioni di persone)? Della Giordania (creata dagli inglesi nel 1921)? Di Siria, Iraq, Libano (creati da francesi e britannici dopo la prima guerra mondiale)?",
+                        "Il collegamento ebraico con la Terra d'Israele è documentato archeologicamente da oltre 3.000 anni: antiche iscrizioni ebraiche, resti di templi, monete della rivolta di Bar Kokhba, antiche sinagoghe. Gli ebrei mantennero una presenza continua nella Terra d'Israele per 3.000 anni, anche dopo l'esilio. Il sionismo non è colonialismo &mdash; è un movimento di liberazione nazionale di un popolo che ritorna nella sua patria storica."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Doppio standard come sintomo: quando qualcuno chiede che solo Israele, tra tutti i 193 stati membri delle Nazioni Unite, giustifichi il suo diritto di esistere &mdash; questa non è \"critica politica\". È uno standard applicato a nessun altro paese. Natan Sharansky ha identificato il doppio standard come uno dei 3 segni che distinguono la critica legittima dall'antisemitismo."
+                    ],
+                    "sources": "Fonti: Natan Sharansky, '3D Test' (2004); Reperti archeologici dell'Autorità israeliana per le antichità; Risoluzione 181 dell'Assemblea generale delle Nazioni Unite (1947)"
+                },
+                {
+                    "title": "\"La lobby israeliana (AIPAC) controlla la politica estera americana\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Ogni paese fa lobby a Washington. Secondo i dati del FARA (Foreign Agents Registration Act), l’Arabia Saudita spende decine di milioni di dollari ogni anno in attività di lobbying negli Stati Uniti (un picco di 27 milioni di dollari in alcuni anni). Emirati Arabi Uniti: oltre 20 milioni di dollari. Qatar, Giappone, Corea del Sud &mdash; decine di milioni ciascuno. L’AIPAC è un’organizzazione di lobby americana (non israeliana) che opera secondo le stesse regole e con la stessa trasparenza di ogni altra lobby.",
+                        "L’affermazione secondo cui l’AIPAC “controlla” la politica statunitense ignora i fattori reali: interessi geopolitici (Israele = un alleato stabile e democratico in Medio Oriente), condivisione dell’intelligence, industria della difesa (più di 8 miliardi di dollari all’anno, per lo più restituiti sotto forma di acquisti da società americane) e sostegno pubblico americano (i sondaggi Gallup hanno storicamente mostrato una simpatia del 60-70% per Israele, con un certo calo dal 2023). Individuare la lobby filo-israeliana come “particolarmente potente” fa eco alla stessa cospirazione &mdash; “Gli ebrei controllano i governi”."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Incomprensione della democrazia + pensiero cospiratorio: molte persone non capiscono che il lobbismo è una parte legittima della democrazia americana &mdash; ogni gruppo di interesse lo fa. Quando la lobby filo-israeliana viene additata come “manipolazione” piuttosto che come lobby &mdash; si tratta di una vecchia cospirazione sotto mentite spoglie moderne."
+                    ],
+                    "sources": "Fonti: Registri FARA; Sondaggi di favore Gallup Israel; Dati sulle attività di lobbying di OpenSecrets.org"
+                }
+            ]
+        },
+        {
+            "number": "Categoria 7",
+            "title": "Negazione e distorsione dell'Olocausto",
+            "desc": "Negazione, minimizzazione o distorsione dell'assassinio di 6 milioni di ebrei",
+            "claims": [
+                {
+                    "title": "\"L'Olocausto non è avvenuto / 6 milioni sono un'esagerazione\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Le prove dell'Olocausto sono tra le più vaste di qualsiasi evento storico: documenti amministrativi nazisti (i nazisti documentarono meticolosamente i loro crimini), testimonianze di oltre 100.000 sopravvissuti, confessioni dei perpetratori a Norimberga e in altri processi, fotografie della liberazione da parte delle forze alleate, prove fisiche ad Auschwitz-Birkenau e in altri siti, dati demografici che mostrano la scomparsa di intere comunità ebraiche e documenti come il Protocollo di Wannsee (1942) che documenta la \"Soluzione finale.\"",
+                        "David Irving, il più eminente negatore dell’Olocausto, è stato smascherato in uno storico caso giudiziario di Londra nel 2000 (Irving v Lipstadt). Il giudice ha stabilito che Irving \"ha deliberatamente distorto e manipolato la storia\". La negazione dell'Olocausto è illegale in 17 paesi perché non è un'\"opinione\" &mdash; è la negazione di fatti documentati, proprio come negare che la Terra sia rotonda, tranne che è pericoloso perché apre la strada al prossimo genocidio."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Riduzione della dissonanza cognitiva: gli antisemiti che vogliono continuare a odiare gli ebrei si trovano ad affrontare un problema: &mdash; l'Olocausto rende moralmente impossibile l'odio verso gli ebrei. La soluzione: negare l’Olocausto. Se l'Olocausto non fosse accaduto, si sarebbe potuto tornare a odiare gli ebrei senza sensi di colpa. Ecco perché la negazione dell’Olocausto e l’antisemitismo vanno sempre insieme."
+                    ],
+                    "sources": "Fonti: Deborah Lipstadt, 'Negare l'Olocausto' (1993); Irving contro Penguin Books Ltd (2000); Enciclopedia dell'Olocausto dell'USHMM"
+                },
+                {
+                    "title": "\"Gli ebrei hanno inventato o esagerato l'Olocausto per fini politici e finanziari\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "L’accusa secondo cui gli ebrei hanno inventato il proprio genocidio per simpatia o per denaro contiene antisemitismo su tre livelli: (1) nega la sofferenza di milioni di vittime, (2) inquadra la memoria del genocidio come un “programma ebraico per fare soldi” (lo stereotipo dell’ebreo avido) e (3) trasforma le vittime in truffatori.",
+                        "I fatti: i risarcimenti per l’Olocausto da parte della Germania arrivarono dopo 7 anni di lotta politica (Accordi di Lussemburgo, 1952). Coprevano una piccola parte delle proprietà rubate agli ebrei europei (case, attività commerciali, risparmi, opere d'arte, oro &mdash; valore stimato di centinaia di miliardi di dollari). Molti sopravvissuti vissero in povertà dopo la guerra. Oggi in Israele oltre 30.000 sopravvissuti all’Olocausto vivono al di sotto della soglia di povertà. Il presunto \"profitto\" è un mito."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Stanchezza per l’Olocausto + invidia: alcune persone sono stanche di sentire parlare dell’Olocausto e cercano una giustificazione per la loro indifferenza. L'idea che \"gli ebrei sfruttino l'Olocausto a scopo di lucro\" fornisce una giustificazione morale per ignorare l'Olocausto. Inoltre, in alcune parti del mondo arabo, negare o minimizzare l'Olocausto funge da strumento politico &mdash; Se l'Olocausto non è avvenuto, non vi è alcuna giustificazione per l'esistenza di Israele (secondo la loro logica errata)."
+                    ],
+                    "sources": "Fonti: Norman Finkelstein, 'The Holocaust Industry' (2000, controverso); Documenti della Conferenza sulle rivendicazioni materiali ebraiche contro la Germania; Fondazione israeliana a beneficio delle vittime dell'Olocausto"
+                },
+                {
+                    "title": "\"Le camere a gas non esistevano / erano solo camere di disinfestazione\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Il Rapporto Leuchter (1988) affermava che l'analisi chimica delle mura di Auschwitz mostrava residui di cianuro insufficienti. È stato completamente smentito dal Krakow Forensic Institute (1994), che ha trovato significativi composti di cianuro. Il livello \"più basso\" rispetto alle camere di disinfestazione è spiegato dalla chimica di base: l'uccisione di esseri umani richiede molto meno Zyklon B rispetto all'uccisione dei pidocchi (300 ppm contro 16.000 ppm).",
+                        "Le prove delle camere a gas: (1) Rudolf H&ouml;ss, comandante di Auschwitz, le descrisse dettagliatamente nella sua confessione e nell'autobiografia che scrisse prima della sua esecuzione. (2) I Sonderkommando (prigionieri costretti a lavorare nelle camere a gas) hanno testimoniato dettagliatamente. (3) Sono stati ritrovati i progetti della ditta Topf und S&ouml;hne (che costruì i crematori) &mdash; compreso un ordine per \"porte a tenuta di gas\". (4) Fotografie aeree alleate del 1944 mostrano file di persone che entrano in edifici da cui si alza il fumo. (5) I resti fisici ad Auschwitz-Birkenau sono aperti al pubblico."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Neonazismo sotto mentite spoglie accademiche: i negazionisti dell’Olocausto si travestono da “ricercatori” e “revisionisti” per dare alle bugie l’apparenza di erudizione. L’obiettivo: legittimare nuovamente il nazismo. Si è scoperto che nella storia tutti i \"negazionisti dell'Olocausto\" hanno collegamenti con organizzazioni neonaziste &mdash; Non esiste un ricercatore neutrale che neghi l'Olocausto. Questa non è una \"posizione accademica\" ma propaganda."
+                    ],
+                    "sources": "Fonti: Jean-Claude Pressac, 'Auschwitz: tecnica e funzionamento delle camere a gas' (1989); Rapporto dell'Istituto forense di Cracovia (1994); Robert Jan van Pelt, testimone esperto nel processo Irving"
+                }
+            ]
+        },
+        {
+            "number": "Categoria 8",
+            "title": "Antisemitismo online e contemporaneo",
+            "desc": "Mutazioni moderne dell'odio antico nell'era digitale",
+            "claims": [
+                {
+                    "title": "\"Simboli codificati: parentesi triple (((echi))), 'sezione primi anni di vita'\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Il simbolo delle triple parentesi (((nome))) è stato creato dal blog neonazista \"The Right Stuff\" (2014) per identificare gli ebrei online. La \"sezione dei primi anni di vita\" si riferisce al controllo delle voci di Wikipedia per l'ascendenza ebraica. Ulteriori espressioni codificate: \"109\" (l'affermazione secondo cui gli ebrei furono espulsi da 109 paesi), \"da goyim know\", \"oy vey\", \"6 million product\", \"globalista\" e \"banchiere internazionale\" come nomi in codice.",
+                        "Il linguaggio codificato consente una negazione plausibile: \"Non sono antisemita, sto solo parlando di globalisti\". Gli algoritmi dei social media faticano a identificare il linguaggio in codice, quindi i contenuti antisemiti cancellati in forma aperta vengono pubblicati in forma codificata. Piattaforme come 4chan, Telegram e Gab sono diventate centri di propaganda antisemita. L'ADL documenta ogni settimana nuovi simboli."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Appartenenza al gruppo + segretezza: il linguaggio codificato crea la sensazione di un \"club segreto\" &mdash; coloro che comprendono il codice sono \"uno di noi\". Ciò fornisce appartenenza sociale, un sentimento di superiorità (\"conosciamo la verità\") e l'adrenalina della trasgressione. Molti giovani sono esposti a contenuti antisemiti attraverso \"meme\" che sembrano barzellette &mdash; ma le barzellette sono il primo stadio della radicalizzazione."
+                    ],
+                    "sources": "Fonti: ADL Hate on Display Database; Ricerca CVE Moonshot; Lo riferisce l'ISD (Istituto per il dialogo strategico)."
+                },
+                {
+                    "title": "\"Gli ebrei hanno creato il COVID/hanno tratto profitto dalla pandemia/i vaccini come un complotto ebraico\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "Le teorie del complotto sul COVID seguivano esattamente lo stesso schema delle accuse di peste medievali: gli ebrei avevano creato il virus, lo avevano diffuso deliberatamente o ne avevano tratto profitto attraverso le aziende farmaceutiche. L’ADL ha documentato oltre 17.000 tweet che incolpavano gli ebrei per il COVID solo nei primi mesi della pandemia.",
+                        "I manifestanti anti-lockdown indossavano stelle gialle e affermavano che \"siamo come gli ebrei nell'Olocausto\" &mdash; un paragone che banalizza l'omicidio di 6 milioni di ebrei con l'inconveniente di un obbligo di indossare maschere. In Iran, i media statali hanno affermato che il virus era una “arma biologica sionista”. In Turchia, i giornali hanno affermato che “dietro il Covid ci sono gli ebrei e il Mossad”. Lo schema è identico al 1348 (gli ebrei hanno avvelenato i pozzi), al 1918 (gli ebrei hanno diffuso l’influenza spagnola) e al 2020 (gli ebrei hanno creato il COVID). 700 anni, la stessa bugia."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Gestione del terrore + modello antico: una pandemia crea ansia da morte. L’ansia di morte aumenta l’ostilità verso i gruppi esterni (teoria della gestione del terrore). Gli ebrei, in quanto classico gruppo esterno, diventano i \"colpevoli\". Questo è esattamente lo stesso meccanismo psicologico che operò durante la Peste Nera nel 1348 &mdash; ciò che cambia è la tecnologia (Twitter invece delle voci di mercato), non la psicologia umana."
+                    ],
+                    "sources": "Fonti: Rapporto ADL COVID-19 (2020); MEMRI; Ricerca dell'Oxford Internet Institute sulle teorie del complotto"
+                },
+                {
+                    "title": "“Gli ebrei sono dietro la ‘Grande Sostituzione’ – che orchestrano l’immigrazione di massa”",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "La teoria della “Grande Sostituzione” (basata sul libro di Renaud Camus, 2011) afferma che gli ebrei stanno deliberatamente organizzando l’immigrazione di massa per distruggere le nazioni a maggioranza bianca. L’immigrazione è in realtà guidata da forze economiche (divari salariali, domanda di lavoro), fattori politici (guerre, dittature), crisi umanitarie (rifugiati) ed eventi climatici (siccità, inondazioni) &mdash; e non da un gruppo etnico che comprende lo 0,2% della popolazione mondiale.",
+                        "Questa cospirazione uccide. È stato citato direttamente come motivazione da: Robert Bowers (Pittsburgh, 2018, 11 uccisi in una sinagoga), Brenton Tarrant (Christchurch, 2019, 51 uccisi in una moschea), Patrick Crusius (El Paso, 2019, 23 uccisi) e John Earnest (Poway, 2019, 1 ucciso in una sinagoga). Ciascuno di essi pubblicò un manifesto incolpando gli ebrei per la \"sostituzione\". Dalla teoria alla violenza &mdash; il passo è breve."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Ansia demografica + capro espiatorio: i reali cambiamenti demografici (immigrazione, tassi di natalità) creano ansia in parti della maggioranza. Piuttosto che affrontare cause complesse, è più facile incolpare un “orchestratore” &mdash; e gli ebrei, gli eterni accusati, forniscono il bersaglio. Questa è la versione del 21° secolo di \"gli ebrei controllano i governi\" &mdash; la stessa cospirazione, solo con \"immigrazione\" invece di \"banche\"."
+                    ],
+                    "sources": "Fonti: ADL; Manifesto di Robert Bowers (archiviato); Rapporto della Commissione reale di Christchurch (2020)"
+                },
+                {
+                    "title": "\"Gli ebrei utilizzano come arma le affermazioni di antisemitismo per mettere a tacere le critiche\"",
+                    "ref_label": "&#10003; Confutazione fattuale",
+                    "ref": [
+                        "L’affermazione secondo cui gli ebrei “sfruttano” l’antisemitismo per mettere a tacere le critiche è di per sé una tattica: dice agli ebrei che “non avete il diritto di lamentarvi” &mdash; proprio quando l’antisemitismo sta raggiungendo numeri record (ADL: 8.873 incidenti nel 2023 solo negli Stati Uniti, un aumento del 140%).",
+                        "Naturalmente c’è un dibattito legittimo su dove cade il confine tra la critica a Israele e l’antisemitismo. Critica di specifiche politiche israeliane = legittima. Negazione del diritto di Israele ad esistere da solo = antisemitismo. Uso di stereotipi su tutti gli ebrei = antisemitismo. La regola è semplice: se sostituisci \"ebreo\" con \"nero/musulmano/asiatico\" e la frase suona razzista &mdash; è anche antisemita.",
+                        "L'affermazione che gli ebrei \"sfruttano il vittimismo\" è la versione contemporanea di \"gli ebrei sono astuti e manipolatori\" &mdash; il più antico stereotipo, sotto mentite spoglie moderne."
+                    ],
+                    "psych_label": "&#128300; Perché le persone ci credono?",
+                    "psych": [
+                        "Difesa contro la dissonanza: le persone esposte alla critica delle loro opinioni sugli ebrei/Israele provano disagio (dissonanza cognitiva). Piuttosto che esaminare le loro opinioni, è più facile sostenere che la critica stessa sia “manipolazione ebraica”. Questo li libera dal bisogno di auto-esame: \"Non sono antisemita, urlano semplicemente all'antisemitismo per farmi tacere\". Il desiderio di evitare la colpa è più forte del desiderio di scoprire la verità."
+                    ],
+                    "sources": "Fonti: Audit ADL (2023); David Hirsh, \"Antisemitismo della sinistra contemporanea\" (2017)"
+                }
+            ]
+        }
+    ],
+    "lies_title": "Bugie e calunnie comuni",
+    "lies_desc": "Bugie comuni contro Israele e il popolo ebraico – e i fatti che li smascherano",
+    "lie_cards": [
+        {
+            "title": "\"Israele ha commesso un genocidio a Gaza\"",
+            "claim_label": "&#10060; Cosa affermano:",
+            "claim": "Le operazioni militari di Israele a Gaza dopo il 7 ottobre 2023 costituiscono un genocidio &mdash;, la distruzione deliberata e sistematica del popolo palestinese. Il Sudafrica ha intentato una causa presso la Corte internazionale di giustizia (ICJ) e i social media inondano Internet affermando che Israele sta commettendo un “genocidio”.",
+            "facts_label": "&#10003; I fatti che smascherano la menzogna:",
+            "facts_list": [
+                "<strong>Definizione legale:</strong> Il genocidio richiede <strong>intento speciale (dolus specialis)</strong> per distruggere un gruppo nazionale, etnico o religioso. La Convenzione delle Nazioni Unite sulla prevenzione del genocidio (1948, Articolo II) stabilisce che è richiesta la prova dell'intento &mdash; e non solo delle vittime.",
+                "<strong>La Corte Internazionale di Giustizia (ICJ) non ha stabilito il genocidio.</strong> Ha stabilito solo che il caso del Sud Africa era \"abbastanza plausibile da essere ascoltato\" &mdash; questa è la soglia legale più bassa per un procedimento provvisorio, non un verdetto.",
+                "<strong>Rapporto combattenti-civili:</strong> Il prof. <strong>John Spencer</strong>, capo degli studi sulla guerra urbana a West Point, ha affermato che il rapporto delle vittime in Israele è di circa <strong>1:1.5</strong> &mdash; mentre la media globale nella guerra è <strong>1:9</strong>.",
+                "<strong>Misure senza precedenti per proteggere i civili:</strong> L'IDF ha effettuato <strong>50.066 telefonate personali</strong>, ha inviato <strong>12 milioni di messaggi vocali</strong> e <strong>14 milioni di messaggi SMS</strong>, ha lanciato milioni di volantini e ha creato corridoi di evacuazione &mdash; qualcosa che non è mai accaduto in nessuna guerra nella storia.",
+                "<strong>Hamas usa scudi umani:</strong> UNRWA (l'agenzia delle Nazioni Unite) ha trovato razzi nelle sue scuole <strong>3 volte separate</strong>. La NATO ha pubblicato un rapporto documentato sulla strategia dello scudo umano di Hamas. Yahya Sinwar ha detto: \"Abbiamo deciso di trasformare i corpi delle nostre donne e dei nostri bambini in una diga\"."
+            ],
+            "facts_conclusion": "Se un esercito con capacità nucleare e una delle forze aeree più forti del mondo avesse l'<strong>intento</strong> di distruggere &mdash; non chiamerebbe, invierebbe SMS ed evacuerebbe i civili prima di ogni attacco. <strong>Non c'è nessun genocidio nella storia in cui la parte attaccante avverte le vittime di fuggire.</strong>",
+            "sources": "Fonti: Convenzione delle Nazioni Unite sulla prevenzione del genocidio (1948, articolo II) | Ordinanza provvisoria dell'ICJ, 26 gennaio 2024 | Consiglio Atlantico: analisi degli esperti | Newsweek — John Spencer, \"Israele ha creato un nuovo standard per la guerra urbana\" | Lieber Institute, West Point - L'IDF e il dovere di avvisare | NATO StratCom COE – Uso degli scudi umani da parte di Hamas | Dichiarazioni ufficiali dell'UNRWA sui razzi nelle scuole"
+        },
+        {
+            "title": "\"Israele ha spinto Trump a combattere l'Iran\"",
+            "claim_label": "&#10060; Cosa affermano:",
+            "claim": "Israele controllava, manipolava o \"spingeva\" gli Stati Uniti &mdash; e in particolare il presidente Trump &mdash; allo scontro con l'Iran. Secondo questa narrazione, l’America sta combattendo la “guerra di Israele” e non difendendo i propri interessi. Questa è una versione moderna del cliché della \"doppia lealtà\" &mdash;, una fandonia antisemita di vecchia data.",
+            "facts_label": "&#10003; I fatti che smascherano la menzogna:",
+            "facts_list": [
+                "<strong>Il conflitto USA-Iran è antecedente a Israele:</strong> Il colpo di stato della CIA nel 1953 (Mossadegh), la crisi degli ostaggi del 1979 (444 giorni) e la completa rottura diplomatica dal 1980 &mdash; decenni prima di qualsiasi \"lobby israeliana\".",
+                "<strong>L'Iran ha ucciso più di 869 americani:</strong> L'attentato a Beirut del 1983 (241 Marines), l'attentato alle Khobar Towers del 1996 (19), le bombe lungo la strada in Iraq dal 2003 al 2011 (603+). Un tribunale americano ha condannato l’Iran a pagare 1,5 miliardi di dollari di danni.",
+                "<strong>Trump è stato anti-Iran dal 1980:</strong> In un'intervista della NBC con Rona Barrett (all'età di 34 anni), Trump ha affermato che gli Stati Uniti avrebbero dovuto invadere l'Iran. Ciò avvenne <strong>46 anni</strong> prima di qualsiasi pretesa di influenza israeliana.",
+                "<strong>Interessi americani indipendenti:</strong> Lo stretto di Hormuz (21% del petrolio mondiale), il programma nucleare iraniano, il finanziamento del terrorismo (Hezbollah, Hamas, Houthi). L’Iran è stato designato “stato sponsor del terrorismo” dal 1984.",
+                "<strong>Anche l'Arabia Saudita ha spinto:</strong> Il Washington Post ha riferito che la pressione proveniva \"da un'insolita coppia di alleati: Israele <strong>e Arabia Saudita</strong>\" &mdash; ma nessuno definisce la pressione saudita una \"cospirazione\"."
+            ],
+            "facts_conclusion": "L'ADL ha identificato questa narrazione come un classico tropo antisemita: <strong>\"doppia lealtà\"</strong> &mdash; che accusa gli ebrei di gestire segretamente la politica estera. Lo stesso cliché fu usato contro Dreyfus (1894), nel \"mito della pugnalata alle spalle\" (1918) e nel \"Complotto dei dottori\" di Stalin (1953).",
+            "sources": "Fonti: FDD - Attacchi iraniani contro gli americani dal 1979 ad oggi | La Casa Bianca (2026) – Decenni di terrorismo iraniano | Declassificato dalla CIA: attentato a Beirut | Amministrazione statunitense per le informazioni sull'energia – Stretto di Hormuz | Brookings – Come Trump pensa all’Iran | Washington Post (28.2.2026) | ADL: un'operazione militare alimenta la cospirazione antisemita | AJC — #TranslateHate: doppia lealtà"
+        },
+        {
+            "title": "\"Israele è uno stato di apartheid\"",
+            "claim_label": "&#10060; Cosa affermano:",
+            "claim": "Israele applica un sistema di segregazione razziale simile al regime di apartheid in Sud Africa. Organizzazioni come Amnesty International e Human Rights Watch hanno pubblicato rapporti utilizzando questa etichetta e la \"Settimana dell'apartheid israeliana\" si tiene in oltre 250 campus in tutto il mondo.",
+            "facts_label": "&#10003; I fatti che smascherano la menzogna:",
+            "facts_list": [
+                "<strong>In Sud Africa:</strong> I neri <strong>non potevano votare</strong>, era loro vietato entrare nei quartieri bianchi, avevano un'istruzione deliberatamente separata e inferiore, i cartelli \"Solo bianchi\" erano ovunque e il matrimonio interrazziale era un <strong>reato penale</strong>.",
+                "<strong>In Israele:</strong> I cittadini arabi (21%) votano con <strong>pieni e pari diritti</strong> dal 1948. Il giudice <strong>Salim Joubran</strong> (arabo) è stato vicepresidente della Corte Suprema. Il <strong>partito Ra'am</strong> si è unito alla coalizione di governo nel 2021. Drusi e beduini prestano servizio come alti ufficiali dell'IDF.",
+                "<strong>Arabi ed ebrei israeliani:</strong> studiano nelle stesse università, vengono curati negli stessi ospedali, fanno acquisti negli stessi centri commerciali, nuotano nelle stesse spiagge. <strong>Non esiste un solo cartello \"Solo ebrei\" in Israele.</strong>",
+                "<strong>Kenneth Meshoe</strong>, un membro del parlamento sudafricano nero <strong>che ha vissuto sotto il vero apartheid</strong>: \"Ho visitato Israele molte volte. <strong>Niente può essere paragonato all'apartheid in Sud Africa.</strong>\"",
+                "<strong>Il giudice Richard Goldstone</strong> (Sudafrica), che ha indagato su Israele per l'ONU, ha scritto sul New York Times (2011): <strong>\"In Israele non esiste l'apartheid. Niente si avvicina alla definizione.\"</strong>"
+            ],
+            "facts_conclusion": "",
+            "sources": "Fonti: ADL — Accusa: Israele è uno Stato di apartheid | Richard Goldstone, \"Israele e la calunnia dell'apartheid\", New York Times (31.10.2011) | UN Watch – Risposta alla denuncia di apartheid | Britannica — Apartheid | Kenneth Meshoe, Jerusalem Post | SSRN — Analisi giuridica di Sekulow e Ash"
+        },
+        {
+            "title": "\"Gli ebrei controllano i media e l'economia globale\"",
+            "claim_label": "&#10060; Cosa affermano:",
+            "claim": "Gli ebrei controllano segretamente le banche, i media e i governi mondiali, manipolando gli eventi globali a proprio vantaggio. Questa teoria si basa sui \"Protocolli dei Savi Anziani di Sion\" &mdash; un falso provato creato nel 1903 &mdash; e sul mito della famiglia Rothschild.",
+            "facts_label": "&#10003; I fatti che smascherano la menzogna:",
+            "facts_list": [
+                "<strong>\"Protocolli degli Anziani di Sion\" &mdash; un falso provato:</strong> Creato dalla polizia segreta russa (Okhrana). Nel 1921, il Times di Londra dimostrò che si trattava di una <strong>copia diretta</strong> di una satira francese su Napoleone III (1864) che non aveva <strong>assolutamente alcun collegamento con gli ebrei</strong>. Un tribunale svizzero (1935) dichiarò il testo \"falsificazione, plagio e letteratura oscena\".",
+                "<strong>Mito dei Rothschild:</strong> La ricchezza della famiglia è stimata in 400 miliardi di dollari &mdash; distribuiti su 7 generazioni. Per fare un confronto: <strong>Elon Musk da solo</strong> vale circa 800 miliardi di dollari. L’affermazione che “i Rothschild controllano l’80% della ricchezza globale” è <strong>matematicamente impossibile</strong> &mdash; la ricchezza globale totale è di circa 471 trilioni di dollari.",
+                "<strong>Le 4 banche più grandi del mondo sono cinesi</strong> (ICBC, Agricultural Bank, Construction Bank, Bank of China). Tra le prime 20 banche &mdash; la maggior parte sono cinesi, giapponesi, britanniche e francesi.",
+                "<strong>Ebrei = 0,2% della popolazione mondiale</strong> (15,7 milioni su 8 miliardi). È <strong>statisticamente impossibile</strong> che lo 0,2% \"controlli\" l'economia, i media e i governi globali.",
+                "<strong>L'ironia:</strong> Come nota l'ADL &mdash; \"Nel corso della storia, gli ebrei hanno avuto <strong>pochissimo controllo</strong> anche sul proprio destino\" &mdash; espulsioni, pogrom, Olocausto."
+            ],
+            "facts_conclusion": "",
+            "sources": "Fonti: USHMM – Protocolli dei Savi Anziani di Sion | ADL — Una bufala d'odio | Snopes - Ricchezza della famiglia Rothschild (verifica dei fatti) | PolitiFact — Valutazione \"Pantaloni in fiamme\" | S&P Global: le banche più grandi del mondo 2024 | Sondaggio ADL Global 100 2024 | Britannica: protocolli"
+        },
+        {
+            "title": "\"Gli ebrei non hanno alcun legame storico con la Terra d'Israele\"",
+            "claim_label": "&#10060; Cosa affermano:",
+            "claim": "Gli ebrei sono “colonizzatori europei” senza alcun legame reale con la Terra di Israele. Il sionismo è unicamente un moderno “progetto coloniale”. Mahmoud Abbas (aprile 2025) ha affermato che i Templi si trovavano <strong>nello Yemen, non a Gerusalemme</strong>. Il movimento \"Temple Denial\" nega qualsiasi collegamento ebraico con il Monte del Tempio.",
+            "facts_label": "&#10003; I fatti che smascherano la menzogna: 3.200 anni di prove:",
+            "facts_list": [
+                "<strong>Stele di Merneptah (1208 a.C.):</strong> Un'iscrizione egiziana &mdash; <strong>la prima menzione non biblica di Israele</strong> nella storia. Museo del Cairo.",
+                "<strong>Stele di Tel Dan (IX secolo a.C.):</strong> Un'iscrizione aramaica trovata nel 1993: \"Casa di Davide\" &mdash; <strong>la prima prova esterna della dinastia davidica</strong>.",
+                "<strong>Iscrizione di Siloe (701 a.C.):</strong> Un'antica iscrizione ebraica all'interno del tunnel di Ezechia a Gerusalemme &mdash; <strong>un parlante ebraico era al comando a Gerusalemme 2.700 anni fa</strong>.",
+                "<strong>Rotoli del Mar Morto (III secolo a.C. — I secolo d.C.):</strong> 981 manoscritti in ebraico e aramaico &mdash; <strong>le copie più antiche della Bibbia</strong>. Museo d'Israele, Gerusalemme.",
+                "<strong>Arco di Tito, Roma (81 d.C.):</strong> Un rilievo raffigurante soldati romani <strong>che trasportano la Menorah dal Tempio di Gerusalemme</strong> &mdash; Prova romana che il Tempio ebraico si trovava a Gerusalemme.",
+                "<strong>50.000+ monete Bar Kokhba (132-135 d.C.):</strong> Con simboli ebraici e antiche iscrizioni ebraiche: \"Per la libertà di Gerusalemme\".",
+                "<strong>Studi genetici (PNAS 2000, Nature 2010):</strong> Tutti i gruppi ebraici &mdash; Ashkenazi, sefarditi e mizrahi &mdash; <strong>condividono marcatori genetici comuni del Medio Oriente</strong>. Gli ebrei sono geneticamente più vicini ai palestinesi, ai siriani e ai drusi che agli europei.",
+                "<strong>Società delle Nazioni (1922):</strong> Riconoscimento internazionale ufficiale del <strong>\"il legame storico del popolo ebraico con la Palestina.\"</strong>"
+            ],
+            "facts_conclusion": "Negare il legame ebraico con la Terra d'Israele significa ignorare <strong>archeologia, documenti romani, scienza genetica e diritto internazionale</strong> &mdash; che confermano tutti la stessa conclusione.",
+            "sources": "Fonti: Società di Archeologia Biblica - Merneptah Stele, Tel Dan Stele | Museo di Israele — Rotoli del Mar Morto | Yeshiva University - Progetto Arco di Tito | Martello et al. (2000), PNAS 97(12) | Behar et al. (2010), Natura 466 | Mandato della Società delle Nazioni (1922), Progetto Yale Avalon | USHMM | ADL"
+        }
+    ],
+    "timeline_title": "2.500 anni di persecuzioni",
+    "timeline_desc": "La cronologia mostra che le stesse bugie si ripetono ancora e ancora, ogni volta con conseguenze mortali",
+    "timeline": [
+        {
+            "date": "167 a.C",
+            "title": "Persecuzione di Antioco IV",
+            "desc": "La prima persecuzione sponsorizzata dallo Stato. Profanazione del Tempio, proibizione del giudaismo. Ha scatenato la rivolta dei Maccabei: Hanukkah.",
+            "victims": ""
+        },
+        {
+            "date": "38 d.C",
+            "title": "Il pogrom di Alessandria",
+            "desc": "Il primo pogrom antiebraico documentato. La folla ha attaccato i quartieri ebraici, distrutto case e sinagoghe.",
+            "victims": "Centinaia di morti"
+        },
+        {
+            "date": "70 d.C",
+            "title": "Distruzione del Secondo Tempio",
+            "desc": "Roma distrusse il centro della vita ebraica. L'inizio dell'esilio. Il cristianesimo lo ha riformulato come punizione divina.",
+            "victims": "Centinaia di migliaia"
+        },
+        {
+            "date": "1096",
+            "title": "I massacri della prima crociata",
+            "desc": "I crociati in viaggio verso la Terra Santa massacrarono le comunità ebraiche attraverso la Renania. Nella sola Magonza furono uccisi 1.000 ebrei in un solo giorno.",
+            "victims": "5.000-10.000 uccisi"
+        },
+        {
+            "date": "1144",
+            "title": "La prima diffamazione del sangue: Norwich",
+            "desc": "Un bambino è stato trovato morto; Gli ebrei furono accusati senza prove. Ha creato un modello che si è ripetuto centinaia di volte nei successivi 800 anni.",
+            "victims": ""
+        },
+        {
+            "date": "1215",
+            "title": "Il Concilio Lateranense IV",
+            "desc": "Il Papa ordinò agli ebrei di indossare abiti identificativi (precursore del distintivo giallo), esclusione dai pubblici uffici.",
+            "victims": ""
+        },
+        {
+            "date": "1290",
+            "title": "Espulsione dall'Inghilterra",
+            "desc": "La prima espulsione nazionale completa. Espulsi 3.000-16.000 ebrei. Fu loro proibito di ritornare fino al 1656: 366 anni di proibizione.",
+            "victims": ""
+        },
+        {
+            "date": "1348-1351",
+            "title": "Pogrom della Morte Nera",
+            "desc": "Gli ebrei furono accusati di avvelenare i pozzi. A Strasburgo, 2.000 ebrei furono bruciati vivi il 14 febbraio 1349, prima ancora che la peste raggiungesse la città. Oltre 200 comunità ebraiche furono distrutte.",
+            "victims": "Decine di migliaia"
+        },
+        {
+            "date": "1478",
+            "title": "L'Inquisizione spagnola",
+            "desc": "Nel mirino gli ebrei convertiti al cristianesimo. Torture, prigionia, roghi nelle pubbliche piazze. Leggi sulla “purezza del sangue”: precursori del razzismo nazista.",
+            "victims": "~3.000-5.000 giustiziati"
+        },
+        {
+            "date": "1492",
+            "title": "Espulsione dalla Spagna",
+            "desc": "200.000 ebrei espulsi da un paese dove vivevano da oltre 1.000 anni. Molti morirono durante il viaggio.",
+            "victims": "200.000 esiliati"
+        },
+        {
+            "date": "1933-1945",
+            "title": "L'Olocausto",
+            "desc": "Genocidio industriale sistematico. Ghetti, campi di sterminio, Einsatzgruppen, marce della morte. Ogni tropo antisemita documentato su questo sito è stato utilizzato come giustificazione.",
+            "victims": "6.000.000 di morti"
+        },
+        {
+            "date": "2018-2024",
+            "title": "Ondata globale di antisemitismo",
+            "desc": "Sparatoria alla sinagoga Tree of Life di Pittsburgh (11 morti), Halle, Parigi. L’ADL ha segnalato un aumento del 167% degli incidenti antisemiti negli Stati Uniti tra il 2016 e il 2022.",
+            "victims": ""
+        }
+    ],
+    "psych_title": "La psicologia dell'odio",
+    "psych_desc": "L’antisemitismo non riguarda realmente gli ebrei &mdash; ma riguarda i bisogni psicologici dell’antisemita",
+    "psych_insight_title": "L'intuizione chiave",
+    "psych_insight_text": "Da tutte le spiegazioni psicologiche emerge un modello: l’antisemitismo non riguarda realmente gli ebrei. Riguarda i bisogni psicologici degli antisemiti &mdash;: il loro bisogno di spiegazioni semplici, la loro paura della complessità, la loro rabbia spostata e il loro desiderio di avere qualcuno da incolpare. Gli ebrei sono lo schermo su cui vengono proiettati questi bisogni. Ecco perché l’antisemitismo persiste anche nei paesi in cui gli ebrei sono quasi assenti (Giappone, Corea del Sud, Polonia dopo l’Olocausto).",
+    "psych_cards": [
+        {
+            "title": "Capro espiatorio",
+            "text": "Quando una società affronta una crisi, le persone cercano qualcuno da incolpare. È molto più facile incolpare un gruppo minoritario visibile rispetto a fattori sistemici complessi. Ogni accusa rivela ciò che la società accusatrice teme di più di se stessa."
+        },
+        {
+            "title": "Proiezione",
+            "text": "Il trasferimento inconscio dei propri tratti inaccettabili sugli altri. I cristiani che si sentivano in colpa per l’usura accusavano gli ebrei di avidità. Gli europei che bramavano il dominio del mondo accusavano gli ebrei di cercare il dominio del mondo. I nazisti che praticavano l’eugenetica accusavano gli ebrei di mescolanza razziale."
+        },
+        {
+            "title": "Bias di conferma",
+            "text": "Una volta che qualcuno crede che \"gli ebrei controllano i media\", nota ogni ebreo nei media e ignora le migliaia di persone che non lo sono. La convinzione genera la propria \"evidenza\"."
+        },
+        {
+            "title": "Correlazione illusoria",
+            "text": "Quando una minoranza è coinvolta in un evento negativo, le persone sopravvalutano il collegamento. Se un banchiere ebreo commette una frode &mdash; viene annotata la sua ebraicità. Se un banchiere non ebreo commette una frode &mdash; la sua origine etnica è invisibile."
+        },
+        {
+            "title": "La personalità autoritaria",
+            "text": "Adorno (1950) ha trovato una combinazione di tratti che predicono il pregiudizio: pensiero rigido, sottomissione all’autorità, aggressività verso i gruppi esterni e ansia per il cambiamento. Le persone con questi tratti sono attratte dalle narrazioni antisemite perché forniscono spiegazioni semplici, nemici chiari e un senso di ordine in un mondo complesso."
+        },
+        {
+            "title": "Pensiero cospiratorio",
+            "text": "La ricerca moderna mostra che il pensiero cospiratorio è uno stile cognitivo &mdash; coloro che credono in una cospirazione tendono a credere in altre, anche in quelle contraddittorie. L'antisemitismo fornisce alla \"madre di tutte le cospirazioni\" &mdash; una spiegazione unificata per tutto ciò che è sbagliato nel mondo."
+        }
+    ],
+    "regions_title": "Antisemitismo per società e nazione",
+    "regions_desc": "Ogni società ha sviluppato la propria versione dell'odio verso gli ebrei &mdash; lo stesso veleno, bottiglie diverse",
+    "regions": [
+        {
+            "title": "Il mondo musulmano e arabo",
+            "subtitle": "Dall'antisemitismo religioso medievale al conflitto moderno",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Fonte storica:</strong> All'inizio del giudaismo e dell'Islam ci furono periodi di coesistenza. Ma il Corano contiene versetti negativi sugli ebrei (Sura 5:60 &mdash; \"coloro che Allah maledisse e trasformò in scimmie e maiali\"), e Maometto espulse e massacrò le tribù ebraiche a Medina (Banu Qurayza, 627 d.C. &mdash; 600-900 uomini ebrei furono decapitati). Sotto il dominio islamico, gli ebrei erano \"dhimmi\" &mdash; cittadini protetti ma inferiori che pagavano la tassa sulla jizya e portavano segni di identificazione.",
+                "<strong style=\"color:#e2b714;\">L'invenzione dell'identità nazionale palestinese:</strong> Il termine \"Palestina\" è un nome geografico romano (dal 135 d.C., quando i romani ribattezzarono Giudea per cancellare l'identità ebraica). Gli arabi della regione si identificarono per secoli come siriani, arabi o per tribù e famiglia. L’identità nazionale palestinese si è cristallizzata principalmente a metà del XX secolo. Zuheir Mohsen, leader di al-Sa'iqa (un'organizzazione palestinese), disse nel 1977 in un'intervista al quotidiano olandese Trouw: \"Il popolo palestinese non esiste... non c'è differenza tra giordani, palestinesi, siriani e libanesi. Facciamo tutti parte di un'unica nazione araba\".",
+                "<strong style=\"color:#e2b714;\">Terrore suicida:</strong> Durante la Seconda Intifada (2000-2005), furono effettuati oltre 140 attentati suicidi contro civili israeliani sugli autobus, nei ristoranti, nei centri commerciali e nei nightclub. 1.137 israeliani furono uccisi. Hamas, Jihad islamica e Fatah hanno inviato giovani, tra cui donne e adolescenti, a farsi esplodere tra i civili &mdash; e poi hanno affermato che Israele stava \"assassinando\". La parte che fa saltare in aria gli autobus con i bambini non è la vittima.",
+                "<strong style=\"color:#e2b714;\">La diffamazione del \"genocidio\":</strong> Israele è l'unico esercito nella storia che invia avvisi di avvertimento ai civili nemici prima di un attacco (\"colpi al tetto\", messaggi SMS, volantini). Israele gestisce un sistema legale indipendente che indaga sulle violazioni. Se Israele avesse voluto commettere un genocidio, perché la popolazione di Gaza è cresciuta da 80.000 nel 1948 a oltre 2 milioni nel 2023? Il vero genocidio assomiglia al Ruanda (800.000 morti in 100 giorni) o all’Olocausto (6 milioni). Il diritto all’autodifesa non è un genocidio.",
+                "<strong style=\"color:#e2b714;\">Propaganda moderna:</strong> \"I Protocolli dei Savi di Sion\" &mdash; un falso russo del 1903 &mdash; è un bestseller nel mondo arabo. La serie egiziana \"Cavaliere senza cavallo\" (2002, 41 episodi, trasmessa dalla televisione di stato) è basata sui Protocolli e ritrae gli ebrei come cospiratori. I libri di testo dell'UNRWA (l'agenzia delle Nazioni Unite per i rifugiati) contenevano contenuti antisemiti &mdash; comprese mappe senza Israele e poesie che elogiavano gli attentati suicidi."
+            ],
+            "fact_boxes": [
+                "<strong>Fatti documentati:</strong> Tra il 1948 e il 1972, circa 850.000 ebrei furono espulsi o costretti a fuggire dai paesi arabi e musulmani. La loro proprietà è stata confiscata. Le comunità ebraiche millenarie in Iraq, Egitto, Libia, Yemen, Siria e Marocco furono quasi completamente distrutte. Il Farhud in Iraq (1941): 180 ebrei assassinati, 1.000 feriti, 900 case distrutte &mdash; ispirato dalla propaganda nazista diffusa dal Mufti Haj Amin al-Husseini.",
+                "<strong>Carta di Hamas (1988):</strong> L'articolo 7 prevede l'uccisione degli ebrei (non degli ebrei israeliani &mdash;). L’Articolo 22 afferma che gli ebrei sono dietro la Rivoluzione francese, la Prima Guerra Mondiale, il Comunismo e la Seconda Guerra Mondiale. L'articolo 32 cita come documento autentico i \"Protocolli dei savi savi di Sion\" &mdash; un falso antisemita russo del 1903 &mdash;. Questa non è “resistenza all’occupazione”. Questo è aperto antisemitismo nel linguaggio del genocidio."
+            ],
+            "sources": "Fonti: Benny Morris, '1948' (2008); Carta di Hamas (1988); Traduzioni MEMRI; IMPATTO-se rapporti sui libri di testo scolastici; Andrew Bostom, \"L'eredità dell'antisemitismo islamico\" (2008)"
+        },
+        {
+            "title": "Polonia ed Europa dell’Est",
+            "subtitle": "Miti del Talmud, \"comunismo ebraico\" e odio sopravvissuti all'Olocausto",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Il mito del Talmud:</strong> Una delle credenze più comuni in Polonia (e nell'Europa orientale) è che il Talmud sia pieno di odio verso i non ebrei. La propaganda antisemita (principalmente dalla Chiesa cattolica medievale e da pubblicazioni come \"Talmud Unmasked\" di Justinas Pranaitis, 1892) estraeva citazioni dal contesto, le traduceva deliberatamente in modo errato o semplicemente le fabbricava. Il Talmud è composto da 6.200 pagine di discussioni giuridiche e nessuno studioso qualificato del Talmud sostiene la lettura antisemita.",
+                "<strong style=\"color:#e2b714;\">Il mito di Żydokomuna (\"Comunismo ebraico\"):</strong> La convinzione che il comunismo sia una \"invenzione ebraica\" e che gli ebrei governassero la Polonia comunista. In realtà: il Partito polacco dei lavoratori uniti (PZPR) era a stragrande maggioranza polacco. Alcuni singoli ebrei ricoprivano posizioni elevate &mdash; poiché gli ebrei erano presenti in ogni campo &mdash; ma costituivano una piccola percentuale. Molti polacchi erano comunisti entusiasti senza alcun legame con gli ebrei. Nel 1968, lo stesso regime comunista polacco condusse una campagna antisemita (\"antisionisti\") ed espulse circa 13.000 ebrei dalla Polonia.",
+                "<strong style=\"color:#e2b714;\">Jedwabne (1941):</strong> Il 10 luglio 1941, i residenti polacchi della città di Jedwabne uccisero almeno 340 (forse più di 1.000) ebrei della città &mdash; bruciandoli vivi in ​​un fienile. Non nazisti. vicini polacchi. Lo storico Jan Tomasz Gross lo ha documentato nel suo libro \"Neighbors\" (2001), provocando uno shock nazionale in Polonia. Nel 2018, la Polonia ha approvato una legge che vieta l’attribuzione della responsabilità dei crimini dell’Olocausto alla nazione polacca &mdash;, un tentativo di mettere a tacere la storia."
+            ],
+            "fact_boxes": [
+                "<strong>Il pogrom di Kielce (1946):</strong> Un anno dopo la liberazione di Auschwitz, 42 ebrei sopravvissuti all'Olocausto furono assassinati in un pogrom nella città di Kielce, in Polonia. Il pretesto: una diffamazione di sangue (!) &mdash; la voce secondo cui un bambino cristiano sarebbe stato rapito da ebrei. Nel 1946. Dopo l'Olocausto. I sopravvissuti ad Auschwitz furono assassinati dai loro vicini polacchi sulla base della stessa menzogna medievale. Questo evento scatenò un'ondata di fuga (Bericha) di sopravvissuti all'Olocausto dalla Polonia.",
+                "<strong>Russia:</strong> \"I Protocolli dei Savi di Sion\" furono creati dalla polizia segreta russa (Okhrana) intorno al 1903, basandosi sul plagio di un libro francese (Maurice Joly, 1864) che non aveva nulla a che fare con gli ebrei. L'area di insediamento (1791-1917) confinò gli ebrei in aree residenziali ristrette. Tra il 1881 e il 1921, ondate di pogrom uccisero decine di migliaia di ebrei. Molti dei primi pogrom furono incoraggiati o pianificati dal governo stesso. Il \"complotto dei medici\" (1953) &mdash; Stalin accusò i medici ebrei di complottare per assassinare i leader sovietici. Solo la morte di Stalin impedì la deportazione di massa degli ebrei in Siberia."
+            ],
+            "sources": "Fonti: Jan T. Gross, 'Neighbours' (2001); Joanna Tokarska-Bakir, 'Pogrom Grida' (2018); Norman Cohn, 'Mandato di genocidio' (1967)"
+        },
+        {
+            "title": "Germania nazista",
+            "subtitle": "La macchina dello sterminio: come uno Stato moderno ha trasformato l'odio in un'industria",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">L'ideologia:</strong> I nazisti non hanno inventato l'antisemitismo &mdash; lo hanno industrializzato. Hanno impiegato 2.000 anni di antisemitismo cristiano, lo hanno combinato con il razzismo pseudoscientifico del XIX secolo (antropologia razziale, eugenetica, darwinismo sociale) e hanno creato un intero sistema di leggi, burocrazia e industria il cui unico scopo era l’annientamento di un intero popolo.",
+                "<strong style=\"color:#e2b714;\">La macchina della propaganda:</strong> Joseph Goebbels costruì un sistema di propaganda senza precedenti. Il film \"L'eterno ebreo\" (1940) raffigurava gli ebrei come topi. Il quotidiano \"Der Stürmer\" (Julius Streicher) pubblicava settimanalmente caricature antisemite. I bambini imparavano l'antisemitismo nelle scuole dall'età di 6 anni. Libri per bambini come \"The Poisonous Mushroom\" (1938) insegnavano ai bambini a identificare e odiare gli ebrei. Il metodo: ripetere la bugia abbastanza volte e la gente inizierà a crederci.",
+                "<strong style=\"color:#e2b714;\">La contraddizione nazista:</strong> I nazisti affermavano contemporaneamente che gli ebrei erano una razza inferiore (Untermenschen) e che governavano segretamente il mondo intero. Se gli ebrei sono così inferiori, come fanno a controllare tutto? Questa contraddizione rivela che l’antisemitismo non è un sistema razionale ma una fantasia paranoica &mdash; non ha bisogno di essere coerente, ma solo di giustificare l’odio."
+            ],
+            "fact_boxes": [
+                "<strong>La scala della distruzione:</strong><br>1933: Boicottaggio delle imprese ebraiche, licenziamento dalle cariche governative<br>1935: Leggi di Norimberga &mdash; privazione della cittadinanza, divieto dei matrimoni misti<br>1938: Notte dei cristalli &mdash; 1.400 sinagoghe bruciate, 30.000 ebrei deportati campi<br>1939-1941: ghetti, fame organizzata, fucilazioni di massa (gli Einsatzgruppen uccisero 1,5 milioni di persone)<br>1942: Conferenza di Wannsee &mdash; la \"soluzione finale\" divenne ufficiale<br>1942-1945: Camere a gas industriali ad Auschwitz-Birkenau, Treblinka, Sobibor, Belzec, Chelmno, Majdanek",
+                "<strong>I numeri:</strong> 6 milioni di ebrei furono assassinati &mdash; un terzo dell'intero popolo ebraico. 1,5 milioni di loro erano bambini. Le comunità ebraiche millenarie in Europa furono completamente annientate. Questa è forse l'unica volta nella storia in cui uno stato moderno ha dedicato risorse industriali &mdash; treni, fabbriche, burocrazia &mdash; al solo scopo di uccidere un intero popolo."
+            ],
+            "sources": "Fonti: Raul Hilberg, 'La distruzione degli ebrei europei' (1961/2003); archivi dell'USHMM; Database centrale Yad Vashem dei nomi delle vittime della Shoah"
+        },
+        {
+            "title": "Europa occidentale moderna",
+            "subtitle": "L’”antisionismo” come nuova maschera per il vecchio antisemitismo",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Il nuovo \"antisionismo\":</strong> Lo storico Natan Sharansky ha sviluppato il \"Test 3D\" per identificare quando la critica a Israele sfocia nell'antisemitismo: <strong>Demonizzazione</strong> (Israele = nazisti), <strong>Delegittimazione</strong> (Israele non ha il diritto di esistere), <strong>Doppio standard</strong> (richieste da Israele che non sono richieste a nessun altro paese). La critica legittima a specifiche politiche israeliane è accettata &mdash; come lo è la critica a qualsiasi paese. Ma negare il diritto di esistere solo a Israele, tra tutte le nazioni del mondo, è antisemitismo.",
+                "<strong style=\"color:#e2b714;\">Gran Bretagna &mdash; The Labour Affair:</strong> Sotto Jeremy Corbyn (2015-2020), il Partito laburista britannico è stato indagato dalla Commissione per l'uguaglianza e i diritti umani (EHRC) e ritenuto responsabile di gravi violazioni della legge sulla discriminazione &mdash; antisemitismo istituzionale. Corbyn definì Hamas e Hezbollah “amici”, depose una corona di fiori sulla tomba della mente del massacro delle Olimpiadi di Monaco del 1972 e sostenne un artista che dipinse un murale antisemita. Migliaia di ebrei abbandonarono il partito.",
+                "<strong style=\"color:#e2b714;\">Campus universitari:</strong> Il movimento BDS (boicottaggio, disinvestimento, sanzioni) è diventato un braccio centrale dell'antisemitismo nei campus. Gli studenti ebrei denunciano molestie, esclusione dalle organizzazioni per la giustizia sociale (\"Sei sionista? Non sei invitato\") e finestre rotte nei club Hillel. Il grande furto: usano il linguaggio dei diritti umani per negare il diritto più elementare &mdash; il diritto all'autodeterminazione &mdash; di un solo popolo."
+            ],
+            "fact_boxes": [
+                "<strong>Francia:</strong> La più grande emigrazione ebraica dall'Europa nel 21° secolo si sta verificando in Francia. 2006: Ilan Halimi, un giovane ebreo, viene rapito, torturato per 24 giorni e assassinato dalla \"Banda dei Barbari\" &mdash; perché ebreo \"e quindi ricco\". 2012: Mohamed Merah spara e uccide 3 bambini e il rabbino Jonathan Sandler in una scuola ebraica di Tolosa. 2015: attacco al supermercato kosher Hyper Cacher a Parigi, 4 persone uccise. Gli ebrei rappresentano l'1% della popolazione francese ma il 40% delle vittime di crimini ispirati dall'odio. Circa 38.000 ebrei hanno lasciato la Francia per Israele tra il 2010 e il 2020."
+            ],
+            "sources": "Fonti: Rapporto EHRC sul lavoro (2020); Natan Sharansky, 'Test 3D' (2004); Rapporti sull'antisemitismo del Campus ADL; CRIF (Conseil Représentatif des Institutions Juives de France)"
+        },
+        {
+            "title": "Gli Stati Uniti",
+            "subtitle": "Dall'\"Alt-Right\" alla \"Nation of Islam\": odio da ogni direzione",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">L'estrema destra:</strong> A Charlottesville, Virginia (agosto 2017), i neonazisti hanno marciato con le torce cantando \"Gli ebrei non ci sostituiranno\". Il 27 ottobre 2018, Robert Bowers è entrato nella sinagoga dell'Albero della Vita a Pittsburgh, in Pennsylvania, e ha ucciso 11 fedeli. Questo è l’attacco più mortale contro gli ebrei nella storia americana. Ha gridato \"Tutti gli ebrei devono morire\" prima di aprire il fuoco.",
+                "<strong style=\"color:#e2b714;\">Louis Farrakhan e la \"Nazione dell'Islam\":</strong> Farrakhan definì gli ebrei \"termiti\", \"succhiasangue satanici\" e il giudaismo una \"religione di merda\". La sua organizzazione pubblica libri come \"La relazione segreta tra neri ed ebrei\" che accusa gli ebrei della tratta degli schiavi &mdash; un'affermazione smentita da ogni storico serio (compresi storici neri come Henry Louis Gates). Questo odio è particolarmente pericoloso perché si veste del linguaggio della giustizia sociale.",
+                "<strong style=\"color:#e2b714;\">Kanye West (Ye) e la cultura delle celebrità:</strong> Nel dicembre 2022, West ha dichiarato \"Amo i nazisti\" e ha elogiato Hitler in diretta. Prima di ciò, aveva twittato \"Death con 3 on Jewish People\". L’impatto: l’ADL ha segnalato un forte aumento della propaganda antisemita da parte di gruppi di estrema destra citando West come giustificazione. Quando qualcuno con 30 milioni di follower normalizza l’odio verso gli ebrei, le conseguenze sono reali e pericolose."
+            ],
+            "fact_boxes": [
+                "<strong>Statistiche:</strong> Nel 2022, l'ADL ha documentato 3.697 episodi di antisemitismo negli Stati Uniti &mdash; la cifra più alta da quando è iniziata la rilevazione nel 1979. Un aumento del 36% in un anno. 2023 (dopo il 7 ottobre): la cifra è balzata a 8.873 incidenti &mdash; con un aumento del 140%. Secondo l’FBI gli ebrei rappresentano il 2,4% della popolazione ma rappresentano oltre il 60% delle vittime di crimini ispirati dall’odio religioso."
+            ],
+            "sources": "Fonti: Audit ADL sugli incidenti antisemiti (2022, 2023); Statistiche sui crimini ispirati dall'odio dell'FBI; Henry Louis Gates Jr., \"L'antisemitismo nero\" in transizione (1992); Reporting del Pittsburgh Post-Gazette"
+        },
+        {
+            "title": "L'Iran e il regime islamico",
+            "subtitle": "L’antisemitismo come politica statale: dalla negazione dell’Olocausto al finanziamento del terrorismo",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Negazione dell'Olocausto istituzionalizzata:</strong> L'ex presidente Mahmoud Ahmadinejad ha tenuto una conferenza internazionale sulla negazione dell'Olocausto a Teheran (2006), invitando noti negazionisti dell'Olocausto da tutto il mondo (tra cui David Duke del KKK), e ha dichiarato l'Olocausto un \"mito\". Il leader supremo Khamenei ha continuato su questa linea, sostenendo che ci sono \"seri dubbi\" sull'Olocausto. Questa non è una posizione storica &mdash; è una preparazione psicologica. Negare il genocidio precedente apre la strada a quello successivo.",
+                "<strong style=\"color:#e2b714;\">L'ironica ipocrisia della contraddizione:</strong> L'Iran afferma che Israele è razzista &mdash; mentre il regime iraniano perseguita sistematicamente baha'i, curdi, arabi, sunniti e persone LGBTQ+ all'interno dello stesso Iran. Migliaia di esecuzioni all’anno, donne uccise perché non indossavano l’hijab (Mahsa Amini, 2022). La comunità ebraica in Iran (~8.000 persone, rispetto alle oltre 100.000 prima della rivoluzione) vive sotto sorveglianza e restrizioni."
+            ],
+            "fact_boxes": [
+                "<strong>Finanziamento del terrorismo:</strong> L'Iran finanzia e arma Hezbollah (Libano), Hamas (Gaza), Jihad islamica (Gaza) e gli Houthi (Yemen). Hezbollah è responsabile dell'attentato all'AMIA a Buenos Aires (1994, 85 morti) e dell'attentato all'ambasciata israeliana (1992, 29 morti). L'obiettivo dichiarato dell'Iran: \"cancellare Israele dalla mappa geografica\". Questa non è una critica politica &mdash; è un appello alla distruzione di un popolo."
+            ],
+            "sources": "Fonti: atti investigativi dell'AMIA; rapporti dell'AIEA; Rapporti nazionali del Dipartimento di Stato americano sui diritti umani; Traduzioni MEMRI dei media statali iraniani"
+        },
+        {
+            "title": "Giappone, Corea del Sud e Asia orientale",
+            "subtitle": "Un fenomeno sorprendente: l’antisemitismo in paesi quasi senza ebrei",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Il paradosso:</strong> In Giappone vivono circa 1.000 ebrei (su 125 milioni). In Corea del Sud &mdash; qualche centinaio. Eppure \"I Protocolli dei Savi di Sion\" è stato tradotto e venduto in Giappone in decine di edizioni. Libri come \"Il controllo ebraico del mondo\" sono bestseller. In Giappone e Corea del Sud, \"l'antisemitismo senza ebrei\" dimostra il punto centrale: <strong>L'antisemitismo non è una reazione contro gli ebrei reali &mdash; è una fantasia sugli ebrei immaginari.</strong>",
+                "<strong style=\"color:#e2b714;\">La versione asiatica:</strong> A differenza dell'antisemitismo europeo (odio), la versione asiatica è talvolta \"positiva\" in modo distorto: \"Gli ebrei sono intelligenti, controllano il denaro, possiamo imparare da loro\". Questo è pur sempre antisemitismo &mdash; perché si basa su stereotipi, non sull'incontro con veri ebrei. Trasforma gli ebrei da esseri umani in figure mitiche."
+            ],
+            "fact_boxes": [],
+            "sources": "Fonti: Sondaggio ADL Global 100; David Goodman e Masanori Miyazawa, 'Gli ebrei nella mente giapponese' (1995)"
+        }
+    ],
+    "report_title": "Hai incontrato l'antisemitismo? Segnalalo",
+    "report_desc": "Non rimanere in silenzio &mdash; la segnalazione salva vite umane e previene l'escalation. Ecco a chi rivolgersi:",
+    "gallery_title": "Documentazione storica",
+    "youtube_title": "Guarda e impara",
+    "footer": {
+        "motto": "La verità è l’arma più potente contro l’odio",
+        "motto_en": "La verità è l’arma più potente contro l’odio"
+    }
+}

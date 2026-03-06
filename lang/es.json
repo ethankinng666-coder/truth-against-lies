@@ -1,0 +1,837 @@
+{
+    "meta": {
+        "code": "es",
+        "name": "Español",
+        "dir": "ltr"
+    },
+    "nav": [
+        "¿Qué es el antisemitismo?",
+        "Reclamaciones y refutaciones",
+        "Mentiras comunes",
+        "Línea de tiempo",
+        "La Psicología",
+        "Odio por las naciones",
+        "Documentación histórica",
+        "Informar sobre el antisemitismo",
+        "Mira y aprende",
+        "¿Qué se puede hacer?"
+    ],
+    "ui": {
+        "donate_btn": "&#9749; Soporte",
+        "lang_btn": "Idioma",
+        "search_placeholder": "Buscar sitio...",
+        "copy_btn": "&#128203; Copiar respuesta",
+        "lie_footer": "&#10070; La verdad siempre gana &#10070;",
+        "toggle_open": "&#9660; Haga clic para abrir"
+    },
+    "hero_title": "La verdad contra la mentira",
+    "hero_subtitle": "Exponiendo las mentiras, presentando los hechos.",
+    "hero_subtitle_en": "La verdad contra la mentira: luchando contra el antisemitismo",
+    "hero_cta": "Descubre la verdad &#8595;",
+    "stat_labels": [
+        "Reclamaciones desacreditadas",
+        "Años documentados",
+        "Categorías",
+        "Naciones y Sociedades",
+        "Fuentes Académicas"
+    ],
+    "about_title": "¿Qué es el antisemitismo?",
+    "about_desc": "El odio más antiguo de la historia de la humanidad &mdash; 2.500 años de mentiras que deben ser expuestas",
+    "about_cards": [
+        {
+            "title": "Un odio que cambia de forma",
+            "text": "El antisemitismo es el odio grupal más persistente en la historia de la humanidad. Ha tomado diferentes formas en diferentes épocas &mdash; religiosa, racial, política, económica, conspirativa &mdash; pero el patrón central sigue siendo el mismo: los judíos se convierten en chivos expiatorios de los problemas de la sociedad."
+        },
+        {
+            "title": "Por qué es importante la documentación",
+            "text": "Para luchar contra el antisemitismo, primero hay que entenderlo. En este sitio encontrará 34 tropos antisemitas comunes de 8 categorías, cada uno con una refutación fáctica, una explicación psicológica de por qué la gente cree en la mentira y fuentes académicas. Ningún reclamo queda sin respuesta."
+        },
+        {
+            "title": "Tres capas de respuesta",
+            "text": "<strong style=\"color:#2ecc71;\">1. Refutación fáctica</strong> &mdash; ¿Qué muestran realmente los hechos?<br><strong style=\"color:#3498db;\">2. Explicación psicológica</strong> &mdash; ¿Por qué la gente cree esta mentira?<br><strong style=\"color:#e2b714;\">3. Contexto histórico</strong> &mdash; ¿Cuándo mató a la gente esta mentira?"
+        }
+    ],
+    "claims_title": "34 afirmaciones - 34 refutaciones",
+    "claims_desc": "Haga clic en cada categoría para revelar las afirmaciones y en cada afirmación para leer la refutación completa.",
+    "categories": [
+        {
+            "number": "Categoría 1",
+            "title": "Antisemitismo religioso y teológico",
+            "desc": "La capa más antigua: el odio arraigado en narrativas religiosas",
+            "claims": [
+                {
+                    "title": "\"Los judíos mataron a Jesús\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "Jesús fue crucificado por las autoridades romanas utilizando un método de ejecución romano (la crucifixión es un castigo romano, no judío). El gobernador romano Poncio Pilato ordenó la ejecución. Los Evangelios fueron escritos entre 40 y 70 años después de los acontecimientos, en el contexto de la separación del cristianismo del judaísmo. El Concilio Vaticano II (1965) declaró oficialmente que la culpa colectiva no debería atribuirse al pueblo judío en su conjunto."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Chivo expiatorio + pensamiento impulsado por las emociones: los primeros cristianos necesitaban una explicación de por qué los judíos, el propio pueblo de Jesús, no aceptaron su afirmación mesiánica. Culpar a los judíos proporcionó una explicación emocional conveniente. Además, como el cristianismo buscaba aceptación dentro del Imperio Romano, culpar a Roma por la muerte de Jesús era políticamente peligroso; &mdash; culpar a los judíos era más conveniente."
+                    ],
+                    "sources": "Fuentes: Raymond Brown, 'La muerte del Mesías' (1994); Vaticano II, 'Nostra Aetate' (1965)"
+                },
+                {
+                    "title": "\"Los judíos son hijos del diablo\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "El Evangelio de Juan (8:44) documenta un agudo debate intrajudío en un contexto específico. El propio Jesús era judío, sus discípulos eran judíos y el cristianismo primitivo fue un movimiento intrajudío. Aplicar un lado de un argumento interno a todos los judíos por la eternidad es como tomar un debate entre dos políticos estadounidenses y concluir que todos los estadounidenses son malvados."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Deshumanización: etiquetar a un grupo externo como satánico o infrahumano es un precursor documentado de la violencia. La investigación de Gregory Stanton identifica la deshumanización como la etapa 4 en el camino hacia el genocidio (8 etapas en 1996, ampliadas a 10 en 2012). La demonización de los judíos permitió siglos de pogromos."
+                    ],
+                    "sources": "Fuentes: Adele Reinhartz (2018); Gregory Stanton, 'Las 8 etapas del genocidio' (1996, ampliado a 10 en 2012)"
+                },
+                {
+                    "title": "\"Libelo de sangre: los judíos utilizan la sangre de niños cristianos en los rituales\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "En 900 años desde el primer libelo de sangre (Norwich, 1144), no se ha probado ni un solo caso. El judaísmo prohíbe explícita y repetidamente el consumo de sangre: \"No comeréis la sangre de ninguna carne, porque la vida de toda carne es su sangre\" (Levítico 17:14). Las leyes de Kashrut exigen el drenaje completo de la sangre de la carne antes de su consumo. El Papa Inocencio IV (1247) y el emperador Federico II (1236) investigaron las acusaciones y las encontraron infundadas."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Proyección + culpa desplazada: El libelo de sangre surgió durante las Cruzadas, cuando los propios cristianos cometieron violencia masiva y derramamiento de sangre. Acusar a los judíos de rituales de sangre funcionó como una proyección psicológica: transfiriendo la culpa por la violencia cristiana al \"otro\" judío. Además, la acusación proporcionó justificación para confiscar propiedades judías y expulsar a las poblaciones judías."
+                    ],
+                    "sources": "Fuentes: R. Po-chia Hsia, 'El mito del asesinato ritual' (1988); Magda Teter, 'Libelo de sangre' (2020)"
+                },
+                {
+                    "title": "\"Profanación de las huestes: los judíos apuñalan las hostias de comunión\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "La acusación requería creer dos cosas imposibles simultáneamente: que los judíos rechazan la teología cristiana (la creencia de que la hostia se convierte en el cuerpo de Cristo) y que los judíos atacan la hostia precisamente porque creen en su santidad. Ésta es una contradicción lógica. Si los judíos no creen que la hostia sea Jesús, no tienen ningún motivo para \"torturarla\". La historiadora Miri Rubin documentó que las acusaciones de profanación del anfitrión ocurrieron precisamente durante períodos de tensión económica entre las comunidades judía y cristiana, lo que sugiere que la competencia económica, no la teología, era el verdadero motivo. En las masacres de Rintfleisch (1298), más de 100 comunidades judías en Alemania fueron destruidas basándose en estas acusaciones."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Error de atribución + chivo expiatorio económico: las comunidades que experimentaban dificultades económicas necesitaban una justificación para confiscar los activos judíos. Una acusación religiosa proporcionó cobertura moral al robo económico. Este patrón &mdash; de utilizar acusaciones morales para justificar ganancias materiales &mdash; se repite a lo largo de toda la historia del antisemitismo."
+                    ],
+                    "sources": "Fuentes: Miri Rubin, 'Cuentos gentiles: El asalto narrativo a los judíos medievales tardíos' (1999)"
+                },
+                {
+                    "title": "\"Los judíos envenenan los pozos y propagan plagas\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "Los judíos no fueron inmunes a la peste negra &mdash;, murieron en masa. En algunas comunidades, las tasas de mortalidad judía eran algo más bajas, lo que los historiadores atribuyen al lavado frecuente de manos (como exige la ley judía), la cuarentena para los enfermos y fuentes de agua separadas en los guetos. Estas son prácticas religiosas, no una conspiración. El Papa Clemente VI en 1348 emitió dos bulas papales defendiendo a los judíos, señalando que los judíos estaban muriendo a causa de la peste como todos los demás. Las masacres continuaron a pesar de todo."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Gestión del terrorismo + necesidad de control: La Peste Negra mató entre el 30 y el 60% de la población europea en 4 años. La teoría del manejo del terrorismo (Greenberg, Solomon y Pyszczynski) muestra que cuando las personas enfrentan ansiedad ante la muerte, se vuelven más hostiles hacia los grupos externos. Culpar a los judíos por la plaga convirtió un desastre aterrador y aleatorio en algo causado por un enemigo identificable &mdash; que restauró la ilusión de control."
+                    ],
+                    "sources": "Fuentes: Samuel Cohn, 'La peste negra y la quema de judíos' (2007); Papa Clemente VI, Bula 'Quamvis Perfidiam' (1348)"
+                },
+                {
+                    "title": "\"Los judíos fueron condenados a vagar sin patria\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "El exilio judío de la Tierra de Israel fue el resultado de una conquista militar: el exilio babilónico (586 a. C.), la destrucción del Templo por Roma (70 d. C.) y la revuelta de Bar Kokhba (135 d. C.). Posteriormente, los judíos fueron expulsados ​​de países por decreto humano: Inglaterra (1290), Francia (1306, 1394), España (1492), Portugal (1497). Cada expulsión fue llevada a cabo por reyes por motivos políticos y económicos. Enmarcar el desplazamiento forzado como una maldición culpa a la víctima de su propia persecución."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Sesgo del mundo justo (Melvin Lerner): Las personas tienen una profunda necesidad psicológica de creer que el mundo es justo &mdash; y que las personas obtienen lo que merecen. Cuando los judíos fueron expulsados ​​y perseguidos, los observadores debían creer que se lo merecían. \"Deben haber hecho algo mal\" &mdash; este es el sesgo del mundo justo en acción."
+                    ],
+                    "sources": "Fuentes: Melvin Lerner, 'La creencia en un mundo justo' (1980); David Nirenberg, 'Antijudaísmo: la tradición occidental' (2013)"
+                },
+                {
+                    "title": "\"El Talmud contiene enseñanzas de odio contra los gentiles\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "El Talmud es un archivo de 6.200 páginas de discusiones jurídicas que abarcan 700 años (200 a. C. - 500 d. C.). Contiene opiniones diversas sobre cada tema &mdash; a menudo contradictorias &mdash; porque registra debates, no dogmas. Tomar pasajes aislados sin contexto es como citar una única opinión disidente de un tribunal y afirmar que representa la ley.<br><br>El Talmud enseña explícitamente: \"Los justos de todas las naciones tienen una parte en el mundo venidero\" (Tosefta Sanedrín 13:2). La ley judía exige honestidad en los negocios con todas las personas (dina d'malkhuta dina). Pikuaj nefesh (salvar vidas) anula casi todos los mandamientos y obliga a salvar todas las vidas humanas, no sólo la vida judía."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Sesgo de confirmación + selección selectiva: las personas que ya creen que los judíos odian a los gentiles buscan en el Talmud pasajes que confirmen su creencia, ignoran los miles de pasajes que la contradicen y quitan contexto a los que encuentran. El mismo método podría hacer que cualquier texto religioso &mdash; la Biblia, el Corán, las escrituras hindúes &mdash; parezcan alentar atrocidades."
+                    ],
+                    "sources": "Fuentes: Gil Student, 'La verdad real sobre el Talmud' (2000); David Berger, 'Persecución, polémica y diálogo' (2010)"
+                }
+            ]
+        },
+        {
+            "number": "Categoría 2",
+            "title": "Antisemitismo racial y biológico",
+            "desc": "El odio pseudocientífico de los siglos XIX y XX",
+            "claims": [
+                {
+                    "title": "\"Los judíos son una raza separada e inferior\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "El Proyecto Genoma Humano (2003) confirmó que existe más variación genética dentro de cualquier grupo racial que entre grupos. Los seres humanos compartimos el 99,9% de su ADN independientemente del origen. Las poblaciones judías son genéticamente diversas: los judíos asquenazíes, sefardíes, mizrajíes, etíopes, indios y chinos tienen un aspecto completamente diferente entre sí. La idea de una única \"raza judía\" no tiene significado genético."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Necesidad de jerarquía: la teoría de la dominancia social (Sidanius y Pratto, 1999) muestra que algunas personas tienen una fuerte necesidad de organizar grupos en jerarquías de valores. La clasificación racial proporcionó un marco \"científico\" para clasificar los grupos humanos. El racismo pseudocientífico hizo que los prejuicios parecieran racionales y basados ​​en evidencia."
+                    ],
+                    "sources": "Fuentes: Proyecto Genoma Humano (2003); 'Declaración sobre la raza' de la UNESCO (1950-1967)"
+                },
+                {
+                    "title": "\"Los judíos están genéticamente predispuestos a la codicia y la manipulación\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "La genética del comportamiento ha demostrado inequívocamente que los rasgos de comportamiento complejos (personalidad, carácter moral, comportamiento financiero) están moldeados por una combinación de genética y entorno &mdash; y nunca por la pertenencia a un grupo étnico. No existe un \"gen de la codicia\". Los estudios sobre donaciones caritativas muestran consistentemente que las comunidades judías se encuentran entre las más generosas del mundo. La asociación entre judíos y dinero es una construcción histórica: los cristianos medievales restringieron a los judíos a prestar dinero y luego los culparon por el resultado."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Error de atribución fundamental (Lee Ross, 1977): un sesgo cognitivo que hace que las personas atribuyan el comportamiento de los demás a su carácter y no a sus circunstancias. Cuando los judíos eran prestamistas, los observadores lo atribuyeron al carácter judío (\"son codiciosos\") más que a limitaciones situacionales (se les prohibía ejercer otras profesiones). Esto es idéntico a culpar a una persona en silla de ruedas por no utilizar las escaleras."
+                    ],
+                    "sources": "Fuentes: Lee Ross (1977); Steven Pinker, 'La pizarra en blanco' (2002)"
+                },
+                {
+                    "title": "\"Los judíos son infrahumanos (Untermenschen)\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "Clasificar a cualquier grupo humano como \"infrahumano\" es una técnica de propaganda, no una afirmación científica. La investigación de Gregory Stanton identifica la deshumanización como la Etapa 4 del genocidio (8 etapas en 1996, ampliadas a 10 en 2012) &mdash; la etapa que hace que matar sea psicológicamente posible. Los nazis afirmaron simultáneamente que los judíos eran infrahumanos y que gobernaban el mundo en secreto &mdash; una contradicción lógica absoluta. Umberto Eco identificó esto como una característica definitoria de la ideología fascista: \"El enemigo es a la vez demasiado fuerte y demasiado débil\"."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Desvinculación moral (Albert Bandura): La investigación de Bandura muestra que la gente corriente puede cometer una crueldad extraordinaria cuando se neutraliza su regulación moral. La deshumanización es el mecanismo más poderoso &mdash; cuando las víctimas son reclasificadas como no humanas, los perpetradores pueden dañarlas sin el costo psicológico de la culpa. El Holocausto requirió que millones de alemanes comunes y corrientes participaran en el genocidio o lo toleraran. La deshumanización hizo que esto fuera psicológicamente posible."
+                    ],
+                    "sources": "Fuentes: Gregory Stanton, '8 Stages of Genocide' (1996, ampliado a 10 en 2012); Umberto Eco, 'Ur-Fascismo' (1995); Alberto Bandura (1999)"
+                },
+                {
+                    "title": "\"Los judíos promueven la mezcla racial para debilitar a otras razas\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "La acusación es pura proyección. Los propios nazis llevaron a cabo la eugenesia a gran escala: el programa T4 mató a más de 70.000 personas discapacitadas, el programa Lebensborn engendró niños \"racialmente puros\", las esterilizaciones forzadas afectaron a 400.000 personas y el Holocausto asesinó a 6 millones de judíos y a millones de personas más. Acusar a los judíos del mismo acto que cometieron los propios acusadores es una proyección clásica. Las versiones modernas (la teoría del \"Gran Reemplazo\") afirman que los judíos están orquestando la inmigración para reemplazar a las poblaciones blancas. La inmigración está impulsada por fuerzas económicas, guerras, cambio climático y las políticas de gobiernos democráticos con liderazgo diverso."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Proyección a escala: Cuando un régimen entero proyecta sus propios crímenes sobre sus víctimas, tiene dos propósitos: (1) justifica las propias acciones del régimen (\"debemos hacer esto porque nos lo están haciendo a nosotros\") y (2) inmuniza a la población contra la simpatía por las víctimas (\"nos harían algo peor si pudieran\"). Esto es Propaganda 101."
+                    ],
+                    "sources": "Fuentes: Robert Proctor, 'Racial Hygiene: Medicine Under the Nazis' (1988); Richard Evans, 'El Tercer Reich en el poder' (2005)"
+                }
+            ]
+        },
+        {
+            "number": "Categoría 3",
+            "title": "Estereotipos económicos y financieros",
+            "desc": "El mito del dinero: acusaciones de codicia, control y explotación",
+            "claims": [
+                {
+                    "title": "\"Los judíos controlan los bancos y los sistemas financieros globales\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "En la Europa medieval, los judíos estaban excluidos de la mayoría de las profesiones (agricultura, gremios, gobierno). Una de las pocas ocupaciones permitidas era el préstamo de dinero, que los cristianos consideraban pecaminoso. Cuando los prestamistas judíos tuvieron éxito, fueron odiados por el éxito que se les impuso. La familia Rothschild (fundada en la década de 1760) se convirtió en un símbolo explotado por los antisemitas. En realidad, los judíos constituyen ~0,2% de la población mundial y no controlan la banca. Los principales bancos son corporaciones que cotizan en bolsa con liderazgo diverso."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Sesgo de correlación ilusoria (Hamilton y Gifford, 1976): cuando una minoría participa en un evento negativo, la gente sobreestima la conexión entre el grupo y el evento. Si un banquero que resulta ser judío comete fraude, se toma nota de su judaísmo; Cuando un banquero no judío comete fraude, su origen étnico es invisible."
+                    ],
+                    "sources": "Fuentes: Hamilton & Gifford, Journal of Experimental Social Psychology (1976)"
+                },
+                {
+                    "title": "\"Los judíos son codiciosos y están obsesionados con el dinero\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "El vínculo entre los judíos y la codicia es una construcción cultural, no un hecho. Surge de los roles económicos limitados a los que se vieron obligados los judíos. En la Europa cristiana, la Iglesia prohibió a los cristianos participar en la usura (prestar con intereses). Los judíos, que estaban excluidos de la mayoría de las profesiones (poseer tierras, unirse a gremios profesionales, cultivar), se quedaron con pocas opciones económicas &mdash; y el comercio y el préstamo de dinero se encontraban entre ellas. Luego se les culpó por la ocupación que se les impuso.",
+                        "Los estudios sobre donaciones caritativas muestran consistentemente que las comunidades judías se encuentran entre las más generosas del mundo. Sólo las federaciones judías en Estados Unidos donan miles de millones anualmente a comunidades judías y no judías. El concepto de caridad en el judaísmo (tzedaká &mdash; derivado de la palabra \"justicia\") es una obligación religiosa, no un acto voluntario de bondad. Maimónides (siglo XII) estableció 8 niveles de caridad, siendo el más alto ayudar a una persona a ser autosuficiente."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Proyección + envidia desplazada: La gente envidia el éxito económico y culpa a los exitosos de su codicia. Personajes literarios como Shylock (Shakespeare, \"El mercader de Venecia\") y Fagin (Dickens, \"Oliver Twist\") reforzaron el estereotipo durante siglos. La propaganda antisemita en caricaturas mostraba a judíos con narices aguileñas sosteniendo monedas &mdash; imágenes que todavía aparecen en línea hoy en día."
+                    ],
+                    "sources": "Fuentes: Derek Penslar, 'Los hijos de Shylock: economía e identidad judía en la Europa moderna' (2001); Maimónides, Mishné Torá, Leyes de regalos a los pobres"
+                },
+                {
+                    "title": "\"Los judíos causaron la crisis financiera de 2008\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "Después de cada crisis económica, los antisemitas culpan a los judíos. La crisis de 2008 generó una ola de teorías de conspiración que señalaban como responsables a financieros judíos específicos. El mismo patrón se produjo durante la Gran Depresión (transmisiones de radio del padre Coughlin), la crisis asiática de 1998 y después de las perturbaciones económicas provocadas por la COVID. En realidad, las crisis financieras son el resultado de factores sistémicos (desregulación, especulación, instrumentos financieros complejos) que afectan a industrias enteras &mdash;, no de las acciones de ningún grupo étnico."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Sesgo de proporcionalidad: la gente espera que los grandes acontecimientos tengan grandes causas. Cuando ocurre una crisis financiera global, la idea de que fue el resultado de factores sistémicos complejos es insatisfactoria. La idea de que un grupo poderoso lo planeó parece más proporcionada. Los judíos, ya estereotipados como potencia financiera, se convierten en la \"gran causa\"."
+                    ],
+                    "sources": "Fuentes: Daniel Kahneman, 'Pensar, rápido y lento' (2011)"
+                },
+                {
+                    "title": "\"Los judíos explotan económicamente a los gentiles y los ven como ganado\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "La palabra \"goy\" simplemente significa \"nación\" en hebreo (incluso Israel es llamado \"goy kadosh\" &mdash; una nación santa &mdash; en la Torá) y se refiere a los no judíos de manera neutral. Los antisemitas distorsionaron esto afirmando que los judíos ven a los gentiles como ganado infrahumano que puede ser explotado. Esto es una completa invención.",
+                        "El judaísmo tiene un sistema integral de leyes éticas que exigen un trato justo a todos los seres humanos: \"Amarás a tu prójimo como a ti mismo\" (Levítico 19:18), \"La justicia, la justicia perseguirás\" (Deuteronomio 16:20) y \"No oprimirás a tu prójimo\" (Levítico 19:13). El principio de \"dina d'malkhuta dina\" (la ley del país es la ley) exige que los judíos sean honestos en todos los tratos. La ley judía prohíbe explícitamente el \"geneivat da'at\" (engaño) &mdash; ya sea que la víctima sea judía o no.",
+                        "La afirmación de que el Talmud permite la explotación de los no judíos se basa en citas extraídas del contexto de 6.200 páginas de discusión (para comprender la distorsión, imaginemos extraer una sola frase de un libro entero y afirmar que representa la obra completa). Los eruditos calificados del Talmud &mdash; judíos y no judíos &mdash; rechazan unánimemente esta lectura."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Ignorancia + búsqueda de confirmación: las personas que ya odian a los judíos buscan \"pruebas\" en textos que no pueden leer (el Talmud está escrito en hebreo y arameo). Se basan en \"traducciones\" inventadas que circulan desde la Edad Media. La publicación \"Talmud Desenmascarado\" del padre Justinas Pranaitis (1892) resultó estar llena de errores cuando el propio Pranaitis admitió ante el tribunal que en realidad no sabía arameo."
+                    ],
+                    "sources": "Fuentes: Peter Sch&auml;fer, 'Jesús en el Talmud' (2007); Gil Student, 'La verdad real sobre el Talmud' (2000); documentación ADL"
+                }
+            ]
+        },
+        {
+            "number": "Categoría 4",
+            "title": "Teorías de la conspiración política",
+            "desc": "Control secreto, dominación mundial y \"la mano oculta\"",
+            "claims": [
+                {
+                    "title": "\"Los judíos controlan en secreto los gobiernos del mundo (ZOG)\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "\"Los Protocolos de los Sabios de Sión\" es un texto inventado, creado por la policía secreta rusa (Okhrana) alrededor de 1903, que pretendía ser el acta de una reunión judía para planificar la dominación mundial. El Times de Londres demostró en 1921 que era una falsificación. El texto fue copiado casi palabra por palabra de una sátira de 1864 de Maurice Joly sobre Napoleón III, que no tenía nada que ver con los judíos.",
+                        "A pesar de haber sido completamente desacreditado, Henry Ford lo distribuyó en Estados Unidos (el periódico \"Dearborn Independent\", 91 números antisemitas), Hitler lo citó en \"Mein Kampf\" y hoy sigue siendo un éxito de ventas en el mundo árabe. Si 15 millones de judíos (0,2% de la población mundial) realmente gobernaran el mundo &mdash; ¿por qué no pudieron evitar el Holocausto? ¿Por qué Israel necesita negociar para su existencia? El supuesto \"control\" es la mejor prueba de que no existe."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Pensamiento conspirativo: Las investigaciones (van Prooijen, 2017) muestran que las personas que creen en una conspiración tienden a creer en otras, incluso en las contradictorias. \"Los judíos controlan el mundo\" es la \"madre de todas las conspiraciones\" &mdash; una explicación simple para todo lo que está mal. Proporciona una ilusión de control: si alguien está detrás del caos, entonces el mundo no es aleatorio ni aterrador. Es reconfortante, aunque sea falso."
+                    ],
+                    "sources": "Fuentes: Norman Cohn, 'Warrant for Genocide' (1967); van Prooijen & Douglas, 'Teorías de la conspiración como parte de la historia' (2017)"
+                },
+                {
+                    "title": "\"Los judíos controlan los medios y manipulan la opinión pública\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "La afirmación de que los judíos controlan los medios de comunicación es estadística y objetivamente falsa. Las principales empresas de medios son corporaciones que cotizan en bolsa (Disney, Comcast, News Corp) con propietarios y liderazgo diversos en juntas directivas, accionistas y directivos de diversos países y orígenes. Rupert Murdoch (News Corp, Fox News) &mdash; australiano. Jeff Bezos (Washington Post) &mdash; Estadounidense. Elon Musk (Twitter/X) &mdash; Sudafricano. Ninguno de ellos es judío.",
+                        "La afirmación funciona como un círculo vicioso infalsificable: si un judío trabaja en los medios, \"prueba\" la conspiración. Si un judío no trabaja en los medios, \"se esconde\". Si los medios informan positivamente sobre Israel, \"lo controlan\". Si informa negativamente, \"es una cortina de humo\". Ninguna evidencia puede refutar una creencia que nunca se basó en evidencia en primer lugar."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Sesgo de confirmación + correlación ilusoria: la encuesta ADL Global 100 encontró que este es uno de los estereotipos antisemitas más extendidos &mdash; El 74% de los encuestados en Medio Oriente y el 24% en Europa creen que los judíos controlan los medios. Una vez que la creencia existe, cada judío que aparece en los medios la \"prueba\", mientras que miles de no judíos en los medios simplemente son ignorados."
+                    ],
+                    "sources": "Fuentes: Encuesta ADL Global 100 (2023); Steven Bayme, 'Comprensión de la historia judía' (1997)"
+                },
+                {
+                    "title": "\"Los judíos tienen una doble lealtad: son leales a Israel, no a su país\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "La acusación de doble lealtad se ha utilizado para excluir a los judíos de la vida cívica durante siglos. El capitán Alfred Dreyfus, un oficial judío francés, fue declarado culpable de traición en 1894 basándose en pruebas fabricadas &mdash; y en parte en el supuesto de que un judío no podía ser verdaderamente leal a Francia. Fue exonerado en 1906 después de que el asunto desgarrara a Francia.",
+                        "En realidad, los judíos han servido con distinción en los ejércitos de todos los países en los que vivieron, a menudo de manera desproporcionada: 100.000 judíos sirvieron en el ejército alemán en la Primera Guerra Mundial, 12.000 murieron en combate, 18.000 recibieron la Cruz de Hierro, 35.000 ascendieron de rango y 3.000 se convirtieron en oficiales. En 1935, esa misma Alemania los despojó de la ciudadanía. 550.000 judíos sirvieron en el ejército estadounidense en la Segunda Guerra Mundial. La acusación de \"doble lealtad\" está dirigida sólo a los judíos &mdash; nadie acusa a los irlandeses-estadounidenses de doble lealtad hacia Irlanda."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "\"Otredad perpetua\": La acusación revela la suposición de que los judíos son siempre \"forasteros\", sin importar cuántas generaciones hayan vivido en un país. Este es un patrón universal de racismo. A los miembros de grupos minoritarios siempre se les exige \"demostrar\" su lealtad, mientras que la lealtad de la mayoría se da por sentada."
+                    ],
+                    "sources": "Fuentes: Ruth Harris, 'Dreyfus: Política, emoción y el escándalo del siglo' (2010); Museo Nacional de Historia Militar Judía Estadounidense"
+                },
+                {
+                    "title": "\"El 11 de septiembre fue orquestado por Israel/el Mossad\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "A los pocos días de los ataques del 11 de septiembre, surgieron teorías de conspiración que afirmaban que 4.000 judíos se quedaron en casa y no trabajaron en las Torres Gemelas después de haber sido advertidos por el Mossad. La mentira se difundió a través de Al-Manar (el canal de televisión de Hezbollah), sitios web de conspiración y propaganda iraní.",
+                        "Los hechos: Aproximadamente 400 judíos murieron en los ataques, proporción proporcional a la población judía de Nueva York (~12%). La empresa estadounidense de servicios financieros Cantor Fitzgerald perdió 658 empleados &mdash;, la mayor pérdida de cualquier empresa en el ataque. El número \"4.000\" es totalmente inventado y se originó a partir de una noticia que decía que la embajada de Israel estaba tratando de localizar a 4.000 israelíes que vivían o trabajaban en el área de Nueva York. &mdash; \"localizar\" pasó a ser \"advertido\". Una mentira deliberada."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Sesgo de proporcionalidad + desplazamiento de culpa: un ataque como el del 11 de septiembre genera una enorme ira. Si los atacantes son una organización pequeña (al Qaeda), ésta no es \"lo suficientemente grande\" para provocar el desastre. La idea de que una entidad poderosa (Israel/Mossad) está detrás parece más \"proporcionada\". En el mundo árabe, la conspiración también sirvió para desviar la culpa de al-Qaeda &mdash;, una organización árabe islamista &mdash;, hacia \"los judíos\"."
+                    ],
+                    "sources": "Fuentes: Comisión del 11 de septiembre (2004); factcheck.org; Grupo de inteligencia del SITIO"
+                },
+                {
+                    "title": "\"Los judíos crearon el comunismo para destruir la civilización occidental\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "Karl Marx nació judío pero fue bautizado cuando era niño y él mismo era antisemita en sus escritos ('Sobre la cuestión judía', 1843, donde escribió que \"el dios del judío es el dinero\"). Los mismos antisemitas que acusaron a los judíos de ser comunistas los acusaron simultáneamente de controlar el capitalismo &mdash; una contradicción que revela que el objetivo no es la verdad sino la acusación.",
+                        "En la Unión Soviética, los judíos fueron perseguidos bajo el comunismo: la Campaña Anticosmopolita (1948-1953) despidió a intelectuales judíos, el \"Complot de los Médicos\" (1953) acusó a médicos judíos de conspirar para asesinar a líderes soviéticos, y el movimiento Refusenik (1960-1980) fue perseguido por el deseo de los judíos de irse. Las expresiones e instituciones culturales judías fueron eliminadas sistemáticamente. El comunismo persiguió a los judíos &mdash; exactamente lo contrario de lo que afirma la conspiración."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Pensamiento monolítico: Culpar a un grupo étnico por una idea política es un error de pensamiento clásico. Algunos judíos eran comunistas &mdash; así como algunos judíos eran capitalistas, anarquistas, liberales, conservadores y sionistas. Atribuir la diversidad política de todo un pueblo a una sola conspiración étnica revela la creencia de que los judíos son un monolito &mdash; y no, como todo pueblo, una colección diversa de individuos con opiniones diferentes."
+                    ],
+                    "sources": "Fuentes: Jonathan Frankel, 'Crisis, Revolución y judíos rusos' (2009); Robert Weinberg, 'La Sión olvidada de Stalin' (1998)"
+                }
+            ]
+        },
+        {
+            "number": "Categoría 5",
+            "title": "Acusaciones culturales y sociales",
+            "desc": "Afirmaciones sobre el carácter, el comportamiento y la influencia social de los judíos",
+            "claims": [
+                {
+                    "title": "\"Los judíos son tribales y se niegan a asimilarse\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "La cruel ironía: a lo largo de la mayor parte de la historia, a los judíos se les impidió por la fuerza asimilarse. Fueron forzados a vivir en guetos (Venecia, 1516 &mdash; el primer gueto; Roma hasta 1870), excluidos de las profesiones, negada la ciudadanía (sólo en 1791 en Francia, 1871 en Alemania) y expulsados ​​de los países.",
+                        "Cuando los judíos mantuvieron sus propias comunidades en estas condiciones &mdash; fueron acusados ​​de separación voluntaria. Cuando los judíos se asimilaron (en la Alemania de Weimar: tasa de matrimonios mixtos del 25%, servicio militar completo, liderazgo en la cultura occidental) &mdash; fueron acusados ​​de \"infiltrarse\" en la sociedad y finalmente fueron aniquilados. La acusación es infalible: no importa lo que hagan los judíos, siempre está mal. ¿Separado? Tribal. ¿Asimilar? Infiltrándose. ¿Mantener la tradición? Resistente. ¿Cambiar? Perdiendo identidad."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Definir al \"otro\": Todo grupo mayoritario se define en parte por quién no forma parte de él. Los judíos, como minoría visible, sirvieron como el \"otro\" perfecto en Europa. Si se asimilan plenamente, el “otro” desaparece &mdash; y con él, parte de la identidad de la mayoría. Por lo tanto, ni siquiera la asimilación total es suficiente &mdash;, como lo descubrieron los judíos alemanes que se sentían completamente alemanes y fueron asesinados en Auschwitz."
+                    ],
+                    "sources": "Fuentes: Zygmunt Bauman, 'Modernity and the Holocaust' (1989); Amos Elon, 'La lástima de todo: un retrato de la época judía alemana' (2002)"
+                },
+                {
+                    "title": "\"Los judíos se creen el 'pueblo elegido' y superiores a todos\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "En la teología judía, \"elegido\" no significa \"superior\". Significa ser elegido para una responsabilidad adicional &mdash; específicamente, la obligación de observar los 613 mandamientos de la Torá. Este es un deber, no un privilegio. Para entender: los gentiles están obligados únicamente por las 7 Leyes de Noé. Los judíos están obligados por 613. En todo caso, \"elegido\" significa estar sujeto a un estándar más estricto.",
+                        "El judaísmo enseña explícitamente que los justos de todas las naciones tienen una participación en el Mundo Venidero (Tosefta Sanedrín 13:2). El profeta Amós declaró: \"¿No sois para mí como los etíopes, oh hijos de Israel?\" (Amós 9:7) &mdash; todos los pueblos son iguales ante los ojos de Dios. Por el contrario, el cristianismo afirma que sólo los creyentes en Jesús se salvan, y el Islam que sólo los musulmanes entran al paraíso. De hecho, el judaísmo es el menos \"supremacista\" de los tres."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Mala traducción + malentendido cultural: El término \"Pueblo Elegido\" fue traducido a los idiomas europeos como un título de supremacía, mientras que en hebreo expresa responsabilidad. Este es el mismo problema de leer un texto cultural extranjero a través de una lente cultural diferente. Además, muchos cristianos sintieron que la afirmación judía de ser elegidos desafiaba la afirmación cristiana de que la Iglesia es el \"Nuevo Israel\" (supersesionismo)."
+                    ],
+                    "sources": "Fuentes: Eugene Borowitz, 'Renewing the Covenant' (1991); David Novak, 'La elección de Israel' (1995)"
+                },
+                {
+                    "title": "\"Los judíos controlan Hollywood y corrompen la moral\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "Los inmigrantes judíos que huyeron de los pogromos en Europa (muchos de ellos pobres y llegaron sin nada) fundaron algunos de los primeros estudios de Hollywood a principios del siglo XX &mdash; precisamente porque fueron excluidos de industrias \"respetables\" y tuvieron que recurrir a un campo nuevo y no establecido como el cine. Su éxito en lo que se consideraba un campo \"barato\" se reformuló como \"control\" una vez que el cine se convirtió en una industria importante.",
+                        "La industria del entretenimiento moderna es un ecosistema corporativo global. Disney es propiedad de accionistas de todo el mundo. Netflix, Amazon, Apple TV &mdash; ninguno de ellos está \"controlado\" por judíos. La afirmación funciona como todas las conspiraciones: éxito personal de los judíos en un campo particular = \"control étnico\". Pero cuando los italianos dirigen restaurantes &mdash; nadie dice que los italianos \"controlan la comida\"."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Envidia + necesidad de explicación: cuando una industria produce una cultura que a la gente no le gusta (violencia, sexualidad, valores progresistas), es más fácil culpar a un \"grupo extranjero\" que enfrentar el hecho de que el público en general consume y financia este contenido. \"Los judíos están corrompiendo la moralidad\" permite a la gente culpar a los demás en lugar de responsabilizarse de sus propios gustos."
+                    ],
+                    "sources": "Fuentes: Neal Gabler, 'Un imperio propio: cómo los judíos inventaron Hollywood' (1988); documentación ADL"
+                },
+                {
+                    "title": "\"Los judíos pueden ser identificados físicamente por su apariencia (nariz aguileña, etc.)\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "La caricatura física de los judíos &mdash; nariz aguileña, rasgos oscuros, postura encorvada, frotándose las manos &mdash; es una invención propagandística, no una realidad. La figura de la caricatura se desarrolló en el arte cristiano medieval, se intensificó en las caricaturas antisemitas del siglo XIX (como el periódico francés \"La Libre Parole\") y alcanzó su punto máximo en el \"Der St&uuml;rmer\" nazi, donde Julius Streicher publicaba caricaturas antisemitas semanales.",
+                        "La realidad: los judíos son un pueblo étnicamente diverso que incluye comunidades asquenazíes (europeas, de piel clara), sefardíes (mediterráneas), mizrajíes (de Oriente Medio, de piel oscura), etíopes (beta Israel, negros), indias (Bene Israel), chinas (comunidad Kaifeng) y yemenitas. Se ven completamente diferentes uno del otro. No hay una \"apariencia judía\" &mdash; así como no hay una \"apariencia cristiana\" o una \"apariencia musulmana\"."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Deshumanización visual: las caricaturas físicas son una etapa crítica en la deshumanización. Cuando se hace que un grupo \"luzca diferente\", resulta más fácil verlo como infrahumano. Los nazis utilizaron este tipo de caricaturas en el libro infantil \"El hongo venenoso\" (1938) para enseñar a los niños cómo \"identificar\" a los judíos. Hoy, las mismas caricaturas se difunden en las redes sociales como \"memes\" &mdash; el mismo veneno, una botella nueva."
+                    ],
+                    "sources": "Fuentes: Sara Lipton, 'Dark Mirror: The Medieval Origins of Anti-Jewish Iconography' (2014); Exposición \"Propaganda\" del USHMM"
+                }
+            ]
+        },
+        {
+            "number": "Categoría 6",
+            "title": "Antisionismo antisemita moderno",
+            "desc": "Cuando las críticas a Israel cruzan la línea del odio a los judíos",
+            "claims": [
+                {
+                    "title": "\"Israel es un Estado nazi / El sionismo es nazismo\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "Comparar a Israel con la Alemania nazi es una forma de \"inversión del Holocausto\" &mdash; utilizando el genocidio de judíos para atacar a los judíos. La Alemania nazi construyó un sistema industrial cuyo único propósito era el exterminio racial total: trenes, cámaras de gas, crematorios, burocracia &mdash; 6 millones de asesinados. Ningún Estado democrático, incluido Israel, ha hecho algo remotamente comparable a ninguna escala.",
+                        "La definición de la IHRA (adoptada por más de 35 países) identifica esta comparación como antisemitismo. La razón: convierte el trauma judío en un arma contra los judíos e implícitamente transmite el mensaje de que \"las víctimas se convirtieron en asesinos\". Esta no es una crítica legítima &mdash;, es un intento de negar a los judíos el derecho a definir su propia historia. Se pueden criticar políticas israelíes específicas (y muchos lo hacen) sin recurrir a comparaciones nazis cuyo propósito es herir."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Inversión víctima-autor: Psicológicamente, convertir a la víctima en perpetrador libera al cristiano/árabe/europeo de la culpa histórica. Si \"los judíos son los nuevos nazis\", entonces 2.000 años de persecución europea y antisemitismo árabe están en equilibrio. Esto es un consuelo psicológico, no un argumento histórico."
+                    ],
+                    "sources": "Fuentes: Definición práctica de antisemitismo de la IHRA (2016); Manfred Gerstenfeld, 'El abuso de la memoria del Holocausto' (2009)"
+                },
+                {
+                    "title": "\"Los judíos no merecen un Estado; Israel no tiene derecho a existir\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "Negar el derecho a la autodeterminación del pueblo judío y concedérselo a todos los demás es discriminación. Hay 193 estados miembros de la ONU. Si alguien afirma que Israel no tiene derecho a existir &mdash;, ¿hace la misma afirmación sobre Pakistán (creado en 1947 sobre una base religiosa, provocando el desplazamiento de 15 millones de personas)? ¿Acerca de Jordania (creada por los británicos en 1921)? ¿Sobre Siria, Irak, Líbano (creados por franceses y británicos después de la Primera Guerra Mundial)?",
+                        "La conexión judía con la Tierra de Israel está documentada arqueológicamente durante más de 3000 años: antiguas inscripciones hebreas, restos del templo, monedas de la revuelta de Bar Kokhba, antiguas sinagogas. Los judíos mantuvieron una presencia continua en la Tierra de Israel durante 3.000 años, incluso después de los exilios. El sionismo no es colonialismo &mdash; es un movimiento de liberación nacional de un pueblo que regresa a su patria histórica."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Doble rasero como síntoma: cuando alguien exige que Israel sea el único, de los 193 estados miembros de la ONU, que justifique su derecho a existir &mdash; eso no es una \"crítica política\". Es una norma que no se aplica a ningún otro país. Natan Sharansky identificó el doble rasero como uno de los tres signos que distinguen la crítica legítima del antisemitismo."
+                    ],
+                    "sources": "Fuentes: Natan Sharansky, '3D Test' (2004); Hallazgos arqueológicos de la Autoridad de Antigüedades de Israel; Resolución 181 (1947) de la Asamblea General de la ONU"
+                },
+                {
+                    "title": "\"El lobby israelí (AIPAC) controla la política exterior estadounidense\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "Todos los países ejercen lobby en Washington. Según los registros de la FARA (Ley de Registro de Agentes Extranjeros), Arabia Saudita gasta decenas de millones de dólares anualmente en lobby en Estados Unidos (un máximo de 27 millones de dólares en algunos años). Emiratos Árabes Unidos: más de 20 millones de dólares. Qatar, Japón, Corea del Sur &mdash; decenas de millones cada uno. AIPAC es una organización de lobby estadounidense (no israelí) que opera bajo las mismas reglas y con la misma transparencia que cualquier otro lobby.",
+                        "La afirmación de que AIPAC \"controla\" la política estadounidense ignora los factores reales: intereses geopolíticos (Israel = un aliado democrático estable en Medio Oriente), el intercambio de inteligencia, la industria de defensa (más de 8 mil millones de dólares al año, en su mayoría regresados ​​como compras a empresas estadounidenses) y el apoyo público estadounidense (las encuestas de Gallup históricamente han mostrado entre un 60% y un 70% de simpatía por Israel, con cierta disminución desde 2023). Señalar al lobby proisraelí como \"singularmente poderoso\" hace eco de la misma conspiración &mdash; \"Los judíos controlan los gobiernos\"."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Malentendido de la democracia + pensamiento conspirativo: Mucha gente no entiende que el lobby es una parte legítima de la democracia estadounidense &mdash; todos los grupos de interés lo hacen. Cuando se señala al lobby proisraelí como \"manipulación\" en lugar de lobby &mdash;, se trata de una vieja conspiración disfrazada de moderno."
+                    ],
+                    "sources": "Fuentes: Registros de registro de FARA; Gallup Israel Encuestas de favorabilidad; Datos de lobby de OpenSecrets.org"
+                }
+            ]
+        },
+        {
+            "number": "Categoría 7",
+            "title": "Negación y distorsión del Holocausto",
+            "desc": "Negación, minimización o distorsión del asesinato de 6 millones de judíos",
+            "claims": [
+                {
+                    "title": "\"El Holocausto no ocurrió / 6 millones es una exageración\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "La evidencia del Holocausto se encuentra entre las más extensas de cualquier evento histórico: registros administrativos nazis (los nazis documentaron meticulosamente sus crímenes), testimonios de más de 100.000 sobrevivientes, confesiones de los perpetradores en Nuremberg y otros juicios, fotografías de la liberación por parte de las fuerzas aliadas, evidencia física en Auschwitz-Birkenau y otros sitios, datos demográficos que muestran la desaparición de comunidades judías enteras y documentos como el Protocolo de Wannsee (1942) que documenta la \"Solución final\".",
+                        "David Irving, el negador más destacado del Holocausto, fue desacreditado en un caso histórico en los tribunales de Londres en 2000 (Irving v Lipstadt). El juez dictaminó que Irving \"distorsionó y manipuló deliberadamente la historia\". La negación del Holocausto es ilegal en 17 países porque no es una \"opinión\" &mdash;, es la negación de hechos documentados, muy parecido a negar que la Tierra es redonda, excepto que es peligroso porque allana el camino para el próximo genocidio."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Reducción de la disonancia cognitiva: los antisemitas que quieren seguir odiando a los judíos enfrentan un problema: &mdash; el Holocausto hace que el odio a los judíos sea moralmente imposible. La solución: negar el Holocausto. Si el Holocausto no ocurrió, uno puede volver a odiar a los judíos sin sentirse culpable. Por eso la negación del Holocausto y el antisemitismo siempre van de la mano."
+                    ],
+                    "sources": "Fuentes: Deborah Lipstadt, 'Negar el Holocausto' (1993); Irving contra Penguin Books Ltd (2000); Enciclopedia del Holocausto del USHMM"
+                },
+                {
+                    "title": "\"Los judíos inventaron o exageraron el Holocausto para obtener beneficios políticos y financieros\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "La acusación de que los judíos fabricaron su propio genocidio por simpatía o dinero contiene antisemitismo en tres capas: (1) niega el sufrimiento de millones de víctimas, (2) enmarca la memoria del genocidio como un \"plan judío para ganar dinero\" (el estereotipo del judío codicioso), y (3) convierte a las víctimas en estafadores.",
+                        "Los hechos: Las reparaciones del Holocausto por parte de Alemania llegaron después de 7 años de lucha política (Acuerdos de Luxemburgo, 1952). Cubrían una pequeña fracción de las propiedades robadas a los judíos europeos (casas, negocios, ahorros, arte, oro &mdash; valor estimado en cientos de miles de millones de dólares). Muchos supervivientes vivieron en la pobreza después de la guerra. Más de 30.000 supervivientes del Holocausto viven hoy por debajo del umbral de pobreza en Israel. El supuesto \"beneficio\" es un mito."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Fatiga del Holocausto + envidia: Algunas personas están cansadas de oír hablar del Holocausto y buscan justificación para su indiferencia. La idea de que \"los judíos explotan el Holocausto para obtener ganancias\" proporciona una justificación moral para ignorar el Holocausto. Además, en algunas partes del mundo árabe, negar o minimizar el Holocausto sirve como herramienta política. Si el Holocausto no ocurrió, no hay justificación para la existencia de Israel (según su lógica defectuosa)."
+                    ],
+                    "sources": "Fuentes: Norman Finkelstein, 'The Holocaust Industry' (2000, controvertido); Registros de la conferencia sobre reclamaciones materiales judías contra Alemania; Fundación Israelí en beneficio de las víctimas del Holocausto"
+                },
+                {
+                    "title": "\"Las cámaras de gas no existían / ​​sólo eran cámaras de despioje\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "El Informe Leuchter (1988) afirmó que los análisis químicos de las paredes de Auschwitz mostraban residuos de cianuro insuficientes. Fue completamente desacreditado por el Instituto Forense de Cracovia (1994), que encontró importantes compuestos de cianuro. El nivel \"más bajo\" en comparación con las cámaras de despioje se explica por la química básica: matar humanos requiere mucho menos Zyklon B que matar piojos (300 ppm frente a 16.000 ppm).",
+                        "Las pruebas de las cámaras de gas: (1) Rudolf H&ouml;ss, comandante de Auschwitz, las describió en detalle en su confesión y en la autobiografía que escribió antes de su ejecución. (2) Los Sonderkommando (prisioneros obligados a trabajar en las cámaras de gas) testificaron en detalle. (3) Se encontraron planos de la empresa Topf und S&ouml;hne (que construyó los crematorios) &mdash;, incluido un pedido de \"puertas estancas al gas\". (4) Fotografías aéreas aliadas de 1944 muestran filas de personas entrando en edificios de los que sale humo. (5) Los restos físicos en Auschwitz-Birkenau están abiertos a la visita del público."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Neonazismo disfrazado de académico: los negadores del Holocausto se disfrazan de \"investigadores\" y \"revisionistas\" para dar a las mentiras una apariencia de erudición. El objetivo: volver a legitimar el nazismo. Se ha descubierto que todos los \"negadores del Holocausto\" en la historia tienen conexiones con organizaciones neonazis. &mdash; no existe ningún investigador neutral que niegue el Holocausto. Esta no es una \"posición académica\" sino propaganda."
+                    ],
+                    "sources": "Fuentes: Jean-Claude Pressac, 'Auschwitz: Técnica y funcionamiento de las cámaras de gas' (1989); Informe del Instituto Forense de Cracovia (1994); Robert Jan van Pelt, testigo experto en el juicio de Irving"
+                }
+            ]
+        },
+        {
+            "number": "Categoría 8",
+            "title": "Antisemitismo en línea y contemporáneo",
+            "desc": "Mutaciones modernas del odio antiguo en la era digital",
+            "claims": [
+                {
+                    "title": "\"Símbolos codificados: paréntesis triple (((ecos))), 'sección de la vida temprana'\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "El símbolo del triple paréntesis (((nombre))) fue creado por el blog neonazi 'The Right Stuff' (2014) para identificar a los judíos en línea. La 'sección de la vida temprana' se refiere a verificar las entradas de Wikipedia en busca de ascendencia judía. Expresiones codificadas adicionales: '109' (la afirmación de que los judíos fueron expulsados ​​de 109 países), 'da goyim know', 'oy vey', '6 millones de productos', 'globalista' y 'banquero internacional' como nombres en clave.",
+                        "El lenguaje codificado permite una negación plausible: \"No soy antisemita, sólo estoy hablando de globalistas\". Los algoritmos de las redes sociales luchan por identificar el lenguaje codificado, por lo que el contenido antisemita que se elimina en forma abierta se publica en forma codificada. Plataformas como 4chan, Telegram y Gab se han convertido en centros de propaganda antisemita. La ADL documenta nuevos símbolos cada semana."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Pertenencia al grupo + secreto: el lenguaje codificado crea una sensación de \"club secreto\" &mdash; aquellos que entienden el código son \"uno de nosotros\". Esto proporciona pertenencia social, un sentimiento de superioridad (\"sabemos la verdad\") y la adrenalina de la transgresión. Muchos jóvenes están expuestos a contenidos antisemitas a través de \"memes\" que parecen chistes &mdash; pero los chistes son la primera etapa de la radicalización."
+                    ],
+                    "sources": "Fuentes: ADL Hate on Display Database; Investigación Moonshot CVE; Informes ISD (Instituto para el Diálogo Estratégico)"
+                },
+                {
+                    "title": "\"Los judíos crearon el COVID / se beneficiaron de la pandemia / las vacunas como un complot judío\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "Las teorías de conspiración sobre el COVID siguieron exactamente el mismo patrón que las acusaciones de la peste medieval: los judíos crearon el virus, lo propagaron deliberadamente o se beneficiaron de él a través de compañías farmacéuticas. La ADL documentó más de 17.000 tuits culpando a los judíos por el COVID sólo en los primeros meses de la pandemia.",
+                        "Los manifestantes contra el bloqueo llevaban estrellas amarillas y afirmaban \"somos como judíos en el Holocausto\" &mdash; una comparación que trivializa el asesinato de 6 millones de judíos con la inconveniencia de un mandato de uso de mascarillas. En Irán, los medios estatales afirmaron que el virus era un \"arma biológica sionista\". En Turquía, los periódicos afirmaron que \"los judíos y el Mossad están detrás del COVID\". El patrón es idéntico a 1348 (los judíos envenenaron pozos), 1918 (los judíos propagaron la gripe española) y 2020 (los judíos crearon el COVID). 700 años, la misma mentira."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Gestión del terrorismo + patrón antiguo: una pandemia crea ansiedad ante la muerte. La ansiedad ante la muerte aumenta la hostilidad hacia los grupos externos (teoría del manejo del terror). Los judíos, como clásico grupo externo, se convierten en los \"culpables\". Este es exactamente el mismo mecanismo psicológico que operó durante la Peste Negra en 1348 &mdash; lo que cambia es la tecnología (Twitter en lugar de rumores del mercado), no la psicología humana."
+                    ],
+                    "sources": "Fuentes: Informe ADL COVID-19 (2020); MEMRI; Investigación del Oxford Internet Institute sobre teorías de la conspiración"
+                },
+                {
+                    "title": "\"Los judíos están detrás del 'Gran Reemplazo': orquestando la inmigración masiva\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "La teoría del \"Gran Reemplazo\" (basada en el libro de Renaud Camus, 2011) afirma que los judíos están diseñando deliberadamente una inmigración masiva para destruir las naciones de mayoría blanca. En realidad, la inmigración está impulsada por fuerzas económicas (brechas salariales, demanda laboral), factores políticos (guerras, dictaduras), crisis humanitarias (refugiados) y eventos climáticos (sequía, inundaciones) &mdash;, no por un grupo étnico que comprende el 0,2% de la población mundial.",
+                        "Esta conspiración mata. Fue citado directamente como motivación por: Robert Bowers (Pittsburgh, 2018, 11 asesinados en una sinagoga), Brenton Tarrant (Christchurch, 2019, 51 asesinados en una mezquita), Patrick Crusius (El Paso, 2019, 23 asesinados) y John Earnest (Poway, 2019, 1 asesinado en una sinagoga). Cada uno publicó un manifiesto culpando a los judíos por \"el reemplazo\". De la teoría a la violencia &mdash; la línea es corta."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Ansiedad demográfica + búsqueda de chivos expiatorios: Los cambios demográficos reales (inmigración, tasas de natalidad) crean ansiedad entre partes de la mayoría. En lugar de enfrentar causas complejas, es más fácil culpar a un \"orquestador\" &mdash; y los judíos, los eternos acusados, son el blanco. Esta es la versión del siglo XXI de \"los judíos controlan los gobiernos\" &mdash; la misma conspiración, sólo que con \"inmigración\" en lugar de \"bancos\"."
+                    ],
+                    "sources": "Fuentes: ADL; Manifiesto de Robert Bowers (archivado); Informe de la Comisión Real de Christchurch (2020)"
+                },
+                {
+                    "title": "\"Los judíos utilizan las afirmaciones de antisemitismo como arma para silenciar las críticas\"",
+                    "ref_label": "&#10003; Refutación fáctica",
+                    "ref": [
+                        "La afirmación de que los judíos \"aprovechan\" el antisemitismo para silenciar las críticas es en sí misma una táctica: les dice a los judíos que \"no tienen derecho a quejarse\" &mdash; precisamente cuando el antisemitismo está aumentando a cifras récord (ADL: 8.873 incidentes en 2023 solo en EE. UU., un aumento del 140%).",
+                        "Por supuesto, existe un debate legítimo sobre dónde cae la línea entre la crítica a Israel y el antisemitismo. Críticas a políticas israelíes específicas = legítimas. Negación del derecho de Israel a existir solo = antisemitismo. Uso de estereotipos sobre todos los judíos = antisemitismo. La regla es simple: si reemplazaste \"judío\" por \"negro/musulmán/asiático\" y la frase sonó racista &mdash;, también es antisemita.",
+                        "La afirmación de que los judíos \"aprovechan el victimismo\" es la versión contemporánea de \"los judíos son astutos y manipuladores\", el estereotipo más antiguo, disfrazado de moderno."
+                    ],
+                    "psych_label": "&#128300; ¿Por qué la gente cree esto?",
+                    "psych": [
+                        "Defensa contra la disonancia: las personas expuestas a críticas por sus puntos de vista sobre los judíos/Israel sienten malestar (disonancia cognitiva). En lugar de examinar sus puntos de vista, es más fácil afirmar que la crítica en sí es \"manipulación judía\". Esto los libera de la necesidad de autoexaminarse: \"No soy antisemita, simplemente gritan antisemitismo para silenciarme\". El deseo de evitar la culpa es más fuerte que el deseo de descubrir la verdad."
+                    ],
+                    "sources": "Fuentes: Auditoría ADL (2023); David Hirsh, 'Antisemitismo de izquierda contemporáneo' (2017)"
+                }
+            ]
+        }
+    ],
+    "lies_title": "Mentiras y calumnias comunes",
+    "lies_desc": "Mentiras comunes contra Israel y el pueblo judío, y los hechos que las exponen",
+    "lie_cards": [
+        {
+            "title": "\"Israel cometió genocidio en Gaza\"",
+            "claim_label": "&#10060; Lo que afirman:",
+            "claim": "Las operaciones militares de Israel en Gaza después del 7 de octubre de 2023 constituyen un genocidio &mdash; la destrucción deliberada y sistemática del pueblo palestino. Sudáfrica presentó un caso ante la Corte Internacional de Justicia (CIJ) y las redes sociales inundan Internet con afirmaciones de que Israel está cometiendo \"genocidio\".",
+            "facts_label": "&#10003; Los hechos que exponen la mentira:",
+            "facts_list": [
+                "<strong>Definición legal:</strong> El genocidio requiere <strong>intención especial (dolus specialis)</strong> para destruir un grupo nacional, étnico o religioso. La Convención de las Naciones Unidas para la Prevención del Genocidio (1948, Artículo II) estipula que se requiere prueba de intención &mdash; y no sólo de víctimas.",
+                "<strong>La Corte Internacional de Justicia (CIJ) no dictaminó genocidio.</strong> Sólo dictaminó que el caso de Sudáfrica era \"lo suficientemente plausible para ser escuchado\" &mdash; este es el umbral legal más bajo para procedimientos provisionales, no un veredicto.",
+                "<strong>Proporción combatiente-civil:</strong> Prof. <strong>John Spencer</strong>, jefe de estudios de guerra urbana en West Point, afirmó que la proporción de bajas de Israel es aproximadamente <strong>1:1.5</strong> &mdash; mientras que el promedio global en guerra es <strong>1:9</strong>.",
+                "<strong>Medidas sin precedentes para proteger a los civiles:</strong> Las FDI realizaron <strong>50.066 llamadas telefónicas personales</strong>, enviaron <strong>12 millones de mensajes de voz</strong> y <strong>14 millones de mensajes SMS</strong>, arrojaron millones de folletos y crearon corredores de evacuación &mdash;, algo que nunca ha sucedido en ninguna guerra de la historia.",
+                "<strong>Hamas utiliza escudos humanos:</strong> UNRWA (la agencia de la ONU) encontró cohetes en sus escuelas <strong>3 veces separadas</strong>. La OTAN publicó un informe documentado sobre la estrategia de escudo humano de Hamás. Yahya Sinwar dijo: \"Decidimos convertir los cuerpos de nuestras mujeres y niños en una presa\"."
+            ],
+            "facts_conclusion": "Si un ejército con capacidad nuclear y una de las fuerzas aéreas más poderosas del mundo tuviera la <strong>intención</strong> de destruir &mdash;, no llamaría, enviaría SMS ni evacuaría a civiles antes de cada ataque. <strong>No hay ningún genocidio en la historia en el que el bando atacante advierta a las víctimas que huyan.</strong>",
+            "sources": "Fuentes: Convención de las Naciones Unidas para la Prevención del Genocidio (1948, artículo II) | Orden provisional de la CIJ, 26 de enero de 2024 | Consejo Atlántico — Análisis de expertos | Newsweek — John Spencer, \"Israel ha creado un nuevo estándar para la guerra urbana\" | Instituto Lieber, West Point: Las FDI y el deber de advertir | COE StratCom de la OTAN: Uso de escudos humanos por parte de Hamás | Declaraciones oficiales de la UNRWA sobre los cohetes en las escuelas"
+        },
+        {
+            "title": "\"Israel empujó a Trump a luchar contra Irán\"",
+            "claim_label": "&#10060; Lo que afirman:",
+            "claim": "Israel controló, manipuló o \"empujó\" a Estados Unidos &mdash; y específicamente al presidente Trump &mdash; a una confrontación con Irán. Según esta narrativa, Estados Unidos está librando la \"guerra de Israel\" y no defendiendo sus propios intereses. Esta es una versión moderna del tropo de \"lealtad dual\" &mdash;, un fraude antisemita de larga data.",
+            "facts_label": "&#10003; Los hechos que exponen la mentira:",
+            "facts_list": [
+                "<strong>El conflicto entre Estados Unidos e Irán es anterior a Israel:</strong> El golpe de la CIA en 1953 (Mossadegh), la crisis de rehenes de 1979 (444 días) y la ruptura diplomática completa desde 1980 &mdash; décadas antes de cualquier \"lobby israelí\".",
+                "<strong>Irán mató a más de 869 estadounidenses:</strong> El bombardeo de Beirut de 1983 (241 marines), el bombardeo de las Torres Khobar de 1996 (19), bombas al borde de las carreteras en Irak 2003-2011 (603+). Un tribunal estadounidense ordenó a Irán pagar 1.500 millones de dólares en concepto de daños y perjuicios.",
+                "<strong>Trump estuvo anti-Irán desde 1980:</strong> En una entrevista de NBC con Rona Barrett (de 34 años), Trump dijo que Estados Unidos debería haber invadido Irán. Esto fue <strong>46 años</strong> antes de cualquier reclamo de influencia israelí.",
+                "<strong>Intereses estadounidenses independientes:</strong> El Estrecho de Ormuz (21% del petróleo mundial), el programa nuclear de Irán, la financiación del terrorismo (Hezbolá, Hamás, Hutíes). Irán ha sido designado \"Estado patrocinador del terrorismo\" desde 1984.",
+                "<strong>Arabia Saudita también presionó:</strong> El Washington Post informó que la presión provino \"de un par inusual de aliados: Israel <strong> y Arabia Saudita</strong>\" &mdash; pero nadie llama a la presión saudí una \"conspiración\"."
+            ],
+            "facts_conclusion": "La ADL identificó esta narrativa como un tropo antisemita clásico: <strong>\"lealtad dual\"</strong> &mdash; acusando a los judíos de dirigir en secreto la política exterior. El mismo tropo se utilizó contra Dreyfus (1894), en el \"mito de la puñalada por la espalda\" (1918) y en \"El complot de los médicos\" de Stalin (1953).",
+            "sources": "Fuentes: FDD – Ataques iraníes contra estadounidenses desde 1979 hasta el presente | La Casa Blanca (2026) — Décadas de terrorismo iraní | CIA desclasificado: atentado en Beirut | Administración de Información Energética de EE.UU. — Estrecho de Ormuz | Brookings: Cómo piensa Trump sobre Irán | El Correo de Washington (28.2.2026) | ADL: Operación militar alimenta conspiración antisemita | AJC — #TranslateHate: Doble Lealtad"
+        },
+        {
+            "title": "\"Israel es un estado de apartheid\"",
+            "claim_label": "&#10060; Lo que afirman:",
+            "claim": "Israel opera un sistema de segregación racial similar al régimen del apartheid en Sudáfrica. Organizaciones como Amnistía Internacional y Human Rights Watch han publicado informes utilizando esta etiqueta, y la \"Semana del Apartheid Israelí\" se lleva a cabo en más de 250 campus en todo el mundo.",
+            "facts_label": "&#10003; Los hechos que exponen la mentira:",
+            "facts_list": [
+                "<strong>En Sudáfrica:</strong> los negros <strong>no podían votar</strong>, se les prohibió ingresar a los vecindarios blancos, tenían una educación deliberadamente separada e inferior, había carteles de \"Solo blancos\" en todas partes y el matrimonio interracial era un <strong>delito penal</strong>.",
+                "<strong>En Israel:</strong> Los ciudadanos árabes (21%) votan con <strong>plenos e iguales derechos</strong> desde 1948. El juez <strong>Salim Joubran</strong> (árabe) se desempeñó como vicepresidente de la Corte Suprema. El <strong>partido Ra'am</strong> se unió a la coalición gubernamental en 2021. Drusos y beduinos sirven como altos oficiales de las FDI.",
+                "<strong>Árabes y judíos israelíes:</strong> estudian en las mismas universidades, reciben tratamiento en los mismos hospitales, compran en los mismos centros comerciales, nadan en las mismas playas. <strong>No hay ni un solo cartel que diga \"Sólo judíos\" en Israel.</strong>",
+                "<strong>Kenneth Meshoe</strong>, un miembro negro del parlamento sudafricano <strong>que vivió bajo un apartheid real</strong>: \"He visitado Israel muchas veces. <strong>Nada allí se puede comparar con el apartheid en Sudáfrica.</strong>\"",
+                "<strong>El juez Richard Goldstone</strong> (Sudáfrica), que investigó a Israel para la ONU, escribió en el New York Times (2011): <strong>\"En Israel no hay apartheid. Nada allí se acerca a la definición\".</strong>"
+            ],
+            "facts_conclusion": "",
+            "sources": "Fuentes: ADL — Alegación: Israel es un Estado de apartheid | Richard Goldstone, \"Israel y la calumnia del apartheid\", New York Times (31.10.2011) | UN Watch — Respuesta al reclamo de apartheid | Británica — Apartheid | Kenneth Meshoe, Correo de Jerusalén | SSRN — Análisis legal de Sekulow & Ash"
+        },
+        {
+            "title": "\"Los judíos controlan los medios de comunicación y la economía global\"",
+            "claim_label": "&#10060; Lo que afirman:",
+            "claim": "Los judíos controlan en secreto bancos, medios de comunicación y gobiernos mundiales, manipulando los acontecimientos globales para su beneficio. Esta teoría se basa en los \"Protocolos de los Sabios de Sión\" &mdash; una falsificación probada creada en 1903 &mdash; y en el mito de la familia Rothschild.",
+            "facts_label": "&#10003; Los hechos que exponen la mentira:",
+            "facts_list": [
+                "<strong>\"Protocolos de los Sabios de Sión\" &mdash; una falsificación comprobada:</strong> Creado por la policía secreta rusa (Okhrana). En 1921, el Times de Londres demostró que era una <strong>copia directa</strong> de una sátira francesa sobre Napoleón III (1864) que no tenía <strong>ninguna conexión con los judíos</strong>. Un tribunal suizo (1935) declaró el texto \"falsificación, plagio y literatura obscena\".",
+                "<strong>Mito Rothschild:</strong> La riqueza de la familia se estima en 400 mil millones de dólares &mdash; repartidos en 7 generaciones. A modo de comparación: <strong>Elon Musk solo</strong> vale ~800 mil millones de dólares. La afirmación de que \"los Rothschild controlan el 80% de la riqueza global\" es <strong>matemáticamente imposible</strong> &mdash; la riqueza global total es de ~471 billones de dólares.",
+                "<strong>Los 4 bancos más grandes del mundo son chinos</strong> (ICBC, Banco Agrícola, Banco de Construcción, Banco de China). Entre los 20 principales bancos &mdash;, la mayoría son chinos, japoneses, británicos y franceses.",
+                "<strong>Judíos = 0,2% de la población mundial</strong> (15,7 millones de 8 mil millones). Es <strong>estadísticamente imposible</strong> que el 0,2% \"controle\" la economía, los medios y los gobiernos globales.",
+                "<strong>La ironía:</strong> Como señala la ADL &mdash; \"A lo largo de la historia, los judíos tuvieron <strong>muy poco control</strong> incluso sobre su propio destino\" &mdash; expulsiones, pogromos, Holocausto."
+            ],
+            "facts_conclusion": "",
+            "sources": "Fuentes: USHMM — Protocolos de los Sabios de Sión | ADL: un engaño de odio | Snopes - Riqueza de la familia Rothschild (verificación de hechos) | PolitiFact — Clasificación \"Pantalones en llamas\" | S&P Global: los bancos más grandes del mundo 2024 | Encuesta ADL Global 100 2024 | Británica - Protocolos"
+        },
+        {
+            "title": "\"Los judíos no tienen ninguna conexión histórica con la Tierra de Israel\"",
+            "claim_label": "&#10060; Lo que afirman:",
+            "claim": "Los judíos son \"colonizadores europeos\" sin conexión real con la Tierra de Israel. El sionismo es únicamente un \"proyecto colonial\" moderno. Mahmoud Abbas (abril de 2025) afirmó que los Templos estaban <strong>en Yemen, no en Jerusalén</strong>. El movimiento \"Negación del Templo\" niega cualquier conexión judía con el Monte del Templo.",
+            "facts_label": "&#10003; Los hechos que exponen la mentira: 3200 años de evidencia:",
+            "facts_list": [
+                "<strong>Estela de Merneptah (1208 a. C.):</strong> Una inscripción egipcia &mdash; <strong>la mención no bíblica más antigua de Israel</strong> en la historia. Museo de El Cairo.",
+                "<strong>Tel Dan Stele (siglo IX a. C.):</strong> Una inscripción aramea encontrada en 1993: \"Casa de David\" &mdash; <strong>la primera evidencia externa de la dinastía davídica</strong>.",
+                "<strong>Inscripción de Siloé (701 a. C.):</strong> Una antigua inscripción hebrea dentro del túnel de Ezequías en Jerusalén &mdash; <strong>un hablante de hebreo estaba a cargo en Jerusalén hace 2.700 años</strong>.",
+                "<strong>Rollos del Mar Muerto (siglo III a.C. - siglo I d.C.):</strong> 981 manuscritos en hebreo y arameo &mdash; <strong>las copias más antiguas de la Biblia</strong>. Museo de Israel, Jerusalén.",
+                "<strong>Arco de Tito, Roma (81 d.C.):</strong> Un relieve que representa a soldados romanos <strong>llevando la Menorá desde el Templo en Jerusalén</strong> &mdash; Prueba romana de que el Templo judío estaba en Jerusalén.",
+                "<strong>50,000+ Monedas de Bar Kokhba (132-135 CE):</strong> Con símbolos judíos e inscripciones hebreas antiguas: \"Por la libertad de Jerusalén\".",
+                "<strong>Estudios genéticos (PNAS 2000, Nature 2010):</strong> Todos los grupos judíos &mdash; Ashkenazi, Sefardí y Mizrahi &mdash; <strong>comparten marcadores genéticos comunes del Medio Oriente</strong>. Los judíos están genéticamente más cerca de los palestinos, sirios y drusos que de los europeos.",
+                "<strong>Liga de Naciones (1922):</strong> Reconocimiento internacional oficial de <strong>\"la conexión histórica del pueblo judío con Palestina\".</strong>"
+            ],
+            "facts_conclusion": "Negar la conexión judía con la Tierra de Israel requiere ignorar <strong>arqueología, registros romanos, ciencia genética y derecho internacional</strong> &mdash;, todos los cuales confirman la misma conclusión.",
+            "sources": "Fuentes: Sociedad de Arqueología Bíblica — Merneptah Stele, Tel Dan Stele | Museo de Israel — Rollos del Mar Muerto | Universidad Yeshiva — Proyecto Arco de Tito | Martillo y col. (2000), PNAS 97(12) | Behar et al. (2010), Naturaleza 466 | Mandato de la Liga de Naciones (1922), Proyecto Yale Avalon | USHMM | ADL"
+        }
+    ],
+    "timeline_title": "2.500 años de persecución",
+    "timeline_desc": "La línea de tiempo muestra que las mismas mentiras se repiten una y otra vez, cada vez con consecuencias mortales.",
+    "timeline": [
+        {
+            "date": "167 a. C.",
+            "title": "Persecución de Antíoco IV",
+            "desc": "La primera persecución patrocinada por el Estado. Profanación del Templo, prohibición del judaísmo. Desencadenó la revuelta macabea: Hanukkah.",
+            "victims": ""
+        },
+        {
+            "date": "38 d.C.",
+            "title": "El pogromo de Alejandría",
+            "desc": "El primer pogromo antijudío documentado. Las turbas atacaron barrios judíos, destruyeron casas y sinagogas.",
+            "victims": "Cientos de muertos"
+        },
+        {
+            "date": "70 d.C.",
+            "title": "Destrucción del Segundo Templo",
+            "desc": "Roma destruyó el centro de la vida judía. El comienzo del exilio. El cristianismo lo reformuló como castigo divino.",
+            "victims": "Cientos de miles"
+        },
+        {
+            "date": "1096",
+            "title": "Masacres de la Primera Cruzada",
+            "desc": "Los cruzados en camino a Tierra Santa masacraron comunidades judías en Renania. Sólo en Maguncia fueron asesinados 1.000 judíos en un solo día.",
+            "victims": "5.000-10.000 muertos"
+        },
+        {
+            "date": "1144",
+            "title": "El primer libelo de sangre - Norwich",
+            "desc": "Un niño fue encontrado muerto; Los judíos fueron acusados ​​sin pruebas. Creó una plantilla que se repitió cientos de veces durante los siguientes 800 años.",
+            "victims": ""
+        },
+        {
+            "date": "1215",
+            "title": "El Cuarto Concilio de Letrán",
+            "desc": "El Papa ordenó a los judíos usar ropa de identificación (un precursor de la insignia amarilla), exclusión de cargos públicos.",
+            "victims": ""
+        },
+        {
+            "date": "1290",
+            "title": "Expulsión de Inglaterra",
+            "desc": "La primera expulsión nacional completa. Entre 3.000 y 16.000 judíos fueron expulsados. Se les prohibió regresar hasta 1656: 366 años de prohibición.",
+            "victims": ""
+        },
+        {
+            "date": "1348-1351",
+            "title": "Pogromos de la Peste Negra",
+            "desc": "Los judíos fueron acusados ​​de envenenar pozos. En Estrasburgo, 2.000 judíos fueron quemados vivos el 14 de febrero de 1349, antes de que la plaga llegara a la ciudad. Más de 200 comunidades judías fueron destruidas.",
+            "victims": "decenas de miles"
+        },
+        {
+            "date": "1478",
+            "title": "La Inquisición española",
+            "desc": "Apuntó a los judíos que se habían convertido al cristianismo. Torturas, encarcelamientos, hogueras en plazas públicas. Leyes de \"pureza de sangre\": precursoras del racismo nazi.",
+            "victims": "~3.000-5.000 ejecutados"
+        },
+        {
+            "date": "1492",
+            "title": "Expulsión de España",
+            "desc": "200.000 judíos expulsados ​​de un país en el que habían vivido durante más de 1.000 años. Muchos murieron en el camino.",
+            "victims": "200.000 exiliados"
+        },
+        {
+            "date": "1933-1945",
+            "title": "El holocausto",
+            "desc": "Genocidio industrial sistemático. Guetos, campos de exterminio, Einsatzgruppen, marchas de la muerte. Todos los tropos antisemitas documentados en este sitio se utilizaron como justificación.",
+            "victims": "6.000.000 de muertos"
+        },
+        {
+            "date": "2018-2024",
+            "title": "Ola global de antisemitismo",
+            "desc": "Tiroteo en la sinagoga Árbol de la Vida en Pittsburgh (11 muertos), Halle, París. La ADL informó de un aumento del 167 % en los incidentes antisemitas en Estados Unidos entre 2016 y 2022.",
+            "victims": ""
+        }
+    ],
+    "psych_title": "La psicología del odio",
+    "psych_desc": "El antisemitismo no se trata realmente de judíos &mdash;, se trata de las necesidades psicológicas del antisemita.",
+    "psych_insight_title": "La idea clave",
+    "psych_insight_text": "De todas las explicaciones psicológicas surge un patrón: el antisemitismo no tiene que ver realmente con los judíos. Se trata de las necesidades psicológicas de los antisemitas: su necesidad de explicaciones simples, su miedo a la complejidad, su ira desplazada y su deseo de tener a alguien a quien culpar. Los judíos son la pantalla sobre la que se proyectan estas necesidades. Por eso el antisemitismo persiste incluso en países donde casi no hay judíos (Japón, Corea del Sur, Polonia después del Holocausto).",
+    "psych_cards": [
+        {
+            "title": "Chivo expiatorio",
+            "text": "Cuando una sociedad enfrenta una crisis, la gente busca a quién culpar. Es mucho más fácil culpar a un grupo minoritario visible que a factores sistémicos complejos. Cada acusación revela lo que la sociedad acusadora más teme de sí misma."
+        },
+        {
+            "title": "Proyección",
+            "text": "La transferencia inconsciente de los propios rasgos inaceptables a los demás. Los cristianos que se sentían culpables por la usura acusaron a los judíos de avaricia. Los europeos que anhelaban la dominación mundial acusaron a los judíos de buscar la dominación mundial. Los nazis que practicaban la eugenesia acusaron a los judíos de mezcla racial."
+        },
+        {
+            "title": "Sesgo de confirmación",
+            "text": "Una vez que alguien cree que \"los judíos controlan los medios\", se fija en cada judío que aparece en los medios e ignora a los miles que no lo son. La creencia genera su propia \"evidencia\"."
+        },
+        {
+            "title": "Correlación ilusoria",
+            "text": "Cuando una minoría está involucrada en un evento negativo, la gente sobreestima la conexión. Si un banquero judío comete fraude &mdash; se nota su judaísmo. Si un banquero no judío comete fraude &mdash; su origen étnico es invisible."
+        },
+        {
+            "title": "La personalidad autoritaria",
+            "text": "Adorno (1950) encontró una combinación de rasgos que predicen el prejuicio: pensamiento rígido, sumisión a la autoridad, agresión hacia grupos externos y ansiedad por el cambio. Las personas con estos rasgos se sienten atraídas por las narrativas antisemitas porque brindan explicaciones simples, enemigos claros y una sensación de orden en un mundo complejo."
+        },
+        {
+            "title": "Pensamiento conspirativo",
+            "text": "La investigación moderna muestra que el pensamiento conspirativo es un estilo cognitivo &mdash; quienes creen en una conspiración tienden a creer en otras, incluso en las contradictorias. El antisemitismo proporciona a la \"madre de todas las conspiraciones\" &mdash; una explicación unificada para todo lo que está mal en el mundo."
+        }
+    ],
+    "regions_title": "Antisemitismo por sociedad y nación",
+    "regions_desc": "Cada sociedad desarrolló su propia versión del odio a los judíos &mdash; el mismo veneno, diferentes botellas",
+    "regions": [
+        {
+            "title": "El mundo musulmán y árabe",
+            "subtitle": "Del antisemitismo religioso medieval al conflicto moderno",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Fuente histórica:</strong> En los inicios del judaísmo y el Islam hubo períodos de convivencia. Pero el Corán contiene versos negativos sobre los judíos (Sura 5:60 &mdash; \"aquellos a quienes Alá maldijo y convirtió en monos y cerdos\"), y Mahoma expulsó y masacró a las tribus judías en Medina (Banu Qurayza, 627 CE &mdash; 600-900 hombres judíos fueron decapitados). Bajo el dominio islámico, los judíos eran \"dhimmis\" &mdash; ciudadanos protegidos pero inferiores que pagaban el impuesto jizya y llevaban marcas de identificación.",
+                "<strong style=\"color:#e2b714;\">La invención de la identidad nacional palestina:</strong> El término \"Palestina\" es un nombre geográfico romano (del año 135 d.C., cuando los romanos cambiaron el nombre de Judea para borrar la identidad judía). Los árabes de la región se identificaron durante siglos como sirios, árabes o por tribu y familia. La identidad nacional palestina cristalizó principalmente a mediados del siglo XX. Zuheir Mohsen, líder de al-Sa'iqa (una organización palestina), dijo en 1977 en una entrevista con el periódico holandés Trouw: \"El pueblo palestino no existe... no hay diferencia entre jordanos, palestinos, sirios y libaneses. Todos somos parte de una nación árabe\".",
+                "<strong style=\"color:#e2b714;\">Terror suicida:</strong> Durante la Segunda Intifada (2000-2005), se llevaron a cabo más de 140 atentados suicidas con bombas contra civiles israelíes en autobuses, restaurantes, centros comerciales y clubes nocturnos. 1.137 israelíes murieron. Hamás, la Jihad Islámica y Fatah enviaron a jóvenes, incluidas mujeres y adolescentes, a hacerse estallar entre civiles &mdash; y luego afirmaron que Israel estaba \"asesinando\". El bando que hace estallar autobuses con bebés no es la víctima.",
+                "<strong style=\"color:#e2b714;\">La calumnia del \"genocidio\": </strong> Israel es el único ejército en la historia que envía avisos de advertencia a los civiles enemigos antes de un ataque (\"golpes en el tejado\", mensajes SMS, folletos). Israel opera un sistema legal independiente que investiga las violaciones. Si Israel quería cometer genocidio, ¿por qué la población de Gaza creció de 80.000 en 1948 a más de 2 millones en 2023? El verdadero genocidio se parece al de Ruanda (800.000 muertos en 100 días) o al Holocausto (6 millones). El derecho a la legítima defensa no es genocidio.",
+                "<strong style=\"color:#e2b714;\">Propaganda moderna:</strong> \"Los protocolos de los sabios de Sión\" &mdash; una falsificación rusa de 1903 &mdash; es un éxito de ventas en el mundo árabe. La serie egipcia \"El jinete sin caballo\" (2002, 41 episodios, transmitida por la televisión estatal) se basa en los Protocolos y presenta a los judíos como conspiradores. Los libros de texto de la UNRWA (la agencia de la ONU para los refugiados) contenían contenido antisemita &mdash;, incluidos mapas sin Israel y poemas que alababan los atentados suicidas."
+            ],
+            "fact_boxes": [
+                "<strong>Hecho documentado:</strong> Entre 1948 y 1972, aproximadamente 850.000 judíos fueron expulsados ​​u obligados a huir de países árabes y musulmanes. Sus bienes fueron confiscados. Las comunidades judías de miles de años de antigüedad en Irak, Egipto, Libia, Yemen, Siria y Marruecos quedaron casi completamente destruidas. El Farhud en Irak (1941): 180 judíos asesinados, 1.000 heridos, 900 viviendas destruidas &mdash; inspirado en la propaganda nazi difundida por el muftí Haj Amin al-Husseini.",
+                "<strong>Estatuto de Hamas (1988):</strong> El artículo 7 exige el asesinato de judíos (no de israelíes &mdash; judíos). El Artículo 22 afirma que los judíos están detrás de la Revolución Francesa, la Primera Guerra Mundial, el comunismo y la Segunda Guerra Mundial. El artículo 32 cita los \"Protocolos de los Sabios de Sión\" &mdash; una falsificación antisemita rusa de 1903 &mdash; como documento auténtico. Esto no es \"resistencia a la ocupación\". Esto es antisemitismo abierto en el lenguaje del genocidio."
+            ],
+            "sources": "Fuentes: Benny Morris, '1948' (2008); Carta de Hamás (1988); traducciones en MEMRI; Informes de libros de texto escolares IMPACT-se; Andrew Bostonm, 'El legado del antisemitismo islámico' (2008)"
+        },
+        {
+            "title": "Polonia y Europa del Este",
+            "subtitle": "Mitos del Talmud, \"comunismo judío\" y odio que sobrevivieron al Holocausto",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">El mito del Talmud:</strong> Una de las creencias más comunes en Polonia (y Europa del Este) es que el Talmud está lleno de odio hacia los no judíos. La propaganda antisemita (principalmente de la Iglesia católica medieval y de publicaciones como \"Talmud Desenmascarado\" de Justinas Pranaitis, 1892) extrajo citas del contexto, las tradujo mal deliberadamente o simplemente las fabricó. El Talmud tiene 6.200 páginas de debates jurídicos, y ningún estudioso cualificado del Talmud apoya la lectura antisemita.",
+                "<strong style=\"color:#e2b714;\">El mito de Żydokomuna (\"Comunismo judío\"):</strong> La creencia de que el comunismo es una \"invención judía\" y que los judíos gobernaban la Polonia comunista. En realidad: el Partido Unificado de los Trabajadores Polacos (PZPR) era abrumadoramente polaco. Unos pocos judíos individuales ocuparon altos cargos &mdash; ya que se encontraban judíos en todos los campos &mdash; pero constituían un pequeño porcentaje. Muchos polacos eran comunistas entusiastas sin conexión con los judíos. En 1968, el propio régimen comunista polaco llevó a cabo una campaña antisemita (\"antisionistas\") y expulsó aproximadamente a 13.000 judíos de Polonia.",
+                "<strong style=\"color:#e2b714;\">Jedwabne (1941):</strong> El 10 de julio de 1941, los residentes polacos de la ciudad de Jedwabne asesinaron al menos a 340 (posiblemente más de 1.000) de los judíos de la ciudad &mdash; quemándolos vivos en un granero. No nazis. Vecinos polacos. El historiador Jan Tomasz Gross lo documentó en su libro \"Vecinos\" (2001), lo que causó conmoción nacional en Polonia. En 2018, Polonia aprobó una ley que prohíbe atribuir responsabilidad por los crímenes del Holocausto a la nación polaca &mdash; en un intento de silenciar la historia."
+            ],
+            "fact_boxes": [
+                "<strong>El pogromo de Kielce (1946):</strong> Un año después de la liberación de Auschwitz, 42 sobrevivientes judíos del Holocausto fueron asesinados en un pogromo en la ciudad de Kielce, Polonia. El pretexto: un libelo de sangre (!) &mdash; un rumor de que un niño cristiano había sido secuestrado por judíos. En 1946. Después del Holocausto. Los supervivientes de Auschwitz fueron asesinados por sus vecinos polacos basándose en la misma mentira medieval. Este evento desencadenó una ola de huida (Bericha) de sobrevivientes del Holocausto de Polonia.",
+                "<strong>Rusia:</strong> \"Los Protocolos de los Sabios de Sión\" fue creado por la policía secreta rusa (Okhrana) alrededor de 1903, basándose en el plagio de un libro francés (Maurice Joly, 1864) que no tenía nada que ver con los judíos. La Zona de Asentamiento (1791-1917) confinó a los judíos a áreas residenciales restringidas. Entre 1881 y 1921, oleadas de pogromos mataron a decenas de miles de judíos. Muchos de los primeros pogromos fueron alentados o planificados por el propio gobierno. El \"complot de los médicos\" (1953) &mdash; Stalin acusó a los médicos judíos de conspirar para asesinar a los líderes soviéticos. Sólo la muerte de Stalin impidió la deportación masiva de judíos a Siberia."
+            ],
+            "sources": "Fuentes: Jan T. Gross, 'Neighbors' (2001); Joanna Tokarska-Bakir, 'Pogrom Cries' (2018); Norman Cohn, 'Orden de genocidio' (1967)"
+        },
+        {
+            "title": "Alemania nazi",
+            "subtitle": "La máquina de exterminio: cómo un Estado moderno convirtió el odio en una industria",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">La ideología:</strong> Los nazis no inventaron el antisemitismo &mdash; lo industrializaron. Tomaron 2.000 años de antisemitismo cristiano, lo combinaron con el racismo pseudocientífico del siglo XIX (antropología racial, eugenesia, darwinismo social) y crearon todo un sistema de leyes, burocracia e industria cuyo único propósito era la aniquilación de un pueblo entero.",
+                "<strong style=\"color:#e2b714;\">La máquina de propaganda:</strong> Joseph Goebbels construyó un sistema de propaganda sin precedentes. La película \"El eterno judío\" (1940) mostraba a los judíos como ratas. El periódico \"Der Stürmer\" (Julius Streicher) publicaba semanalmente caricaturas antisemitas. Los niños aprendían el antisemitismo en las escuelas desde los 6 años. Libros infantiles como \"El hongo venenoso\" (1938) enseñaban a los niños a identificar y odiar a los judíos. El método: repetir la mentira suficientes veces y la gente empezará a creer.",
+                "<strong style=\"color:#e2b714;\">La contradicción nazi:</strong> Los nazis afirmaban simultáneamente que los judíos eran una raza inferior (Untermenschen) y que gobernaban en secreto el mundo entero. Si los judíos son tan inferiores, ¿cómo son capaces de controlarlo todo? Esta contradicción revela que el antisemitismo no es un sistema racional sino una fantasía paranoica &mdash; que no necesita ser consistente, sólo justificar el odio."
+            ],
+            "fact_boxes": [
+                "<strong>La Escalera de la Destrucción:</strong><br>1933: Boicot a las empresas judías, destitución de cargos gubernamentales<br>1935: Leyes de Nuremberg &mdash; despojación de la ciudadanía, prohibición de los matrimonios mixtos<br>1938: Kristallnacht &mdash; 1.400 sinagogas quemadas, 30.000 judíos enviados a campos de concentración<br>1939-1941: Guetos, hambrunas organizadas, tiroteos masivos (Einsatzgruppen mató a 1,5 millones)<br>1942: Conferencia de Wannsee &mdash; la \"Solución Final\" se hizo oficial<br>1942-1945: Cámaras de gas industriales en Auschwitz-Birkenau, Treblinka, Sobibor, Belzec, Chelmno, Majdanek",
+                "<strong>Los números:</strong> 6 millones de judíos fueron asesinados &mdash; un tercio de todo el pueblo judío. 1,5 millones de ellos eran niños. Las comunidades judías de mil años de antigüedad en Europa fueron completamente aniquiladas. Esta es quizás la única vez en la historia que un Estado moderno dedicó recursos industriales &mdash; trenes, fábricas, burocracia &mdash; al único propósito de asesinar a un pueblo entero."
+            ],
+            "sources": "Fuentes: Raúl Hilberg, 'La destrucción de los judíos europeos' (1961/2003); archivos USHMM; Yad Vashem Base de datos central de nombres de víctimas de la Shoá"
+        },
+        {
+            "title": "Europa occidental moderna",
+            "subtitle": "El \"antisionismo\" como nueva máscara para el viejo antisemitismo",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">El nuevo \"antisionismo\":</strong> El historiador Natan Sharansky desarrolló la \"Prueba 3D\" para identificar cuándo las críticas a Israel se convierten en antisemitismo: <strong>Demonización</strong> (Israel = nazis), <strong>Deslegitimización</strong> (Israel no tiene derecho a existir), <strong>Doble rasero</strong> (exigencias de Israel que no se exigen a ningún otro país). Las críticas legítimas a políticas israelíes específicas se aceptan &mdash; como se aceptan las críticas a cualquier país. Pero negar el derecho a existir únicamente a Israel, entre todas las naciones del mundo, es antisemitismo.",
+                "<strong style=\"color:#e2b714;\">Gran Bretaña &mdash; El asunto laboral:</strong> Durante el gobierno de Jeremy Corbyn (2015-2020), el Partido Laborista británico fue investigado por la Comisión de Igualdad y Derechos Humanos (EHRC) y declarado responsable de graves infracciones de la ley de discriminación &mdash; antisemitismo institucional. Corbyn llamó \"amigos\" a Hamas y Hezbollah, colocó una corona de flores en la tumba del autor intelectual de la masacre de los Juegos Olímpicos de Munich en 1972 y apoyó a un artista que pintó un mural antisemita. Miles de judíos abandonaron el partido.",
+                "<strong style=\"color:#e2b714;\">Campus universitarios:</strong> El movimiento BDS (Boicot, Desinversión, Sanciones) se ha convertido en un brazo central del antisemitismo en los campus. Los estudiantes judíos denuncian acoso, exclusión de organizaciones de justicia social (\"¿Eres sionista? No estás invitado\") y ventanas rotas en los clubes Hillel. El gran robo: utilizan el lenguaje de los derechos humanos para negar el derecho más básico &mdash; el derecho a la autodeterminación &mdash; de un solo pueblo."
+            ],
+            "fact_boxes": [
+                "<strong>Francia:</strong> La mayor emigración judía de Europa en el siglo XXI se está produciendo en Francia. 2006: Ilan Halimi, un joven judío, fue secuestrado, torturado durante 24 días y asesinado por la \"Banda de Bárbaros\" &mdash; porque era judío \"y por lo tanto rico\". 2012: Mohamed Merah disparó y asesinó a 3 niños y al rabino Jonathan Sandler en una escuela judía de Toulouse. 2015: Ataque al supermercado kosher Hyper Cacher en París, 4 asesinados. Los judíos constituyen el 1% de la población de Francia, pero el 40% de las víctimas de delitos de odio. Aproximadamente 38.000 judíos abandonaron Francia hacia Israel entre 2010 y 2020."
+            ],
+            "sources": "Fuentes: Informe sobre el Trabajo de la CEDH (2020); Natan Sharansky, 'Prueba 3D' (2004); Informes de antisemitismo en el campus de ADL; CRIF (Conseil Représentatif des Institutions Juives de France)"
+        },
+        {
+            "title": "Estados Unidos",
+            "subtitle": "De la \"Alt-Derecha\" a la \"Nación del Islam\": odio desde todas direcciones",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">La extrema derecha:</strong> En Charlottesville, Virginia (agosto de 2017), los neonazis marcharon con antorchas gritando \"Los judíos no nos reemplazarán\". El 27 de octubre de 2018, Robert Bowers entró en la sinagoga Árbol de la Vida en Pittsburgh, Pensilvania, y mató a tiros a 11 fieles. Este es el ataque más mortífero contra judíos en la historia de Estados Unidos. Gritó \"Todos los judíos deben morir\" antes de abrir fuego.",
+                "<strong style=\"color:#e2b714;\">Louis Farrakhan y la \"Nación del Islam\": </strong> Farrakhan llamó a los judíos \"termitas\", \"chupasangres satánicos\" y al judaísmo una \"religión de alcantarilla\". Su organización publica libros como \"La relación secreta entre negros y judíos\", acusando a los judíos de la trata de esclavos &mdash;, una afirmación desacreditada por todo historiador serio (incluidos historiadores negros como Henry Louis Gates). Este odio es particularmente peligroso porque se reviste con el lenguaje de la justicia social.",
+                "<strong style=\"color:#e2b714;\">Kanye West (Ye) y la cultura de las celebridades:</strong> En diciembre de 2022, West declaró \"Amo a los nazis\" y elogió a Hitler en una transmisión en vivo. Antes de eso, tuiteó \"Death con 3 contra el pueblo judío\". El impacto: ADL informó de un fuerte aumento de la propaganda antisemita por parte de grupos de extrema derecha citando a West como justificación. Cuando alguien con 30 millones de seguidores normaliza el odio a los judíos, las consecuencias son reales y peligrosas."
+            ],
+            "fact_boxes": [
+                "<strong>Estadísticas:</strong> En 2022, ADL documentó 3.697 incidentes antisemitas en los EE. UU. &mdash; la cifra más alta desde que comenzó el seguimiento en 1979. Un aumento del 36% en un año. 2023 (después del 7 de octubre): la cifra saltó a 8.873 incidentes &mdash; un aumento del 140%. Los judíos constituyen el 2,4% de la población, pero representan más del 60% de las víctimas de delitos de odio religioso según el FBI."
+            ],
+            "sources": "Fuentes: Auditoría ADL de incidentes antisemitas (2022, 2023); Estadísticas del FBI sobre delitos de odio; Henry Louis Gates Jr., 'Antisemitismo negro' en transición (1992); Informes del Pittsburgh Post-Gazette"
+        },
+        {
+            "title": "Irán y el régimen islámico",
+            "subtitle": "El antisemitismo como política de Estado: de la negación del Holocausto a la financiación del terrorismo",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Negación institucionalizada del Holocausto:</strong> El ex presidente Mahmoud Ahmadinejad celebró una conferencia internacional sobre la negación del Holocausto en Teherán (2006), invitando a conocidos negadores del Holocausto de todo el mundo (incluido David Duke del KKK), y declaró el Holocausto un \"mito\". El Líder Supremo Jamenei continuó esta línea, afirmando que existen \"serias dudas\" sobre el Holocausto. Esta no es una posición histórica &mdash; es una preparación psicológica. Negar el genocidio anterior allana el camino para el siguiente.",
+                "<strong style=\"color:#e2b714;\">La irónica hipocresía de la contradicción:</strong> Irán afirma que Israel es racista &mdash; mientras que el régimen iraní persigue sistemáticamente a bahá'ís, kurdos, árabes, sunitas y personas LGBTQ+ dentro del propio Irán. Miles de ejecuciones al año, mujeres asesinadas por no llevar hiyab (Mahsa Amini, 2022). La comunidad judía en Irán (~8.000 personas, frente a más de 100.000 antes de la revolución) vive bajo vigilancia y restricciones."
+            ],
+            "fact_boxes": [
+                "<strong>Financiamiento del terrorismo:</strong> Irán financia y arma a Hezbolá (Líbano), Hamás (Gaza), la Jihad Islámica (Gaza) y los hutíes (Yemen). Hezbolá es responsable del atentado contra la AMIA en Buenos Aires (1994, 85 muertos) y del atentado contra la embajada de Israel (1992, 29 muertos). El objetivo declarado de Irán: \"borrar a Israel del mapa\". Esto no es una crítica política &mdash;, es un llamado a la destrucción de un pueblo."
+            ],
+            "sources": "Fuentes: Actas de investigación de la AMIA; informes de la OIEA; Informes nacionales sobre derechos humanos del Departamento de Estado de EE.UU.; Traducciones de MEMRI de medios estatales iraníes"
+        },
+        {
+            "title": "Japón, Corea del Sur y Asia Oriental",
+            "subtitle": "Un fenómeno sorprendente: el antisemitismo en países donde casi no hay judíos",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">La paradoja:</strong> Aproximadamente 1.000 judíos viven en Japón (de 125 millones). En Corea del Sur &mdash; unos cientos. Sin embargo, \"Los Protocolos de los Sabios de Sión\" se han traducido y vendido en Japón en decenas de ediciones. Libros como \"El control judío del mundo\" son bestsellers. En Japón y Corea del Sur, el \"antisemitismo sin judíos\" demuestra el punto central: <strong>El antisemitismo no es una reacción contra los judíos reales &mdash; es una fantasía sobre judíos imaginarios.</strong>",
+                "<strong style=\"color:#e2b714;\">La versión asiática:</strong> A diferencia del antisemitismo (odio) europeo, la versión asiática a veces es \"positiva\" de una manera distorsionada: \"Los judíos son inteligentes, controlan el dinero, podemos aprender de ellos\". Esto sigue siendo antisemitismo &mdash; porque se basa en estereotipos, no en encuentros con judíos reales. Convierte a los judíos de seres humanos en figuras míticas."
+            ],
+            "fact_boxes": [],
+            "sources": "Fuentes: Encuesta ADL Global 100; David Goodman y Masanori Miyazawa, 'Los judíos en la mente japonesa' (1995)"
+        }
+    ],
+    "report_title": "¿Se encontró con el antisemitismo? Reportarlo",
+    "report_desc": "No guarde silencio. Los informes &mdash; salvan vidas y previenen una escalada. Aquí es donde acudir:",
+    "gallery_title": "Documentación histórica",
+    "youtube_title": "Mira y aprende",
+    "footer": {
+        "motto": "La verdad es el arma más poderosa contra el odio.",
+        "motto_en": "La verdad es el arma más poderosa contra el odio."
+    }
+}

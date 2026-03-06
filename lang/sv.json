@@ -1,0 +1,837 @@
+{
+    "meta": {
+        "code": "sv",
+        "name": "Svenska",
+        "dir": "ltr"
+    },
+    "nav": [
+        "Vad är antisemitism?",
+        "Påståenden och vederlag",
+        "Vanliga lögner",
+        "Tidslinje",
+        "Psykologin",
+        "Hat av nationer",
+        "Historisk dokumentation",
+        "Rapportera antisemitism",
+        "Titta och lär",
+        "Vad kan göras?"
+    ],
+    "ui": {
+        "donate_btn": "&#9749; Support",
+        "lang_btn": "Språk",
+        "search_placeholder": "Sök webbplats...",
+        "copy_btn": "&#128203; Kopiera svar",
+        "lie_footer": "&#10070; Sanningen vinner alltid &#10070;",
+        "toggle_open": "&#9660; Klicka för att öppna"
+    },
+    "hero_title": "Sanningen mot lögnen",
+    "hero_subtitle": "Att avslöja lögnerna, presentera fakta",
+    "hero_subtitle_en": "Sanningen mot lögnen – bekämpning av antisemitism",
+    "hero_cta": "Upptäck sanningen &#8595;",
+    "stat_labels": [
+        "Debunked påståenden",
+        "År dokumenterade",
+        "Kategorier",
+        "Nationer och samhällen",
+        "Akademiska källor"
+    ],
+    "about_title": "Vad är antisemitism?",
+    "about_desc": "Det äldsta hatet i mänsklighetens historia &mdash; 2 500 år av lögner som måste avslöjas",
+    "about_cards": [
+        {
+            "title": "Ett hat som förändrar formen",
+            "text": "Antisemitism är det mest ihållande grupphatet i mänsklighetens historia. Det har tagit olika former under olika epoker &mdash; religiösa, rasmässiga, politiska, ekonomiska, konspiratoriska &mdash; men det centrala mönstret förblir detsamma: judarna blir syndabock för samhällets problem."
+        },
+        {
+            "title": "Varför dokumentation är viktig",
+            "text": "För att bekämpa antisemitism måste man först förstå den. På den här webbplatsen hittar du 34 vanliga antisemitiska troper från 8 kategorier, var och en med en saklig vederläggning, en psykologisk förklaring till varför människor tror på lögnen och akademiska källor. Inget påstående lämnas obesvarat."
+        },
+        {
+            "title": "Tre lager av svar",
+            "text": "<strong style=\"color:#2ecc71;\">1. Faktiskt vederläggande</strong> &mdash; Vad visar fakta egentligen?<br><strong style=\"color:#3498db;\">2. Psykologisk förklaring</strong> &mdash; Varför tror folk på den här lögnen?<br><strong style=\"color:#e2b714;\">3. Historisk kontext</strong> &mdash; När dödade den här lögnen människor?"
+        }
+    ],
+    "claims_title": "34 påståenden — 34 vederlag",
+    "claims_desc": "Klicka på varje kategori för att avslöja påståendena, och på varje påstående för att läsa hela vederlaget",
+    "categories": [
+        {
+            "number": "Kategori 1",
+            "title": "Religiös och teologisk antisemitism",
+            "desc": "Det äldsta lagret: hat rotat i religiösa berättelser",
+            "claims": [
+                {
+                    "title": "\"Judar dödade Jesus\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Jesus korsfästes av romerska myndigheter med en romersk avrättningsmetod (korsfästelse är ett romerskt straff, inte ett judiskt). Den romerske guvernören Pontius Pilatus beordrade avrättningen. Evangelierna skrevs 40-70 år efter händelserna, i samband med kristendomens separation från judendomen. Andra Vatikankonciliet (1965) förklarade officiellt att kollektiv skuld inte skulle tillskrivas det judiska folket som helhet."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Syndbock + känslodrivet tänkande: Tidiga kristna behövde en förklaring till varför judar, Jesu eget folk, inte accepterade hans messianska påstående. Att skylla på judar gav en bekväm känslomässig förklaring. Dessutom, när kristendomen sökte acceptans inom det romerska imperiet, var det mer praktiskt att skylla Rom för Jesu död politiskt farligt &mdash; att skylla på judar."
+                    ],
+                    "sources": "Källor: Raymond Brown, 'The Death of the Messiah' (1994); Vatikanen II, 'Nostra Aetate' (1965)"
+                },
+                {
+                    "title": "\"Judar är djävulens barn\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Johannesevangeliet (8:44) dokumenterar en skarp intra-judisk debatt i ett specifikt sammanhang. Jesus själv var jude, hans lärjungar var judar och den tidiga kristendomen var en inomjudisk rörelse. Att tillämpa en sida av ett internt argument på alla judar för evigt är som att ta en debatt mellan två amerikanska politiker och dra slutsatsen att alla amerikaner är onda."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Avhumanisering: Att märka en ut-grupp som satanisk eller undermänsklig är en dokumenterad föregångare till våld. Gregory Stantons forskning identifierar avhumanisering som steg 4 på vägen till folkmord (8 etapper 1996, utökade till 10 2012). Demoniseringen av judar möjliggjorde århundraden av pogromer."
+                    ],
+                    "sources": "Källor: Adele Reinhartz (2018); Gregory Stanton, 'The 8 Stages of Genocide' (1996, utökad till 10 2012)"
+                },
+                {
+                    "title": "\"Blodförtal: Judar använder blod från kristna barn i ritualer\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "På 900 år sedan det första blodförtalet (Norwich, 1144) har inte ett enda fall någonsin bevisats. Judendomen förbjuder uttryckligen och upprepade gånger konsumtion av blod: \"Du får inte äta blod av något kött, ty allt kötts liv är dess blod\" (3 Mosebok 17:14). Kashrutlagar kräver fullständig tömning av blod från kött före konsumtion. Påven Innocentius IV (1247) och kejsar Fredrik II (1236) undersökte anklagelserna och fann dem grundlösa."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Projektion + fördriven skuld: Blodsförtalet dök upp under korstågen, då kristna själva begick massvåld och blodsutgjutelse. Att anklaga judar för blodritualer fungerade som en psykologisk projektion: att överföra skuld för kristet våld på den judiska \"andra\". Dessutom gav anklagelsen rättfärdigande för att beslagta judisk egendom och utvisa judiska befolkningar."
+                    ],
+                    "sources": "Källor: R. Po-chia Hsia, \"Myten om rituella mord\" (1988); Magda Teter, 'Blood Libel' (2020)"
+                },
+                {
+                    "title": "\"Värdshelgning: judar sticker nattvardsrån\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Anklagelsen krävde att man trodde på två omöjliga saker samtidigt: att judar förkastar kristen teologi (tron att rånet blir Kristi kropp) och att judar attackerar rånet just för att de tror på dess helighet. Detta är en logisk motsägelse. Om judar inte tror att oblaten är Jesus, har de inget motiv att \"tortera\" den. Historikern Miri Rubin dokumenterade att anklagelser om värdvanhelgande inträffade just under perioder av ekonomisk spänning mellan judiska och kristna samhällen &mdash; vilket tyder på att ekonomisk konkurrens, inte teologi, var det verkliga motivet. I Rintfleisch-massakrerna (1298) förstördes över 100 judiska samhällen i Tyskland baserat på dessa anklagelser."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Tillskrivningsfel + ekonomisk syndabock: samhällen som upplever ekonomiska svårigheter behövde motivering för att beslagta judiska tillgångar. En religiös anklagelse gav moralisk skydd för ekonomisk stöld. Detta mönster &mdash; med moraliska anklagelser för att rättfärdiga materiell vinst &mdash; återkommer genom hela antisemitismens historia."
+                    ],
+                    "sources": "Källor: Miri Rubin, 'Hedningsberättelser: The Narrative Assault on Late Medieval Jews' (1999)"
+                },
+                {
+                    "title": "\"Judar förgiftar brunnar och sprider plågor\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Judar var inte immuna mot digerdöden &mdash; de dog i massor. I vissa samhällen var den judiska dödligheten något lägre, vilket historiker tillskriver frekvent handtvätt (som krävs enligt judisk lag), karantän för sjuka och separata vattenkällor i getton. Dessa är religiösa sedvänjor, inte en konspiration. Påve Clemens VI utfärdade 1348 två påvliga tjurar som försvarade judar och noterade att judar dör av pesten precis som alla andra. Massakrerna fortsatte oavsett."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Terrorhantering + kontrollbehov: Svartedöden dödade 30-60% av Europas befolkning på 4 år. Terror Management Theory (Greenberg, Solomon & Pyszczynski) visar att när människor möter dödsångest blir de mer fientliga mot utgrupper. Att skylla judar för pesten förvandlade en slumpmässig, skrämmande katastrof till något orsakat av en identifierbar fiende &mdash; som återställde illusionen av kontroll."
+                    ],
+                    "sources": "Källor: Samuel Cohn, \"The Black Death and the Burning of Jews\" (2007); Påve Clemens VI, Bull 'Quamvis Perfidiam' (1348)"
+                },
+                {
+                    "title": "\"Judar var förbannade att vandra utan ett hemland\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Den judiska exilen från Israels land var resultatet av militär erövring: den babyloniska exilen (586 f.Kr.), förstörelsen av templet av Rom (70 e.Kr.) och Bar Kokhba-upproret (135 e.Kr.). Därefter fördrevs judar från länder genom mänskliga dekret: England (1290), Frankrike (1306, 1394), Spanien (1492), Portugal (1497). Varje utvisning genomfördes av kungar av politiska och ekonomiska skäl. Framställning av tvångsförflyttning som en förbannelse skyller offret för sin egen förföljelse."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Just-world bias (Melvin Lerner): Människor har ett djupt psykologiskt behov av att tro att världen är rättvis &mdash; att människor får vad de förtjänar. När judar fördrevs och förföljdes behövde observatörer tro att de förtjänade det. \"De måste ha gjort något fel\" &mdash; detta är den rättvisa fördomen i aktion."
+                    ],
+                    "sources": "Källor: Melvin Lerner, \"The Belief in a Just World\" (1980); David Nirenberg, \"Anti-Judaism: The Western Tradition\" (2013)"
+                },
+                {
+                    "title": "\"Talmud innehåller läror om hat mot icke-judar\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Talmud är ett arkiv med 6 200 sidor av juridiska diskussioner som spänner över 700 år (200 f.Kr. - 500 e.Kr.). Den innehåller olika åsikter om varje ämne &mdash; ofta motsägelsefull &mdash; eftersom den registrerar debatter, inte dogmer. Att ta isolerade stycken utan sammanhang är som att citera en enda avvikande åsikt från en domstol och hävda att den representerar lagen.<br><br>Talmud lär uttryckligen: \"De rättfärdiga av alla nationer har del i den kommande världen\" (Tosefta Sanhedrin 13:2). Judisk lag kräver ärlighet i affärer med alla människor (dina d'malkhuta dina). Pikuach nefesh (rädda liv) åsidosätter nästan alla bud och förpliktar att rädda allt mänskligt liv, inte bara judiskt liv."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Bekräftelsebias + körsbärsplockning: Människor som redan tror att judar hatar ickejudar söker igenom Talmud efter ställen som bekräftar deras övertygelse, ignorerar de tusentals ställen som motsäger den och tar bort sammanhanget från de de hittar. Samma metod skulle kunna få vilken religiös text som helst &mdash; Bibeln, Koranen, hinduiska skrifterna &mdash; att verka uppmuntra till grymheter."
+                    ],
+                    "sources": "Källor: Gil Student, 'The Real Truth About the Talmud' (2000); David Berger, \"Förföljelse, polemik och dialog\" (2010)"
+                }
+            ]
+        },
+        {
+            "number": "Kategori 2",
+            "title": "Ras- och biologisk antisemitism",
+            "desc": "Pseudovetenskapligt hat från 1800- och 1900-talen",
+            "claims": [
+                {
+                    "title": "\"Judar är en separat och underlägsen ras\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Human Genome Project (2003) bekräftade att det finns mer genetisk variation inom någon rasgrupp än mellan grupper. Människor delar 99,9% av sitt DNA oavsett ursprung. Judiska befolkningar är genetiskt olika: Ashkenazi, Sefardiska, Mizrahi, etiopiska, indiska och kinesiska judar ser helt olika ut från varandra. Idén om en enda \"judisk ras\" har ingen genetisk betydelse."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Behov av hierarki: Social Dominance Theory (Sidanius & Pratto, 1999) visar att vissa människor har ett stort behov av att organisera grupper i värdehierarkier. Rasklassificering gav ett \"vetenskapligt\" ramverk för att rangordna mänskliga grupper. Pseudovetenskaplig rasism fick fördomar att kännas rationella och evidensbaserade."
+                    ],
+                    "sources": "Källor: Human Genome Project (2003); UNESCO \"Statement on Race\" (1950-1967)"
+                },
+                {
+                    "title": "\"Judar är genetiskt disponerade för girighet och manipulation\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Beteendegenetik har otvetydigt visat att komplexa beteendeegenskaper (personlighet, moralisk karaktär, ekonomiskt beteende) formas av en kombination av genetik och miljö &mdash; och aldrig av medlemskap i en etnisk grupp. Det finns ingen \"girighetsgen\". Studier av välgörenhet visar genomgående att judiska samhällen är bland de mest generösa i världen. Sambandet mellan judar och pengar är en historisk konstruktion: medeltida kristna begränsade judar till att låna pengar och skyllde sedan på dem för resultatet."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Fundamental Attribution Error (Lee Ross, 1977): En kognitiv fördom som får människor att tillskriva andras beteende till deras karaktär snarare än deras omständigheter. När judar var pengalångivare, tillskrev observatörer detta till judisk karaktär (\"de är giriga\") snarare än till situationsmässiga begränsningar (de var utestängda från andra yrken). Detta är identiskt med att skylla på en person i rullstol för att inte använda trappan."
+                    ],
+                    "sources": "Källor: Lee Ross (1977); Steven Pinker, \"The Blank Slate\" (2002)"
+                },
+                {
+                    "title": "\"Judar är undermänniskor (Untermenschen)\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Att klassificera vilken mänsklig grupp som helst som \"undermänsklig\" är en propagandateknik, inte ett vetenskapligt uttalande. Gregory Stantons forskning identifierar avhumanisering som etapp 4 av folkmord (8 stadier 1996, utökat till 10 2012) &mdash; det stadium som gör dödande psykologiskt möjligt. Nazisterna hävdade samtidigt att judar var undermänskliga och att de i hemlighet styrde världen &mdash; en absolut logisk motsägelse. Umberto Eco identifierade detta som ett avgörande kännetecken för den fascistiska ideologin: \"Fienden är både för stark och för svag.\""
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Moraliskt frigörande (Albert Bandura): Banduras forskning visar att vanliga människor kan begå extraordinär grymhet när deras moraliska reglering neutraliseras. Avhumanisering är den mest kraftfulla mekanismen &mdash; när offren omklassificeras som icke-mänskliga, förövare kan skada dem utan den psykologiska kostnaden för skuld. Förintelsen krävde att miljontals vanliga tyskar deltog i eller tolererade folkmord. Avhumanisering gjorde detta psykologiskt möjligt."
+                    ],
+                    "sources": "Källor: Gregory Stanton, '8 Stages of Genocide' (1996, utökad till 10 2012); Umberto Eco, 'Ur-Fascism' (1995); Albert Bandura (1999)"
+                },
+                {
+                    "title": "\"Judar främjar rasblandning för att försvaga andra raser\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Anklagelsen är ren projektion. Nazisterna själva utförde eugenik i massiv skala: T4-programmet dödade 70 000+ funktionshindrade människor, Lebensborn-programmet födde upp \"rasrena\" barn, tvångssteriliseringar drabbade 400 000 människor och Förintelsen mördade 6 miljoner judar och miljontals andra. Att anklaga judar för själva handlingen som anklagarna själva begick är klassisk projektion. Moderna versioner (\"Great Replacement\"-teorin) hävdar att judar orkestrerar immigration för att ersätta vita befolkningar. Invandringen drivs av ekonomiska krafter, krig, klimatförändringar och politiken hos demokratiska regeringar med mångsidigt ledarskap."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Projektion i stor skala: När en hel regim projicerar sina egna brott på sina offer tjänar det två syften: (1) det rättfärdigar regimens egna handlingar (\"vi måste göra detta för att de gör det mot oss\") och (2) det immuniserar befolkningen mot sympati för offren (\"de skulle göra värre mot oss om de kunde\"). Det här är Propaganda 101."
+                    ],
+                    "sources": "Källor: Robert Proctor, 'Racial Hygiene: Medicine Under the Nazis' (1988); Richard Evans, \"The Third Reich in Power\" (2005)"
+                }
+            ]
+        },
+        {
+            "number": "Kategori 3",
+            "title": "Ekonomiska och finansiella stereotyper",
+            "desc": "Pengamyten: anklagelser om girighet, kontroll och exploatering",
+            "claims": [
+                {
+                    "title": "\"Judar kontrollerar bankerna och globala finansiella system\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "I det medeltida Europa uteslöts judar från de flesta yrken (jordbruk, skrån, myndigheter). En av de få tillåtna yrkena var penninglån, vilket kristna ansåg vara synd. När judiska penninglångivare lyckades hatades de för själva framgången som tvingades på dem. Familjen Rothschild (grundad på 1760-talet) blev en symbol som utnyttjades av antisemiter. I verkligheten utgör judarna ~0,2% av världens befolkning och kontrollerar inte bankväsendet. Stora banker är börsnoterade företag med olika ledarskap."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Illusorisk korrelationsbias (Hamilton & Gifford, 1976): När en minoritet är inblandad i en negativ händelse överskattar människor sambandet mellan gruppen och händelsen. Om en bankir som råkar vara judisk begår bedrägeri, noteras hans judiskhet; när en icke-judisk bankir begår bedrägerier är hans etniska ursprung osynligt."
+                    ],
+                    "sources": "Källor: Hamilton & Gifford, Journal of Experimental Social Psychology (1976)"
+                },
+                {
+                    "title": "\"Judar är giriga och besatta av pengar\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Kopplingen mellan judar och girighet är en kulturell konstruktion, inte ett faktum. Det härrör från de begränsade ekonomiska roller som judar tvingades in i. I det kristna Europa förbjöd kyrkan kristna att ägna sig åt ocker (utlåning mot ränta). Judar, som var utestängda från de flesta yrken (äga mark, gå med i yrkesskrån, jordbruk), lämnades med få ekonomiska alternativ &mdash; och handel och penninglån var bland dem. De fick sedan skulden för själva ockupationen som påtvingats dem.",
+                        "Studier av välgörenhet visar genomgående att judiska samhällen är bland de mest generösa i världen. Enbart judiska federationer i Amerika donerar miljarder årligen till både judiska och icke-judiska samhällen. Begreppet välgörenhet i judendomen (tzedakah &mdash; härlett från ordet \"rättvisa\") är en religiös skyldighet, inte en frivillig handling av vänlighet. Maimonides (1100-talet) etablerade 8 nivåer av välgörenhet, där den högsta var att hjälpa en person att bli självförsörjande."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Projektion + fördriven avund: Människor avundas ekonomisk framgång och skyller de framgångsrika för girighet. Litterära karaktärer som Shylock (Shakespeare, \"The Merchant of Venice\") och Fagin (Dickens, \"Oliver Twist\") förstärkte stereotypen i århundraden. Antisemitisk propaganda i karikatyrer föreställde judar med krokiga näsor som höll i mynt &mdash; bilder som fortfarande visas online idag."
+                    ],
+                    "sources": "Källor: Derek Penslar, \"Shylock's Children: Economics and Jewish Identity in Modern Europe\" (2001); Maimonides, Mishneh Torah, Lagar om gåvor till de fattiga"
+                },
+                {
+                    "title": "\"Judar orsakade finanskrisen 2008\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Efter varje ekonomisk kris skyller antisemiter på judarna. Krisen 2008 genererade en våg av konspirationsteorier som utnämnde specifika judiska finansiärer som ansvariga. Samma mönster inträffade under den stora depressionen (fader Coughlins radiosändningar), Asienkrisen 1998 och efter ekonomiska störningar i covid. I verkligheten beror finansiella kriser på systemiska faktorer (avreglering, spekulation, komplexa finansiella instrument) som påverkar hela branscher &mdash; inte från handlingar från någon etnisk grupp."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Proportionalitetsbias: Människor förväntar sig att stora evenemang har stora orsaker. När en global finanskris inträffar är tanken att den berodde på komplexa systemfaktorer otillfredsställande. Tanken att en mäktig grupp planerade det känns mer proportionerlig. Judar, redan stereotypa som en finansmakt, blir den \"stora saken\"."
+                    ],
+                    "sources": "Källor: Daniel Kahneman, 'Thinking, Fast and Slow' (2011)"
+                },
+                {
+                    "title": "\"Judar utnyttjar icke-judar ekonomiskt och ser dem som boskap\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Ordet \"goy\" betyder helt enkelt \"nation\" på hebreiska (även Israel kallas en \"goy kadosh\" &mdash; en helig nation &mdash; i Toran) och hänvisar neutralt till icke-judar. Antisemiter förvrängde detta till ett påstående att judar ser hedningar som undermänskliga boskap som kan utnyttjas. Detta är en komplett tillverkning.",
+                        "Judendomen har ett omfattande system av etiska lagar som kräver rättvis behandling av alla människor: \"Älska din nästa som dig själv\" (3 Mosebok 19:18), \"Rättvisa, rättvisa skall du eftersträva\" (5 Mosebok 16:20) och \"Du skall inte förtrycka din nästa\" (3 Mosebok 19:13). Principen om \"dina d'malkhuta dina\" (landets lag är lagen) kräver att judar är ärliga i alla handlingar. Judisk lag förbjuder uttryckligen \"geneivat da'at\" (bedrägeri) &mdash; oavsett om offret är judiskt eller inte.",
+                        "Påståendet att Talmud tillåter exploatering av icke-judar är baserat på citat ur sitt sammanhang ur 6 200 sidor av diskussion (för att förstå förvrängningen, föreställ dig att du drar en enda mening från en hel bok och hävdar att den representerar hela verket). Kvalificerade Talmud-forskare &mdash; judar och icke-judar &mdash; förkastar enhälligt denna läsning."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Okunskap + bekräftelsesökande: Människor som redan hatar judar söker efter \"bevis\" i texter de inte kan läsa (Talmud är skriven på hebreiska och arameiska). De förlitar sig på påhittade \"översättningar\" som cirkulerat sedan medeltiden. Publikationen \"Talmud Unmasked\" av fader Justinas Pranaitis (1892) bevisades full av fel när Pranaitis själv i rätten erkände att han faktiskt inte kunde arameiska."
+                    ],
+                    "sources": "Källor: Peter Sch&auml;fer, 'Jesus in the Talmud' (2007); Gil Student, \"Den verkliga sanningen om Talmud\" (2000); ADL-dokumentation"
+                }
+            ]
+        },
+        {
+            "number": "Kategori 4",
+            "title": "Politiska konspirationsteorier",
+            "desc": "Hemlig kontroll, världsherravälde och \"den dolda handen\"",
+            "claims": [
+                {
+                    "title": "\"Judar kontrollerar i hemlighet världens regeringar (ZOG)\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "\"The Protocols of the Elders of Sion\" är en påhittad text, skapad av den ryska hemliga polisen (Okhrana) omkring 1903, som påstod sig vara protokollet från ett judiskt möte för att planera världsherravälde. Det visade sig vara en förfalskning 1921 av Times of London &mdash; texten kopierades nästan ord för ord från en satir från 1864 av Maurice Joly om Napoleon III, som inte hade något med judar att göra.",
+                        "Trots att han var fullständigt avvisad, distribuerade Henry Ford den i Amerika (tidningen \"Dearborn Independent\", 91 antisemitiska nummer), Hitler citerade den i \"Mein Kampf\", och den är fortfarande en bästsäljare i arabvärlden idag. Om 15 miljoner judar (0,2% av världens befolkning) verkligen styrde världen &mdash; varför kunde de inte förhindra Förintelsen? Varför behöver Israel förhandla för sin existens? Den förmodade \"kontrollen\" är det bästa beviset på att den inte existerar."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Konspiratoriskt tänkande: Forskning (van Prooijen, 2017) visar att människor som tror på en konspiration tenderar att tro på andra, även motsägelsefulla sådana. \"Judar kontrollerar världen\" är \"alla konspirationers moder\" &mdash; en enkel förklaring till allt som är fel. Det ger en illusion av kontroll: om någon ligger bakom kaoset är världen inte slumpmässig och skrämmande. Det är tröstande, även om det är falskt."
+                    ],
+                    "sources": "Källor: Norman Cohn, 'Warrant for Genocide' (1967); van Prooijen & Douglas, \"Konspirationsteorier som en del av historien\" (2017)"
+                },
+                {
+                    "title": "\"Judar kontrollerar media och manipulerar den allmänna opinionen\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Påståendet att judar kontrollerar media är statistiskt och faktiskt falskt. Stora medieföretag är börsnoterade företag (Disney, Comcast, News Corp) med olika ägarskap och ledarskap &mdash; styrelser, aktieägare och ledningar från olika länder och bakgrunder. Rupert Murdoch (News Corp, Fox News) &mdash; australiensisk. Jeff Bezos (Washington Post) &mdash; Amerikansk. Elon Musk (Twitter/X) &mdash; sydafrikansk. Ingen av dem är judar.",
+                        "Påståendet fungerar som en oförfalsbar Catch-22: om en jude arbetar i media, \"bevisar\" det konspirationen. Om en jude inte arbetar i media, \"gömmer de sig\". Om media rapporterar positivt om Israel, \"kontrollerar de det.\" Om det rapporterar negativt, \"är det en rökridå.\" Inga bevis kan motbevisa en tro som aldrig var baserad på bevis i första hand."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Bekräftelsebias + illusorisk korrelation: ADL Global 100-undersökningen fann att detta är en av de mest utbredda antisemitiska stereotyperna &mdash; 74 % av de tillfrågade i Mellanöstern och 24 % i Europa tror att judar kontrollerar media. När väl tron ​​existerar, \"bevisar\" varje jude som finns i media det, medan tusentals icke-judar i media helt enkelt ignoreras."
+                    ],
+                    "sources": "Källor: ADL Global 100 Survey (2023); Steven Bayme, \"Understanding Jewish History\" (1997)"
+                },
+                {
+                    "title": "\"Judar har dubbel lojalitet - de är lojala mot Israel, inte deras land\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Den dubbla lojalitetsanklagelsen har använts för att utesluta judar från det civila livet i århundraden. Kapten Alfred Dreyfus, en fransk-judisk officer, dömdes för förräderi 1894 baserat på påhittade bevis &mdash; och delvis på antagandet att en jude inte verkligen kunde vara lojal mot Frankrike. Han frikändes 1906 efter att affären splittrat Frankrike.",
+                        "I verkligheten har judar tjänat med utmärkelse i arméerna i varje land de levt i, ofta oproportionerligt: ​​100 000 judar tjänstgjorde i den tyska armén under första världskriget, 12 000 dödades i strid, 18 000 fick järnkorset, 35 000 befordrades till 3,00, och blev 3,00. 1935 fråntog samma Tyskland dem medborgarskapet. 550 000 judar tjänstgjorde i den amerikanska militären under andra världskriget. Anklagelsen om \"dubbel lojalitet\" riktar sig endast mot judar &mdash; ingen anklagar irländsk-amerikaner för dubbel lojalitet mot Irland."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Evig \"annanhet\": Anklagelsen avslöjar antagandet att judar alltid är \"utomstående\", oavsett hur många generationer de har levt i ett land. Detta är ett universellt mönster av rasism &mdash; medlemmar av minoritetsgrupper måste alltid \"bevisa\" sin lojalitet, medan majoritetens lojalitet tas för given."
+                    ],
+                    "sources": "Källor: Ruth Harris, 'Dreyfus: Politics, Emotion, and the Scandal of the Century' (2010); National Museum of American Jewish Military History"
+                },
+                {
+                    "title": "\"11 september orkestrerades av Israel/Mossad\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Inom några dagar efter attackerna den 11 september dök det upp konspirationsteorier som hävdade att 4 000 judar stannade hemma från jobbet vid tvillingtornen efter att ha blivit varnade av Mossad. Lögnen spreds genom Al-Manar (Hizbollahs TV-kanal), konspirationswebbplatser och iransk propaganda.",
+                        "Fakta: Ungefär 400 judar dödades i attackerna, proportionellt mot New Yorks judiska befolkning (~12%). Det amerikanska finansföretaget Cantor Fitzgerald förlorade 658 anställda &mdash; den största förlusten av något enskilt företag i attacken. Siffran \"4 000\" är helt påhittad och härstammar från en nyhet som sa att den israeliska ambassaden försökte lokalisera 4 000 israeler som bodde eller arbetade i New York-området &mdash; \"lokalisera\" blev \"varnad\". En medveten lögn."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Proportionalitetsbias + skuldförskjutning: En attack som 9/11 genererar enorm ilska. Om angriparna är en liten organisation (al-Qaida) är det inte \"tillräckligt stort\" för katastrofen. Tanken att en mäktig enhet (Israel/Mossad) ligger bakom känns mer \"proportionell\". I arabvärlden tjänade konspirationen också till att avleda skulden från al-Qaida &mdash; en arabisk islamistisk organisation &mdash; på \"judarna\"."
+                    ],
+                    "sources": "Källor: 9/11 kommissionen (2004); factcheck.org; SITE Intelligence Group"
+                },
+                {
+                    "title": "\"Judar skapade kommunismen för att förstöra den västerländska civilisationen\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Karl Marx föddes jude men döptes som barn och var själv antisemitisk i sina skrifter ('On the Jewish Question', 1843, där han skrev att \"judens gud är pengar\"). Samma antisemiter som anklagade judar för att vara kommunister anklagade dem samtidigt för att kontrollera kapitalismen &mdash; en motsägelse som avslöjar att målet inte är sanning utan anklagelse.",
+                        "I Sovjetunionen förföljdes judar under kommunismen: den antikosmopolitiska kampanjen (1948-1953) sparkade judiska intellektuella, \"läkarnas sammansvärjning\" (1953) anklagade judiska läkare för att ha planerat att mörda sovjetiska ledare, och Refusenikrörelsen (19060) önskade att de skulle lämna 99-1950. Judiska kulturyttringar och institutioner eliminerades systematiskt. Kommunismen förföljde judar &mdash; raka motsatsen till vad konspirationen hävdar."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Monolitiskt tänkande: Att skylla en etnisk grupp för en politisk idé är ett klassiskt tankefel. Vissa judar var kommunister &mdash; precis som vissa judar var kapitalister, anarkister, liberaler, konservativa och sionister. Att tillskriva ett helt folks politiska mångfald till en enda etnisk konspiration avslöjar tron ​​att judar är en monolit &mdash; och inte, som alla folk, en mångsidig samling individer med olika åsikter."
+                    ],
+                    "sources": "Källor: Jonathan Frankel, 'Kris, revolution och ryska judar' (2009); Robert Weinberg, 'Stalins glömda Sion' (1998)"
+                }
+            ]
+        },
+        {
+            "number": "Kategori 5",
+            "title": "Kulturella och sociala anklagelser",
+            "desc": "Påståenden om judisk karaktär, beteende och socialt inflytande",
+            "claims": [
+                {
+                    "title": "\"Judar är stammar och vägrar att assimilera sig\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Den grymma ironin: Under större delen av historien hindrades judar med tvång från att assimilera sig. De tvingades in i getton (Venedig, 1516 &mdash; det första gettot; Rom till 1870), uteslöts från yrken, nekades medborgarskap (först 1791 i Frankrike, 1871 i Tyskland) och utvisades från länder.",
+                        "När judar upprätthöll sina egna samhällen under dessa förhållanden &mdash; anklagades de för frivillig separation. När judar assimilerades (i Weimar Tyskland: 25% blandäktenskap, full militärtjänst, ledarskap i västerländsk kultur) &mdash; anklagades de för att \"infiltrera\" samhället och förintades till slut. Anklagelsen är oförfalsbar: oavsett vad judar gör är det alltid fel. Separat? Stam. Assimilera? Infiltrerar. Bevara traditionen? Resistent. Ändra? Att förlora identitet."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Att definiera \"den andra\": Varje majoritetsgrupp definierar sig delvis av vem som inte är en del av den. Judar, som en synlig minoritet, fungerade som den perfekta \"andra\" i Europa. Om de assimilerar sig helt försvinner den \"andra\" &mdash; och med det en del av majoritetens identitet. Därför räcker inte ens full assimilering &mdash; som upptäckts av tyska judar som kände sig helt tyska och mördades i Auschwitz."
+                    ],
+                    "sources": "Källor: Zygmunt Bauman, 'Modernity and the Holocaust' (1989); Amos Elon, \"The Pity of It All: A Portrait of the German-Jewish Epoch\" (2002)"
+                },
+                {
+                    "title": "\"Judar tror att de är det \"utvalda folket\" och överlägsna alla\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "I judisk teologi betyder \"utvald\" inte \"överlägsen\". Det innebär att bli vald för ytterligare ansvar &mdash; specifikt, skyldigheten att följa Torahs 613 bud. Detta är en plikt, inte ett privilegium. För att förstå: icke-judar är bara skyldiga av de 7 Noahide-lagarna. Judar är skyldiga till 613. Om något betyder \"utvald\" att hållas till en strängare standard.",
+                        "Judendomen lär uttryckligen att de rättfärdiga av alla nationer har del i den kommande världen (Tosefta Sanhedrin 13:2). Profeten Amos förklarade: \"Är ni inte som etiopierna för mig, Israels barn?\" (Amos 9:7) &mdash; alla folk är lika i Guds ögon. Däremot hävdar kristendomen att endast de som tror på Jesus är frälsta, och islam att endast muslimer kommer in i paradiset. Judendomen är faktiskt den minst \"supremacist\" av de tre."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Felöversättning + kulturellt missförstånd: Termen \"Utvalda människor\" översattes till europeiska språk som en titel på överhöghet, medan det på hebreiska uttrycker ansvar. Detta är samma problem med att läsa en främmande kulturell text genom en annan kulturell lins. Dessutom ansåg många kristna att det judiska anspråket på utvaldhet utmanade det kristna påståendet att kyrkan är det \"nya Israel\" (Supersessionism)."
+                    ],
+                    "sources": "Källor: Eugene Borowitz, 'Renewing the Covenant' (1991); David Novak, \"Valet av Israel\" (1995)"
+                },
+                {
+                    "title": "\"Judar kontrollerar Hollywood och korrumperar moral\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Judiska invandrare som flydde från pogromer i Europa (många av dem fattiga, som anlände med ingenting) grundade några av de första Hollywood-studiorna i början av 1900-talet &mdash; just för att de var utestängda från \"respektabla\" industrier och var tvungna att vända sig till ett nytt, oetablerat område som film. Deras framgång inom vad som ansågs vara ett \"billigt\" område omformades till \"kontroll\" när biografen blev en stor industri.",
+                        "Den moderna underhållningsindustrin är ett globalt företagsekosystem. Disney ägs av aktieägare från hela världen. Netflix, Amazon, Apple TV &mdash; ingen av dem är \"kontrollerad\" av judar. Påståendet fungerar som alla konspirationer: personlig framgång för judar inom ett visst område = \"etnisk kontroll.\" Men när italienare driver restauranger &mdash; är det ingen som säger att italienarna \"kontrollerar maten\"."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Avund + behov av förklaring: När en bransch producerar kultur som människor ogillar (våld, sexualitet, progressiva värderingar), är det lättare att skylla på en \"utländsk grupp\" än att konfrontera det faktum att den bredare allmänheten konsumerar och finansierar detta innehåll. \"Judar korrumperar moralen\" tillåter människor att skylla på andra istället för att ta ansvar för sin egen smak."
+                    ],
+                    "sources": "Källor: Neal Gabler, \"An Empire of Their Own: How the Jews Invented Hollywood\" (1988); ADL-dokumentation"
+                },
+                {
+                    "title": "\"Judar kan identifieras fysiskt genom sitt utseende (kroknäsa, etc.)\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Den fysiska karikatyren av judar &mdash; kroknäsa, mörka drag, krökt hållning, gnuggande händer &mdash; är en propagandauppfinning, inte verklighet. Karikatyrfiguren utvecklades inom medeltida kristen konst, intensifierades i antisemitiska karikatyrer från 1800-talet (som den franska tidningen \"La Libre Parole\"), och nådde sin höjdpunkt i nazisternas \"Der St&uuml;rmer\" där Julius Streicher publicerade antisemitiska karikatyrer varje vecka.",
+                        "Verkligheten: Judar är ett etniskt mångfaldigt folk som inkluderar Ashkenazi (europeisk, ljushyad), Sefardisk (Medelhavet), Mizrahi (Mellanöstern, mörkhyad), etiopisk (Beta Israel, svart), indian (Bene Israel), kineser (Kaifeng-gemenskapen) och jemenitiska samhällen. De ser helt olika ut från varandra. Det finns inget \"judiskt utseende\" &mdash; precis som det inte finns något \"kristet utseende\" eller \"muslimskt utseende\"."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Visuell avhumanisering: Fysiska karikatyrer är ett kritiskt stadium i avhumanisering. När en grupp får \"se annorlunda ut\" blir det lättare att se dem som undermänniskor. Nazisterna använde sådana karikatyrer i barnboken \"The Poisonous Mushroom\" (1938) för att lära barn hur man \"identifierar\" judar. Idag sprids samma karikatyrer på sociala medier som \"memes\" &mdash; samma gift, en ny flaska."
+                    ],
+                    "sources": "Källor: Sara Lipton, 'Dark Mirror: The Medieval Origins of Anti-Jewish Iconography' (2014); USHMM \"Propaganda\"-utställning"
+                }
+            ]
+        },
+        {
+            "number": "Kategori 6",
+            "title": "Modern antisemitisk antisionism",
+            "desc": "När kritik mot Israel går över gränsen till hat mot judar",
+            "claims": [
+                {
+                    "title": "\"Israel är en nazistisk stat / sionism är nazism\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Att jämföra Israel med Nazityskland är en form av \"förintelseinversion\" &mdash; som använder folkmord på judar för att attackera judar. Nazityskland byggde ett industrisystem vars enda syfte var total rasutrotning: tåg, gaskammare, krematorier, byråkrati &mdash; 6 miljoner mördade. Ingen demokratisk stat, inklusive Israel, har gjort något avlägset jämförbart i någon skala.",
+                        "IHRA-definitionen (antagen av 35+ länder) identifierar denna jämförelse som antisemitism. Anledningen: den beväpnar judiska trauman mot judar och förmedlar implicit budskapet att \"offren blev mördarna.\" Detta är inte legitim kritik &mdash; det är ett försök att neka judar rätten att definiera sin egen historia. Man kan kritisera specifik israelisk politik (och många gör det) utan att ta till nazistiska jämförelser vars syfte är att såra."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Inversion av offer-förövare: Psykologiskt sett frigörs den kristna/araben/européen från historisk skuld om offret förvandlas till förövare. Om \"judarna är de nya nazisterna\", så är 2 000 år av europeisk förföljelse och arabisk antisemitism balanserad. Detta är psykologisk tröst, inte ett historiskt argument."
+                    ],
+                    "sources": "Källor: IHRA Working Definition of Antisemitism (2016); Manfred Gerstenfeld, \"The Abuse of Holocaust Memory\" (2009)"
+                },
+                {
+                    "title": "\"Judar förtjänar inte en stat - Israel har ingen rätt att existera\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Att förneka det judiska folkets rätt till självbestämmande samtidigt som det ger alla andra människor den är diskriminering. Det finns 193 FN-medlemsländer. Om någon hävdar att Israel inte har rätt att existera &mdash; gör de samma påstående om Pakistan (skapat 1947 på religiös grund, vilket orsakade fördrivning av 15 miljoner människor)? Om Jordan (skapat av britterna 1921)? Om Syrien, Irak, Libanon (skapat av fransmännen och britterna efter första världskriget)?",
+                        "Den judiska kopplingen till landet Israel är arkeologiskt dokumenterad över 3 000+ år: gamla hebreiska inskriptioner, tempellämningar, Bar Kokhba-upprorsmynt, gamla synagogor. Judar upprätthöll en kontinuerlig närvaro i landet Israel i 3 000 år, även efter landsflykten. Sionism är inte kolonialism &mdash; det är en nationell befrielserörelse av ett folk som återvänder till sitt historiska hemland."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Dubbelmoral som symptom: När någon kräver att Israel ensamt, av alla 193 FN:s medlemsländer, ska motivera sin rätt att existera &mdash; är det inte \"politisk kritik\". Det är en standard som inte tillämpas på något annat land. Natan Sharansky identifierade en dubbelmoral som ett av tre tecken som skiljer legitim kritik från antisemitism."
+                    ],
+                    "sources": "Källor: Natan Sharansky, '3D Test' (2004); Israel Antiquities Authority arkeologiska fynd; FN:s generalförsamlings resolution 181 (1947)"
+                },
+                {
+                    "title": "\"Israellobbyn (AIPAC) kontrollerar amerikansk utrikespolitik\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Varje land lobbar i Washington. Enligt FARA (Foreign Agents Registration Act) register spenderar Saudiarabien tiotals miljoner dollar årligen på lobbyverksamhet i USA (en topp på 27 miljoner dollar under vissa år). Förenade Arabemiraten: $20+ miljoner. Qatar, Japan, Sydkorea &mdash; tiotals miljoner vardera. AIPAC är en amerikansk (inte israelisk) lobbyorganisation som verkar under samma regler och med samma transparens som alla andra lobbygrupper.",
+                        "Påståendet att AIPAC \"kontrollerar\" USA:s politik ignorerar de verkliga faktorerna: geopolitiska intressen (Israel = en stabil, demokratisk allierad i Mellanöstern), intelligensdelning, försvarsindustrin (8+ miljarder dollar årligen, mestadels återvänder som inköp från amerikanska företag) och amerikanskt stöd från allmänheten (Gallups opinionsundersökningar har historiskt visat 60-70 % nedgång för Israel sedan 202 procent). Att peka ut den pro-israeliska lobbyn som \"unikt mäktig\" återspeglar samma konspiration &mdash; \"Judar kontrollerar regeringar.\""
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Missförstånd av demokrati + konspiratoriskt tänkande: Många människor förstår inte att lobbyverksamhet är en legitim del av amerikansk demokrati &mdash; alla intressegrupper gör det. När den pro-israeliska lobbyn pekas ut som \"manipulation\" snarare än lobbying &mdash; är det en gammal konspiration i modern förklädnad."
+                    ],
+                    "sources": "Källor: FARA Registration records; Gallup Israel favoriseringsundersökningar; OpenSecrets.org lobbyinformation"
+                }
+            ]
+        },
+        {
+            "number": "Kategori 7",
+            "title": "Förintelseförnekelse och förvrängning",
+            "desc": "Förnekande, minimering eller förvrängning av mordet på 6 miljoner judar",
+            "claims": [
+                {
+                    "title": "\"Förintelsen hände inte / 6 miljoner är en överdrift\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Bevisen för Förintelsen är bland de mest omfattande för alla historiska händelser: nazistiska administrativa dokument (nazisterna dokumenterade noggrant sina brott), vittnesmål från över 100 000 överlevande, erkännanden av förövare i Nürnberg och andra rättegångar, befrielsefotografier av allierade styrkor, fysiska bevis i Auschwitz-Birkens försvinnande data, försvinnande data, demoaugraphics och andra platser, och dokument som Wannsee-protokollet (1942) som dokumenterar den \"slutliga lösningen\".",
+                        "David Irving, den mest framstående förintelseförnekaren, avslogs i ett landmärke i Londons domstol år 2000 (Irving mot Lipstadt). Domaren slog fast att Irving \"avsiktligt förvrängt och manipulerat historien.\" Förintelseförnekelse är olagligt i 17 länder eftersom det inte är en \"åsikt\" &mdash; det är förnekande av dokumenterade fakta, ungefär som att förneka att jorden är rund, förutom att det är farligt eftersom det banar väg för nästa folkmord."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Reduktion av kognitiv dissonans: Antisemiter som vill fortsätta hata judar står inför ett problem &mdash; Förintelsen gör hat mot judar moraliskt omöjligt. Lösningen: förneka Förintelsen. Om Förintelsen inte inträffade kan man gå tillbaka till att hata judar utan skuld. Det är därför förintelseförnekelse och antisemitism alltid går ihop."
+                    ],
+                    "sources": "Källor: Deborah Lipstadt, 'Denying the Holocaust' (1993); Irving v Penguin Books Ltd (2000); USHMM Holocaust Encyclopedia"
+                },
+                {
+                    "title": "\"Judar uppfann eller överdrev Förintelsen för politisk och ekonomisk vinning\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Anklagelsen om att judar tillverkade sitt eget folkmord för sympati eller pengar innehåller antisemitism i tre lager: (1) den förnekar lidandet hos miljoner offer, (2) den ramar in minnet av folkmordet som ett \"judiskt plan för att tjäna pengar\" (den giriga judarnas stereotyp), och (3) den förvandlar till bedragarnas offer.",
+                        "Fakta: Förintelsens skadestånd från Tyskland kom efter 7 års politisk kamp (Luxemburgavtalen, 1952). De täckte en liten del av den egendom som stulits från europeiska judar (hem, företag, besparingar, konst, guld &mdash; uppskattat värde på hundratals miljarder dollar). Många överlevande levde i fattigdom efter kriget. Över 30 000 överlevande från Förintelsen lever under fattigdomsgränsen i Israel idag. Den påstådda \"vinsten\" är en myt."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Förintelsetrötthet + avund: Vissa människor är trötta på att höra om Förintelsen och söker rättfärdigande för sin likgiltighet. Tanken att \"judar utnyttjar Förintelsen i vinstsyfte\" ger moraliskt rättfärdigande för att ignorera Förintelsen. I delar av arabvärlden fungerar dessutom att förneka eller minimera Förintelsen som ett politiskt verktyg &mdash; om Förintelsen inte inträffade, finns det ingen motivering för Israels existens (enligt deras bristfälliga logik)."
+                    ],
+                    "sources": "Källor: Norman Finkelstein, 'The Holocaust Industry' (2000, kontroversiell); Konferens om judiska materiella anspråk mot Tysklands register; Israelisk stiftelse till förmån för förintelsens offer"
+                },
+                {
+                    "title": "\"Gaskamrarna existerade inte / de var bara avlusande kammare\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Leuchter-rapporten (1988) hävdade att kemisk analys av Auschwitz väggar visade otillräcklig cyanidrester. Det avslogs grundligt av Krakow Forensic Institute (1994), som hittade betydande cyanidföreningar. Den \"lägre\" nivån jämfört med avlusningskammare förklaras av grundläggande kemi: att döda människor kräver mycket mindre Zyklon B än att döda löss (300 ppm vs. 16 000 ppm).",
+                        "Bevisen för gaskamrarna: (1) Rudolf H&ouml;ss, befälhavare i Auschwitz, beskrev dem i detalj i sin bekännelse och i den självbiografi han skrev innan han avrättades. (2) Sonderkommandot (fångar som tvingats arbeta i gaskamrarna) vittnade i detalj. (3) Ritningar från företaget Topf und S&ouml;hne (som byggde krematorierna) hittades &mdash; inklusive en beställning på \"gastäta dörrar\". (4) Allierade flygfoton från 1944 visar rader av människor som går in i byggnader från vilka rök stiger. (5) Fysiska lämningar i Auschwitz-Birkenau är öppna för allmänheten."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Nynazism i akademisk förklädnad: Förintelseförnekare klär ut sig till \"forskare\" och \"revisionister\" för att ge lögner sken av stipendium. Målet: att göra nazismen legitim igen. Varje \"förintelseförnekare\" i historien har visat sig ha kopplingar till nynazistiska organisationer &mdash; det finns ingen neutral forskare som förnekar förintelsen. Detta är inte en \"akademisk ståndpunkt\" utan propaganda."
+                    ],
+                    "sources": "Källor: Jean-Claude Pressac, \"Auschwitz: Teknik och drift av gaskamrarna\" (1989); Krakow Forensic Institute Report (1994); Robert Jan van Pelt, sakkunnigt vittne i Irving-rättegången"
+                }
+            ]
+        },
+        {
+            "number": "Kategori 8",
+            "title": "Online och samtida antisemitism",
+            "desc": "Moderna mutationer av forntida hat i den digitala tidsåldern",
+            "claims": [
+                {
+                    "title": "\"Kodade symboler: tredubbla parenteser (((eko))), 'sektion för tidigt liv'\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Den tredubbla parentessymbolen (((namn))) skapades av den nynazistiska bloggen \"The Right Stuff\" (2014) för att identifiera judar online. \"Early life section\" syftar på att kontrollera Wikipedia-poster för judiska härkomster. Ytterligare kodade uttryck: '109' (påståendet att judar fördrevs från 109 länder), 'da goyim know', 'oy vey', '6 miljoner produkt', 'globalist' och 'international banker' som kodnamn.",
+                        "Kodspråk möjliggör plausibel förnekelse: \"Jag är inte antisemit, jag pratar bara om globalister.\" Algoritmer för sociala medier kämpar för att identifiera kodat språk, så antisemitiskt innehåll som raderas i öppen form publiceras i kodad form. Plattformar som 4chan, Telegram och Gab har blivit nav för antisemitisk propaganda. ADL dokumenterar nya symboler varje vecka."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Grupptillhörighet + sekretess: Kodat språk skapar en känsla av en \"hemlig klubb\" &mdash; de som förstår koden är \"en av oss.\" Detta ger social tillhörighet, en känsla av överlägsenhet (\"vi vet sanningen\") och överträdelsens adrenalin. Många unga människor utsätts för antisemitiskt innehåll genom \"memes\" som ser ut som skämt &mdash; men skämt är det första stadiet av radikalisering."
+                    ],
+                    "sources": "Källor: ADL Hate on Display Database; Moonshot CVE forskning; ISD (Institute for Strategic Dialogue) rapporterar"
+                },
+                {
+                    "title": "\"Judar skapade COVID / tjänade på pandemin / vacciner som en judisk komplott\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "COVID-konspirationsteorier följde exakt samma mönster som medeltida pestanklagelser: judar skapade viruset, spred det medvetet eller tjänade på det genom läkemedelsföretag. ADL dokumenterade över 17 000 tweets som skyllde judar för covid under bara de första månaderna av pandemin.",
+                        "Anti-lockdown-demonstranter bar gula stjärnor och hävdade \"vi är som judar i Förintelsen\" &mdash; en jämförelse som bagatelliserar mordet på 6 miljoner judar till besväret med ett maskmandat. I Iran hävdade statliga medier att viruset var ett \"sionistiskt biologiskt vapen\". I Turkiet hävdade tidningar att \"judar och Mossad ligger bakom covid.\" Mönstret är identiskt med 1348 (judar förgiftade brunnar), 1918 (judar spred spanska sjukan) och 2020 (judar skapade covid). 700 år, samma lögn."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Terrorhantering + urgammalt mönster: En pandemi skapar dödsångest. Dödsångest ökar fientligheten mot utgrupper (Terror Management Theory). Judar, som en klassisk ut-grupp, blir de \"skyldiga\". Detta är exakt samma psykologiska mekanism som fungerade under digerdöden 1348 &mdash; vad som förändras är tekniken (Twitter istället för marknadsrykten), inte mänsklig psykologi."
+                    ],
+                    "sources": "Källor: ADL COVID-19-rapport (2020); MEMRI; Oxford Internet Institute forskning om konspirationsteorier"
+                },
+                {
+                    "title": "\"Judar ligger bakom den \"stora ersättningen\" - orkestrering av massinvandring\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Teorin \"Great Replacement\" (baserad på Renaud Camus bok, 2011) hävdar att judar medvetet konstruerar massinvandring för att förstöra nationer med vit majoritet. Invandringen drivs faktiskt av ekonomiska krafter (löneskillnader, arbetskraftsefterfrågan), politiska faktorer (krig, diktaturer), humanitära kriser (flyktingar) och klimathändelser (torka, översvämningar) &mdash; inte av en etnisk grupp som omfattar 0,2 % av världens befolkning.",
+                        "Denna konspiration dödar. Det citerades direkt som motivation av: Robert Bowers (Pittsburgh, 2018, 11 dödade i en synagoga), Brenton Tarrant (Christchurch, 2019, 51 dödade i en moské), Patrick Crusius (El Paso, 2019, 23 dödade) och John Earnest (Poway, en synagoga, 101 dödade). Var och en publicerade ett manifest som anklagade judar för \"ersättningen\". Från teori till våld &mdash; är linjen kort."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Demografisk ångest + syndabock: Verkliga demografiska förändringar (invandring, födelsetal) skapar oro hos delar av majoriteten. Snarare än att konfrontera komplexa orsaker är det lättare att skylla på en \"orkestrator\" &mdash; och judar, de eviga anklagade, är målet. Detta är 2000-talets version av \"judar kontrollerar regeringar\" &mdash; samma konspiration, bara med \"immigration\" istället för \"banker\"."
+                    ],
+                    "sources": "Källor: ADL; Robert Bowers manifest (arkiverat); Christchurch Royal Commission-rapport (2020)"
+                },
+                {
+                    "title": "\"Judar beväpnar antisemitismens anspråk för att tysta kritiken\"",
+                    "ref_label": "&#10003; Faktiskt vederläggande",
+                    "ref": [
+                        "Påståendet att judar \"utnyttjar\" antisemitism för att tysta kritik är i sig en taktik: det säger åt judarna att \"ni har inte rätt att klaga\" &mdash; just när antisemitismen stiger till rekordsiffror (ADL: 8 873 incidenter 2023 bara i USA, en ökning med 140 %).",
+                        "Naturligtvis finns det en legitim debatt om var gränsen går mellan kritik av Israel och antisemitism. Kritik mot specifik israelisk politik = legitim. Förnekande av Israels rätt att existera ensam = antisemitism. Användning av stereotyper om alla judar = antisemitism. Regeln är enkel: om du ersatte \"judisk\" med \"Svart/muslimsk/asiatisk\" och meningen lät rasistisk &mdash; är den också antisemitisk.",
+                        "Påståendet att judar \"utnyttja offer\" är den samtida versionen av \"Judar är listiga och manipulativa\" &mdash; den äldsta stereotypen, i modern förklädnad."
+                    ],
+                    "psych_label": "&#128300; Varför tror folk på detta?",
+                    "psych": [
+                        "Försvar mot dissonans: Människor som utsätts för kritik av sina åsikter om judar/Israel känner obehag (kognitiv dissonans). Snarare än att undersöka deras åsikter är det lättare att hävda att kritiken i sig är \"judisk manipulation\". Detta befriar dem från behovet av självrannsakan: \"Jag är inte antisemit, de skriker bara antisemitism för att tysta mig.\" Viljan att undvika skuld är starkare än önskan att upptäcka sanningen."
+                    ],
+                    "sources": "Källor: ADL Audit (2023); David Hirsh, \"Contemporary Left Antisemitism\" (2017)"
+                }
+            ]
+        }
+    ],
+    "lies_title": "Vanliga lögner och förtal",
+    "lies_desc": "Vanliga lögner mot Israel och det judiska folket – och de fakta som avslöjar dem",
+    "lie_cards": [
+        {
+            "title": "\"Israel begick folkmord i Gaza\"",
+            "claim_label": "&#10060; Vad de hävdar:",
+            "claim": "Israels militära operationer i Gaza efter den 7 oktober 2023 utgör ett folkmord &mdash; den avsiktliga och systematiska förstörelsen av det palestinska folket. Sydafrika lämnade in ett mål vid Internationella domstolen (ICJ), och sociala medier översvämmar internet med påståenden om att Israel begår \"folkmord\".",
+            "facts_label": "&#10003; Fakta som avslöjar lögnen:",
+            "facts_list": [
+                "<strong>Juridisk definition:</strong> Folkmord kräver <strong>speciellt uppsåt (dolus specialis)</strong> för att förstöra en nationell, etnisk eller religiös grupp. FN:s konvention om förebyggande av folkmord (1948, artikel II) föreskriver att bevis på avsikt krävs &mdash; inte bara offer.",
+                "<strong>Internationella domstolen (ICJ) dömde inte folkmord.</strong> Den slog bara fast att Sydafrikas fall var \"plausibelt nog att höras\" &mdash; detta är den lägsta rättsliga tröskeln för interimistiska förfaranden, inte en dom.",
+                "<strong>Kombattant-till-civilförhållande:</strong> Prof. <strong>John Spencer</strong>, chef för stadskrigföringsstudier vid West Point, uppgav att Israels offerkvot är ungefär <strong>1:1.5</strong> &mdash; medan det globala genomsnittet i krigföring är </strong>1:9.",
+                "<strong>Oade skådade åtgärder för att skydda civila:</strong> IDF gjorde <strong>50 066 personliga telefonsamtal</strong>, skickade <strong>12 miljoner röstmeddelanden</strong> och <strong>14 miljoner SMS-meddelanden</strong>, tappade miljontals flygblad och skapade evakuering som aldrig har hänt i något krigshistorik i historien.",
+                "<strong>Hamas använder mänskliga sköldar:</strong> UNRWA (FN-organet) hittade raketer i sina skolor <strong>3 olika gånger</strong>. Nato publicerade en dokumenterad rapport om Hamas strategi för mänskliga sköldar. Yahya Sinwar sa: \"Vi bestämde oss för att förvandla våra kvinnors och barns kroppar till en damm.\""
+            ],
+            "facts_conclusion": "Om en armé med kärnvapenkapacitet och ett av världens starkaste flygvapen hade <strong>avsikten</strong> att förstöra &mdash; skulle den inte ringa, skicka SMS och evakuera civila före varje anfall. <strong>Det finns inget folkmord i historien där den attackerande sidan varnar offren för att fly.</strong>",
+            "sources": "Källor: FN:s konvention om förebyggande av folkmord (1948, artikel II) | ICJ interimsbeslut, 26 januari 2024 | Atlantic Council — Expertanalys | Newsweek — John Spencer, \"Israel har skapat en ny standard för urban krigföring\" | Lieber Institute, West Point — IDF och skyldigheten att varna | NATO StratCom COE — Hamas användning av mänskliga sköldar | Officiella UNRWA-uttalanden om raketer i skolor"
+        },
+        {
+            "title": "\"Israel pressade Trump att bekämpa Iran\"",
+            "claim_label": "&#10060; Vad de hävdar:",
+            "claim": "Israel kontrollerade, manipulerade eller \"puffade\" USA &mdash; och specifikt president Trump &mdash; till en konfrontation med Iran. Enligt denna berättelse utkämpar Amerika \"Israels krig\" och försvarar inte sina egna intressen. Det här är en modern version av \"dubbellojalitets\"-tropen &mdash; en långvarig antisemitisk canard.",
+            "facts_label": "&#10003; Fakta som avslöjar lögnen:",
+            "facts_list": [
+                "<strong>Konflikten mellan USA och Iran föregår Israel:</strong> CIA-kuppen 1953 (Mossadegh), gisslankrisen 1979 (444 dagar) och det fullständiga diplomatiska uppehållet sedan 1980 &mdash; årtionden före någon \"Israel-lobby\".",
+                "<strong>Iran dödade 869+ amerikaner:</strong> Beirutbombningen 1983 (241 marinsoldater), Khobar Towers bombning 1996 (19), vägsidebomber i Irak 2003-2011 (603+). En amerikansk domstol beordrade Iran att betala 1,5 miljarder dollar i skadestånd.",
+                "<strong>Trump var anti-Iran sedan 1980:</strong> I en NBC-intervju med Rona Barrett (vid 34 års ålder) sa Trump att USA borde ha invaderat Iran. Detta var <strong>46 år</strong> innan något anspråk på israeliskt inflytande.",
+                "<strong>Oberoende amerikanska intressen:</strong> Hormuzsundet (21 % av den globala oljan), Irans kärnkraftsprogram, terrorismfinansiering (Hizbollah, Hamas, houthier). Iran har utsetts till \"statlig sponsor av terrorism\" sedan 1984.",
+                "<strong>Saudiarabien tryckte också på:</strong> Washington Post rapporterade att trycket kom \"från ett ovanligt par allierade: Israel <strong>och Saudiarabien</strong>\" &mdash; men ingen kallar det saudiska trycket för en \"konspiration\"."
+            ],
+            "facts_conclusion": "ADL identifierade denna berättelse som en klassisk antisemitisk trop: <strong>\"dubbel lojalitet\"</strong> &mdash; anklagar judar för att i hemlighet driva utrikespolitik. Samma trop användes mot Dreyfus (1894), i \"hugg-i-ryggen-myten\" (1918) och i Stalins \"Läkarnas handling\" (1953).",
+            "sources": "Källor: FDD — Iranian Attacks Against Americans 1979-Nuvarande | Vita huset (2026) — Decennier av iransk terrorism | CIA avklassificerad — Beirutbombning | US Energy Information Administration — Hormuzsundet | Brookings — Hur Trump tänker om Iran | Washington Post (28.2.2026) | ADL — Militär operation bränsle till antisemitisk konspiration | AJC — #TranslateHate: Dual Loyalty"
+        },
+        {
+            "title": "\"Israel är en apartheidstat\"",
+            "claim_label": "&#10060; Vad de hävdar:",
+            "claim": "Israel driver ett system för rassegregation som liknar apartheidregimen i Sydafrika. Organisationer som Amnesty International och Human Rights Watch har publicerat rapporter med denna etikett, och \"Israeli Apartheid Week\" hålls på 250+ campus världen över.",
+            "facts_label": "&#10003; Fakta som avslöjar lögnen:",
+            "facts_list": [
+                "<strong>I Sydafrika:</strong> Svarta <strong>kunde inte rösta</strong>, förbjöds att komma in i vita stadsdelar, hade medvetet separat och underlägsen utbildning, \"Bara vita\"-skyltar fanns överallt och äktenskap mellan olika raser var ett <strong>brottsligt</strong>.",
+                "<strong>I Israel:</strong> Arabiska medborgare (21%) röstar med <strong>fulla och lika rättigheter</strong> sedan 1948. Domare <strong>Salim Joubran</strong> (arab) tjänstgjorde som vicepresident i Högsta domstolen. <strong>Ra'am-partiet</strong> gick med i regeringskoalitionen 2021. Druzer och beduiner tjänar som höga IDF-officerare.",
+                "<strong>araber och judiska israeler:</strong> studerar vid samma universitet, behandlas på samma sjukhus, handlar på samma gallerior, simmar på samma stränder. <strong>Det finns inte en enda \"endast judar\"-skylt i Israel.</strong>",
+                "<strong>Kenneth Meshoe</strong>, en svart sydafrikansk parlamentsledamot <strong>som levde under verklig apartheid</strong>: \"Jag har besökt Israel många gånger. <strong>Ingenting där kan jämföras med apartheid i Sydafrika.</strong>\"",
+                "<strong>Justice Richard Goldstone</strong> (Sydafrika), som utredde Israel för FN, skrev i New York Times (2011): <strong>\"In Israel, there is no apartheid. Inget där kommer i närheten av definitionen.\"</strong>"
+            ],
+            "facts_conclusion": "",
+            "sources": "Källor: ADL — Påstående: Israel är en apartheidstat | Richard Goldstone, \"Israel and the Apartheid Slander\", New York Times (31.10.2011) | UN Watch — svar på apartheidkrav | Britannica — Apartheid | Kenneth Meshoe, Jerusalem Post | SSRN — Sekulow & Ash Legal Analysis"
+        },
+        {
+            "title": "\"Judar kontrollerar media och den globala ekonomin\"",
+            "claim_label": "&#10060; Vad de hävdar:",
+            "claim": "Judar kontrollerar i hemlighet banker, media och världsregeringar och manipulerar globala händelser till deras fördel. Denna teori är baserad på \"Protocols of the Elders of Zion\" &mdash; en bevisad förfalskning skapad 1903 &mdash; och på familjemyten Rothschild.",
+            "facts_label": "&#10003; Fakta som avslöjar lögnen:",
+            "facts_list": [
+                "<strong>\"Protocols of the Elders of Sion\" &mdash; en bevisad förfalskning:</strong> Skapad av den ryska hemliga polisen (Okhrana). År 1921 bevisade Times of London att det var en <strong>direkt kopia</strong> från en fransk satir om Napoleon III (1864) som <strong> absolut inte hade någon koppling till judar</strong>. En schweizisk domstol (1935) förklarade texten \"en förfalskning, plagiat och obscen litteratur.\"",
+                "<strong>Rothschild-myt:</strong> Familjens rikedom uppskattas till 400 miljarder dollar &mdash; fördelat på 7 generationer. Som jämförelse: <strong>Elon Musk ensam</strong> är värd ~800 miljarder dollar. Påståendet att \"the Rothschilds kontrollerar 80% av den globala rikedomen\" är <strong>matematiskt omöjlig</strong> &mdash; totala globala rikedomen är ~471 biljoner dollar.",
+                "<strong>De 4 största bankerna i världen är kinesiska</strong> (ICBC, Agricultural Bank, Construction Bank, Bank of China). Bland de 20 bästa bankerna är &mdash; de flesta kinesiska, japanska, brittiska och franska.",
+                "<strong>Judar = 0,2 % av världens befolkning</strong> (15,7 miljoner av 8 miljarder). Det är <strong>statistiskt omöjligt</strong> för 0,2 % att \"kontrollera\" global ekonomi, media och regeringar.",
+                "<strong>Ironin:</strong> Som ADL noterar &mdash; \"Genom historien hade judar <strong>mycket liten kontroll</strong> till och med över sitt eget öde\" &mdash; utvisningar, pogromer, Förintelsen."
+            ],
+            "facts_conclusion": "",
+            "sources": "Källor: USHMM — Protocols of the Elders of Sion | ADL — En bluff av hat | Snopes — Rothschild Family Wealth (Faktakontroll) | PolitiFact — \"Pants on Fire\" Betyg | S&P Global — Världens största banker 2024 | ADL Global 100 Survey 2024 | Britannica — Protokoll"
+        },
+        {
+            "title": "\"Judar har ingen historisk koppling till landet Israel\"",
+            "claim_label": "&#10060; Vad de hävdar:",
+            "claim": "Judar är \"europeiska kolonisatörer\" utan någon egentlig koppling till landet Israel. Sionismen är enbart ett modernt \"kolonialt projekt\". Mahmoud Abbas (april 2025) hävdade att templen stod <strong>i Jemen, inte Jerusalem</strong>. Rörelsen \"Temple Denial\" förnekar all judisk koppling till Tempelberget.",
+            "facts_label": "&#10003; Fakta som avslöjar lögnen - 3 200 år av bevis:",
+            "facts_list": [
+                "<strong>Merneptah Stele (1208 fvt):</strong> En egyptisk inskription &mdash; <strong>det tidigaste icke-bibliska omnämnandet av Israel</strong> i historien. Kairo museum.",
+                "<strong>Tel Dan Stele (800-talet f.Kr.):</strong> En arameisk inskription som hittades 1993: \"Davids hus\" &mdash; <strong>det första yttre beviset på Davids dynastin</strong>.",
+                "<strong>Siloam Inscription (701 fvt):</strong> En gammal hebreisk inskription inne i Hiskias tunnel i Jerusalem &mdash; <strong>en hebreisktalare var ansvarig i Jerusalem för 2 700 år sedan</strong>.",
+                "<strong>Dödahavsrullar (3:e århundradet f.Kr. - 1:a århundradet vt):</strong> 981 manuskript på hebreiska och arameiska &mdash; <strong>de äldsta kopiorna av Bibeln</strong>. Israel Museum, Jerusalem.",
+                "<strong>Titus båge, Rom (81 e.Kr.):</strong> En relief som visar romerska soldater <strong>bärande menoran från templet i Jerusalem</strong> &mdash; Romerskt bevis på att det judiska templet stod i Jerusalem.",
+                "<strong>50 000+ Bar Kokhba-mynt (132-135 CE):</strong> Med judiska symboler och gamla hebreiska inskriptioner: \"För Jerusalems frihet.\"",
+                "<strong>Genetiska studier (PNAS 2000, Nature 2010):</strong> Alla judiska grupper &mdash; Ashkenazi, Sefardiska och Mizrahi &mdash; <strong>har gemensamma genetiska markörer från Mellanöstern</strong>. Judar är genetiskt närmare palestinier, syrier och druser än européer.",
+                "<strong>League of Nations (1922):</strong> Officiellt internationellt erkännande av <strong>\"det judiska folkets historiska koppling till Palestina.\"</strong>"
+            ],
+            "facts_conclusion": "Att förneka den judiska kopplingen till landet Israel kräver att man ignorerar <strong>arkeologi, romerska uppteckningar, genetisk vetenskap och internationell rätt</strong> &mdash; som alla bekräftar samma slutsats.",
+            "sources": "Källor: Biblical Archaeology Society — Merneptah Stele, Tel Dan Stele | Israel Museum — Dödahavsrullar | Yeshiva University – Arch of Titus Project | Hammer et al. (2000), PNAS 97(12) | Behar et al. (2010), Nature 466 | Nationernas Förbunds mandat (1922), Yale Avalon-projektet | USHMM | ADL"
+        }
+    ],
+    "timeline_title": "2 500 år av förföljelse",
+    "timeline_desc": "Tidslinjen visar att samma lögner återkommer om och om igen - varje gång med dödliga konsekvenser",
+    "timeline": [
+        {
+            "date": "167 fvt",
+            "title": "Förföljelse av Antiochus IV",
+            "desc": "Den första statligt understödda förföljelsen. Tempelhelgen, förbud mot judendomen. Utlöste Maccabean revolt - Hanukkah.",
+            "victims": ""
+        },
+        {
+            "date": "38 e.Kr",
+            "title": "Pogromen i Alexandria",
+            "desc": "Den första dokumenterade antijudiska pogromen. Folkhop attackerade judiska stadsdelar, förstörde hem och synagogor.",
+            "victims": "Hundratals dödade"
+        },
+        {
+            "date": "70 e.Kr",
+            "title": "Förstörelse av det andra templet",
+            "desc": "Rom förstörde det judiska livets centrum. Början av exil. Kristendomen omformulerade det som ett gudomligt straff.",
+            "victims": "Hundratusentals"
+        },
+        {
+            "date": "1096",
+            "title": "Första korstågsmassakern",
+            "desc": "Korsfarare på väg till det heliga landet massakrerade judiska samhällen över Rhenlandet. Bara i Mainz dödades 1 000 judar på en enda dag.",
+            "victims": "5 000-10 000 dödade"
+        },
+        {
+            "date": "1144",
+            "title": "The First Blood Libel - Norwich",
+            "desc": "Ett barn hittades död; Judar anklagades utan bevis. Skapat en mall som återkommer hundratals gånger under de kommande 800 åren.",
+            "victims": ""
+        },
+        {
+            "date": "1215",
+            "title": "Fjärde Lateranrådet",
+            "desc": "Påven beordrade judar att bära identifieringskläder (en föregångare till det gula märket), uteslutning från offentliga ämbeten.",
+            "victims": ""
+        },
+        {
+            "date": "1290",
+            "title": "Utvisning från England",
+            "desc": "Den första fullständiga nationella utvisningen. 3 000-16 000 judar utvisade. De förbjöds att återvända till 1656 — 366 års förbud.",
+            "victims": ""
+        },
+        {
+            "date": "1348-1351",
+            "title": "Black Death Pogroms",
+            "desc": "Judar anklagades för att förgifta brunnar. I Strasbourg brändes 2 000 judar levande den 14 februari 1349 – innan pesten ens nådde staden. Över 200 judiska samhällen förstördes.",
+            "victims": "Tiotusentals"
+        },
+        {
+            "date": "1478",
+            "title": "Den spanska inkvisitionen",
+            "desc": "Riktade judar som hade konverterat till kristendomen. Tortyr, fängelse, bränning på bål på offentliga torg. Lagar om \"blodsrenhet\" - föregångare till nazistisk rasism.",
+            "victims": "~3 000-5 000 avrättade"
+        },
+        {
+            "date": "1492",
+            "title": "Utvisning från Spanien",
+            "desc": "200 000 judar utvisade från ett land där de hade bott i över 1 000 år. Många dog på vägen.",
+            "victims": "200 000 förvisade"
+        },
+        {
+            "date": "1933-1945",
+            "title": "Förintelsen",
+            "desc": "Systematiskt industriellt folkmord. Ghetton, förintelseläger, Einsatzgruppen, dödsmarscher. Varje antisemitisk trop som dokumenterats på denna sida användes som motivering.",
+            "victims": "6 000 000 dödade"
+        },
+        {
+            "date": "2018-2024",
+            "title": "Global antisemitismvåg",
+            "desc": "Skjutning på synagogan Tree of Life i Pittsburgh (11 dödade), Halle, Paris. ADL rapporterade en ökning med 167 % av antisemitiska incidenter i USA mellan 2016-2022.",
+            "victims": ""
+        }
+    ],
+    "psych_title": "Hatets psykologi",
+    "psych_desc": "Antisemitism handlar egentligen inte om judar &mdash; det handlar om antisemitens psykologiska behov",
+    "psych_insight_title": "Nyckelinsikten",
+    "psych_insight_text": "Från alla psykologiska förklaringar framträder ett mönster: antisemitism handlar egentligen inte om judar. Det handlar om antisemiternas psykologiska behov &mdash; deras behov av enkla förklaringar, deras rädsla för komplexitet, deras fördrivna ilska och deras önskan att någon kan skylla på. Judarna är skärmen på vilken dessa behov projiceras. Det är därför antisemitismen kvarstår även i länder med nästan inga judar (Japan, Sydkorea, Polen efter Förintelsen).",
+    "psych_cards": [
+        {
+            "title": "Syndbock",
+            "text": "När ett samhälle står inför en kris letar folk efter någon att skylla på. En synlig minoritetsgrupp är mycket lättare att skylla på än komplexa systemfaktorer. Varje anklagelse avslöjar vad det anklagande samhället fruktar mest om sig själv."
+        },
+        {
+            "title": "Utsprång",
+            "text": "Den omedvetna överföringen av egna oacceptabla egenskaper till andra. Kristna som kände sig skyldiga till ocker anklagade judar för girighet. Européer som längtade efter världsherravälde anklagade judar för att söka världsherravälde. Nazister som utövade eugenik anklagade judar för rasblandning."
+        },
+        {
+            "title": "Bekräftelsebias",
+            "text": "När någon väl tror att \"judar kontrollerar media\", lägger de märke till varje jude i media och ignorerar de tusentals som inte är det. Tron genererar sina egna \"bevis\"."
+        },
+        {
+            "title": "Illusorisk korrelation",
+            "text": "När en minoritet är inblandad i en negativ händelse överskattar människor sambandet. Om en judisk bankir begår bedrägeri &mdash; noteras hans judiskhet. Om en icke-judisk bankir begår bedrägeri &mdash; är hans etniska ursprung osynligt."
+        },
+        {
+            "title": "Den auktoritära personligheten",
+            "text": "Adorno (1950) hittade en kombination av egenskaper som förutsäger fördomar: stelbent tänkande, underkastelse till auktoritet, aggression mot utgrupper och oro för förändring. Människor med dessa egenskaper dras till antisemitiska berättelser eftersom de ger enkla förklaringar, tydliga fiender och en känsla av ordning i en komplex värld."
+        },
+        {
+            "title": "Konspiratoriskt tänkande",
+            "text": "Modern forskning visar att konspiratoriskt tänkande är en kognitiv stil &mdash; de som tror på en konspiration tenderar att tro på andra, även motsägelsefulla sådana. Antisemitism ger \"alla konspirationers moder\" &mdash; en enhetlig förklaring till allt som är fel i världen."
+        }
+    ],
+    "regions_title": "Antisemitism av samhälle och nation",
+    "regions_desc": "Varje samhälle utvecklade sin egen version av judehat &mdash; samma gift, olika flaskor",
+    "regions": [
+        {
+            "title": "Den muslimska och arabvärlden",
+            "subtitle": "Från medeltida religiös antisemitism till den moderna konflikten",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Historisk källa:</strong> I tidig judendom och islam fanns det perioder av samexistens. Men Koranen innehåller negativa verser om judar (Surah 5:60 &mdash; \"de som Allah förbannade och förvandlade till apor och grisar\"), och Muhammed drev ut och massakrerade judiska stammar i Medina (Banu Qurayza, 627 CE &mdash; 600-900 judiska män halshöggs). Under islamiskt styre var judarna \"dhimmis\" &mdash; skyddade men underlägsna medborgare som betalade jizya-skatten och bar identifieringsmärken.",
+                "<strong style=\"color:#e2b714;\">Uppfinnandet av palestinsk nationell identitet:</strong> Termen \"Palestina\" är ett romerskt geografiskt namn (från 135 e.Kr., då romarna döpte om Judeen för att radera judisk identitet). Araberna i regionen identifierade i århundraden som syrier, araber eller efter stam och familj. Den palestinska nationella identiteten utkristalliserades främst i mitten av 1900-talet. Zuheir Mohsen, ledare för al-Sa'iqa (en palestinsk organisation), sa 1977 i en intervju med den holländska tidningen Trouw: \"Det palestinska folket existerar inte... det finns ingen skillnad mellan jordanier, palestinier, syrier och libaneser. Vi är alla en del av en arabisk nation.\"",
+                "<strong style=\"color:#e2b714;\">Självmordsterror:</strong> Under den andra intifadan (2000-2005) utfördes över 140 självmordsbombningar mot civila israeler på bussar, i restauranger, köpcentra och nattklubbar. 1 137 israeler dödades. Hamas, Islamiska Jihad och Fatah skickade unga människor, inklusive kvinnor och tonåringar, för att spränga sig själva bland civila &mdash; och hävdade sedan att Israel \"mördade\". Den sida som spränger bussar med bebisar är inte offret.",
+                "<strong style=\"color:#e2b714;\">\"Folkmordet\"-förtal:</strong> Israel är den enda armén i historien som skickar varningsmeddelanden till fiendens civila före en attack (\"takknackningar\", SMS-meddelanden, flygblad). Israel driver ett oberoende rättssystem som utreder kränkningar. Om Israel ville begå folkmord, varför växte Gazas befolkning från 80 000 1948 till över 2 miljoner 2023? Ett riktigt folkmord ser ut som Rwanda (800 000 döda på 100 dagar) eller Förintelsen (6 miljoner). Rätten till självförsvar är inte folkmord.",
+                "<strong style=\"color:#e2b714;\">Modern Propaganda:</strong> \"The Protocols of the Elders of Sion\" &mdash; en rysk förfalskning från 1903 &mdash; är en bästsäljare i arabvärlden. Den egyptiska serien \"Horseman Without a Horse\" (2002, 41 avsnitt, sänd på statlig tv) är baserad på protokollen och framställer judar som plottrar. Läroböcker i UNRWA (FN:s flyktingorgan) innehöll antisemitiskt innehåll &mdash; inklusive kartor utan Israel och dikter som hyllade självmordsbombningar."
+            ],
+            "fact_boxes": [
+                "<strong>Dokumenterat fakta:</strong> Mellan 1948-1972 fördrevs cirka 850 000 judar eller tvingades fly från arabiska och muslimska länder. Deras egendom konfiskerades. Judiska samhällen som är tusentals år gamla i Irak, Egypten, Libyen, Jemen, Syrien och Marocko förstördes nästan helt. The Farhud in Iraq (1941): 180 judar mördade, 1 000 skadade, 900 hem förstördes &mdash; inspirerad av nazistisk propaganda spridd av muftin Haj Amin al-Husseini.",
+                "<strong>Hamas stadga (1988):</strong> Artikel 7 kräver dödande av judar (inte israeler &mdash; judar). Artikel 22 hävdar att judar ligger bakom den franska revolutionen, första världskriget, kommunismen och andra världskriget. Artikel 32 citerar \"Protocols of the Elders of Sion\" &mdash; en rysk antisemitisk förfalskning från 1903 &mdash; som ett autentiskt dokument. Detta är inte \"motstånd mot ockupation\". Detta är öppen antisemitism på folkmordets språk."
+            ],
+            "sources": "Källor: Benny Morris, '1948' (2008); Hamas stadga (1988); MEMRI-översättningar; IMPACT-se skolboksrapporter; Andrew Bostom, \"The Legacy of Islamic Antisemitism\" (2008)"
+        },
+        {
+            "title": "Polen och Östeuropa",
+            "subtitle": "Talmudmyter, \"judisk kommunism\" och hat som överlevde förintelsen",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Talmudmyten:</strong> En av de vanligaste föreställningarna i Polen (och Östeuropa) är att Talmud är full av hat mot icke-judar. Antisemitisk propaganda (främst från den medeltida katolska kyrkan och från publikationer som \"Talmud Unmasked\" av Justinas Pranaitis, 1892) extraherade citat från sammanhanget, översatte dem medvetet fel eller tillverkade dem helt enkelt. Talmud är 6 200 sidor av juridisk diskussion, och ingen kvalificerad Talmud-forskare stöder den antisemitiska läsningen.",
+                "<strong style=\"color:#e2b714;\">Myten om Żydokomuna (\"Judisk kommunism\"):</strong> Tron på att kommunismen är en \"judisk uppfinning\" och att judar styrde det kommunistiska Polen. I verkligheten: det polska förenade arbetarpartiet (PZPR) var överväldigande polskt. Ett fåtal enskilda judar hade höga positioner &mdash; eftersom judar hittades på varje område &mdash; men de utgjorde en liten procentandel. Många polacker var entusiastiska kommunister utan koppling till judar. 1968 genomförde den polska kommunistregimen själv en antisemitisk kampanj (\"antisionister\") och drev ut cirka 13 000 judar från Polen.",
+                "<strong style=\"color:#e2b714;\">Jedwabne (1941):</strong> Den 10 juli 1941 mördade polska invånare i staden Jedwabne minst 340 (möjligen mer än 1 000) av stadens judar &mdash; och brände dem levande i en lada. Inte nazister. polska grannar. Historikern Jan Tomasz Gross dokumenterade detta i sin bok \"Neighbors\" (2001), vilket orsakade en nationell chock i Polen. 2018 antog Polen en lag som förbjöd att tillskriva ansvaret för förintelsebrott till den polska nationen &mdash; ett försök att tysta historien."
+            ],
+            "fact_boxes": [
+                "<strong>Kielce-pogromen (1946):</strong> Ett år efter befrielsen av Auschwitz mördades 42 judiska överlevande från Förintelsen i en pogrom i staden Kielce, Polen. Förevändningen: en blodförtal (!) &mdash; ett rykte om att ett kristet barn hade blivit kidnappat av judar. År 1946. Efter Förintelsen. Överlevande som hade överlevt Auschwitz mördades av sina polska grannar på grundval av samma medeltida lögn. Denna händelse utlöste en våg av flykt (Bericha) av överlevande från Förintelsen från Polen.",
+                "<strong>Ryssland:</strong> \"The Protocols of the Elders of Sion\" skapades av den ryska hemliga polisen (Okhrana) omkring 1903, baserat på plagiat från en fransk bok (Maurice Joly, 1864) som inte hade något med judar att göra. The Pale of Settlement (1791-1917) begränsade judar till begränsade bostadsområden. Mellan 1881-1921 dödade vågor av pogromer tiotusentals judar. Många av de tidiga pogromerna uppmuntrades eller planerades av regeringen själv. \"Läkarnas komplott\" (1953) &mdash; Stalin anklagade judiska läkare för att planera att mörda sovjetiska ledare. Endast Stalins död förhindrade massdeportation av judar till Sibirien."
+            ],
+            "sources": "Källor: Jan T. Gross, 'Grannar' (2001); Joanna Tokarska-Bakir, 'Pogrom Cries' (2018); Norman Cohn, \"Warrant for folkmord\" (1967)"
+        },
+        {
+            "title": "Nazityskland",
+            "subtitle": "Förintelsemaskinen: hur en modern stat förvandlade hat till en industri",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Ideologin:</strong> Nazisterna uppfann inte antisemitismen &mdash; de industrialiserade den. De tog 2 000 år av kristen antisemitism, kombinerade den med 1800-talets pseudovetenskapliga rasism (rasantropologi, eugenik, socialdarwinism) och skapade ett helt system av lagar, byråkrati och industri vars enda syfte var att förinta ett helt folk.",
+                "<strong style=\"color:#e2b714;\">Propagandamaskinen:</strong> Joseph Goebbels byggde ett propagandasystem utan motstycke. Filmen \"The Eternal Jew\" (1940) skildrade judar som råttor. Tidningen \"Der Stürmer\" (Julius Streicher) publicerade varje vecka antisemitiska karikatyrer. Barn lärde sig antisemitism i skolor från 6 års ålder. Barnböcker som \"The Poisonous Mushroom\" (1938) lärde barn att identifiera och hata judar. Metoden: upprepa lögnen tillräckligt många gånger och folk kommer att börja tro.",
+                "<strong style=\"color:#e2b714;\">The Nazi Contradiction:</strong> Nazisterna hävdade samtidigt att judar var en underlägsen ras (Untermenschen) och att de i hemlighet styrde hela världen. Om judar är så underlägsna, hur kan de kontrollera allt? Denna motsägelse avslöjar att antisemitism inte är ett rationellt system utan en paranoid fantasi &mdash; den behöver inte vara konsekvent, bara för att rättfärdiga hat."
+            ],
+            "fact_boxes": [
+                "<strong>Förstörelsens stege:</strong><br>1933: Bojkott av judiska företag, avsked från regeringsbefattningar<br>1935: Nürnbergslagarna &mdash; fråntog medborgarskapet, förbjöd blandäktenskap<br>1938: Kristallnatten &mdash; 1 400 brända, je30 synagogor läger<br>1939-1941: Getton, organiserad svält, masskjutningar (Einsatzgruppen dödade 1,5 miljoner)<br>1942: Wannsee-konferensen &mdash; den \"slutliga lösningen\" blev officiell<br>1942-1945: Industriella gaskammare i Auschwitz, Treb-Bir, Belkenaubi, Belkenaubi, Belkenaubi-Bircze. Majdanek",
+                "<strong>Siffrorna:</strong> 6 miljoner judar mördades &mdash; en tredjedel av hela det judiska folket. 1,5 miljoner av dem var barn. Judiska samhällen som är tusen år gamla i Europa utplånades fullständigt. Detta är kanske den enda gången i historien som en modern stat dedikerade industriella resurser &mdash; utbildar, fabriker, byråkrati &mdash; till det enda syftet att mörda ett helt folk."
+            ],
+            "sources": "Källor: Raul Hilberg, \"The Destruction of the European Jews\" (1961/2003); USHMM-arkiv; Yad Vashems centrala databas över Shoah-offers namn"
+        },
+        {
+            "title": "Moderna Västeuropa",
+            "subtitle": "\"Anti-sionism\" som en ny mask för gammal antisemitism",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Den nya \"antisionismen\":</strong> Historikern Natan Sharansky utvecklade \"3D-testet\" för att identifiera när kritik mot Israel går över i antisemitism: <strong>demonisering</strong> (Israel = nazister), <strong>Delegitimisering</strong> (Israel har ingen rättighet från PH__de__u) Israel som inte efterfrågas av något annat land). Berättigad kritik av specifik israelisk politik accepteras &mdash; som kritik mot vilket land som helst. Men att förneka rätten att existera för enbart Israel, från alla världens nationer, är antisemitism.",
+                "<strong style=\"color:#e2b714;\">Storbritannien &mdash; The Labour Affair:</strong> Under Jeremy Corbyn (2015-2020) utreddes det brittiska Labour Party av Equality and Human Rights Commission (EHRC) och befanns ansvarigt för allvarliga brott mot diskrimineringslagstiftningen &mdash; institutionell antisemitism. Corbyn kallade Hamas och Hizbollah för \"vänner\", lade ner en krans vid graven av hjärnan bakom massakern i Olympiska spelen i München 1972 och stödde en konstnär som målade en antisemitisk väggmålning. Tusentals judar lämnade partiet.",
+                "<strong style=\"color:#e2b714;\">Universitetscampus:</strong> BDS-rörelsen (bojkott, avyttring, sanktioner) har blivit en central arm för antisemitism på campus. Judiska studenter rapporterar trakasserier, uteslutning från organisationer för social rättvisa (\"Du är en sionist? Du är inte inbjuden\") och krossade fönster på Hillel-klubbar. Den stora stölden: de använder människorättsspråk för att förneka den mest grundläggande rätten &mdash; rätten till självbestämmande &mdash; från endast en person."
+            ],
+            "fact_boxes": [
+                "<strong>Frankrike:</strong> Den största judiska emigrationen från Europa under 2000-talet äger rum i Frankrike. 2006: Ilan Halimi, en ung judisk man, kidnappades, torterades i 24 dagar och mördades av \"Gang of Barbarians\" &mdash; för att han var jude \"och därför rik\". 2012: Mohamed Merah sköt och mördade tre barn och rabbinen Jonathan Sandler på en judisk skola i Toulouse. 2015: Attack mot Hyper Cacher kosher supermarket i Paris, 4 mördade. Judar utgör 1 % av Frankrikes befolkning men 40 % av offren för hatbrott. Ungefär 38 000 judar lämnade Frankrike för Israel mellan 2010-2020."
+            ],
+            "sources": "Källor: EHRC Report on Labor (2020); Natan Sharansky, '3D-test' (2004); ADL Campus Antisemitism rapporterar; CRIF (Conseil Représentatif des Institutions Juives de France)"
+        },
+        {
+            "title": "USA",
+            "subtitle": "Från \"Alt-Right\" till \"Nation of Islam\" - hat från alla håll",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Längre högern:</strong> I Charlottesville, Virginia (augusti 2017), marscherade nynazister med facklor som skanderade \"Judar kommer inte att ersätta oss.\" Den 27 oktober 2018 gick Robert Bowers in i Tree of Life-synagogan i Pittsburgh, Pennsylvania, och sköt till döds 11 tillbedjare. Detta är den dödligaste attacken mot judar i amerikansk historia. Han skrek \"Alla judar måste dö\" innan han öppnade eld.",
+                "<strong style=\"color:#e2b714;\">Louis Farrakhan och \"Islams nation\":</strong> Farrakhan kallade judarna \"termiter\", \"sataniska blodsugare\" och judendomen för en \"rännreligion\". Hans organisation publicerar böcker som \"The Secret Relationship Between Blacks and Jews\" och anklagar judar för slavhandeln &mdash; ett påstående som avfärdats av alla seriösa historiker (inklusive svarta historiker som Henry Louis Gates). Detta hat är särskilt farligt eftersom det klär sig i social rättvisas språk.",
+                "<strong style=\"color:#e2b714;\">Kanye West (Ye) and Celebrity Culture:</strong> I december 2022 deklarerade West \"Jag älskar nazister\" och berömde Hitler i direktsändning. Innan dess twittrade han \"Death con 3 on Jewish people.\" Effekten: ADL rapporterade en kraftig ökning av antisemitisk propaganda från högerextrema grupper som citerade väst som motivering. När någon med 30 miljoner följare normaliserar hat mot judar blir konsekvenserna verkliga och farliga."
+            ],
+            "fact_boxes": [
+                "<strong>Statistik:</strong> År 2022 dokumenterade ADL 3 697 antisemitiska incidenter i USA &mdash; den högsta siffran sedan spårningen började 1979. En ökning med 36 % på ett år. 2023 (efter 7 oktober): siffran steg till 8 873 incidenter &mdash; en ökning med 140 %. Judar är 2,4 % av befolkningen men står för över 60 % av offren för religiösa hatbrott enligt FBI."
+            ],
+            "sources": "Källor: ADL Audit of Antisemitic Incidents (2022, 2023); FBI:s hatbrottsstatistik; Henry Louis Gates Jr., 'Black Antisemitism' in Transition (1992); Pittsburgh Post-Gazette-rapportering"
+        },
+        {
+            "title": "Iran och den islamiska regimen",
+            "subtitle": "Antisemitism som statlig politik: från förnekelse av förintelsen till finansiering av terrorism",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Institutionaliserad Förintelseförnekelse:</strong> Tidigare president Mahmoud Ahmadinejad höll en internationell konferens om förintelseförnekelse i Teheran (2006), och bjöd in kända förintelseförnekare från hela världen (inklusive David Duke från KKK), och förklarade Förintelsen som en \"myt\". Högste ledaren Khamenei fortsatte denna linje och hävdade att det finns \"allvarliga tvivel\" om Förintelsen. Detta är inte en historisk position &mdash; det är psykologisk förberedelse. Att förneka det tidigare folkmordet banar väg för nästa.",
+                "<strong style=\"color:#e2b714;\">Mossägelsens ironiska hyckleri:</strong> Iran hävdar att Israel är rasistiskt &mdash; medan den iranska regimen systematiskt förföljer bahaier, kurder, araber, sunniter och HBTQ+-personer inom Iran självt. Tusentals avrättningar per år mördas kvinnor för att de inte bär hijab (Mahsa Amini, 2022). Det judiska samfundet i Iran (~8 000 människor, en minskning från över 100 000 före revolutionen) lever under övervakning och restriktioner."
+            ],
+            "fact_boxes": [
+                "<strong>Finansiera terrorism:</strong> Iran finansierar och beväpnar Hizbollah (Libanon), Hamas (Gaza), Islamiska Jihad (Gaza) och houthierna (Jemen). Hizbollah är ansvarig för AMIA-bombningen i Buenos Aires (1994, 85 dödade) och bombningen av den israeliska ambassaden (1992, 29 dödade). Irans uttalade mål: \"utplåna Israel från kartan.\" Detta är inte politisk kritik &mdash; det är en uppmaning till förstörelse av ett folk."
+            ],
+            "sources": "Källor: AMIA utredningsregister; IAEA rapporterar; USA:s utrikesdepartements landrapporter om mänskliga rättigheter; MEMRI-översättningar av iranska statliga medier"
+        },
+        {
+            "title": "Japan, Sydkorea och Östasien",
+            "subtitle": "Ett överraskande fenomen: antisemitism i länder med nästan inga judar",
+            "paragraphs": [
+                "<strong style=\"color:#e2b714;\">Paradoxen:</strong> Ungefär 1 000 judar bor i Japan (av 125 miljoner). I Sydkorea &mdash; några hundra. Ändå har \"The Protocols of the Elders of Sion\" översatts och sålts i Japan i dussintals upplagor. Böcker som \"Jewish Control of the World\" är bästsäljare. I Japan och Sydkorea bevisar \"antisemitism utan judar\" den centrala punkten: <strong>Antisemitism är inte en reaktion på riktiga judar &mdash; det är en fantasi om imaginära judar.</strong>",
+                "<strong style=\"color:#e2b714;\">Den asiatiska versionen:</strong> Till skillnad från europeisk antisemitism (hat), är den asiatiska versionen ibland \"positiv\" på ett förvrängt sätt: \"Judar är smarta, de kontrollerar pengar, vi kan lära av dem.\" Detta är fortfarande antisemitism &mdash; eftersom det bygger på stereotyper, inte på möten med riktiga judar. Det förvandlar judar från människor till mytiska gestalter."
+            ],
+            "fact_boxes": [],
+            "sources": "Källor: ADL Global 100 Survey; David Goodman & Masanori Miyazawa, \"Judar i det japanska sinnet\" (1995)"
+        }
+    ],
+    "report_title": "Har du stött på antisemitism? Anmäl det",
+    "report_desc": "Var inte tyst &mdash; rapportering räddar liv och förhindrar eskalering. Här är vart du ska vända dig:",
+    "gallery_title": "Historisk dokumentation",
+    "youtube_title": "Titta och lär",
+    "footer": {
+        "motto": "Sanningen är det mäktigaste vapnet mot hat",
+        "motto_en": "Sanningen är det mäktigaste vapnet mot hat"
+    }
+}
