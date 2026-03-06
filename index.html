@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>האמת נגד השקר - מאבק באנטישמיות</title>
     <meta name="description" content="חושפים את השקרים, מציגים את העובדות. 34 עלילות אנטישמיות מופרכות בעזרת עובדות, מדע והיסטוריה.">
+    <meta name="theme-color" content="#0a0a1a">
+    <link rel="preconnect" href="https://img.youtube.com">
+    <link rel="preconnect" href="https://translate.google.com">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
-            font-family: 'Segoe UI', Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            overflow-x: hidden;
             background-color: #0a0a1a;
             color: #e0e0e0;
             line-height: 1.7;
@@ -61,6 +65,8 @@
             border: none;
             color: #e2b714;
             font-size: 1.8em;
+            min-width: 44px;
+            min-height: 44px;
             cursor: pointer;
         }
 
@@ -137,13 +143,6 @@
         }
 
         /* === TRANSLATE === */
-        .translate-bar {
-            text-align: center;
-            padding: 10px;
-            background: #16213e;
-            border-bottom: 1px solid rgba(226, 183, 20, 0.2);
-        }
-
         /* === MAIN === */
         main {
             max-width: 1000px;
@@ -466,64 +465,15 @@
             }
             .section-header h2 { font-size: 1.7em; }
             .intro-card { padding: 25px; }
-        }
-
-        /* === ANIMATIONS === */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        .fade-in {
-            animation: fadeIn 0.6s ease-out;
-        }
-
-        /* === LANGUAGE SELECTOR === */
-        .language-bar {
-            background: linear-gradient(135deg, #16213e, #1a1a3e);
-            border: 2px solid #e2b714;
-            border-radius: 15px;
-            padding: 20px 30px;
-            margin: 20px auto;
-            max-width: 700px;
-            text-align: center;
-        }
-        .language-bar h3 {
-            color: #e2b714;
-            font-size: 1.1em;
-            margin-bottom: 5px;
-        }
-        .language-bar p {
-            color: #aaa;
-            font-size: 0.9em;
-            margin-bottom: 10px;
+            .nav-links.open a { padding: 10px 0; }
+            .lang-toggle { padding: 8px 16px; }
+            .region-card { padding: 20px; }
         }
         #google_translate_element {
             position: absolute;
             top: -9999px;
             left: -9999px;
             visibility: hidden;
-        }
-        .lang-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            justify-content: center;
-            margin: 12px 0;
-        }
-        .lang-btn {
-            background: rgba(226, 183, 20, 0.15);
-            color: #e2b714;
-            border: 1px solid rgba(226, 183, 20, 0.3);
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 0.85em;
-            cursor: pointer;
-            transition: all 0.3s;
-            text-decoration: none;
-        }
-        .lang-btn:hover {
-            background: #e2b714;
-            color: #0a0a1a;
         }
         /* Hide Google Translate toolbar completely */
         .goog-te-banner-frame { display: none !important; }
@@ -787,13 +737,6 @@
             border-radius: 10px;
             margin-bottom: 8px;
         }
-
-        /* === COUNTER ANIMATION === */
-        .stat-number {
-            font-size: 2.5em;
-            font-weight: bold;
-            color: #e2b714;
-        }
     </style>
 </head>
 <body>
@@ -974,7 +917,7 @@ function goOriginal() {
     location.reload();
 }
 </script>
-<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script async src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <main>
 
@@ -2448,7 +2391,7 @@ function goOriginal() {
         <h3 style="color: #e2b714; font-size: 1.5em; margin-bottom: 8px;">תמוך במאבק</h3>
         <p style="color: #e2b714; opacity: 0.8; font-size: 1em; margin-bottom: 15px;">כל תרומה עוזרת להמשיך להפיץ את האמת</p>
         <p style="color: #c0c0c0; font-size: 0.95em; line-height: 1.7; margin-bottom: 25px;">אני יוצר תוכן זה לבד, מתוך אמונה עמוקה שהאמת חייבת להישמע. כרגע אני במצב כלכלי קשה, וכל תרומה &mdash; קטנה ככל שתהיה &mdash; תעזור לי להמשיך לייצר תוכן, לתרגם לשפות נוספות, ולהפיץ את האמת לעוד אנשים ברחבי העולם.</p>
-        <a href="https://buymeacoffee.com/nathaniellinder" target="_blank" style="display: inline-block; padding: 14px 35px; background: linear-gradient(135deg, #e2b714, #c9a012); color: #0a0a1a; font-size: 1.15em; font-weight: bold; border-radius: 50px; text-decoration: none; transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 10px 30px rgba(226,183,20,0.3)'" onmouseout="this.style.transform='';this.style.boxShadow=''">קנה לי קפה &#9749;</a>
+        <a href="https://buymeacoffee.com/nathaniellinder" target="_blank" rel="noopener" style="display: inline-block; padding: 14px 35px; background: linear-gradient(135deg, #e2b714, #c9a012); color: #0a0a1a; font-size: 1.15em; font-weight: bold; border-radius: 50px; text-decoration: none; transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 10px 30px rgba(226,183,20,0.3)'" onmouseout="this.style.transform='';this.style.boxShadow=''">קנה לי קפה &#9749;</a>
     </div>
 
     <p style="margin-top: 20px;">נבנה על ידי נתנאל אסיס | 2026</p>
@@ -2502,11 +2445,6 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// Count claims on load for verification
-document.addEventListener('DOMContentLoaded', function() {
-    const totalClaims = document.querySelectorAll('.claim-card').length;
-    console.log('Total claims loaded: ' + totalClaims);
-});
 </script>
 
 </body>
