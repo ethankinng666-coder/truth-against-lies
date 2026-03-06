@@ -12,7 +12,7 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif;
             overflow-x: hidden;
             background-color: #0a0a1a;
             color: #e0e0e0;
@@ -74,7 +74,7 @@
             right: 0;
             background: rgba(10, 10, 26, 0.98);
             border: 1px solid rgba(226, 183, 20, 0.2);
-            border-radius: 0 0 12px 12px;
+            border-radius: 0 0 3px 3px;
             padding: 8px 0;
             list-style: none;
             min-width: 220px;
@@ -107,7 +107,7 @@
         .nav-search input {
             width: 100%;
             padding: 8px 16px;
-            border-radius: 20px;
+            border-radius: 3px;
             border: 1px solid rgba(226, 183, 20, 0.3);
             background: rgba(226, 183, 20, 0.06);
             color: #e2b714;
@@ -193,12 +193,11 @@
             color: #0a0a1a;
             font-size: 1.1em;
             font-weight: bold;
-            border-radius: 50px;
+            border-radius: 3px;
             text-decoration: none;
-            transition: transform 0.3s, box-shadow 0.3s;
+            transition: box-shadow 0.3s;
         }
         .hero-cta:hover {
-            transform: translateY(-3px);
             box-shadow: 0 10px 30px rgba(226, 183, 20, 0.3);
         }
 
@@ -240,7 +239,7 @@
         }
         .intro-card {
             background: linear-gradient(135deg, #16213e 0%, #1a1a3e 100%);
-            border-radius: 15px;
+            border-radius: 3px;
             padding: 40px;
             border-right: 4px solid #e2b714;
             margin-bottom: 25px;
@@ -261,15 +260,11 @@
         }
         .category-header {
             background: linear-gradient(135deg, #1a1a3e 0%, #16213e 100%);
-            border-radius: 15px;
+            border-radius: 3px;
             padding: 30px;
             margin-bottom: 20px;
             border-right: 4px solid #e2b714;
             cursor: pointer;
-            transition: transform 0.2s;
-        }
-        .category-header:hover {
-            transform: translateX(-5px);
         }
         .category-number {
             color: #e2b714;
@@ -302,7 +297,7 @@
         }
         .claim-card {
             background: #111128;
-            border-radius: 12px;
+            border-radius: 3px;
             margin-bottom: 15px;
             overflow: hidden;
             border: 1px solid rgba(226, 183, 20, 0.1);
@@ -326,7 +321,6 @@
         .claim-arrow {
             color: #e2b714;
             font-size: 1.2em;
-            transition: transform 0.3s;
             margin-right: 15px;
         }
         .claim-card.open .claim-arrow {
@@ -341,7 +335,7 @@
         }
         .refutation {
             background: rgba(46, 204, 113, 0.08);
-            border-radius: 10px;
+            border-radius: 3px;
             padding: 20px;
             margin-bottom: 15px;
             border-right: 3px solid #2ecc71;
@@ -354,7 +348,7 @@
         }
         .psychology {
             background: rgba(52, 152, 219, 0.08);
-            border-radius: 10px;
+            border-radius: 3px;
             padding: 20px;
             margin-bottom: 15px;
             border-right: 3px solid #3498db;
@@ -413,7 +407,7 @@
         }
         .timeline-content {
             background: #16213e;
-            border-radius: 12px;
+            border-radius: 3px;
             padding: 20px;
         }
         .timeline-date {
@@ -444,14 +438,10 @@
             margin-top: 30px;
         }
         .psych-card {
-            background: linear-gradient(135deg, #16213e, #1a1a3e);
-            border-radius: 12px;
+            background: #12172b;
+            border-radius: 3px;
             padding: 25px;
             border-top: 3px solid #3498db;
-            transition: transform 0.3s;
-        }
-        .psych-card:hover {
-            transform: translateY(-5px);
         }
         .psych-card h4 {
             color: #3498db;
@@ -467,7 +457,7 @@
         .key-insight {
             background: linear-gradient(135deg, rgba(226, 183, 20, 0.1), rgba(226, 183, 20, 0.05));
             border: 1px solid rgba(226, 183, 20, 0.3);
-            border-radius: 15px;
+            border-radius: 3px;
             padding: 30px;
             margin: 40px 0;
             text-align: center;
@@ -545,11 +535,8 @@
             cursor: pointer;
             display: none;
             z-index: 999;
-            transition: opacity 0.3s, transform 0.3s;
+            transition: opacity 0.3s;
             box-shadow: 0 4px 15px rgba(226, 183, 20, 0.3);
-        }
-        .back-to-top:hover {
-            transform: scale(1.1);
         }
         .back-to-top.visible {
             display: block;
@@ -564,7 +551,7 @@
             border: 1px solid #e2b714;
             color: #e2b714;
             padding: 6px 14px;
-            border-radius: 20px;
+            border-radius: 3px;
             cursor: pointer;
             font-size: 0.95em;
             font-family: inherit;
@@ -631,7 +618,7 @@
             border: 1px solid rgba(226, 183, 20, 0.15);
             color: #e0e0e0;
             padding: 12px 15px;
-            border-radius: 10px;
+            border-radius: 3px;
             text-align: center;
             cursor: pointer;
             transition: all 0.2s;
@@ -651,8 +638,8 @@
 
         /* === REGIONAL SECTION === */
         .region-card {
-            background: linear-gradient(135deg, #16213e, #1a1a3e);
-            border-radius: 15px;
+            background: #12172b;
+            border-radius: 3px;
             padding: 35px;
             margin-bottom: 30px;
             border-right: 4px solid #e74c3c;
@@ -681,7 +668,7 @@
         }
         .region-card .fact-box {
             background: rgba(231, 76, 60, 0.08);
-            border-radius: 10px;
+            border-radius: 3px;
             padding: 15px;
             margin: 15px 0;
             border-right: 3px solid #e74c3c;
@@ -716,16 +703,15 @@
             .yt-grid { grid-template-columns: 1fr; }
         }
         .yt-card {
-            background: linear-gradient(135deg, #16213e, #1a1a3e);
-            border-radius: 10px;
+            background: #12172b;
+            border-radius: 3px;
             overflow: hidden;
             border: 1px solid rgba(226, 183, 20, 0.1);
-            transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+            transition: border-color 0.3s;
             text-decoration: none;
             display: block;
         }
         .yt-card:hover {
-            transform: translateY(-4px);
             border-color: #e2b714;
             box-shadow: 0 8px 25px rgba(226, 183, 20, 0.15);
         }
@@ -742,10 +728,6 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: transform 0.4s ease;
-        }
-        .yt-card:hover .yt-thumb img {
-            transform: scale(1.08);
         }
         .yt-play {
             position: absolute;
@@ -758,11 +740,7 @@
             justify-content: center;
             font-size: 1.3em;
             color: #0a0a1a;
-            transition: transform 0.3s;
             z-index: 2;
-        }
-        .yt-card:hover .yt-play {
-            transform: scale(1.15);
         }
         .yt-info {
             padding: 10px 12px;
@@ -783,20 +761,16 @@
             color: #e2b714;
             font-size: 0.7em;
             padding: 2px 8px;
-            border-radius: 10px;
+            border-radius: 3px;
             margin-bottom: 8px;
         }
         /* === LIES SECTION === */
         .lie-card {
-            background: linear-gradient(135deg, #16213e, #1a1a3e);
-            border-radius: 15px;
+            background: #12172b;
+            border-radius: 3px;
             padding: 35px;
             margin-bottom: 35px;
             border-right: 4px solid #e74c3c;
-            transition: transform 0.3s;
-        }
-        .lie-card:hover {
-            transform: translateX(-3px);
         }
         .lie-card h3 {
             color: #e74c3c;
@@ -807,7 +781,7 @@
         .lie-claim-box {
             background: rgba(231,76,60,0.08);
             border-right: 3px solid #e74c3c;
-            border-radius: 10px;
+            border-radius: 3px;
             padding: 18px;
             margin-bottom: 20px;
         }
@@ -825,7 +799,7 @@
         .lie-refutation {
             background: rgba(46,204,113,0.08);
             border-right: 3px solid #2ecc71;
-            border-radius: 10px;
+            border-radius: 3px;
             padding: 18px;
             margin-bottom: 20px;
         }
@@ -860,15 +834,14 @@
         .lie-video-link {
             display: inline-block;
             background: linear-gradient(135deg, #0a0a1a, #16213e);
-            border-radius: 10px;
+            border-radius: 3px;
             overflow: hidden;
             border: 1px solid rgba(226,183,20,0.15);
-            transition: transform 0.3s, border-color 0.3s;
+            transition: border-color 0.3s;
             text-decoration: none;
             max-width: 320px;
         }
         .lie-video-link:hover {
-            transform: translateY(-3px);
             border-color: #e2b714;
         }
         .lie-video-link .yt-thumb {
@@ -923,7 +896,7 @@
             border: 1px solid rgba(226, 183, 20, 0.4);
             color: #e2b714;
             padding: 8px 18px;
-            border-radius: 20px;
+            border-radius: 3px;
             cursor: pointer;
             font-family: inherit;
             font-size: 0.85em;
@@ -958,24 +931,9 @@
             font-size: 0.85em;
             transition: all 0.3s;
         }
-        .lie-share-btn:hover {
-            transform: translateY(-2px);
-        }
         .lie-share-btn.whatsapp:hover { background: #25D366; color: #fff; border-color: #25D366; }
         .lie-share-btn.twitter:hover { background: #1DA1F2; color: #fff; border-color: #1DA1F2; }
         .lie-share-btn.telegram:hover { background: #0088cc; color: #fff; border-color: #0088cc; }
-
-        /* === SCROLL PROGRESS BAR === */
-        .scroll-progress {
-            position: fixed;
-            top: 0;
-            right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, #e2b714, #f0d050);
-            z-index: 1001;
-            width: 0%;
-            transition: width 0.1s linear;
-        }
 
         /* === FADE-IN ANIMATIONS === */
         .fade-in {
@@ -996,14 +954,10 @@
             margin-top: 30px;
         }
         .report-card {
-            background: linear-gradient(135deg, #16213e, #1a1a3e);
-            border-radius: 12px;
+            background: #12172b;
+            border-radius: 3px;
             padding: 25px;
             border-right: 3px solid #e2b714;
-            transition: transform 0.3s;
-        }
-        .report-card:hover {
-            transform: translateX(-3px);
         }
         .report-card .report-icon {
             font-size: 2em;
@@ -1025,7 +979,7 @@
             color: #e2b714;
             border: 1px solid rgba(226,183,20,0.3);
             padding: 6px 16px;
-            border-radius: 20px;
+            border-radius: 3px;
             text-decoration: none;
             font-size: 0.85em;
             transition: all 0.3s;
@@ -1044,16 +998,15 @@
         }
         .gallery-item {
             position: relative;
-            border-radius: 10px;
+            border-radius: 3px;
             overflow: hidden;
             cursor: pointer;
             border: 1px solid rgba(226,183,20,0.1);
-            transition: transform 0.3s, border-color 0.3s;
+            transition: border-color 0.3s;
             aspect-ratio: 4/3;
             background: #16213e;
         }
         .gallery-item:hover {
-            transform: translateY(-3px);
             border-color: #e2b714;
         }
         .gallery-item img {
@@ -1086,7 +1039,7 @@
             background: rgba(226,183,20,0.15);
             border: 1px solid #e2b714;
             color: #e2b714;
-            border-radius: 25px;
+            border-radius: 3px;
             text-decoration: none;
             font-size: 1em;
             font-weight: bold;
@@ -1150,8 +1103,6 @@
     </style>
 </head>
 <body>
-
-<div class="scroll-progress" id="scrollProgress"></div>
 
 <!-- NAVIGATION -->
 <nav>
@@ -3343,11 +3294,11 @@ function goOriginal() {
     </div>
     <p style="margin-top: 25px; font-size: 0.85em; color: #555;">אתר זה מתעד עלילות אנטישמיות למטרת חינוך והפרכה בלבד. שום טענה המתועדת כאן אינה מאושרת. הן מוצגות כדי שניתן יהיה לפרק אותן.</p>
     <!-- DONATION SECTION -->
-    <div style="margin: 40px auto 30px; max-width: 600px; background: linear-gradient(135deg, #16213e, #1a1a3e); border: 2px solid rgba(226, 183, 20, 0.4); border-radius: 15px; padding: 35px; text-align: center;">
+    <div style="margin: 40px auto 30px; max-width: 600px; background: #12172b; border: 2px solid rgba(226, 183, 20, 0.4); border-radius: 3px; padding: 35px; text-align: center;">
         <h3 style="color: #e2b714; font-size: 1.5em; margin-bottom: 8px;">תמוך במאבק</h3>
         <p style="color: #e2b714; opacity: 0.8; font-size: 1em; margin-bottom: 15px;">כל תרומה עוזרת להמשיך להפיץ את האמת</p>
         <p style="color: #c0c0c0; font-size: 0.95em; line-height: 1.7; margin-bottom: 25px;">אני יוצר תוכן זה לבד, מתוך אמונה עמוקה שהאמת חייבת להישמע. כרגע אני במצב כלכלי קשה, וכל תרומה &mdash; קטנה ככל שתהיה &mdash; תעזור לי להמשיך לייצר תוכן, לתרגם לשפות נוספות, ולהפיץ את האמת לעוד אנשים ברחבי העולם.</p>
-        <a href="https://buymeacoffee.com/nathaniellinder" target="_blank" rel="noopener" style="display: inline-block; padding: 14px 35px; background: linear-gradient(135deg, #e2b714, #c9a012); color: #0a0a1a; font-size: 1.15em; font-weight: bold; border-radius: 50px; text-decoration: none; transition: transform 0.3s, box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 10px 30px rgba(226,183,20,0.3)'" onmouseout="this.style.transform='';this.style.boxShadow=''">קנה לי קפה &#9749;</a>
+        <a href="https://buymeacoffee.com/nathaniellinder" target="_blank" rel="noopener" style="display: inline-block; padding: 14px 35px; background: linear-gradient(135deg, #e2b714, #c9a012); color: #0a0a1a; font-size: 1.15em; font-weight: bold; border-radius: 3px; text-decoration: none; transition: box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 10px 30px rgba(226,183,20,0.3)'" onmouseout="this.style.transform='';this.style.boxShadow=''">קנה לי קפה &#9749;</a>
     </div>
 
     <p style="margin-top: 20px;">נבנה על ידי נתנאל אסיס | 2026</p>
@@ -3417,7 +3368,7 @@ function searchSite() {
     setTimeout(() => el.classList.remove('search-highlight'), 3000);
 }
 
-// Back to top button visibility + scroll progress bar
+// Back to top button visibility
 window.addEventListener('scroll', function() {
     const btn = document.querySelector('.back-to-top');
     if (window.scrollY > 500) {
@@ -3425,11 +3376,6 @@ window.addEventListener('scroll', function() {
     } else {
         btn.classList.remove('visible');
     }
-    // Progress bar
-    const scrollTop = window.scrollY;
-    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-    const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
-    document.getElementById('scrollProgress').style.width = progress + '%';
 });
 
 // Fade-in on scroll (IntersectionObserver)
