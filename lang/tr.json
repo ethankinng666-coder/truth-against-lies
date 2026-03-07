@@ -14,6 +14,7 @@
         "Tarihsel Belgeler",
         "Antisemitizmi bildirin",
         "İzle ve Öğren",
+        "İnsanları Güçlendirin",
         "Neler Yapılabilir?"
     ],
     "ui": {
@@ -833,5 +834,335 @@
     "footer": {
         "motto": "Hakikat nefrete karşı en güçlü silahtır",
         "motto_en": "Hakikat nefrete karşı en güçlü silahtır"
+    },
+    "strengthen": {
+        "title": "İnsanları Güçlendirin",
+        "desc": "Sadece bilgi, birlik ve gurur nedeniyle &mdash; nefretine karşı değil. Bu bölüm biz Yahudiler içindir",
+        "tabs": [
+            "Biz Kimiz",
+            "Nereden Geldik?",
+            "Dünyaya Ne Verdik",
+            "Birliğimiz",
+            "Buradan Nereden"
+        ],
+        "panels": [
+            [
+                {
+                    "title": "Yahudi Mozaiği &mdash; Bir Kişi, Bin Yüz",
+                    "h4s": [
+                        "Beta İsrail &mdash; Etiyopya Yahudileri",
+                        "Bene İsrail &mdash; Hindistan Yahudileri",
+                        "Kaifeng Yahudileri &mdash; Çin",
+                        "Kürt Yahudileri",
+                        "Buharan Yahudileri",
+                        "Dağ Yahudileri &mdash; Kafkasya",
+                        "Yemenli Yahudiler",
+                        "Anusim &mdash; Kripto Yahudileri"
+                    ],
+                    "ps": [
+                        "Yahudi halkı dünyadaki en çeşitli halklardan biridir. 2.700 yıllık dağılım, dünyanın her köşesinde farklı geleneklere, dillere, geleneklere ve görünümlere sahip benzersiz topluluklar yarattı &mdash;. Ancak her zaman tek bir paylaşılan kök ile.",
+                        "Yahudiliği binlerce yıl boyunca bağımsız olarak, dünya Yahudileriyle temas kurmadan korudular. 1984 ve 1991'deki iki dramatik operasyonla &mdash; <strong>Musa Operasyonu ve Solomon Operasyonu</strong> &mdash; onbinlerce kişi uçakla İsrail'e nakledildi. Bugün İsrail'de yaklaşık 170.000 Etiyopya kökenli Yahudi yaşıyor.",
+                        "Mumbai'deki <strong>Bene Israel</strong> topluluğu 2.100 yıl boyunca Hindistan'da yaşadı. Diğer Yahudi topluluklarından haberleri olmadan Şabat'ı, temel kaşrutu ve sünneti &mdash; tuttular. Güney Hindistan'daki <strong>Cochin Yahudileri</strong> 4. yüzyıldan beri sinagogları muhafaza ediyordu.",
+                        "1000 yıldır Çin'de yaşayan bir topluluk. 1163'te bir sinagog inşa ettiler. Çin toplumunun içine çekildiler, ancak bugün torunları Yahudi köklerini yeniden keşfediyorlar.",
+                        "İsa'nın konuştuğu dili <strong>Aramice</strong> &mdash; konuşanlar. Süryani sürgününden bu yana 2.700 yıl Kürdistan bölgesinde yaşadılar. Avrupa Yahudiliğinde kaybolan eski gelenekleri korudular.",
+                        "<strong>İpek Yolu</strong> üzerinde 2.500 yıl. Özbekistan, Tacikistan ve Kuzey Afganistan'da yaşadılar. Eşsiz bir Yahudi-Fars dilini ve eski gelenekleri korudular.",
+                        "Benzersiz bir <strong>savaşçı geleneği</strong> ile. Dağıstan ve Azerbaycan'da yaşadılar. Kuba şehrine \"Kafkasya'nın Kudüs'ü\" deniyordu. Cesur savaşçılar ve geleneğin koruyucuları olarak bilinir.",
+                        "Yemen'de 2500 yıl. 1949'da <strong>Sihirli Halı Operasyonu</strong>'da 49.000 Yemenli Yahudi uçakla İsrail'e nakledildi &mdash; bunların çoğu hayatlarında ilk kez uçak görüyordu. Eski bir ayin geleneği değişmeden korunmuştur.",
+                        "500 yıllık sır İspanyol ve Portekiz Engizisyonu sırasında din değiştirmeye zorlanan Yahudiler, ancak <strong>Yahudiliklerini nesilden nesile gizli tutan</strong> &mdash;. Bugün dünya çapındaki torunlar (Brezilya, Meksika, New Mexico, Portekiz) köklerini keşfediyor ve geri dönüyor."
+                    ],
+                    "highlights": [
+                        "İsrail tüm bu toplulukların buluşma noktasıdır. Bir Dürzi askerinin bir Yahudi köyünü koruduğu, Etiyopyalı bir mühendisin yüksek teknolojili bir projeye liderlik ettiği, Faslı bir müzisyenin Yemenli bir şefin yanında Çerkes bir şefin yanında çaldığı bir yer. <strong>Bir kişi, bin yüz.</strong>"
+                    ]
+                },
+                {
+                    "title": "İsrail İçerden &mdash; 100 Ülkeden 9,8 Milyon Kişi",
+                    "h4s": [
+                        "Dürzi &mdash; \"Kan Anlaşması\"",
+                        "Bedevi &mdash; Çöl İzleyicileri",
+                        "Hıristiyan Araplar &mdash; Azınlık İçindeki Azınlık",
+                        "Çerkesler &mdash; Kafkasyalı Savaşçılar",
+                        "Mizrahi ve Sefarad Yahudileri &mdash; İsrail'in yarısı",
+                        "Rus Aliyah &mdash; On Yılda Bir Milyon"
+                    ],
+                    "ps": [
+                        "İsrail, dünyadaki <strong>en karmaşık &mdash; ve en canlı &mdash; toplumudur</strong>. New Jersey büyüklüğünde bir bölgede 100'den fazla ülkeden 9,8 milyon insan bir arada yaşıyor.",
+                        "İsrail'de yaklaşık 150.000 Dürzi. <strong>Tabur 299 (\"Kılıç\")</strong> &mdash; Dürzi-Çerkes piyade taburu. İsrail'in savaşlarında 430'dan fazla Dürzi şehit oldu. Tüm askeri birimlerde &mdash; muharebe, istihbarat ve sınır devriyesinde görev yapıyorlar. Dürziler, 1956'dan bu yana topluluk liderleriyle anlaşarak <strong>zorunluluk gereği</strong> IDF'ye alınıyor.",
+                        "Çoğu Negev'de olmak üzere yaklaşık 300.000 Bedevi. <strong>İzleyici Birimi</strong> &mdash; istihbarat varlıkları olarak hizmet veren, izleri okuyan ve çölü avucunun içi gibi bilen eşsiz bir Bedevi birimi. 7 Ekim'de Negev'den Bedeviler ilk vurulanlar ve karşılık verenler arasındaydı.",
+                        "İsrail'de yaklaşık 185.000 Hıristiyan yaşıyor. <strong>Orta Doğu'da büyüyen tek Hıristiyan topluluğu</strong>. Diğer her yerde (Irak, Suriye, Lübnan, Mısır) &mdash; Hıristiyanlar ortadan kayboluyor. İsrail'de IDF için gönüllü oluyorlar, üniversitelerde okuyorlar ve yargıç olarak görev yapıyorlar.",
+                        "İki köyde yaklaşık 5.000 Çerkes var: Kfar Kama ve Rehaniya. <strong>Dürziler gibi zorunlu olarak IDF'ye askere alındı</strong> &mdash;. İsrail'de 150 yıl. Dillerini (Adige), eşsiz kültürlerini ve tam kimliklerini (&mdash;) koruyorlar ve İsrail için savaşıyorlar.",
+                        "850.000 Yahudi Arap ülkelerinden ve Müslüman devletlerden sınır dışı edildi veya kaçtı (1948-1972). <strong>Kimse onlardan bahsetmiyor</strong>. Irak (75.000), Suriye (30.000), Fas (265.000), Yemen (49.000), Libya (36.000), Mısır (80.000). Zor koşullar altında ezildiler, ancak bugün İsrailli Yahudilerin yaklaşık %45'i Mizrahi/Sefarad kökenlidir. Toplumun her katmanında.",
+                        "1989-2005 yılları arasında Sovyetler Birliği/BDT'den yaklaşık bir milyon göçmen geldi. <strong>%60 akademik dereceli</strong>. İsrail'in yüksek teknolojisini, tıbbını, bilimini ve kültürünü dönüştürdüler. Müzisyenler, bilim adamları, doktorlar, mühendisler &mdash; İsrail onlar sayesinde \"müzikal bir süper güç\" haline geldi."
+                    ],
+                    "stats": [
+                        {
+                            "num": "%73,5",
+                            "label": "Yahudiler (~7,2 milyon)"
+                        },
+                        {
+                            "num": "%21",
+                            "label": "Araplar (~2,05 milyon)"
+                        },
+                        {
+                            "num": "%5,5",
+                            "label": "Diğerleri (Dürziler, Çerkesler, Bahailer)"
+                        }
+                    ],
+                    "highlights": [
+                        "Mükemmel değil. Tamamı değil. Ama hayatta &mdash; ve sahip olduğumuz tek ülke orası."
+                    ]
+                }
+            ],
+            [
+                {
+                    "title": "Siyonizm &mdash; Hayalden Devlete",
+                    "h4s": [
+                        "Herzl'den Önce &mdash; Kökler",
+                        "Herzl &mdash; Her Şeyi Değiştiren 8 Yıl",
+                        "Beş Aliyot &mdash; Yoktan Bina",
+                        "Balfour Deklarasyonu &mdash; 67 Kelime",
+                        "İngiliz Mandası ve İhanet",
+                        "Yeraltı Hareketleri ve İbrani İsyanı",
+                        "BM Oyu &mdash; 29 Kasım 1947",
+                        "Bağımsızlık Bildirgesi &mdash; 14 Mayıs 1948"
+                    ],
+                    "ps": [
+                        "2000 yıllık hasret sadece dua değildi. Devlet yaratan siyasi bir hareket haline geldiler.",
+                        "<strong>Leon Pinsker</strong> (1882) \"Oto-Özgürleşme\" &mdash; adlı eserinde Yahudilerin kendi kaderlerine karar vermeleri gerektiğini yazdı. <strong>Moses Hess</strong> \"Roma ve Kudüs\"ü yazdı (1862). Haham <strong>Zvi Hirsch Kalischer</strong> ve Haham <strong>Yehuda Alkalai</strong> daha bundan önce İsrail Topraklarına yerleşme çağrısında bulundu.",
+                        "Paris'teki <strong>Dreyfus davası</strong> (1894), Theodor Herzl'i antisemitizmin Avrupa'da hiçbir çözümü olmadığına ikna etti. 1896'da \"Yahudi Devleti\"ni yazdı. 1897'de <strong>İlk Siyonist Kongresi'ni Basel'de topladı</strong> &mdash; ve günlüğüne şunları yazdı: \"Basel'de Yahudi Devleti'ni kurdum... Bunu bugün söylesem bana gülerlerdi. 5 yıl sonra, kesinlikle 50 yıl sonra herkes bunu görecek.\" Devletin kurulmasından 44 yıl önce, 1904 &mdash; yılında 44 yaşında öldü.",
+                        "<strong>İlk Aliyah (1882-1903)</strong> &mdash; Hovevei Zion, BILU. <strong>İkinci (1904-1914)</strong> &mdash; kibbutz'u ve altyapıyı inşa etti. <strong>Üçüncü (1919-1923)</strong> &mdash; Balfour Deklarasyonu'ndan sonra. <strong>Dördüncü (1924-1929)</strong> &mdash; Polonya'dan orta sınıf. <strong>Beşinci (1929-1939)</strong> &mdash; Nazizm'den kaçıyor. Her dalga, İsrail Topraklarında Yahudi yaşamının başka bir katmanını inşa etti.",
+                        "2 Kasım 1917'de İngiltere Dışişleri Bakanı Arthur Balfour, Yahudi halkının İsrail Topraklarında ulusal bir yurt sahibi olma hakkını tanıyan <strong>67 kelimelik</strong> bir mektup yazdı. Bir devrimi ateşleyen 67 kelime.",
+                        "Britanya 1920'de Filistin üzerinde manda aldı, ancak tam da Yahudilerin en çok ihtiyaç duyduğu anda Yahudi göçünü yavaş yavaş kısıtladı. <strong>Beyaz Kitap (1939)</strong>, Naziler Avrupa'yı yönetirken &mdash; göçü neredeyse tamamen engelledi. <strong>Struma trajedisi</strong> (1942): İngiltere onları içeri almayı reddettiği için 769 Yahudi mülteci boğuldu.",
+                        "<strong>Haganah</strong>, <strong>Irgun</strong> (Menachem Begin liderliğinde), <strong>Lehi</strong> (Yair Stern liderliğinde) &mdash; İngilizlerle savaştı ve yasadışı göçmenleri getirmek için çalıştı. <strong>King David Oteli'nin bombalanması</strong> (1946) &mdash; isyanda bir dönüm noktası.",
+                        "33 lehte, 13 aleyhte, 10 çekimser kaldı. Bölünme planı onaylandı. Yahudiler sokaklarda dans ediyordu. Araplar savaş ilan etti.",
+                        "<strong>32 dakika. 25 imza.</strong> David Ben-Gurion İsrail Devleti'nin kurulduğunu ilan etti. 11 dakika sonra ABD devleti tanıdı. 2000 yıllık hayal gerçek oldu."
+                    ],
+                    "highlights": [
+                        "Tek bir adamın (Herzl) &mdash; hayalinden milyonlarca kişinin kanı, teri ve gözyaşlarıyla &mdash; egemen bir devlete. 76 yıl. Hala buradayım."
+                    ]
+                },
+                {
+                    "title": "3.500 Yıllık Hayatta Kalma",
+                    "ps": [
+                        "Bize zulmeden tüm insanlar &mdash; ortadan kayboldu. Eski Mısır, Asur, Babil, Yunanistan, Roma, Haçlılar, İspanyol Engizisyonu, Rus pogromları, Nazi Almanyası &mdash; hepsi gitti. Hala buradayız.",
+                        "Askeri güç sayesinde değil. Bölge sayesinde değil. <strong>eğitim, aile, topluluk, kitap ve hafıza</strong> sayesinde. Her nesil bir sonrakine öğretti. Her topluluk kor'u canlı tuttu. &mdash; İspanya'nın mağaralarından Rusya'nın mahzenlerine, Etiyopya'nın dağlarına kadar dünyanın her yerinde &mdash; Yahudiler kimliklerini korudular."
+                    ],
+                    "highlights": [
+                        "3.500 yıl. Binlerce yok etme girişimi. Hala buradayız &mdash; ve hiçbir yere gitmiyoruz."
+                    ]
+                }
+            ],
+            [
+                {
+                    "title": "Nüfusun %0,2'si, Nobel Ödüllerinin %25'i",
+                    "h4s": [
+                        "İlaç",
+                        "Fizik ve Bilim",
+                        "Teknoloji ve Yüksek Teknoloji",
+                        "Sanat, Kültür ve Eğlence",
+                        "Hukuk, Felsefe ve Ekonomi"
+                    ],
+                    "ps": [
+                        "Yahudiler dünya nüfusunun <strong>0,2%</strong>'sini oluşturuyor, ancak Nobel Ödüllerinin <strong>25%</strong>'ünü aldılar. Bu, öğrenme, sorgulama ve kabul edileni sorgulama kültürü dışında hiçbir komplo teorisinin &mdash;'ü açıklayamadığı bir gerçektir.",
+                        "<strong>Jonas Salk</strong> &mdash; çocuk felci aşısı. <strong>Paul Ehrlich</strong> &mdash; kemoterapinin babası. <strong>Selman Waksman</strong> &mdash; streptomisin. <strong>Barry Marshall</strong> &mdash; H. pylori'nin keşfi. <strong>Karl Landsteiner</strong> &mdash; kan grubu sınıflandırması. <strong>Gertrude Elion</strong> &mdash; lösemi ilaçları. Milyonlarca hayat kurtaran düzinelerce Yahudi bilim adamı.",
+                        "<strong>Albert Einstein</strong> &mdash; görelilik teorisi. <strong>Richard Feynman</strong> &mdash; kuantum elektrodinamiği. <strong>Niels Bohr</strong> (yarı Yahudi) &mdash; atom modeli. <strong>Robert Oppenheimer</strong> &mdash; atom bombası. <strong>Edward Teller</strong> &mdash; hidrojen bombası. <strong>Murray Gell-Mann</strong> &mdash; kuarklar.",
+                        "<strong>Sergey Brin</strong> (Google), <strong>Larry Page</strong> (Google), <strong>Mark Zuckerberg</strong> (Facebook), <strong>Larry Ellison</strong> (Oracle), <strong>Michael Dell</strong> (Dell). İsrail'in başarıları: Waze, USB Flash Sürücü, Iron Dome, Check Point, Mobileye, damla sulama teknolojisi.",
+                        "<strong>Steven Spielberg</strong>, <strong>Stanley Kubrick</strong>, <strong>Coen Kardeşler</strong>, <strong>Bob Dylan</strong>, <strong>Leonard Cohen</strong>, <strong>Barbra Streisand</strong>. Hollywood'un kendisi Yahudiler tarafından inşa edildi (MGM, Warner Bros, Paramount, Universal, Columbia stüdyoları).",
+                        "<strong>Karl Marx</strong> (ekonomi politik), <strong>Sigmund Freud</strong> (psikanaliz), <strong>Noam Chomsky</strong> (dilbilim), <strong>Milton Friedman</strong> (serbest piyasa ekonomisi), <strong>Daniel Kahneman</strong> (davranışsal ekonomi), <strong>Ruth Bader Ginsburg</strong> (hukuk), <strong>Hannah Arendt</strong> (siyaset felsefesi)."
+                    ],
+                    "stats": [
+                        {
+                            "num": "%25",
+                            "label": "Nobel Ödülleri"
+                        },
+                        {
+                            "num": "%40",
+                            "label": "Dünya Satranç Şampiyonları"
+                        },
+                        {
+                            "num": "%26",
+                            "label": "Fields Madalyaları (Matematik)"
+                        }
+                    ],
+                    "highlights": [
+                        "Nüfusun %0,2'si. Dünyanın %100’ünü etkiliyor. \"Kontrol\" değil &mdash; <strong>katkı</strong>."
+                    ]
+                },
+                {
+                    "title": "Milletler Arasında Adil Kişiler &mdash; Karanlıktaki Işık",
+                    "h4s": [
+                        "Oskar Schindler",
+                        "Raoul Wallenberg",
+                        "Chiune Sugihara",
+                        "Irena Sendler",
+                        "Nicholas Winton",
+                        "Toplu Kurtarmalar"
+                    ],
+                    "ps": [
+                        "Dünyanın büyük bir kısmının sessiz olduğu Holokost sırasında, <strong>51 ülkeden 28.217 kişi</strong> Yahudileri kurtarmak için hayatlarını riske attı. Yad Vashem onları \"Milletler Arasında Adil Kişiler\" olarak tanıyor. Her zaman bir seçeneğin olduğunun kanıtıdırlar.",
+                        "<strong>1.200 Yahudi</strong>'yi fabrikasında çalıştırarak kurtaran Alman bir iş adamı. \"Schindler'in Listesi\" &mdash; kurtarmanın sembolü haline gelen bir isim.",
+                        "İsveçli bir diplomat, İsveç \"koruma pasaportlarını\" kullanarak Budapeşte'de <strong>100.000 kadar Yahudi</strong> kurtardı. Savaştan sonra Sovyet gözetiminde ortadan kayboldu.",
+                        "Litvanya'daki bir Japon konsolosu <strong>2.139 vizeyi 29 günde</strong> elle yazdı. Durması emredildiğinde bile yazmaya devam etti ve imzalı vizeleri trenin penceresinden fırlattı. 6.000-10.000 kişiyi kurtardı.",
+                        "<strong>2.500 çocuğu</strong> Varşova Gettosu'ndan &mdash; çöp torbaları, kasalar ve ambulanslarla kaçıran Polonyalı bir sosyal hizmet görevlisi. Çocuklarının isimlerini bahçesine gömdüğü cam kavanozlarda saklıyordu.",
+                        "1939'da İngiltere'ye çocuk trenleri düzenleyerek <strong>669 Yahudi çocuğu</strong> Çekoslovakya'dan kurtardı. <strong>Karısı isimlerin olduğu bir defter bulana kadar 50 yıl boyunca kimseye söylemedi</strong> &mdash;."
+                    ],
+                    "lists": [
+                        [
+                            "<strong>Le Chambon köyü (Fransa)</strong> &mdash; Bir Protestan köyünün tamamı 3.500 Yahudiyi sakladı",
+                            "<strong>Danimarka</strong> &mdash; Yahudilerin %99'unu (7.800 Yahudiden 7.220'si) balıkçı tekneleriyle İsveç'e kaçırarak kurtardı",
+                            "<strong>Arnavutluk</strong> &mdash; Yahudilerini koruyan Müslüman bir ülke. Savaşı başlangıçta olduğundan daha fazla Yahudi ile sonlandırdı",
+                            "<strong>Bulgaristan</strong> &mdash; 48.000 Bulgar Yahudisini sınır dışı edilmekten kurtardı"
+                        ]
+                    ],
+                    "highlights": [
+                        "Herkes insan olmamayı seçerken insan olmayı seçen 28.217 kişi. Her zaman farklı seçim yapabileceğinizin kanıtı."
+                    ]
+                }
+            ],
+            [
+                {
+                    "title": "Sınav Zamanlarında Birlik",
+                    "h4s": [
+                        "Birleştiren Savaşlar",
+                        "Altalena Olayı &mdash; Hiç İyileşmeyen Yara",
+                        "7 Ekim &mdash; Birlik Anı"
+                    ],
+                    "ps": [
+                        "Yahudi tarihinde bir şey açıktır: <strong>Birlikte olduğumuzda &mdash; güçlüyüz. Bölündüğümüzde &mdash; düşeriz.</strong>",
+                        "Bağımsızlık Savaşı (1948), Altı Gün Savaşı (1967), Yom Kippur Savaşı (1973) &mdash; her seferinde diasporadaki milyonlarca İsrailli ve Yahudi anında birleşti. En zor saatlerde farklılıklar ortadan kalktı.",
+                        "Haziran 1948'de Ben-Gurion, Irgun silah gemisine ateş açılması emrini verdi. <strong>16 Irgun savaşçıları IDF tarafından</strong> öldürüldü. Menachem Begin bir iç savaşı önledi. Yara hâlâ acıyor &mdash; ama iç savaşı önleme kararı devleti kurtardı.",
+                        "7 Ekim 2023 katliamından sonra <strong>tüm çatlaklar bir anlığına ortadan kayboldu</strong>. Milliyetçiler laiklerin yanında savaştı. Geleneksel Yahudiler evlerini açtılar. Ultra-Ortodokslar yiyecek bağışladı ve yerinden edilmiş ailelere yeşivalar açtı. Laik insanlar dini topluluklara yardım etmeye geldi. Dindar insanlar laik topluluklara yardım etmeye geldi. <strong>Tüm çatlaklar bir anlığına ortadan kayboldu</strong> &mdash; soru bunun devam edip etmeyeceği."
+                    ]
+                },
+                {
+                    "title": "Laik ve Dindar &mdash; İç Gerilim",
+                    "ps": [
+                        "Yahudi toplumu bölünmüş durumda. Sürtüşme noktaları: ultra-Ortodoks askerlik, kaşrut, Şabat, evlilik, kadının statüsü, \"Yahudi kimdir\" tanımı. 2023'te İsrail, <strong>tarihindeki en büyük protestoları</strong> &mdash; her hafta yüzbinlerce göstericiyle yaşadı. Laiklere karşı dindar, sağlara karşı sol, seçkinlere karşı çevre.",
+                        "Ancak 7 Ekim'de dış düşman &mdash; bir an için geldiğinde &mdash; iç yaraları iyileştirdi."
+                    ],
+                    "stats": [
+                        {
+                            "num": "%45",
+                            "label": "Laik"
+                        },
+                        {
+                            "num": "%25",
+                            "label": "Geleneksel"
+                        },
+                        {
+                            "num": "%13",
+                            "label": "Ultra-Ortodoks"
+                        },
+                        {
+                            "num": "%12",
+                            "label": "Dini-Siyonist"
+                        }
+                    ],
+                    "highlights": [
+                        "Derin yarıklar &mdash; ama gerektiğinde tek kişi."
+                    ]
+                },
+                {
+                    "title": "İç İhanet &mdash; İsrail'e Karşı Yahudiler",
+                    "h4s": [
+                        "Rakamlar",
+                        "Organizasyonlar",
+                        "Neden Tehlikelidir?"
+                    ],
+                    "ps": [
+                        "En acı verici zorluklardan biri: <strong>İsrail'den nefret edenlere \"entelektüel cephane\" sağlayan Yahudiler</strong>. Meşruiyet sağladıkları için herhangi bir dış düşmandan &mdash; daha tehlikelidirler.",
+                        "Bir antisemit \"İsrail = apartheid\" &mdash; dediğinde bu göz ardı edilebilir. Bir <strong>Jew</strong> bunu &mdash; söylediğinde meşruluk kazanır. Akademide, kampüslerde, medyada &mdash; İsrail'e karşı olan Yahudiler, eleştirinin \"antisemitik olmadığının\" \"kanıtı\" haline geldi."
+                    ],
+                    "lists": [
+                        [
+                            "<strong>Ilan Pappe</strong> &mdash; İsrail'in 1948'de \"etnik temizlik\" yaptığını iddia eden tarihçi",
+                            "<strong>Norman Finkelstein</strong> &mdash; \"Holokost Endüstrisi\" yazdı, İsrail'in Holokost'u istismar ettiğini iddia etti",
+                            "<strong>Gideon Levy, Amira Hass</strong> &mdash; Neredeyse yalnızca İsrail eleştirileriyle ilgilenen Haaretz gazetecileri",
+                            "<strong>Shlomo Sand</strong> &mdash; \"Yahudi Halkının İcadı\"nı Yazdı &mdash; İsrail Toprağı üzerindeki tarihi hakkı çürütmeye çalışıyor"
+                        ],
+                        [
+                            "<strong>JVP</strong> (Barış için Yahudi Sesi) &mdash; BDS yanlısı bir Amerikan Yahudi örgütü",
+                            "<strong>IfNotNow</strong> &mdash; Genç Yahudiler \"işgal\"e karşı",
+                            "<strong>B'Tselem</strong> &mdash; \"Hak ihlallerini\" belgeleyen İsrailli bir örgüt &mdash; \"apartheid\" ile meşru eleştiri arasındaki çizgiyi siliyor",
+                            "<strong>Sessizliği Bozmak</strong> &mdash; Yurt dışında IDF aleyhine ifade veren eski askerler"
+                        ]
+                    ],
+                    "highlights": [
+                        "Kafanızı karıştırmayın: İsrail'e yönelik eleştiri meşrudur. Ama <strong>İsrail'den nefret edenlere hizmet eden Yahudiler</strong> &mdash; bu bizim neslimize ve bizden sonraki nesillere ihanettir."
+                    ]
+                }
+            ],
+            [
+                {
+                    "title": "7 Ekim &mdash; Her Şeyin Değiştiği Gün",
+                    "h4s": [
+                        "Ne oldu",
+                        "Kahramanlık Hikayeleri",
+                        "İstihbarat Başarısızlığı"
+                    ],
+                    "ps": [
+                        "7 Ekim 2023'te yaklaşık 3.000 Hamas teröristi Gazze'deki çitleri aşarak 22 topluluğa, askeri üslere ve \"Nova\" müzik festivaline katliam saldırısı başlattı. <strong>1,139-1,219 kişi öldürüldü. 251 kişi kaçırıldı.</strong>",
+                        "Be'eri katliamı. Kfar Aza katliamı. Nahal Oz katliamı. Nova festivali &mdash; 364 genç açık alanda katledildi. Re'im üssü &mdash; 66 asker öldürüldü. Nir Oz topluluğu &mdash; sakinlerinin dörtte biri öldürüldü veya kaçırıldı.",
+                        "Ailelerini vücutlarıyla koruyan silahsız insanlar. Yahudi komşularıyla birlikte savaşan Necefli Bedeviler. <strong>Sivil gönüllüler</strong> tanımadıkları insanları kurtarmak için saatlerce araba kullandılar. Emir almadan harekete geçen yedek kuvvetler.",
+                        "İstihbarat biliyordu. Ordu yanıt vermedi. Güçlerin topluluklara ulaşması için saatler geçti. Siviller tek başına savaştı. Başarısızlıklarla ilgili acı verici sorular açık kalıyor."
+                    ]
+                },
+                {
+                    "title": "Filistin Hikayesi &mdash; Gerçekliğe Karşı",
+                    "h4s": [
+                        "\"Mülteci\" Sorunu",
+                        "\"Geri Dönüş Hakkı\" &mdash; Gerçekte Ne İfade Ediyor?",
+                        "Kimsenin Bahsetmediği Mülteciler",
+                        "\"Apartheid\" &mdash; Çürütüldü"
+                    ],
+                    "ps": [
+                        "1948'de yaklaşık 700.000 Filistinli mülteci vardı. Bugün UNRWA <strong>5,9 milyon \"mülteci\"</strong> &mdash; sayıyor çünkü Filistinliler benzersiz bir statüye sahip: mültecilerin torunları ve torunlarının çocukları bile mülteci olarak sayılıyor. Bu dünyadaki başka hiçbir çatışmada olmuyor.",
+                        "5,9 milyon \"mültecinin\" İsrail'e geri gönderilmesi = <strong>İsrail'in bir Yahudi devleti olarak sonu</strong>. Bu bir adalet talebi değil &mdash; bu bir tasfiye talebidir.",
+                        "<strong>850.000 Yahudi</strong> Arap ülkelerinden sınır dışı edildi. Mallarına el konuldu. İsrail'in içine çekildiler. Kimse onlardan bahsetmiyor. UNRWA'ları yok. \"Geri dönme hakları\" yok.",
+                        "2 milyon İsrailli Arap <strong>tam vatandaş</strong>. Oy veriyorlar, Knesset'e seçiliyorlar, Yüksek Mahkeme'de oturuyorlar, üniversitelerde okuyorlar, hastanelerde çalışıyorlar. Bir Arap yargıç, bir Yahudi başkanını (Moşe Katsav) mahkum etti. İsrailli Arapların yüzde 83'ü İsrail vatandaşlığını herhangi bir alternatife tercih ediyor."
+                    ]
+                },
+                {
+                    "title": "7 Ekim Sonrası Antisemitizm &mdash; Rakamlar",
+                    "h4s": [
+                        "Kampüsler",
+                        "Avrupa",
+                        "Ne Yapabiliriz?"
+                    ],
+                    "ps": [
+                        "ABD'de 100'den fazla üniversitede Yahudi öğrenciler korku içinde yaşıyor. <strong>Kamplar, kuşatmalar, \"küresel intifada\" çağrıları</strong>. Kongre oturumları, üniversite rektörlerinin \"Yahudilerin öldürülmesi çağrısının\" kampüs kurallarını ihlal ettiğini söyleyemediklerini ortaya çıkardı.",
+                        "<strong>Fransa:</strong> 440.000 Yahudi korku içinde. <strong>Almanya:</strong> \"Bir daha asla\" bozuldu. <strong>Amsterdam:</strong> Kasım 2024'te, bir <strong>pogrom</strong> &mdash; Maccabi Tel Aviv taraftarları sokaklarda kovalandı, dövüldü ve bıçaklandı."
+                    ],
+                    "stats": [
+                        {
+                            "num": "%360",
+                            "label": "ABD'de yükseliş"
+                        },
+                        {
+                            "num": "%589",
+                            "label": "İngiltere'de yükseliş"
+                        },
+                        {
+                            "num": "%738",
+                            "label": "Kanada'da Yükseliş"
+                        },
+                        {
+                            "num": "%1000",
+                            "label": "Fransa'da yükseliş (ilk ay)"
+                        }
+                    ],
+                    "lists": [
+                        [
+                            "<strong>Eğitim</strong> &mdash; Tarihi, gerçekleri, verileri öğretmek",
+                            "<strong>Entelektüel tepki</strong> &mdash; Asla bir yalanı cevapsız bırakmayın",
+                            "<strong>Birlik</strong> &mdash; Kendi aramızda kavga etmeyi bırakın ve birlikte savaşın",
+                            "<strong>Mevcudiyet</strong> &mdash; Saklanma. Gururla Yahudi olun. Her yer"
+                        ]
+                    ],
+                    "highlights": [
+                        "Antisemitizm ortadan kalkmayacak. Ancak <strong>hazırlıklı, birlik içinde ve yıkılmaz</strong> olabiliriz. 3500 yıldır olduğu gibi."
+                    ]
+                }
+            ]
+        ]
     }
 }

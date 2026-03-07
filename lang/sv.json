@@ -14,6 +14,7 @@
         "Historisk dokumentation",
         "Rapportera antisemitism",
         "Titta och lär",
+        "Stärk folket",
         "Vad kan göras?"
     ],
     "ui": {
@@ -833,5 +834,335 @@
     "footer": {
         "motto": "Sanningen är det mäktigaste vapnet mot hat",
         "motto_en": "Sanningen är det mäktigaste vapnet mot hat"
+    },
+    "strengthen": {
+        "title": "Stärk folket",
+        "desc": "Inte bara mot hat &mdash; för kunskap, enhet och stolthet. Det här avsnittet är för oss, det judiska folket",
+        "tabs": [
+            "Vilka vi är",
+            "Var vi kom ifrån",
+            "Vad vi gav världen",
+            "Vår enhet",
+            "Var härifrån"
+        ],
+        "panels": [
+            [
+                {
+                    "title": "Den judiska mosaiken &mdash; Ett folk, tusen ansikten",
+                    "h4s": [
+                        "Beta Israel &mdash; Etiopiska judar",
+                        "Bene Israel &mdash; Indiens judar",
+                        "Kaifeng judar &mdash; Kina",
+                        "kurdiska judar",
+                        "Buchariska judar",
+                        "Bergsjudar &mdash; Kaukasus",
+                        "Jemenitiska judar",
+                        "Anusim &mdash; Krypto-judar"
+                    ],
+                    "ps": [
+                        "Det judiska folket är ett av de mest mångfaldiga folken i världen. 2 700 år av spridning skapade unika samhällen i alla hörn av världen &mdash; med olika traditioner, språk, seder och utseenden. Men alltid med en delad rot.",
+                        "De bevarade judendomen självständigt i tusentals år, utan kontakt med världens judar. 1984 och 1991, i två dramatiska operationer &mdash; <strong>Operation Moses och Operation Solomon</strong> &mdash; tiotusentals lufttransporter till Israel. Idag bor cirka 170 000 judar av etiopiskt ursprung i Israel.",
+                        "Gemenskapen <strong>Bene Israel</strong> i Mumbai bodde i Indien i 2 100 år. De höll sabbat, grundläggande kashrut och omskärelse &mdash; utan att veta om andra judiska samfund. <strong>Cochin-judarna</strong> i södra Indien upprätthöll synagogor från 300-talet.",
+                        "Ett samhälle som levt i Kina i 1 000 år. De byggde en synagoga 1163. De absorberades i det kinesiska samhället, men idag återupptäcker ättlingar sina judiska rötter.",
+                        "Talare av <strong>arameiska</strong> &mdash; språket Jesus talade. De bodde i Kurdistan-regionen i 2 700 år, sedan den assyriska exilen. De bevarade gamla traditioner som försvann i den europeiska judendomen.",
+                        "2 500 år på <strong>Silk Road</strong>. De bodde i Uzbekistan, Tadzjikistan och norra Afghanistan. De bevarade ett unikt judisk-persiskt språk och gamla traditioner.",
+                        "Med en unik <strong>krigartradition</strong>. De bodde i Dagestan och Azerbajdzjan. Staden Quba kallades \"Kaukasus Jerusalem\". Känd som modiga kämpar och traditionshållare.",
+                        "2 500 år i Jemen. År 1949, i <strong>Operation Magic Carpet</strong>, transporterades 49 000 jemenitiska judar till Israel &mdash; många såg ett flygplan för första gången i sina liv. En gammal liturgisk tradition bevarad oförändrad.",
+                        "500 år av sekretess. Judar som tvingades konvertera under den spanska och portugisiska inkvisitionen, men som <strong>behöll sin judendom i hemlighet</strong> &mdash; generation efter generation. Idag upptäcker ättlingar över hela världen (Brasilien, Mexiko, New Mexico, Portugal) sina rötter och återvänder."
+                    ],
+                    "highlights": [
+                        "Israel är mötesplatsen för alla dessa samhällen. En plats där en drusisk soldat vaktar en judisk by, en etiopisk ingenjör leder ett högteknologiskt projekt, en marockansk musiker spelar tillsammans med en jemenitisk kock bredvid en tjerkessisk kock. <strong>En person, tusen ansikten.</strong>"
+                    ]
+                },
+                {
+                    "title": "Israel inifrån &mdash; 9,8 miljoner från 100 länder",
+                    "h4s": [
+                        "Druzerna &mdash; \"Blodförbundet\"",
+                        "Beduinernas &mdash; Desert Trackers",
+                        "Kristna araber &mdash; Minoriteten inom minoriteten",
+                        "Circassians &mdash; krigare från Kaukasus",
+                        "Mizrahi och Sefardiska judar &mdash; Hälften av Israel",
+                        "Den ryska aliyah &mdash; En miljon på ett decennium"
+                    ],
+                    "ps": [
+                        "Israel är det <strong>mest komplexa &mdash; och mest levande &mdash; samhället i världen</strong>. I ett område lika stort som New Jersey bor 9,8 miljoner människor från 100+ länder tillsammans.",
+                        "Cirka 150 000 druser i Israel. <strong>Bataljon 299 (\"Svärd\")</strong> &mdash; en Druze-Circassian infanteribataljon. Över 430 druser har fallit i Israels krig. De tjänstgör i alla militära enheter &mdash; strid, underrättelsetjänst och gränspatrullering. Druzerna har värvats in i IDF <strong>av skyldighet</strong>, sedan 1956, genom överenskommelse med samhällsledare.",
+                        "Cirka 300 000 beduiner, främst i Negev. <strong>Trackers Unit</strong> &mdash; en unik enhet av beduiner som fungerar som underrättelsetillgångar, läser spår och känner öknen som sin egen bukbyte. Den 7 oktober var beduiner från Negev bland de första som drabbades och slog tillbaka.",
+                        "Cirka 185 000 kristna bor i Israel. <strong>Det enda kristna samfundet i Mellanöstern som växer</strong>. Överallt annars (Irak, Syrien, Libanon, Egypten) &mdash; kristna försvinner. I Israel arbetar de frivilligt för IDF, studerar vid universitet och fungerar som domare.",
+                        "Cirka 5 000 tjerkassare i två byar: Kfar Kama och Rehaniya. <strong>Kortad till IDF av skyldighet</strong> &mdash; som druserna. 150 år i Israel. De bevarar sitt språk (Adyghe), unika kultur och fullständiga identitet &mdash; och kämpar för Israel.",
+                        "850 000 judar fördrevs eller flydde från arabländer och muslimska stater (1948-1972). <strong>Ingen pratar om dem</strong>. Irak (75 000), Syrien (30 000), Marocko (265 000), Jemen (49 000), Libyen (36 000), Egypten (80 000). De absorberades under svåra förhållanden, men idag är cirka 45 % av de israeliska judarna av Mizrahi/Sefardisk ursprung. I alla skikt av samhället.",
+                        "Mellan 1989-2005 anlände ungefär en miljon invandrare från Sovjetunionen/OSS. <strong>60 % med akademiska examina</strong>. De förvandlade israelisk högteknologi, medicin, vetenskap, kultur. Musiker, vetenskapsmän, läkare, ingenjörer &mdash; Israel blev en \"musikalisk supermakt\" tack vare dem."
+                    ],
+                    "stats": [
+                        {
+                            "num": "73,5 %",
+                            "label": "judar (~7,2 miljoner)"
+                        },
+                        {
+                            "num": "21 %",
+                            "label": "Araber (~2,05 miljoner)"
+                        },
+                        {
+                            "num": "5,5 %",
+                            "label": "Andra (druser, tjerkassar, bahai)"
+                        }
+                    ],
+                    "highlights": [
+                        "Inte perfekt. Inte hel. Men vid liv &mdash; och det är det enda landet vi har."
+                    ]
+                }
+            ],
+            [
+                {
+                    "title": "Sionism &mdash; Från dröm till stat",
+                    "h4s": [
+                        "Före Herzl &mdash; Rötterna",
+                        "Herzl &mdash; 8 år som förändrade allt",
+                        "Fem Aliyot &mdash; Bygger från ingenting",
+                        "Balfour-deklarationen &mdash; 67 ord",
+                        "Det brittiska mandatet och svek",
+                        "De underjordiska rörelserna och den hebreiska revolten",
+                        "FN-omröstningen &mdash; 29 november 1947",
+                        "Självständighetsförklaringen &mdash; 14 maj 1948"
+                    ],
+                    "ps": [
+                        "2 000 år av längtan var inte bara bön. De blev en politisk rörelse som skapade en stat.",
+                        "<strong>Leon Pinsker</strong> (1882) skrev \"Auto-Emancipation\" &mdash; att judar måste bestämma sitt eget öde. <strong>Moses Hess</strong> skrev \"Rom och Jerusalem\" (1862). Rabbinen <strong>Zvi Hirsch Kalischer</strong> och rabbinen <strong>Yehuda Alkalai</strong> uppmanade till att bosätta landet Israel redan innan dess.",
+                        "<strong>Dreyfus-rättegången</strong> i Paris (1894) övertygade Theodor Herzl om att antisemitism inte hade någon lösning i Europa. 1896 skrev han \"Den judiska staten\". 1897 sammankallade han den <strong>första sionistkongressen i Basel</strong> &mdash; och skrev i sin dagbok: \"I Basel grundade jag den judiska staten... Om jag skulle säga detta idag skulle jag bli utskrattad. Om 5 år, säkert om 50, kommer alla att se det.\" Han dog vid 44 års ålder, 1904 &mdash; 44 år innan staten etablerades.",
+                        "<strong>Första Aliyah (1882-1903)</strong> &mdash; Hovevei Zion, BILU. <strong>Andra (1904-1914)</strong> &mdash; byggde kibbutzim och infrastruktur. <strong>Tredje (1919-1923)</strong> &mdash; efter Balfourdeklarationen. <strong>Fjärde (1924-1929)</strong> &mdash; medelklass från Polen. <strong>Femte (1929-1939)</strong> &mdash; på flykt från nazismen. Varje våg byggde upp ytterligare ett lager av judiskt liv i landet Israel.",
+                        "Den 2 november 1917 skrev den brittiske utrikesministern Arthur Balfour ett brev med <strong>67 ord</strong> som erkände det judiska folkets rätt till ett nationellt hem i landet Israel. 67 ord som tände en revolution.",
+                        "Storbritannien fick ett mandat över Palestina 1920, men begränsade gradvis den judiska invandringen &mdash; precis när judarna behövde den som mest. <strong>Vitboken (1939)</strong> blockerade nästan helt invandringen &mdash; medan nazister styrde Europa. <strong>Struma-tragedin</strong> (1942): 769 judiska flyktingar drunknade eftersom Storbritannien vägrade släppa in dem.",
+                        "<strong>Haganah</strong>, <strong>Irgun</strong> (ledd av Menachem Begin), <strong>Lehi</strong> (ledd av Yair Stern) &mdash; bekämpade britterna och arbetade för att få in illegala invandrare. Bombningen av <strong>King David Hotel</strong> (1946) &mdash; en vändpunkt i revolten.",
+                        "33 för, 13 emot, 10 avstod från att rösta. Avdelningsplanen godkändes. Judar dansade på gatorna. Araber förklarade krig.",
+                        "<strong>32 minuter. 25 underskrifter.</strong> David Ben-Gurion förklarade upprättandet av staten Israel. 11 minuter senare erkände USA staten. 2 000-åriga drömmen blev verklighet."
+                    ],
+                    "highlights": [
+                        "From the dream of one man (Herzl) &mdash; through blood, sweat and tears of millions &mdash; to a sovereign state. 76 år. Fortfarande här."
+                    ]
+                },
+                {
+                    "title": "3 500 år av överlevnad",
+                    "ps": [
+                        "Alla människor som förföljde oss &mdash; försvann. Forntida Egypten, Assyrien, Babylon, Grekland, Rom, korsfararna, den spanska inkvisitionen, ryska pogromer, Nazityskland &mdash; alla borta. Vi är fortfarande här.",
+                        "Inte tack vare militär makt. Not thanks to territory. Tack vare <strong>utbildning, familj, gemenskap, boken och minne</strong>. Varje generation lärde nästa. Varje samhälle höll glöden vid liv. Överallt i världen &mdash; från grottorna i Spanien, genom Rysslands källare, till bergen i Etiopien &mdash; judar bevarade sin identitet."
+                    ],
+                    "highlights": [
+                        "3 500 år. Tusentals försök till förintelse. Vi är fortfarande här &mdash; och vi går ingenstans."
+                    ]
+                }
+            ],
+            [
+                {
+                    "title": "0,2 % av befolkningen, 25 % av Nobelpriserna",
+                    "h4s": [
+                        "Medicin",
+                        "Fysik och vetenskap",
+                        "Teknik och Hi-Tech",
+                        "Konst, kultur och underhållning",
+                        "Juridik, filosofi och ekonomi"
+                    ],
+                    "ps": [
+                        "Judar utgör <strong>0,2%</strong> av världens befolkning, men har fått <strong>25%</strong> av Nobelpriser. Detta är ett faktum som ingen konspirationsteori förklarar &mdash; förutom en kultur av lärande, undersökning och ifrågasättande av det accepterade.",
+                        "<strong>Jonas Salk</strong> &mdash; poliovaccin. <strong>Paul Ehrlich</strong> &mdash; kemoterapins far. <strong>Selman Waksman</strong> &mdash; streptomycin. <strong>Barry Marshall</strong> &mdash; upptäckt av H. pylori. <strong>Karl Landsteiner</strong> &mdash; blodgruppsklassificering. <strong>Gertrude Elion</strong> &mdash; leukemiläkemedel. Dussintals judiska vetenskapsmän som räddade miljontals liv.",
+                        "<strong>Albert Einstein</strong> &mdash; relativitetsteori. <strong>Richard Feynman</strong> &mdash; kvantelektrodynamik. <strong>Niels Bohr</strong> (halvjudisk) &mdash; atommodell. <strong>Robert Oppenheimer</strong> &mdash; atombomb. <strong>Edward Teller</strong> &mdash; vätebomb. <strong>Murray Gell-Mann</strong> &mdash; kvarkar.",
+                        "<strong>Sergey Brin</strong> (Google), <strong>Larry Page</strong> (Google), <strong>Mark Zuckerberg</strong> (Facebook), <strong>Larry Ellison</strong> (Oracle), <strong>Michael Dell</strong> (Dell). Israeliska prestationer: Waze, USB-minne, Iron Dome, Check Point, Mobileye, droppbevattningsteknik.",
+                        "<strong>Steven Spielberg</strong>, <strong>Stanley Kubrick</strong>, <strong>coenbröderna</strong>, <strong>Bob Dylan</strong>, <strong>Leonard Cohen</strong>, <strong>Barbra Streisand</strong>. Hollywood själv byggdes av judar (MGM, Warner Bros, Paramount, Universal, Columbia studios).",
+                        "<strong>Karl Marx</strong> (politisk ekonomi), <strong>Sigmund Freud</strong> (psykoanalys), <strong>Noam Chomsky</strong> (lingvistik), <strong>Milton Friedman</strong> (frimarknadsekonomi), <strong>Daniel Kahnemans ekonomi (behavioral</strong>0), </strong>0 Ginsburg</strong> (lag), <strong>Hannah Arendt</strong> (politisk filosofi)."
+                    ],
+                    "stats": [
+                        {
+                            "num": "25 %",
+                            "label": "Nobelpriser"
+                        },
+                        {
+                            "num": "40 %",
+                            "label": "Världsmästare i schack"
+                        },
+                        {
+                            "num": "26 %",
+                            "label": "Fields-medaljer (matematik)"
+                        }
+                    ],
+                    "highlights": [
+                        "0,2 % av befolkningen. Inverkan på 100 % av världen. Inte \"kontrollera\" &mdash; <strong>bidrag</strong>."
+                    ]
+                },
+                {
+                    "title": "Rättfärdiga bland nationerna &mdash; Ljus i mörkret",
+                    "h4s": [
+                        "Oskar Schindler",
+                        "Raoul Wallenberg",
+                        "Chiune Sugihara",
+                        "Irena Sendler",
+                        "Nicholas Winton",
+                        "Kollektiva räddningar"
+                    ],
+                    "ps": [
+                        "Under Förintelsen, när större delen av världen var tyst, riskerade <strong>28 217 människor från 51 länder</strong> sina liv för att rädda judar. Yad Vashem erkänner dem som \"rättfärdiga bland nationerna\". De är ett bevis på att det alltid finns ett val.",
+                        "En tysk affärsman som räddade <strong>1 200 judar</strong> genom att anställa dem i sin fabrik. \"Schindler's List\" &mdash; ett namn som blev en symbol för räddning.",
+                        "En svensk diplomat som räddade <strong>upp till 100 000 judar</strong> i Budapest med hjälp av svenska \"skyddspass\". Han försvann i sovjetiskt förvar efter kriget.",
+                        "En japansk konsul i Litauen som skrev <strong>2 139 visum för hand på 29 dagar</strong>. Han fortsatte att skriva även när han beordrades att stanna, och kastade undertecknade visum från tågfönstret. Han räddade 6 000-10 000 människor.",
+                        "En polsk socialarbetare som smugglade <strong>2 500 barn</strong> ut ur Warszawas getto &mdash; i soppåsar, lådor och ambulanser. Hon förvarade barnens namn i glasburkar begravda i hennes trädgård.",
+                        "Han räddade <strong>669 judiska barn</strong> från Tjeckoslovakien 1939 genom att organisera barntåg till Storbritannien. <strong>Han berättade för ingen på 50 år</strong> &mdash; tills hans fru hittade en anteckningsbok med namnen."
+                    ],
+                    "lists": [
+                        [
+                            "<strong>byn Le Chambon (Frankrike)</strong> &mdash; En hel protestantisk by gömde 3 500 judar",
+                            "<strong>Danmark</strong> &mdash; Räddade 99 % av sina judar (7 220 av 7 800) genom att smuggla dem till Sverige i fiskebåtar",
+                            "<strong>Albanien</strong> &mdash; Ett muslimskt land som skyddade sina judar. Slutade kriget med fler judar än det hade i början",
+                            "<strong>Bulgarien</strong> &mdash; räddade 48 000 bulgariska judar från deportation"
+                        ]
+                    ],
+                    "highlights": [
+                        "28 217 personer som valde att vara människor när alla andra valde att inte vara det. Ett bevis på att man alltid kan välja annorlunda."
+                    ]
+                }
+            ],
+            [
+                {
+                    "title": "Enhet i tider av prövningar",
+                    "h4s": [
+                        "Krigen som förenade",
+                        "Altalenaaffären &mdash; Såret som aldrig läkte",
+                        "7 oktober &mdash; Ett ögonblick av enhet"
+                    ],
+                    "ps": [
+                        "En sak är tydlig i judisk historia: <strong>När vi är tillsammans &mdash; är vi starka. När vi delas &mdash; faller vi.</strong>",
+                        "Självständighetskriget (1948), sexdagarskriget (1967), Yom Kippur-kriget (1973) &mdash; varje gång, miljontals israeler och judar i diasporan förenades omedelbart. I de svåraste timmarna försvann skillnaderna.",
+                        "I juni 1948 beordrade Ben-Gurion att elda på ett vapenfartyg från Irgun. <strong>16 Irgun-krigare dödades</strong> av IDF. Menachem Begin förhindrade ett inbördeskrig. Såret gör fortfarande ont &mdash; men beslutet att förhindra inre krig räddade staten.",
+                        "Efter massakern den 7 oktober 2023 försvann <strong>alla sprickor för ett ögonblick</strong>. Nationalister kämpade tillsammans med sekularister. Traditionella judar öppnade sina hem. Ultraortodoxa donerade mat och öppnade yeshivor till fördrivna familjer. Sekulära människor kom för att hjälpa religiösa samfund. Religiösa människor kom för att hjälpa sekulära samhällen. <strong>Alla sprickor försvann för ett ögonblick</strong> &mdash; frågan är om det kommer att hålla."
+                    ]
+                },
+                {
+                    "title": "Sekulär och religiös &mdash; Den inre spänningen",
+                    "ps": [
+                        "Det judiska samhället är splittrat. Friktionspunkter: ultraortodoxt utkast, kashrut, sabbat, äktenskap, kvinnors status, definitionen av \"Vem är en jude\". År 2023 upplevde Israel de <strong>största protesterna i sin historia</strong> &mdash; hundratusentals demonstranter varje vecka. Sekulär vs. religiös, höger vs. vänster, eliter vs. periferi.",
+                        "Men den 7 oktober, när den yttre fienden kom &mdash; för ett ögonblick &mdash; läkte den de inre såren."
+                    ],
+                    "stats": [
+                        {
+                            "num": "45 %",
+                            "label": "Sekulär"
+                        },
+                        {
+                            "num": "25 %",
+                            "label": "Traditionell"
+                        },
+                        {
+                            "num": "13 %",
+                            "label": "Ultraortodoxa"
+                        },
+                        {
+                            "num": "12 %",
+                            "label": "Religiös-sionist"
+                        }
+                    ],
+                    "highlights": [
+                        "Djupa sprickor &mdash; men vid behov, en person."
+                    ]
+                },
+                {
+                    "title": "Internt svek &mdash; judar mot Israel",
+                    "h4s": [
+                        "Siffrorna",
+                        "Organisationerna",
+                        "Varför är det farligt?"
+                    ],
+                    "ps": [
+                        "En av de mest smärtsamma utmaningarna: <strong>judar som tillhandahåller \"intellektuell ammunition\" till Israels hatare</strong>. De är farligare än någon yttre fiende &mdash; eftersom de ger legitimitet.",
+                        "När en antisemit säger \"Israel = apartheid\" &mdash; kan det ignoreras. När en <strong>Jude</strong> säger att det &mdash; får den legitimitet. I akademin, på campus, i media &mdash; har judar mot Israel blivit \"bevis\" på att kritiken \"inte är antisemitisk\"."
+                    ],
+                    "lists": [
+                        [
+                            "<strong>Ilan Pappe</strong> &mdash; Historiker som hävdar att Israel begick \"etnisk rensning\" 1948",
+                            "<strong>Norman Finkelstein</strong> &mdash; skrev \"The Holocaust Industry\", hävdar att Israel utnyttjar förintelsen",
+                            "<strong>Gideon Levy, Amira Hass</strong> &mdash; Haaretz-journalister som nästan uteslutande sysslar med kritik av Israel",
+                            "<strong>Shlomo Sand</strong> &mdash; skrev \"The Invention of the Jewish People\" &mdash; försöker motbevisa den historiska rätten till landet Israel"
+                        ],
+                        [
+                            "<strong>JVP</strong> (Jewish Voice for Peace) &mdash; En amerikansk judisk pro-BDS-organisation",
+                            "<strong>IfNotNow</strong> &mdash; Unga judar mot \"ockupationen\"",
+                            "<strong>B'Tselem</strong> &mdash; En israelisk organisation som dokumenterar \"rättighetskränkningar\" &mdash; raderar gränsen mellan \"apartheid\" och legitim kritik",
+                            "<strong>Breaking the Silence</strong> &mdash; Tidigare soldater som vittnar mot IDF utomlands"
+                        ]
+                    ],
+                    "highlights": [
+                        "Förvirra inte: kritik av Israel är legitim. Men <strong>Judar som tjänar Israels haters</strong> &mdash; det är ett svek mot vår generation och generationerna efter oss."
+                    ]
+                }
+            ],
+            [
+                {
+                    "title": "7 oktober &mdash; Dagen då allt förändrades",
+                    "h4s": [
+                        "Vad hände",
+                        "Berättelser om hjältemod",
+                        "Underrättelsemisslyckandet"
+                    ],
+                    "ps": [
+                        "Den 7 oktober 2023 bröt omkring 3 000 Hamas-terrorister upp stängslet från Gaza och inledde en massakerattack mot 22 samhällen, militärbaser och musikfestivalen \"Nova\". <strong>1 139-1 219 människor mördades. 251 kidnappades.</strong>",
+                        "Be'eri-massakern. Kfar Aza massakern. Nahal Oz-massakern. Nova festival &mdash; 364 unga människor mördade på öppet fält. Re'im bas &mdash; 66 soldater dödade. Nir Oz community &mdash; en fjärdedel av invånarna mördades eller kidnappades.",
+                        "Obeväpnade människor som skyddade sina familjer med sina kroppar. Beduiner från Negev som kämpade tillsammans med sina judiska grannar. <strong>Civila volontärer</strong> som körde i timmar för att rädda människor de inte kände. Reservstyrkor som mobiliserade utan order.",
+                        "Intelligens visste. Militären svarade inte. Det gick timmar innan styrkor nådde samhällena. Civila kämpade ensamma. De smärtsamma frågorna om misslyckandena förblir öppna."
+                    ]
+                },
+                {
+                    "title": "Den palestinska berättelsen &mdash; kontra verkligheten",
+                    "h4s": [
+                        "Problemet med \"flykting\".",
+                        "\"Returrätt\" &mdash; Vad det egentligen betyder",
+                        "Flyktingarna som ingen nämner",
+                        "\"Apartheid\" &mdash; Debunked"
+                    ],
+                    "ps": [
+                        "1948 fanns det cirka 700 000 palestinska flyktingar. Idag räknar UNRWA <strong>5,9 miljoner \"flyktingar\"</strong> &mdash; eftersom palestinier har unik status: även barnbarn och barnbarnsbarn till flyktingar räknas som flyktingar. Detta händer inte i någon annan konflikt i världen.",
+                        "Att återlämna 5,9 miljoner \"flyktingar\" till Israel = <strong>slutet på Israel som judisk stat</strong>. Detta är inte en begäran om rättvisa &mdash; det är ett krav på eliminering.",
+                        "<strong>850 000 judar</strong> fördrevs från arabländerna. Deras egendom konfiskerades. De absorberades i Israel. Ingen pratar om dem. De har ingen UNRWA. De har ingen \"rätt att återvända\".",
+                        "2 miljoner israeliska araber är <strong>fullständiga medborgare</strong>. De röstar, väljs in i Knesset, sitter i Högsta domstolen, studerar på universitet, arbetar på sjukhus. En arabisk domare dömde en judisk president (Moshe Katsav). 83 % av de israeliska araberna föredrar israeliskt medborgarskap framför alla alternativ."
+                    ]
+                },
+                {
+                    "title": "Antisemitism efter den 7 oktober &mdash; The Numbers",
+                    "h4s": [
+                        "Campusen",
+                        "Europa",
+                        "Vad kan vi göra?"
+                    ],
+                    "ps": [
+                        "På över 100 universitet i USA lever judiska studenter i rädsla. <strong>läger, bygga belägringar, kräver \"global intifada\"</strong>. Kongressutfrågningar avslöjade att universitetspresidenter inte kunde säga att \"att uppmana till mord på judar\" bryter mot campus regler.",
+                        "<strong>Frankrike:</strong> 440 000 judar i rädsla. <strong>Tyskland:</strong> \"Aldrig mer\" är trasigt. <strong>Amsterdam:</strong> I november 2024 jagades en <strong>pogrom</strong> &mdash; Maccabi Tel Aviv-fans genom gatorna, misshandlades och knivhöggs."
+                    ],
+                    "stats": [
+                        {
+                            "num": "360 %",
+                            "label": "Uppgång i USA"
+                        },
+                        {
+                            "num": "589 %",
+                            "label": "Stig i Storbritannien"
+                        },
+                        {
+                            "num": "738 %",
+                            "label": "Uppgång i Kanada"
+                        },
+                        {
+                            "num": "1 000 %",
+                            "label": "Uppgång i Frankrike (första månaden)"
+                        }
+                    ],
+                    "lists": [
+                        [
+                            "<strong>Utbildning</strong> &mdash; Undervisning i historien, fakta, data",
+                            "<strong>Intellektuell respons</strong> &mdash; Lämna aldrig en lögn obesvarad",
+                            "<strong>Enhet</strong> &mdash; Sluta kämpa sinsemellan och kämpa tillsammans",
+                            "<strong>Närvaro</strong> &mdash; Göm inte. Var judisk med stolthet. Överallt"
+                        ]
+                    ],
+                    "highlights": [
+                        "Antisemitismen kommer inte att försvinna. Men vi kan vara <strong>förberedda, enade och okrossbara</strong>. Som vi har varit i 3 500 år."
+                    ]
+                }
+            ]
+        ]
     }
 }

@@ -14,6 +14,7 @@
         "Documentazione storica",
         "Denuncia l'antisemitismo",
         "Guarda e impara",
+        "Rafforzare le persone",
         "Cosa si può fare?"
     ],
     "ui": {
@@ -833,5 +834,335 @@
     "footer": {
         "motto": "La verità è l’arma più potente contro l’odio",
         "motto_en": "La verità è l’arma più potente contro l’odio"
+    },
+    "strengthen": {
+        "title": "Rafforzare le persone",
+        "desc": "Non solo contro l'odio &mdash; per la conoscenza, l'unità e l'orgoglio. Questa sezione è per noi, il popolo ebraico",
+        "tabs": [
+            "Chi siamo",
+            "Da dove veniamo",
+            "Ciò che abbiamo dato al mondo",
+            "La nostra unità",
+            "Da dove da qui"
+        ],
+        "panels": [
+            [
+                {
+                    "title": "Il Mosaico Ebraico &mdash; Un popolo, mille volti",
+                    "h4s": [
+                        "Beta Israel &mdash; Ebrei etiopi",
+                        "Bene Israel &mdash; Ebrei dell'India",
+                        "Ebrei di Kaifeng &mdash; Cina",
+                        "Ebrei curdi",
+                        "Ebrei di Bukhara",
+                        "Ebrei di montagna &mdash; Il Caucaso",
+                        "Ebrei yemeniti",
+                        "Gli Anusim &mdash; Cripto-ebrei"
+                    ],
+                    "ps": [
+                        "Il popolo ebraico è uno dei popoli più diversi al mondo. 2.700 anni di dispersione hanno creato comunità uniche in ogni angolo del globo &mdash; con tradizioni, lingue, costumi e aspetti diversi. Ma sempre con una radice condivisa.",
+                        "Preservarono il giudaismo in modo indipendente per migliaia di anni, senza contatti con l'ebraismo mondiale. Nel 1984 e nel 1991, in due operazioni drammatiche &mdash; <strong>Operazione Moses e Operazione Solomon</strong> &mdash; decine di migliaia di persone furono trasportate in aereo in Israele. Oggi in Israele vivono circa 170.000 ebrei di origine etiope.",
+                        "La comunità <strong>Bene Israel</strong> di Mumbai ha vissuto in India per 2.100 anni. Osservavano lo Shabbat, la kashrut di base e la circoncisione &mdash; senza conoscere le altre comunità ebraiche. Gli <strong>Ebrei di Cochin</strong> nell'India meridionale mantenevano sinagoghe del IV secolo.",
+                        "Una comunità che ha vissuto in Cina per 1.000 anni. Costruirono una sinagoga nel 1163. Furono assorbiti nella società cinese, ma oggi i discendenti stanno riscoprendo le loro radici ebraiche.",
+                        "Parlanti di <strong>Aramaico</strong> &mdash; la lingua parlata da Gesù. Vissero nella regione del Kurdistan per 2.700 anni, a partire dall'esilio assiro. Hanno preservato antiche tradizioni scomparse nel giudaismo europeo.",
+                        "2.500 anni sulla <strong>Via della Seta</strong>. Vivevano in Uzbekistan, Tagikistan e nel nord dell'Afghanistan. Hanno conservato una lingua giudeo-persiana unica e antiche tradizioni.",
+                        "Con una <strong>tradizione guerriera</strong> unica. Vivevano in Daghestan e Azerbaigian. La città di Quba era chiamata la \"Gerusalemme del Caucaso\". Conosciuti come combattenti coraggiosi e custodi della tradizione.",
+                        "2.500 anni nello Yemen. Nel 1949, nell'<strong>Operazione Magic Carpet</strong>, 49.000 ebrei yemeniti furono trasportati in aereo in Israele &mdash;, molti dei quali videro un aereo per la prima volta nella loro vita. Un'antica tradizione liturgica conservata immutata.",
+                        "500 anni di segretezza. Ebrei costretti a convertirsi durante l'Inquisizione spagnola e portoghese, ma che <strong>mantennero segreto il loro giudaismo</strong> &mdash; generazione dopo generazione. Oggi, i discendenti di tutto il mondo (Brasile, Messico, Nuovo Messico, Portogallo) stanno riscoprendo le proprie radici e ritornando."
+                    ],
+                    "highlights": [
+                        "Israele è il punto d'incontro di tutte queste comunità. Un luogo dove un soldato druso sorveglia un villaggio ebraico, un ingegnere etiope conduce un progetto hi-tech, un musicista marocchino suona insieme a uno chef yemenita accanto a uno chef circasso. <strong>Un popolo, mille volti.</strong>"
+                    ]
+                },
+                {
+                    "title": "Israele dall'interno &mdash; 9,8 milioni da 100 paesi",
+                    "h4s": [
+                        "I drusi &mdash; \"Patto di sangue\"",
+                        "I beduini &mdash; inseguitori del deserto",
+                        "Arabi cristiani &mdash; La minoranza nella minoranza",
+                        "I Circassi &mdash; Guerrieri del Caucaso",
+                        "Ebrei mizrahi e sefarditi &mdash; Metà di Israele",
+                        "L'aliyah russa &mdash; Un milione in un decennio"
+                    ],
+                    "ps": [
+                        "Israele è la società <strong>più complessa &mdash; e più viva &mdash; del mondo</strong>. In un’area grande quanto il New Jersey vivono insieme 9,8 milioni di persone provenienti da oltre 100 paesi.",
+                        "Circa 150.000 drusi in Israele. <strong>Battaglione 299 (\"Spada\")</strong> &mdash; un battaglione di fanteria druso-circasso. Oltre 430 drusi sono caduti nelle guerre israeliane. Servono in tutte le unità militari &mdash; combattimento, intelligence e pattugliamento delle frontiere. I drusi sono arruolati nell'IDF <strong>per obbligo</strong>, dal 1956, in accordo con i leader della comunità.",
+                        "Circa 300.000 beduini, principalmente nel Negev. La <strong>Trackers Unit</strong> &mdash; un'unità unica di beduini che fungono da risorse di intelligence, leggono le tracce e conoscono il deserto come il palmo della loro mano. Il 7 ottobre i beduini del Negev furono tra i primi a essere colpiti e a reagire.",
+                        "In Israele vivono circa 185.000 cristiani. <strong>L'unica comunità cristiana del Medio Oriente che cresce</strong>. Ovunque (Iraq, Siria, Libano, Egitto) &mdash; i cristiani stanno scomparendo. In Israele fanno volontariato per l'IDF, studiano nelle università e prestano servizio come giudici.",
+                        "Circa 5.000 circassi in due villaggi: Kfar Kama e Rehaniya. <strong>Arruolato nell'IDF per obbligo</strong> &mdash; come i drusi. 150 anni in Israele. Preservano la loro lingua (Adyghe), una cultura unica e un'identità completa &mdash; e combattono per Israele.",
+                        "850.000 ebrei furono espulsi o fuggirono dai paesi arabi e dagli stati musulmani (1948-1972). <strong>Nessuno ne parla</strong>. Iraq (75.000), Siria (30.000), Marocco (265.000), Yemen (49.000), Libia (36.000), Egitto (80.000). Furono assorbiti in condizioni difficili, ma oggi circa il 45% degli ebrei israeliani sono di origine mizrahi/sefardita. In ogni strato della società.",
+                        "Tra il 1989 e il 2005 sono arrivati ​​circa un milione di immigrati dall’Unione Sovietica/CSI. <strong>60% con titoli accademici</strong>. Hanno trasformato l’hi-tech, la medicina, la scienza, la cultura israeliane. Musicisti, scienziati, medici, ingegneri &mdash; Israele è diventato una \"superpotenza musicale\" grazie a loro."
+                    ],
+                    "stats": [
+                        {
+                            "num": "73,5%",
+                            "label": "Ebrei (~7,2 milioni)"
+                        },
+                        {
+                            "num": "21%",
+                            "label": "Arabi (~ 2,05 milioni)"
+                        },
+                        {
+                            "num": "5,5%",
+                            "label": "Altri (drusi, circassi, baha'i)"
+                        }
+                    ],
+                    "highlights": [
+                        "Non perfetto. Non intero. Ma vivo &mdash; ed è l'unico paese che abbiamo."
+                    ]
+                }
+            ],
+            [
+                {
+                    "title": "Sionismo &mdash; Dal sogno allo stato",
+                    "h4s": [
+                        "Prima di Herzl &mdash; Le Radici",
+                        "Herzl &mdash; 8 anni che hanno cambiato tutto",
+                        "Cinque Aliyot &mdash; Costruire dal nulla",
+                        "La Dichiarazione Balfour &mdash; 67 Parole",
+                        "Il mandato britannico e il tradimento",
+                        "I movimenti clandestini e la rivolta ebraica",
+                        "Il voto delle Nazioni Unite &mdash; 29 novembre 1947",
+                        "La Dichiarazione di Indipendenza &mdash; 14 maggio 1948"
+                    ],
+                    "ps": [
+                        "2.000 anni di desiderio non sono stati solo preghiera. Sono diventati un movimento politico che ha creato uno stato.",
+                        "<strong>Leon Pinsker</strong> (1882) scrisse \"Auto-emancipazione\" &mdash; che gli ebrei devono decidere del proprio destino. <strong>Moses Hess</strong> scrisse \"Roma e Gerusalemme\" (1862). Il rabbino <strong>Zvi Hirsch Kalischer</strong> e il rabbino <strong>Yehuda Alkalai</strong> hanno chiesto la colonizzazione della Terra di Israele anche prima.",
+                        "Il <strong>processo Dreyfus</strong> a Parigi (1894) convinse Theodor Herzl che l'antisemitismo non aveva soluzione in Europa. Nel 1896 scrisse \"Lo Stato ebraico\". Nel 1897 convocò il <strong>Primo congresso sionista a Basilea</strong> &mdash; e scrisse nel suo diario: \"A Basilea ho fondato lo Stato ebraico... Se lo dicessi oggi, mi deriderebbero. Tra 5 anni, sicuramente tra 50, tutti lo vedranno.\" Morì all'età di 44 anni, nel 1904 &mdash; 44 anni prima della fondazione dello Stato.",
+                        "<strong>Prima Aliyah (1882-1903)</strong> &mdash; Hovevei Zion, BILU. <strong>Second (1904-1914)</strong> &mdash; costruì il kibbutz e le infrastrutture. <strong>Terzo (1919-1923)</strong> &mdash; dopo la Dichiarazione Balfour. <strong>Quarto (1924-1929)</strong> &mdash; classe media polacca. <strong>Quinto (1929-1939)</strong> &mdash; in fuga dal nazismo. Ogni ondata costruì un altro strato di vita ebraica nella Terra d'Israele.",
+                        "Il 2 novembre 1917, il ministro degli Esteri britannico Arthur Balfour scrisse una lettera di <strong>67 parole</strong> riconoscendo il diritto del popolo ebraico a un focolare nazionale nella Terra di Israele. 67 parole che hanno innescato una rivoluzione.",
+                        "La Gran Bretagna ricevette un mandato sulla Palestina nel 1920, ma gradualmente limitò l’immigrazione ebraica proprio quando gli ebrei ne avevano più bisogno. Il <strong>Libro Bianco (1939)</strong> bloccò quasi completamente l'immigrazione &mdash; mentre i nazisti governavano l'Europa. La <strong>Struma tragedia</strong> (1942): 769 rifugiati ebrei annegarono perché la Gran Bretagna si rifiutò di lasciarli entrare.",
+                        "Il <strong>Haganah</strong>, <strong>Irgun</strong> (guidato da Menachem Begin), <strong>Lehi</strong> (guidato da Yair Stern) &mdash; combatterono gli inglesi e lavorarono per portare immigrati clandestini. L'<strong>Attentato al King David Hotel</strong> (1946) &mdash; un punto di svolta nella rivolta.",
+                        "33 favorevoli, 13 contrari, 10 astenuti. Approvato il piano di spartizione. Gli ebrei ballavano per le strade. Gli arabi dichiararono guerra.",
+                        "<strong>32 minuti. 25 firme.</strong> David Ben-Gurion ha dichiarato la fondazione dello Stato di Israele. 11 minuti dopo, gli Stati Uniti riconobbero lo Stato. Il sogno di 2.000 anni è diventato realtà."
+                    ],
+                    "highlights": [
+                        "Dal sogno di un uomo (Herzl) &mdash; attraverso il sangue, il sudore e le lacrime di milioni di &mdash; verso uno stato sovrano. 76 anni. Ancora qui."
+                    ]
+                },
+                {
+                    "title": "3.500 anni di sopravvivenza",
+                    "ps": [
+                        "Tutte le persone che ci perseguitavano &mdash; sono scomparse. L'antico Egitto, l'Assiria, Babilonia, la Grecia, Roma, i crociati, l'Inquisizione spagnola, i pogrom russi, la Germania nazista &mdash; sono tutti scomparsi. Siamo ancora qui.",
+                        "Non grazie al potere militare. Non grazie al territorio. Grazie a <strong>istruzione, famiglia, comunità, libro e memoria</strong>. Ogni generazione insegnava a quella successiva. Ogni comunità manteneva viva la brace. Ovunque nel mondo &mdash; dalle grotte della Spagna, attraverso le cantine della Russia, fino alle montagne dell'Etiopia &mdash; gli ebrei hanno conservato la loro identità."
+                    ],
+                    "highlights": [
+                        "3.500 anni. Migliaia di tentativi di annientamento. Siamo ancora qui &mdash; e non andremo da nessuna parte."
+                    ]
+                }
+            ],
+            [
+                {
+                    "title": "0,2% della popolazione, 25% dei premi Nobel",
+                    "h4s": [
+                        "Medicinale",
+                        "Fisica e Scienza",
+                        "Tecnologia e Hi-Tech",
+                        "Arte, Cultura e Spettacolo",
+                        "Diritto, filosofia ed economia"
+                    ],
+                    "ps": [
+                        "Gli ebrei costituiscono il <strong>0,2%</strong> della popolazione mondiale, ma hanno ricevuto il <strong>25%</strong> dei premi Nobel. Questo è un fatto che nessuna teoria della cospirazione spiega &mdash; tranne una cultura di apprendimento, indagine e messa in discussione di ciò che è accettato.",
+                        "<strong>Jonas Salk</strong> &mdash; vaccino antipolio. <strong>Paul Ehrlich</strong> &mdash; padre della chemioterapia. <strong>Selman Waksman</strong> &mdash; streptomicina. <strong>Barry Marshall</strong> &mdash; scoperta di H. pylori. <strong>Karl Landsteiner</strong> &mdash; classificazione del gruppo sanguigno. <strong>Gertrude Elion</strong> &mdash; farmaci contro la leucemia. Decine di scienziati ebrei che salvarono milioni di vite.",
+                        "<strong>Albert Einstein</strong> &mdash; teoria della relatività. <strong>Richard Feynman</strong> &mdash; elettrodinamica quantistica. <strong>Niels Bohr</strong> (mezzo ebreo) &mdash; modello atomico. <strong>Robert Oppenheimer</strong> &mdash; bomba atomica. <strong>Edward Teller</strong> &mdash; bomba all'idrogeno. <strong>Murray Gell-Mann</strong> &mdash; quark.",
+                        "<strong>Sergey Brin</strong> (Google), <strong>Larry Page</strong> (Google), <strong>Mark Zuckerberg</strong> (Facebook), <strong>Larry Ellison</strong> (Oracle), <strong>Michael Dell</strong> (Dell). Risultati israeliani: Waze, chiavetta USB, Iron Dome, Check Point, Mobileye, tecnologia di irrigazione a goccia.",
+                        "<strong>Steven Spielberg</strong>, <strong>Stanley Kubrick</strong>, <strong>i fratelli Coen</strong>, <strong>Bob Dylan</strong>, <strong>Leonard Cohen</strong>, <strong>Barbra Streisand</strong>. La stessa Hollywood è stata costruita da ebrei (MGM, Warner Bros, Paramount, Universal, Columbia Studios).",
+                        "<strong>Karl Marx</strong> (economia politica), <strong>Sigmund Freud</strong> (psicoanalisi), <strong>Noam Chomsky</strong> (linguistica), <strong>Milton Friedman</strong> (economia del libero mercato), <strong>Daniel Kahneman</strong> (economia comportamentale), <strong>Ruth Bader Ginsburg</strong> (legge), <strong>Hannah Arendt</strong> (filosofia politica)."
+                    ],
+                    "stats": [
+                        {
+                            "num": "25%",
+                            "label": "Premi Nobel"
+                        },
+                        {
+                            "num": "40%",
+                            "label": "Campioni del mondo di scacchi"
+                        },
+                        {
+                            "num": "26%",
+                            "label": "Medaglie Fields (Matematica)"
+                        }
+                    ],
+                    "highlights": [
+                        "0,2% della popolazione. Impatto sul 100% del mondo. Non \"controllo\" &mdash; <strong>contributo</strong>."
+                    ]
+                },
+                {
+                    "title": "Giusto tra le nazioni &mdash; Luce nell'oscurità",
+                    "h4s": [
+                        "Oskar Schindler",
+                        "Raoul Wallenberg",
+                        "Chiune Sugihara",
+                        "Irena Sendler",
+                        "Nicola Winton",
+                        "Soccorsi collettivi"
+                    ],
+                    "ps": [
+                        "Durante l'Olocausto, quando la maggior parte del mondo taceva, <strong>28.217 persone provenienti da 51 paesi</strong> rischiarono la vita per salvare gli ebrei. Yad Vashem li riconosce come \"Giusti tra le nazioni\". Sono la prova che c'è sempre una scelta.",
+                        "Un uomo d'affari tedesco che salvò <strong>1.200 ebrei</strong> impiegandoli nella sua fabbrica. \"Schindler's List\" &mdash; un nome diventato simbolo di salvataggio.",
+                        "Un diplomatico svedese che salvò <strong>fino a 100.000 ebrei</strong> a Budapest utilizzando i \"passaporti di protezione\" svedesi. Scomparve sotto la custodia sovietica dopo la guerra.",
+                        "Un console giapponese in Lituania che ha scritto a mano <strong>2.139 visti in 29 giorni</strong>. Continuò a scrivere anche quando gli fu ordinato di smettere e gettò i visti firmati dal finestrino del treno. Ha salvato 6.000-10.000 persone.",
+                        "Un assistente sociale polacco che ha fatto uscire di nascosto <strong>2.500 bambini</strong> dal ghetto di Varsavia &mdash; in sacchi della spazzatura, casse e ambulanze. Conservava i nomi dei bambini in barattoli di vetro sepolti nel suo giardino.",
+                        "Salvò <strong>669 bambini ebrei</strong> dalla Cecoslovacchia nel 1939 organizzando treni per bambini verso la Gran Bretagna. <strong>Non lo ha detto a nessuno per 50 anni</strong> &mdash; finché sua moglie non ha trovato un taccuino con i nomi."
+                    ],
+                    "lists": [
+                        [
+                            "<strong>Villaggio di Le Chambon (Francia)</strong> &mdash; Un intero villaggio protestante nascondeva 3.500 ebrei",
+                            "<strong>Danimarca</strong> &mdash; Ha salvato il 99% degli ebrei (7.220 su 7.800) contrabbandandoli in Svezia su pescherecci",
+                            "<strong>Albania</strong> &mdash; Un paese musulmano che proteggeva i suoi ebrei. Ha posto fine alla guerra con più ebrei di quanti ne avesse all'inizio",
+                            "<strong>Bulgaria</strong> &mdash; Salvati 48.000 ebrei bulgari dalla deportazione"
+                        ]
+                    ],
+                    "highlights": [
+                        "28.217 persone che hanno scelto di essere umane quando tutti gli altri hanno scelto di non esserlo. La dimostrazione che si può sempre scegliere diversamente."
+                    ]
+                }
+            ],
+            [
+                {
+                    "title": "Unità nei tempi della prova",
+                    "h4s": [
+                        "Le guerre che hanno unito",
+                        "Il caso Altalena &mdash; La ferita che non si è mai rimarginata",
+                        "7 ottobre &mdash; Un momento di unità"
+                    ],
+                    "ps": [
+                        "Una cosa è chiara nella storia ebraica: <strong>Quando siamo insieme &mdash; siamo forti. Quando siamo divisi &mdash; cadiamo.</strong>",
+                        "La Guerra d'Indipendenza (1948), la Guerra dei Sei Giorni (1967), la Guerra dello Yom Kippur (1973) &mdash; ogni volta, milioni di israeliani ed ebrei della diaspora si unirono immediatamente. Nelle ore più difficili, le differenze sono scomparse.",
+                        "Nel giugno 1948, Ben-Gurion ordinò il fuoco su una nave armata dell'Irgun. <strong>16 Combattenti dell'Irgun sono stati uccisi</strong> dall'IDF. Menachem Begin ha impedito una guerra civile. La ferita fa ancora male &mdash; ma la decisione di prevenire la guerra interna ha salvato lo Stato.",
+                        "Dopo il massacro del 7 ottobre 2023, <strong>tutte le spaccature sono scomparse per un momento</strong>. I nazionalisti hanno combattuto al fianco dei laici. Gli ebrei tradizionalisti aprirono le loro case. Gli ultraortodossi hanno donato cibo e aperto yeshivah alle famiglie sfollate. Le persone secolari venivano ad aiutare le comunità religiose. I religiosi vennero per aiutare le comunità secolari. <strong>Tutte le spaccature sono scomparse per un momento</strong> &mdash; la domanda è se resisterà."
+                    ]
+                },
+                {
+                    "title": "Laico e religioso &mdash; La tensione interna",
+                    "ps": [
+                        "La società ebraica è divisa. Punti di attrito: la leva ultraortodossa, la kashrut, lo Shabbat, il matrimonio, la condizione delle donne, la definizione di \"Chi è ebreo\". Nel 2023, Israele ha vissuto le <strong>proteste più grandi della sua storia</strong> &mdash; centinaia di migliaia di manifestanti ogni settimana. Secolare contro religioso, destra contro sinistra, élite contro periferia.",
+                        "Ma il 7 ottobre, quando il nemico esterno è arrivato &mdash; per un momento &mdash; ha guarito le ferite interne."
+                    ],
+                    "stats": [
+                        {
+                            "num": "45%",
+                            "label": "Secolare"
+                        },
+                        {
+                            "num": "25%",
+                            "label": "Tradizionale"
+                        },
+                        {
+                            "num": "13%",
+                            "label": "Ultra-ortodosso"
+                        },
+                        {
+                            "num": "12%",
+                            "label": "Religioso-sionista"
+                        }
+                    ],
+                    "highlights": [
+                        "Spaccature profonde &mdash; ma quando serve, un solo popolo."
+                    ]
+                },
+                {
+                    "title": "Tradimento interno &mdash; Ebrei contro Israele",
+                    "h4s": [
+                        "Le cifre",
+                        "Le Organizzazioni",
+                        "Perché è pericoloso?"
+                    ],
+                    "ps": [
+                        "Una delle sfide più dolorose: <strong>Ebrei che forniscono \"munizioni intellettuali\" a coloro che odiano Israele</strong>. Sono più pericolosi di qualsiasi nemico esterno &mdash; perché forniscono legittimità.",
+                        "Quando un antisemita dice \"Israele = apartheid\" &mdash; può essere ignorato. Quando un <strong>Ebreo</strong> lo dice &mdash; acquisisce legittimità. Nel mondo accademico, nei campus, nei media &mdash; Gli ebrei contro Israele sono diventati la \"prova\" che la critica \"non è antisemita\"."
+                    ],
+                    "lists": [
+                        [
+                            "<strong>Ilan Pappe</strong> &mdash; Storico che sostiene che Israele abbia commesso \"pulizia etnica\" nel 1948",
+                            "<strong>Norman Finkelstein</strong> &mdash; Ha scritto \"L'industria dell'Olocausto\", sostiene che Israele sfrutta l'Olocausto",
+                            "<strong>Gideon Levy, Amira Hass</strong> &mdash; Giornalisti di Haaretz che si occupano quasi esclusivamente di critiche a Israele",
+                            "<strong>Shlomo Sand</strong> &mdash; Ha scritto \"L'invenzione del popolo ebraico\" &mdash; tenta di confutare il diritto storico alla Terra di Israele"
+                        ],
+                        [
+                            "<strong>JVP</strong> (Jewish Voice for Peace) &mdash; Un'organizzazione ebraica americana pro-BDS",
+                            "<strong>IfNotNow</strong> &mdash; Giovani ebrei contro \"l'occupazione\"",
+                            "<strong>B'Tselem</strong> &mdash; Un'organizzazione israeliana che documenta le \"violazioni dei diritti\" &mdash; cancellando il confine tra \"apartheid\" e critica legittima",
+                            "<strong>Rompere il silenzio</strong> &mdash; Ex soldati che testimoniano contro l'IDF all'estero"
+                        ]
+                    ],
+                    "highlights": [
+                        "Non confondiamo: le critiche a Israele sono legittime. Ma <strong>Ebrei che servono coloro che odiano Israele</strong> &mdash; questo è un tradimento della nostra generazione e delle generazioni dopo di noi."
+                    ]
+                }
+            ],
+            [
+                {
+                    "title": "7 ottobre &mdash; Il giorno in cui tutto cambiò",
+                    "h4s": [
+                        "Quello che è successo",
+                        "Storie di eroismo",
+                        "Il fallimento dell'intelligence"
+                    ],
+                    "ps": [
+                        "Il 7 ottobre 2023, circa 3.000 terroristi di Hamas hanno sfondato la recinzione da Gaza e hanno lanciato un attacco massacrante contro 22 comunità, basi militari e il festival musicale \"Nova\". <strong>1.139-1.219 persone furono uccise. 251 sono stati rapiti.</strong>",
+                        "Il massacro di Be'eri. Il massacro di Kfar Aza. Il massacro di Nahal Oz. Festa Nova &mdash; 364 giovani assassinati in campo aperto. Base Re'im &mdash; 66 soldati uccisi. Comunità di Nir Oz &mdash; un quarto dei residenti sono stati assassinati o rapiti.",
+                        "Persone disarmate che hanno protetto le loro famiglie con i loro corpi. Beduini del Negev che combatterono al fianco dei loro vicini ebrei. <strong>Volontari civili</strong> che hanno guidato per ore per salvare persone che non conoscevano. Forze di riserva che si sono mobilitate senza ordini.",
+                        "L'intelligenza lo sapeva. I militari non hanno risposto. Passarono ore prima che le forze raggiungessero le comunità. I civili hanno combattuto da soli. Le dolorose domande sui fallimenti rimangono aperte."
+                    ]
+                },
+                {
+                    "title": "La narrativa palestinese &mdash; contro la realtà",
+                    "h4s": [
+                        "Il problema dei “rifugiati”.",
+                        "\"Diritto al reso\" &mdash; Cosa significa realmente",
+                        "I rifugiati che nessuno menziona",
+                        "\"Apartheid\" &mdash; Sfatato"
+                    ],
+                    "ps": [
+                        "Nel 1948 c'erano circa 700.000 profughi palestinesi. Oggi l'UNRWA conta <strong>5,9 milioni di \"rifugiati\"</strong> &mdash; perché i palestinesi hanno uno status unico: anche i nipoti e i pronipoti dei rifugiati sono considerati rifugiati. Ciò non accade in nessun altro conflitto al mondo.",
+                        "Il ritorno di 5,9 milioni di \"rifugiati\" in Israele = <strong>la fine di Israele come stato ebraico</strong>. Questa non è una richiesta di giustizia &mdash; è una richiesta di eliminazione.",
+                        "<strong>850.000 ebrei</strong> furono espulsi dai paesi arabi. La loro proprietà è stata confiscata. Sono stati assorbiti in Israele. Nessuno ne parla. Non hanno l’UNRWA. Non hanno alcun \"diritto al ritorno\".",
+                        "2 milioni di arabi israeliani sono <strong>cittadini a pieno titolo</strong>. Votano, vengono eletti alla Knesset, siedono alla Corte Suprema, studiano nelle università, lavorano negli ospedali. Un giudice arabo ha condannato un presidente ebreo (Moshe Katsav). L’83% degli arabi israeliani preferisce la cittadinanza israeliana a qualsiasi alternativa."
+                    ]
+                },
+                {
+                    "title": "Antisemitismo dopo il 7 ottobre &mdash; I numeri",
+                    "h4s": [
+                        "I campus",
+                        "Europa",
+                        "Cosa possiamo fare?"
+                    ],
+                    "ps": [
+                        "In oltre 100 università degli Stati Uniti, gli studenti ebrei vivono nella paura. <strong>Accampamenti, costruzione di assedi, appelli all'\"intifada globale\"</strong>. Le udienze del Congresso hanno rivelato che i presidenti delle università non potevano affermare che \"invitare all'omicidio degli ebrei\" viola le regole del campus.",
+                        "<strong>Francia:</strong> 440.000 ebrei nella paura. <strong>Germania:</strong> \"Mai più\" è rotto. <strong>Amsterdam:</strong> Nel novembre 2024, un <strong>pogrom</strong> &mdash; tifosi del Maccabi Tel Aviv furono inseguiti per le strade, picchiati e accoltellati."
+                    ],
+                    "stats": [
+                        {
+                            "num": "360%",
+                            "label": "In aumento negli Usa"
+                        },
+                        {
+                            "num": "589%",
+                            "label": "Aumento nel Regno Unito"
+                        },
+                        {
+                            "num": "738%",
+                            "label": "Aumento in Canada"
+                        },
+                        {
+                            "num": "1.000%",
+                            "label": "Aumento in Francia (primo mese)"
+                        }
+                    ],
+                    "lists": [
+                        [
+                            "<strong>Educazione</strong> &mdash; Insegnare la storia, i fatti, i dati",
+                            "<strong>Risposta intellettuale</strong> &mdash; Non lasciare mai una bugia senza risposta",
+                            "<strong>Unity</strong> &mdash; Smettila di litigare tra di noi e combatti insieme",
+                            "<strong>Presenza</strong> &mdash; Non nasconderti. Sii ebreo con orgoglio. Ovunque"
+                        ]
+                    ],
+                    "highlights": [
+                        "L’antisemitismo non scomparirà. Ma possiamo essere <strong>preparati, uniti e indistruttibili</strong>. Come lo siamo noi da 3.500 anni."
+                    ]
+                }
+            ]
+        ]
     }
 }

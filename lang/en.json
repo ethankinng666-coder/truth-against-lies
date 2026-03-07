@@ -10,6 +10,7 @@
         "Historical Documentation",
         "Report Antisemitism",
         "Watch & Learn",
+        "Strengthen the People",
         "What Can Be Done?"
     ],
     "ui": {
@@ -826,6 +827,211 @@
     "report_desc": "Do not remain silent &mdash; reporting saves lives and prevents escalation. Here is where to turn:",
     "gallery_title": "Historical Documentation",
     "youtube_title": "Watch & Learn",
+    "strengthen": {
+        "title": "Strengthen the People",
+        "desc": "Not just against hatred &mdash; for knowledge, unity, and pride. This section is for us, the Jewish people",
+        "tabs": ["Who We Are", "Where We Came From", "What We Gave the World", "Our Unity", "Where From Here"],
+        "panels": [
+            [
+                {
+                    "title": "The Jewish Mosaic &mdash; One People, A Thousand Faces",
+                    "h4s": ["Beta Israel &mdash; Ethiopian Jews", "Bene Israel &mdash; Jews of India", "Kaifeng Jews &mdash; China", "Kurdish Jews", "Bukharan Jews", "Mountain Jews &mdash; The Caucasus", "Yemenite Jews", "The Anusim &mdash; Crypto-Jews"],
+                    "ps": [
+                        "The Jewish people are one of the most diverse peoples in the world. 2,700 years of dispersion created unique communities in every corner of the globe &mdash; with different traditions, languages, customs and appearances. But always with one shared root.",
+                        "They preserved Judaism independently for thousands of years, without contact with world Jewry. In 1984 and 1991, in two dramatic operations &mdash; <strong>Operation Moses and Operation Solomon</strong> &mdash; tens of thousands were airlifted to Israel. Today about 170,000 Jews of Ethiopian origin live in Israel.",
+                        "The <strong>Bene Israel</strong> community in Mumbai lived in India for 2,100 years. They kept Shabbat, basic kashrut and circumcision &mdash; without knowing about other Jewish communities. The <strong>Cochin Jews</strong> in southern India maintained synagogues from the 4th century.",
+                        "A community that lived in China for 1,000 years. They built a synagogue in 1163. They were absorbed into Chinese society, but today descendants are rediscovering their Jewish roots.",
+                        "Speakers of <strong>Aramaic</strong> &mdash; the language Jesus spoke. They lived in the Kurdistan region for 2,700 years, since the Assyrian exile. They preserved ancient traditions that disappeared in European Judaism.",
+                        "2,500 years on the <strong>Silk Road</strong>. They lived in Uzbekistan, Tajikistan and northern Afghanistan. They preserved a unique Judeo-Persian language and ancient traditions.",
+                        "With a unique <strong>warrior tradition</strong>. They lived in Dagestan and Azerbaijan. The city of Quba was called the \"Jerusalem of the Caucasus.\" Known as brave fighters and tradition keepers.",
+                        "2,500 years in Yemen. In 1949, in <strong>Operation Magic Carpet</strong>, 49,000 Yemenite Jews were airlifted to Israel &mdash; many seeing an airplane for the first time in their lives. An ancient liturgical tradition preserved unchanged.",
+                        "500 years of secrecy. Jews forced to convert during the Spanish and Portuguese Inquisition, but who <strong>kept their Judaism in secret</strong> &mdash; generation after generation. Today, descendants worldwide (Brazil, Mexico, New Mexico, Portugal) are discovering their roots and returning."
+                    ],
+                    "highlights": ["Israel is the meeting point of all these communities. A place where a Druze soldier guards a Jewish village, an Ethiopian engineer leads a hi-tech project, a Moroccan musician plays alongside a Yemenite chef next to a Circassian chef. <strong>One people, a thousand faces.</strong>"]
+                },
+                {
+                    "title": "Israel From Within &mdash; 9.8 Million From 100 Countries",
+                    "h4s": ["The Druze &mdash; \"Blood Covenant\"", "The Bedouin &mdash; Desert Trackers", "Christian Arabs &mdash; The Minority Within the Minority", "The Circassians &mdash; Warriors From the Caucasus", "Mizrahi and Sephardi Jews &mdash; Half of Israel", "The Russian Aliyah &mdash; A Million in a Decade"],
+                    "ps": [
+                        "Israel is the <strong>most complex &mdash; and most alive &mdash; society in the world</strong>. In an area the size of New Jersey, 9.8 million people from 100+ countries live together.",
+                        "About 150,000 Druze in Israel. <strong>Battalion 299 (\"Sword\")</strong> &mdash; a Druze-Circassian infantry battalion. Over 430 Druze have fallen in Israel's wars. They serve in all military units &mdash; combat, intelligence and border patrol. The Druze are drafted into the IDF <strong>by obligation</strong>, since 1956, by agreement with community leaders.",
+                        "About 300,000 Bedouin, mainly in the Negev. The <strong>Trackers Unit</strong> &mdash; a unique unit of Bedouin who serve as intelligence assets, read tracks and know the desert like the back of their hand. On October 7, Bedouin from the Negev were among the first to be hit and to fight back.",
+                        "About 185,000 Christians live in Israel. <strong>The only Christian community in the Middle East that is growing</strong>. Everywhere else (Iraq, Syria, Lebanon, Egypt) &mdash; Christians are disappearing. In Israel they volunteer for the IDF, study at universities, and serve as judges.",
+                        "About 5,000 Circassians in two villages: Kfar Kama and Rehaniya. <strong>Drafted into the IDF by obligation</strong> &mdash; like the Druze. 150 years in Israel. They preserve their language (Adyghe), unique culture, and complete identity &mdash; and fight for Israel.",
+                        "850,000 Jews were expelled or fled from Arab countries and Muslim states (1948-1972). <strong>Nobody talks about them</strong>. Iraq (75,000), Syria (30,000), Morocco (265,000), Yemen (49,000), Libya (36,000), Egypt (80,000). They were absorbed in harsh conditions, but today about 45% of Israeli Jews are of Mizrahi/Sephardi origin. In every layer of society.",
+                        "Between 1989-2005, about a million immigrants arrived from the Soviet Union/CIS. <strong>60% with academic degrees</strong>. They transformed Israeli hi-tech, medicine, science, culture. Musicians, scientists, doctors, engineers &mdash; Israel became a \"musical superpower\" thanks to them."
+                    ],
+                    "stats": [
+                        {"num": "73.5%", "label": "Jews (~7.2 million)"},
+                        {"num": "21%", "label": "Arabs (~2.05 million)"},
+                        {"num": "5.5%", "label": "Others (Druze, Circassians, Baha'i)"}
+                    ],
+                    "highlights": ["Not perfect. Not whole. But alive &mdash; and it's the only country we have."]
+                }
+            ],
+            [
+                {
+                    "title": "Zionism &mdash; From Dream to State",
+                    "h4s": ["Before Herzl &mdash; The Roots", "Herzl &mdash; 8 Years That Changed Everything", "Five Aliyot &mdash; Building From Nothing", "The Balfour Declaration &mdash; 67 Words", "The British Mandate and Betrayal", "The Underground Movements and the Hebrew Revolt", "The UN Vote &mdash; November 29, 1947", "The Declaration of Independence &mdash; May 14, 1948"],
+                    "ps": [
+                        "2,000 years of longing were not just prayer. They became a political movement that created a state.",
+                        "<strong>Leon Pinsker</strong> (1882) wrote \"Auto-Emancipation\" &mdash; that Jews must decide their own fate. <strong>Moses Hess</strong> wrote \"Rome and Jerusalem\" (1862). Rabbi <strong>Zvi Hirsch Kalischer</strong> and Rabbi <strong>Yehuda Alkalai</strong> called for settling the Land of Israel even before that.",
+                        "The <strong>Dreyfus trial</strong> in Paris (1894) convinced Theodor Herzl that antisemitism had no solution in Europe. In 1896 he wrote \"The Jewish State.\" In 1897 he convened the <strong>First Zionist Congress in Basel</strong> &mdash; and wrote in his diary: \"In Basel I founded the Jewish State... If I were to say this today, I would be laughed at. In 5 years, certainly in 50, everyone will see it.\" He died at age 44, in 1904 &mdash; 44 years before the state was established.",
+                        "<strong>First Aliyah (1882-1903)</strong> &mdash; Hovevei Zion, BILU. <strong>Second (1904-1914)</strong> &mdash; built the kibbutzim and infrastructure. <strong>Third (1919-1923)</strong> &mdash; after the Balfour Declaration. <strong>Fourth (1924-1929)</strong> &mdash; middle class from Poland. <strong>Fifth (1929-1939)</strong> &mdash; fleeing Nazism. Each wave built another layer of Jewish life in the Land of Israel.",
+                        "On November 2, 1917, British Foreign Secretary Arthur Balfour wrote a letter of <strong>67 words</strong> recognizing the right of the Jewish people to a national home in the Land of Israel. 67 words that ignited a revolution.",
+                        "Britain received a mandate over Palestine in 1920, but gradually restricted Jewish immigration &mdash; precisely when Jews needed it most. The <strong>White Paper (1939)</strong> almost completely blocked immigration &mdash; while Nazis ruled Europe. The <strong>Struma tragedy</strong> (1942): 769 Jewish refugees drowned because Britain refused to let them in.",
+                        "The <strong>Haganah</strong>, <strong>Irgun</strong> (led by Menachem Begin), <strong>Lehi</strong> (led by Yair Stern) &mdash; fought the British and worked to bring in illegal immigrants. The <strong>King David Hotel bombing</strong> (1946) &mdash; a turning point in the revolt.",
+                        "33 in favor, 13 against, 10 abstained. The partition plan was approved. Jews danced in the streets. Arabs declared war.",
+                        "<strong>32 minutes. 25 signatures.</strong> David Ben-Gurion declared the establishment of the State of Israel. 11 minutes later, the United States recognized the state. The 2,000-year dream became reality."
+                    ],
+                    "highlights": ["From the dream of one man (Herzl) &mdash; through blood, sweat and tears of millions &mdash; to a sovereign state. 76 years. Still here."]
+                },
+                {
+                    "title": "3,500 Years of Survival",
+                    "ps": [
+                        "Every people that persecuted us &mdash; vanished. Ancient Egypt, Assyria, Babylon, Greece, Rome, the Crusaders, the Spanish Inquisition, Russian pogroms, Nazi Germany &mdash; all gone. We are still here.",
+                        "Not thanks to military power. Not thanks to territory. Thanks to <strong>education, family, community, the book, and memory</strong>. Every generation taught the next. Every community kept the ember alive. Everywhere in the world &mdash; from the caves of Spain, through the cellars of Russia, to the mountains of Ethiopia &mdash; Jews preserved their identity."
+                    ],
+                    "highlights": ["3,500 years. Thousands of attempts at annihilation. We are still here &mdash; and we are not going anywhere."]
+                }
+            ],
+            [
+                {
+                    "title": "0.2% of the Population, 25% of Nobel Prizes",
+                    "h4s": ["Medicine", "Physics and Science", "Technology and Hi-Tech", "Art, Culture and Entertainment", "Law, Philosophy and Economics"],
+                    "ps": [
+                        "Jews make up <strong>0.2%</strong> of the world's population, but have received <strong>25%</strong> of Nobel Prizes. This is a fact that no conspiracy theory explains &mdash; except a culture of learning, inquiry, and questioning the accepted.",
+                        "<strong>Jonas Salk</strong> &mdash; polio vaccine. <strong>Paul Ehrlich</strong> &mdash; father of chemotherapy. <strong>Selman Waksman</strong> &mdash; streptomycin. <strong>Barry Marshall</strong> &mdash; discovery of H. pylori. <strong>Karl Landsteiner</strong> &mdash; blood type classification. <strong>Gertrude Elion</strong> &mdash; leukemia drugs. Dozens of Jewish scientists who saved millions of lives.",
+                        "<strong>Albert Einstein</strong> &mdash; theory of relativity. <strong>Richard Feynman</strong> &mdash; quantum electrodynamics. <strong>Niels Bohr</strong> (half-Jewish) &mdash; atomic model. <strong>Robert Oppenheimer</strong> &mdash; atomic bomb. <strong>Edward Teller</strong> &mdash; hydrogen bomb. <strong>Murray Gell-Mann</strong> &mdash; quarks.",
+                        "<strong>Sergey Brin</strong> (Google), <strong>Larry Page</strong> (Google), <strong>Mark Zuckerberg</strong> (Facebook), <strong>Larry Ellison</strong> (Oracle), <strong>Michael Dell</strong> (Dell). Israeli achievements: Waze, USB Flash Drive, Iron Dome, Check Point, Mobileye, drip irrigation technology.",
+                        "<strong>Steven Spielberg</strong>, <strong>Stanley Kubrick</strong>, <strong>the Coen Brothers</strong>, <strong>Bob Dylan</strong>, <strong>Leonard Cohen</strong>, <strong>Barbra Streisand</strong>. Hollywood itself was built by Jews (MGM, Warner Bros, Paramount, Universal, Columbia studios).",
+                        "<strong>Karl Marx</strong> (political economy), <strong>Sigmund Freud</strong> (psychoanalysis), <strong>Noam Chomsky</strong> (linguistics), <strong>Milton Friedman</strong> (free-market economics), <strong>Daniel Kahneman</strong> (behavioral economics), <strong>Ruth Bader Ginsburg</strong> (law), <strong>Hannah Arendt</strong> (political philosophy)."
+                    ],
+                    "stats": [
+                        {"num": "25%", "label": "Nobel Prizes"},
+                        {"num": "40%", "label": "World Chess Champions"},
+                        {"num": "26%", "label": "Fields Medals (Mathematics)"}
+                    ],
+                    "highlights": ["0.2% of the population. Impact on 100% of the world. Not \"control\" &mdash; <strong>contribution</strong>."]
+                },
+                {
+                    "title": "Righteous Among the Nations &mdash; Light in the Darkness",
+                    "h4s": ["Oskar Schindler", "Raoul Wallenberg", "Chiune Sugihara", "Irena Sendler", "Nicholas Winton", "Collective Rescues"],
+                    "ps": [
+                        "During the Holocaust, when most of the world was silent, <strong>28,217 people from 51 countries</strong> risked their lives to save Jews. Yad Vashem recognizes them as \"Righteous Among the Nations.\" They are proof that there is always a choice.",
+                        "A German businessman who saved <strong>1,200 Jews</strong> by employing them in his factory. \"Schindler's List\" &mdash; a name that became a symbol of rescue.",
+                        "A Swedish diplomat who saved <strong>up to 100,000 Jews</strong> in Budapest using Swedish \"protection passports.\" He disappeared in Soviet custody after the war.",
+                        "A Japanese consul in Lithuania who wrote <strong>2,139 visas by hand in 29 days</strong>. He continued writing even when ordered to stop, and threw signed visas from the train window. He saved 6,000-10,000 people.",
+                        "A Polish social worker who smuggled <strong>2,500 children</strong> out of the Warsaw Ghetto &mdash; in garbage bags, crates, and ambulances. She kept the children's names in glass jars buried in her garden.",
+                        "He saved <strong>669 Jewish children</strong> from Czechoslovakia in 1939 by organizing children's trains to Britain. <strong>He told no one for 50 years</strong> &mdash; until his wife found a notebook with the names."
+                    ],
+                    "lists": [
+                        [
+                            "<strong>Le Chambon village (France)</strong> &mdash; An entire Protestant village hid 3,500 Jews",
+                            "<strong>Denmark</strong> &mdash; Saved 99% of its Jews (7,220 out of 7,800) by smuggling them to Sweden in fishing boats",
+                            "<strong>Albania</strong> &mdash; A Muslim country that protected its Jews. Ended the war with more Jews than it had at the start",
+                            "<strong>Bulgaria</strong> &mdash; Saved 48,000 Bulgarian Jews from deportation"
+                        ]
+                    ],
+                    "highlights": ["28,217 people who chose to be human when everyone else chose not to be. Proof that you can always choose differently."]
+                }
+            ],
+            [
+                {
+                    "title": "Unity in Times of Trial",
+                    "h4s": ["The Wars That United", "The Altalena Affair &mdash; The Wound That Never Healed", "October 7 &mdash; A Moment of Unity"],
+                    "ps": [
+                        "One thing is clear in Jewish history: <strong>When we are together &mdash; we are strong. When we are divided &mdash; we fall.</strong>",
+                        "The War of Independence (1948), the Six-Day War (1967), the Yom Kippur War (1973) &mdash; every time, millions of Israelis and Jews in the diaspora united immediately. In the hardest hours, the differences disappeared.",
+                        "In June 1948, Ben-Gurion ordered fire on an Irgun weapons ship. <strong>16 Irgun fighters were killed</strong> by the IDF. Menachem Begin prevented a civil war. The wound still hurts &mdash; but the decision to prevent internal war saved the state.",
+                        "After the October 7, 2023 massacre, <strong>all the rifts disappeared for a moment</strong>. Nationalists fought alongside secularists. Traditional Jews opened their homes. Ultra-Orthodox donated food and opened yeshivas to displaced families. Secular people came to help religious communities. Religious people came to help secular communities. <strong>All the rifts disappeared for a moment</strong> &mdash; the question is whether it will hold."
+                    ]
+                },
+                {
+                    "title": "Secular and Religious &mdash; The Internal Tension",
+                    "ps": [
+                        "Jewish society is divided. Points of friction: ultra-Orthodox draft, kashrut, Shabbat, marriage, women's status, the definition of \"Who is a Jew.\" In 2023, Israel experienced the <strong>largest protests in its history</strong> &mdash; hundreds of thousands of demonstrators every week. Secular vs. religious, right vs. left, elites vs. periphery.",
+                        "But on October 7, when the external enemy came &mdash; for a moment &mdash; it healed the internal wounds."
+                    ],
+                    "stats": [
+                        {"num": "45%", "label": "Secular"},
+                        {"num": "25%", "label": "Traditional"},
+                        {"num": "13%", "label": "Ultra-Orthodox"},
+                        {"num": "12%", "label": "Religious-Zionist"}
+                    ],
+                    "highlights": ["Deep rifts &mdash; but when needed, one people."]
+                },
+                {
+                    "title": "Internal Betrayal &mdash; Jews Against Israel",
+                    "h4s": ["The Figures", "The Organizations", "Why Is It Dangerous?"],
+                    "ps": [
+                        "One of the most painful challenges: <strong>Jews who provide \"intellectual ammunition\" to Israel's haters</strong>. They are more dangerous than any external enemy &mdash; because they provide legitimacy.",
+                        "When an antisemite says \"Israel = apartheid\" &mdash; it can be ignored. When a <strong>Jew</strong> says it &mdash; it gains legitimacy. In academia, on campuses, in the media &mdash; Jews against Israel have become \"proof\" that the criticism is \"not antisemitic.\""
+                    ],
+                    "lists": [
+                        [
+                            "<strong>Ilan Pappe</strong> &mdash; Historian who claims Israel committed \"ethnic cleansing\" in 1948",
+                            "<strong>Norman Finkelstein</strong> &mdash; Wrote \"The Holocaust Industry,\" claims Israel exploits the Holocaust",
+                            "<strong>Gideon Levy, Amira Hass</strong> &mdash; Haaretz journalists who deal almost exclusively with criticism of Israel",
+                            "<strong>Shlomo Sand</strong> &mdash; Wrote \"The Invention of the Jewish People\" &mdash; attempts to refute the historical right to the Land of Israel"
+                        ],
+                        [
+                            "<strong>JVP</strong> (Jewish Voice for Peace) &mdash; An American Jewish pro-BDS organization",
+                            "<strong>IfNotNow</strong> &mdash; Young Jews against \"the occupation\"",
+                            "<strong>B'Tselem</strong> &mdash; An Israeli organization that documents \"rights violations\" &mdash; erasing the line between \"apartheid\" and legitimate criticism",
+                            "<strong>Breaking the Silence</strong> &mdash; Former soldiers who testify against the IDF abroad"
+                        ]
+                    ],
+                    "highlights": ["Don't confuse: criticism of Israel is legitimate. But <strong>Jews who serve Israel's haters</strong> &mdash; that is a betrayal of our generation and the generations after us."]
+                }
+            ],
+            [
+                {
+                    "title": "October 7 &mdash; The Day Everything Changed",
+                    "h4s": ["What Happened", "Stories of Heroism", "The Intelligence Failure"],
+                    "ps": [
+                        "On October 7, 2023, about 3,000 Hamas terrorists breached the fence from Gaza and launched a massacre attack on 22 communities, military bases and the \"Nova\" music festival. <strong>1,139-1,219 people were murdered. 251 were kidnapped.</strong>",
+                        "The Be'eri massacre. The Kfar Aza massacre. The Nahal Oz massacre. Nova festival &mdash; 364 young people murdered in an open field. Re'im base &mdash; 66 soldiers killed. Nir Oz community &mdash; a quarter of residents were murdered or kidnapped.",
+                        "Unarmed people who shielded their families with their bodies. Bedouin from the Negev who fought alongside their Jewish neighbors. <strong>Civilian volunteers</strong> who drove for hours to save people they didn't know. Reserve forces who mobilized without orders.",
+                        "Intelligence knew. The military didn't respond. Hours passed before forces reached the communities. Civilians fought alone. The painful questions about the failures remain open."
+                    ]
+                },
+                {
+                    "title": "The Palestinian Narrative &mdash; Versus Reality",
+                    "h4s": ["The \"Refugee\" Problem", "\"Right of Return\" &mdash; What It Really Means", "The Refugees Nobody Mentions", "\"Apartheid\" &mdash; Debunked"],
+                    "ps": [
+                        "In 1948 there were about 700,000 Palestinian refugees. Today UNRWA counts <strong>5.9 million \"refugees\"</strong> &mdash; because Palestinians have unique status: even grandchildren and great-grandchildren of refugees are counted as refugees. This doesn't happen in any other conflict in the world.",
+                        "Returning 5.9 million \"refugees\" to Israel = <strong>the end of Israel as a Jewish state</strong>. This is not a request for justice &mdash; it is a demand for elimination.",
+                        "<strong>850,000 Jews</strong> were expelled from Arab countries. Their property was confiscated. They were absorbed in Israel. Nobody talks about them. They have no UNRWA. They have no \"right of return.\"",
+                        "2 million Israeli Arabs are <strong>full citizens</strong>. They vote, are elected to the Knesset, sit on the Supreme Court, study at universities, work in hospitals. An Arab judge convicted a Jewish president (Moshe Katsav). 83% of Israeli Arabs prefer Israeli citizenship over any alternative."
+                    ]
+                },
+                {
+                    "title": "Antisemitism After October 7 &mdash; The Numbers",
+                    "h4s": ["The Campuses", "Europe", "What Can We Do?"],
+                    "ps": [
+                        "In over 100 universities in the US, Jewish students live in fear. <strong>Encampments, building sieges, calls for \"global intifada\"</strong>. Congressional hearings revealed that university presidents couldn't say that \"calling for the murder of Jews\" violates campus rules.",
+                        "<strong>France:</strong> 440,000 Jews in fear. <strong>Germany:</strong> \"Never again\" is broken. <strong>Amsterdam:</strong> In November 2024, a <strong>pogrom</strong> &mdash; Maccabi Tel Aviv fans were chased through the streets, beaten and stabbed."
+                    ],
+                    "stats": [
+                        {"num": "360%", "label": "Rise in the US"},
+                        {"num": "589%", "label": "Rise in the UK"},
+                        {"num": "738%", "label": "Rise in Canada"},
+                        {"num": "1,000%", "label": "Rise in France (first month)"}
+                    ],
+                    "lists": [
+                        [
+                            "<strong>Education</strong> &mdash; Teaching the history, the facts, the data",
+                            "<strong>Intellectual response</strong> &mdash; Never leave a lie unanswered",
+                            "<strong>Unity</strong> &mdash; Stop fighting among ourselves and fight together",
+                            "<strong>Presence</strong> &mdash; Don't hide. Be Jewish with pride. Everywhere"
+                        ]
+                    ],
+                    "highlights": ["Antisemitism will not disappear. But we can be <strong>prepared, united and unbreakable</strong>. As we have been for 3,500 years."]
+                }
+            ]
+        ]
+    },
     "footer": {
         "motto": "Truth is the most powerful weapon against hatred",
         "motto_en": "Truth is the most powerful weapon against hatred"

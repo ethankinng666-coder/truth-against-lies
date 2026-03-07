@@ -1119,6 +1119,133 @@
         .lightbox-nav:hover { background: rgba(226,183,20,0.4); }
         .lightbox-prev { right: 20px; }
         .lightbox-next { left: 20px; }
+
+        /* === STRENGTHEN THE PEOPLE SECTION === */
+        #strengthen {
+            padding: 80px 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        #strengthen .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        #strengthen .section-header h2 {
+            color: #e2b714;
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+        #strengthen .section-header p {
+            color: #c0c0c0;
+            font-size: 1.1em;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .str-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 40px;
+        }
+        .str-tab {
+            background: rgba(226, 183, 20, 0.08);
+            border: 1px solid rgba(226, 183, 20, 0.25);
+            color: #c0c0c0;
+            padding: 10px 22px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 0.95em;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .str-tab:hover, .str-tab.active {
+            background: rgba(226, 183, 20, 0.2);
+            color: #e2b714;
+            border-color: #e2b714;
+        }
+        .str-panel {
+            display: none;
+            animation: fadeIn 0.4s;
+        }
+        .str-panel.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+        .str-topic {
+            background: rgba(18, 23, 43, 0.8);
+            border: 1px solid rgba(226, 183, 20, 0.15);
+            border-radius: 3px;
+            padding: 30px;
+            margin-bottom: 25px;
+        }
+        .str-topic h3 {
+            color: #e2b714;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            border-bottom: 1px solid rgba(226, 183, 20, 0.15);
+            padding-bottom: 10px;
+        }
+        .str-topic h4 {
+            color: #e2b714;
+            font-size: 1.1em;
+            margin: 20px 0 10px;
+        }
+        .str-topic p {
+            color: #c0c0c0;
+            line-height: 1.8;
+            margin-bottom: 12px;
+        }
+        .str-topic ul {
+            color: #c0c0c0;
+            line-height: 1.8;
+            padding-right: 25px;
+            margin-bottom: 12px;
+        }
+        .str-highlight {
+            background: rgba(226, 183, 20, 0.08);
+            border-right: 3px solid #e2b714;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 0 3px 3px 0;
+            color: #e2b714;
+            font-size: 1.05em;
+        }
+        [dir="ltr"] .str-highlight {
+            border-right: none;
+            border-left: 3px solid #e2b714;
+        }
+        [dir="ltr"] .str-topic ul { padding-right: 0; padding-left: 25px; }
+        .str-stat-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .str-stat {
+            background: rgba(226, 183, 20, 0.06);
+            border: 1px solid rgba(226, 183, 20, 0.15);
+            border-radius: 3px;
+            padding: 15px 20px;
+            flex: 1;
+            min-width: 140px;
+            text-align: center;
+        }
+        .str-stat .num {
+            color: #e2b714;
+            font-size: 1.6em;
+            font-weight: bold;
+        }
+        .str-stat .label {
+            color: #c0c0c0;
+            font-size: 0.85em;
+            margin-top: 5px;
+        }
+        @media (max-width: 600px) {
+            #strengthen { padding: 50px 15px; }
+            .str-tabs { gap: 6px; }
+            .str-tab { padding: 8px 14px; font-size: 0.85em; }
+            .str-topic { padding: 20px 15px; }
+            .str-stat { min-width: 100px; }
+        }
     </style>
 </head>
 <body>
@@ -1139,6 +1266,7 @@
                 <li><a href="#gallery">תיעוד היסטורי</a></li>
                 <li><a href="#report">דווח על אנטישמיות</a></li>
                 <li><a href="#youtube">צפה והתעדכן</a></li>
+                <li><a href="#strengthen">חיזוק העם</a></li>
                 <li><a href="action.html">מה אפשר לעשות?</a></li>
             </ul>
         </div>
@@ -1491,6 +1619,38 @@ function applyTranslation(t) {
 
     // YouTube
     set('#youtube .section-header h2', t.youtube_title);
+
+    // Strengthen the People
+    if (t.strengthen) {
+        var s = t.strengthen;
+        set('#strengthen .section-header h2', s.title);
+        set('#strengthen .section-header p', s.desc, true);
+        if (s.tabs) qsa('.str-tab').forEach(function(tab,i) { if(s.tabs[i]) tab.textContent = s.tabs[i]; });
+        if (s.panels) {
+            qsa('.str-panel').forEach(function(panel, pi) {
+                var sp = s.panels[pi]; if (!sp) return;
+                panel.querySelectorAll('.str-topic').forEach(function(topic, ti) {
+                    var st = sp[ti]; if (!st) return;
+                    var h3 = topic.querySelector('h3');
+                    if (h3 && st.title) h3.innerHTML = st.title;
+                    // Translate h4, p, li, .str-highlight in order
+                    if (st.h4s) topic.querySelectorAll('h4').forEach(function(h4,i) { if(st.h4s[i]) h4.innerHTML = st.h4s[i]; });
+                    if (st.ps) topic.querySelectorAll(':scope > p').forEach(function(p,i) { if(st.ps[i]) p.innerHTML = st.ps[i]; });
+                    if (st.highlights) topic.querySelectorAll('.str-highlight').forEach(function(h,i) { if(st.highlights[i]) h.innerHTML = st.highlights[i]; });
+                    if (st.lists) topic.querySelectorAll('ul').forEach(function(ul,ui) {
+                        if (!st.lists[ui]) return;
+                        ul.querySelectorAll('li').forEach(function(li,li2) { if(st.lists[ui][li2]) li.innerHTML = st.lists[ui][li2]; });
+                    });
+                    if (st.stats) topic.querySelectorAll('.str-stat').forEach(function(stat,si) {
+                        if (!st.stats[si]) return;
+                        var n = stat.querySelector('.num'), l = stat.querySelector('.label');
+                        if (n && st.stats[si].num) n.textContent = st.stats[si].num;
+                        if (l && st.stats[si].label) l.textContent = st.stats[si].label;
+                    });
+                });
+            });
+        }
+    }
 
     // Footer
     if (t.footer) {
@@ -3510,6 +3670,311 @@ function applyTranslation(t) {
     </div>
 </section>
 
+<!-- STRENGTHEN THE PEOPLE -->
+<section id="strengthen">
+    <div class="section-header">
+        <h2>חיזוק העם</h2>
+        <div class="section-divider"></div>
+        <p>לא רק נגד השנאה &mdash; בעד הידע, האחדות והגאווה. הסעיף הזה הוא בשבילנו, העם היהודי</p>
+    </div>
+
+    <div class="str-tabs">
+        <button class="str-tab active" onclick="showStrPanel(0)">מי אנחנו</button>
+        <button class="str-tab" onclick="showStrPanel(1)">מאיפה באנו</button>
+        <button class="str-tab" onclick="showStrPanel(2)">מה נתנו לעולם</button>
+        <button class="str-tab" onclick="showStrPanel(3)">האחדות שלנו</button>
+        <button class="str-tab" onclick="showStrPanel(4)">לאן מכאן</button>
+    </div>
+
+    <!-- TAB 0: מי אנחנו -->
+    <div class="str-panel active" id="strPanel0">
+
+        <div class="str-topic">
+            <h3>הפסיפס היהודי &mdash; עם אחד, אלף פנים</h3>
+            <p>העם היהודי הוא אחד העמים המגוונים בעולם. 2,700 שנות פיזור יצרו קהילות ייחודיות בכל פינה בכדור הארץ &mdash; עם מסורות, שפות, מנהגים ומראה שונים. אבל תמיד עם שורש משותף אחד.</p>
+
+            <h4>ביתא ישראל &mdash; יהודי אתיופיה</h4>
+            <p>שמרו על היהדות באופן עצמאי במשך אלפי שנים, ללא קשר ליהדות העולמית. ב-1984 ו-1991, בשתי פעולות דרמטיות &mdash; <strong>מבצע משה ומבצע שלמה</strong> &mdash; הוטסו עשרות אלפים לישראל. היום חיים בישראל כ-170,000 יהודים ממוצא אתיופי.</p>
+
+            <h4>בני ישראל &mdash; יהודי הודו</h4>
+            <p>קהילת <strong>בני ישראל</strong> במומבאי חיה בהודו 2,100 שנה. שמרו על שבת, כשרות בסיסית ומילה &mdash; מבלי לדעת על קהילות יהודיות אחרות. <strong>יהודי קוצ'ין</strong> בדרום הודו קיימו בתי כנסת כבר מהמאה הרביעית.</p>
+
+            <h4>יהודי קייפנג &mdash; סין</h4>
+            <p>קהילה שחיה בסין 1,000 שנה. בנו בית כנסת ב-1163. נבלעו בסביבה הסינית, אבל היום צאצאים מגלים מחדש את שורשיהם היהודיים.</p>
+
+            <h4>יהודי כורדיסטאן</h4>
+            <p>דוברי <strong>ארמית</strong> &mdash; השפה שדיבר ישו. חיו באזור כורדיסטאן 2,700 שנה, מאז גלות אשור. שמרו על מסורות עתיקות שנעלמו ביהדות האירופית.</p>
+
+            <h4>יהודי בוכרה</h4>
+            <p>2,500 שנה על <strong>דרך המשי</strong>. חיו באוזבקיסטאן, טג'יקיסטאן וצפון אפגניסטאן. שמרו על שפה פרסית-יהודית ייחודית ועל מסורות עתיקות.</p>
+
+            <h4>יהודי ההרים &mdash; הקווקז</h4>
+            <p>עם <strong>מסורת לחימה</strong> ייחודית. חיו בדגסטאן ואזרבייג'ן. העיר קובא נקראה "ירושלים של הקווקז". ידועים כלוחמים אמיצים ושמרני מסורת.</p>
+
+            <h4>יהודי תימן</h4>
+            <p>2,500 שנה בתימן. ב-1949, ב<strong>מבצע מרבד הקסמים</strong>, הוטסו 49,000 יהודי תימן לישראל &mdash; רבים מהם ראו מטוס לראשונה בחייהם. מסורת ליטורגית עתיקה שנשמרה ללא שינוי.</p>
+
+            <h4>האנוסים &mdash; הקריפטו-יהודים</h4>
+            <p>500 שנות סוד. יהודים שנאלצו להתנצר באינקוויזיציה הספרדית והפורטוגלית, אבל <strong>שמרו על יהדותם בחשאי</strong> &mdash; דור אחרי דור. היום, צאצאים ברחבי העולם (ברזיל, מקסיקו, ניו מקסיקו, פורטוגל) מגלים את שורשיהם וחוזרים.</p>
+
+            <div class="str-highlight">ישראל היא נקודת המפגש של כל הקהילות האלה. מקום אחד שבו חייל דרוזי שומר על כפר יהודי, מהנדסת אתיופית מובילה פרויקט הייטק, מוסיקאי מרוקאי מנגן עם שף תימני ליד שף צ'רקסי. <strong>עם אחד, אלף פנים.</strong></div>
+        </div>
+
+        <div class="str-topic">
+            <h3>ישראל מבפנים &mdash; 9.8 מיליון מ-100 מדינות</h3>
+            <p>ישראל היא החברה <strong>הכי מורכבת &mdash; והכי חיה &mdash; בעולם</strong>. בשטח בגודל ניו ג'רזי חיים 9.8 מיליון אנשים מ-100+ מדינות.</p>
+
+            <div class="str-stat-row">
+                <div class="str-stat"><div class="num">73.5%</div><div class="label">יהודים (~7.2 מיליון)</div></div>
+                <div class="str-stat"><div class="num">21%</div><div class="label">ערבים (~2.05 מיליון)</div></div>
+                <div class="str-stat"><div class="num">5.5%</div><div class="label">אחרים (דרוזים, צ'רקסים, בהאים)</div></div>
+            </div>
+
+            <h4>הדרוזים &mdash; "ברית דם"</h4>
+            <p>כ-150,000 דרוזים בישראל. <strong>גדוד 299 ("חרב")</strong> &mdash; גדוד רגלי דרוזי-צ'רקסי. למעלה מ-430 דרוזים נפלו במערכות ישראל. הם משרתים בכל יחידות הצבא &mdash; קרביות, מודיעין ומשמר גבול. הדרוזים מגויסים לצה"ל <strong>בחובה</strong>, מ-1956, בהסכם עם מנהיגי העדה.</p>
+
+            <h4>הבדואים &mdash; עוקבי המדבר</h4>
+            <p>כ-300,000 בדואים, בעיקר בנגב. <strong>יחידת העוקבים</strong> &mdash; יחידה ייחודית של בדואים שמשמשים כגשרי מודיעין, קוראים עקבות ומכירים את המדבר כמו כף ידם. ב-7 באוקטובר, בדואים מתנגב היו בין הראשונים שנפגעו ונלחמו.</p>
+
+            <h4>ערבים נוצרים &mdash; המיעוט שבתוך המיעוט</h4>
+            <p>כ-185,000 נוצרים חיים בישראל. <strong>הקהילה הנוצרית היחידה במזרח התיכון שגדלה</strong>. בכל מקום אחר (עיראק, סוריה, לבנון, מצרים) &mdash; הנוצרים נעלמים. בישראל הם מתנדבים לצה"ל, לומדים באוניברסיטאות, ומכהנים כשופטים.</p>
+
+            <h4>הצ'רקסים &mdash; לוחמים מהקווקז</h4>
+            <p>כ-5,000 צ'רקסים בשני כפרים: כפר קמא וריחניה. <strong>מגויסים לצה"ל בחובה</strong> &mdash; כמו הדרוזים. 150 שנה בישראל. שומרים על שפה (אדיגית), תרבות ייחודית, וזהות שלמה &mdash; ונלחמים על ישראל.</p>
+
+            <h4>מזרחים וספרדים &mdash; חצי מישראל</h4>
+            <p>850,000 יהודים גורשו או ברחו מארצות ערב ומדינות מוסלמיות (1948-1972). <strong>שאף אחד לא מדבר עליהם</strong>. עיראק (75,000), סוריה (30,000), מרוקו (265,000), תימן (49,000), לוב (36,000), מצרים (80,000). הם קלטו בתנאים קשים, אבל היום כ-45% מיהודי ישראל הם ממוצא מזרחי/ספרדי. בכל שכבות החברה.</p>
+
+            <h4>העלייה הרוסית &mdash; מיליון בעשור</h4>
+            <p>בין 1989-2005, כמיליון עולים הגיעו מברית המועצות/חבר העמים. <strong>60% עם תואר אקדמי</strong>. הם שינו את ההייטק הישראלי, הרפואה, המדע, התרבות. מוסיקאים, מדענים, רופאים, מהנדסים &mdash; ישראל הפכה ל"מעצמה מוסיקלית" בזכותם.</p>
+
+            <div class="str-highlight">לא מושלמת. לא שלמה. אבל חיה &mdash; וזו המדינה היחידה שיש לנו.</div>
+        </div>
+    </div>
+
+    <!-- TAB 1: מאיפה באנו -->
+    <div class="str-panel" id="strPanel1">
+
+        <div class="str-topic">
+            <h3>הציונות &mdash; מחלום למדינה</h3>
+            <p>2,000 שנה של כמיהה לא היו רק תפילה. הן הפכו לתנועה פוליטית שיצרה מדינה.</p>
+
+            <h4>לפני הרצל &mdash; השורשים</h4>
+            <p><strong>ליאון פינסקר</strong> (1882) כתב "אוטואמנציפציה" &mdash; שיהודים צריכים להחליט על גורלם בעצמם. <strong>משה הס</strong> כתב "רומא וירושלים" (1862). <strong>הרב צבי הירש קלישר</strong> והרב <strong>יהודה אלקלעי</strong> קראו ליישוב ארץ ישראל עוד לפני כן.</p>
+
+            <h4>הרצל &mdash; 8 שנים ששינו הכל</h4>
+            <p>משפט <strong>דרייפוס</strong> בפריז (1894) שכנע את תיאודור הרצל שלאנטישמיות אין פתרון באירופה. ב-1896 כתב "מדינת היהודים". ב-1897 כינס את <strong>הקונגרס הציוני הראשון בבאזל</strong> &mdash; וכתב ביומנו: "בבאזל ייסדתי את מדינת היהודים... אם אומר את זה היום, ישחקו עלי. בעוד 5 שנים, ודאי בעוד 50, יראו הכל." הוא מת בגיל 44, ב-1904 &mdash; 44 שנה לפני הקמת המדינה.</p>
+
+            <h4>חמש עליות &mdash; בניין מאפס</h4>
+            <p><strong>העלייה הראשונה (1882-1903)</strong> &mdash; חובבי ציון, ביל"ו. <strong>השנייה (1904-1914)</strong> &mdash; אנשי העלייה השנייה בנו את הקיבוצים ואת התשתית. <strong>השלישית (1919-1923)</strong> &mdash; אחרי הצהרת בלפור. <strong>הרביעית (1924-1929)</strong> &mdash; מעמד בינוני מפולין. <strong>החמישית (1929-1939)</strong> &mdash; בורחים מנאציזם. כל גל בנה שכבה נוספת של חיים יהודיים בארץ ישראל.</p>
+
+            <h4>הצהרת בלפור &mdash; 67 מילים</h4>
+            <p>ב-2 בנובמבר 1917, שר החוץ הבריטי ארתור בלפור כתב מכתב של <strong>67 מילים</strong> שהכיר בזכותו של העם היהודי לבית לאומי בארץ ישראל. 67 מילים שניצתו מהפכה.</p>
+
+            <h4>המנדט הבריטי והבגידה</h4>
+            <p>בריטניה קיבלה מנדט על ארץ ישראל ב-1920, אבל הגבילה בהדרגה את העלייה היהודית &mdash; בדיוק כשיהודים נזקקו לה ביותר. <strong>הספר הלבן (1939)</strong> חסם כמעט לחלוטין את ההגירה &mdash; בזמן שנאצים שלטו באירופה. <strong>טרגדיית הסטרומה</strong> (1942): 769 פליטים יהודיים טבעו כי בריטניה סירבה לתת להם להיכנס.</p>
+
+            <h4>המחתרות והמרד העברי</h4>
+            <p><strong>ההגנה</strong>, <strong>אצ"ל</strong> (בראשות מנחם בגין), <strong>לח"י</strong> (בראשות יאיר שטרן) &mdash; לחמו בבריטים ופעלו להבאת עולים בלתי לגאליים. <strong>פיצוץ מלון המלך דוד</strong> (1946) &mdash; רגע מפתח במרד.</p>
+
+            <h4>הצבעת האו"ם &mdash; כ"ט בנובמבר 1947</h4>
+            <p>33 בעד, 13 נגד, 10 נמנעו. תוכנית החלוקה אושרה. יהודים רקדו ברחובות. ערבים הכריזו מלחמה.</p>
+
+            <h4>הכרזת העצמאות &mdash; 14 במאי 1948</h4>
+            <p><strong>32 דקות. 25 חתימות.</strong> דוד בן-גוריון הכריז על הקמת מדינת ישראל. 11 דקות אחר כך, ארה"ב הכירה במדינה. החלום של 2,000 שנה הפך למציאות.</p>
+
+            <div class="str-highlight">מחלום של אדם אחד (הרצל) &mdash; דרך דם, זיעה ודמעות של מיליונים &mdash; למדינה ריבונית. 76 שנה. עדיין כאן.</div>
+        </div>
+
+        <div class="str-topic">
+            <h3>3,500 שנות שרידות</h3>
+            <p>כל עם שרדף אותנו &mdash; נעלם. מצרים העתיקה, אשור, בבל, יוון, רומא, הצלבנים, האינקוויזיציה הספרדית, הפוגרומים הרוסיים, נאצי גרמניה &mdash; כולם חלפו. אנחנו עדיין כאן.</p>
+            <p>לא בזכות כוח צבאי. לא בזכות שטח. בזכות <strong>חינוך, משפחה, קהילה, ספר, וזיכרון</strong>. כל דור לימד את הדור הבא. כל קהילה שמרה על הגחלת. בכל מקום בעולם &mdash; ממערות ספרד, דרך מרתפי רוסיה, עד הררי אתיופיה &mdash; יהודים שמרו על הזהות.</p>
+            <div class="str-highlight">3,500 שנה. אלפי ניסיונות השמדה. אנחנו עדיין כאן &mdash; ואנחנו לא הולכים לשום מקום.</div>
+        </div>
+    </div>
+
+    <!-- TAB 2: מה נתנו לעולם -->
+    <div class="str-panel" id="strPanel2">
+
+        <div class="str-topic">
+            <h3>0.2% מהאוכלוסייה, 25% מפרסי נובל</h3>
+            <p>היהודים מהווים <strong>0.2%</strong> מאוכלוסיית העולם, אבל קיבלו <strong>25%</strong> מפרסי נובל. זו עובדה שאף תיאוריית קונספירציה לא מסבירה &mdash; חוץ מתרבות של לימוד, חקירה, וערעור על המקובל.</p>
+
+            <div class="str-stat-row">
+                <div class="str-stat"><div class="num">25%</div><div class="label">פרסי נובל</div></div>
+                <div class="str-stat"><div class="num">40%</div><div class="label">אלופי שחמט עולם</div></div>
+                <div class="str-stat"><div class="num">26%</div><div class="label">מדליות פילדז (מתמטיקה)</div></div>
+            </div>
+
+            <h4>רפואה</h4>
+            <p><strong>יונאס סולק</strong> &mdash; חיסון הפוליו. <strong>פאול ארליך</strong> &mdash; אבי הכימותרפיה. <strong>שלמן ווקסמן</strong> &mdash; סטרפטומיצין. <strong>בארי מרשל</strong> &mdash; גילוי חיידק הליקובקטר. <strong>קרל לנדשטיינר</strong> &mdash; סיווג סוגי דם. <strong>גרטרוד אליון</strong> &mdash; תרופות נגד לוקמיה. עשרות מדענים יהודים שהצילו מיליוני חיים.</p>
+
+            <h4>פיזיקה ומדע</h4>
+            <p><strong>אלברט איינשטיין</strong> &mdash; תורת היחסות. <strong>ריצ'רד פיינמן</strong> &mdash; אלקטרודינמיקה קוונטית. <strong>נילס בוהר</strong> (חצי יהודי) &mdash; מודל האטום. <strong>רוברט אופנהיימר</strong> &mdash; פצצת האטום. <strong>אדוארד טלר</strong> &mdash; פצצת המימן. <strong>מוריי גל-מאן</strong> &mdash; קווארקים.</p>
+
+            <h4>טכנולוגיה והייטק</h4>
+            <p><strong>סרגיי ברין</strong> (Google), <strong>לארי פייג'</strong> (Google), <strong>מארק צוקרברג</strong> (Facebook), <strong>לארי אליסון</strong> (Oracle), <strong>מייקל דל</strong> (Dell). הישג ישראלי: פיתוח טכנולוגיות Waze, USB Flash Drive, Iron Dome, Check Point, Mobileye, טפטוף להשקיה.</p>
+
+            <h4>אמנות, תרבות ובידור</h4>
+            <p><strong>סטיבן שפילברג</strong>, <strong>סטנלי קובריק</strong>, <strong>האחים כהן</strong>, <strong>בוב דילן</strong>, <strong>לאונרד כהן</strong>, <strong>בארברה סטרייסנד</strong>. הוליווד עצמה נבנתה בידי יהודים (סטודיו MGM, Warner Bros, Paramount, Universal, Columbia).</p>
+
+            <h4>משפט, פילוסופיה וכלכלה</h4>
+            <p><strong>קרל מרקס</strong> (כלכלה פוליטית), <strong>זיגמונד פרויד</strong> (פסיכואנליזה), <strong>נעם חומסקי</strong> (בלשנות), <strong>מילטון פרידמן</strong> (כלכלה חופשית), <strong>דניאל כהנמן</strong> (כלכלה התנהגותית), <strong>רות ביידר גינזבורג</strong> (משפט), <strong>האנה ארנדט</strong> (פילוסופיה פוליטית).</p>
+
+            <div class="str-highlight">0.2% מהאוכלוסייה. השפעה על 100% מהעולם. לא "שליטה" &mdash; <strong>תרומה</strong>.</div>
+        </div>
+
+        <div class="str-topic">
+            <h3>חסידי אומות העולם &mdash; האור בחושך</h3>
+            <p>בזמן השואה, כשרוב העולם שתק, <strong>28,217 אנשים מ-51 מדינות</strong> סיכנו את חייהם כדי להציל יהודים. יד ושם מכיר בהם כ"חסידי אומות העולם". הם ההוכחה שתמיד יש בחירה.</p>
+
+            <h4>אוסקר שינדלר</h4>
+            <p>איש עסקים גרמני שהציל <strong>1,200 יהודים</strong> על ידי העסקתם במפעלו. "הרשימה של שינדלר" &mdash; שם שהפך לסמל של הצלה.</p>
+
+            <h4>ראול ולנברג</h4>
+            <p>דיפלומט שוודי שהציל <strong>עד 100,000 יהודים</strong> בבודפשט בעזרת "דרכוני הגנה" שוודיים. נעלם במעצר סובייטי אחרי המלחמה.</p>
+
+            <h4>צ'יאונה סוגיהרה</h4>
+            <p>קונסול יפני בליטא שכתב <strong>2,139 ויזות ביד ב-29 ימים</strong>. המשיך לכתוב גם כשנצטווה להפסיק, וזרק ויזות חתומות מחלון הרכבת. הציל 6,000-10,000 אנשים.</p>
+
+            <h4>אירנה סנדלר</h4>
+            <p>אשת סוציאלית פולנייה שהבריחה <strong>2,500 ילדים</strong> מגטו ורשה &mdash; בתוך שקי אשפה, ארגזים, ואמבולנסים. שמרה את שמות הילדים בצנצנות זכוכית שקברה בגינה.</p>
+
+            <h4>ניקולאס וינטון</h4>
+            <p>הציל <strong>669 ילדים</strong> יהודים מצ'כוסלובקיה ב-1939 ע"י ארגון רכבות ילדים לבריטניה. <strong>לא סיפר לאיש במשך 50 שנה</strong> &mdash; עד שאשתו מצאה פנקס עם השמות.</p>
+
+            <h4>הצלות קולקטיביות</h4>
+            <ul>
+                <li><strong>כפר לה שמבון (צרפת)</strong> &mdash; כפר פרוטסטנטי שלם החביא 3,500 יהודים</li>
+                <li><strong>דנמרק</strong> &mdash; הצילה 99% מיהודיה (7,220 מתוך 7,800) ע"י הברחה לשוודיה בסירות דייגים</li>
+                <li><strong>אלבניה</strong> &mdash; מדינה מוסלמית שהגנה על יהודיה. סיימה את המלחמה עם יותר יהודים ממה שהיו בתחילתה</li>
+                <li><strong>בולגריה</strong> &mdash; הצילה 48,000 יהודים בולגריים מגירוש</li>
+            </ul>
+
+            <div class="str-highlight">28,217 אנשים שבחרו להיות בני אדם כשכולם בחרו לא להיות. ההוכחה שתמיד אפשר לבחור אחרת.</div>
+        </div>
+    </div>
+
+    <!-- TAB 3: האחדות שלנו -->
+    <div class="str-panel" id="strPanel3">
+
+        <div class="str-topic">
+            <h3>אחדות בזמני מבחן</h3>
+            <p>דבר אחד ברור בהיסטוריה היהודית: <strong>כשאנחנו ביחד &mdash; אנחנו חזקים. כשאנחנו מפולגים &mdash; אנחנו נופלים.</strong></p>
+
+            <h4>המלחמות שאיחדו</h4>
+            <p>מלחמת העצמאות (1948), מלחמת ששת הימים (1967), מלחמת יום כיפור (1973) &mdash; בכל פעם, מיליוני ישראלים ויהודים בתפוצות התאחדו מיידית. בשעות הקשות ביותר, ההבדלים נעלמו.</p>
+
+            <h4>פרשת אלטלנה &mdash; הפצע שלא נרפא</h4>
+            <p>ביוני 1948, בן-גוריון פקד על ירי לעבר ספינת נשק של אצ"ל. <strong>16 לוחמי אצ"ל נהרגו</strong> בידי צה"ל. מנחם בגין מנע מלחמת אחים. הפצע עדיין כואב &mdash; אבל ההחלטה למנוע מלחמה פנימית הצילה את המדינה.</p>
+
+            <h4>7 באוקטובר &mdash; רגע של אחדות</h4>
+            <p>אחרי הטבח של 7 באוקטובר 2023, <strong>כל השסעים נעלמו לרגע</strong>. לאומיים נלחמו לצד חילונים. מסורתיים פתחו בתים. חרדים תרמו מזון ופתחו ישיבות לפליטים. חילונים הגיעו ליישובים דתיים לעזור. דתיים הגיעו ליישובים חילוניים לעזור. <strong>כל השסעים נעלמו לרגע</strong> &mdash; השאלה היא האם זה יחזיק.</p>
+        </div>
+
+        <div class="str-topic">
+            <h3>חילונים ודתיים &mdash; המתח הפנימי</h3>
+            <div class="str-stat-row">
+                <div class="str-stat"><div class="num">45%</div><div class="label">חילונים</div></div>
+                <div class="str-stat"><div class="num">25%</div><div class="label">מסורתיים</div></div>
+                <div class="str-stat"><div class="num">13%</div><div class="label">חרדים</div></div>
+                <div class="str-stat"><div class="num">12%</div><div class="label">דתיים-לאומיים</div></div>
+            </div>
+            <p>החברה היהודית מחולקת. נקודות חיכוך: גיוס חרדים, כשרות, שבת, נישואין, מעמד האישה, הגדרת "מיהו יהודי". ב-2023, ישראל חוותה את <strong>המחאה הגדולה ביותר בתולדותיה</strong> &mdash; מאות אלפי מפגינים כל שבוע. חילונים מול דתיים, ימין מול שמאל, אליטות מול פריפריה.</p>
+            <p>אבל ב-7 באוקטובר, כשהאויב החיצוני הגיע &mdash; לרגע &mdash; ריפא את הפצעים הפנימיים.</p>
+            <div class="str-highlight">שסעים עמוקים &mdash; אבל כשצריך, עם אחד.</div>
+        </div>
+
+        <div class="str-topic">
+            <h3>הבגידה הפנימית &mdash; יהודים נגד ישראל</h3>
+            <p>אחד האתגרים הכואבים ביותר: <strong>יהודים שמספקים "תחמושת אינטלקטואלית" לשונאי ישראל</strong>. הם מסוכנים יותר מכל אויב חיצוני &mdash; כי הם נותנים לגיטימציה.</p>
+
+            <h4>הדמויות</h4>
+            <ul>
+                <li><strong>אילן פפה</strong> &mdash; היסטוריון שטוען ישראל ביצעה "טיהור אתני" ב-1948</li>
+                <li><strong>נורמן פינקלשטיין</strong> &mdash; כתב "תעשיית השואה", טוען שישראל מנצלת את השואה</li>
+                <li><strong>גדעון לוי, עמירה הס</strong> &mdash; עיתונאי הארץ שעוסקים כמעט אך ורק בביקורת על ישראל</li>
+                <li><strong>שלמה זנד</strong> &mdash; כתב "מתי ואיך הומצא העם היהודי" &mdash; מנסה להפריך את הזכות ההיסטורית לארץ ישראל</li>
+            </ul>
+
+            <h4>הארגונים</h4>
+            <ul>
+                <li><strong>JVP</strong> (Jewish Voice for Peace) &mdash; ארגון יהודי אמריקאי פרו-BDS</li>
+                <li><strong>IfNotNow</strong> &mdash; יהודים צעירים נגד "הכיבוש"</li>
+                <li><strong>בצלם</strong> &mdash; ארגון ישראלי שמתעד "הפרות זכויות" &mdash; וביטל את ההבדל בין "אפרטהייד" לביקורת לגיטימית</li>
+                <li><strong>שוברים שתיקה</strong> &mdash; חיילים לשעבר שמעידים נגד צה"ל בחו"ל</li>
+            </ul>
+
+            <h4>למה זה מסוכן?</h4>
+            <p>כשאנטישמי אומר "ישראל = אפרטהייד" &mdash; אפשר להתעלם. כש<strong>יהודי</strong> אומר את זה &mdash; זה מקבל לגיטימציה. באקדמיה, בקמפוסים, במדיה &mdash; יהודים נגד ישראל הפכו ל"הוכחה" שהביקורת "לא אנטישמית".</p>
+
+            <div class="str-highlight">לא לבלבל: ביקורת על ישראל היא לגיטימית. אבל <strong>יהודים שמשרתים את שונאי ישראל</strong> &mdash; זו בגידה בדור שלנו ובדורות שאחרינו.</div>
+        </div>
+    </div>
+
+    <!-- TAB 4: לאן מכאן -->
+    <div class="str-panel" id="strPanel4">
+
+        <div class="str-topic">
+            <h3>7 באוקטובר &mdash; היום שהכל השתנה</h3>
+            <p>ב-7 באוקטובר 2023, כ-3,000 מחבלי חמאס פרצו את הגדר מעזה ופתחו במתקפת טבח על 22 יישובים, בסיסי צבא ומסיבת "נובה". <strong>1,139-1,219 בני אדם נרצחו. 251 נחטפו.</strong></p>
+
+            <h4>מה קרה</h4>
+            <p>טבח כפר עזה (ילדים, תינוקות, משפחות שלמות). טבח בארי. טבח נחל עוז. מסיבת נובה &mdash; 364 צעירים נרצחו בשדה פתוח. בסיס רעים &mdash; 66 חיילים נהרגו. קהילת ניר עוז &mdash; רבע מהתושבים נרצחו או נחטפו.</p>
+
+            <h4>סיפורי גבורה</h4>
+            <p>אנשים חסרי נשק שהגנו על משפחות בגופם. בדואים מהנגב שנלחמו לצד שכניהם היהודיים. <strong>אורח חיים מתנדבים</strong> שנסעו שעות כדי להציל אנשים שלא הכירו. כוחות מילואים שהתגייסו בלי פקודה.</p>
+
+            <h4>כשל המודיעין</h4>
+            <p>המודיעין ידע. הצבא לא הגיב. שעות עברו לפני שכוחות הגיעו ליישובים. אזרחים נלחמו לבד. השאלות הכואבות על הכשלים עדיין פתוחות.</p>
+        </div>
+
+        <div class="str-topic">
+            <h3>הנרטיב הפלסטיני &mdash; מול המציאות</h3>
+
+            <h4>בעיית ה"פליטים"</h4>
+            <p>ב-1948 היו כ-700,000 פליטים פלסטינים. היום אונר"א מונה <strong>5.9 מיליון "פליטים"</strong> &mdash; כי לפלסטינים מעמד ייחודי: גם נכדים ונינים של פליטים נחשבים פליטים. זה לא קורה בשום סכסוך אחר בעולם.</p>
+
+            <h4>"זכות השיבה" &mdash; מה זה באמת אומר</h4>
+            <p>החזרת 5.9 מיליון "פליטים" לישראל = <strong>סוף ישראל כמדינה יהודית</strong>. זו לא בקשה לצדק &mdash; זו דרישה לחיסול.</p>
+
+            <h4>הפליטים שאף אחד לא מזכיר</h4>
+            <p><strong>850,000 יהודים</strong> גורשו מארצות ערב. נכסיהם הוחרמו. הם נקלטו בישראל. אף אחד לא מדבר עליהם. אין להם אונר"א. אין להם "זכות שיבה".</p>
+
+            <h4>"אפרטהייד" &mdash; מופרך</h4>
+            <p>2 מיליון ערבים ישראלים הם <strong>אזרחים מלאים</strong>. מצביעים, נבחרים לכנסת, יושבים בבית המשפט העליון, לומדים באוניברסיטאות, עובדים בבתי חולים. שופט ערבי הרשיע נשיא יהודי (משה קצב). 83% מערבי ישראל מעדיפים אזרחות ישראלית על כל חלופה.</p>
+        </div>
+
+        <div class="str-topic">
+            <h3>אנטישמיות אחרי 7 באוקטובר &mdash; המספרים</h3>
+
+            <div class="str-stat-row">
+                <div class="str-stat"><div class="num">360%</div><div class="label">עלייה בארה"ב</div></div>
+                <div class="str-stat"><div class="num">589%</div><div class="label">עלייה בבריטניה</div></div>
+                <div class="str-stat"><div class="num">738%</div><div class="label">עלייה בקנדה</div></div>
+                <div class="str-stat"><div class="num">1,000%</div><div class="label">עלייה בצרפת (חודש ראשון)</div></div>
+            </div>
+
+            <h4>הקמפוסים</h4>
+            <p>ביותר מ-100 אוניברסיטאות בארה"ב, סטודנטים יהודיים חיים בפחד. <strong>מחנאות, מצורים על מבנים, קריאות "אינתיפאדה גלובלית"</strong>. שימועי הקונגרס חשפו שנשיאות אוניברסיטאות לא יכולות לומר ש"קריאה לרצח יהודים" מפרה את כללי הקמפוס.</p>
+
+            <h4>אירופה</h4>
+            <p><strong>צרפת:</strong> 440,000 יהודים בפחד. <strong>גרמניה:</strong> "עוד פעם לעולם לא" נשבר. <strong>אמסטרדם:</strong> בנובמבר 2024, <strong>פוגרום</strong> &mdash; אוהדי מכבי תל אביב נרדפו ברחובות, הוכו ונדקרו.</p>
+
+            <h4>מה עושים?</h4>
+            <ul>
+                <li><strong>חינוך</strong> &mdash; ללמד את ההיסטוריה, את העובדות, את הנתונים</li>
+                <li><strong>תגובה אינטלקטואלית</strong> &mdash; לא להשאיר שקר ללא מענה</li>
+                <li><strong>אחדות</strong> &mdash; להפסיק להילחם בינינו ולהילחם ביחד</li>
+                <li><strong>נוכחות</strong> &mdash; לא להסתתר. להיות יהודים בגאווה. בכל מקום</li>
+            </ul>
+
+            <div class="str-highlight">האנטישמיות לא תיעלם. אבל אנחנו יכולים להיות <strong>מוכנים, מאוחדים ובלתי שבירים</strong>. כמו שהיינו 3,500 שנה.</div>
+        </div>
+    </div>
+</section>
+
 </main>
 
 <!-- FOOTER -->
@@ -3537,6 +4002,15 @@ function applyTranslation(t) {
 </footer>
 
 <script>
+// Strengthen the People tabs
+function showStrPanel(idx) {
+    document.querySelectorAll('.str-panel').forEach(function(p) { p.classList.remove('active'); });
+    document.querySelectorAll('.str-tab').forEach(function(t) { t.classList.remove('active'); });
+    var panel = document.getElementById('strPanel' + idx);
+    if (panel) panel.classList.add('active');
+    document.querySelectorAll('.str-tab')[idx].classList.add('active');
+}
+
 function toggleCategory(header) {
     const claimsList = header.nextElementSibling;
     const toggleText = header.querySelector('.category-toggle');
@@ -3583,7 +4057,7 @@ function searchSite() {
     if (!query) return;
     document.querySelectorAll('.search-highlight').forEach(el => el.classList.remove('search-highlight'));
     searchMatches = [];
-    document.querySelectorAll('h2, h3, h4, p, .claim-header span, .lie-card h3, .timeline-content h3, .region-card h3, .intro-card p, .stat-label, li').forEach(el => {
+    document.querySelectorAll('h2, h3, h4, p, .claim-header span, .lie-card h3, .timeline-content h3, .region-card h3, .intro-card p, .stat-label, li, .str-highlight').forEach(el => {
         if (el.textContent.includes(query)) searchMatches.push(el);
     });
     if (searchMatches.length === 0) {

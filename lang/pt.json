@@ -14,6 +14,7 @@
         "Documentação Histórica",
         "Denunciar antissemitismo",
         "Assista e aprenda",
+        "Fortalecer o povo",
         "O que pode ser feito?"
     ],
     "ui": {
@@ -833,5 +834,335 @@
     "footer": {
         "motto": "A verdade é a arma mais poderosa contra o ódio",
         "motto_en": "A verdade é a arma mais poderosa contra o ódio"
+    },
+    "strengthen": {
+        "title": "Fortalecer o povo",
+        "desc": "Não apenas contra o ódio &mdash; pelo conhecimento, unidade e orgulho. Esta seção é para nós, o povo judeu",
+        "tabs": [
+            "Quem somos",
+            "De onde viemos",
+            "O que demos ao mundo",
+            "Nossa Unidade",
+            "De onde daqui"
+        ],
+        "panels": [
+            [
+                {
+                    "title": "O Mosaico Judaico &mdash; Um Povo, Mil Faces",
+                    "h4s": [
+                        "Beta Israel &mdash; Judeus Etíopes",
+                        "Bene Israel &mdash; Judeus da Índia",
+                        "Judeus Kaifeng &mdash; China",
+                        "Judeus curdos",
+                        "Judeus bukharan",
+                        "Judeus da Montanha &mdash; O Cáucaso",
+                        "Judeus iemenitas",
+                        "Os Anusim &mdash; Cripto-Judeus"
+                    ],
+                    "ps": [
+                        "O povo judeu é um dos povos mais diversos do mundo. 2.700 anos de dispersão criaram comunidades únicas em todos os cantos do globo &mdash; com diferentes tradições, línguas, costumes e aparências. Mas sempre com uma raiz compartilhada.",
+                        "Eles preservaram o Judaísmo de forma independente durante milhares de anos, sem contato com o judaísmo mundial. Em 1984 e 1991, em duas operações dramáticas &mdash; <strong>Operação Moisés e Operação Salomão</strong> &mdash; dezenas de milhares de pessoas foram transportadas de avião para Israel. Hoje cerca de 170 mil judeus de origem etíope vivem em Israel.",
+                        "A comunidade <strong>Bene Israel</strong> em Mumbai viveu na Índia por 2.100 anos. Eles guardavam o Shabat, a cashrut básica e a circuncisão &mdash; sem saber sobre outras comunidades judaicas. Os <strong>Judeus Cochin</strong> no sul da Índia mantiveram sinagogas desde o século IV.",
+                        "Uma comunidade que viveu na China durante 1.000 anos. Eles construíram uma sinagoga em 1163. Foram absorvidos pela sociedade chinesa, mas hoje os descendentes estão redescobrindo suas raízes judaicas.",
+                        "Falantes de <strong>Aramaico</strong> &mdash; a língua que Jesus falava. Eles viveram na região do Curdistão durante 2.700 anos, desde o exílio assírio. Eles preservaram tradições antigas que desapareceram no Judaísmo Europeu.",
+                        "2.500 anos na <strong>Rota da Seda</strong>. Eles viveram no Uzbequistão, no Tadjiquistão e no norte do Afeganistão. Eles preservaram uma língua judaico-persa única e tradições antigas.",
+                        "Com uma <strong>tradição guerreira</strong> única. Eles viveram no Daguestão e no Azerbaijão. A cidade de Quba era chamada de \"Jerusalém do Cáucaso\". Conhecidos como bravos lutadores e guardiões da tradição.",
+                        "2.500 anos no Iêmen. Em 1949, na <strong>Operação Tapete Mágico</strong>, 49.000 judeus iemenitas foram transportados de avião para Israel &mdash; muitos deles vendo um avião pela primeira vez em suas vidas. Uma antiga tradição litúrgica preservada inalterada.",
+                        "500 anos de segredo. Judeus forçados a converter-se durante a Inquisição Espanhola e Portuguesa, mas que <strong>mantiveram o seu Judaísmo em segredo</strong> &mdash; geração após geração. Hoje, descendentes em todo o mundo (Brasil, México, Novo México, Portugal) estão descobrindo as suas raízes e regressando."
+                    ],
+                    "highlights": [
+                        "Israel é o ponto de encontro de todas estas comunidades. Um lugar onde um soldado druso guarda uma aldeia judaica, um engenheiro etíope lidera um projeto de alta tecnologia, um músico marroquino toca ao lado de um chef iemenita ao lado de um chef circassiano. <strong>Uma pessoa, mil rostos.</strong>"
+                    ]
+                },
+                {
+                    "title": "Israel de dentro &mdash; 9,8 milhões de 100 países",
+                    "h4s": [
+                        "O Druso &mdash; \"Aliança de Sangue\"",
+                        "Os beduínos &mdash; rastreadores do deserto",
+                        "Árabes Cristãos &mdash; A Minoria Dentro da Minoria",
+                        "Os circassianos &mdash; guerreiros do Cáucaso",
+                        "Judeus Mizrahi e Sefarditas &mdash; Metade de Israel",
+                        "A Aliyah Russa &mdash; Um milhão em uma década"
+                    ],
+                    "ps": [
+                        "Israel é a sociedade <strong>mais complexa &mdash; e mais viva &mdash; do mundo</strong>. Numa área do tamanho de Nova Jersey, vivem juntas 9,8 milhões de pessoas de mais de 100 países.",
+                        "Cerca de 150.000 drusos em Israel. <strong>Batalhão 299 (\"Espada\")</strong> &mdash; um batalhão de infantaria druso-circassiano. Mais de 430 drusos morreram nas guerras de Israel. Eles servem em todas as unidades militares &mdash; de combate, inteligência e patrulha de fronteira. Os drusos são convocados para as FDI <strong>por obrigação</strong>, desde 1956, por acordo com os líderes comunitários.",
+                        "Cerca de 300.000 beduínos, principalmente no Negev. A <strong>Trackers Unit</strong> &mdash; uma unidade única de beduínos que servem como recursos de inteligência, leem rastros e conhecem o deserto como a palma da sua mão. Em 7 de outubro, beduínos do Neguev foram dos primeiros a serem atingidos e a revidar.",
+                        "Cerca de 185.000 cristãos vivem em Israel. <strong>A única comunidade cristã no Médio Oriente que está a crescer</strong>. Em todos os outros lugares (Iraque, Síria, Líbano, Egipto) &mdash; os cristãos estão a desaparecer. Em Israel, eles são voluntários nas FDI, estudam em universidades e atuam como juízes.",
+                        "Cerca de 5.000 circassianos em duas aldeias: Kfar Kama e Rehaniya. <strong>Convocado para a IDF por obrigação</strong> &mdash; como os drusos. 150 anos em Israel. Eles preservam sua língua (Adyghe), cultura única e identidade completa &mdash; e lutam por Israel.",
+                        "850.000 judeus foram expulsos ou fugiram de países árabes e estados muçulmanos (1948-1972). <strong>Ninguém fala sobre eles</strong>. Iraque (75 mil), Síria (30 mil), Marrocos (265 mil), Iémen (49 mil), Líbia (36 mil), Egito (80 mil). Eles foram absorvidos em condições duras, mas hoje cerca de 45% dos judeus israelenses são de origem Mizrahi/Sefardita. Em todas as camadas da sociedade.",
+                        "Entre 1989-2005, cerca de um milhão de imigrantes chegaram da União Soviética/CEI. <strong>60% com títulos acadêmicos</strong>. Eles transformaram a alta tecnologia, a medicina, a ciência e a cultura israelenses. Músicos, cientistas, médicos, engenheiros &mdash; Israel tornou-se uma “superpotência musical” graças a eles."
+                    ],
+                    "stats": [
+                        {
+                            "num": "73,5%",
+                            "label": "Judeus (~7,2 milhões)"
+                        },
+                        {
+                            "num": "21%",
+                            "label": "Árabes (~2,05 milhões)"
+                        },
+                        {
+                            "num": "5,5%",
+                            "label": "Outros (drusos, circassianos, bahá'ís)"
+                        }
+                    ],
+                    "highlights": [
+                        "Não é perfeito. Não inteiro. Mas vivo &mdash; e é o único país que temos."
+                    ]
+                }
+            ],
+            [
+                {
+                    "title": "Sionismo &mdash; Do Sonho ao Estado",
+                    "h4s": [
+                        "Antes de Herzl &mdash; As Raízes",
+                        "Herzl &mdash; 8 anos que mudaram tudo",
+                        "Cinco Aliyot &mdash; Construindo do Nada",
+                        "A Declaração Balfour &mdash; 67 Palavras",
+                        "O Mandato Britânico e a Traição",
+                        "Os movimentos clandestinos e a revolta hebraica",
+                        "A Votação da ONU &mdash; 29 de novembro de 1947",
+                        "A Declaração de Independência &mdash; 14 de maio de 1948"
+                    ],
+                    "ps": [
+                        "2.000 anos de saudade não foram apenas orações. Eles se tornaram um movimento político que criou um estado.",
+                        "<strong>Leon Pinsker</strong> (1882) escreveu \"Auto-Emancipação\" &mdash; que os judeus devem decidir seu próprio destino. <strong>Moses Hess</strong> escreveu \"Roma e Jerusalém\" (1862). O Rabino <strong>Zvi Hirsch Kalischer</strong> e o Rabino <strong>Yehuda Alkalai</strong> pediram o estabelecimento da Terra de Israel antes mesmo disso.",
+                        "O <strong>julgamento de Dreyfus</strong> em Paris (1894) convenceu Theodor Herzl de que o anti-semitismo não tinha solução na Europa. Em 1896 ele escreveu \"O Estado Judeu\". Em 1897 ele convocou o <strong>Primeiro Congresso Sionista em Basileia</strong> &mdash; e escreveu em seu diário: \"Em Basileia eu fundei o Estado Judeu... Se eu dissesse isso hoje, ririam de mim. Em 5 anos, certamente em 50, todos verão.\" Ele morreu aos 44 anos, em 1904 &mdash; 44 anos antes da criação do estado.",
+                        "<strong>Primeira Aliyah (1882-1903)</strong> &mdash; Hovevei Zion, BILU. <strong>Second (1904-1914)</strong> &mdash; construiu os kibutzim e a infraestrutura. <strong>Terceiro (1919-1923)</strong> &mdash; após a Declaração Balfour. <strong>Quarta (1924-1929)</strong> &mdash; classe média da Polônia. <strong>Quinto (1929-1939)</strong> &mdash; fugindo do nazismo. Cada onda construiu outra camada de vida judaica na Terra de Israel.",
+                        "Em 2 de novembro de 1917, o secretário de Relações Exteriores britânico, Arthur Balfour, escreveu uma carta de <strong>67 palavras</strong> reconhecendo o direito do povo judeu a um lar nacional na Terra de Israel. 67 palavras que desencadearam uma revolução.",
+                        "A Grã-Bretanha recebeu um mandato sobre a Palestina em 1920, mas gradualmente restringiu a imigração judaica &mdash; precisamente quando os judeus mais precisavam dela. O <strong>Livro Branco (1939)</strong> bloqueou quase completamente a imigração &mdash; enquanto os nazistas governavam a Europa. A <strong>Tragédia de Struma</strong> (1942): 769 refugiados judeus afogaram-se porque a Grã-Bretanha se recusou a deixá-los entrar.",
+                        "Os <strong>Haganah</strong>, <strong>Irgun</strong> (liderado por Menachem Begin), <strong>Lehi</strong> (liderado por Yair Stern) &mdash; lutaram contra os britânicos e trabalharam para trazer imigrantes ilegais. O <strong>Atentado ao Hotel King David</strong> (1946) &mdash; um ponto de viragem na revolta.",
+                        "33 a favor, 13 contra, 10 abstenções. O plano de partição foi aprovado. Os judeus dançavam nas ruas. Os árabes declararam guerra.",
+                        "<strong>32 minutos. 25 assinaturas.</strong> David Ben-Gurion declarou o estabelecimento do Estado de Israel. 11 minutos depois, os Estados Unidos reconheceram o estado. O sonho de 2.000 anos tornou-se realidade."
+                    ],
+                    "highlights": [
+                        "Do sonho de um homem (Herzl) &mdash;, passando pelo sangue, suor e lágrimas de milhões &mdash;, até um estado soberano. 76 anos. Ainda aqui."
+                    ]
+                },
+                {
+                    "title": "3.500 anos de sobrevivência",
+                    "ps": [
+                        "Todas as pessoas que nos perseguiram &mdash; desapareceram. Antigo Egito, Assíria, Babilônia, Grécia, Roma, os Cruzados, a Inquisição Espanhola, os pogroms russos, a Alemanha nazista &mdash; tudo se foi. Ainda estamos aqui.",
+                        "Não graças ao poder militar. Não graças ao território. Obrigado a <strong>educação, família, comunidade, livro e memória</strong>. Cada geração ensinou a seguinte. Cada comunidade manteve a brasa viva. Em todo o mundo &mdash; desde as cavernas de Espanha, passando pelas caves da Rússia, até às montanhas da Etiópia &mdash; os Judeus preservaram a sua identidade."
+                    ],
+                    "highlights": [
+                        "3.500 anos. Milhares de tentativas de aniquilação. Ainda estamos aqui &mdash; e não vamos a lugar nenhum."
+                    ]
+                }
+            ],
+            [
+                {
+                    "title": "0,2% da população, 25% dos prêmios Nobel",
+                    "h4s": [
+                        "Medicamento",
+                        "Física e Ciência",
+                        "Tecnologia e alta tecnologia",
+                        "Arte, Cultura e Entretenimento",
+                        "Direito, Filosofia e Economia"
+                    ],
+                    "ps": [
+                        "Os judeus representam <strong>0,2%</strong> da população mundial, mas receberam <strong>25%</strong> dos Prêmios Nobel. Este é um fato que nenhuma teoria da conspiração explica &mdash;, exceto uma cultura de aprendizagem, investigação e questionamento do aceito.",
+                        "<strong>Jonas Salk</strong> &mdash; vacina contra a poliomielite. <strong>Paul Ehrlich</strong> &mdash; pai da quimioterapia. <strong>Selman Waksman</strong> &mdash; estreptomicina. <strong>Barry Marshall</strong> &mdash; descoberta de H. pylori. <strong>Karl Landsteiner</strong> &mdash; classificação do tipo sanguíneo. <strong>Gertrude Elion</strong> &mdash; medicamentos para leucemia. Dezenas de cientistas judeus que salvaram milhões de vidas.",
+                        "<strong>Albert Einstein</strong> &mdash; teoria da relatividade. <strong>Richard Feynman</strong> &mdash; eletrodinâmica quântica. <strong>Niels Bohr</strong> (meio-judeu) &mdash; modelo atômico. <strong>Robert Oppenheimer</strong> &mdash; bomba atômica. <strong>Edward Teller</strong> &mdash; bomba de hidrogênio. <strong>Murray Gell-Mann</strong> &mdash; quarks.",
+                        "<strong>Sergey Brin</strong> (Google), <strong>Larry Page</strong> (Google), <strong>Mark Zuckerberg</strong> (Facebook), <strong>Larry Ellison</strong> (Oracle), <strong>Michael Dell</strong> (Dell). Conquistas israelenses: Waze, USB Flash Drive, Iron Dome, Check Point, Mobileye, tecnologia de irrigação por gotejamento.",
+                        "<strong>Steven Spielberg</strong>, <strong>Stanley Kubrick</strong>, <strong>os irmãos Coen</strong>, <strong>Bob Dylan</strong>, <strong>Leonard Cohen</strong>, <strong>Barbra Streisand</strong>. A própria Hollywood foi construída por judeus (estúdios MGM, Warner Bros, Paramount, Universal, Columbia).",
+                        "<strong>Karl Marx</strong> (economia política), <strong>Sigmund Freud</strong> (psicanálise), <strong>Noam Chomsky</strong> (linguística), <strong>Milton Friedman</strong> (economia de livre mercado), <strong>Daniel Kahneman</strong> (economia comportamental), <strong>Ruth Bader Ginsburg</strong> (direito), <strong>Hannah Arendt</strong> (filosofia política)."
+                    ],
+                    "stats": [
+                        {
+                            "num": "25%",
+                            "label": "Prêmios Nobel"
+                        },
+                        {
+                            "num": "40%",
+                            "label": "Campeões Mundiais de Xadrez"
+                        },
+                        {
+                            "num": "26%",
+                            "label": "Medalhas Fields (Matemática)"
+                        }
+                    ],
+                    "highlights": [
+                        "0,2% da população. Impacto em 100% do mundo. Não \"controle\" &mdash; <strong>contribuição</strong>."
+                    ]
+                },
+                {
+                    "title": "Justos entre as nações &mdash; Luz nas trevas",
+                    "h4s": [
+                        "Oscar Schindler",
+                        "Raoul Wallenberg",
+                        "Chiune Sugihara",
+                        "Irena Sendler",
+                        "Nicholas Winton",
+                        "Resgates Coletivos"
+                    ],
+                    "ps": [
+                        "Durante o Holocausto, quando a maior parte do mundo estava em silêncio, <strong>28.217 pessoas de 51 países</strong> arriscaram as suas vidas para salvar judeus. Yad Vashem os reconhece como “Justos entre as Nações”. Eles são a prova de que sempre há uma escolha.",
+                        "Um empresário alemão que salvou <strong>1.200 judeus</strong> empregando-os em sua fábrica. \"Lista de Schindler\" &mdash; um nome que se tornou um símbolo de resgate.",
+                        "Um diplomata sueco que salvou <strong>até 100.000 judeus</strong> em Budapeste usando “passaportes de proteção” suecos. Ele desapareceu sob custódia soviética após a guerra.",
+                        "Um cônsul japonês na Lituânia que escreveu <strong>2.139 vistos à mão em 29 dias</strong>. Ele continuou escrevendo mesmo quando recebeu ordem de parar e jogou vistos assinados pela janela do trem. Ele salvou de 6.000 a 10.000 pessoas.",
+                        "Uma assistente social polaca que contrabandeou <strong>2.500 crianças</strong> para fora do Gueto de Varsóvia &mdash; em sacos de lixo, caixotes e ambulâncias. Ela guardava os nomes das crianças em potes de vidro enterrados em seu jardim.",
+                        "Ele salvou <strong>669 crianças judias</strong> da Tchecoslováquia em 1939, organizando trens infantis para a Grã-Bretanha. <strong>Ele não contou a ninguém por 50 anos</strong> &mdash; até que sua esposa encontrou um caderno com os nomes."
+                    ],
+                    "lists": [
+                        [
+                            "<strong>Aldeia Le Chambon (França)</strong> &mdash; Uma aldeia protestante inteira escondeu 3.500 judeus",
+                            "<strong>Dinamarca</strong> &mdash; Salvou 99% de seus judeus (7.220 de 7.800) contrabandeando-os para a Suécia em barcos de pesca",
+                            "<strong>Albânia</strong> &mdash; Um país muçulmano que protegeu os seus judeus. Terminou a guerra com mais judeus do que no início",
+                            "<strong>Bulgária</strong> &mdash; salvou 48.000 judeus búlgaros da deportação"
+                        ]
+                    ],
+                    "highlights": [
+                        "28.217 pessoas que escolheram ser humanas quando todos os outros escolheram não ser. Prova de que você sempre pode escolher diferente."
+                    ]
+                }
+            ],
+            [
+                {
+                    "title": "Unidade em tempos de provação",
+                    "h4s": [
+                        "As guerras que uniram",
+                        "O caso Altalena &mdash; A ferida que nunca cicatrizou",
+                        "7 de outubro &mdash; Um momento de unidade"
+                    ],
+                    "ps": [
+                        "Uma coisa é clara na história judaica: <strong>Quando estamos juntos &mdash; somos fortes. Quando estamos divididos &mdash; caímos.</strong>",
+                        "A Guerra da Independência (1948), a Guerra dos Seis Dias (1967), a Guerra do Yom Kippur (1973) &mdash; todas as vezes, milhões de israelenses e judeus na diáspora se uniram imediatamente. Nas horas mais difíceis, as diferenças desapareceram.",
+                        "Em junho de 1948, Ben-Gurion ordenou disparar contra um navio de armas Irgun. <strong>16 Combatentes do Irgun foram mortos</strong> pelas FDI. Menachem Begin evitou uma guerra civil. A ferida ainda dói &mdash; mas a decisão de evitar a guerra interna salvou o estado.",
+                        "Após o massacre de 7 de outubro de 2023, <strong>todas as fendas desapareceram por um momento</strong>. Os nacionalistas lutaram ao lado dos secularistas. Os judeus tradicionais abriram suas casas. Os ultraortodoxos doaram alimentos e abriram yeshivas para famílias deslocadas. Pessoas seculares vieram ajudar as comunidades religiosas. Pessoas religiosas vieram ajudar comunidades seculares. <strong>Todas as fendas desapareceram por um momento</strong> &mdash; a questão é se isso vai durar."
+                    ]
+                },
+                {
+                    "title": "Secular e Religioso &mdash; A Tensão Interna",
+                    "ps": [
+                        "A sociedade judaica está dividida. Pontos de atrito: recrutamento ultraortodoxo, cashrut, Shabat, casamento, status da mulher, a definição de “Quem é judeu”. Em 2023, Israel viveu os <strong>maiores protestos da sua história</strong> &mdash; centenas de milhares de manifestantes todas as semanas. Secular versus religioso, direita versus esquerda, elites versus periferia.",
+                        "Mas no dia 7 de outubro, quando o inimigo externo veio &mdash; por um momento &mdash; ele curou as feridas internas."
+                    ],
+                    "stats": [
+                        {
+                            "num": "45%",
+                            "label": "Secular"
+                        },
+                        {
+                            "num": "25%",
+                            "label": "Tradicional"
+                        },
+                        {
+                            "num": "13%",
+                            "label": "Ultraortodoxo"
+                        },
+                        {
+                            "num": "12%",
+                            "label": "Religioso-sionista"
+                        }
+                    ],
+                    "highlights": [
+                        "Fendas profundas &mdash; mas quando necessário, um povo."
+                    ]
+                },
+                {
+                    "title": "Traição Interna &mdash; Judeus Contra Israel",
+                    "h4s": [
+                        "As Figuras",
+                        "As organizações",
+                        "Por que é perigoso?"
+                    ],
+                    "ps": [
+                        "Um dos desafios mais dolorosos: <strong>Judeus que fornecem “munição intelectual” aos que odeiam Israel</strong>. São mais perigosos do que qualquer inimigo externo &mdash; porque proporcionam legitimidade.",
+                        "Quando um antissemita diz “Israel = apartheid” &mdash; isso pode ser ignorado. Quando um <strong>Judeu</strong> diz isso &mdash; ele ganha legitimidade. Na academia, nos campi, na mídia &mdash; Judeus contra Israel tornaram-se “prova” de que a crítica “não é anti-semita”."
+                    ],
+                    "lists": [
+                        [
+                            "<strong>Ilan Pappe</strong> &mdash; Historiador que afirma que Israel cometeu \"limpeza étnica\" em 1948",
+                            "<strong>Norman Finkelstein</strong> &mdash; Escreveu \"A Indústria do Holocausto\", afirma que Israel explora o Holocausto",
+                            "<strong>Gideon Levy, Amira Hass</strong> &mdash; Jornalistas do Haaretz que lidam quase exclusivamente com críticas a Israel",
+                            "<strong>Shlomo Sand</strong> &mdash; Escreveu \"A Invenção do Povo Judeu\" &mdash; tenta refutar o direito histórico à Terra de Israel"
+                        ],
+                        [
+                            "<strong>JVP</strong> (Voz Judaica pela Paz) &mdash; Uma organização judaica americana pró-BDS",
+                            "<strong>IfNotNow</strong> &mdash; Jovens judeus contra “a ocupação”",
+                            "<strong>B'Tselem</strong> &mdash; Uma organização israelense que documenta \"violações de direitos\" &mdash; apagando a linha entre \"apartheid\" e críticas legítimas",
+                            "<strong>Quebrando o Silêncio</strong> &mdash; Ex-soldados que testemunham contra as FDI no exterior"
+                        ]
+                    ],
+                    "highlights": [
+                        "Não confunda: as críticas a Israel são legítimas. Mas <strong>Judeus que servem aos que odeiam Israel</strong> &mdash; isso é uma traição à nossa geração e às gerações seguintes."
+                    ]
+                }
+            ],
+            [
+                {
+                    "title": "7 de outubro &mdash; O dia em que tudo mudou",
+                    "h4s": [
+                        "O que aconteceu",
+                        "Histórias de heroísmo",
+                        "A falha de inteligência"
+                    ],
+                    "ps": [
+                        "Em 7 de outubro de 2023, cerca de 3.000 terroristas do Hamas romperam a cerca de Gaza e lançaram um ataque massacre a 22 comunidades, bases militares e ao festival de música “Nova”. <strong>1.139-1.219 pessoas foram assassinadas. 251 foram sequestrados.</strong>",
+                        "O massacre de Be'eri. O massacre de Kfar Aza. O massacre de Nahal Oz. Festival Nova &mdash; 364 jovens assassinados em campo aberto. Base Re'im &mdash; 66 soldados mortos. Comunidade Nir Oz &mdash; um quarto dos residentes foram assassinados ou sequestrados.",
+                        "Pessoas desarmadas que protegiam suas famílias com seus corpos. Beduínos do Neguev que lutaram ao lado dos seus vizinhos judeus. <strong>Voluntários civis</strong> que dirigiram por horas para salvar pessoas que não conheciam. Forças de reserva que se mobilizaram sem ordens.",
+                        "A inteligência sabia. Os militares não responderam. Horas se passaram antes que as forças chegassem às comunidades. Os civis lutaram sozinhos. As dolorosas questões sobre os fracassos permanecem em aberto."
+                    ]
+                },
+                {
+                    "title": "A Narrativa Palestina &mdash; Versus Realidade",
+                    "h4s": [
+                        "O problema dos “refugiados”",
+                        "\"Direito de Retorno\" &mdash; O que realmente significa",
+                        "Os refugiados que ninguém menciona",
+                        "\"Apartheid\" &mdash; desmascarado"
+                    ],
+                    "ps": [
+                        "Em 1948 havia cerca de 700 mil refugiados palestinos. Hoje a UNRWA conta com <strong>5,9 milhões de “refugiados”</strong> &mdash; porque os palestinos têm um estatuto único: até os netos e bisnetos dos refugiados são contados como refugiados. Isso não acontece em nenhum outro conflito no mundo.",
+                        "Devolver 5,9 milhões de “refugiados” a Israel = <strong>o fim de Israel como estado judeu</strong>. Este não é um pedido de justiça &mdash; é uma exigência de eliminação.",
+                        "<strong>850.000 judeus</strong> foram expulsos dos países árabes. Suas propriedades foram confiscadas. Eles foram absorvidos em Israel. Ninguém fala sobre eles. Eles não têm UNRWA. Eles não têm “direito de retorno”.",
+                        "2 milhões de árabes israelenses são <strong>cidadãos plenos</strong>. Eles votam, são eleitos para o Knesset, têm assento no Supremo Tribunal, estudam em universidades, trabalham em hospitais. Um juiz árabe condenou um presidente judeu (Moshe Katsav). 83% dos árabes israelenses preferem a cidadania israelense a qualquer alternativa."
+                    ]
+                },
+                {
+                    "title": "Anti-semitismo depois de 7 de outubro &mdash; Os números",
+                    "h4s": [
+                        "Os campi",
+                        "Europa",
+                        "O que podemos fazer?"
+                    ],
+                    "ps": [
+                        "Em mais de 100 universidades nos EUA, os estudantes judeus vivem com medo. <strong>Acampamentos, construção de cercos, apelos à \"intifada global\"</strong>. As audiências no Congresso revelaram que os reitores das universidades não podiam dizer que “pedir o assassinato de judeus” viola as regras do campus.",
+                        "<strong>França:</strong> 440.000 judeus com medo. <strong>Alemanha:</strong> \"Nunca mais\" está quebrado. <strong>Amsterdam:</strong> Em novembro de 2024, um <strong>pogrom</strong> &mdash; torcedores do Maccabi Tel Aviv foram perseguidos pelas ruas, espancados e esfaqueados."
+                    ],
+                    "stats": [
+                        {
+                            "num": "360%",
+                            "label": "Ascensão nos EUA"
+                        },
+                        {
+                            "num": "589%",
+                            "label": "Ascensão no Reino Unido"
+                        },
+                        {
+                            "num": "738%",
+                            "label": "Ascensão no Canadá"
+                        },
+                        {
+                            "num": "1.000%",
+                            "label": "Ascensão na França (primeiro mês)"
+                        }
+                    ],
+                    "lists": [
+                        [
+                            "<strong>Educação</strong> &mdash; Ensinando a história, os fatos, os dados",
+                            "<strong>Resposta intelectual</strong> &mdash; Nunca deixe uma mentira sem resposta",
+                            "<strong>Unity</strong> &mdash; Pare de brigar entre nós e lute juntos",
+                            "<strong>Presença</strong> &mdash; Não se esconda. Seja judeu com orgulho. Em todos os lugares"
+                        ]
+                    ],
+                    "highlights": [
+                        "O anti-semitismo não desaparecerá. Mas podemos estar <strong>preparados, unidos e inquebráveis</strong>. Como temos sido há 3.500 anos."
+                    ]
+                }
+            ]
+        ]
     }
 }
