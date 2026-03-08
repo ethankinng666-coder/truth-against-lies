@@ -1582,11 +1582,8 @@ var _origHTML = {};
 function goTranslate(lang) {
     document.getElementById('langMenu').classList.remove('open');
     if (lang === 'he') { goOriginal(); return; }
-    if (CUSTOM_LANGS.indexOf(lang) !== -1) {
-        loadCustomTranslation(lang);
-    } else {
-        goGoogleTranslate(lang);
-    }
+    localStorage.setItem('siteLang', lang);
+    goGoogleTranslate(lang);
 }
 
 function goGoogleTranslate(lang) {
@@ -1824,10 +1821,10 @@ function applyTranslation(t) {
 // Auto-load saved language on page load
 (function() {
     var saved = localStorage.getItem('siteLang');
-    if (saved && saved !== 'he' && CUSTOM_LANGS.indexOf(saved) !== -1) {
-        loadCustomTranslation(saved);
+    if (saved && saved !== 'he') {
+        document.cookie = 'googtrans=/he/' + saved + ';path=/';
+        document.cookie = 'googtrans=/he/' + saved + ';path=/;domain=.github.io';
     }
-    // Load Google Translate only if a googtrans cookie exists (non-custom language was selected)
     var hasGT = document.cookie.indexOf('googtrans=') !== -1 && document.cookie.indexOf('googtrans=;') === -1;
     if (hasGT) {
         var s = document.createElement('script');

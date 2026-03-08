@@ -323,6 +323,12 @@
             .action-section h2 { font-size: 1.3em; }
             .org-grid { grid-template-columns: 1fr; }
         }
+        /* Google Translate */
+        #google_translate_element { position: absolute; top: -9999px; left: -9999px; visibility: hidden; }
+        .goog-te-banner-frame { display: none !important; }
+        .skiptranslate { display: none !important; }
+        body { top: 0 !important; position: static !important; }
+        .goog-te-gadget { display: none !important; }
     </style>
 </head>
 <body>
@@ -529,6 +535,27 @@ document.addEventListener('click', function(e) {
     }
 });
 </script>
+<div id="google_translate_element"></div>
+<script>
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage:'he',autoDisplay:false}, 'google_translate_element');
+}
+(function(){
+    var lang = localStorage.getItem('siteLang');
+    if (lang && lang !== 'he') {
+        document.cookie = 'googtrans=/he/' + lang + ';path=/';
+        document.cookie = 'googtrans=/he/' + lang + ';path=/;domain=.github.io';
+    }
+    var hasGT = document.cookie.indexOf('googtrans=') !== -1 && document.cookie.indexOf('googtrans=;') === -1;
+    if (hasGT && !document.getElementById('gt-script')) {
+        var s = document.createElement('script');
+        s.id = 'gt-script';
+        s.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+        document.body.appendChild(s);
+    }
+})();
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="supabase-config.js"></script>
 <script>trackPageView('action');</script>
