@@ -41,6 +41,22 @@
             text-decoration: none;
             white-space: nowrap;
         }
+        .nav-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            background: rgba(226, 183, 20, 0.1);
+            border: 1px solid rgba(226, 183, 20, 0.4);
+            border-radius: 8px;
+            color: #e2b714;
+            text-decoration: none;
+            font-size: 0.85em;
+            font-weight: bold;
+            white-space: nowrap;
+            transition: all 0.3s;
+        }
+        .nav-back:hover { background: rgba(226, 183, 20, 0.25); border-color: #e2b714; }
         .nav-menu-wrapper { position: relative; }
         .hamburger {
             display: flex;
@@ -191,6 +207,7 @@
             .nav-inner { gap: 8px; }
             .nav-logo { font-size: 1.05em; }
             .nav-donate { font-size: 0.8em; padding: 5px 10px; }
+            .nav-back { font-size: 0.75em; padding: 5px 10px; }
             .section-header h2 { font-size: 1.7em; }
             .region-card { padding: 20px; }
         }
@@ -217,6 +234,7 @@
                 <li><a href="action.html">מה אפשר לעשות?</a></li>
             </ul>
         </div>
+        <a href="index.html" class="nav-back">&#8594; דף ראשי</a>
         <a href="https://buymeacoffee.com/nathaniellinder" target="_blank" rel="noopener" class="nav-donate">&#9749; תמוך</a>
     </div>
 </nav>
