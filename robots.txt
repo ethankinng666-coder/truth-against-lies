@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://truth-against-lies.github.io/truth-against-lies/sitemap.xml
+
+# Admin page - do not index
+Disallow: /truth-against-lies/admin.html
