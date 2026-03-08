@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>צפה והתעדכן | האמת נגד השקר</title>
+    <meta name="description" content="סרטונים חינוכיים שמפרקים מיתוסים אנטישמיים, וערוצים מומלצים שנלחמים באנטישמיות">
+    <meta name="theme-color" content="#0a0a1a">
+    <link rel="preconnect" href="https://img.youtube.com">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif;
+            overflow-x: hidden;
+            background-color: #0a0a1a;
+            color: #e0e0e0;
+            line-height: 1.7;
+            scroll-behavior: smooth;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(10, 10, 26, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(226, 183, 20, 0.3);
+            padding: 0 20px;
+        }
+        .nav-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            height: 60px;
+            gap: 12px;
+        }
+        .nav-logo {
+            color: #e2b714;
+            font-size: 1.3em;
+            font-weight: bold;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        .nav-menu-wrapper { position: relative; }
+        .hamburger {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: none;
+            border: 1px solid rgba(226, 183, 20, 0.3);
+            color: #e2b714;
+            font-size: 1.4em;
+            width: 44px;
+            height: 40px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+        .hamburger:hover { background: rgba(226, 183, 20, 0.15); border-color: #e2b714; }
+        .nav-links {
+            display: none;
+            position: absolute;
+            top: 50px;
+            right: 0;
+            background: rgba(10, 10, 26, 0.98);
+            border: 1px solid rgba(226, 183, 20, 0.2);
+            border-radius: 0 0 3px 3px;
+            padding: 8px 0;
+            list-style: none;
+            min-width: 220px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+        .nav-links.open { display: flex; flex-direction: column; }
+        .nav-links li a {
+            color: #c0c0c0;
+            text-decoration: none;
+            font-size: 0.95em;
+            padding: 11px 25px;
+            display: block;
+            transition: all 0.3s;
+            border-bottom: 1px solid rgba(226, 183, 20, 0.06);
+        }
+        .nav-links li:last-child a { border-bottom: none; }
+        .nav-links li a:hover { color: #e2b714; background: rgba(226, 183, 20, 0.08); }
+        .nav-donate {
+            padding: 6px 14px;
+            background: rgba(226, 183, 20, 0.15);
+            border: 1px solid rgba(226, 183, 20, 0.4);
+            color: #e2b714;
+            text-decoration: none;
+            font-size: 0.85em;
+            font-weight: bold;
+            border-radius: 3px;
+            white-space: nowrap;
+            transition: background 0.3s, border-color 0.3s;
+            margin-right: auto;
+        }
+        .nav-donate:hover { background: rgba(226, 183, 20, 0.3); border-color: #e2b714; }
+        .section-header {
+            text-align: center;
+            padding: 50px 0 25px;
+        }
+        .section-header h2 {
+            color: #e2b714;
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+        .section-divider {
+            width: 60px;
+            height: 3px;
+            background: #e2b714;
+            margin: 0 auto 15px;
+        }
+        .section-header p {
+            color: #888;
+            font-size: 1em;
+        }
+        /* === YOUTUBE SECTION === */
+        .yt-subsection-title {
+            color: #e2b714;
+            font-size: 1.2em;
+            margin: 30px 0 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(226, 183, 20, 0.2);
+        }
+        .yt-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+        @media (max-width: 900px) {
+            .yt-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 500px) {
+            .yt-grid { grid-template-columns: 1fr; }
+        }
+        .yt-card {
+            background: #12172b;
+            border-radius: 3px;
+            overflow: hidden;
+            border: 1px solid rgba(226, 183, 20, 0.1);
+            transition: border-color 0.3s;
+            text-decoration: none;
+            display: block;
+        }
+        .yt-card:hover {
+            border-color: #e2b714;
+            box-shadow: 0 8px 25px rgba(226, 183, 20, 0.15);
+        }
+        .yt-thumb {
+            background: linear-gradient(135deg, #0a0a1a, #16213e);
+            height: 130px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .yt-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .yt-play {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: rgba(226, 183, 20, 0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3em;
+            color: #0a0a1a;
+            z-index: 2;
+        }
+        .yt-info {
+            padding: 10px 12px;
+        }
+        .yt-info h4 {
+            color: #fff;
+            font-size: 0.9em;
+            margin-bottom: 4px;
+        }
+        .yt-info p {
+            color: #999;
+            font-size: 0.75em;
+            line-height: 1.4;
+        }
+        .yt-badge {
+            display: inline-block;
+            background: rgba(226, 183, 20, 0.15);
+            color: #e2b714;
+            font-size: 0.7em;
+            padding: 2px 8px;
+            border-radius: 3px;
+            margin-bottom: 8px;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid rgba(226, 183, 20, 0.2);
+            margin-top: 80px;
+            color: #666;
+        }
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            width: 50px;
+            height: 50px;
+            background: #e2b714;
+            color: #0a0a1a;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.5em;
+            cursor: pointer;
+            display: none;
+            z-index: 999;
+            transition: opacity 0.3s;
+            box-shadow: 0 4px 15px rgba(226, 183, 20, 0.3);
+        }
+        .back-to-top.visible { display: block; }
+        @media (max-width: 768px) {
+            nav { padding: 0 12px; }
+            .nav-inner { gap: 8px; }
+            .nav-logo { font-size: 1.05em; }
+            .nav-donate { font-size: 0.8em; padding: 5px 10px; }
+            .section-header h2 { font-size: 1.7em; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">האמת נגד השקר</a>
+        <div class="nav-menu-wrapper">
+            <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="index.html#about">מה זה אנטישמיות?</a></li>
+                <li><a href="index.html#claims">עלילות והפרכות</a></li>
+                <li><a href="lies.html">שקרים נפוצים</a></li>
+                <li><a href="index.html#timeline">ציר זמן</a></li>
+                <li><a href="index.html#psychology">הפסיכולוגיה</a></li>
+                <li><a href="regions.html">שנאה לפי עמים</a></li>
+                <li><a href="gallery.html">תיעוד היסטורי</a></li>
+                <li><a href="videos.html" style="color:#e2b714;">צפה והתעדכן</a></li>
+                <li><a href="index.html#strengthen">חיזוק העם</a></li>
+                <li><a href="index.html#report">דווח על אנטישמיות</a></li>
+                <li><a href="action.html">מה אפשר לעשות?</a></li>
+            </ul>
+        </div>
+        <a href="https://buymeacoffee.com/nathaniellinder" target="_blank" rel="noopener" class="nav-donate">&#9749; תמוך</a>
+    </div>
+</nav>
+
+<main style="max-width: 1000px; margin: 0 auto; padding: 80px 20px 0;">
+
+<section id="youtube">
+    <div class="section-header">
+        <h2>צפה והתעדכן</h2>
+        <div class="section-divider"></div>
+        <p>סרטונים חינוכיים שמפרקים מיתוסים אנטישמיים, וערוצים מומלצים שנלחמים באנטישמיות</p>
+    </div>
+
+    <!-- ===== TOPIC-BASED EDUCATIONAL VIDEOS ===== -->
+
+    <h3 class="yt-subsection-title">שורשי השנאה &mdash; מהעת העתיקה ועד ימינו</h3>
+    <div class="yt-grid">
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/watch?v=FAJfddwKraQ" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/FAJfddwKraQ/mqdefault.jpg" alt="למה אנטישמיות עדיין קיימת?" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Unpacked</div>
+                <h4>למה אנטישמיות עדיין קיימת?</h4>
+                <p>מסדרת "אנטישמיות בהסבר" &mdash; למה השנאה הוותיקה בעולם שורדת אלפי שנים?</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/watch?v=c3dKIDtAYXk" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/c3dKIDtAYXk/mqdefault.jpg" alt="של מי האשמה באנטישמיות?" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Unpacked</div>
+                <h4>של מי האשמה באנטישמיות?</h4>
+                <p>מה באמת גורם לאנטישמיות? ומדוע התשובה חשובה למאבק בה</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/watch?v=bOImkx2ecY8" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/bOImkx2ecY8/mqdefault.jpg" alt="האם התלמוד שטני?" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Unpacked</div>
+                <h4>האם התלמוד שטני?</h4>
+                <p>הפרכת תיאוריית הקונספירציה &mdash; מגיור כפוי בימי הביניים עד אנטישמים מודרניים</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/watch?v=kEdnwpo28NM" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/kEdnwpo28NM/mqdefault.jpg" alt="שנאת יהודים בימי הביניים" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Henry Abramson</div>
+                <h4>שנאת יהודים בימי הביניים</h4>
+                <p>עלילת דם, חילול הלחם וההאשמות שהובילו לטבח של קהילות שלמות</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/watch?v=FrYKEpuGcOA" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/FrYKEpuGcOA/mqdefault.jpg" alt="ועידת לטרן הרביעית" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Henry Abramson</div>
+                <h4>ועידת לטרן הרביעית &mdash; 1215</h4>
+                <p>הוועידה שיצרה אנטישמיות מוסדית: סימון יהודים, הגבלות ורדיפות</p>
+            </div>
+        </a>
+
+    </div>
+
+    <h3 class="yt-subsection-title">מיתוסים, קונספירציות ופוליטיקה</h3>
+    <div class="yt-grid">
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/watch?v=dCD9Eemz6Zs" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/dCD9Eemz6Zs/mqdefault.jpg" alt="האם הרוטשילדים שולטים בעולם?" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Unpacked</div>
+                <h4>האם הרוטשילדים שולטים בעולם?</h4>
+                <p>הפרכת מיתוס השליטה הפיננסית היהודית &mdash; מה מסתתר מאחורי הקונספירציה</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/watch?v=tUrDrhrNqas" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/tUrDrhrNqas/mqdefault.jpg" alt="מקורות תיאוריות קונספירציה אנטישמיות" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Unpacked</div>
+                <h4>מקורות תיאוריות הקונספירציה</h4>
+                <p>מ"פרוטוקולי זקני ציון" המזויפים ועד קונספירציות ברשתות &mdash; מאיפה זה מגיע?</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/watch?v=On4QmiyhFPk" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/On4QmiyhFPk/mqdefault.jpg" alt="כשאנטישמיות נעשית פוליטית" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Unpacked</div>
+                <h4>כשאנטישמיות נעשית פוליטית</h4>
+                <p>נאמנות כפולה, שליטה בממשלות ושאר שקרים &mdash; אנטישמיות בזירה הפוליטית</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/watch?v=0TUHvVvIrck" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/0TUHvVvIrck/mqdefault.jpg" alt="האם יהודים יכולים להיות אנטישמים?" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Unpacked</div>
+                <h4>האם יהודים יכולים להיות אנטישמים?</h4>
+                <p>גזענות מופנמת, ריחוק עצמי ודוגמאות היסטוריות ומודרניות</p>
+            </div>
+        </a>
+
+    </div>
+
+    <h3 class="yt-subsection-title">השואה וזיכרון</h3>
+    <div class="yt-grid">
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/watch?v=K83KDSY8d-U" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/K83KDSY8d-U/mqdefault.jpg" alt="ליל הבדולח" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Unpacked</div>
+                <h4>ליל הבדולח &mdash; Kristallnacht</h4>
+                <p>הלילה שבו הנאצים הרסו בתי כנסת, עסקים ובתים ברחבי גרמניה &mdash; הפרולוג לשואה</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/watch?v=iQeDvnapdlg" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/iQeDvnapdlg/mqdefault.jpg" alt="השואה ורצח העם" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">CrashCourse</div>
+                <h4>השואה, רצח עם ומלחמת העולם השנייה</h4>
+                <p>סקירה מקיפה של רצח שישה מיליון יהודים &mdash; מהאידיאולוגיה הנאצית ועד מחנות ההשמדה</p>
+            </div>
+        </a>
+
+    </div>
+
+    <h3 class="yt-subsection-title">ישראל והיסטוריה יהודית</h3>
+    <div class="yt-grid">
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/watch?v=ZV5ddewYMok" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/ZV5ddewYMok/mqdefault.jpg" alt="האם יהודים ילידי ארץ ישראל?" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Unpacked</div>
+                <h4>האם יהודים ילידי ארץ ישראל?</h4>
+                <p>3,000 שנה של קשר יהודי לארץ &mdash; ארכיאולוגיה, היסטוריה ונוכחות רציפה</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/watch?v=xrms7yFKTKo" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/xrms7yFKTKo/mqdefault.jpg" alt="האינקוויזיציה הספרדית" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Unpacked</div>
+                <h4>האינקוויזיציה הספרדית</h4>
+                <p>רדיפת היהודים בספרד, גירוש 1492 והשפעתו על העם היהודי</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/watch?v=yC8aMb2fI9s" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/yC8aMb2fI9s/mqdefault.jpg" alt="פרשת דרייפוס" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Unpacked</div>
+                <h4>פרשת דרייפוס</h4>
+                <p>הרשעת השווא שחשפה את האנטישמיות בצרפת והולידה את התנועה הציונית</p>
+            </div>
+        </a>
+
+    </div>
+
+    <!-- ===== RECOMMENDED CHANNELS ===== -->
+    <div style="margin: 50px 0 30px; border-top: 2px solid rgba(226,183,20,0.2); padding-top: 30px; text-align: center;">
+        <h3 style="color: #e2b714; font-size: 1.4em; margin-bottom: 8px;">ערוצים מומלצים</h3>
+        <p style="color: #aaa; font-size: 0.95em;">ערוצי יוטיוב שנלחמים באנטישמיות ומפיצים את האמת &mdash; בעברית ובאנגלית</p>
+    </div>
+
+    <h3 class="yt-subsection-title">&#127470;&#127473; ערוצים בעברית</h3>
+    <div class="yt-grid">
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@EliahuYosian" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/3CU9TJOnlEQ/mqdefault.jpg" alt="אליהו יוסיאן" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">עברית</div>
+                <h4>אליהו יוסיאן</h4>
+                <p>מומחה לאיראן ולמזרח התיכון, יוצא יחידה 8200, מרצה ופרשן ביטחוני בתקשורת הישראלית</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/channel/UC6TGQnuJRLA9frZlpKwx3JQ" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/JpvNo79Qx4s/mqdefault.jpg" alt="צבי יחזקאלי" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">עברית</div>
+                <h4>צבי יחזקאלי</h4>
+                <p>עיתונאי ופרשן ענייני ערבים, יוצר סדרות דוקומנטריות על האסלאם והמזרח התיכון, רשת 13</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/c/IsraelDefenseForces" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/Oh26Yyw5Dc8/mqdefault.jpg" alt="צה״ל" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">עברית / English</div>
+                <h4>צה"ל &mdash; כוחות ההגנה לישראל</h4>
+                <p>הערוץ הרשמי של צה"ל &mdash; עדכונים צבאיים, תדרוכים של דובר צה"ל, הסברה ותיעוד פעילות</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.instagram.com/yosephhaddad/" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/dZ62bhMFQ1Y/mqdefault.jpg" alt="יוסף חדאד" loading="lazy">
+                <div class="yt-play" style="background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Instagram / TikTok</div>
+                <h4>יוסף חדאד</h4>
+                <p>פעיל ערבי-ישראלי שמגן על ישראל ברשתות החברתיות ובזירה הבינלאומית, מייסד "ביחד ערבים זה לזה"</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://x.com/MosabHasanYOSEF" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/c2NaiX-hvVQ/mqdefault.jpg" alt="מוסאב חסן יוסף" loading="lazy">
+                <div class="yt-play" style="background: #1da1f2;">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">X (Twitter)</div>
+                <h4>מוסאב חסן יוסף &mdash; "בן החמאס"</h4>
+                <p>בנו של מייסד חמאס, שריגל לשב"כ, מחבר "בן חמאס" ופעיל פרו-ישראלי בזירה הבינלאומית</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@HananyaNaftali" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/KVswcPvaJME/mqdefault.jpg" alt="חנניה נפתלי" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">עברית / English</div>
+                <h4>חנניה נפתלי</h4>
+                <p>יוצר תוכן פרו-ישראלי, לשעבר יועץ דיגיטלי של ראש הממשלה, 3+ מיליון עוקבים בכל הפלטפורמות</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/channel/UCauYT94mZMKYxCFIgBzfq0g" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/9143mdDqxQM/mqdefault.jpg" alt="אם תרצו" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">עברית</div>
+                <h4>אם תרצו</h4>
+                <p>התנועה הציונית הגדולה בישראל. נלחמת בפוסט-ציונות, מפיקה תוכן הסברתי ומפעילה 6,000+ מתנדבים</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@drkedar" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/jRlcFjYGlmQ/mqdefault.jpg" alt="ד״ר קידר" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">עברית / ערבית</div>
+                <h4>פרופ' מרדכי קידר</h4>
+                <p>מומחה לתרבות ערבית מאוניברסיטת בר-אילן, 25 שנה במודיעין הצבאי, מגן על ישראל בערבית בטלוויזיה הערבית</p>
+            </div>
+        </a>
+
+    </div>
+
+    <h3 class="yt-subsection-title">&#127468;&#127463; ערוצים באנגלית</h3>
+    <div class="yt-grid">
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/channel/UCckMqUWHVwFWJwSVE9FQJaA" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/Ozme8qwuXfQ/mqdefault.jpg" alt="Israel Advocacy Movement" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English</div>
+                <h4>Israel Advocacy Movement</h4>
+                <p>ארגון בריטי שמייצר סרטוני הסברה פרו-ישראליים, ויכוחים ברחוב ותוכן חינוכי נגד שקרים על ישראל</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@benshapiro" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/6VixqvOcK8E/mqdefault.jpg" alt="Ben Shapiro" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English</div>
+                <h4>Ben Shapiro</h4>
+                <p>פרשן שמרני אמריקאי, מנהל The Daily Wire, מגן על ישראל ונגד אנטישמיות מנקודת מבט ימנית</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@realcharliekirk" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/aQjx3UEHoC4/mqdefault.jpg" alt="Charlie Kirk" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English</div>
+                <h4>Charlie Kirk / Turning Point USA</h4>
+                <p>פעיל שמרני אמריקאי, מייסד Turning Point USA, מדבר בעד ישראל ונגד שמאל קיצוני בקמפוסים</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@PragerU" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/B32SwnkK_Po/mqdefault.jpg" alt="PragerU" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English</div>
+                <h4>PragerU / Dennis Prager</h4>
+                <p>ארגון חינוכי שמרני שמפיק סרטונים של 5 דקות על ערכים מערביים, ישראל, ציונות ויהדות</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/standwithus" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/tgpATovt_yo/mqdefault.jpg" alt="StandWithUs" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English</div>
+                <h4>StandWithUs</h4>
+                <p>ארגון חינוכי פרו-ישראלי בינלאומי שנלחם באנטישמיות ומפיק תוכן הסברתי על ישראל</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@CAMERA4Truth" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/wqoOWYZZu8k/mqdefault.jpg" alt="CAMERA" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English</div>
+                <h4>CAMERA</h4>
+                <p>ארגון ניטור תקשורת שבודק דיוק והוגנות בסיקור ישראל והמזרח התיכון בתקשורת המערבית</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/user/HonestReportingVideo" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/cStJ_vm_scU/mqdefault.jpg" alt="HonestReporting" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English</div>
+                <h4>HonestReporting</h4>
+                <p>ארגון ישראלי שחושף הטיות אנטי-ישראליות בתקשורת הבינלאומית ומנתח סיקור של הסכסוך</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@Pulseofisrael" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/SKghDCLwk8Q/mqdefault.jpg" alt="Pulse of Israel" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English</div>
+                <h4>Pulse of Israel (Israel Video Network)</h4>
+                <p>ערוץ של אבי אבלוב שמפיץ סרטונים מעוררי השראה על ישראל, העם היהודי ומציאות המזרח התיכון</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@ToviaSinger1" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/LNSvys3cp7Y/mqdefault.jpg" alt="Rabbi Tovia Singer" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English</div>
+                <h4>Rabbi Tovia Singer</h4>
+                <p>רב ומרצה שמחזק זהות יהודית, מתמודד עם מיסיון נוצרי ומסביר תנ"ך מנקודת מבט יהודית</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://rumble.com/c/BrigitteGabriel" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/Ry3NzkAOo3s/mqdefault.jpg" alt="Brigitte Gabriel" loading="lazy">
+                <div class="yt-play" style="background: #85c742;">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Rumble</div>
+                <h4>Brigitte Gabriel</h4>
+                <p>פעילה לבנונית-אמריקאית נגד אסלאם קיצוני, מייסדת ACT for America, מרצה על איומי הטרור</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://x.com/COLRICHARDKEMP" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/tN1MkAGuVyY/mqdefault.jpg" alt="Colonel Richard Kemp" loading="lazy">
+                <div class="yt-play" style="background: #1da1f2;">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">X (Twitter)</div>
+                <h4>Colonel Richard Kemp</h4>
+                <p>קולונל בריטי בדימוס, מגן על פעולות צה"ל בזירה הבינלאומית ומעיד על מוסריות הצבא הישראלי</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@douglasmurray" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/UpXYZgQp7uc/mqdefault.jpg" alt="Douglas Murray" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English</div>
+                <h4>Douglas Murray</h4>
+                <p>סופר ועיתונאי בריטי, הקול הפרו-ישראלי החזק ביותר במערב מאז 7 באוקטובר. בילה 19 שבועות בישראל במהלך המלחמה</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@UNWatch" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/ckgYmla7Yd8/mqdefault.jpg" alt="UN Watch" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English</div>
+                <h4>UN Watch / Hillel Neuer</h4>
+                <p>ארגון ג'נבה שחושף הטיה אנטי-ישראלית באו"ם. הנאום "איפה היהודים שלכם?" הגיע ל-10+ מיליון צפיות</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/channel/UC59Cpk70K2TwdmApJOTuW9g" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/4vVzZV9zALc/mqdefault.jpg" alt="MEMRI TV" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English / Arabic</div>
+                <h4>MEMRI TV</h4>
+                <p>מתרגם תקשורת ערבית ופרסית לאנגלית. חושף אנטישמיות, הסתה ותעמולה בתקשורת המזרח התיכון</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@unpacked" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/iGQrSXj6HO0/mqdefault.jpg" alt="Unpacked" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English</div>
+                <h4>Unpacked</h4>
+                <p>ערוץ חינוכי מוביל על ישראל ויהדות. סרטוני הסבר קצרים ואיכותיים, 44+ מיליון צפיות, בשימוש 1,800+ מוסדות</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/user/coreygilshuster" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/yoK4ummBGnI/mqdefault.jpg" alt="The Ask Project" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English / עברית</div>
+                <h4>The Ask Project</h4>
+                <p>קנדי-ישראלי שמראיין ישראלים ופלסטינים ברחוב ללא עריכה. 3,000+ ראיונות גולמיים. האמת מדברת בעד עצמה</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@RudyRochman" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/9NoWNkcOkgM/mqdefault.jpg" alt="Rudy Rochman" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English</div>
+                <h4>Rudy Rochman</h4>
+                <p>פעיל יהודי-ישראלי, מייסד Students Supporting Israel בקולומביה. מתעמת עם אנטי-ציונים בקמפוסים</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@LivingLchaim" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/E3QHJ-42Sck/mqdefault.jpg" alt="Living Lchaim" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English</div>
+                <h4>Living Lchaim</h4>
+                <p>מערוצי היהדות הגדולים ביוטיוב (1.5M+). שיחות עומק עם אנשים מרתקים על זהות יהודית, ישראל ואנטישמיות</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@AmiHorowitz" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/PCDZOSZAztE/mqdefault.jpg" alt="Ami Horowitz" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English</div>
+                <h4>Ami Horowitz</h4>
+                <p>יוצר דוקומנטרי וסאטיריקן. חושף צביעות אנטי-ישראלית בקמפוסים וב-UN בסגנון גרילה מצחיק ונוקב</p>
+            </div>
+        </a>
+
+    </div>
+
+    <h3 class="yt-subsection-title">&#127760; קולות ייחודיים &mdash; לא יהודים שמגנים על ישראל</h3>
+    <div class="yt-grid">
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@LoayAlshareefTube" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/uF8EdyPjqy4/mqdefault.jpg" alt="Loay Alshareef" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Arabic / English</div>
+                <h4>Loay Alshareef</h4>
+                <p>סעודי-מצרי שהפך לציוני אחרי שהתארח אצל משפחה יהודית-תימנית בפריז. מדבר ערבית לקהל ערבי &mdash; קול שלא ניתן להחליף</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@TheWatchmanwithErickStakelbeck" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/RuZeh1gXqeY/mqdefault.jpg" alt="Erick Stakelbeck" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">English</div>
+                <h4>The Watchman / Erick Stakelbeck</h4>
+                <p>נוצרי-ציוני, מנחה אחת מתוכניות הפרו-ישראליות הגדולות ביוטיוב (~1M מנויים). משדר יומי מישראל</p>
+            </div>
+        </a>
+
+        <a class="yt-card fade-in" href="https://www.youtube.com/@brotherrachidtv" target="_blank" rel="noopener">
+            <div class="yt-thumb">
+                <img src="https://img.youtube.com/vi/5DvHX46Ptk0/mqdefault.jpg" alt="Brother Rachid" loading="lazy">
+                <div class="yt-play">&#9654;</div>
+            </div>
+            <div class="yt-info">
+                <div class="yt-badge">Arabic</div>
+                <h4>Brother Rachid</h4>
+                <p>בן אימאם מרוקאי עם 480K מנויים דוברי ערבית. משתף תוכן פרו-ישראלי מקולות ערביים &mdash; חודר לקהל שהסברה באנגלית לא מגיעה אליו</p>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+</main>
+
+<button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#9650;</button>
+
+<footer>
+    <p style="color: #e2b714; font-size: 1.2em; margin-bottom: 10px;">האמת היא הנשק החזק ביותר נגד השנאה</p>
+    <p>Truth is the most powerful weapon against hatred</p>
+    <p style="margin-top: 25px;"><a href="index.html" style="color:#e2b714; text-decoration:none;">&#8594; חזרה לאתר הראשי</a></p>
+    <p style="margin-top: 10px; font-size: 0.85em; color: #555;">נבנה על ידי נתנאל אסיס | 2026</p>
+</footer>
+
+<script>
+// Close nav on outside click
+document.addEventListener('click', function(e) {
+    var nav = document.querySelector('.nav-links');
+    var hamburger = document.querySelector('.hamburger');
+    if (nav.classList.contains('open') && !nav.contains(e.target) && e.target !== hamburger) {
+        nav.classList.remove('open');
+    }
+});
+// Back to top
+window.addEventListener('scroll', function() {
+    var btn = document.querySelector('.back-to-top');
+    if (window.scrollY > 500) btn.classList.add('visible');
+    else btn.classList.remove('visible');
+});
+// Fade-in
+var fadeObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            fadeObserver.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fade-in').forEach(function(el) { fadeObserver.observe(el); });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js"></script>
+<script>trackPageView('videos');</script>
+
+</body>
+</html>

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>אנטישמיות לפי חברות ועמים | האמת נגד השקר</title>
+    <meta name="description" content="כל חברה פיתחה את הגרסה שלה לשנאת יהודים — אותו רעל, בקבוקים שונים">
+    <meta name="theme-color" content="#0a0a1a">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif;
+            overflow-x: hidden;
+            background-color: #0a0a1a;
+            color: #e0e0e0;
+            line-height: 1.7;
+            scroll-behavior: smooth;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(10, 10, 26, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(226, 183, 20, 0.3);
+            padding: 0 20px;
+        }
+        .nav-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            height: 60px;
+            gap: 12px;
+        }
+        .nav-logo {
+            color: #e2b714;
+            font-size: 1.3em;
+            font-weight: bold;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        .nav-menu-wrapper { position: relative; }
+        .hamburger {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: none;
+            border: 1px solid rgba(226, 183, 20, 0.3);
+            color: #e2b714;
+            font-size: 1.4em;
+            width: 44px;
+            height: 40px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+        .hamburger:hover { background: rgba(226, 183, 20, 0.15); border-color: #e2b714; }
+        .nav-links {
+            display: none;
+            position: absolute;
+            top: 50px;
+            right: 0;
+            background: rgba(10, 10, 26, 0.98);
+            border: 1px solid rgba(226, 183, 20, 0.2);
+            border-radius: 0 0 3px 3px;
+            padding: 8px 0;
+            list-style: none;
+            min-width: 220px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+        .nav-links.open { display: flex; flex-direction: column; }
+        .nav-links li a {
+            color: #c0c0c0;
+            text-decoration: none;
+            font-size: 0.95em;
+            padding: 11px 25px;
+            display: block;
+            transition: all 0.3s;
+            border-bottom: 1px solid rgba(226, 183, 20, 0.06);
+        }
+        .nav-links li:last-child a { border-bottom: none; }
+        .nav-links li a:hover { color: #e2b714; background: rgba(226, 183, 20, 0.08); }
+        .nav-donate {
+            padding: 6px 14px;
+            background: rgba(226, 183, 20, 0.15);
+            border: 1px solid rgba(226, 183, 20, 0.4);
+            color: #e2b714;
+            text-decoration: none;
+            font-size: 0.85em;
+            font-weight: bold;
+            border-radius: 3px;
+            white-space: nowrap;
+            transition: background 0.3s, border-color 0.3s;
+            margin-right: auto;
+        }
+        .nav-donate:hover { background: rgba(226, 183, 20, 0.3); border-color: #e2b714; }
+        .section-header {
+            text-align: center;
+            padding: 50px 0 25px;
+        }
+        .section-header h2 {
+            color: #e2b714;
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+        .section-divider {
+            width: 60px;
+            height: 3px;
+            background: #e2b714;
+            margin: 0 auto 15px;
+        }
+        .section-header p {
+            color: #888;
+            font-size: 1em;
+        }
+        .region-card {
+            background: #12172b;
+            border-radius: 3px;
+            padding: 35px;
+            margin-bottom: 30px;
+            border-right: 4px solid #e74c3c;
+        }
+        .region-card h3 {
+            color: #e74c3c;
+            font-size: 1.4em;
+            margin-bottom: 5px;
+        }
+        .region-card .region-subtitle {
+            color: #e2b714;
+            font-size: 0.95em;
+            margin-bottom: 15px;
+        }
+        .region-card p, .region-card li {
+            color: #c0c0c0;
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+        .region-card ul { padding-right: 20px; margin-bottom: 15px; }
+        .region-card li { margin-bottom: 8px; }
+        .region-card .fact-box {
+            background: rgba(231, 76, 60, 0.08);
+            border-radius: 3px;
+            padding: 15px;
+            margin: 15px 0;
+            border-right: 3px solid #e74c3c;
+        }
+        .region-card .fact-box strong { color: #e74c3c; }
+        .region-card .source-ref {
+            font-size: 0.85em;
+            color: #666;
+            font-style: italic;
+            margin-top: 10px;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid rgba(226, 183, 20, 0.2);
+            margin-top: 80px;
+            color: #666;
+        }
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            width: 50px;
+            height: 50px;
+            background: #e2b714;
+            color: #0a0a1a;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.5em;
+            cursor: pointer;
+            display: none;
+            z-index: 999;
+            transition: opacity 0.3s;
+            box-shadow: 0 4px 15px rgba(226, 183, 20, 0.3);
+        }
+        .back-to-top.visible { display: block; }
+        @media (max-width: 768px) {
+            nav { padding: 0 12px; }
+            .nav-inner { gap: 8px; }
+            .nav-logo { font-size: 1.05em; }
+            .nav-donate { font-size: 0.8em; padding: 5px 10px; }
+            .section-header h2 { font-size: 1.7em; }
+            .region-card { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">האמת נגד השקר</a>
+        <div class="nav-menu-wrapper">
+            <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="index.html#about">מה זה אנטישמיות?</a></li>
+                <li><a href="index.html#claims">עלילות והפרכות</a></li>
+                <li><a href="lies.html">שקרים נפוצים</a></li>
+                <li><a href="index.html#timeline">ציר זמן</a></li>
+                <li><a href="index.html#psychology">הפסיכולוגיה</a></li>
+                <li><a href="regions.html" style="color:#e2b714;">שנאה לפי עמים</a></li>
+                <li><a href="gallery.html">תיעוד היסטורי</a></li>
+                <li><a href="videos.html">צפה והתעדכן</a></li>
+                <li><a href="index.html#strengthen">חיזוק העם</a></li>
+                <li><a href="index.html#report">דווח על אנטישמיות</a></li>
+                <li><a href="action.html">מה אפשר לעשות?</a></li>
+            </ul>
+        </div>
+        <a href="https://buymeacoffee.com/nathaniellinder" target="_blank" rel="noopener" class="nav-donate">&#9749; תמוך</a>
+    </div>
+</nav>
+
+<main style="max-width: 1000px; margin: 0 auto; padding: 80px 20px 0;">
+
+<section id="regions">
+    <div class="section-header">
+        <h2>אנטישמיות לפי חברות ועמים</h2>
+        <div class="section-divider"></div>
+        <p>כל חברה פיתחה את הגרסה שלה לשנאת יהודים &mdash; אותו רעל, בקבוקים שונים</p>
+    </div>
+
+    <!-- ISLAMIC/ARAB WORLD -->
+    <div class="region-card fade-in">
+        <h3>העולם המוסלמי והערבי</h3>
+        <div class="region-subtitle">מהאנטישמיות הדתית של ימי הביניים ועד הסכסוך המודרני</div>
+
+        <p><strong style="color:#e2b714;">המקור ההיסטורי:</strong> ביהדות ובאיסלאם הקדום היו תקופות של דו-קיום. אך הקוראן מכיל פסוקים שליליים על יהודים (סורה 5:60 &mdash; "אלה שאללה קילל והפך לקופים וחזירים"), ומוחמד גירש וטבח בשבטים יהודיים במדינה (בנו קוריית'ה, 627 לספירה &mdash; 600-900 גברים יהודים נערפו). תחת שלטון איסלאמי, יהודים היו "ד'ימים" &mdash; אזרחים מוגנים אך נחותים, שילמו מס ג'זיה ולבשו סימנים מזהים.</p>
+
+        <div class="fact-box">
+            <strong>עובדה מתועדת:</strong> בין 1948-1972, כ-850,000 יהודים גורשו או נאלצו לברוח ממדינות ערביות ומוסלמיות. רכושם הוחרם. קהילות יהודיות בנות אלפי שנים בעיראק, מצרים, לוב, תימן, סוריה ומרוקו חוסלו כמעט לחלוטין. הפרהוד בעיראק (1941): 180 יהודים נרצחו, 1,000 נפצעו, 900 בתים נהרסו &mdash; בהשראת תעמולה נאצית שהופצה על ידי המופתי חאג' אמין אל-חוסייני.
+        </div>
+
+        <p><strong style="color:#e2b714;">המצאת הזהות הפלסטינית הלאומית:</strong> המונח "פלסטין" הוא שם גיאוגרפי רומאי (מ-135 לספירה, כשהרומאים שינו את שם יהודה כדי למחוק את הזהות היהודית). ערביי האזור הזדהו במשך מאות שנים כסורים, ערבים, או לפי שבט ומשפחה. הזהות הפלסטינית הלאומית התגבשה בעיקר באמצע המאה ה-20. זוהיר מוחסן, מנהיג א-סעיקה (ארגון פלסטיני), אמר ב-1977 בראיון לעיתון ההולנדי Trouw: "העם הפלסטיני אינו קיים... אין הבדל בין ירדנים, פלסטינים, סורים ולבנונים. כולנו חלק מעם ערבי אחד."</p>
+
+        <p><strong style="color:#e2b714;">טרור התאבדות:</strong> במהלך האינתיפאדה השנייה (2000-2005), למעלה מ-140 פיגועי התאבדות בוצעו נגד אזרחים ישראלים באוטובוסים, מסעדות, מרכזי קניות ומועדונים. 1,137 ישראלים נהרגו. חמאס, הג'יהאד האיסלאמי ופת"ח שלחו צעירים, כולל נשים ומתבגרים, להתפוצץ בקרב אזרחים &mdash; ואז טענו שישראל "רוצחת". הצד שמפוצץ אוטובוסים עם תינוקות אינו הקורבן.</p>
+
+        <div class="fact-box">
+            <strong>אמנת חמאס (1988):</strong> סעיף 7 קורא להריגת יהודים (לא ישראלים &mdash; יהודים). סעיף 22 טוען שיהודים עומדים מאחורי המהפכה הצרפתית, מלחמת העולם הראשונה, הקומוניזם ומלחמת העולם השנייה. סעיף 32 מצטט את "הפרוטוקולים של זקני ציון" &mdash; זיוף אנטישמי רוסי מ-1903 &mdash; כמסמך אמיתי. זו לא "התנגדות לכיבוש". זו אנטישמיות גלויה בשפה של רצח עם.
+        </div>
+
+        <p><strong style="color:#e2b714;">עלילת ה"רצח העם":</strong> ישראל היא הצבא היחיד בהיסטוריה ששולח הודעות אזהרה לאזרחים אויב לפני תקיפה ("דפיקות על הגג", הודעות SMS, עלונים). ישראל מפעילה מערכת משפט עצמאית שחוקרת הפרות. אם ישראל רוצה לבצע רצח עם, למה אוכלוסיית עזה גדלה מ-80,000 ב-1948 ליותר מ-2 מיליון ב-2023? רצח עם אמיתי נראה כמו רואנדה (800,000 מתים ב-100 יום) או השואה (6 מיליון). הזכות להגנה עצמית אינה רצח עם.</p>
+
+        <p><strong style="color:#e2b714;">תעמולה מודרנית:</strong> "הפרוטוקולים של זקני ציון" &mdash; זיוף רוסי מ-1903 &mdash; הוא רב המכר בעולם הערבי. הסדרה המצרית "פרש ללא סוס" (2002, 41 פרקים, שודרה בטלוויזיה הממלכתית) מבוססת על הפרוטוקולים ומציגה יהודים כקושרים. ספרי לימוד ב-UNRWA (סוכנות האו"ם לפליטים) הכילו תוכן אנטישמי &mdash; כולל מפות ללא ישראל ושירי שבח לפיגועי התאבדות.</p>
+
+        <div class="source-ref">מקורות: Benny Morris, '1948' (2008); Hamas Charter (1988); MEMRI translations; IMPACT-se school textbook reports; Andrew Bostom, 'The Legacy of Islamic Antisemitism' (2008)</div>
+    </div>
+
+    <!-- EUROPE: POLAND & EASTERN EUROPE -->
+    <div class="region-card fade-in">
+        <h3>פולין ומזרח אירופה</h3>
+        <div class="region-subtitle">מיתוסים תלמודיים, "קומוניזם יהודי", ושנאה ששרדה את השואה</div>
+
+        <p><strong style="color:#e2b714;">מיתוס התלמוד:</strong> אחת האמונות הנפוצות בפולין (ומזרח אירופה) היא שהתלמוד מלא שנאה כלפי לא-יהודים. תעמולה אנטישמית (בעיקר מהכנסייה הקתולית של ימי הביניים ומפרסומים כמו "Talmud Unmasked" של יוסטינוס פרנאיטיס, 1892) חילצה ציטוטים מהקשרם, תרגמה אותם בצורה שגויה במכוון, או פשוט המציאה אותם. התלמוד הוא 6,200 עמודים של דיון משפטי, ואף חוקר תלמוד מוסמך לא תומך בקריאה האנטישמית הזו.</p>
+
+        <div class="fact-box">
+            <strong>הפוגרום של קילצה (1946):</strong> שנה אחרי שחרור אושוויץ, 42 יהודים ניצולי שואה נרצחו בפוגרום בעיר קילצה שבפולין. העילה: עלילת דם (!) &mdash; שמועה שילד נוצרי נחטף על ידי יהודים. ב-1946. אחרי השואה. ניצולים ששרדו את אושוויץ נרצחו על ידי שכניהם הפולנים על בסיס אותו שקר מימי הביניים. אירוע זה גרם לגל ברחה (Bericha) של ניצולי שואה מפולין.
+        </div>
+
+        <p><strong style="color:#e2b714;">מיתוס ה-&#x17B;ydokomuna ("קומוניזם יהודי"):</strong> האמונה שהקומוניזם הוא "המצאה יהודית" ושיהודים שלטו בפולין הקומוניסטית. במציאות: מפלגת הפועלים הפולנית המאוחדת (PZPR) הייתה פולנית ברובה המוחלט. כמה יהודים בודדים היו בדרגים גבוהים &mdash; כפי שהיו יהודים בכל תחום &mdash; אבל הם היוו אחוז זעיר. פולנים רבים היו קומוניסטים נלהבים ללא כל קשר ליהודים. ב-1968, המשטר הקומוניסטי הפולני עצמו ניהל קמפיין אנטישמי ("אנטי-ציונים") וגירש כ-13,000 יהודים מפולין.</p>
+
+        <p><strong style="color:#e2b714;">ידבאבנה (1941):</strong> ב-10 ביולי 1941, תושבים פולנים של העיירה ידבאבנה רצחו לפחות 340 (ייתכן ויותר מ-1,000) מיהודי העיירה &mdash; שרפו אותם חיים באסם. לא נאצים. שכנים פולנים. היסטוריון ההיסטוריה יאן טומש גרוס תיעד זאת בספרו "שכנים" (2001), וגרם לזעזוע לאומי בפולין. ב-2018 חוקקה פולין חוק האוסר לייחס לעם הפולני אחריות לפשעי השואה &mdash; ניסיון להשתיק את ההיסטוריה.</p>
+
+        <div class="fact-box">
+            <strong>רוסיה:</strong> "הפרוטוקולים של זקני ציון" נוצרו על ידי המשטרה החשאית הרוסית (אוכרנה) סביב 1903, על בסיס פלגיאט מספר צרפתי (מוריס ז'ולי, 1864) שלא עסק ביהודים כלל. תחום המושב (1791-1917) כלא יהודים באזורי מגורים מוגבלים. בין 1881-1921 התרחשו גלי פוגרומים שבהם נרצחו עשרות אלפי יהודים. רבים מהפוגרומים הראשונים עודדו או תוכננו על ידי הממשלה עצמה. "אירועי הרופאים" (1953) &mdash; סטלין האשים רופאים יהודים בקשירת קשר לרצוח מנהיגים סובייטיים. רק מותו של סטלין מנע גירוש המוני של יהודים לסיביר.
+        </div>
+
+        <div class="source-ref">מקורות: Jan T. Gross, 'Neighbors' (2001); Joanna Tokarska-Bakir, 'Pogrom Cries' (2018); Norman Cohn, 'Warrant for Genocide' (1967)</div>
+    </div>
+
+    <!-- NAZI GERMANY -->
+    <div class="region-card fade-in">
+        <h3>גרמניה הנאצית</h3>
+        <div class="region-subtitle">מכונת ההשמדה: איך מדינה מודרנית הפכה שנאה לתעשייה</div>
+
+        <p><strong style="color:#e2b714;">האידיאולוגיה:</strong> הנאצים לא המציאו אנטישמיות &mdash; הם תיעשו אותה. הם לקחו 2,000 שנה של אנטישמיות נוצרית, שילבו אותה עם גזענות פסאודו-מדעית של המאה ה-19 (אנתרופולוגיה גזעית, אאוגניקה, דרוויניזם חברתי), ויצרו מערכת שלמה של חוקים, בירוקרטיה ותעשייה שמטרתה היחידה הייתה השמדת עם שלם.</p>
+
+        <div class="fact-box">
+            <strong>הסולם של ההשמדה:</strong><br>
+            1933: חרם על עסקים יהודיים, פיטורין ממשרות ממשלתיות<br>
+            1935: חוקי נירנברג &mdash; שללו אזרחות, אסרו נישואים מעורבים<br>
+            1938: ליל הבדולח &mdash; 1,400 בתי כנסת נשרפו, 30,000 יהודים נשלחו למחנות<br>
+            1939-1941: גטאות, רעב מאורגן, ירי המוני (Einsatzgruppen הרגו 1.5 מיליון)<br>
+            1942: ועידת ואנזה &mdash; "הפתרון הסופי" הפך רשמי<br>
+            1942-1945: תאי גזים תעשייתיים באושוויץ-בירקנאו, טרבלינקה, סוביבור, בלז'ץ, חלמנו, מיידנק
+        </div>
+
+        <p><strong style="color:#e2b714;">מכונת התעמולה:</strong> יוזף גבלס בנה מערכת תעמולה שלא הייתה לה תקדים. הסרט "היהודי הנצחי" (1940) הציג יהודים כעכברושים. העיתון "דר שטירמר" (יוליוס שטרייכר) פרסם קריקטורות אנטישמיות שבועיות. ילדים למדו אנטישמיות בבתי ספר מגיל 6. ספרי ילדים כמו "הפטריה המורעלת" (1938) לימדו ילדים לזהות ולשנוא יהודים. השיטה: חזור על השקר מספיק פעמים ואנשים יתחילו להאמין.</p>
+
+        <p><strong style="color:#e2b714;">הסתירה הנאצית:</strong> הנאצים טענו בו-זמנית שיהודים הם גזע נחות (Untermenschen) ושהם שולטים בעולם כולו. אם יהודים כל כך נחותים, איך הם מסוגלים לשלוט בכל? סתירה זו חושפת שאנטישמיות אינה מערכת רציונלית אלא פנטזיה פרנואידית &mdash; היא אינה צריכה להיות עקבית, רק להצדיק שנאה.</p>
+
+        <div class="fact-box">
+            <strong>המספרים:</strong> 6 מיליון יהודים נרצחו &mdash; שליש מכלל העם היהודי. 1.5 מיליון מהם ילדים. קהילות יהודיות בנות אלף שנה באירופה חוסלו לחלוטין. ייתכן שזוהי הפעם היחידה בהיסטוריה שמדינה מודרנית הקדישה משאבים תעשייתיים &mdash; רכבות, מפעלים, בירוקרטיה &mdash; למטרה היחידה של רצח עם שלם.
+        </div>
+
+        <div class="source-ref">מקורות: Raul Hilberg, 'The Destruction of the European Jews' (1961/2003); USHMM archives; Yad Vashem Central Database of Shoah Victims' Names</div>
+    </div>
+
+    <!-- MODERN WESTERN -->
+    <div class="region-card fade-in">
+        <h3>אירופה המערבית המודרנית</h3>
+        <div class="region-subtitle">"אנטי-ציונות" כמסווה חדש לאנטישמיות ישנה</div>
+
+        <p><strong style="color:#e2b714;">ה"אנטי-ציונות" החדשה:</strong> ההיסטוריון שלום הנרך (Sharansky) פיתח את "מבחן 3D" לזיהוי מתי ביקורת על ישראל חוצה לאנטישמיות: <strong>דמוניזציה</strong> (ישראל = נאצים), <strong>דה-לגיטימציה</strong> (לישראל אין זכות קיום), <strong>סטנדרט כפול</strong> (דרישות מישראל שלא נדרשות מאף מדינה אחרת). ביקורת לגיטימית על מדיניות ישראלית מתקבלת &mdash; כמו ביקורת על כל מדינה. אך שלילת זכות הקיום של ישראל בלבד, מכל מדינות העולם, היא אנטישמיות.</p>
+
+        <div class="fact-box">
+            <strong>צרפת:</strong> הגרה היהודית הגדולה מאירופה במאה ה-21 קורית בצרפת. 2006: אילאן חלימי, צעיר יהודי, נחטף, עונה במשך 24 יום ונרצח על ידי "כנופיית הברברים" &mdash; כי הוא יהודי "ולכן עשיר". 2012: מוחמד מרה ירה ורצח 3 ילדים ואת הרב יונתן סנדלר בבית ספר יהודי בטולוז. 2015: פיגוע בסופר כשר Hyper Cacher בפריז, 4 נרצחו. יהודים הם 1% מאוכלוסיית צרפת אבל 40% מקורבנות פשעי השנאה. כ-38,000 יהודים עזבו את צרפת לישראל בין 2010-2020.
+        </div>
+
+        <p><strong style="color:#e2b714;">בריטניה &mdash; פרשת לייבור:</strong> תחת ג'רמי קורבין (2015-2020), מפלגת הלייבור הבריטית חקרה על ידי הוועדה לשוויון וזכויות אדם (EHRC) ונמצאה אחראית להפרות חמורות של חוק אפליה &mdash; אנטישמיות מוסדית. קורבין כינה את חמאס וחיזבאללה "חברים", הניח זר על קברו של מתזמר הטבח באולימפיאדת מינכן 1972, ותמך באמן שצייר ציור קיר אנטישמי. אלפי יהודים עזבו את המפלגה.</p>
+
+        <p><strong style="color:#e2b714;">קמפוסים אוניברסיטאיים:</strong> תנועת BDS (חרם, משיכת השקעות, סנקציות) הפכה לזרוע מרכזית של אנטישמיות בקמפוסים. סטודנטים יהודים מדווחים על הטרדות, הדרה מארגוני צדק חברתי ("אתה ציוני? אתה לא מוזמן"), ושוברים חלונות של מועדוני הילל. הגניבה הגדולה: הם משתמשים בשפת זכויות אדם כדי לשלול את הזכות הבסיסית ביותר &mdash; זכות ההגדרה העצמית &mdash; מעם אחד בלבד.</p>
+
+        <div class="source-ref">מקורות: EHRC Report on Labour (2020); Natan Sharansky, '3D Test' (2004); ADL Campus Antisemitism reports; CRIF (Conseil Repr&eacute;sentatif des Institutions Juives de France)</div>
+    </div>
+
+    <!-- USA -->
+    <div class="region-card fade-in">
+        <h3>ארצות הברית</h3>
+        <div class="region-subtitle">מה"ימין האלטרנטיבי" ועד "עם האיסלאם" &mdash; שנאה מכל הכיוונים</div>
+
+        <p><strong style="color:#e2b714;">הימין הקיצוני:</strong> בשארלוטסוויל, וירג'יניה (אוגוסט 2017), ניאו-נאצים צעדו עם לפידים וצעקו "Jews will not replace us" ("יהודים לא יחליפו אותנו"). ב-27 באוקטובר 2018, רוברט באוורס נכנס לבית הכנסת "עץ החיים" (Tree of Life) בפיטסבורג, פנסילבניה, וירה למוות 11 מתפללים. זהו הפיגוע הקטלני ביותר נגד יהודים בהיסטוריה האמריקאית. צעק "כל היהודים חייבים למות" לפני שפתח באש.</p>
+
+        <div class="fact-box">
+            <strong>סטטיסטיקות:</strong> ב-2022, ADL תיעדה 3,697 תקריות אנטישמיות בארה"ב &mdash; הנתון הגבוה ביותר מאז החלו לתעד ב-1979. עלייה של 36% בשנה אחת. 2023 (אחרי 7 באוקטובר): הנתון קפץ ל-8,873 תקריות &mdash; עלייה של 140%. יהודים הם 2.4% מהאוכלוסייה אבל מהווים למעלה מ-60% מקורבנות פשעי השנאה הדתית לפי FBI.
+        </div>
+
+        <p><strong style="color:#e2b714;">לואיס פרחאן ו"עם האיסלאם":</strong> פרחאן כינה יהודים "טרמיטים", "שטנים שלובשים דם", ואת היהדות "דת מרזב". ארגונו מפרסם ספרים כמו "הקשר הסודי בין השחורים והיהודים" המאשים יהודים בסחר העבדים &mdash; טענה שהופרכה על ידי כל היסטוריון רציני (בכלל זה היסטוריונים שחורים כמו הנרי לואיס גייטס). שנאה זו מסוכנת במיוחד כי היא מתלבשת בשפת צדק חברתי.</p>
+
+        <p><strong style="color:#e2b714;">קנייה ווסט (Ye) ותרבות הסלבריטאים:</strong> בדצמבר 2022, ווסט הצהיר "אני אוהב נאצים" ושיבח את היטלר בשידור חי. לפני כן צייץ "Death con 3 on Jewish people". ההשפעה: ADL דיווחה על עלייה חדה בתעמולה אנטישמית מקבוצות ימין קיצוני שציטטו את ווסט כהצדקה. כשמישהו עם 30 מיליון עוקבים מנרמל שנאת יהודים, ההשלכות אמיתיות ומסוכנות.</p>
+
+        <div class="source-ref">מקורות: ADL Audit of Antisemitic Incidents (2022, 2023); FBI Hate Crime Statistics; Henry Louis Gates Jr., 'Black Antisemitism' in Transition (1992); Pittsburgh Post-Gazette reporting</div>
+    </div>
+
+    <!-- IRAN -->
+    <div class="region-card fade-in">
+        <h3>איראן והמשטר האיסלאמי</h3>
+        <div class="region-subtitle">אנטישמיות כמדיניות מדינה: מהכחשת השואה ועד מימון טרור</div>
+
+        <p><strong style="color:#e2b714;">הכחשת שואה ממוסדת:</strong> הנשיא לשעבר מחמוד אחמדינג'אד ערך כנס בינלאומי להכחשת השואה בטהרן (2006), הזמין מכחישי שואה ידועים מכל העולם (כולל דייוויד דיוק מה-KKK), והכריז שהשואה היא "מיתוס". המנהיג העליון חמינאי המשיך קו זה, וטוען שיש "ספקות רציניים" לגבי השואה. זו לא עמדה היסטורית &mdash; זו הכנה פסיכולוגית. הכחשת הרצח עם הקודם מכשירה את הקרקע לבא.</p>
+
+        <div class="fact-box">
+            <strong>מימון טרור:</strong> איראן מממנת ומחמשת את חיזבאללה (לבנון), חמאס (עזה), הג'יהאד האיסלאמי (עזה), והחות'ים (תימן). חיזבאללה אחראית לפיגוע בבניין AMIA בבואנוס איירס (1994, 85 הרוגים) ולפיגוע בשגרירות ישראל (1992, 29 הרוגים). המטרה המוצהרת של איראן: "מחיקת ישראל מהמפה". זו לא ביקורת על מדיניות &mdash; זו קריאה להשמדת עם.
+        </div>
+
+        <p><strong style="color:#e2b714;">הגזע האירוני של הסתירה:</strong> איראן טוענת שישראל היא גזענית &mdash; בזמן שהמשטר האיראני רודף באופן שיטתי בהאים, כורדים, ערבים, סונים ולהט"בים בתוך איראן עצמה. אלפי הוצאות להורג בשנה, נשים נרצחות על שלא חבשו חיג'אב (מהסא אמיני, 2022). הקהילה היהודית באיראן (כ-8,000 נפש, מלמטה מ-100,000 לפני המהפכה) חיה תחת מעקב ואיסורים.</p>
+
+        <div class="source-ref">מקורות: AMIA investigation records; IAEA reports; US State Department Country Reports on Human Rights; MEMRI translations of Iranian state media</div>
+    </div>
+
+    <!-- JAPAN/EAST ASIA -->
+    <div class="region-card fade-in">
+        <h3>יפן, דרום קוריאה ומזרח אסיה</h3>
+        <div class="region-subtitle">תופעה מפתיעה: אנטישמיות במדינות כמעט ללא יהודים</div>
+
+        <p><strong style="color:#e2b714;">הפרדוקס:</strong> ביפן חיים כ-1,000 יהודים (מתוך 125 מיליון). בדרום קוריאה &mdash; כמה מאות. ובכל זאת, "הפרוטוקולים של זקני ציון" תורגמו ונמכרו ביפן בעשרות מהדורות. ספרים כמו "שלטון היהודים בעולם" הם רבי מכר. ביפן ובדרום קוריאה, "אנטישמיות ללא יהודים" מוכיחה את הנקודה המרכזית: <strong>אנטישמיות אינה תגובה ליהודים אמיתיים &mdash; היא פנטזיה על יהודים דמיוניים.</strong></p>
+
+        <p><strong style="color:#e2b714;">הגרסה האסייתית:</strong> בניגוד לאנטישמיות האירופית (שנאה), הגרסה האסייתית לפעמים "חיובית" בצורה מעוותת: "יהודים חכמים, שולטים בכסף, אפשר ללמוד מהם". זה עדיין אנטישמיות &mdash; כי זה מבוסס על סטריאוטיפים, לא על מפגש עם יהודים אמיתיים. הוא הופך יהודים מבני אדם לדמויות מיתיות.</p>
+
+        <div class="source-ref">מקורות: ADL Global 100 Survey; David Goodman &amp; Masanori Miyazawa, 'Jews in the Japanese Mind' (1995)</div>
+    </div>
+</section>
+
+</main>
+
+<button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#9650;</button>
+
+<footer>
+    <p style="color: #e2b714; font-size: 1.2em; margin-bottom: 10px;">האמת היא הנשק החזק ביותר נגד השנאה</p>
+    <p>Truth is the most powerful weapon against hatred</p>
+    <p style="margin-top: 25px;"><a href="index.html" style="color:#e2b714; text-decoration:none;">&#8594; חזרה לאתר הראשי</a></p>
+    <p style="margin-top: 10px; font-size: 0.85em; color: #555;">נבנה על ידי נתנאל אסיס | 2026</p>
+</footer>
+
+<script>
+// Close nav on outside click
+document.addEventListener('click', function(e) {
+    var nav = document.querySelector('.nav-links');
+    var hamburger = document.querySelector('.hamburger');
+    if (nav.classList.contains('open') && !nav.contains(e.target) && e.target !== hamburger) {
+        nav.classList.remove('open');
+    }
+});
+// Back to top
+window.addEventListener('scroll', function() {
+    var btn = document.querySelector('.back-to-top');
+    if (window.scrollY > 500) btn.classList.add('visible');
+    else btn.classList.remove('visible');
+});
+// Fade-in
+var fadeObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            fadeObserver.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fade-in').forEach(function(el) { fadeObserver.observe(el); });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js"></script>
+<script>trackPageView('regions');</script>
+
+</body>
+</html>

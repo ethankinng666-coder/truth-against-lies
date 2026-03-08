@@ -17,7 +17,7 @@
         }
 
         /* === NAVIGATION === */
-        .top-bar {
+        nav {
             position: fixed;
             top: 0;
             width: 100%;
@@ -27,24 +27,83 @@
             border-bottom: 1px solid rgba(226, 183, 20, 0.3);
             padding: 0 20px;
         }
-        .top-bar-inner {
+        .nav-inner {
             max-width: 1200px;
             margin: 0 auto;
             display: flex;
             align-items: center;
-            justify-content: space-between;
             height: 60px;
+            gap: 12px;
         }
-        .top-bar a {
+        .nav-logo {
             color: #e2b714;
-            text-decoration: none;
+            font-size: 1.3em;
             font-weight: bold;
-            font-size: 1.1em;
+            text-decoration: none;
+            white-space: nowrap;
         }
-        .back-link {
+        .nav-menu-wrapper { position: relative; }
+        .hamburger {
             display: flex;
             align-items: center;
-            gap: 8px;
+            justify-content: center;
+            background: none;
+            border: 1px solid rgba(226, 183, 20, 0.3);
+            color: #e2b714;
+            font-size: 1.4em;
+            width: 44px;
+            height: 40px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+        .hamburger:hover { background: rgba(226, 183, 20, 0.15); border-color: #e2b714; }
+        .nav-links {
+            display: none;
+            position: absolute;
+            top: 50px;
+            right: 0;
+            background: rgba(10, 10, 26, 0.98);
+            border: 1px solid rgba(226, 183, 20, 0.2);
+            border-radius: 0 0 3px 3px;
+            padding: 8px 0;
+            list-style: none;
+            min-width: 220px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+        .nav-links.open { display: flex; flex-direction: column; }
+        .nav-links li a {
+            color: #c0c0c0;
+            text-decoration: none;
+            font-size: 0.95em;
+            padding: 11px 25px;
+            display: block;
+            transition: all 0.3s;
+            border-bottom: 1px solid rgba(226, 183, 20, 0.06);
+        }
+        .nav-links li:last-child a { border-bottom: none; }
+        .nav-links li a:hover { color: #e2b714; background: rgba(226, 183, 20, 0.08); }
+        .nav-donate {
+            padding: 6px 14px;
+            background: rgba(226, 183, 20, 0.15);
+            border: 1px solid rgba(226, 183, 20, 0.4);
+            color: #e2b714;
+            text-decoration: none;
+            font-size: 0.85em;
+            font-weight: bold;
+            border-radius: 3px;
+            white-space: nowrap;
+            transition: background 0.3s, border-color 0.3s;
+            margin-right: auto;
+        }
+        .nav-donate:hover { background: rgba(226, 183, 20, 0.3); border-color: #e2b714; }
+        @media (max-width: 768px) {
+            nav { padding: 0 12px; }
+            .nav-inner { gap: 8px; }
+            .nav-logo { font-size: 1.05em; }
+            .nav-donate { font-size: 0.8em; padding: 5px 10px; }
         }
 
         /* === PAGE CONTENT === */
@@ -251,12 +310,28 @@
 </head>
 <body>
 
-<div class="top-bar">
-    <div class="top-bar-inner">
-        <a href="index.html" class="back-link">&#8594; חזרה לאתר הראשי</a>
-        <a href="index.html" style="font-size: 1.3em;">האמת נגד השקר</a>
+<nav>
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">האמת נגד השקר</a>
+        <div class="nav-menu-wrapper">
+            <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="index.html#about">מה זה אנטישמיות?</a></li>
+                <li><a href="index.html#claims">עלילות והפרכות</a></li>
+                <li><a href="lies.html">שקרים נפוצים</a></li>
+                <li><a href="index.html#timeline">ציר זמן</a></li>
+                <li><a href="index.html#psychology">הפסיכולוגיה</a></li>
+                <li><a href="regions.html">שנאה לפי עמים</a></li>
+                <li><a href="gallery.html">תיעוד היסטורי</a></li>
+                <li><a href="videos.html">צפה והתעדכן</a></li>
+                <li><a href="index.html#strengthen">חיזוק העם</a></li>
+                <li><a href="index.html#report">דווח על אנטישמיות</a></li>
+                <li><a href="action.html" style="color:#e2b714;">מה אפשר לעשות?</a></li>
+            </ul>
+        </div>
+        <a href="https://buymeacoffee.com/nathaniellinder" target="_blank" rel="noopener" class="nav-donate">&#9749; תמוך</a>
     </div>
-</div>
+</nav>
 
 <div class="page-container">
 
@@ -425,6 +500,16 @@
     <p style="margin-top: 15px;">נבנה על ידי נתנאל אסיס | 2026</p>
 </div>
 
+<script>
+// Close nav on outside click
+document.addEventListener('click', function(e) {
+    var nav = document.querySelector('.nav-links');
+    var hamburger = document.querySelector('.hamburger');
+    if (nav && nav.classList.contains('open') && !nav.contains(e.target) && e.target !== hamburger) {
+        nav.classList.remove('open');
+    }
+});
+</script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="supabase-config.js"></script>
 <script>trackPageView('action');</script>
