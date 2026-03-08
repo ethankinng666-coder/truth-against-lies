@@ -770,6 +770,12 @@
             display: block;
         }
 
+        /* === FOCUS STATES === */
+        a:focus-visible, button:focus-visible {
+            outline: 2px solid #e2b714;
+            outline-offset: 2px;
+        }
+
         /* === PRINT === */
         @media print {
             body { background: #fff; color: #000; font-size: 12pt; line-height: 1.5; }
@@ -1228,7 +1234,7 @@
     <div class="nav-inner">
         <a href="#" class="nav-logo">האמת נגד השקר</a>
         <div class="nav-menu-wrapper">
-            <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+            <button class="hamburger" aria-label="תפריט ניווט" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
             <ul class="nav-links">
                 <li><a href="#about">מה זה אנטישמיות?</a></li>
                 <li><a href="#claims">עלילות והפרכות</a></li>
@@ -3505,7 +3511,7 @@ function goOriginal() {
 
 <!-- FOOTER -->
 <!-- BACK TO TOP BUTTON -->
-<button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="חזרה למעלה">&#9650;</button>
+<button class="back-to-top" aria-label="חזרה למעלה" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="חזרה למעלה">&#9650;</button>
 
 <!-- Floating Share Button -->
 <div class="share-fab" id="shareFab">
@@ -3516,7 +3522,7 @@ function goOriginal() {
         <a class="sfab-fb" title="Facebook" onclick="fabShare('facebook')">f</a>
         <a class="sfab-cp" title="העתק קישור" onclick="fabShare('copy')">&#128203;</a>
     </div>
-    <button class="share-fab-btn" onclick="document.getElementById('shareFab').classList.toggle('open')" title="שתף">&#10149;</button>
+    <button class="share-fab-btn" aria-label="שתף דף" onclick="document.getElementById('shareFab').classList.toggle('open')" title="שתף">&#10149;</button>
 </div>
 
 <footer>

@@ -377,6 +377,12 @@
             .nav-donate { font-size: 0.8em; padding: 5px 10px; }
             .nav-back { font-size: 0.75em; padding: 5px 10px; }
         }
+        /* === FOCUS STATES === */
+        a:focus-visible, button:focus-visible {
+            outline: 2px solid #e2b714;
+            outline-offset: 2px;
+        }
+
         /* === PRINT === */
         @media print {
             body { background: #fff; color: #000; font-size: 12pt; line-height: 1.5; }
@@ -466,7 +472,7 @@
     <div class="nav-inner">
         <a href="index.html" class="nav-logo">האמת נגד השקר</a>
         <div class="nav-menu-wrapper">
-            <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+            <button class="hamburger" aria-label="תפריט ניווט" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
             <ul class="nav-links">
                 <li><a href="index.html#about">מה זה אנטישמיות?</a></li>
                 <li><a href="index.html#claims">עלילות והפרכות</a></li>
@@ -666,14 +672,14 @@
         <a class="sfab-fb" title="Facebook" onclick="fabShare('facebook')">f</a>
         <a class="sfab-cp" title="העתק קישור" onclick="fabShare('copy')">&#128203;</a>
     </div>
-    <button class="share-fab-btn" onclick="document.getElementById('shareFab').classList.toggle('open')" title="שתף">&#10149;</button>
+    <button class="share-fab-btn" aria-label="שתף דף" onclick="document.getElementById('shareFab').classList.toggle('open')" title="שתף">&#10149;</button>
 </div>
 
 <!-- LIGHTBOX -->
 <div class="lightbox" id="lightbox">
-    <button class="lightbox-close" onclick="closeLB()">&#10005;</button>
-    <button class="lightbox-nav lightbox-next" onclick="navLB(-1)">&#10094;</button>
-    <button class="lightbox-nav lightbox-prev" onclick="navLB(1)">&#10095;</button>
+    <button class="lightbox-close" aria-label="סגור תמונה" onclick="closeLB()">&#10005;</button>
+    <button class="lightbox-nav lightbox-next" aria-label="תמונה הבאה" onclick="navLB(-1)">&#10094;</button>
+    <button class="lightbox-nav lightbox-prev" aria-label="תמונה קודמת" onclick="navLB(1)">&#10095;</button>
     <img id="lb-img" src="" alt="">
     <div class="lightbox-caption" id="lb-caption"></div>
 </div>
