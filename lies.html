@@ -434,7 +434,7 @@
     </div>
 
     <!-- LIE 1: GENOCIDE -->
-    <div class="lie-card fade-in">
+    <div class="lie-card fade-in" id="genocide">
         <h3>"ישראל ביצעה רצח עם בעזה"</h3>
 
         <div class="lie-claim-box">
@@ -471,7 +471,7 @@
     </div>
 
     <!-- LIE 2: TRUMP & IRAN -->
-    <div class="lie-card fade-in">
+    <div class="lie-card fade-in" id="iran">
         <h3>"ישראל דחפה את טראמפ להילחם באיראן"</h3>
 
         <div class="lie-claim-box">
@@ -508,7 +508,7 @@
     </div>
 
     <!-- LIE 3: APARTHEID -->
-    <div class="lie-card fade-in">
+    <div class="lie-card fade-in" id="apartheid">
         <h3>"ישראל היא מדינת אפרטהייד"</h3>
 
         <div class="lie-claim-box">
@@ -555,7 +555,7 @@
     </div>
 
     <!-- LIE 4: MEDIA CONTROL -->
-    <div class="lie-card fade-in">
+    <div class="lie-card fade-in" id="media">
         <h3>"היהודים שולטים בתקשורת ובכלכלה העולמית"</h3>
 
         <div class="lie-claim-box">
@@ -602,7 +602,7 @@
     </div>
 
     <!-- LIE 5: NO HISTORICAL CONNECTION -->
-    <div class="lie-card fade-in">
+    <div class="lie-card fade-in" id="history">
         <h3>"אין קשר היסטורי של היהודים לארץ ישראל"</h3>
 
         <div class="lie-claim-box">
@@ -718,7 +718,8 @@ function copyLieResponse(btn) {
 function shareLie(el, platform) {
     const card = el.closest('.lie-card');
     const title = card.querySelector('h3').textContent;
-    const url = 'https://truth-against-lies.github.io/truth-against-lies/lies.html';
+    const anchor = card.id ? '#' + card.id : '';
+    const url = 'https://truth-against-lies.github.io/truth-against-lies/lies.html' + anchor;
     const text = title + ' — ' + '\u05D4\u05D0\u05DE\u05EA \u05E0\u05D2\u05D3 \u05D4\u05E9\u05E7\u05E8';
     const encoded = encodeURIComponent(text + '\n' + url);
     let shareUrl = '';
