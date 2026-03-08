@@ -377,6 +377,17 @@
             .nav-donate { font-size: 0.8em; padding: 5px 10px; }
             .nav-back { font-size: 0.75em; padding: 5px 10px; }
         }
+        /* === PRINT === */
+        @media print {
+            body { background: #fff; color: #000; font-size: 12pt; line-height: 1.5; }
+            nav, .back-to-top, .share-fab, footer, .page-footer, #google_translate_element,
+            button, .lie-share-row, .yt-card img, .warning-gate { display: none !important; }
+            section, .lie-card, .region-card, .str-topic { break-inside: avoid; }
+            a { color: #000; text-decoration: underline; }
+            .section-header h2, h1 { color: #000; }
+            h3, h4 { color: #333; }
+            * { box-shadow: none !important; text-shadow: none !important; }
+        }
         /* === FLOATING SHARE BUTTON === */
         .share-fab {
             position: fixed;

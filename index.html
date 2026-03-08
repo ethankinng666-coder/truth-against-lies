@@ -770,6 +770,21 @@
             display: block;
         }
 
+        /* === PRINT === */
+        @media print {
+            body { background: #fff; color: #000; font-size: 12pt; line-height: 1.5; }
+            nav, .back-to-top, .share-fab, footer, .hero, #google_translate_element,
+            .nav-menu-wrapper, .gateway-section, .welcome-start, #report,
+            #protectedContentArea, .donate-section, button { display: none !important; }
+            section, .str-panel, .str-topic, .claim-card { break-inside: avoid; }
+            a { color: #000; text-decoration: underline; }
+            .section-header h2 { color: #000; }
+            h3, h4 { color: #333; }
+            .str-highlight { border-color: #000; background: #f5f5f5; color: #000; }
+            .unity-quote { border-color: #ccc; background: #f9f9f9; color: #000; }
+            * { box-shadow: none !important; text-shadow: none !important; }
+        }
+
         /* === FLOATING SHARE BUTTON === */
         .share-fab {
             position: fixed;
