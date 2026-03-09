@@ -94,6 +94,80 @@
         .fact-card.lawfare { border-right: 4px solid #00bcd4; }
         .fact-card.influence { border-right: 4px solid #ff5722; }
         .fact-card.additional { border-right: 4px solid #8bc34a; }
+        .fact-card.qatar { border-right: 4px solid #ffd700; }
+
+        /* === QATAR DEEP DIVE === */
+        .qatar-timeline {
+            position: relative;
+            padding-right: 30px;
+            margin: 15px 0;
+        }
+        .qatar-timeline::before {
+            content: '';
+            position: absolute;
+            right: 8px;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(180deg, #ffd700, #e74c3c);
+        }
+        .qatar-timeline .tl-item {
+            position: relative;
+            margin-bottom: 18px;
+            padding: 12px 15px;
+            background: rgba(255,215,0,0.04);
+            border-radius: 3px;
+        }
+        .qatar-timeline .tl-item::before {
+            content: '';
+            position: absolute;
+            right: -26px;
+            top: 16px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #ffd700;
+            border: 2px solid #0a0a1a;
+        }
+        .qatar-timeline .tl-item.critical::before {
+            background: #e74c3c;
+        }
+        .qatar-timeline .tl-date {
+            color: #ffd700;
+            font-weight: bold;
+            font-size: 0.85em;
+        }
+        .qatar-timeline .tl-text {
+            color: #c0c0c0;
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+        .qatar-timeline .tl-text strong {
+            color: #e2b714;
+        }
+        .qatar-money-flow {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 15px 0;
+        }
+        .qatar-money-flow .flow-box {
+            background: rgba(255,215,0,0.04);
+            border: 1px solid rgba(255,215,0,0.15);
+            border-radius: 3px;
+            padding: 15px;
+            text-align: center;
+        }
+        .qatar-money-flow .flow-amount {
+            color: #ffd700;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .qatar-money-flow .flow-label {
+            color: #888;
+            font-size: 0.85em;
+            margin-top: 5px;
+        }
 
         .fact-card h3 {
             color: #e2b714;
@@ -502,15 +576,15 @@
     </div>
 
     <div class="fact-card military fade-in">
-        <h3>כספי קטאר לחמאס</h3>
-        <div class="role">מדיניות שהתמשכה שנים באישור דרג ביטחוני</div>
-        <div class="quote">"הכסף הקטארי שומר על השקט"</div>
-        <div class="context">קטאר העבירה <strong>$30 מיליון בחודש</strong> לחמאס, במזוודות מזומנים דרך מעבר ארז, <strong>באישור מערכת הביטחון הישראלית</strong>. גורמי מודיעין הזהירו שהכסף מממן חימוש ומנהרות &mdash; האזהרות נדחו.</div>
+        <h3>כספי קטאר לחמאס — $1.8 מיליארד+</h3>
+        <div class="role">מדיניות שהתמשכה שנים באישור דרג ביטחוני | <a href="#qatar-deep" style="color:#ffd700;">&#8592; חקירה מעמיקה למטה</a></div>
+        <div class="quote">"מי שרוצה לסכל מדינה פלסטינית צריך לתמוך בחיזוק חמאס" &mdash; נתניהו, מרץ 2019</div>
+        <div class="context">קטאר העבירה <strong>$30 מיליון בחודש</strong> לחמאס, במזוודות מזומנים דרך מעבר ארז, <strong>באישור מערכת הביטחון הישראלית</strong>. גורמי מודיעין הזהירו שהכסף מממן חימוש ומנהרות &mdash; האזהרות נדחו. בספטמבר 2023 &mdash; <strong>חודש לפני 7/10</strong> &mdash; ישראל ביקשה מקטאר <strong>להגדיל</strong> את התשלומים.</div>
         <div class="result">
             <div class="result-label">&#9888; התוצאה:</div>
-            <p>חמאס השתמש בכספים לבניית מערך טרור שהוביל ל-7 באוקטובר.</p>
+            <p>חמאס השתמש בכספים לבניית מערך טרור שהוביל ל-7 באוקטובר. <strong>חקירת שב"כ (מרץ 2025) קבעה קשר ישיר</strong> בין מדיניות הכספים ל-7/10.</p>
         </div>
-        <div class="source">מקורות: New York Times | ועדת חקירה | דיונים בכנסת | ערוץ 12</div>
+        <div class="source">מקורות: New York Times | ועדת חקירה | דיונים בכנסת | ערוץ 12 | חקירת שב"כ 2025</div>
     </div>
 
     <div class="fact-card military fade-in">
@@ -1491,6 +1565,278 @@
             <p>סין, רוסיה, טורקיה, סעודיה — <strong>0 החלטות</strong>. ישראל — <strong>173</strong>. זה לא צדק. <strong>זו אנטישמיות בחליפה</strong>.</p>
         </div>
         <div class="source">מקורות: UN Watch | Wikipedia | HRW | Amnesty International | CFR</div>
+    </div>
+</section>
+
+<!-- ==================== SECTION 11: QATAR MONEY DEEP DIVE ==================== -->
+<section id="qatar-deep">
+    <div class="section-header fade-in">
+        <h2>&#128176; חקירה מעמיקה: כספי קטאר לחמאס</h2>
+        <div class="section-divider"></div>
+        <p>$1.8 מיליארד+ במזוודות מזומנים &mdash; המדיניות שמימנה את 7 באוקטובר</p>
+    </div>
+
+    <div class="fact-card qatar fade-in">
+        <h3>המנגנון הפיזי — מזוודות מזומנים דרך מעבר ארז</h3>
+        <div class="role">2012&ndash;2023</div>
+        <div class="context">שגריר קטאר <strong>מוחמד אל-עמאדי</strong> נכנס פיזית לעזה דרך מעבר ארז כל חודש, עם <strong>מזוודות מלאות במזומנים</strong>. הכסף הועבר <strong>ישירות לחמאס</strong> &mdash; לא דרך בנקים, לא דרך פיקוח בינלאומי, לא דרך הרשות הפלסטינית. לאחר 2018, ישראל דרשה שחלק מהכספים יעברו דרך <strong>תווי דלק</strong> ושוברי סיוע של האו"ם &mdash; אך <strong>חמאס המשיך לשלוט בחלוקה</strong>.</div>
+        <div class="result">
+            <div class="result-label">&#9888; איך זה עבד:</div>
+            <p>ישראל <strong>אישרה כניסת מזומנים</strong> לשטח אויב. ללא פיקוח אפקטיבי. ללא חשבונאות. ללא בקרה.</p>
+        </div>
+        <div class="source">מקורות: New York Times | Wall Street Journal | Times of Israel | ערוץ 12</div>
+    </div>
+
+    <div class="fact-card qatar fade-in">
+        <h3>$30 מיליון בחודש — חלוקת הכסף</h3>
+        <div class="role">פירוט תקציבי</div>
+        <div class="qatar-money-flow">
+            <div class="flow-box">
+                <div class="flow-amount">$10M</div>
+                <div class="flow-label">דלק ואנרגיה<br><small style="color:#e74c3c;">חמאס שלט בחלוקה</small></div>
+            </div>
+            <div class="flow-box">
+                <div class="flow-amount">$10M</div>
+                <div class="flow-label">משכורות פקידי חמאס<br><small style="color:#e74c3c;">כולל הזרוע הצבאית</small></div>
+            </div>
+            <div class="flow-box">
+                <div class="flow-amount">$10M</div>
+                <div class="flow-label">"סיוע למשפחות"<br><small style="color:#e74c3c;">גם משפחות מחבלים</small></div>
+            </div>
+        </div>
+        <div class="context"><strong>סה"כ: $1.8 מיליארד+</strong> מ-2012 עד 2023. לפי דו"חות, <strong>מוחמד דיף (מפקד הזרוע הצבאית) סיפק $4 מיליון בחודש</strong> ישירות לפיתוח צבאי: מנהרות, רקטות, מל"טים, צוללנים, ואימון לוחמים.</div>
+        <div class="result">
+            <div class="result-label">&#9888; בשורה התחתונה:</div>
+            <p>לפחות <strong>$48 מיליון בשנה</strong> הופנו ישירות לזרוע הצבאית של חמאס &mdash; שתכננה וביצעה את 7 באוקטובר.</p>
+        </div>
+        <div class="source">מקורות: שב"כ | Haaretz | ערוץ 13 | FDD (Foundation for Defense of Democracies)</div>
+    </div>
+
+    <div class="fact-card qatar fade-in">
+        <h3>מי אישר? — שרשרת האישורים</h3>
+        <div class="role">דרג פוליטי וביטחוני</div>
+        <div class="context">
+            &#8226; <strong>בנימין נתניהו</strong> (ראש ממשלה) &mdash; קידם את המדיניות באופן אישי. ציטוט מפגישת סיעת הליכוד, <strong>מרץ 2019</strong>: <strong>"מי שרוצה לסכל מדינה פלסטינית צריך לתמוך בחיזוק חמאס ולהעביר להם כסף"</strong><br>
+            &#8226; <strong>הקבינט המדיני-ביטחוני</strong> &mdash; אישר את המנגנון פורמלית<br>
+            &#8226; <strong>המוסד</strong> &mdash; תיאם את הכניסות דרך ארז<br>
+            &#8226; <strong>צה"ל/אמ"ן</strong> &mdash; סיפק הערכה שהכסף "שומר על השקט"<br>
+            &#8226; <strong>שב"כ</strong> &mdash; ידע על הפניית כספים לזרוע צבאית, <strong>הזהיר &mdash; הופנה להתעלמות</strong>
+        </div>
+        <div class="result">
+            <div class="result-label">&#9888; המשמעות:</div>
+            <p>זו לא הייתה טעות של גורם אחד &mdash; <strong>זו הייתה מדיניות מתואמת</strong> של כל מערכת הביטחון, בראשות ראש הממשלה.</p>
+        </div>
+        <div class="source">מקורות: Haaretz | ערוץ 12 | Jerusalem Post | Ynet | Times of Israel</div>
+    </div>
+
+    <div class="fact-card qatar fade-in">
+        <h3>הציטוט של נתניהו — מרץ 2019</h3>
+        <div class="role">פגישת סיעת הליכוד</div>
+        <div class="quote">"מי שרוצה לסכל הקמה של מדינה פלסטינית צריך לתמוך בחיזוק חמאס ולהעביר להם כסף. זה חלק מהאסטרטגיה שלנו &mdash; לבודד את הפלסטינים בעזה מהפלסטינים ביהודה ושומרון."</div>
+        <div class="context">ציטוט זה, שפורסם לראשונה בערוץ 12 ובהארץ, חושף את <strong>הלוגיקה הפוליטית</strong> מאחורי מדיניות הכספים: לא ביטחון, לא שקט &mdash; אלא <strong>מניעת מדינה פלסטינית</strong> על ידי פיצול בין עזה ליהודה ושומרון. חמאס, לפי הלוגיקה הזו, היה <strong>"נכס אסטרטגי"</strong> &mdash; לא איום.</div>
+        <div class="result">
+            <div class="result-label">&#9888; התוצאה:</div>
+            <p>ה"נכס" הפך לאסון. ה"איום" שלא היה, ביצע את הטבח הגדול ביותר ביהודים מאז השואה.</p>
+        </div>
+        <div class="source">מקורות: ערוץ 12 | Haaretz | Times of Israel | New York Times</div>
+    </div>
+
+    <div class="fact-card qatar fade-in">
+        <h3>מי הזהיר? — האזהרות שנדחו</h3>
+        <div class="role">2016&ndash;2023</div>
+        <div class="qatar-timeline">
+            <div class="tl-item critical">
+                <div class="tl-date">דצמבר 2016</div>
+                <div class="tl-text"><strong>אביגדור ליברמן</strong> (שר הביטחון) כתב מזכר רשמי שהזהיר שהכסף הקטארי <strong>מממן ישירות את הזרוע הצבאית של חמאס</strong> ושהמדיניות תוביל ל<strong>"אסון ביטחוני"</strong>. המזכר נדחה.</div>
+            </div>
+            <div class="tl-item critical">
+                <div class="tl-date">2018&ndash;2019</div>
+                <div class="tl-text"><strong>שב"כ</strong> דיווח שמוחמד דיף מפנה <strong>$4 מיליון/חודש</strong> מתוך הכספים הקטאריים ל<strong>פיתוח צבאי</strong>: מנהרות התקפיות, רקטות, מל"טים, אמצעי לחימה ימיים. הדיווח <strong>לא הוביל לשינוי מדיניות</strong>.</div>
+            </div>
+            <div class="tl-item">
+                <div class="tl-date">2019&ndash;2021</div>
+                <div class="tl-text">אנשי מודיעין שדיברו בעילום שם עם <strong>ערוץ 13</strong> ו<strong>Wall Street Journal</strong> אמרו שהכסף "בורא מפלצת" ושחמאס <strong>"בונה צבא"</strong>. הדרג הפוליטי דחה: <strong>"עדיף כסף ושקט על מלחמה"</strong>.</div>
+            </div>
+            <div class="tl-item critical">
+                <div class="tl-date">ספטמבר 2023</div>
+                <div class="tl-text"><strong>חודש אחד לפני 7 באוקטובר</strong>: ישראל ביקשה מקטאר <strong>להגדיל את ההעברות</strong>. חמאס כבר סיים את האימונים ל<strong>מבצע "טופאן אל-אקצא"</strong>.</div>
+            </div>
+        </div>
+        <div class="result">
+            <div class="result-label">&#9888; המשמעות:</div>
+            <p>כל האזהרות &mdash; ליברמן, שב"כ, גורמי מודיעין &mdash; <strong>נדחו</strong>. המדיניות המשיכה עד הרגע האחרון. ובספטמבר 2023 אפילו <strong>ביקשו להגדיל</strong>.</p>
+        </div>
+        <div class="source">מקורות: מזכר ליברמן | שב"כ | ערוץ 13 | Wall Street Journal | New York Times</div>
+    </div>
+
+    <div class="fact-card qatar fade-in">
+        <h3>ההצדקות הרשמיות — "שקט תמורת כסף"</h3>
+        <div class="role">טענות הדרג הפוליטי והביטחוני</div>
+        <div class="context">
+            <strong>טענה 1:</strong> "הכסף מונע משבר הומניטרי שייצור לחץ בינלאומי על ישראל"<br>
+            <strong>טענה 2:</strong> "חמאס שעסוק בניהול אזרחי לא עוסק בטרור" &mdash; <strong>הקונספציה</strong><br>
+            <strong>טענה 3:</strong> "אם נפסיק את הכסף, חמאס יפתח מלחמה"<br>
+            <strong>טענה 4:</strong> "עדיף חמאס חזק שאחראי מאשר כאוס בעזה"<br>
+            <strong>טענה 5:</strong> "הכסף הולך לאזרחים, לא לצבא" &mdash; <strong>סותר את דיווחי השב"כ</strong>
+        </div>
+        <div class="result">
+            <div class="result-label">&#9888; המציאות:</div>
+            <p>כל 5 ההצדקות הוכחו כ<strong>שגויות לחלוטין</strong> ב-7 באוקטובר 2023. חמאס לא "הורתע". הכסף <strong>לא הלך לאזרחים</strong>. ו"השקט" היה <strong>תקופת הכנה לטבח</strong>.</p>
+        </div>
+        <div class="source">מקורות: ועדת חקירה ממלכתית | דיווחי שב"כ | Haaretz | ערוץ 12</div>
+    </div>
+
+    <div class="fact-card qatar fade-in">
+        <h3>מה חמאס עשה עם הכסף — מערך 7 באוקטובר</h3>
+        <div class="role">שימושים מתועדים</div>
+        <div class="context">
+            &#128308; <strong>350-450 מייל מנהרות</strong> &mdash; מערכת גדולה ממטרו לונדון. עלות: <strong>$30,000-$90,000 לכל מטר</strong>.<br>
+            &#128308; <strong>14,000+ רקטות</strong> שנורו מ-2012 עד 7/10 + 3,000+ ב-7/10 עצמו<br>
+            &#128308; <strong>מל"טי תקיפה</strong> שהשביתו מגדלי תצפית ב-7/10<br>
+            &#128308; <strong>אמצעי לחימה ימיים</strong> &mdash; צוללנים שחדרו דרך הים<br>
+            &#128308; <strong>אימון 6,000+ לוחמים</strong> לפלישת 7 באוקטובר<br>
+            &#128308; <strong>גדודי נוח'בה</strong> (כוח מובחר) &mdash; הוקמו ואומנו עם הכספים<br>
+            &#128308; <strong>ציוד תקשורת</strong> ומערכות שליטה ובקרה תת-קרקעיות
+        </div>
+        <div class="result">
+            <div class="result-label">&#9888; העובדה הפשוטה:</div>
+            <p>הכסף שישראל אישרה <strong>מימן את בניית הצבא שביצע את 7 באוקטובר</strong>.</p>
+        </div>
+        <div class="source">מקורות: IDF | CNN | NPR | Times of Israel | FDD</div>
+    </div>
+
+    <div class="fact-card qatar fade-in">
+        <h3>"הקונספציה" — חמאס מרותע, חמאס הוא נכס</h3>
+        <div class="role">הכשל המחשבתי שעמד בבסיס המדיניות</div>
+        <div class="context">"הקונספציה" הייתה ההנחה שחמאס <strong>"הורתע מלחימה"</strong> ושהוא מעדיף <strong>שלטון אזרחי על פני עימות</strong>. הנחה זו אפשרה להצדיק את מדיניות הכספים. הגורמים המרכזיים:
+        <br><br>
+            &#8226; <strong>תמיר הימן</strong> (ראש אמ"ן): "חמאס מרותע מאוד ממלחמה" (יוני 2019)<br>
+            &#8226; <strong>אהרון חליוה</strong> (ראש אגף 8200): "ציפיתי לשקט ל-5 שנים"<br>
+            &#8226; <strong>אביב כוכבי</strong> (רמטכ"ל): הוביל את מדיניות "חמאס = נכס"<br>
+            &#8226; <strong>הקבינט</strong>: קיבל הערכות מודיעין ללא ערעור
+        </div>
+        <div class="result">
+            <div class="result-label">&#9888; המציאות:</div>
+            <p>חמאס <strong>מעולם לא הורתע</strong>. הוא <strong>השתמש בכסף כדי להתחזק</strong>, וב"שקט" כדי להתאמן. 7 באוקטובר הוכיח שהקונספציה הייתה <strong>שקר מוחלט</strong>.</p>
+        </div>
+        <div class="source">מקורות: ועדת חקירה | ערוץ 12 | Haaretz | Jerusalem Post</div>
+    </div>
+
+    <div class="fact-card qatar fade-in">
+        <h3>ספטמבר 2023 — "תגדילו את הכסף" (חודש לפני 7/10)</h3>
+        <div class="role">הנקודה הקריטית</div>
+        <div class="quote">בספטמבר 2023, ישראל ביקשה מקטאר להגדיל את ההעברות לחמאס.</div>
+        <div class="context">בזמן שחמאס <strong>סיים את האימונים</strong> ל"טופאן אל-אקצה" &mdash; ישראל, במקום להיערך, <strong>ביקשה להעביר עוד כסף</strong>. באותו חודש:
+        <br><br>
+            &#8226; חמאס ביצע <strong>תרגיל כללי אחרון</strong> בסמוך לגדר<br>
+            &#8226; <strong>חיילות תצפית</strong> דיווחו על אימונים חריגים &mdash; <strong>הדיווחים נדחו</strong><br>
+            &#8226; <strong>יחידה 8200</strong> קיבלה מידע מודיעיני &mdash; <strong>סווג כ"לא מציאותי"</strong><br>
+            &#8226; ישראל העבירה <strong>כוחות מעזה לגדה</strong> לחגי תשרי
+        </div>
+        <div class="result">
+            <div class="result-label">&#9888; האירוניה הקטלנית:</div>
+            <p>ישראל ביקשה <strong>לשלם יותר</strong> לארגון ש<strong>באותו רגע ממש</strong> תרגל את הטבח בקהילות עוטף עזה. 30 יום אחר כך &mdash; <strong>1,200 הרוגים</strong>.</p>
+        </div>
+        <div class="source">מקורות: New York Times | Haaretz | ערוץ 13 | Wall Street Journal</div>
+    </div>
+
+    <div class="fact-card qatar fade-in">
+        <h3>חקירת שב"כ (מרץ 2025) — "קשר ישיר למדיניות הכספים"</h3>
+        <div class="role">מסקנות רשמיות</div>
+        <div class="quote">חקירה פנימית של שב"כ שהושלמה במרץ 2025 קבעה "קשר ישיר" בין מדיניות העברת הכספים הקטאריים לבין היכולות שאפשרו את מתקפת 7 באוקטובר.</div>
+        <div class="context">ממצאי החקירה העיקריים:
+        <br><br>
+            &#8226; הכספים אפשרו לחמאס <strong>לשמור על מערכת חימוש</strong> במקביל לניהול אזרחי<br>
+            &#8226; <strong>אזהרות השב"כ</strong> על הפניית כספים לזרוע צבאית <strong>נדחו בדרג הפוליטי</strong><br>
+            &#8226; המנגנון יצר <strong>"תלות הדדית מזויפת"</strong> &mdash; ישראל חשבה שחמאס "צריך" את הכסף יותר מדי כדי לסכן אותו<br>
+            &#8226; חמאס ניצל את ה"שקט" כ<strong>תקופת בנייה אסטרטגית</strong>
+        </div>
+        <div class="result">
+            <div class="result-label">&#9888; המסקנה:</div>
+            <p><strong>מדינת ישראל מימנה בעקיפין את הטבח באזרחיה</strong>. זו לא תיאוריית קונספירציה &mdash; זו <strong>מסקנת חקירה רשמית של שב"כ</strong>.</p>
+        </div>
+        <div class="source">מקורות: שב"כ | Haaretz | ערוץ 12 | Times of Israel | Ynet</div>
+    </div>
+
+    <div class="fact-card qatar fade-in">
+        <h3>"קטארגייט" — עוזרי נתניהו קיבלו כסף מקטאר?</h3>
+        <div class="role">שערוריה פוליטית</div>
+        <div class="context">בשנים 2019-2023, עלו חשדות ודיווחים ש<strong>גורמים בסביבת נתניהו</strong> קיבלו טובות הנאה מגורמים קטאריים. הפרשה, שכונתה <strong>"קטארגייט"</strong>, כללה:
+        <br><br>
+            &#8226; דיווחים על <strong>תיווך פוליטי</strong> בין דוחא לירושלים<br>
+            &#8226; חשדות ל<strong>טובות הנאה אישיות</strong> לגורמים שקידמו את המדיניות<br>
+            &#8226; <strong>ביקורות של דיפלומטים קטאריים בישראל</strong> במעמד חריג<br>
+            &#8226; <strong>ייצוג משפטי</strong> שמומן על ידי גורמים קטאריים לישראלים
+        </div>
+        <div class="result">
+            <div class="result-label">&#9888; השאלה הפתוחה:</div>
+            <p>האם מדיניות הכספים הונעה <strong>רק משיקולי ביטחון</strong> &mdash; או גם מ<strong>אינטרסים אישיים</strong>? החקירה טרם הושלמה.</p>
+        </div>
+        <div class="source">מקורות: ערוץ 13 | Haaretz | Calcalist | דיווחים זרים</div>
+    </div>
+
+    <div class="fact-card qatar fade-in">
+        <h3>ציר הזמן המלא — מ-2012 ל-7 באוקטובר</h3>
+        <div class="role">כרונולוגיה</div>
+        <div class="qatar-timeline">
+            <div class="tl-item">
+                <div class="tl-date">2012</div>
+                <div class="tl-text">קטאר מתחילה להעביר כספים לעזה. <strong>$400 מיליון</strong> לפרויקטי בנייה.</div>
+            </div>
+            <div class="tl-item">
+                <div class="tl-date">2014</div>
+                <div class="tl-text"><strong>מבצע צוק איתן</strong>. חמאס משתמש במנהרות שנבנו בכסף קטארי. 73 חיילים נהרגים.</div>
+            </div>
+            <div class="tl-item critical">
+                <div class="tl-date">2016</div>
+                <div class="tl-text"><strong>ליברמן כותב מזכר אזהרה</strong>. נדחה. הכסף ממשיך לזרום.</div>
+            </div>
+            <div class="tl-item">
+                <div class="tl-date">2018</div>
+                <div class="tl-text">ההעברות עוברות ל<strong>$30M/חודש</strong> קבוע. נתניהו מאשר אישית. הפגנות "מצעד השיבה" בגדר.</div>
+            </div>
+            <div class="tl-item critical">
+                <div class="tl-date">מרץ 2019</div>
+                <div class="tl-text">נתניהו בסיעת הליכוד: <strong>"מי שרוצה לסכל מדינה פלסטינית צריך לתמוך בחיזוק חמאס"</strong>.</div>
+            </div>
+            <div class="tl-item">
+                <div class="tl-date">2019</div>
+                <div class="tl-text">תמיר הימן (ראש אמ"ן): <strong>"חמאס מרותע מאוד ממלחמה"</strong>.</div>
+            </div>
+            <div class="tl-item">
+                <div class="tl-date">מאי 2021</div>
+                <div class="tl-text"><strong>מבצע שומר החומות</strong>. חמאס יורה 4,360 רקטות ב-11 ימים. הכסף ממשיך.</div>
+            </div>
+            <div class="tl-item">
+                <div class="tl-date">2022</div>
+                <div class="tl-text">שב"כ מדווח: דיף מפנה <strong>$4M/חודש לזרוע צבאית</strong>. הדיווח נדחה.</div>
+            </div>
+            <div class="tl-item critical">
+                <div class="tl-date">ספטמבר 2023</div>
+                <div class="tl-text">ישראל מבקשת מקטאר <strong>להגדיל את ההעברות</strong>. חמאס מסיים אימונים אחרונים.</div>
+            </div>
+            <div class="tl-item critical">
+                <div class="tl-date">7 באוקטובר 2023</div>
+                <div class="tl-text"><strong>3,000 מחבלים פורצים את הגדר. 1,200 נרצחים. 251 נחטפים.</strong> הכסף הקטארי מימן את הכל.</div>
+            </div>
+            <div class="tl-item">
+                <div class="tl-date">מרץ 2025</div>
+                <div class="tl-text"><strong>חקירת שב"כ</strong> קובעת "קשר ישיר" בין מדיניות הכספים ל-7/10.</div>
+            </div>
+        </div>
+        <div class="source">מקורות: New York Times | Wall Street Journal | Haaretz | ערוץ 12 | שב"כ | FDD</div>
+    </div>
+
+    <div class="fact-card qatar fade-in" style="background: linear-gradient(135deg, #12172b, rgba(231,76,60,0.08)); border: 1px solid rgba(231,76,60,0.2);">
+        <h3 style="color: #e74c3c; font-size: 1.4em;">&#9888; השורה התחתונה</h3>
+        <div class="context" style="font-size: 1.05em; line-height: 1.9;">
+            מדינת ישראל, בראשות ראש ממשלתה, <strong>אישרה העברת $1.8 מיליארד+</strong> לארגון טרור שמטרתו המוצהרת היא <strong>השמדת מדינת ישראל</strong>.<br><br>
+            הכסף נכנס <strong>במזוודות מזומנים</strong>, ללא פיקוח אמיתי.<br>
+            גורמי מודיעין <strong>הזהירו שוב ושוב</strong> &mdash; וההזהרות <strong>נדחו</strong>.<br>
+            חמאס השתמש בכסף <strong>לבנות צבא</strong>, לחפור <strong>מנהרות</strong>, לייצר <strong>רקטות</strong>, ולאמן <strong>6,000 לוחמים</strong>.<br>
+            חודש לפני הטבח &mdash; ישראל ביקשה <strong>להעביר עוד</strong>.<br><br>
+            <strong style="color: #e74c3c; font-size: 1.1em;">זו לא טעות. זו מדיניות. וב-7 באוקטובר 2023, 1,200 יהודים שילמו את המחיר.</strong>
+        </div>
     </div>
 </section>
 
