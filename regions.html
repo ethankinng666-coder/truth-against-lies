@@ -225,6 +225,48 @@
             .section-header h2 { font-size: 1.7em; }
             .region-card { padding: 20px; }
         }
+        /* === LANGUAGE PICKER === */
+        .nav-lang {
+            position: relative;
+        }
+        .nav-lang-btn {
+            background: rgba(226, 183, 20, 0.2);
+            border: 1px solid #e2b714;
+            color: #e2b714;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 0.85em;
+            font-family: inherit;
+            transition: all 0.3s;
+        }
+        .nav-lang-btn:hover { background: #e2b714; color: #0a0a1a; }
+        .nav-lang-menu {
+            display: none;
+            position: absolute;
+            top: 40px;
+            right: 0;
+            background: rgba(10, 10, 26, 0.98);
+            border: 1px solid rgba(226, 183, 20, 0.2);
+            border-radius: 3px;
+            padding: 8px 0;
+            min-width: 160px;
+            z-index: 2000;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .nav-lang-menu.open { display: block; }
+        .nav-lang-menu a {
+            display: block;
+            padding: 8px 18px;
+            color: #c0c0c0;
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: all 0.2s;
+        }
+        .nav-lang-menu a:hover { color: #e2b714; background: rgba(226, 183, 20, 0.08); }
+        @media (max-width: 768px) {
+            .nav-lang-btn { font-size: 0.75em; padding: 4px 8px; }
+        }
         /* === FOCUS STATES === */
         a:focus-visible, button:focus-visible {
             outline: 2px solid #e2b714;
@@ -335,6 +377,22 @@
                 <li><a href="index.html#report">דווח על אנטישמיות</a></li>
                 <li><a href="action.html">מה אפשר לעשות?</a></li>
             </ul>
+        </div>
+        <div class="nav-lang">
+            <button class="nav-lang-btn" onclick="document.querySelector('.nav-lang-menu').classList.toggle('open')">&#127760; שפה</button>
+            <div class="nav-lang-menu">
+                <a href="#" onclick="setPageLang('he')">עברית</a>
+                <a href="#" onclick="setPageLang('en')">English</a>
+                <a href="#" onclick="setPageLang('ar')">العربية</a>
+                <a href="#" onclick="setPageLang('fr')">Français</a>
+                <a href="#" onclick="setPageLang('de')">Deutsch</a>
+                <a href="#" onclick="setPageLang('es')">Español</a>
+                <a href="#" onclick="setPageLang('ru')">Русский</a>
+                <a href="#" onclick="setPageLang('zh-CN')">中文</a>
+                <a href="#" onclick="setPageLang('pt')">Português</a>
+                <a href="#" onclick="setPageLang('fa')">فارسی</a>
+                <a href="#" onclick="setPageLang('tr')">Türkçe</a>
+            </div>
         </div>
         <a href="index.html" class="nav-back">&#8594; דף ראשי</a>
         <a href="https://buymeacoffee.com/nathaniellinder" target="_blank" rel="noopener" class="nav-donate">&#9749; תמוך</a>
@@ -566,6 +624,27 @@ document.addEventListener('click', function(e) {
 });
 </script>
 
+<script>
+function setPageLang(lang) {
+    document.querySelector('.nav-lang-menu').classList.remove('open');
+    if (lang === 'he') {
+        localStorage.removeItem('siteLang');
+        document.cookie = 'googtrans=;path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT';
+        document.cookie = 'googtrans=;path=/;domain=.github.io;expires=Thu, 01 Jan 1970 00:00:00 GMT';
+    } else {
+        localStorage.setItem('siteLang', lang);
+        document.cookie = 'googtrans=/he/' + lang + ';path=/';
+        document.cookie = 'googtrans=/he/' + lang + ';path=/;domain=.github.io';
+    }
+    location.reload();
+    return false;
+}
+document.addEventListener('click', function(e) {
+    var lm = document.querySelector('.nav-lang-menu');
+    var lb = document.querySelector('.nav-lang-btn');
+    if (lm && !lm.contains(e.target) && e.target !== lb) lm.classList.remove('open');
+});
+</script>
 <div id="google_translate_element"></div>
 <script>
 function googleTranslateElementInit() {
@@ -577,8 +656,7 @@ function googleTranslateElementInit() {
         document.cookie = 'googtrans=/he/' + lang + ';path=/';
         document.cookie = 'googtrans=/he/' + lang + ';path=/;domain=.github.io';
     }
-    var hasGT = document.cookie.indexOf('googtrans=') !== -1 && document.cookie.indexOf('googtrans=;') === -1;
-    if (hasGT && !document.getElementById('gt-script')) {
+    if (!document.getElementById('gt-script')) {
         var s = document.createElement('script');
         s.id = 'gt-script';
         s.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
