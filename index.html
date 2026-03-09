@@ -520,6 +520,51 @@
             padding: 0 10px;
         }
 
+        /* === FAQ SECTION === */
+        .faq-section {
+            padding: 50px 0 30px;
+        }
+        .faq-item {
+            background: linear-gradient(135deg, #16213e 0%, #1a1a3e 100%);
+            border-radius: 3px;
+            border-right: 4px solid #e2b714;
+            margin-bottom: 12px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .faq-question {
+            padding: 18px 22px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq-question h4 {
+            color: #e2b714;
+            font-size: 1.05em;
+            margin: 0;
+        }
+        .faq-question .faq-arrow {
+            color: #e2b714;
+            font-size: 0.8em;
+            transition: transform 0.3s;
+        }
+        .faq-item.open .faq-arrow { transform: rotate(180deg); }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .faq-answer p {
+            padding: 0 22px 18px;
+            color: #c0c0c0;
+            font-size: 0.95em;
+            line-height: 1.8;
+            margin: 0;
+        }
+        .faq-item.open .faq-answer {
+            max-height: 300px;
+        }
+
         /* === INTRO SECTION === */
         .intro-section {
             padding: 60px 0;
@@ -1677,6 +1722,66 @@ function goOriginal() {
         <p><strong style="color:#2ecc71;">1. הפרכה עובדתית</strong> &mdash; מה העובדות באמת מראות?<br>
         <strong style="color:#3498db;">2. הסבר פסיכולוגי</strong> &mdash; למה אנשים מאמינים בשקר הזה?<br>
         <strong style="color:#e2b714;">3. הקשר היסטורי</strong> &mdash; מתי השקר הזה הרג אנשים?</p>
+    </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="faq-section" id="faq">
+    <div class="section-header">
+        <h2>שאלות נפוצות</h2>
+        <div class="section-divider"></div>
+    </div>
+
+    <div style="max-width: 800px; margin: 0 auto;">
+        <div class="faq-item fade-in" onclick="this.classList.toggle('open')">
+            <div class="faq-question">
+                <h4>מה זה האתר הזה?</h4>
+                <span class="faq-arrow">&#9660;</span>
+            </div>
+            <div class="faq-answer">
+                <p>אתר שמתעד עלילות, שקרים ותעמולה נגד ישראל ונגד העם היהודי &mdash; ומפריך אותם אחד אחד עם עובדות מתועדות, מקורות אקדמיים, ומחקרים בינלאומיים. שום דעה לא מוצגת כעובדה.</p>
+            </div>
+        </div>
+
+        <div class="faq-item fade-in" onclick="this.classList.toggle('open')">
+            <div class="faq-question">
+                <h4>למי האתר מיועד?</h4>
+                <span class="faq-arrow">&#9660;</span>
+            </div>
+            <div class="faq-answer">
+                <p>לכל אדם שרוצה לדעת את האמת &mdash; יהודי או לא. לסטודנטים שנתקלים בטענות באוניברסיטה, לאנשים שרוצים להגיב ברשתות עם עובדות, למי שרוצה להבין את הסכסוך לעומק, ולכל מי שמוכן לחשוב בצורה ביקורתית.</p>
+            </div>
+        </div>
+
+        <div class="faq-item fade-in" onclick="this.classList.toggle('open')">
+            <div class="faq-question">
+                <h4>איך להשתמש באתר?</h4>
+                <span class="faq-arrow">&#9660;</span>
+            </div>
+            <div class="faq-answer">
+                <p>למטה תמצאו 34 עלילות מחולקות לקטגוריות. לחצו על קטגוריה כדי לפתוח אותה, ועל כל עלילה כדי לקרוא את ההפרכה המלאה. בנוסף, בתפריט למעלה יש דפי עובדות מעמיקים על נושאים ספציפיים.</p>
+            </div>
+        </div>
+
+        <div class="faq-item fade-in" onclick="this.classList.toggle('open')">
+            <div class="faq-question">
+                <h4>מי עומד מאחורי האתר?</h4>
+                <span class="faq-arrow">&#9660;</span>
+            </div>
+            <div class="faq-answer">
+                <p>אדם אחד &mdash; נתנאל אסיס. לא ארגון, לא ממשלה, לא תקציב. רק אזרח שמאמין שהאמת צריכה להישמע ושלא ייתכן שעלילות שקריות ישלטו בשיח הציבורי ללא מענה.</p>
+            </div>
+        </div>
+
+        <div class="faq-item fade-in" onclick="this.classList.toggle('open')">
+            <div class="faq-question">
+                <h4>מצאתי טעות או רוצה להציע תוכן &mdash; מה עושים?</h4>
+                <span class="faq-arrow">&#9660;</span>
+            </div>
+            <div class="faq-answer">
+                <p>מעולה! דיוק הוא הערך הכי חשוב כאן. שלחו מייל ל-<a href="mailto:truthagainstlies3@gmail.com" style="color: #e2b714;">truthagainstlies3@gmail.com</a> עם תיקונים, הצעות לעלילות חדשות, או כל פידבק אחר. כל פנייה נקראת.</p>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -3649,6 +3754,12 @@ function goOriginal() {
         <p style="color: #e2b714; opacity: 0.8; font-size: 1em; margin-bottom: 15px;">כל תרומה עוזרת להמשיך להפיץ את האמת</p>
         <p style="color: #c0c0c0; font-size: 0.95em; line-height: 1.7; margin-bottom: 25px;">אני יוצר תוכן זה לבד, מתוך אמונה עמוקה שהאמת חייבת להישמע. כרגע אני במצב כלכלי קשה, וכל תרומה &mdash; קטנה ככל שתהיה &mdash; תעזור לי להמשיך לייצר תוכן, לתרגם לשפות נוספות, ולהפיץ את האמת לעוד אנשים ברחבי העולם.</p>
         <a href="https://buymeacoffee.com/nathaniellinder" target="_blank" rel="noopener" style="display: inline-block; padding: 14px 35px; background: linear-gradient(135deg, #e2b714, #c9a012); color: #0a0a1a; font-size: 1.15em; font-weight: bold; border-radius: 3px; text-decoration: none; transition: box-shadow 0.3s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 10px 30px rgba(226,183,20,0.3)'" onmouseout="this.style.transform='';this.style.boxShadow=''">קנה לי קפה &#9749;</a>
+    </div>
+
+    <!-- CONTACT -->
+    <div style="margin-top: 30px;">
+        <a href="mailto:truthagainstlies3@gmail.com?subject=פנייה מהאתר — Truth Against Lies" style="display: inline-block; padding: 12px 30px; border: 2px solid #7c4dff; color: #7c4dff; font-size: 1em; font-weight: bold; border-radius: 3px; text-decoration: none; transition: all 0.3s;" onmouseover="this.style.background='#7c4dff';this.style.color='#fff'" onmouseout="this.style.background='transparent';this.style.color='#7c4dff'">&#9993; צרו קשר</a>
+        <p style="color: #666; font-size: 0.8em; margin-top: 8px;">הצעות, תיקונים, או עלילות חדשות להוסיף? נשמח לשמוע</p>
     </div>
 
     <p style="margin-top: 20px;">נבנה על ידי נתנאל אסיס | 2026</p>
