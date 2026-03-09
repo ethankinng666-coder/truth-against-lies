@@ -464,6 +464,62 @@
             .welcome-topics { grid-template-columns: 1fr; }
         }
 
+        /* === PSYCHOLOGY SECTION === */
+        .psychology-section {
+            margin-top: 40px;
+            padding: 30px 0 10px;
+            border-top: 1px solid rgba(124, 77, 255, 0.15);
+        }
+        .psych-title {
+            color: #7c4dff;
+            font-size: 1.5em;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+        .psych-intro {
+            color: #aaa;
+            font-size: 0.97em;
+            line-height: 1.8;
+            text-align: center;
+            margin-bottom: 25px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .psych-cards {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 18px;
+        }
+        .psych-card {
+            background: linear-gradient(135deg, #16213e 0%, #1a1a3e 100%);
+            border-radius: 3px;
+            padding: 28px 24px;
+            border-right: 4px solid #7c4dff;
+        }
+        .psych-card h4 {
+            color: #7c4dff;
+            font-size: 1.15em;
+            margin-bottom: 12px;
+        }
+        .psych-card p {
+            font-size: 0.97em;
+            color: #c0c0c0;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+        .psych-card p:last-child { margin-bottom: 0; }
+        .psych-card strong { color: #d4c4ff; }
+        .psych-card em { color: #e2b714; font-style: normal; }
+        .psych-closing {
+            color: #aaa;
+            font-size: 0.95em;
+            line-height: 1.8;
+            text-align: center;
+            margin-top: 25px;
+            padding: 0 10px;
+        }
+
         /* === INTRO SECTION === */
         .intro-section {
             padding: 60px 0;
@@ -1548,6 +1604,49 @@ function goOriginal() {
         <p>אני יצרתי את האתר הזה לבד. לא ארגון, לא ממשלה, לא תקציב. רק אדם אחד שמסרב לשתוק. כי אם לא עכשיו &mdash; אימתי. וכי שמי נתנאל, ומשמעות השם הזה היא <strong>&laquo;נתן אל&raquo; &mdash; מתנה מאלוהים.</strong> ואני מאמין שהאמת היא מתנה שצריך לתת הלאה.</p>
         <p>הכל כאן מבוסס על מקורות אקדמיים, מחקרים בינלאומיים, ועובדות מוכחות. שום דעה לא מוצגת כעובדה. אבל העובדות מדברות בעד עצמן.</p>
         <p class="note-sign">&mdash; נתנאל אסיס, יוצר האתר</p>
+    </div>
+
+    <!-- PSYCHOLOGY SECTION -->
+    <div class="psychology-section">
+        <h3 class="psych-title">רגע &mdash; לפני שקוראים</h3>
+        <p class="psych-intro">כל אחד מאיתנו חושב שהוא רציונלי. שהוא בודק עובדות. שהוא לא נופל לפרופגנדה. אבל המדע אומר אחרת. הנה 5 תופעות פסיכולוגיות שמשפיעות על <em>כולנו</em> &mdash; ושכדאי להכיר לפני שקוראים כל דבר באינטרנט. כולל את האתר הזה.</p>
+
+        <div class="psych-cards">
+
+            <div class="psych-card fade-in">
+                <h4>&laquo;תגיד שקר מספיק פעמים &mdash; ואנשים יתחילו להאמין&raquo;</h4>
+                <p>ב-1977, החוקרים Hasher, Goldstein ו-Toppino הוכיחו מדעית: כשאנחנו שומעים טענה שוב ושוב &mdash; המוח שלנו מתחיל לקבל אותה כאמת. גם אם היא שקר מוחלט. ב-2015, Fazio הראה שאפילו כשאנשים <em>יודעים</em> שמשהו לא נכון &mdash; חזרה על הטענה גורמת להם <em>להרגיש</em> שהיא נכונה.</p>
+                <p>זה בדיוק מה שקורה עם סיסמאות כמו <strong>&ldquo;From the river to the sea&rdquo;</strong> &mdash; הן חוזרות כל כך הרבה פעמים, שאנשים מפסיקים לבדוק אם הן אמיתיות.</p>
+            </div>
+
+            <div class="psych-card fade-in">
+                <h4>למה כל כך קשה לשנות דעה &mdash; גם כשיש הוכחות?</h4>
+                <p>ב-1957, הפסיכולוג Leon Festinger גילה שכשמידע חדש סותר את מה שאנחנו כבר מאמינים &mdash; המוח שלנו לא מקבל אותו בשמחה. הוא מרגיש <em>כאב אמיתי</em>. ובגלל הכאב הזה, רוב האנשים מעדיפים לדחות את המידע החדש &mdash; במקום לעדכן את האמונה שלהם.</p>
+                <p>זה לא טיפשות. זו הגנה פסיכולוגית. אבל אם נהיה מודעים לזה &mdash; נוכל לבחור אחרת.</p>
+            </div>
+
+            <div class="psych-card fade-in">
+                <h4>המוח שלנו בנוי לקיצורי דרך &mdash; וזה עולה לנו ביוקר</h4>
+                <p>חוקרי הנובל Daniel Kahneman ו-Amos Tversky&rlm; (1974) הוכיחו שהמוח האנושי משתמש ב&ldquo;קיצורי דרך&rdquo; כדי להחליט מהר. <strong>&ldquo;מערכת 1&rdquo;</strong> &mdash; מהירה, אוטומטית, רגשית. <strong>&ldquo;מערכת 2&rdquo;</strong> &mdash; איטית, שקולה, רציונלית.</p>
+                <p>רוב השיפוטים שלנו &mdash; כולל על עמים, מדינות וסכסוכים &mdash; מתקבלים במערכת 1. בלי שבדקנו. בלי שחשבנו. פשוט &ldquo;הרגשנו&rdquo; שמשהו נכון.</p>
+                <p>האתר הזה מבקש ממך דבר אחד: <strong>להפעיל את מערכת 2.</strong></p>
+            </div>
+
+            <div class="psych-card fade-in">
+                <h4>אנחנו מחפשים מידע שמאשר את מה שכבר מאמינים &mdash; ומתעלמים מהשאר</h4>
+                <p>הפסיכולוג Peter Wason&rlm; (1960) הראה שבני אדם באופן טבעי מחפשים רק ראיות שתומכות בדעה שלהם &mdash; ומתעלמים מראיות שסותרות. Irving Janis&rlm; (1972) הוסיף: בקבוצה, האפקט מתחזק פי כמה. אנחנו רוצים להשתייך, לא להיות שונים. אז אנחנו מאמצים את הדעה של הקבוצה &mdash; גם כשהיא שגויה.</p>
+                <p>רשתות חברתיות מגבירות את זה: האלגוריתם מראה לך רק את מה שאתה כבר מאמין. פה אנחנו נחשוף אותך למה ש<em>לא</em> הראו לך.</p>
+            </div>
+
+            <div class="psych-card fade-in">
+                <h4>החדשות הטובות &mdash; אפשר להשתחרר</h4>
+                <p>מחקר של Morewedge ועמיתיו (2015) הוכיח: מספיק להכיר את ההטיות האלה &mdash; וכבר מתחילים להשתחרר מהן. המשתתפים שלמדו על הטיות קוגניטיביות שיפרו את קבלת ההחלטות שלהם ב-30%. והאפקט נמשך חודשים.</p>
+                <p>אז עצם העובדה שקראת את הקטע הזה? כבר שיפרת את היכולת שלך לחשוב בצורה ביקורתית. עכשיו &mdash; בוא נצלול לעובדות.</p>
+            </div>
+
+        </div>
+
+        <p class="psych-closing">אנחנו לא פה כדי לספר לך מה לחשוב. אנחנו פה כדי לתת לך את הכלים לחשוב בעצמך &mdash; ואת העובדות שלא סיפרו לך.</p>
     </div>
 
     <div class="welcome-start">
