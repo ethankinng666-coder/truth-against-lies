@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>נתוני אנטישמיות בעולם | האמת נגד השקר</title>
+    <meta name="description" content="סטטיסטיקה ונתונים מעודכנים על אנטישמיות בעולם — ADL, FRA, IHRA, FBI — המספרים מדברים">
+    <meta name="theme-color" content="#0a0a1a">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Open Graph -->
+    <meta property="og:title" content="נתוני אנטישמיות בעולם | האמת נגד השקר">
+    <meta property="og:description" content="סטטיסטיקה ונתונים מעודכנים על אנטישמיות בעולם — ADL, FRA, IHRA, FBI — המספרים מדברים">
+    <meta property="og:image" content="https://truth-against-lies.github.io/truth-against-lies/og-image.png">
+    <meta property="og:url" content="https://truth-against-lies.github.io/truth-against-lies/statistics.html">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="he_IL">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="נתוני אנטישמיות בעולם | האמת נגד השקר">
+    <meta name="twitter:description" content="סטטיסטיקה ונתונים מעודכנים על אנטישמיות בעולם — ADL, FRA, IHRA, FBI — המספרים מדברים">
+    <meta name="twitter:image" content="https://truth-against-lies.github.io/truth-against-lies/og-image.png">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="canonical" href="https://truth-against-lies.github.io/truth-against-lies/statistics.html">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif;
+            background-color: #0a0a1a;
+            color: #e0e0e0;
+            line-height: 1.7;
+            scroll-behavior: smooth;
+        }
+
+        /* === PAGE CONTENT === */
+        .page-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 100px 20px 60px;
+        }
+        .page-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .page-title h1 {
+            font-size: 2.5em;
+            color: #e2b714;
+            margin-bottom: 10px;
+        }
+        .page-title p {
+            color: #888;
+            font-size: 1.1em;
+        }
+
+        /* === STAT SECTIONS === */
+        .stat-section {
+            background: #12172b;
+            border-radius: 3px;
+            padding: 35px;
+            margin-bottom: 35px;
+            border: 1px solid rgba(226,183,20,0.08);
+        }
+        .stat-section h2 {
+            color: #e2b714;
+            font-size: 1.4em;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid rgba(226, 183, 20, 0.2);
+        }
+        .stat-bar-row {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 12px;
+        }
+        .stat-year {
+            color: #888;
+            font-size: 0.85em;
+            min-width: 45px;
+            text-align: left;
+        }
+        .stat-bar {
+            height: 28px;
+            background: linear-gradient(90deg, #e2b714, #c49a10);
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-right: 10px;
+            transition: width 0.5s;
+        }
+        .stat-bar span {
+            color: #0a0a1a;
+            font-weight: bold;
+            font-size: 0.85em;
+            white-space: nowrap;
+        }
+        .stat-highlight {
+            background: rgba(231,76,60,0.08);
+            border-right: 3px solid #e74c3c;
+            padding: 15px 20px;
+            border-radius: 3px;
+            margin: 15px 0;
+        }
+        .stat-highlight strong {
+            color: #e74c3c;
+        }
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-box {
+            background: rgba(226,183,20,0.06);
+            border: 1px solid rgba(226,183,20,0.15);
+            border-radius: 3px;
+            padding: 20px;
+            text-align: center;
+        }
+        .stat-box .stat-number {
+            font-size: 2em;
+            color: #e2b714;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .stat-box .stat-label {
+            color: #888;
+            font-size: 0.85em;
+        }
+
+        /* === CAMPUS LIST === */
+        .campus-list {
+            list-style: none;
+            margin: 15px 0;
+        }
+        .campus-list li {
+            padding: 10px 15px;
+            border-bottom: 1px solid rgba(226,183,20,0.06);
+            color: #b0b0b0;
+            font-size: 0.95em;
+        }
+        .campus-list li strong {
+            color: #e0e0e0;
+        }
+
+        /* === COMPARISON TABLE === */
+        .comparison-row {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 14px;
+            padding: 12px 15px;
+            background: rgba(226,183,20,0.04);
+            border-radius: 3px;
+        }
+        .comparison-label {
+            min-width: 120px;
+            color: #e0e0e0;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        .comparison-bar-wrap {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .comparison-bar {
+            height: 24px;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-right: 8px;
+        }
+        .comparison-bar span {
+            font-weight: bold;
+            font-size: 0.8em;
+            white-space: nowrap;
+        }
+        .comparison-pop {
+            color: #666;
+            font-size: 0.8em;
+            min-width: 90px;
+            text-align: left;
+        }
+
+        /* === IHRA LIST === */
+        .ihra-countries {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 15px 0;
+        }
+        .ihra-tag {
+            background: rgba(226,183,20,0.1);
+            border: 1px solid rgba(226,183,20,0.2);
+            color: #e2b714;
+            padding: 5px 14px;
+            border-radius: 3px;
+            font-size: 0.8em;
+        }
+
+        /* === SOURCES === */
+        .sources-section {
+            background: #12172b;
+            border-radius: 3px;
+            padding: 35px;
+            margin-top: 45px;
+            border: 1px solid rgba(226,183,20,0.08);
+        }
+        .sources-section h2 {
+            color: #e2b714;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .sources-list {
+            list-style: none;
+        }
+        .sources-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(226,183,20,0.05);
+            font-size: 0.85em;
+            color: #999;
+        }
+        .sources-list li a {
+            color: #e2b714;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(226,183,20,0.3);
+            transition: border-color 0.3s;
+        }
+        .sources-list li a:hover {
+            border-color: #e2b714;
+        }
+
+        /* === FOOTER === */
+        .page-footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid rgba(226, 183, 20, 0.2);
+            margin-top: 60px;
+            color: #666;
+        }
+        .page-footer a {
+            color: #e2b714;
+            text-decoration: none;
+        }
+
+        /* === BACK TO TOP === */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            width: 50px;
+            height: 50px;
+            background: #e2b714;
+            color: #0a0a1a;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.5em;
+            cursor: pointer;
+            display: none;
+            z-index: 999;
+            transition: opacity 0.3s;
+            box-shadow: 0 4px 15px rgba(226, 183, 20, 0.3);
+        }
+        .back-to-top.visible { display: block; }
+
+        @media (max-width: 768px) {
+            .page-title h1 { font-size: 1.8em; }
+            .stat-section { padding: 20px; }
+            .stat-section h2 { font-size: 1.2em; }
+            .stat-grid { grid-template-columns: 1fr; }
+            .stat-bar-row { gap: 10px; }
+            .comparison-row { flex-direction: column; align-items: stretch; gap: 8px; }
+            .comparison-label { min-width: auto; }
+        }
+    </style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"נתוני אנטישמיות בעולם | האמת נגד השקר","description":"סטטיסטיקה ונתונים מעודכנים על אנטישמיות בעולם — ADL, FRA, IHRA, FBI — המספרים מדברים","author":{"@type":"Person","name":"נתנאל אסיס"},"publisher":{"@type":"Organization","name":"האמת נגד השקר"},"dateModified":"2026-03-10","inLanguage":"he","mainEntityOfPage":"https://truth-against-lies.github.io/truth-against-lies/statistics.html"}
+</script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">דלג לתוכן</a>
+
+<nav>
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">האמת נגד השקר</a>
+        <div class="nav-menu-wrapper">
+            <button class="hamburger" aria-label="תפריט ניווט" aria-expanded="false" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="antisemitism.html">מה זה אנטישמיות?</a></li>
+                <li><a href="antisemitism.html#claims">עלילות והפרכות</a></li>
+                <li><a href="lies.html">שקרים נפוצים</a></li>
+                <li><a href="index.html#timeline">ציר זמן</a></li>
+                <li><a href="index.html#psychology">הפסיכולוגיה</a></li>
+                <li><a href="regions.html">שנאה לפי עמים</a></li>
+                <li><a href="gallery.html">תיעוד היסטורי</a></li>
+                <li><a href="videos.html">צפה והתעדכן</a></li>
+                <li><a href="october7.html">7 באוקטובר</a></li>
+                <li><a href="facts.html">עובדות שלא מספרים לך</a></li>
+                <li><a href="index.html#strengthen">חיזוק העם</a></li>
+                <li><a href="index.html#report">דווח על אנטישמיות</a></li>
+                <li><a href="action.html">מה אפשר לעשות?</a></li>
+            </ul>
+        </div>
+        <div class="nav-lang">
+            <button class="nav-lang-btn" onclick="document.querySelector('.nav-lang-menu').classList.toggle('open')">&#127760; שפה</button>
+            <div class="nav-lang-menu">
+                <a href="#" onclick="setPageLang('he')">עברית</a>
+                <a href="#" onclick="setPageLang('en')">English</a>
+                <a href="#" onclick="setPageLang('ar')">العربية</a>
+                <a href="#" onclick="setPageLang('fr')">Français</a>
+                <a href="#" onclick="setPageLang('de')">Deutsch</a>
+                <a href="#" onclick="setPageLang('es')">Español</a>
+                <a href="#" onclick="setPageLang('ru')">Русский</a>
+                <a href="#" onclick="setPageLang('zh-CN')">中文</a>
+                <a href="#" onclick="setPageLang('pt')">Português</a>
+                <a href="#" onclick="setPageLang('fa')">فارسی</a>
+                <a href="#" onclick="setPageLang('tr')">Türkçe</a>
+            </div>
+        </div>
+        <a href="index.html" class="nav-back">&#8594; דף ראשי</a>
+        <a href="https://buymeacoffee.com/nathaniellinder" target="_blank" rel="noopener" class="nav-donate">&#9749; תמוך</a>
+    </div>
+</nav>
+
+<div class="page-container" id="main-content">
+
+    <div class="page-title">
+        <h1>נתוני אנטישמיות בעולם</h1>
+        <p>המספרים מדברים &mdash; נתונים מעודכנים ממקורות רשמיים</p>
+        <p class="hero-meta">עודכן לאחרונה: מרץ 2026</p>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- SECTION 1: ADL — US ANTISEMITIC INCIDENTS -->
+    <!-- ============================================ -->
+    <div class="stat-section">
+        <h2>&#128200; תקריות אנטישמיות &mdash; ארה"ב (ADL)</h2>
+
+        <div class="stat-bar-row">
+            <span class="stat-year">2019</span>
+            <div class="stat-bar" style="width: 22%"><span>2,107</span></div>
+        </div>
+        <div class="stat-bar-row">
+            <span class="stat-year">2020</span>
+            <div class="stat-bar" style="width: 22%"><span>2,024</span></div>
+        </div>
+        <div class="stat-bar-row">
+            <span class="stat-year">2021</span>
+            <div class="stat-bar" style="width: 29%"><span>2,717</span></div>
+        </div>
+        <div class="stat-bar-row">
+            <span class="stat-year">2022</span>
+            <div class="stat-bar" style="width: 39%"><span>3,697</span></div>
+        </div>
+        <div class="stat-bar-row">
+            <span class="stat-year">2023</span>
+            <div class="stat-bar" style="width: 95%"><span>8,873</span></div>
+        </div>
+        <div class="stat-bar-row">
+            <span class="stat-year">2024</span>
+            <div class="stat-bar" style="width: 100%"><span>9,354 &#128308;</span></div>
+        </div>
+
+        <div class="stat-highlight">
+            <strong>893% עלייה ב-10 שנים.</strong> בממוצע &mdash; <strong>25+ אירועים אנטישמיים ביום</strong> בארצות הברית לבדה.
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- SECTION 2: FRA — EUROPE -->
+    <!-- ============================================ -->
+    <div class="stat-section">
+        <h2>&#127466;&#127482; אנטישמיות באירופה (FRA &mdash; EU Agency)</h2>
+
+        <div class="stat-grid">
+            <div class="stat-box">
+                <span class="stat-number">96%</span>
+                <span class="stat-label">מיהודי אירופה נתקלו באנטישמיות (FRA 2024)</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">38%</span>
+                <span class="stat-label">שקלו לעזוב את אירופה בגלל אנטישמיות</span>
+            </div>
+        </div>
+
+        <div class="stat-highlight">
+            <strong>צרפת:</strong> 1,676 תקריות ב-2023 &mdash; <strong>+1,000% מ-2022</strong>
+        </div>
+        <div class="stat-highlight">
+            <strong>גרמניה:</strong> 4,782 תקריות ב-2024 &mdash; עלייה מתמדת מדי שנה
+        </div>
+        <div class="stat-highlight">
+            <strong>בריטניה:</strong> 1,978 תקריות (CST) &mdash; <strong>שיא כל הזמנים</strong>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- SECTION 3: US CAMPUSES -->
+    <!-- ============================================ -->
+    <div class="stat-section">
+        <h2>&#127891; קמפוסים אמריקאיים</h2>
+
+        <div class="stat-grid">
+            <div class="stat-box">
+                <span class="stat-number">1,694</span>
+                <span class="stat-label">אירועי קמפוס ב-2024</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">84%</span>
+                <span class="stat-label">עלייה לעומת שנה קודמת</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">57+</span>
+                <span class="stat-label">מקרי קריעת פוסטרים KIDNAPPED</span>
+            </div>
+        </div>
+
+        <ul class="campus-list">
+            <li><strong>Columbia University</strong> &mdash; מחאות אלימות, הצטרכו לסגור את הקמפוס. סטודנטים יהודים הורחקו פיזית.</li>
+            <li><strong>Harvard</strong> &mdash; נשיאת האוניברסיטה התפטרה לאחר שהתגלה שהכשילה טיפול באנטישמיות.</li>
+            <li><strong>MIT</strong> &mdash; מאהלי מחאה אנטי-ישראליים, הפרעה לסטודנטים יהודים, קריאות "Intifada".</li>
+        </ul>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- SECTION 4: ONLINE ANTISEMITISM -->
+    <!-- ============================================ -->
+    <div class="stat-section">
+        <h2>&#128187; אנטישמיות ברשת</h2>
+
+        <div class="stat-grid">
+            <div class="stat-box">
+                <span class="stat-number">7.4M</span>
+                <span class="stat-label">פוסטים אנטישמיים ב-X/Twitter ב-2023 (ADL)</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">46%</span>
+                <span class="stat-label">עלייה בתוכן אנטישמי ב-TikTok</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">3x</span>
+                <span class="stat-label">גידול בערוצים אנטישמיים ב-Telegram</span>
+            </div>
+        </div>
+
+        <div class="stat-highlight">
+            פלטפורמות הרשת הפכו לכלי ההפצה המרכזי של שנאה אנטישמית. <strong>אלגוריתמים מגבירים תוכן שנאה</strong> כי הוא מייצר engagement. תיוגים כמו #HitlerWasRight צברו מיליוני צפיות.
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- SECTION 5: IHRA ADOPTION -->
+    <!-- ============================================ -->
+    <div class="stat-section">
+        <h2>&#127758; מי מאמץ את הגדרת IHRA?</h2>
+
+        <p style="color: #b0b0b0; margin-bottom: 20px;">ה-IHRA (International Holocaust Remembrance Alliance) הגדירה את ההגדרה המקובלת בינלאומית של אנטישמיות. מדינות, ערים, וארגונים מאמצים אותה כדי לזהות ולמנוע אנטישמיות.</p>
+
+        <div class="stat-grid">
+            <div class="stat-box">
+                <span class="stat-number">47</span>
+                <span class="stat-label">מדינות שאימצו את ההגדרה</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">553</span>
+                <span class="stat-label">גופים (ערים, אוניברסיטאות, ארגונים)</span>
+            </div>
+        </div>
+
+        <p style="color: #888; font-size: 0.9em; margin: 20px 0 10px;">מדינות מרכזיות שאימצו:</p>
+        <div class="ihra-countries">
+            <span class="ihra-tag">ארה"ב</span>
+            <span class="ihra-tag">בריטניה</span>
+            <span class="ihra-tag">גרמניה</span>
+            <span class="ihra-tag">צרפת</span>
+            <span class="ihra-tag">קנדה</span>
+            <span class="ihra-tag">אוסטריה</span>
+            <span class="ihra-tag">אוסטרליה</span>
+            <span class="ihra-tag">איטליה</span>
+            <span class="ihra-tag">הולנד</span>
+            <span class="ihra-tag">שוודיה</span>
+            <span class="ihra-tag">ספרד</span>
+            <span class="ihra-tag">בלגיה</span>
+            <span class="ihra-tag">רומניה</span>
+            <span class="ihra-tag">בולגריה</span>
+            <span class="ihra-tag">צ'כיה</span>
+            <span class="ihra-tag">סלובקיה</span>
+            <span class="ihra-tag">הונגריה</span>
+            <span class="ihra-tag">יוון</span>
+            <span class="ihra-tag">ארגנטינה</span>
+            <span class="ihra-tag">אורוגוואי</span>
+            <span class="ihra-tag">ישראל</span>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- SECTION 6: GLOBAL COMPARISON -->
+    <!-- ============================================ -->
+    <div class="stat-section">
+        <h2>&#9878; השוואה גלובלית &mdash; אנטישמיות מול גודל אוכלוסייה</h2>
+
+        <p style="color: #b0b0b0; margin-bottom: 25px;">יהודים הם 0.2% מאוכלוסיית העולם &mdash; אבל מקבלים את הנתח הגדול ביותר של פשעי שנאה דתית. הנתונים מה-FBI מראים תמונה ברורה:</p>
+
+        <!-- Jews -->
+        <div class="comparison-row">
+            <span class="comparison-label">יהודים</span>
+            <div class="comparison-bar-wrap">
+                <div class="comparison-bar" style="width: 100%; background: linear-gradient(90deg, #e74c3c, #c0392b);">
+                    <span style="color: #fff;">&nbsp;~60% מפשעי השנאה הדתית</span>
+                </div>
+            </div>
+            <span class="comparison-pop">0.2% מהעולם</span>
+        </div>
+
+        <!-- Muslims -->
+        <div class="comparison-row">
+            <span class="comparison-label">מוסלמים</span>
+            <div class="comparison-bar-wrap">
+                <div class="comparison-bar" style="width: 25%; background: linear-gradient(90deg, #3498db, #2980b9);">
+                    <span style="color: #fff;">&nbsp;~15%</span>
+                </div>
+            </div>
+            <span class="comparison-pop">24.9% מהעולם</span>
+        </div>
+
+        <!-- Christians -->
+        <div class="comparison-row">
+            <span class="comparison-label">נוצרים</span>
+            <div class="comparison-bar-wrap">
+                <div class="comparison-bar" style="width: 20%; background: linear-gradient(90deg, #2ecc71, #27ae60);">
+                    <span style="color: #fff;">&nbsp;~12%</span>
+                </div>
+            </div>
+            <span class="comparison-pop">31.1% מהעולם</span>
+        </div>
+
+        <div class="stat-highlight">
+            הנתונים חד-משמעיים: <strong>יהודים הם הקבוצה הדתית הנרדפת ביותר ביחס לגודלם</strong> &mdash; פי 300 מעל הייצוג באוכלוסייה. זה לא "תחושה" &mdash; זה מתועד על ידי ה-FBI, שנה אחרי שנה.
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- SOURCES -->
+    <!-- ============================================ -->
+    <div class="sources-section">
+        <h2>&#128218; מקורות</h2>
+        <ul class="sources-list">
+            <li><a href="https://www.adl.org/resources/report/audit-antisemitic-incidents-2024" target="_blank" rel="noopener">ADL &mdash; Audit of Antisemitic Incidents 2024</a></li>
+            <li><a href="https://www.adl.org/resources/report/audit-antisemitic-incidents-2023" target="_blank" rel="noopener">ADL &mdash; Audit of Antisemitic Incidents 2023</a></li>
+            <li><a href="https://fra.europa.eu/en/publication/2024/antisemitism-overview-2024" target="_blank" rel="noopener">FRA &mdash; Antisemitism: Overview of Antisemitic Incidents (EU Agency for Fundamental Rights)</a></li>
+            <li><a href="https://fra.europa.eu/en/publication/2024/experiences-and-perceptions-antisemitism" target="_blank" rel="noopener">FRA &mdash; Experiences and Perceptions of Antisemitism (Survey 2024)</a></li>
+            <li><a href="https://cst.org.uk/data/file/Antisemitic_Incidents_Report_2024.pdf" target="_blank" rel="noopener">CST (UK) &mdash; Antisemitic Incidents Report 2024</a></li>
+            <li><a href="https://www.bmi.bund.de/SharedDocs/pressemitteilungen/DE/2025/02/pmk2024.html" target="_blank" rel="noopener">BMI (Germany) &mdash; Politisch motivierte Kriminalit&auml;t 2024</a></li>
+            <li><a href="https://ucr.fbi.gov/hate-crime" target="_blank" rel="noopener">FBI &mdash; Hate Crime Statistics (Annual Reports)</a></li>
+            <li><a href="https://www.adl.org/resources/report/antisemitism-online" target="_blank" rel="noopener">ADL &mdash; Antisemitism Online: Report on Social Media Hate</a></li>
+            <li><a href="https://www.holocaustremembrance.com/resources/working-definitions/working-definition-antisemitism" target="_blank" rel="noopener">IHRA &mdash; Working Definition of Antisemitism (Adoption Map)</a></li>
+            <li><a href="https://combatantisemitism.org/monitoring/" target="_blank" rel="noopener">Combat Antisemitism Movement &mdash; Global Monitoring</a></li>
+        </ul>
+    </div>
+
+    <!-- CLOSING MESSAGE -->
+    <div style="text-align: center; margin-top: 40px; padding: 40px 20px; border-top: 1px solid rgba(226, 183, 20, 0.15);">
+        <p style="color: #e2b714; font-size: 1.3em; margin-bottom: 10px;">המספרים לא משקרים. השנאה גדלה. הזמן לפעול הוא עכשיו.</p>
+        <p style="color: #888; font-size: 1em;">The numbers don't lie. Hatred is growing. The time to act is now.</p>
+    </div>
+
+</div>
+
+<div class="page-footer">
+    <p><a href="index.html">&#8594; חזרה לאתר הראשי</a></p>
+    <p style="margin-top: 15px;">נבנה על ידי נתנאל אסיס | 2026</p>
+</div>
+
+<!-- BACK TO TOP -->
+<button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="חזרה למעלה">&#8593;</button>
+
+<!-- Floating Share Button -->
+<div class="share-fab" id="shareFab">
+    <div class="share-fab-menu">
+        <a class="sfab-wa" title="WhatsApp" onclick="fabShare('whatsapp')">W</a>
+        <a class="sfab-tg" title="Telegram" onclick="fabShare('telegram')">T</a>
+        <a class="sfab-tw" title="X / Twitter" onclick="fabShare('twitter')">&#120143;</a>
+        <a class="sfab-fb" title="Facebook" onclick="fabShare('facebook')">f</a>
+        <a class="sfab-cp" title="העתק קישור" onclick="fabShare('copy')">&#128203;</a>
+    </div>
+    <button class="share-fab-btn" aria-label="שתף דף" onclick="document.getElementById('shareFab').classList.toggle('open')" title="שתף">&#10149;</button>
+</div>
+
+<!-- SCRIPTS -->
+<script>
+// Back to top
+window.addEventListener('scroll', function() {
+    var btn = document.querySelector('.back-to-top');
+    if (window.scrollY > 400) btn.classList.add('visible');
+    else btn.classList.remove('visible');
+});
+</script>
+
+<div id="google_translate_element"></div>
+<script src="common.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js"></script>
+<script>trackPageView('statistics');</script>
+
+</body>
+</html>

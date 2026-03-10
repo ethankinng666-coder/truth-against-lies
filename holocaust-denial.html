@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הכחשת השואה — עובדות נגד שקרים | האמת נגד השקר</title>
+    <meta name="description" content="6 טענות נפוצות של מכחישי שואה — מופרכות בעובדות, מסמכים וראיות היסטוריות">
+    <meta name="theme-color" content="#0a0a1a">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Open Graph -->
+    <meta property="og:title" content="הכחשת השואה — עובדות נגד שקרים | האמת נגד השקר">
+    <meta property="og:description" content="6 טענות נפוצות של מכחישי שואה — מופרכות בעובדות, מסמכים וראיות היסטוריות">
+    <meta property="og:image" content="https://truth-against-lies.github.io/truth-against-lies/og-image.png">
+    <meta property="og:url" content="https://truth-against-lies.github.io/truth-against-lies/holocaust-denial.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="he_IL">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="הכחשת השואה — עובדות נגד שקרים | האמת נגד השקר">
+    <meta name="twitter:description" content="6 טענות נפוצות של מכחישי שואה — מופרכות בעובדות, מסמכים וראיות היסטוריות">
+    <meta name="twitter:image" content="https://truth-against-lies.github.io/truth-against-lies/og-image.png">
+    <link rel="stylesheet" href="shared.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Arial Black', 'Helvetica Neue', Arial, sans-serif;
+            overflow-x: hidden;
+            background-color: #0a0a1a;
+            color: #e0e0e0;
+            line-height: 1.7;
+            scroll-behavior: smooth;
+        }
+        .section-header {
+            text-align: center;
+            padding: 50px 0 25px;
+        }
+        .section-header h1,
+        .section-header h2 {
+            color: #e2b714;
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+        .section-divider {
+            width: 60px;
+            height: 3px;
+            background: #e2b714;
+            margin: 0 auto 15px;
+        }
+        .section-header p {
+            color: #888;
+            font-size: 1em;
+        }
+
+        /* === LIE CARDS === */
+        .lie-card {
+            background: #12172b;
+            border-radius: 3px;
+            padding: 35px;
+            margin-bottom: 35px;
+            border-right: 4px solid #e74c3c;
+        }
+        .lie-card h3 {
+            color: #e74c3c;
+            font-size: 1.35em;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        .lie-claim-box {
+            background: rgba(231,76,60,0.08);
+            border-right: 3px solid #e74c3c;
+            border-radius: 3px;
+            padding: 18px;
+            margin-bottom: 20px;
+        }
+        .lie-claim-box .lie-label {
+            color: #e74c3c;
+            font-weight: bold;
+            margin-bottom: 8px;
+            font-size: 0.95em;
+        }
+        .lie-claim-box p {
+            color: #c0c0c0;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+        .lie-refutation {
+            background: rgba(46,204,113,0.08);
+            border-right: 3px solid #2ecc71;
+            border-radius: 3px;
+            padding: 18px;
+            margin-bottom: 20px;
+        }
+        .lie-refutation .lie-label {
+            color: #2ecc71;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 0.95em;
+        }
+        .lie-refutation p, .lie-refutation li {
+            color: #c0c0c0;
+            font-size: 0.95em;
+            line-height: 1.7;
+            margin-bottom: 8px;
+        }
+        .lie-refutation ul {
+            padding-right: 20px;
+            margin: 10px 0;
+        }
+        .lie-refutation strong {
+            color: #2ecc71;
+        }
+        .lie-sources {
+            font-size: 0.8em;
+            color: #666;
+            font-style: italic;
+            margin-top: 15px;
+            line-height: 1.6;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            padding-top: 12px;
+        }
+        .lie-footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(226,183,20,0.15);
+        }
+        .lie-footer span {
+            color: #e2b714;
+            font-weight: bold;
+            font-size: 1.05em;
+            letter-spacing: 1px;
+        }
+
+        /* === LIE CARD ACTION BUTTONS === */
+        .lie-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-top: 15px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+        .lie-copy-btn {
+            background: rgba(226, 183, 20, 0.12);
+            border: 1px solid rgba(226, 183, 20, 0.4);
+            color: #e2b714;
+            padding: 8px 18px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.85em;
+            transition: all 0.3s;
+        }
+        .lie-copy-btn:hover {
+            background: #e2b714;
+            color: #0a0a1a;
+        }
+        .lie-copy-btn.copied {
+            background: #2ecc71;
+            border-color: #2ecc71;
+            color: #fff;
+        }
+        .lie-share-row {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin-right: auto;
+        }
+        .lie-share-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.15);
+            background: rgba(255,255,255,0.05);
+            color: #c0c0c0;
+            text-decoration: none;
+            font-size: 0.85em;
+            transition: all 0.3s;
+        }
+        .lie-share-btn.whatsapp:hover { background: #25D366; color: #fff; border-color: #25D366; }
+        .lie-share-btn.twitter:hover { background: #1DA1F2; color: #fff; border-color: #1DA1F2; }
+        .lie-share-btn.telegram:hover { background: #0088cc; color: #fff; border-color: #0088cc; }
+        .lie-share-btn.facebook:hover { background: #1877F2; color: #fff; border-color: #1877F2; }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid rgba(226, 183, 20, 0.2);
+            margin-top: 80px;
+            color: #666;
+        }
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            width: 50px;
+            height: 50px;
+            background: #e2b714;
+            color: #0a0a1a;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.5em;
+            cursor: pointer;
+            display: none;
+            z-index: 999;
+            transition: opacity 0.3s;
+            box-shadow: 0 4px 15px rgba(226, 183, 20, 0.3);
+        }
+        .back-to-top.visible { display: block; }
+        @media (max-width: 768px) {
+            .section-header h2 { font-size: 1.7em; }
+            .lie-card { padding: 20px; }
+        }
+    </style>
+    <link rel="canonical" href="https://truth-against-lies.github.io/truth-against-lies/holocaust-denial.html">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"הכחשת השואה — עובדות נגד שקרים | האמת נגד השקר","description":"6 טענות נפוצות של מכחישי שואה — מופרכות בעובדות, מסמכים וראיות היסטוריות","author":{"@type":"Person","name":"נתנאל אסיס"},"publisher":{"@type":"Organization","name":"האמת נגד השקר"},"dateModified":"2026-03-10","inLanguage":"he","mainEntityOfPage":"https://truth-against-lies.github.io/truth-against-lies/holocaust-denial.html"}
+</script>
+</head>
+<body>
+<a href="#main-content" class="skip-link">דלג לתוכן</a>
+
+<nav>
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">האמת נגד השקר</a>
+        <div class="nav-menu-wrapper">
+            <button class="hamburger" aria-label="תפריט ניווט" aria-expanded="false" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="antisemitism.html">מה זה אנטישמיות?</a></li>
+                <li><a href="antisemitism.html#claims">עלילות והפרכות</a></li>
+                <li><a href="lies.html">שקרים נפוצים</a></li>
+                <li><a href="index.html#timeline">ציר זמן</a></li>
+                <li><a href="index.html#psychology">הפסיכולוגיה</a></li>
+                <li><a href="regions.html">שנאה לפי עמים</a></li>
+                <li><a href="gallery.html">תיעוד היסטורי</a></li>
+                <li><a href="videos.html">צפה והתעדכן</a></li>
+                <li><a href="october7.html">7 באוקטובר</a></li>
+                <li><a href="facts.html">עובדות שלא מספרים לך</a></li>
+                <li><a href="index.html#strengthen">חיזוק העם</a></li>
+                <li><a href="index.html#report">דווח על אנטישמיות</a></li>
+                <li><a href="action.html">מה אפשר לעשות?</a></li>
+            </ul>
+        </div>
+        <div class="nav-lang">
+            <button class="nav-lang-btn" onclick="document.querySelector('.nav-lang-menu').classList.toggle('open')">&#127760; שפה</button>
+            <div class="nav-lang-menu">
+                <a href="#" onclick="setPageLang('he')">עברית</a>
+                <a href="#" onclick="setPageLang('en')">English</a>
+                <a href="#" onclick="setPageLang('ar')">العربية</a>
+                <a href="#" onclick="setPageLang('fr')">Français</a>
+                <a href="#" onclick="setPageLang('de')">Deutsch</a>
+                <a href="#" onclick="setPageLang('es')">Español</a>
+                <a href="#" onclick="setPageLang('ru')">Русский</a>
+                <a href="#" onclick="setPageLang('zh-CN')">中文</a>
+                <a href="#" onclick="setPageLang('pt')">Português</a>
+                <a href="#" onclick="setPageLang('fa')">فارسی</a>
+                <a href="#" onclick="setPageLang('tr')">Türkçe</a>
+            </div>
+        </div>
+        <a href="index.html" class="nav-back">&#8594; דף ראשי</a>
+        <a href="https://buymeacoffee.com/nathaniellinder" target="_blank" rel="noopener" class="nav-donate">&#9749; תמוך</a>
+    </div>
+</nav>
+
+<main id="main-content" style="max-width: 1000px; margin: 0 auto; padding: 80px 20px 0;">
+
+<section id="holocaust-denial">
+    <div class="section-header">
+        <h1>הכחשת השואה &mdash; עובדות נגד שקרים</h1>
+        <div class="section-divider"></div>
+        <p>כל טענת הכחשה ניפצת אל מול ההיסטוריה המתועדת</p>
+        <p class="hero-meta">עודכן לאחרונה: מרץ 2026</p>
+    </div>
+
+    <!-- DENIAL 1: 6 MILLION IS EXAGGERATED -->
+    <div class="lie-card fade-in" id="card-1">
+        <h3>"6 מיליון זה מספר מוגזם"</h3>
+        <button class="copy-link-btn" onclick="copyCardLink(event,this)" title="העתק לינק">&#128279;</button>
+
+        <div class="lie-claim-box">
+            <div class="lie-label">&#10060; מה הם טוענים:</div>
+            <p>המספר הומצא לצורכי תעמולה; המספר האמיתי נמוך בהרבה.</p>
+        </div>
+
+        <div class="lie-refutation">
+            <div class="lie-label">&#10003; העובדות שחושפות את השקר:</div>
+            <ul>
+                <li><strong>הרישומים של גרמניה הנאצית עצמה:</strong> דו"חות האיינזצגרופן (יחידות ההרג הניידות) תיעדו <strong>1.5 מיליון יהודים שנורו</strong> במזרח אירופה &mdash; מספרים שנרשמו על ידי הרוצחים עצמם.</li>
+                <li><strong>פרוטוקול ועידת ואנזה (ינואר 1942):</strong> מסמך שנמצא שלם, בו מפורטים <strong>11 מיליון יהודים שיועדו להשמדה</strong>. המסמך נכתב על ידי בכירי הרייך.</li>
+                <li><strong>נתוני מפקד אוכלוסין:</strong> 9.5 מיליון יהודים באירופה לפני המלחמה &rarr; 3.5 מיליון אחריה &mdash; על פי מקורות בלתי תלויים מרובים.</li>
+                <li><strong>מאגר השמות של יד ושם:</strong> <strong>4.8 מיליון+ שמות פרטיים</strong> שנאספו ואומתו &mdash; כל אחד מהם אדם אמיתי עם שם, תאריך לידה ומקום מגורים.</li>
+                <li><strong>מברק הפלה (Höfle Telegram, פוענח ב-2001):</strong> מספרי גירוש מדויקים לטרבלינקה, סוביבור, בלז'ץ ומיידנק = <strong>1,274,166 בשנת 1942 בלבד</strong>.</li>
+                <li><strong>רודולף הס (מפקד אושוויץ)</strong> העיד בנירנברג: <strong>"לפחות 2.5 מיליון"</strong> נרצחו באושוויץ. מחקרים מאוחרים יותר עידנו את המספר ל-<strong>~1.1 מיליון</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="lie-sources">
+            מקורות: Yad Vashem Names Database | USHMM &mdash; Holocaust Encyclopedia | Nuremberg Trial Records (IMT) | Höfle Telegram (National Archives UK, HW 16/10)
+        </div>
+
+        <div class="lie-actions">
+            <button class="lie-copy-btn" onclick="copyLieResponse(this)">&#128203; העתק תגובה</button>
+            <div class="lie-share-row">
+                <a class="lie-share-btn whatsapp" onclick="shareLie(this,'whatsapp')" title="WhatsApp">W</a>
+                <a class="lie-share-btn twitter" onclick="shareLie(this,'twitter')" title="X / Twitter">&#120143;</a>
+                <a class="lie-share-btn telegram" onclick="shareLie(this,'telegram')" title="Telegram">T</a>
+                <a class="lie-share-btn facebook" onclick="shareLie(this,'facebook')" title="Facebook">f</a>
+            </div>
+        </div>
+        <div class="lie-footer"><span>&#10070; האמת מנצחת תמיד &#10070;</span></div>
+    </div>
+
+    <!-- DENIAL 2: NO GAS CHAMBERS -->
+    <div class="lie-card fade-in" id="card-2">
+        <h3>"לא היו תאי גזים"</h3>
+        <button class="copy-link-btn" onclick="copyCardLink(event,this)" title="העתק לינק">&#128279;</button>
+
+        <div class="lie-claim-box">
+            <div class="lie-label">&#10060; מה הם טוענים:</div>
+            <p>תאי הגזים היו חדרי חיטוי, או שהם פבריקציה שנוצרה לאחר המלחמה.</p>
+        </div>
+
+        <div class="lie-refutation">
+            <div class="lie-label">&#10003; העובדות שחושפות את השקר:</div>
+            <ul>
+                <li><strong>ראיות פיזיות:</strong> תאי הגזים באושוויץ ובמיידנק <strong>עדיין שלמים וניתנים לביקור היום</strong>.</li>
+                <li><strong>שרידי צקלון B:</strong> ניתוח כימי של <strong>המכון לחקירות פורנזיות בקרקוב (1994)</strong> מצא שרידי ציאניד בקירות תאי הגזים.</li>
+                <li><strong>עדויות הזונדרקומנדו:</strong> עדים בלתי תלויים מרובים שנאלצו לעבוד בתאי הגזים <strong>תיארו את התהליך באופן זהה</strong> &mdash; מבלי שידעו על עדויות האחרים.</li>
+                <li><strong>מסמכי בנייה של ה-SS (ארכיון Topf &amp; Sons):</strong> תוכניות מפורטות של <strong>"דלתות אטומות לגז"</strong> ו<strong>"חדרי התפשטות"</strong> המחוברים למשרפות.</li>
+                <li><strong>תצלומי הזונדרקומנדו אלברטו ארֶרה (1944):</strong> מראים גופות נשרפות <strong>בבורות פתוחים באושוויץ</strong> &mdash; צולמו בסיכון חיים.</li>
+                <li><strong>דייוויד אירווינג הפסיד את תביעת הדיבה שלו בלונדון (2000):</strong> השופט קבע שטענות הכחשת השואה של אירווינג הן <strong>שקרים</strong>, ושאירווינג הוא <strong>אנטישמי ומעוות היסטוריה במכוון</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="lie-sources">
+            מקורות: Auschwitz-Birkenau State Museum | Irving v. Lipstadt judgment (2000), Royal Courts of Justice, London | Forensic analysis &mdash; Institute of Forensic Research, Krak&oacute;w (1994) | Topf &amp; Sons Archive, Erfurt
+        </div>
+
+        <div class="lie-actions">
+            <button class="lie-copy-btn" onclick="copyLieResponse(this)">&#128203; העתק תגובה</button>
+            <div class="lie-share-row">
+                <a class="lie-share-btn whatsapp" onclick="shareLie(this,'whatsapp')" title="WhatsApp">W</a>
+                <a class="lie-share-btn twitter" onclick="shareLie(this,'twitter')" title="X / Twitter">&#120143;</a>
+                <a class="lie-share-btn telegram" onclick="shareLie(this,'telegram')" title="Telegram">T</a>
+                <a class="lie-share-btn facebook" onclick="shareLie(this,'facebook')" title="Facebook">f</a>
+            </div>
+        </div>
+        <div class="lie-footer"><span>&#10070; האמת מנצחת תמיד &#10070;</span></div>
+    </div>
+
+    <!-- DENIAL 3: HOLOCAUST INDUSTRY -->
+    <div class="lie-card fade-in" id="card-3">
+        <h3>"היהודים מנצלים את השואה לרווח"</h3>
+        <button class="copy-link-btn" onclick="copyCardLink(event,this)" title="העתק לינק">&#128279;</button>
+
+        <div class="lie-claim-box">
+            <div class="lie-label">&#10060; מה הם טוענים:</div>
+            <p>"תעשיית השואה" נוצרה לצורכי כסף ומנוף פוליטי.</p>
+        </div>
+
+        <div class="lie-refutation">
+            <div class="lie-label">&#10003; העובדות שחושפות את השקר:</div>
+            <ul>
+                <li><strong>ניצולים לא קיבלו כלום במשך עשרות שנים;</strong> פיצויים גרמניים החלו רק ב-1952, לאחר דיון ציבורי סוער.</li>
+                <li><strong>פיצוי ממוצע לניצול: ~3,000 דולר לשנה</strong> &mdash; ניצולים רבים חיו בעוני.</li>
+                <li><strong>ועידת התביעות (Claims Conference)</strong> חילקה <strong>~90 מיליארד דולר בסך הכל מאז 1952</strong> &mdash; לניצולים בודדים, לא לארגונים.</li>
+                <li><strong>49,000 ניצולי שואה בישראל עדיין חיים מתחת לקו העוני</strong> (נתוני הלמ"ס, 2024).</li>
+                <li><strong>מוזיאונים (USHMM, יד ושם)</strong> הם <strong>מוסדות ציבוריים הממומנים על ידי ממשלות</strong>, לא "מרכזי רווח".</li>
+                <li><strong>השוואה:</strong> יפן שילמה 800 מיליון דולר לנשות הנוחות הקוריאניות; ארה"ב שילמה 1.6 מיליארד דולר ליפנים-אמריקאים שנכלאו &mdash; <strong>אף אחד לא קורא לזה "תעשייה"</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="lie-sources">
+            מקורות: Claims Conference Annual Report | CBS Israel &mdash; נתוני עוני בקרב ניצולי שואה (2024) | German Finance Ministry &mdash; Wiedergutmachung | USHMM &mdash; About the Museum
+        </div>
+
+        <div class="lie-actions">
+            <button class="lie-copy-btn" onclick="copyLieResponse(this)">&#128203; העתק תגובה</button>
+            <div class="lie-share-row">
+                <a class="lie-share-btn whatsapp" onclick="shareLie(this,'whatsapp')" title="WhatsApp">W</a>
+                <a class="lie-share-btn twitter" onclick="shareLie(this,'twitter')" title="X / Twitter">&#120143;</a>
+                <a class="lie-share-btn telegram" onclick="shareLie(this,'telegram')" title="Telegram">T</a>
+                <a class="lie-share-btn facebook" onclick="shareLie(this,'facebook')" title="Facebook">f</a>
+            </div>
+        </div>
+        <div class="lie-footer"><span>&#10070; האמת מנצחת תמיד &#10070;</span></div>
+    </div>
+
+    <!-- DENIAL 4: JUST A WAR -->
+    <div class="lie-card fade-in" id="card-4">
+        <h3>"השואה הייתה רק מלחמה &mdash; הרוגים מכל הצדדים"</h3>
+        <button class="copy-link-btn" onclick="copyCardLink(event,this)" title="העתק לינק">&#128279;</button>
+
+        <div class="lie-claim-box">
+            <div class="lie-label">&#10060; מה הם טוענים:</div>
+            <p>יהודים מתו באותם תנאים כמו אחרים; לא קרה שום דבר ייחודי.</p>
+        </div>
+
+        <div class="lie-refutation">
+            <div class="lie-label">&#10003; העובדות שחושפות את השקר:</div>
+            <ul>
+                <li><strong>ההבדל המכריע:</strong> תשתית השמדה תעשייתית ושיטתית שנבנתה <strong>במיוחד למטרה אחת &mdash; רצח יהודים</strong>.</li>
+                <li><strong>6 מחנות השמדה</strong> שנבנו <strong>אך ורק לרצח המוני:</strong> אושוויץ-בירקנאו, טרבלינקה, סוביבור, בלז'ץ, כלמנו, מיידנק.</li>
+                <li><strong>האיינזצגרופן:</strong> יחידות הרג ניידות שעקבו אחרי הוורמאכט <strong>במיוחד כדי לירות ביהודים</strong>.</li>
+                <li><strong>ועידת ואנזה:</strong> 15 בכירים נאציים נפגשו כדי לתכנן את ה"פתרון הסופי" &mdash; <strong>רצח ביורוקרטי של 11 מיליון</strong>.</li>
+                <li><strong>1.5 מיליון ילדים נרצחו</strong> &mdash; לא "נפגעי מלחמה" אלא <strong>רצח מכוון של תינוקות, פעוטות וילדים</strong>.</li>
+                <li><strong>קורבנות נוספים (רומא, נכים, להט"ב+, פולנים)</strong> גם הם היו מטרות &mdash; אך רק היהודים היו נתונים <strong>למדיניות השמדה מוחלטת</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="lie-sources">
+            מקורות: Wannsee Conference Minutes (Haus der Wannsee-Konferenz) | Nuremberg Tribunal Records | USHMM &mdash; Holocaust Encyclopedia | Yad Vashem &mdash; The Einsatzgruppen
+        </div>
+
+        <div class="lie-actions">
+            <button class="lie-copy-btn" onclick="copyLieResponse(this)">&#128203; העתק תגובה</button>
+            <div class="lie-share-row">
+                <a class="lie-share-btn whatsapp" onclick="shareLie(this,'whatsapp')" title="WhatsApp">W</a>
+                <a class="lie-share-btn twitter" onclick="shareLie(this,'twitter')" title="X / Twitter">&#120143;</a>
+                <a class="lie-share-btn telegram" onclick="shareLie(this,'telegram')" title="Telegram">T</a>
+                <a class="lie-share-btn facebook" onclick="shareLie(this,'facebook')" title="Facebook">f</a>
+            </div>
+        </div>
+        <div class="lie-footer"><span>&#10070; האמת מנצחת תמיד &#10070;</span></div>
+    </div>
+
+    <!-- DENIAL 5: HITLER DIDN'T KNOW -->
+    <div class="lie-card fade-in" id="card-5">
+        <h3>"היטלר לא ידע / לא ציווה"</h3>
+        <button class="copy-link-btn" onclick="copyCardLink(event,this)" title="העתק לינק">&#128279;</button>
+
+        <div class="lie-claim-box">
+            <div class="lie-label">&#10060; מה הם טוענים:</div>
+            <p>היטלר לא נתן פקודה לשואה; היא התרחשה ללא ידיעתו.</p>
+        </div>
+
+        <div class="lie-refutation">
+            <div class="lie-label">&#10003; העובדות שחושפות את השקר:</div>
+            <ul>
+                <li><strong>נאום היטלר בפני הרייכסטאג (30 בינואר 1939):</strong> "אם יהדות העולם הבינלאומית... תגרור את העמים למלחמת עולם, <strong>התוצאה תהיה השמדת הגזע היהודי באירופה</strong>" &mdash; מצולם ומוקלט.</li>
+                <li><strong>יומנו של גבלס (27 במרץ 1942):</strong> "נבואתו של הפיהרר על היהודים... <strong>מתגשמת בדרך הנוראית ביותר</strong>."</li>
+                <li><strong>נאום הימלר בפוזנן (4 באוקטובר 1943):</strong> "אני מדבר על פינוי היהודים, <strong>על השמדת העם היהודי</strong>" &mdash; <strong>קיימת הקלטת שמע</strong>.</li>
+                <li><strong>היטלר נפגש באופן קבוע עם הימלר</strong> (מתועד ביומן הפגישות של הימלר) &mdash; <strong>שרשרת פיקוד ישירה</strong>.</li>
+                <li><strong>שביל מסמכים:</strong> היטלר &rarr; גרינג &rarr; היידריך &rarr; אייכמן &mdash; <strong>שרשרת הרשאה ברורה</strong> ל"פתרון הסופי".</li>
+            </ul>
+        </div>
+
+        <div class="lie-sources">
+            מקורות: Nuremberg Trial Records (IMT) | Goebbels Diaries (Institut f&uuml;r Zeitgeschichte, Munich) | Himmler's Posen Speech &mdash; audio recording at USHMM | Himmler's Appointment Book (Bundesarchiv)
+        </div>
+
+        <div class="lie-actions">
+            <button class="lie-copy-btn" onclick="copyLieResponse(this)">&#128203; העתק תגובה</button>
+            <div class="lie-share-row">
+                <a class="lie-share-btn whatsapp" onclick="shareLie(this,'whatsapp')" title="WhatsApp">W</a>
+                <a class="lie-share-btn twitter" onclick="shareLie(this,'twitter')" title="X / Twitter">&#120143;</a>
+                <a class="lie-share-btn telegram" onclick="shareLie(this,'telegram')" title="Telegram">T</a>
+                <a class="lie-share-btn facebook" onclick="shareLie(this,'facebook')" title="Facebook">f</a>
+            </div>
+        </div>
+        <div class="lie-footer"><span>&#10070; האמת מנצחת תמיד &#10070;</span></div>
+    </div>
+
+    <!-- DENIAL 6: MOVE ON -->
+    <div class="lie-card fade-in" id="card-6">
+        <h3>"זה היה מזמן &mdash; צריך להמשיך הלאה"</h3>
+        <button class="copy-link-btn" onclick="copyCardLink(event,this)" title="העתק לינק">&#128279;</button>
+
+        <div class="lie-claim-box">
+            <div class="lie-label">&#10060; מה הם טוענים:</div>
+            <p>השואה הייתה לפני 80 שנה; היהודים צריכים "להמשיך הלאה" ולהפסיק להשתמש בה.</p>
+        </div>
+
+        <div class="lie-refutation">
+            <div class="lie-label">&#10003; העובדות שחושפות את השקר:</div>
+            <ul>
+                <li><strong>הניצולים האחרונים גוססים:</strong> ~245,000 ניצולים בחיים ב-2024 (גיל ממוצע 86) &mdash; <strong>זהו הדור האחרון שיכול להעיד</strong>.</li>
+                <li><strong>הכחשת השואה דווקא גדלה:</strong> 23% מדור Z בארה"ב מאמינים שהשואה מוגזמת (סקר Claims Conference, 2023).</li>
+                <li><strong>20+ מדינות מפלילות הכחשה</strong> &mdash; כי שכחה מאפשרת חזרה.</li>
+                <li><strong>"לעולם לא עוד"</strong> נאמר אחרי ארמניה (1915), אחרי השואה (1945), אחרי רואנדה (1994), אחרי סרברניצה (1995) &mdash; <strong>וזה ממשיך לקרות כי אנשים "ממשיכים הלאה"</strong>.</li>
+                <li><strong>7 באוקטובר 2023</strong> היה היום הקטלני ביותר ליהודים מאז השואה &mdash; <strong>80 שנה לא היו מספיק מרחק</strong>.</li>
+                <li><strong>האנטישמיות בשיא כל הזמנים:</strong> ADL 2024: <strong>9,354 אירועים אנטישמיים</strong> &mdash; העבר הוא לא עבר.</li>
+            </ul>
+        </div>
+
+        <div class="lie-sources">
+            מקורות: Claims Conference Holocaust Knowledge and Awareness Survey (2023) | ADL Annual Audit of Antisemitic Incidents (2024) | IHRA &mdash; International Holocaust Remembrance Alliance
+        </div>
+
+        <div class="lie-actions">
+            <button class="lie-copy-btn" onclick="copyLieResponse(this)">&#128203; העתק תגובה</button>
+            <div class="lie-share-row">
+                <a class="lie-share-btn whatsapp" onclick="shareLie(this,'whatsapp')" title="WhatsApp">W</a>
+                <a class="lie-share-btn twitter" onclick="shareLie(this,'twitter')" title="X / Twitter">&#120143;</a>
+                <a class="lie-share-btn telegram" onclick="shareLie(this,'telegram')" title="Telegram">T</a>
+                <a class="lie-share-btn facebook" onclick="shareLie(this,'facebook')" title="Facebook">f</a>
+            </div>
+        </div>
+        <div class="lie-footer"><span>&#10070; האמת מנצחת תמיד &#10070;</span></div>
+    </div>
+
+</section>
+
+</main>
+
+<button class="back-to-top" aria-label="חזרה למעלה" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#9650;</button>
+
+<!-- Floating Share Button -->
+<div class="share-fab" id="shareFab">
+    <div class="share-fab-menu">
+        <a class="sfab-wa" title="WhatsApp" onclick="fabShare('whatsapp')">W</a>
+        <a class="sfab-tg" title="Telegram" onclick="fabShare('telegram')">T</a>
+        <a class="sfab-tw" title="X / Twitter" onclick="fabShare('twitter')">&#120143;</a>
+        <a class="sfab-fb" title="Facebook" onclick="fabShare('facebook')">f</a>
+        <a class="sfab-cp" title="העתק קישור" onclick="fabShare('copy')">&#128203;</a>
+    </div>
+    <button class="share-fab-btn" aria-label="שתף דף" onclick="document.getElementById('shareFab').classList.toggle('open')" title="שתף">&#10149;</button>
+</div>
+
+<footer>
+    <p style="color: #e2b714; font-size: 1.2em; margin-bottom: 10px;">האמת היא הנשק החזק ביותר נגד השנאה</p>
+    <p>Truth is the most powerful weapon against hatred</p>
+    <p style="margin-top: 25px;"><a href="index.html" style="color:#e2b714; text-decoration:none;">&#8594; חזרה לאתר הראשי</a></p>
+    <p style="margin-top: 10px; font-size: 0.85em; color: #555;">נבנה על ידי נתנאל אסיס | 2026</p>
+</footer>
+
+<script>
+// Back to top
+window.addEventListener('scroll', function() {
+    var btn = document.querySelector('.back-to-top');
+    if (window.scrollY > 500) btn.classList.add('visible');
+    else btn.classList.remove('visible');
+});
+// Fade-in
+var fadeObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            fadeObserver.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.1 });
+document.querySelectorAll('.fade-in').forEach(function(el) { fadeObserver.observe(el); });
+
+// Copy lie response to clipboard
+function copyLieResponse(btn) {
+    const card = btn.closest('.lie-card');
+    const title = card.querySelector('h3').textContent;
+    const refutation = card.querySelector('.lie-refutation');
+    const items = refutation.querySelectorAll('li');
+    const summary = refutation.querySelector('p:last-of-type');
+    const sources = card.querySelector('.lie-sources').textContent;
+    let text = title + '\n\n';
+    items.forEach(function(li) { text += '- ' + li.textContent + '\n'; });
+    if (summary) text += '\n' + summary.textContent + '\n';
+    text += '\n' + sources;
+    text += '\n\nhttps://truth-against-lies.github.io/truth-against-lies/holocaust-denial.html';
+    navigator.clipboard.writeText(text).then(function() {
+        btn.textContent = '\u2714 \u05D4\u05D5\u05E2\u05EA\u05E7!';
+        btn.classList.add('copied');
+        setTimeout(function() {
+            btn.innerHTML = '&#128203; \u05D4\u05E2\u05EA\u05E7 \u05EA\u05D2\u05D5\u05D1\u05D4';
+            btn.classList.remove('copied');
+        }, 2000);
+    });
+}
+
+// Share lie card on social media
+function shareLie(el, platform) {
+    const card = el.closest('.lie-card');
+    const title = card.querySelector('h3').textContent;
+    const anchor = card.id ? '#' + card.id : '';
+    const url = 'https://truth-against-lies.github.io/truth-against-lies/holocaust-denial.html' + anchor;
+    const text = title + ' — ' + '\u05D4\u05D0\u05DE\u05EA \u05E0\u05D2\u05D3 \u05D4\u05E9\u05E7\u05E8';
+    const encoded = encodeURIComponent(text + '\n' + url);
+    let shareUrl = '';
+    if (platform === 'whatsapp') shareUrl = 'https://wa.me/?text=' + encoded;
+    else if (platform === 'twitter') shareUrl = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(url);
+    else if (platform === 'telegram') shareUrl = 'https://t.me/share/url?url=' + encodeURIComponent(url) + '&text=' + encodeURIComponent(text);
+    else if (platform === 'facebook') shareUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
+    window.open(shareUrl, '_blank');
+}
+</script>
+
+
+<div id="google_translate_element"></div>
+<script src="common.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js"></script>
+<script>trackPageView('holocaust-denial');</script>
+
+<script>
+function copyCardLink(e, btn) {
+    e.stopPropagation();
+    var card = btn.closest('[id]');
+    var url = location.origin + location.pathname + '#' + card.id;
+    navigator.clipboard.writeText(url).then(function() {
+        var orig = btn.innerHTML;
+        btn.innerHTML = '&#10003;';
+        setTimeout(function() { btn.innerHTML = '&#128279;'; }, 1500);
+    });
+}
+(function() {
+    if (location.hash) {
+        var el = document.querySelector(location.hash);
+        if (el) {
+            setTimeout(function() {
+                el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 500);
+        }
+    }
+})();
+</script>
+
+</body>
+</html>
