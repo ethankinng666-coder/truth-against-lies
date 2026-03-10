@@ -166,9 +166,14 @@
                 <li><a href="action.html">מה אפשר לעשות?</a></li>
             </ul>
         </div>
-        <button class="nav-search-btn" onclick="openSearchOverlay()" aria-label="חיפוש" title="חיפוש">&#128269;</button>
-        <button class="theme-toggle" aria-label="מצב בהיר/כהה" title="מצב בהיר/כהה">&#9728;</button>
-        <button class="nav-print-btn" onclick="window.print()" aria-label="הדפסה / PDF" title="הדפסה / PDF">&#128424;</button>
+        <button class="nav-search-btn" onclick="openSearchOverlay()" aria-label="חיפוש באתר" title="חיפוש באתר"><span class="search-icon">&#128269;</span><span class="search-label">חיפוש</span></button>
+        <div class="nav-settings">
+            <button class="nav-settings-btn" onclick="document.querySelector('.nav-settings-menu').classList.toggle('open')" aria-label="הגדרות" title="הגדרות">&#9881;</button>
+            <div class="nav-settings-menu">
+                <button onclick="toggleTheme(); document.querySelector('.nav-settings-menu').classList.remove('open')"><span class="settings-icon" id="themeIcon">&#9728;</span><span id="themeLabel">מצב בהיר</span></button>
+                <button onclick="window.print(); document.querySelector('.nav-settings-menu').classList.remove('open')"><span class="settings-icon">&#128424;</span>הדפסה / PDF</button>
+            </div>
+        </div>
         <div class="nav-lang">
             <button class="nav-lang-btn" onclick="document.querySelector('.nav-lang-menu').classList.toggle('open')">&#127760; שפה</button>
             <div class="nav-lang-menu">

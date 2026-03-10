@@ -86,21 +86,27 @@ function googleTranslateElementInit() {
     }
 })();
 
-// ========== THEME TOGGLE ==========
+// ========== THEME (LIGHT/DARK) ==========
 (function() {
     var saved = localStorage.getItem('theme');
     if (saved === 'light') document.body.classList.add('light-mode');
-    var btn = document.querySelector('.theme-toggle');
-    if (btn) {
-        btn.addEventListener('click', function() {
-            document.body.classList.toggle('light-mode');
-            var isLight = document.body.classList.contains('light-mode');
-            localStorage.setItem('theme', isLight ? 'light' : 'dark');
-            this.textContent = isLight ? '\u263E' : '\u2600';
-        });
-        if (document.body.classList.contains('light-mode')) btn.textContent = '\u263E';
-    }
 })();
+function toggleTheme() {
+    document.body.classList.toggle('light-mode');
+    var isLight = document.body.classList.contains('light-mode');
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    var label = document.getElementById('themeLabel');
+    if (label) label.textContent = isLight ? '\u05DE\u05E6\u05D1 \u05DB\u05D4\u05D4' : '\u05DE\u05E6\u05D1 \u05D1\u05D4\u05D9\u05E8';
+    var icon = document.getElementById('themeIcon');
+    if (icon) icon.textContent = isLight ? '\u263E' : '\u2600';
+}
+
+// ========== SETTINGS DROPDOWN ==========
+document.addEventListener('click', function(e) {
+    var sm = document.querySelector('.nav-settings-menu');
+    var sb = document.querySelector('.nav-settings-btn');
+    if (sm && !sm.contains(e.target) && e.target !== sb) sm.classList.remove('open');
+});
 
 // ========== READING PROGRESS BAR ==========
 (function() {
