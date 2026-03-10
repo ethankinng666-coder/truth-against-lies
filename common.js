@@ -86,6 +86,22 @@ function googleTranslateElementInit() {
     }
 })();
 
+// ========== THEME TOGGLE ==========
+(function() {
+    var saved = localStorage.getItem('theme');
+    if (saved === 'light') document.body.classList.add('light-mode');
+    var btn = document.querySelector('.theme-toggle');
+    if (btn) {
+        btn.addEventListener('click', function() {
+            document.body.classList.toggle('light-mode');
+            var isLight = document.body.classList.contains('light-mode');
+            localStorage.setItem('theme', isLight ? 'light' : 'dark');
+            this.textContent = isLight ? '\u263E' : '\u2600';
+        });
+        if (document.body.classList.contains('light-mode')) btn.textContent = '\u263E';
+    }
+})();
+
 // ========== READING PROGRESS BAR ==========
 (function() {
     var bar = document.querySelector('.reading-progress');
@@ -97,3 +113,8 @@ function googleTranslateElementInit() {
         bar.style.width = progress + '%';
     });
 })();
+
+// ========== SERVICE WORKER ==========
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(function() {});
+}
