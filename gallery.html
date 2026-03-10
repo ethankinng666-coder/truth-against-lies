@@ -22,6 +22,8 @@
     <meta name="twitter:image" content="https://truth-against-lies.github.io/truth-against-lies/og-image.png">
     <link rel="stylesheet" href="shared.css">
     <link rel="canonical" href="https://truth-against-lies.github.io/truth-against-lies/gallery.html">
+    <link rel="alternate" hreflang="he" href="https://truth-against-lies.github.io/truth-against-lies/gallery.html">
+    <link rel="alternate" hreflang="x-default" href="https://truth-against-lies.github.io/truth-against-lies/gallery.html">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -536,7 +538,7 @@
     <button class="lightbox-close" aria-label="סגור תמונה" onclick="closeLB()">&#10005;</button>
     <button class="lightbox-nav lightbox-next" aria-label="תמונה הבאה" onclick="navLB(-1)">&#10094;</button>
     <button class="lightbox-nav lightbox-prev" aria-label="תמונה קודמת" onclick="navLB(1)">&#10095;</button>
-    <img id="lb-img" src="" alt="">
+    <img id="lb-img" src="" alt="תמונה מוגדלת מהגלריה">
     <div class="lightbox-caption" id="lb-caption"></div>
 </div>
 
@@ -566,7 +568,9 @@ function openLB(el) {
 }
 function showLB() {
     const item = lbItems[lbIdx];
-    document.getElementById('lb-img').src = item.querySelector('img').src;
+    const srcImg = item.querySelector('img');
+    document.getElementById('lb-img').src = srcImg.src;
+    document.getElementById('lb-img').alt = srcImg.alt || 'תמונה מוגדלת מהגלריה';
     document.getElementById('lb-caption').innerHTML = item.querySelector('.adv-caption').innerHTML;
     document.getElementById('lightbox').classList.add('active');
     document.body.style.overflow = 'hidden';
@@ -597,6 +601,14 @@ document.addEventListener('keydown', function(e) {
 <script src="supabase-config.js"></script>
 <script>trackPageView('gallery');</script>
 
+
+<nav class="mobile-nav" aria-label="ניווט מובייל">
+    <a href="index.html"><span class="mn-icon">&#127968;</span>ראשי</a>
+    <a href="lies.html"><span class="mn-icon">&#10060;</span>שקרים</a>
+    <a href="antisemitism.html"><span class="mn-icon">&#128737;</span>אנטישמיות</a>
+    <a href="october7.html"><span class="mn-icon">&#128293;</span>7.10</a>
+    <a href="facts.html"><span class="mn-icon">&#128269;</span>עובדות</a>
+</nav>
 <div class="search-overlay" id="searchOverlay">
     <button class="search-close" onclick="closeSearchOverlay()">&times;</button>
     <div class="search-box">

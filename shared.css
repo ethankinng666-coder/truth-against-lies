@@ -493,6 +493,42 @@ a:focus-visible, button:focus-visible {
     .related-pages { display: none !important; }
 }
 
+/* === MOBILE BOTTOM NAV === */
+.mobile-nav {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(10, 10, 26, 0.98);
+    border-top: 1px solid rgba(226, 183, 20, 0.2);
+    z-index: 999;
+    padding: 6px 0 env(safe-area-inset-bottom, 6px);
+    backdrop-filter: blur(10px);
+}
+@media (max-width: 768px) {
+    .mobile-nav { display: flex; justify-content: space-around; align-items: center; }
+    body { padding-bottom: 65px; }
+    .back-to-top { bottom: 80px; }
+    .share-fab { bottom: 80px; }
+    .toc-fab { bottom: 140px; }
+}
+.mobile-nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    text-decoration: none;
+    color: #888;
+    font-size: 0.65em;
+    padding: 4px 8px;
+    transition: color 0.2s;
+    min-width: 50px;
+}
+.mobile-nav a:hover, .mobile-nav a.active { color: #e2b714; }
+.mobile-nav .mn-icon { font-size: 1.6em; }
+@media print { .mobile-nav { display: none !important; } }
+
 /* === GOOGLE TRANSLATE HIDING === */
 #google_translate_element { position: absolute; top: -9999px; left: -9999px; visibility: hidden; }
 .goog-te-banner-frame { display: none !important; }
