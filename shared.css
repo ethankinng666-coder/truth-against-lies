@@ -3,6 +3,19 @@
    Used by: lies, october7, gallery, videos, action, regions
    ============================================ */
 
+/* === READING PROGRESS BAR === */
+.reading-progress {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #e2b714, #f0d060);
+    z-index: 10001;
+    width: 0%;
+    transition: width 0.1s linear;
+    pointer-events: none;
+}
+
 /* === NAVIGATION === */
 nav {
     position: fixed;
@@ -436,6 +449,48 @@ a:focus-visible, button:focus-visible {
 }
 @media print {
     .search-overlay { display: none !important; }
+}
+
+/* === RELATED PAGES === */
+.related-pages {
+    max-width: 900px;
+    margin: 60px auto 0;
+    padding: 0 20px;
+}
+.related-pages h3 {
+    color: #e2b714;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+}
+.related-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #12172b;
+    border: 1px solid rgba(226, 183, 20, 0.15);
+    border-radius: 3px;
+    padding: 14px 18px;
+    text-decoration: none;
+    transition: border-color 0.3s, transform 0.2s;
+}
+.related-link:hover {
+    border-color: #e2b714;
+    transform: translateY(-2px);
+}
+.related-icon { font-size: 1.3em; }
+.related-title { color: #c0c0c0; font-size: 0.9em; }
+.related-link:hover .related-title { color: #e2b714; }
+@media (max-width: 600px) {
+    .related-grid { grid-template-columns: 1fr; }
+}
+@media print {
+    .related-pages { display: none !important; }
 }
 
 /* === GOOGLE TRANSLATE HIDING === */
