@@ -3,12 +3,24 @@
    Used by: lies, october7, gallery, videos, action, regions
    ============================================ */
 
+// ========== HAMBURGER ARIA-EXPANDED ==========
+(function() {
+    var hamburger = document.querySelector('.hamburger');
+    if (hamburger) {
+        hamburger.addEventListener('click', function() {
+            var expanded = this.getAttribute('aria-expanded') === 'true';
+            this.setAttribute('aria-expanded', !expanded);
+        });
+    }
+})();
+
 // ========== CLOSE NAV ON OUTSIDE CLICK ==========
 document.addEventListener('click', function(e) {
     var nav = document.querySelector('.nav-links');
     var hamburger = document.querySelector('.hamburger');
     if (nav && nav.classList.contains('open') && !nav.contains(e.target) && e.target !== hamburger) {
         nav.classList.remove('open');
+        if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
     }
 });
 

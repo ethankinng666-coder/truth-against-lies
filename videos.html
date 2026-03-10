@@ -36,6 +36,7 @@
             text-align: center;
             padding: 50px 0 25px;
         }
+        .section-header h1,
         .section-header h2 {
             color: #e2b714;
             font-size: 2em;
@@ -164,17 +165,19 @@
         }
         .back-to-top.visible { display: block; }
         @media (max-width: 768px) {
-            .section-header h2 { font-size: 1.7em; }
+            .section-header h1, .section-header h2 { font-size: 1.7em; }
         }
     </style>
+    <link rel="canonical" href="https://truth-against-lies.github.io/truth-against-lies/videos.html">
 </head>
 <body>
+<a href="#main-content" class="skip-link">דלג לתוכן</a>
 
 <nav>
     <div class="nav-inner">
         <a href="index.html" class="nav-logo">האמת נגד השקר</a>
         <div class="nav-menu-wrapper">
-            <button class="hamburger" aria-label="תפריט ניווט" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+            <button class="hamburger" aria-label="תפריט ניווט" aria-expanded="false" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
             <ul class="nav-links">
                 <li><a href="antisemitism.html">מה זה אנטישמיות?</a></li>
                 <li><a href="antisemitism.html#claims">עלילות והפרכות</a></li>
@@ -212,11 +215,11 @@
     </div>
 </nav>
 
-<main style="max-width: 1000px; margin: 0 auto; padding: 80px 20px 0;">
+<main id="main-content" style="max-width: 1000px; margin: 0 auto; padding: 80px 20px 0;">
 
 <section id="youtube">
     <div class="section-header">
-        <h2>צפה והתעדכן</h2>
+        <h1>צפה והתעדכן</h1>
         <div class="section-divider"></div>
         <p>סרטונים חינוכיים שמפרקים מיתוסים אנטישמיים, וערוצים מומלצים שנלחמים באנטישמיות</p>
         <p class="hero-meta">עודכן לאחרונה: מרץ 2026</p>
