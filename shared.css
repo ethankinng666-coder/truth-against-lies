@@ -70,6 +70,8 @@ nav {
     padding: 8px 0;
     list-style: none;
     min-width: 220px;
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     z-index: 100;
     backdrop-filter: blur(10px);
