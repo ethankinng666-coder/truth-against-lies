@@ -78,7 +78,9 @@ function googleTranslateElementInit() {
         document.cookie = 'googtrans=/he/' + lang + ';path=/';
         document.cookie = 'googtrans=/he/' + lang + ';path=/;domain=.github.io';
     }
-    if (!document.getElementById('gt-script')) {
+    // Only load Google Translate when a non-Hebrew language is selected
+    var hasGT = document.cookie.indexOf('googtrans=') !== -1 && document.cookie.indexOf('googtrans=;') === -1;
+    if (hasGT && !document.getElementById('gt-script')) {
         var s = document.createElement('script');
         s.id = 'gt-script';
         s.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';

@@ -100,11 +100,18 @@ nav {
 }
 .nav-donate:hover { background: rgba(226, 183, 20, 0.3); border-color: #e2b714; }
 @media (max-width: 768px) {
-    nav { padding: 0 12px; }
-    .nav-inner { gap: 6px; }
-    .nav-logo { font-size: 1.05em; }
-    .nav-donate { font-size: 0.8em; padding: 5px 10px; }
+    nav { padding: 0 8px; }
+    .nav-inner { gap: 3px; }
+    .nav-logo { font-size: 0.95em; }
+    .nav-donate { font-size: 0.7em; padding: 4px 8px; }
+    .nav-settings-btn { width: 34px; height: 34px; font-size: 1em; }
+    .hamburger { width: 36px; height: 34px; font-size: 1.2em; }
+    .nav-search-btn { height: 34px; padding: 0 8px; font-size: 0.75em; }
+    .nav-lang-btn { width: 34px; height: 34px; font-size: 0.85em; padding: 0; }
 }
+/* Tame Google Translate injected elements */
+.goog-te-banner-frame { display: none !important; }
+body { top: 0 !important; }
 
 /* === LANGUAGE PICKER === */
 .nav-lang {
