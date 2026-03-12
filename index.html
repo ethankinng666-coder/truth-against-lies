@@ -766,12 +766,14 @@
 
         /* === MOBILE === */
         @media (max-width: 768px) {
-            nav { padding: 0 12px; }
-            .nav-inner { gap: 8px; }
-            .nav-logo { font-size: 1.05em; }
-            .nav-donate, .nav-auth-btn { font-size: 0.8em; padding: 5px 10px; }
+            nav { padding: 0 8px; }
+            .nav-inner { gap: 5px; overflow: hidden; }
+            .nav-logo { font-size: 0.95em; }
+            .nav-donate { display: none; }
+            .nav-auth-btn { font-size: 0.75em; padding: 4px 8px; }
+            .nav-search-btn .search-label { display: none; }
             .lang-toggle-text { display: none; }
-            .lang-toggle { padding: 6px 10px; }
+            .lang-toggle { padding: 4px 6px; font-size: 0.9em; }
             .hero h1 { font-size: 2.2em; }
             .hero .subtitle { font-size: 1.1em; margin-bottom: 120px; }
             .hero .subtitle-en { font-size: 0.95em; }
@@ -797,9 +799,9 @@
             left: -9999px;
             visibility: hidden;
         }
-        /* Hide Google Translate toolbar completely */
+        /* Hide Google Translate toolbar — ONLY banner, never page content */
         .goog-te-banner-frame { display: none !important; }
-        .skiptranslate { display: none !important; }
+        body > .skiptranslate:first-child { display: none !important; }
         body { top: 0 !important; position: static !important; }
         .goog-te-gadget { display: none !important; }
 

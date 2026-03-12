@@ -111,9 +111,9 @@ nav {
     .nav-search-btn { height: 34px; padding: 0 8px; font-size: 0.75em; }
     .nav-lang-btn { width: 34px; height: 34px; font-size: 0.85em; padding: 0; }
 }
-/* Tame Google Translate injected elements */
+/* Tame Google Translate injected elements — ONLY hide the banner, never page content */
 .goog-te-banner-frame { display: none !important; height: 0 !important; }
-.skiptranslate { display: none !important; height: 0 !important; }
+body > .skiptranslate:first-child { display: none !important; height: 0 !important; }
 body { top: 0 !important; }
 iframe.goog-te-menu-frame { display: none !important; }
 .translated-ltr, .translated-rtl { margin: 0 !important; padding: 0 !important; }
@@ -981,6 +981,6 @@ body.light-mode .reading-progress { background: linear-gradient(90deg, #b48c0a, 
 /* === GOOGLE TRANSLATE HIDING === */
 #google_translate_element { position: absolute; top: -9999px; left: -9999px; visibility: hidden; }
 .goog-te-banner-frame { display: none !important; }
-.skiptranslate { display: none !important; }
+body > .skiptranslate:first-child { display: none !important; }
 body { top: 0 !important; position: static !important; }
 .goog-te-gadget { display: none !important; }
