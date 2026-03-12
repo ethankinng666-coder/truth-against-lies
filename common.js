@@ -87,8 +87,8 @@ function googleTranslateElementInit() {
         html.setAttribute('dir', 'rtl');
         // Force reset body
         document.body.style.top = '';
-        // Remove GT injected elements
-        document.querySelectorAll('.goog-te-banner-frame, .skiptranslate, iframe[id^="goog"]').forEach(function(el) { el.remove(); });
+        // Remove GT injected elements — never remove .skiptranslate (Chrome wraps content in it)
+        document.querySelectorAll('.goog-te-banner-frame, iframe[id^="goog"]').forEach(function(el) { el.remove(); });
         return;
     }
     document.cookie = 'googtrans=/he/' + lang + ';path=/';
