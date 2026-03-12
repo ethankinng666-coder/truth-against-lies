@@ -799,14 +799,16 @@
         }
         #google_translate_element {
             position: absolute;
-            top: -9999px;
-            left: -9999px;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            clip: rect(0,0,0,0);
             visibility: hidden;
         }
         /* Hide Google Translate toolbar — ONLY banner, never page content */
         .goog-te-banner-frame { display: none !important; }
         body > .skiptranslate:first-child { display: none !important; }
-        body { top: 0 !important; position: static !important; }
+        body { top: 0 !important; position: static !important; overflow-x: hidden !important; }
         .goog-te-gadget { display: none !important; }
 
         /* === FOCUS STATES === */
