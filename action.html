@@ -3,30 +3,366 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>מה אפשר לעשות? - האמת נגד השקר</title>
-    <meta name="description" content="איך להילחם באנטישמיות: דיווח, הפצה, ארגונים פעילים ולינקים שימושיים.">
+    <title>לא עוד — מה אנחנו חייבים לעשות אחרת | האמת נגד השקר</title>
+    <meta name="description" content="2,000 שנה של רדיפות לימדו אותנו שיעור אחד: שום דבר לא ישתנה עד שנשנה בעצמנו. לקחי השואה, סוד ההצלחה היהודית, ו-5 עמודי פעולה.">
     <meta name="theme-color" content="#0a0a1a">
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Open Graph -->
-    <meta property="og:title" content="מה אפשר לעשות? | האמת נגד השקר">
-    <meta property="og:description" content="איך להילחם באנטישמיות: דיווח, הפצה, ארגונים פעילים ולינקים שימושיים">
+    <meta property="og:title" content="לא עוד — מה אנחנו חייבים לעשות אחרת | האמת נגד השקר">
+    <meta property="og:description" content="2,000 שנה של רדיפות לימדו אותנו שיעור אחד: שום דבר לא ישתנה עד שנשנה בעצמנו">
     <meta property="og:image" content="https://truth-against-lies.github.io/truth-against-lies/og-image.png">
     <meta property="og:url" content="https://truth-against-lies.github.io/truth-against-lies/action.html">
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="article">
     <meta property="og:locale" content="he_IL">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="מה אפשר לעשות? | האמת נגד השקר">
-    <meta name="twitter:description" content="איך להילחם באנטישמיות: דיווח, הפצה, ארגונים פעילים ולינקים שימושיים">
+    <meta name="twitter:title" content="לא עוד — מה אנחנו חייבים לעשות אחרת | האמת נגד השקר">
+    <meta name="twitter:description" content="2,000 שנה של רדיפות לימדו אותנו שיעור אחד: שום דבר לא ישתנה עד שנשנה בעצמנו">
     <meta name="twitter:image" content="https://truth-against-lies.github.io/truth-against-lies/og-image.png">
     <link rel="stylesheet" href="shared.css">
     <link rel="canonical" href="https://truth-against-lies.github.io/truth-against-lies/action.html">
     <link rel="alternate" hreflang="he" href="https://truth-against-lies.github.io/truth-against-lies/action.html">
     <link rel="alternate" hreflang="x-default" href="https://truth-against-lies.github.io/truth-against-lies/action.html">
     <style>
-        /* === SECTIONS === */
+        /* === HERO === */
+        .action-hero {
+            text-align: center;
+            padding: 100px 20px 50px;
+            background: linear-gradient(180deg, rgba(139,0,0,0.15) 0%, transparent 100%);
+        }
+        .action-hero h1 {
+            color: #8B0000;
+            font-size: 3em;
+            margin-bottom: 15px;
+            text-shadow: 0 0 40px rgba(139,0,0,0.3);
+        }
+        .action-hero .subtitle {
+            color: #c0c0c0;
+            font-size: 1.1em;
+            max-width: 700px;
+            margin: 0 auto 20px;
+            line-height: 1.8;
+        }
+        .action-hero .opening-quote {
+            font-size: 1.8em;
+            color: #8B0000;
+            font-weight: bold;
+            margin: 30px auto;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+        .action-hero .quote-source {
+            color: #888;
+            font-size: 0.55em;
+            font-weight: normal;
+            display: block;
+            margin-top: 10px;
+        }
+
+        /* === SECTION STYLE === */
+        .na-section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .na-section h2 {
+            color: #8B0000;
+            font-size: 1.7em;
+            margin-bottom: 8px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid rgba(139,0,0,0.3);
+        }
+        .na-section .section-intro {
+            color: #999;
+            margin-bottom: 30px;
+            font-size: 0.95em;
+            line-height: 1.7;
+        }
+
+        /* === CYCLE CARDS === */
+        .cycle-card {
+            background: #12172b;
+            border-right: 4px solid #8B0000;
+            border-radius: 3px;
+            padding: 25px;
+            margin-bottom: 18px;
+        }
+        .cycle-card .cycle-label {
+            color: #8B0000;
+            font-weight: bold;
+            font-size: 0.85em;
+            margin-bottom: 6px;
+        }
+        .cycle-card h4 { color: #cc3333; margin-bottom: 10px; font-size: 1.1em; }
+        .cycle-card p { color: #c0c0c0; font-size: 0.95em; line-height: 1.7; margin-bottom: 10px; }
+        .cycle-card .cycle-result {
+            color: #ff6b6b;
+            font-weight: bold;
+            font-size: 0.95em;
+        }
+        .cycle-card .cycle-flow {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+            margin: 15px 0;
+            direction: ltr;
+        }
+        .cycle-card .cycle-step {
+            background: rgba(139,0,0,0.15);
+            border: 1px solid rgba(139,0,0,0.3);
+            padding: 6px 14px;
+            border-radius: 3px;
+            color: #cc3333;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+        .cycle-card .cycle-arrow { color: #8B0000; font-size: 1.2em; }
+
+        /* === LESSON CARDS (Holocaust) === */
+        .lesson-card {
+            background: rgba(18,23,43,0.9);
+            border: 1px solid rgba(184,134,11,0.25);
+            border-right: 4px solid #b8860b;
+            border-radius: 3px;
+            padding: 25px;
+            margin-bottom: 18px;
+        }
+        .lesson-card .lesson-label {
+            color: #b8860b;
+            font-weight: bold;
+            font-size: 0.85em;
+            margin-bottom: 6px;
+        }
+        .lesson-card h4 { color: #daa520; margin-bottom: 10px; font-size: 1.1em; }
+        .lesson-card p { color: #c0c0c0; font-size: 0.95em; line-height: 1.7; margin-bottom: 10px; }
+        .lesson-card .lesson-stat {
+            background: rgba(184,134,11,0.08);
+            border-right: 3px solid #b8860b;
+            padding: 12px 15px;
+            margin-top: 12px;
+            border-radius: 3px;
+            color: #daa520;
+            font-weight: bold;
+            font-size: 0.95em;
+        }
+        .lesson-card .timeline-flow {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            align-items: center;
+            margin: 12px 0;
+            direction: ltr;
+        }
+        .lesson-card .tl-step {
+            background: rgba(184,134,11,0.1);
+            border: 1px solid rgba(184,134,11,0.25);
+            padding: 4px 10px;
+            border-radius: 3px;
+            color: #daa520;
+            font-size: 0.8em;
+        }
+        .lesson-card .tl-arrow { color: #b8860b; font-size: 1em; }
+
+        /* === ISRAEL CARDS === */
+        .israel-card {
+            background: #12172b;
+            border-right: 4px solid #0038b8;
+            border-radius: 3px;
+            padding: 25px;
+            margin-bottom: 18px;
+        }
+        .israel-card h4 { color: #4488ff; margin-bottom: 10px; font-size: 1.1em; }
+        .israel-card p { color: #c0c0c0; font-size: 0.95em; line-height: 1.7; margin-bottom: 10px; }
+        .israel-card .israel-stat {
+            background: rgba(0,56,184,0.08);
+            border-right: 3px solid #0038b8;
+            padding: 12px 15px;
+            margin-top: 12px;
+            border-radius: 3px;
+            color: #4488ff;
+            font-weight: bold;
+            font-size: 0.95em;
+        }
+
+        /* === SUCCESS CARDS === */
+        .success-card {
+            background: #12172b;
+            border-right: 4px solid #b8860b;
+            border-radius: 3px;
+            padding: 25px;
+            margin-bottom: 18px;
+            box-shadow: inset 3px 0 15px rgba(184,134,11,0.06);
+        }
+        .success-card h4 { color: #daa520; margin-bottom: 10px; font-size: 1.1em; }
+        .success-card p { color: #c0c0c0; font-size: 0.95em; line-height: 1.7; margin-bottom: 10px; }
+        .success-card .success-stat {
+            background: rgba(184,134,11,0.08);
+            padding: 10px 15px;
+            border-radius: 3px;
+            color: #daa520;
+            font-weight: bold;
+            font-size: 0.95em;
+            margin-top: 10px;
+        }
+
+        /* === MODEL CARDS === */
+        .model-card {
+            background: #12172b;
+            border-right: 4px solid #27ae60;
+            border-radius: 3px;
+            padding: 25px;
+            margin-bottom: 18px;
+        }
+        .model-card h4 { color: #2ecc71; margin-bottom: 10px; font-size: 1.1em; }
+        .model-card p { color: #c0c0c0; font-size: 0.95em; line-height: 1.7; margin-bottom: 10px; }
+        .model-card .model-stat {
+            background: rgba(39,174,96,0.08);
+            border-right: 3px solid #27ae60;
+            padding: 12px 15px;
+            margin-top: 12px;
+            border-radius: 3px;
+            color: #2ecc71;
+            font-weight: bold;
+            font-size: 0.95em;
+        }
+
+        /* === PILLAR CARDS === */
+        .pillar-card {
+            background: #12172b;
+            border-right: 4px solid #4682B4;
+            border-radius: 3px;
+            padding: 25px;
+            margin-bottom: 18px;
+        }
+        .pillar-card .pillar-num {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            background: rgba(70,130,180,0.2);
+            border: 1px solid rgba(70,130,180,0.4);
+            border-radius: 50%;
+            color: #4682B4;
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .pillar-card h4 { color: #5b9bd5; margin-bottom: 10px; font-size: 1.1em; }
+        .pillar-card p { color: #c0c0c0; font-size: 0.95em; line-height: 1.7; margin-bottom: 10px; }
+        .pillar-card .pillar-stat {
+            background: rgba(70,130,180,0.08);
+            border-right: 3px solid #4682B4;
+            padding: 12px 15px;
+            margin-top: 12px;
+            border-radius: 3px;
+            color: #5b9bd5;
+            font-weight: bold;
+            font-size: 0.95em;
+        }
+
+        /* === SUMMARY POINTS === */
+        .summary-list {
+            counter-reset: summary-counter;
+            list-style: none;
+            padding: 0;
+        }
+        .summary-list li {
+            counter-increment: summary-counter;
+            padding: 12px 15px 12px 0;
+            color: #c0c0c0;
+            font-size: 0.95em;
+            line-height: 1.7;
+            border-bottom: 1px solid rgba(139,0,0,0.15);
+        }
+        .summary-list li::before {
+            content: counter(summary-counter);
+            display: inline-block;
+            width: 28px;
+            height: 28px;
+            background: rgba(139,0,0,0.15);
+            color: #8B0000;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 28px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-left: 12px;
+        }
+        .summary-list li strong { color: #cc3333; }
+
+        /* === COVENANT BOX === */
+        .covenant-box {
+            background: rgba(139,0,0,0.08);
+            border: 2px solid #8B0000;
+            border-radius: 8px;
+            padding: 35px;
+            text-align: center;
+            margin: 30px 0;
+        }
+        .covenant-box h3 {
+            color: #8B0000;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+        }
+        .covenant-box p {
+            color: #cc3333;
+            font-size: 1.1em;
+            line-height: 1.9;
+            font-weight: bold;
+        }
+
+        /* === SECTION TRANSITION === */
+        .section-transition {
+            text-align: center;
+            padding: 25px 0;
+            color: #8B0000;
+            font-size: 1.3em;
+            opacity: 0.4;
+        }
+
+        /* === CLOSING QUOTE === */
+        .closing-quote {
+            text-align: center;
+            padding: 50px 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .closing-quote blockquote {
+            font-size: 1.4em;
+            color: #8B0000;
+            font-weight: bold;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+        .closing-quote .quote-author {
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        /* === EXISTING ACTION SECTIONS (pushed down) === */
+        .existing-content-divider {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 2px solid rgba(139,0,0,0.2);
+            margin-top: 20px;
+        }
+        .existing-content-divider h2 {
+            color: #8B0000;
+            font-size: 1.5em;
+            margin-bottom: 8px;
+        }
+        .existing-content-divider p {
+            color: #888;
+            font-size: 0.95em;
+        }
+
         .action-section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
             margin-bottom: 60px;
         }
         .action-section h2 {
@@ -178,7 +514,6 @@
         }
         .share-btn:hover { opacity: 0.85; }
         .share-btn.wa { background: #25D366; color: #fff; }
-        .share-btn.fb { background: #1877F2; color: #fff; }
         .share-btn.tw { background: #1DA1F2; color: #fff; }
         .share-btn.tg { background: #0088cc; color: #fff; }
         .share-btn.copy-link {
@@ -187,13 +522,69 @@
             color: #e2b714;
         }
 
+        /* === RESPONSIVE === */
         @media (max-width: 768px) {
+            .action-hero h1 { font-size: 2em; }
+            .action-hero .opening-quote { font-size: 1.3em; }
+            .na-section h2 { font-size: 1.3em; }
             .action-section h2 { font-size: 1.3em; }
             .org-grid { grid-template-columns: 1fr; }
+            .closing-quote blockquote { font-size: 1.1em; }
+            .cycle-card .cycle-flow { gap: 5px; }
+            .cycle-card .cycle-step { font-size: 0.75em; padding: 4px 8px; }
         }
+
+        /* === LIGHT MODE === */
+        body.light-mode .action-hero { background: linear-gradient(180deg, rgba(139,0,0,0.06) 0%, transparent 100%); }
+        body.light-mode .action-hero h1 { color: #700000; text-shadow: none; }
+        body.light-mode .action-hero .opening-quote { color: #700000; }
+        body.light-mode .na-section h2 { color: #700000; border-bottom-color: rgba(139,0,0,0.3); }
+        body.light-mode .cycle-card { background: #fff; }
+        body.light-mode .cycle-card h4 { color: #8B0000; }
+        body.light-mode .cycle-card p { color: #333; }
+        body.light-mode .cycle-card .cycle-label { color: #700000; }
+        body.light-mode .cycle-card .cycle-step { background: rgba(139,0,0,0.08); color: #8B0000; }
+        body.light-mode .lesson-card { background: #fff; border-color: rgba(184,134,11,0.2); }
+        body.light-mode .lesson-card h4 { color: #996b00; }
+        body.light-mode .lesson-card p { color: #333; }
+        body.light-mode .lesson-card .lesson-stat { background: rgba(184,134,11,0.06); color: #996b00; }
+        body.light-mode .israel-card { background: #fff; }
+        body.light-mode .israel-card h4 { color: #0038b8; }
+        body.light-mode .israel-card p { color: #333; }
+        body.light-mode .israel-card .israel-stat { background: rgba(0,56,184,0.06); color: #0038b8; }
+        body.light-mode .success-card { background: #fff; }
+        body.light-mode .success-card h4 { color: #996b00; }
+        body.light-mode .success-card p { color: #333; }
+        body.light-mode .success-card .success-stat { background: rgba(184,134,11,0.06); color: #996b00; }
+        body.light-mode .model-card { background: #fff; }
+        body.light-mode .model-card h4 { color: #1e8449; }
+        body.light-mode .model-card p { color: #333; }
+        body.light-mode .model-card .model-stat { background: rgba(39,174,96,0.06); color: #1e8449; }
+        body.light-mode .pillar-card { background: #fff; }
+        body.light-mode .pillar-card h4 { color: #2c6090; }
+        body.light-mode .pillar-card p { color: #333; }
+        body.light-mode .pillar-card .pillar-stat { background: rgba(70,130,180,0.06); color: #2c6090; }
+        body.light-mode .summary-list li { color: #333; border-bottom-color: rgba(139,0,0,0.1); }
+        body.light-mode .summary-list li strong { color: #8B0000; }
+        body.light-mode .covenant-box { background: rgba(139,0,0,0.04); border-color: #700000; }
+        body.light-mode .covenant-box h3 { color: #700000; }
+        body.light-mode .covenant-box p { color: #8B0000; }
+        body.light-mode .closing-quote blockquote { color: #700000; }
+        body.light-mode .existing-content-divider { border-top-color: rgba(139,0,0,0.15); }
+        body.light-mode .existing-content-divider h2 { color: #700000; }
+        body.light-mode .action-card { background: #fff; border-color: #ddd; }
+        body.light-mode .action-card h3 { color: #b48c0a; }
+        body.light-mode .action-card p { color: #333; }
+        body.light-mode .action-section h2 { color: #b48c0a; border-bottom-color: rgba(180,140,10,0.3); }
+        body.light-mode .org-card { background: #fff; border-color: #ddd; }
+        body.light-mode .org-card h3 { color: #b48c0a; }
+        body.light-mode .org-card p { color: #333; }
+        body.light-mode .share-box { background: #fff; border-color: #ddd; }
+        body.light-mode .step-list li { color: #333; border-bottom-color: #eee; }
+        body.light-mode .section-transition { color: #700000; }
     </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"מה אפשר לעשות? - האמת נגד השקר","description":"איך להילחם באנטישמיות: דיווח, הפצה, ארגונים פעילים ולינקים שימושיים.","author":{"@type":"Person","name":"נתנאל אסיס"},"publisher":{"@type":"Organization","name":"האמת נגד השקר"},"dateModified":"2026-03-10","inLanguage":"he","mainEntityOfPage":"https://truth-against-lies.github.io/truth-against-lies/action.html"}
+{"@context":"https://schema.org","@type":"Article","headline":"לא עוד — מה אנחנו חייבים לעשות אחרת","description":"2,000 שנה של רדיפות לימדו אותנו שיעור אחד: שום דבר לא ישתנה עד שנשנה בעצמנו.","author":{"@type":"Person","name":"נתנאל אסיס"},"publisher":{"@type":"Organization","name":"האמת נגד השקר"},"dateModified":"2026-03-13","inLanguage":"he","mainEntityOfPage":"https://truth-against-lies.github.io/truth-against-lies/action.html"}
 </script>
 </head>
 <body>
@@ -254,15 +645,393 @@
     </div>
 </nav>
 
+<!-- ===================== HERO ===================== -->
+<div class="action-hero" id="opening">
+    <h1>לא עוד</h1>
+    <p class="subtitle">2,000 שנה של רדיפות לימדו אותנו שיעור אחד:<br>שום דבר לא ישתנה עד שנשנה בעצמנו.</p>
+    <p class="opening-quote">
+        &#x201C;אם אין אני לי &mdash; מי לי?&#x201D;
+        <span class="quote-source">הלל הזקן, פרקי אבות א:יד</span>
+    </p>
+    <p class="hero-meta" style="color:#888; font-size:0.85em;">עודכן לאחרונה: מרץ 2026</p>
+</div>
+
 <div class="page-container" id="main-content">
 
-    <div class="page-title">
-        <h1>מה אפשר לעשות?</h1>
-        <p>המאבק באנטישמיות מתחיל בפעולה. כל אחד יכול לעשות משהו.</p>
-        <p class="hero-meta">עודכן לאחרונה: מרץ 2026</p>
+    <!-- ===================== SECTION 1: THE CYCLE ===================== -->
+    <div class="na-section" id="the-cycle">
+        <h2>&#128260; המחזור שחייבים לשבור</h2>
+        <p class="section-intro">אותה תבנית חוזרת שוב ושוב כבר 2,000 שנה. הגיע הזמן לזהות אותה &mdash; ולשבור אותה.</p>
+
+        <div class="cycle-card">
+            <div class="cycle-label">&#9888; התבנית</div>
+            <h4>המחזור שחוזר בכל דור</h4>
+            <div class="cycle-flow">
+                <span class="cycle-step">קבלה</span>
+                <span class="cycle-arrow">&rarr;</span>
+                <span class="cycle-step">הצלחה</span>
+                <span class="cycle-arrow">&rarr;</span>
+                <span class="cycle-step">קנאה</span>
+                <span class="cycle-arrow">&rarr;</span>
+                <span class="cycle-step">שעיר לעזאזל</span>
+                <span class="cycle-arrow">&rarr;</span>
+                <span class="cycle-step">רדיפה</span>
+                <span class="cycle-arrow">&rarr;</span>
+                <span class="cycle-step">גירוש / רצח</span>
+            </div>
+            <p>זה לא מקרי. זו תבנית שחוזרת בכל מדינה שיהודים חיו בה &mdash; ספרד, גרמניה, עיראק, צרפת, אנגליה, פולין, רוסיה. בכל פעם אומרים &quot;כאן זה שונה&quot;. בכל פעם זה נגמר אותו דבר.</p>
+        </div>
+
+        <div class="cycle-card">
+            <div class="cycle-label">ספרד</div>
+            <h4>מתור הזהב לגירוש</h4>
+            <p>יהודי ספרד חיו את תור הזהב &mdash; שמואל הנגיד היה ויזיר, הרמב&quot;ם כתב את &quot;מורה נבוכים&quot;, אבן עזרא ויהודה הלוי יצרו שירה שנלמדת עד היום. ספרד הייתה הבית. יהודים היו חלק בלתי נפרד מהחברה.</p>
+            <p class="cycle-result">ב-1492 &mdash; צו גירוש. 200,000 יהודים גורשו ביום אחד. מי שנשאר &mdash; אינקוויזיציה, עינויים, שריפה על המוקד. 800 שנה של בית &mdash; נמחקו בחתימה אחת.</p>
+        </div>
+
+        <div class="cycle-card">
+            <div class="cycle-label">גרמניה</div>
+            <h4>מאמנציפציה לתאי גזים</h4>
+            <p>יהודי גרמניה היו הכי מוטמעים בהיסטוריה. מאז האמנציפציה (1871) הם הגיעו לפסגות: אלברט איינשטיין, פריץ הבר (המציא דשן מלאכותי שהאכיל מיליארדים), מקס ברן, ג'יימס פרנק. ברפובליקת וויימאר &mdash; יהודים היו 1% מהאוכלוסייה אבל 16% מעורכי הדין ו-10% מהרופאים.</p>
+            <p><strong>18,000 יהודים קיבלו צלבי ברזל</strong> במלחמת העולם הראשונה על גבורה בשם גרמניה. לא עזר. 12,000 מהם נרצחו בשואה.</p>
+            <p class="cycle-result">6 מיליון. שום רמת הטמעה, נאמנות, או תרומה לא הצילה.</p>
+        </div>
+
+        <div class="cycle-card">
+            <div class="cycle-label">עיראק</div>
+            <h4>2,600 שנה &mdash; ואז כלום</h4>
+            <p>הקהילה היהודית בעיראק הייתה מהעתיקות בעולם &mdash; מאז גלות בבל (586 לפנה&quot;ס). בבגדד, יהודים היו 25% מהאוכלוסייה בתחילת המאה ה-20. סוחרים, בנקאים, רופאים, מוסיקאים &mdash; חלק מהותי מהחברה העיראקית.</p>
+            <p><strong>הפרהוד (1941)</strong>: פוגרום של יומיים. 180 הרוגים, 1,000 פצועים, 900 בתים נהרסו.</p>
+            <p class="cycle-result">1950-52: גירוש 120,000 יהודים. רכוש הוחרם. 2,600 שנה נמחקו ב-3 שנים.</p>
+        </div>
+
+        <div class="cycle-card">
+            <div class="cycle-label">העולם הערבי</div>
+            <h4>856,000 &rarr; 4,500</h4>
+            <p>ב-1945 חיו 856,000 יהודים בעולם הערבי &mdash; מרוקו, תוניסיה, לוב, מצרים, עיראק, סוריה, תימן, לבנון. קהילות עתיקות, חלקן יותר ותיקות מהאסלאם עצמו.</p>
+            <p>היום? פחות מ-4,500 יהודים בכל העולם הערבי. גירוש, הלאמת רכוש, אלימות, חוקים מפלים &mdash; הניקוי האתני השקט שהעולם בוחר להתעלם ממנו.</p>
+            <p class="cycle-result">99.5% מהיהודים גורשו מהעולם הערבי. 856,000 הפכו ל-4,500. ואף אחד לא דורש מהם &quot;זכות שיבה&quot;.</p>
+        </div>
     </div>
 
-    <!-- SECTION 1: REPORT -->
+    <div class="section-transition">&#x2736; &bull; &#x2736; &bull; &#x2736;</div>
+
+    <!-- ===================== SECTION 2: HOLOCAUST LESSONS ===================== -->
+    <div class="na-section" id="holocaust-lessons">
+        <h2>&#128367; לקחי השואה &mdash; מה היינו אמורים ללמוד</h2>
+        <p class="section-intro">השואה לא הייתה אירוע אקראי. היו סימנים, היו הזדמנויות, היו רגעים שבהם אפשר היה לפעול. 7 לקחים שאסור לנו לשכוח.</p>
+
+        <div class="lesson-card">
+            <div class="lesson-label">לקח 1</div>
+            <h4>סימני אזהרה תמיד קיימים</h4>
+            <p>השואה לא קרתה ביום אחד. היא נבנתה לאט, חוק אחרי חוק, הגבלה אחרי הגבלה. 400+ חוקים אנטי-יהודיים נחקקו ב-6 שנים (1933-1939) &mdash; לפני שהרצח ההמוני בכלל התחיל.</p>
+            <div class="timeline-flow">
+                <span class="tl-step">1933: בויקוט</span>
+                <span class="tl-arrow">&rarr;</span>
+                <span class="tl-step">1935: חוקי נירנברג</span>
+                <span class="tl-arrow">&rarr;</span>
+                <span class="tl-step">1938: ליל הבדולח</span>
+                <span class="tl-arrow">&rarr;</span>
+                <span class="tl-step">1941: איסור יציאה</span>
+                <span class="tl-arrow">&rarr;</span>
+                <span class="tl-step">1942: &quot;הפתרון הסופי&quot;</span>
+            </div>
+            <div class="lesson-stat">הלקח: כשמתחילים לצמצם זכויות של יהודים &mdash; זה תמיד ממשיך לכיוון אחד. אל תחכו ל&quot;שלב הבא&quot;.</div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-label">לקח 2</div>
+            <h4>&quot;זה לא יקרה כאן&quot;</h4>
+            <p>יהודי גרמניה היו הכי משכילים, הכי מוטמעים, הכי פטריוטים. 100,000 שירתו בצבא הגרמני במלחמת העולם הראשונה. הם דיברו גרמנית, שתו בירה גרמנית, ואהבו את גתה ובטהובן. הם היו גרמנים לכל דבר ועניין.</p>
+            <p>הרבה מהם סירבו לעזוב. &quot;אנחנו גרמנים,&quot; הם אמרו. &quot;זה יעבור.&quot; &quot;היטלר הוא רק פופוליסט &mdash; הוא לא רציני.&quot;</p>
+            <div class="lesson-stat">הלקח: הטמעה, נאמנות, והצלחה &mdash; אף פעם לא הצילו מאנטישמיות. &quot;זה לא יקרה כאן&quot; = המשפט הכי מסוכן שיהודי יכול להגיד.</div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-label">לקח 3</div>
+            <h4>ממשלות הן לא בנות ברית</h4>
+            <p><strong>ועידת אוויאן (1938)</strong>: 32 מדינות נפגשו לדון בגורל הפליטים היהודים מגרמניה. התוצאה? כמעט כולן סירבו לקלוט פליטים. אוסטרליה אמרה: &quot;אין לנו בעיית גזע &mdash; ולא נרצה לייבא אחת.&quot;</p>
+            <p><strong>צרפת של וישי</strong>: שיתפה פעולה בגירוש 76,000 יהודים למחנות המוות &mdash; אפילו בלי שהגרמנים דרשו. המשטרה הצרפתית עשתה את העבודה בעצמה.</p>
+            <p><strong>הונגריה (1944)</strong>: עד מרץ 1944, 800,000 יהודי הונגריה היו &quot;מוגנים&quot;. תוך 56 יום &mdash; 437,000 מהם גורשו לאושוויץ.</p>
+            <div class="lesson-stat">הלקח: לא לסמוך על ממשלות כ&quot;בנות ברית&quot;. ההגנה היחידה הבטוחה היא ריבונות עצמית.</div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-label">לקח 4</div>
+            <h4>מי ברח, מי נשאר</h4>
+            <p>כשהיטלר עלה לשלטון ב-1933, 525,000 יהודים חיו בגרמניה. ב-4 שנים הראשונות (עד 1937) &mdash; 75% נשארו. רוב הזמן, אנשים האמינו שהמצב ישתפר. &quot;כבר ראינו דברים כאלה,&quot; אמרו. &quot;זה יעבור.&quot;</p>
+            <p>ב-1941, כשיצא איסור יציאה סופי, 163,000 יהודים נתקעו בגרמניה. חלון הבריחה נסגר.</p>
+            <div class="lesson-stat">הלקח: חלון ההזדמנות לצאת תמיד קצר מדי. כשכולם אומרים &quot;עוד מוקדם&quot; &mdash; זה בדיוק הרגע לזוז.</div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-label">לקח 5</div>
+            <h4>דנמרק vs הולנד</h4>
+            <p><strong>דנמרק</strong>: 97% מהיהודים שרדו. כשהגרמנים הודיעו על תוכנית גירוש, הדנים פעלו מיד &mdash; הבריחו 7,220 יהודים לשוודיה תוך 3 שבועות. דייגים, מורים, שכנים רגילים &mdash; כולם השתתפו.</p>
+            <p><strong>הולנד</strong>: 75% מהיהודים נרצחו (102,000 מתוך 140,000). למרות שאנה פרנק הפכה לסמל, המציאות הייתה שבירוקרטיה הולנדית מסודרת + רישום אוכלוסין מדויק + בידוד הקהילה = מוות יעיל.</p>
+            <div class="lesson-stat">ההבדל: לא &quot;מזל&quot; ולא &quot;גיאוגרפיה&quot;. ההבדל = פעולה קולקטיבית מהירה + רשת בני ברית אמיתיים vs בידוד + בירוקרטיה.</div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-label">לקח 6</div>
+            <h4>מהירות הורגת</h4>
+            <p><strong>הונגריה, 1944</strong>: עד מרץ 1944, יהודי הונגריה חיו בתחושת ביטחון יחסית. הם ידעו שיש מלחמה, אבל האמינו שהם &quot;מוגנים&quot; &mdash; הממשלה ההונגרית &quot;שומרת עליהם&quot;.</p>
+            <p>ב-19 במרץ 1944, גרמניה פלשה. ב-15 במאי התחילו הגירושים. עד 9 ביולי &mdash; 437,000 יהודים גורשו לאושוויץ. <strong>56 יום.</strong></p>
+            <div class="lesson-stat">הלקח: כשהסכנה ברורה &mdash; כבר מאוחר מדי. ההכנה חייבת להיות לפני, לא אחרי.</div>
+        </div>
+
+        <div class="lesson-card">
+            <div class="lesson-label">לקח 7</div>
+            <h4>ז&#39;בוטינסקי צדק</h4>
+            <p>ב-1938, זאב ז&#39;בוטינסקי עמד מול קהל של יהודי פולין ואמר:</p>
+            <p style="font-size:1.1em; color:#daa520; font-weight:bold; margin:15px 0; line-height:1.6;">&quot;אם אתם לא תחסלו את הגלות &mdash; הגלות תחסל אתכם.&quot;</p>
+            <p>הבונד (מפלגת הפועלים היהודית) לעג לו: &quot;ז&#39;בוטינסקי מפחיד. הוא מגזים.&quot; הם האמינו שהפתרון הוא סוציאליזם ואחווה עם הפועלים הפולנים.</p>
+            <p>ב-1939 &mdash; גרמניה פלשה לפולין. 3 מיליון יהודי פולין נרצחו. הבונד כמעט חוסל לחלוטין.</p>
+            <div class="lesson-stat">הלקח: מי שמזהיר מפני הסכנה הוא לא &quot;מפחיד&quot; &mdash; הוא ריאליסט. ומי שמבטל את האזהרות &mdash; הוא המסוכן.</div>
+        </div>
+    </div>
+
+    <div class="section-transition">&#x2736; &bull; &#x2736; &bull; &#x2736;</div>
+
+    <!-- ===================== SECTION 3: WHY ISRAEL ===================== -->
+    <div class="na-section" id="why-israel">
+        <h2>&#127470;&#127473; למה ישראל זה עניין של חיים ומוות</h2>
+        <p class="section-intro">ישראל היא לא רק מדינה. היא ביטוח חיים של העם היהודי. בלעדיה &mdash; חזרנו ל-1938.</p>
+
+        <div class="israel-card">
+            <h4>אם ישראל הייתה קיימת ב-1933</h4>
+            <p>ועידת אוויאן לא הייתה צריכה להתקיים. 32 מדינות לא היו צריכות להחליט אם &quot;להסכים&quot; לקלוט פליטים יהודים. לא היינו צריכים להתחנן.</p>
+            <p>ב-1948, ברגע שישראל הוקמה, היא קלטה 688,000 עולים ב-3.5 שנים הראשונות. האוכלוסייה הוכפלה. אף מדינה בהיסטוריה לא עשתה דבר כזה.</p>
+            <div class="israel-stat">השואה הוכיחה: כשאין מדינה &mdash; אין מקלט. כשאין מקלט &mdash; מתים.</div>
+        </div>
+
+        <div class="israel-card">
+            <h4>מבצעי ההצלה שרק ישראל ביצעה</h4>
+            <p>שום מדינה אחרת בהיסטוריה לא ביצעה מבצעי הצלה כאלה &mdash; לא עבור היהודים, ולא עבור אף עם אחר:</p>
+            <p><strong>מבצע מרבד קסמים (1949-50)</strong>: 49,000 יהודי תימן הובאו לישראל. רובם מעולם לא ראו מטוס.</p>
+            <p><strong>מבצע שלמה (1991)</strong>: 14,325 יהודי אתיופיה הוטסו לישראל ב-36 שעות. 36 טיסות ברצף.</p>
+            <p><strong>עליית מיליון מברה&quot;מ (1989-2006)</strong>: מיליון יהודים שחיו מאחורי מסך הברזל הגיעו לישראל.</p>
+            <div class="israel-stat">3.3 מיליון יהודים עלו לישראל מאז 1948. בלי ישראל &mdash; לאן הם היו הולכים?</div>
+        </div>
+
+        <div class="israel-card">
+            <h4>חוק השבות = ביטוח חיים</h4>
+            <p>לראשונה ב-2,000 שנה, יש ליהודים מקלט מובטח. חוק השבות (1950) מבטיח לכל יהודי בעולם את הזכות לעלות לישראל ולקבל אזרחות.</p>
+            <p>זו לא רק חקיקה &mdash; זה שינוי קיומי. במשך 2,000 שנה, יהודים שנרדפו היו צריכים להתחנן לדלתות סגורות. היום, יש דלת אחת שתמיד פתוחה.</p>
+            <div class="israel-stat">כל יהודי שזכאי &mdash; צריך להבטיח אזרחות ישראלית. גם מי שלא מתכנן לעלות. זה ביטוח &mdash; לא הצהרה.</div>
+        </div>
+
+        <div class="israel-card">
+            <h4>למה הביטחון של ישראל הוא לא &quot;פוליטיקה&quot;</h4>
+            <p>ישראל ברוחב של 9 מייל (14 ק&quot;מ) במקום הצר ביותר. נתב&quot;ג &mdash; נמל התעופה הבינלאומי היחיד &mdash; נמצא בטווח רקטות בסיסיות. אקוויפר ההר (שמספק 30% ממקורות המים של ישראל) נמצא מתחת ליהודה ושומרון. בקעת הירדן היא חיץ ביטחוני שבלעדיו ישראל חשופה מהמזרח.</p>
+            <p>מדובר בעובדות גיאוגרפיות, לא בדעות פוליטיות. וויתור על שטח = ויתור על ביטחון = סיכון קיומי.</p>
+            <div class="israel-stat">9 מייל רוחב. נתב&quot;ג בטווח רקטות. 30% ממקורות המים מתחת לשטחים. זה לא פוליטיקה &mdash; זה גיאוגרפיה.</div>
+        </div>
+
+        <div class="israel-card">
+            <h4>כוח צבאי = הרתעה = חיים</h4>
+            <p><strong>לפני 1948</strong>: לתקוף יהודים = אפס סיכון. פוגרומים, רציחות, גירושים &mdash; ללא שום תגובה. היהודים היו המטרה הכי קלה בהיסטוריה.</p>
+            <p><strong>אחרי 1948</strong>: ישראל שינתה את המשוואה. מבצע אנטבה (1976) &mdash; חילוץ בני ערובה ב-4,000 ק&quot;מ מהבית. כיפת ברזל (90%+ יירוט). חץ-3 (יירוט טילים בליסטיים בחלל). צה&quot;ל הפך לתקוף יהודים מ&quot;ללא מחיר&quot; ל&quot;מחיר כבד&quot;.</p>
+            <div class="israel-stat">הרתעה מצילה חיים. כשלתקוף יהודים זה &quot;בחינם&quot; &mdash; תוקפים. כשיש מחיר &mdash; חושבים פעמיים.</div>
+        </div>
+    </div>
+
+    <div class="section-transition">&#x2736; &bull; &#x2736; &bull; &#x2736;</div>
+
+    <!-- ===================== SECTION 4: JEWISH SUCCESS ===================== -->
+    <div class="na-section" id="jewish-success">
+        <h2>&#127942; סוד ההצלחה היהודית</h2>
+        <p class="section-intro">0.2% מהאנושות &mdash; 22% מפרסי נובל. זה לא מזל, לא קשרים, ולא קונספירציה. זו מערכת שעובדת כבר 3,000 שנה.</p>
+
+        <div class="success-card">
+            <h4>חינוך כמנוע &mdash; הנשק שלא ניתן להחרמה</h4>
+            <p>מסורת התלמוד היא שיטת חינוך ייחודית: חובת שאילת שאלות, לא חובת תשובות. בליל הסדר, ילד בן 4 מתאמן לשאול &quot;מה נשתנה?&quot; &mdash; לא לחכות שיגידו לו. התלמוד עצמו בנוי על מחלוקת: &quot;בית הלל אומרים... בית שמאי אומרים...&quot; &mdash; שתי הדעות נשמרות.</p>
+            <p>כבר מהמאה הראשונה, יהושע בן גמלא תיקן שכל עיר ועיירה חייבת בבית ספר. 1,800 שנה לפני שחינוך חובה הפך לנורמה באירופה.</p>
+            <div class="success-stat">0.2% מהאנושות = 22% מפרסי נובל. 58% בוגרי אוניברסיטה (vs 33% ממוצע בארה&quot;ב).</div>
+        </div>
+
+        <div class="success-card">
+            <h4>גמ&quot;חים &mdash; תשתית כלכלית נסתרת</h4>
+            <p>הגמ&quot;ח (גמילות חסדים) הוא מוסד יהודי ייחודי: הלוואה ללא ריבית, ללא בירוקרטיה, מבוססת אמון. אלפי גמ&quot;חים פועלים בישראל בלבד, עם מחזור כספי שעולה על 5 מיליארד שקל.</p>
+            <p>אבל גמ&quot;חים הם לא רק כסף. יש גמ&quot;חי שמלות כלה, ציוד רפואי, רהיטים, עגלות תינוק, כלי בישול, מכשירי שמיעה, ואפילו חליפות לראיונות עבודה. הקהילה דואגת לעצמה &mdash; בלי לחכות למדינה.</p>
+            <div class="success-stat">5+ מיליארד &#8362; מחזור שנתי בגמ&quot;חים בישראל. ריבית: 0%. בירוקרטיה: אפס.</div>
+        </div>
+
+        <div class="success-card">
+            <h4>צדקה כחובה, לא כנדבה</h4>
+            <p>הרמב&quot;ם הגדיר 8 רמות של צדקה. הרמה הנמוכה: לתת בעצב. הרמה הגבוהה ביותר: לתת לאדם עבודה, שותפות, או הלוואה &mdash; כדי שלא יצטרך צדקה יותר. הרמב&quot;ם הבין שהמטרה היא לא להאכיל &mdash; אלא לבנות עצמאות.</p>
+            <p>במסורת היהודית, צדקה (מ&quot;צדק&quot;) היא לא חסד &mdash; היא חובה. רוב הקהילות מפרישות מעשר (10% מההכנסה) לצדקה.</p>
+            <div class="success-stat">משפחה יהודית ממוצעת בארה&quot;ב תורמת $2,526 בשנה. הרמה הגבוהה של הרמב&quot;ם: לא נדבה &mdash; עצמאות.</div>
+        </div>
+
+        <div class="success-card">
+            <h4>הצלה, שומרים, חברא קדישא &mdash; הקהילה שומרת על עצמה</h4>
+            <p><strong>הצלה / ZAKA</strong>: ארגון EMS מתנדב. זמן תגובה ממוצע: 2.5 דקות. בהרבה ערים, הצלה מגיעה לפני האמבולנס הממשלתי.</p>
+            <p><strong>שומרים</strong>: סיורי ביטחון שכונתיים מתנדבים. פועלים בלונדון, ניו יורק, ירושלים ועוד. כשמשהו קורה &mdash; השומרים שם תוך דקות.</p>
+            <p><strong>חברא קדישא</strong>: מטפלים בנפטרים &mdash; טהרה, שמירה, קבורה. בלי תשלום, בלי חברת ביטוח. חבר בקהילה מת &mdash; הקהילה דואגת.</p>
+            <div class="success-stat">הצלה: 2.5 דקות ממוצע. שומרים: 24/7 בעשרות ערים. חברא קדישא: 2,000+ שנה של דאגה לנפטרים.</div>
+        </div>
+
+        <div class="success-card">
+            <h4>שבת &mdash; תשתית חברתית שאין לה מקבילה</h4>
+            <p>25 שעות, מדי שבוע, בלי טלפונים, בלי מסכים, בלי עבודה. אוכלים ביחד &mdash; משפחה, חברים, אורחים. עשירים ועניים יושבים באותו בית כנסת, אוכלים באותו שולחן.</p>
+            <p>שום מוסד חילוני, שום אפליקציה, שום תנועה חברתית &mdash; לא הצליחו לשכפל את מה ששבת עושה: מפגש שבועי כפוי שיוצר קהילה אמיתית, עמוקה, לדורות.</p>
+            <div class="success-stat">52 שבתות בשנה &times; 3,300 שנה = רשת חברתית שאי אפשר לפרק. זה הסוד.</div>
+        </div>
+
+        <div class="success-card">
+            <h4>&quot;כל ישראל ערבים זה בזה&quot; &mdash; בפועל</h4>
+            <p>זה לא סלוגן. זה מערכת הפעלה. כשיהודי צריך דיור &mdash; הקהילה עוזרת. חתונה? הקהילה מממנת. מזון לשבת? חלוקה שבועית. עבודה? קשרים בקהילה. שידוכים? שדכנים. לידה? בני הקהילה מביאים אוכל לשבוע.</p>
+            <p>זה מה שהחזיק את העם היהודי 2,000 שנה בגלות, בלי מדינה, בלי צבא, בלי טריטוריה. מערכת תמיכה קהילתית שפועלת בכל מקום בעולם.</p>
+            <div class="success-stat">2,000 שנה בגלות. ללא מדינה, ללא צבא. מה שהחזיק? הקהילה. &quot;כל ישראל ערבים זה בזה&quot; &mdash; לא מילים, מעשים.</div>
+        </div>
+    </div>
+
+    <div class="section-transition">&#x2736; &bull; &#x2736; &bull; &#x2736;</div>
+
+    <!-- ===================== SECTION 5: COMMUNITY MODEL ===================== -->
+    <div class="na-section" id="community-model">
+        <h2>&#127793; מודל הקהילה &mdash; מה עובד ואיך להעתיק</h2>
+        <p class="section-intro">4 מודלים קהילתיים שהוכיחו את עצמם. לא צריך להיות דתי כדי ללמוד מהם.</p>
+
+        <div class="model-card">
+            <h4>חב&quot;ד &mdash; 6,000+ מוסדות ב-110 מדינות</h4>
+            <p>חב&quot;ד מנהלת את רשת הזכיינות הדתית היעילה ביותר בעולם. כל שליח מממן את עצמו, מקים את בית חב&quot;ד שלו, ומספק שירותים לקהילה &mdash; שבת, חגים, חינוך, מקווה, אוכל כשר.</p>
+            <p>בכל מקום בעולם &mdash; מקטמנדו ועד קוסטה ריקה, מבנגקוק ועד רייקיאוויק &mdash; יש בית חב&quot;ד שמחכה ליהודי שמגיע. 6,000+ מוסדות. 110 מדינות.</p>
+            <div class="model-stat">מודל חב&quot;ד: אפס בירוקרטיה מרכזית. כל שליח = יזם. התוצאה: הנוכחות היהודית הנרחבת ביותר בהיסטוריה.</div>
+        </div>
+
+        <div class="model-card">
+            <h4>הקיבוץ &mdash; מה עבד ומה לא</h4>
+            <p>2-3% מאוכלוסיית ישראל ייצרו 40% מהתוצר החקלאי ו-9% מהתעשייה. הקיבוץ הוכיח שקהילה קטנה ומחויבת יכולה להשיג תוצאות עצומות.</p>
+            <p>אבל שוויון מוחלט הרג מוטיבציה. כשרופא ועובד מטבח מקבלים אותו דבר &mdash; הרופא עוזב. רוב הקיבוצים עברו הפרטה.</p>
+            <p>המודל שנשאר ועובד: <strong>תשתית קהילתית</strong> (אירועים, חינוך, ביטחון, תמיכה הדדית) + <strong>חירות כלכלית אישית</strong>. לא צריך שוויון &mdash; צריך אחריות הדדית.</p>
+            <div class="model-stat">הלקח: קהילה חזקה + חירות אישית = הנוסחה. שוויון מוחלט = כישלון.</div>
+        </div>
+
+        <div class="model-card">
+            <h4>תגלית / בירת&#39;רייט &mdash; הוכחת מושג</h4>
+            <p>מסע של 10 ימים לישראל שינה את החיים של 900,000+ צעירים יהודים. 20% מכלל יהודי אמריקה בגילאי 18-46 השתתפו בתוכנית.</p>
+            <p>התוצאות: משתתפי תגלית נישאים ליהודים ב-72% מהמקרים (vs 51% בקרב לא-משתתפים). הם מרגישים קשר חזק יותר לישראל, לקהילה, ולזהות היהודית.</p>
+            <div class="model-stat">900,000+ משתתפים. 72% נישואין יהודיים. הוכחת מושג: זהות יהודית ניתנת לחיזוק &mdash; בהשקעה של 10 ימים.</div>
+        </div>
+
+        <div class="model-card">
+            <h4>איך חילונים יכולים לבנות קהילה</h4>
+            <p>לא צריך להיות דתי כדי לבנות קהילה חזקה. יש מודלים שעובדים:</p>
+            <p><strong>בתי מואישה</strong> (Moishe House): מגורים משותפים ליהודים צעירים. שוכרים בית, מארגנים אירועים, יוצרים קהילה. פועל ב-27 מדינות.</p>
+            <p><strong>ארבייטר רינג</strong> (Workmen&rsquo;s Circle): תנועה יהודית חילונית מאז 1900. תרבות, שפה יידיש, צדק חברתי &mdash; בלי דת.</p>
+            <p><strong>פדרציות יהודיות</strong>: 146 פדרציות באמריקה. מגייסות כסף, מפעילות תוכניות חינוך, תמיכה קהילתית, ושירותי רווחה.</p>
+            <div class="model-stat">הכלל: קהילה = אנשים שנפגשים באופן קבוע + אחריות הדדית. לא צריך בית כנסת. צריך מחויבות.</div>
+        </div>
+    </div>
+
+    <div class="section-transition">&#x2736; &bull; &#x2736; &bull; &#x2736;</div>
+
+    <!-- ===================== SECTION 6: ACTION PILLARS ===================== -->
+    <div class="na-section" id="action-pillars">
+        <h2>&#128170; מה לעשות בפועל &mdash; 5 עמודי פעולה</h2>
+        <p class="section-intro">לא מספיק לדעת. צריך לעשות. 5 דברים שכל יהודי יכול (וחייב) לעשות.</p>
+
+        <div class="pillar-card">
+            <div class="pillar-num">1</div>
+            <h4>התארגנו פוליטית</h4>
+            <p>כוח פוליטי הוא ההגנה היעילה ביותר בדמוקרטיות. AIPAC היא ההוכחה: ארגון שמנהל לובי יעיל בוושינגטון. 38 מדינות בארה&quot;ב חוקקו חוקים נגד BDS. 47 מדינות אימצו את הגדרת IHRA לאנטישמיות.</p>
+            <p>זה לא קורה מעצמו. זה קורה כי יהודים מאורגנים, תורמים, מצביעים, ופועלים. כשיש כוח פוליטי &mdash; יש הגנה. כשאין &mdash; יש ועידת אוויאן.</p>
+            <div class="pillar-stat">AIPAC, 38 מדינות נגד BDS, IHRA ב-47 מדינות. הלקח: פוליטיקה = כוח = הגנה.</div>
+        </div>
+
+        <div class="pillar-card">
+            <div class="pillar-num">2</div>
+            <h4>השקיעו בכישורים וחינוך</h4>
+            <p>הלקח של 3,000 שנה: מה שאתה יודע ומה שאתה יכול &mdash; לא ניתן להחרמה. כשגירשו את יהודי ספרד, הם לקחו את הידע שלהם. כשיהודי ברה&quot;מ היגרו, הם הביאו מדענים, מוסיקאים, מתמטיקאים, רופאים.</p>
+            <p>הנכסים שלא ניתנים להחרמה: רפואה, מתמטיקה, מדעי המחשב, הנדסה, משפטים, מוסיקה, שפות. <strong>בנו עושר נייד &mdash; דרך ידע.</strong></p>
+            <div class="pillar-stat">הלקח: ידע = העושר היחיד שלא ניתן להחרמה. השקיעו בראש, לא ברכוש.</div>
+        </div>
+
+        <div class="pillar-card">
+            <div class="pillar-num">3</div>
+            <h4>אבטחו את הקהילה</h4>
+            <p><strong>CST (Community Security Trust)</strong> &mdash; בריטניה: 2,000+ מתנדבי אבטחה. מאבטחים בתי כנסת, מוסדות חינוך, ואירועים קהילתיים.</p>
+            <p><strong>SCN (Secure Community Network)</strong> &mdash; ארה&quot;ב: מרכז מודיעין שפועל 24/7. מספק התראות ביטחוניות, הדרכות, ותיאום עם רשויות.</p>
+            <p><strong>$454.5 מיליון</strong> במענקים פדרליים (FEMA) לאבטחת מוסדות יהודיים בארה&quot;ב.</p>
+            <p>עובדה: בבית הכנסת Tree of Life בפיטסבורג (2018) ובבית הכנסת בהאלה, גרמניה (2019) &mdash; דלת נעולה הצילה חיים. אבטחה בסיסית = הגנה אמיתית.</p>
+            <div class="pillar-stat">CST: 2,000+ מתנדבים. SCN: 24/7. דלת נעולה = חיים שנשמרו. אבטחה היא לא פרנויה &mdash; זו אחריות.</div>
+        </div>
+
+        <div class="pillar-card">
+            <div class="pillar-num">4</div>
+            <h4>שמרו על מסלול בריחה</h4>
+            <p>זה לא פחד. זה אחריות. הלקח של הונגריה 1944: 56 יום מ&quot;הכל בסדר&quot; ל-437,000 מגורשים. חלון ההזדמנות תמיד קצר.</p>
+            <p><strong>דרכונים תקפים</strong> &mdash; תמיד. לא לחכות שפג תוקף.</p>
+            <p><strong>אזרחות ישראלית</strong> &mdash; כל יהודי שזכאי חייב להסדיר. גם מי שלא מתכנן לעלות. זה ביטוח, לא הצהרה.</p>
+            <p><strong>כסף נגיש בינלאומית</strong> &mdash; חשבון בנק מחוץ למדינת המגורים. לא הרבה &mdash; מספיק לכרטיס טיסה ו-3 חודשי מחיה.</p>
+            <p><strong>עברית</strong> &mdash; גם ברמה בסיסית. אם צריך להגיע לישראל &mdash; צריך לתקשר.</p>
+            <div class="pillar-stat">דרכון + אזרחות ישראלית + כסף נגיש + עברית. 4 דברים שיכולים להציל חיים.</div>
+        </div>
+
+        <div class="pillar-card">
+            <div class="pillar-num">5</div>
+            <h4>חיו בגאווה, לא בפחד</h4>
+            <p>56% מיהודי אמריקה שינו את ההתנהגות שלהם בגלל פחד מאנטישמיות &mdash; הורידו מגן דוד, הסתירו כיפה, נמנעו מלדבר עברית בציבור.</p>
+            <p>אבל ההיסטוריה מלמדת: <strong>אסימילציה מעולם לא הצילה אף יהודי.</strong> יהודי גרמניה היו הכי מוטמעים &mdash; ונרצחו. יהודי ספרד התנצרו &mdash; והאינקוויזיציה רדפה אותם בכל זאת (&quot;מאראנוס&quot;).</p>
+            <p>יהודים שהם גלויים, גאים, ומאורגנים &mdash; קשים יותר לתקיפה מיהודים שמתחבאים. גאווה היא לא רק ערך &mdash; היא אסטרטגיה.</p>
+            <div class="pillar-stat">56% שינו התנהגות מפחד. אבל היסטורית: הסתרה ≠ הגנה. גאווה = כוח.</div>
+        </div>
+    </div>
+
+    <div class="section-transition">&#x2736; &bull; &#x2736; &bull; &#x2736;</div>
+
+    <!-- ===================== SECTION 7: NEVER AGAIN ===================== -->
+    <div class="na-section" id="never-again">
+        <h2>&#128293; &quot;לא עוד&quot; &mdash; 10 לקחים שאסור לשכוח</h2>
+        <p class="section-intro">לקחים ברורים, ללא עמימות. זה מה שהיסטוריה של 2,000 שנה מלמדת.</p>
+
+        <ol class="summary-list">
+            <li><strong>סימני אזהרה תמיד קיימים</strong> &mdash; 400+ חוקים ב-6 שנים, לפני שהרצח בכלל התחיל. תמיד יש התראה &mdash; השאלה אם מקשיבים.</li>
+            <li><strong>&quot;זה לא יקרה כאן&quot; = המשפט הכי מסוכן</strong> &mdash; יהודי גרמניה אמרו את זה. יהודי עיראק אמרו את זה. יהודי ספרד אמרו את זה. כולם טעו.</li>
+            <li><strong>אסימילציה לא מגנה</strong> &mdash; 18,000 צלבי ברזל גרמניים = אפס הגנה מהשואה. הטמעה מעולם לא הצילה.</li>
+            <li><strong>ממשלות הן לא בנות ברית</strong> &mdash; 32 מדינות סירבו בוועידת אוויאן. צרפת של וישי שיתפה פעולה. ההגנה היחידה = ריבונות עצמית.</li>
+            <li><strong>חלון הבריחה תמיד קצר</strong> &mdash; 75% נשארו ב-4 שנים הראשונות. ב-1941 הדלת נסגרה. כשכולם אומרים &quot;עוד מוקדם&quot; &mdash; כבר מאוחר.</li>
+            <li><strong>פעולה קולקטיבית מצילה</strong> &mdash; דנמרק (97% שרדו) vs הולנד (75% נרצחו). ההבדל: ארגון ופעולה vs בידוד ובירוקרטיה.</li>
+            <li><strong>ישראל = ביטוח חיים</strong> &mdash; 3.3 מיליון עלו מאז 1948. חוק השבות = הדלת שתמיד פתוחה. בלי ישראל &mdash; חזרנו ל-1938.</li>
+            <li><strong>ידע = העושר הנייד</strong> &mdash; ניתן להחרים רכוש, לא ידע. השקיעו בראש, לא בדברים.</li>
+            <li><strong>קהילה = הישרדות</strong> &mdash; גמ&quot;חים, צדקה, שבת, ערבות הדדית. זה מה שהחזיק 2,000 שנה.</li>
+            <li><strong>גאווה = אסטרטגיה</strong> &mdash; יהודים גלויים, מאורגנים, וגאים = קשים לתקיפה. הסתרה מעולם לא הצילה אף אחד.</li>
+        </ol>
+
+        <div class="covenant-box">
+            <h3>ברית &quot;לא עוד&quot;</h3>
+            <p>
+                אנחנו, בני העם היהודי, מתחייבים:<br>
+                לא לשכוח את הלקחים.<br>
+                לא לסמוך על אחרים שיגנו עלינו.<br>
+                לבנות קהילה חזקה, מאורגנת, ומוכנה.<br>
+                לשמור על ישראל כביטוח חיים.<br>
+                לחיות בגאווה, לא בפחד.<br>
+                <br>
+                לא עוד.
+            </p>
+        </div>
+    </div>
+
+    <div class="closing-quote">
+        <blockquote>
+            &#x201C;אם אין אני לי מי לי,<br>
+            וכשאני לעצמי מה אני,<br>
+            ואם לא עכשיו &mdash; אימתי?&#x201D;
+        </blockquote>
+        <p class="quote-author">הלל הזקן, פרקי אבות א:יד</p>
+    </div>
+
+    <!-- ===================== EXISTING CONTENT (PUSHED DOWN) ===================== -->
+
+    <div class="existing-content-divider">
+        <h2>&#128736; כלים מעשיים</h2>
+        <p>דיווח, הפצה, וארגונים שנלחמים באנטישמיות</p>
+    </div>
+
+    <!-- SECTION: REPORT -->
     <div class="action-section">
         <h2>&#9888; איך לדווח על אנטישמיות</h2>
         <p class="section-desc">נתקלתם בתוכן אנטישמי ברשת או בחיים האמיתיים? חשוב לדווח. כל דיווח נספר ומסייע בתיעוד ובמלחמה.</p>
@@ -282,16 +1051,6 @@
                 <a class="card-link" href="https://www.adl.org/report-incident" target="_blank" rel="noopener">דווח ל-ADL &larr;</a>
             </div>
             <div class="action-card">
-                <h3>Facebook / Instagram</h3>
-                <p>דיווח על תוכן שנאה בפייסבוק ואינסטגרם &mdash; משתמשים בממשק המובנה של Meta.</p>
-                <a class="card-link" href="https://www.facebook.com/help/reportlinks" target="_blank" rel="noopener">דווח בפייסבוק &larr;</a>
-            </div>
-            <div class="action-card">
-                <h3>TikTok</h3>
-                <p>דווחו על סרטונים אנטישמיים ישירות מתוך האפליקציה או מהאתר.</p>
-                <a class="card-link" href="https://www.tiktok.com/legal/report/feedback" target="_blank" rel="noopener">דווח בטיקטוק &larr;</a>
-            </div>
-            <div class="action-card">
                 <h3>X (Twitter)</h3>
                 <p>דיווח על ציוצים, חשבונות, או הודעות שמכילים שנאה או הסתה.</p>
                 <a class="card-link" href="https://help.twitter.com/en/safety-and-security/report-abusive-behavior" target="_blank" rel="noopener">דווח ב-X &larr;</a>
@@ -304,7 +1063,7 @@
         </div>
     </div>
 
-    <!-- SECTION 2: SHARE -->
+    <!-- SECTION: SHARE -->
     <div class="action-section">
         <h2>&#128227; איך להפיץ את האתר</h2>
         <p class="section-desc">הנשק הטוב ביותר נגד שקרים הוא חשיפה לאמת. שתפו את האתר כדי שהאמת תגיע ליותר אנשים.</p>
@@ -312,15 +1071,14 @@
         <ol class="step-list">
             <li><strong>שתפו ברשתות החברתיות</strong> &mdash; פוסט אחד יכול להגיע לאלפי אנשים. השתמשו בכפתורים למטה.</li>
             <li><strong>שלחו לחברים ומשפחה</strong> &mdash; העבירו את הלינק בקבוצות וואטסאפ, טלגרם, או במייל.</li>
-            <li><strong>השתמשו בכפתור "העתק תגובה"</strong> &mdash; כשנתקלים בעלילה ברשת, היכנסו לאתר, מצאו את ההפרכה, והעתיקו אותה ישירות לתגובה.</li>
-            <li><strong>הפיצו בקהילות ובפורומים</strong> &mdash; Reddit, קבוצות Facebook, Discord, פורומים אקדמיים &mdash; כל מקום שבו מפיצים שקרים, שלחו את הלינק הרלוונטי.</li>
+            <li><strong>השתמשו בכפתור &quot;העתק תגובה&quot;</strong> &mdash; כשנתקלים בעלילה ברשת, היכנסו לאתר, מצאו את ההפרכה, והעתיקו אותה ישירות לתגובה.</li>
+            <li><strong>הפיצו בקהילות ובפורומים</strong> &mdash; Reddit, Discord, פורומים אקדמיים &mdash; כל מקום שבו מפיצים שקרים, שלחו את הלינק הרלוונטי.</li>
         </ol>
 
         <div class="share-box">
             <p>שתפו את האתר עכשיו:</p>
             <div class="share-buttons">
                 <a class="share-btn wa" href="https://wa.me/?text=%D7%94%D7%90%D7%9E%D7%AA%20%D7%A0%D7%92%D7%93%20%D7%94%D7%A9%D7%A7%D7%A8%20%E2%80%94%20%D7%90%D7%AA%D7%A8%20%D7%9E%D7%90%D7%91%D7%A7%20%D7%91%D7%90%D7%A0%D7%98%D7%99%D7%A9%D7%9E%D7%99%D7%95%D7%AA%0Ahttps://truth-against-lies.github.io/truth-against-lies/" target="_blank" rel="noopener">WhatsApp</a>
-                <a class="share-btn fb" href="https://www.facebook.com/sharer/sharer.php?u=https://truth-against-lies.github.io/truth-against-lies/" target="_blank" rel="noopener">Facebook</a>
                 <a class="share-btn tw" href="https://twitter.com/intent/tweet?text=%D7%94%D7%90%D7%9E%D7%AA%20%D7%A0%D7%92%D7%93%20%D7%94%D7%A9%D7%A7%D7%A8%20%E2%80%94%20%D7%90%D7%AA%D7%A8%20%D7%9E%D7%90%D7%91%D7%A7%20%D7%91%D7%90%D7%A0%D7%98%D7%99%D7%A9%D7%9E%D7%99%D7%95%D7%AA&url=https://truth-against-lies.github.io/truth-against-lies/" target="_blank" rel="noopener">X / Twitter</a>
                 <a class="share-btn tg" href="https://t.me/share/url?url=https://truth-against-lies.github.io/truth-against-lies/&text=%D7%94%D7%90%D7%9E%D7%AA%20%D7%A0%D7%92%D7%93%20%D7%94%D7%A9%D7%A7%D7%A8" target="_blank" rel="noopener">Telegram</a>
                 <a class="share-btn copy-link" href="#" onclick="navigator.clipboard.writeText('https://truth-against-lies.github.io/truth-against-lies/');this.textContent='&#10003; הועתק!';setTimeout(()=>this.textContent='העתק קישור',2000);return false;">העתק קישור</a>
@@ -328,7 +1086,7 @@
         </div>
     </div>
 
-    <!-- SECTION 3: ORGANIZATIONS -->
+    <!-- SECTION: ORGANIZATIONS -->
     <div class="action-section">
         <h2>&#127968; ארגונים שנלחמים באנטישמיות</h2>
         <p class="section-desc">ארגונים בינלאומיים, חינוכיים, ומשפטיים שפועלים מדי יום נגד שנאת יהודים. תמכו בהם, עקבו אחריהם, והצטרפו למאבק.</p>
@@ -410,8 +1168,8 @@
     </div>
 
     <!-- CLOSING MESSAGE -->
-    <div style="text-align: center; margin-top: 40px; padding: 40px 20px; border-top: 1px solid rgba(226, 183, 20, 0.15);">
-        <p style="color: #e2b714; font-size: 1.3em; margin-bottom: 10px;">השתיקה היא שותפה של השנאה.</p>
+    <div style="text-align: center; margin-top: 40px; padding: 40px 20px; border-top: 1px solid rgba(139, 0, 0, 0.15);">
+        <p style="color: #8B0000; font-size: 1.3em; margin-bottom: 10px;">השתיקה היא שותפה של השנאה.</p>
         <p style="color: #888; font-size: 1em;">Silence is the partner of hatred.</p>
     </div>
 
@@ -420,17 +1178,21 @@
 <div class="related-pages">
     <h3>&#x2728; קרא עוד</h3>
     <div class="related-grid">
+        <a href="unity.html" class="related-link">
+            <span class="related-icon">&#129309;</span>
+            <span class="related-title">חיזוק העם היהודי</span>
+        </a>
+        <a href="sword-prayer.html" class="related-link">
+            <span class="related-icon">&#9876;</span>
+            <span class="related-title">חרב ותפילה</span>
+        </a>
+        <a href="holocaust-denial.html" class="related-link">
+            <span class="related-icon">&#128367;</span>
+            <span class="related-title">הכחשת השואה</span>
+        </a>
         <a href="statistics.html" class="related-link">
             <span class="related-icon">&#128200;</span>
             <span class="related-title">נתוני אנטישמיות</span>
-        </a>
-        <a href="lies.html" class="related-link">
-            <span class="related-icon">&#10060;</span>
-            <span class="related-title">שקרים נפוצים</span>
-        </a>
-        <a href="glossary.html" class="related-link">
-            <span class="related-icon">&#128214;</span>
-            <span class="related-title">מילון מונחים</span>
         </a>
     </div>
 </div>
@@ -440,13 +1202,12 @@
     <p style="margin-top: 15px;">נבנה על ידי נתנאל אסיס | 2026</p>
 </div>
 
-<!-- Floating Share Button -->
+<!-- Floating Share Button (no Facebook) -->
 <div class="share-fab" id="shareFab">
     <div class="share-fab-menu">
         <a class="sfab-wa" title="WhatsApp" onclick="fabShare('whatsapp')">W</a>
         <a class="sfab-tg" title="Telegram" onclick="fabShare('telegram')">T</a>
         <a class="sfab-tw" title="X / Twitter" onclick="fabShare('twitter')">&#120143;</a>
-        <a class="sfab-fb" title="Facebook" onclick="fabShare('facebook')">f</a>
         <a class="sfab-cp" title="העתק קישור" onclick="fabShare('copy')">&#128203;</a>
     </div>
     <button class="share-fab-btn" aria-label="שתף דף" onclick="document.getElementById('shareFab').classList.toggle('open')" title="שתף">&#10149;</button>
