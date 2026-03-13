@@ -74,7 +74,7 @@ nav {
     z-index: 100;
     backdrop-filter: blur(10px);
 }
-.nav-links.open { display: flex; flex-direction: column; }
+.nav-links.open { display: flex; flex-direction: column; max-height: calc(100vh - 60px); overflow-y: auto; }
 .nav-links li a {
     color: #c0c0c0;
     text-decoration: none;
